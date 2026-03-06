@@ -70,8 +70,8 @@ description: "Portafolio de casos reales donde el SROI ha transformado decisione
 
       <div class="case-metrics">
         <div class="case-metric">
-          <span class="metric-value">0.52&times;</span>
-          <span class="metric-label">SROI reportado (ciclo 1)</span>
+          <span class="metric-value">1.59&times;</span>
+          <span class="metric-label">SROI conservador (3 anos)</span>
         </div>
         <div class="case-metric case-metric--highlight">
           <span class="metric-value">2.35&times;</span>
@@ -86,15 +86,15 @@ description: "Portafolio de casos reales donde el SROI ha transformado decisione
       <div class="case-highlights">
         <div class="case-highlight">
           <span class="highlight-icon">&#9654;</span>
-          <span>Teatro Talita Cumi: 25 anos de deterioro revertidos en un ciclo</span>
+          <span>$203M COP invertidos &middot; 60 beneficiarios (central) &middot; P38 percentil global SVI</span>
         </div>
         <div class="case-highlight">
           <span class="highlight-icon">&#9654;</span>
-          <span>COP $203M invertidos &middot; 60 beneficiarios directos &middot; P38 percentil global SVI</span>
+          <span>3 outcomes monetizados: infraestructura (WTP), liderazgo (+41%), seguridad (+17 pp)</span>
         </div>
         <div class="case-highlight">
           <span class="highlight-icon">&#9654;</span>
-          <span>Deadweight y atribucion identificados como palancas criticas para escalar</span>
+          <span>25 anos de deterioro revertidos &middot; Teatro Talita Cumi recuperado para la comunidad</span>
         </div>
       </div>
     </div>

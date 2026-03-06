@@ -29,9 +29,9 @@ toc: false
 </div>
 <div style="display: flex; gap: 1rem; flex-wrap: wrap; align-self: center;">
 <div style="background: rgba(148,163,184,0.1); border: 1px solid rgba(148,163,184,0.25); border-radius: 0.75rem; padding: 1.1rem 1.4rem; text-align: center; min-width: 105px;">
-<div style="font-size: 0.6rem; font-weight: 700; letter-spacing: 0.12em; text-transform: uppercase; color: #64748B; margin-bottom: 0.25rem;">SROI Reportado</div>
-<div style="font-size: 2.3rem; font-weight: 900; color: #94A3B8; letter-spacing: -0.04em; line-height: 1;">0.52×</div>
-<div style="font-size: 0.68rem; color: #475569; margin-top: 0.2rem;">3 años · base</div>
+<div style="font-size: 0.6rem; font-weight: 700; letter-spacing: 0.12em; text-transform: uppercase; color: #64748B; margin-bottom: 0.25rem;">SROI Conservador</div>
+<div style="font-size: 2.3rem; font-weight: 900; color: #94A3B8; letter-spacing: -0.04em; line-height: 1;">1.59×</div>
+<div style="font-size: 0.68rem; color: #475569; margin-top: 0.2rem;">3 años · 40 beneficiarios</div>
 </div>
 <div style="background: rgba(13,148,136,0.15); border: 1px solid rgba(13,148,136,0.4); border-radius: 0.75rem; padding: 1.1rem 1.4rem; text-align: center; min-width: 105px;">
 <div style="font-size: 0.6rem; font-weight: 700; letter-spacing: 0.12em; text-transform: uppercase; color: #5EEAD4; margin-bottom: 0.25rem;">SROI Central</div>
@@ -442,6 +442,76 @@ toc: false
 <div class="callout-tip" style="background: rgba(5,150,105,0.12); border-color: #059669;">
   <div class="callout-title" style="color: #34D399;">Lo que dicen los comparables internacionales</div>
   <p style="color: #CBD5E1;">Ningún programa de espacio comunitario o placemaking comparable tiene SROI bajo cuando usa correctamente su universo de beneficiarios. SQT tiene el mismo tipo de intervención y la misma lógica de impacto que los programas en el percentil 70–80. La diferencia hoy es exclusivamente de datos, no de impacto real.</p>
+</div>
+
+</div>
+</div>
+
+<!-- SEMÁFORO DE MADUREZ -->
+<div class="content-section alt">
+<div class="content-inner">
+
+<span class="section-label">Madurez del impacto</span>
+<h2 class="section-heading">¿Dónde estamos? Un diagnóstico honesto por dimensión</h2>
+
+<p>No todas las dimensiones de la gestión de impacto están en el mismo nivel de madurez — y eso es natural en un primer ciclo evaluativo. Sueños que Transforman tiene bases sólidas en diseño, ejecución y uso de recursos. El esfuerzo del próximo ciclo está concentrado en consolidar la evidencia de impacto y ampliar la valoración monetaria hacia los outcomes aún sin capturar.</p>
+
+<div class="madurez-grid">
+
+  <div class="madurez-card verde">
+    <div class="madurez-nivel">🟢 Consolidado</div>
+    <div class="madurez-titulo">Coherencia programática</div>
+    <ul class="madurez-puntos">
+      <li>Teoría del Cambio documentada con 5 impactos identificados y validados con stakeholders</li>
+      <li>Actividades alineadas con los outcomes; lógica causal revisada en grupos focales</li>
+      <li>El diseño responde a una necesidad comunitaria de 25 años con evidencia histórica irrefutable</li>
+    </ul>
+  </div>
+
+  <div class="madurez-card verde">
+    <div class="madurez-nivel">🟢 Consolidado</div>
+    <div class="madurez-titulo">Eficacia</div>
+    <ul class="madurez-puntos">
+      <li>Objetivo central cumplido: teatro rehabilitado y en operación permanente desde 2025</li>
+      <li>60+ familias movilizadas; procesos comunitarios activos en el primer ciclo</li>
+      <li>Tres outcomes con evidencia cuantitativa robusta: encuesta pre-post, N = 20 líderes</li>
+    </ul>
+  </div>
+
+  <div class="madurez-card verde">
+    <div class="madurez-nivel">🟢 Consolidado</div>
+    <div class="madurez-titulo">Eficiencia operativa</div>
+    <ul class="madurez-puntos">
+      <li>$203M COP ejecutados con transparencia y trazabilidad verificada</li>
+      <li>Rehabilitación de espacio deteriorado 25 años: eficiente en términos histórico-comparativos</li>
+      <li>Factores de ajuste (DW, atribución, drop-off) calculados empíricamente, no asumidos</li>
+    </ul>
+  </div>
+
+  <div class="madurez-card amarillo">
+    <div class="madurez-nivel">🟡 En consolidación</div>
+    <div class="madurez-titulo">Impacto social</div>
+    <ul class="madurez-puntos">
+      <li>Primer ciclo evaluativo: 20 líderes encuestados de un universo estimado de 60+ beneficiarios</li>
+      <li>Causalidad establecida con supuestos documentados; sin grupo de comparación formal aún</li>
+      <li>SROI en P38 global — la brecha con la mediana (P50) es de datos, no de impacto real</li>
+    </ul>
+  </div>
+
+  <div class="madurez-card amarillo">
+    <div class="madurez-nivel">🟡 En consolidación</div>
+    <div class="madurez-titulo">Valoración monetaria</div>
+    <ul class="madurez-puntos">
+      <li>Un proxy monetizado (WTP infraestructura) de cinco outcomes identificados</li>
+      <li>Bienestar (I1), liderazgo (I2) y economía local (I3): valor real sin capturar aún</li>
+      <li>Ciclo 2 habilitará WELLBY + proxies de emprendimiento → SROI proyectado 4,5–6,0</li>
+    </ul>
+  </div>
+
+</div>
+
+<div class="madurez-footer">
+  <strong>Cómo leer el semáforo:</strong> Verde indica que la dimensión está consolidada en este ciclo y puede sostenerse. Amarillo indica que existe valor real demostrado pero la evidencia requiere ampliación. No hay dimensión en rojo — el programa tiene una base sólida para avanzar. La hoja de ruta que sigue está diseñada específicamente para mover las dos dimensiones amarillas hacia verde en el ciclo 2026–2027.
 </div>
 
 </div>
