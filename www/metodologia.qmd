@@ -4,6 +4,7 @@ page-layout: full
 toc: false
 ---
 
+```{=html}
 <!-- PAGE HEADER -->
 <div class="page-header">
 <div class="page-header-content">
@@ -272,7 +273,7 @@ toc: false
 <div class="stage-card" style="--stage-color: #0EA5E9">
 <div class="stage-number">Etapa 1</div>
 <div class="stage-title">Alcance e identificación de stakeholders</div>
-<div class="stage-desc">La decisión de alcance define qué valor se incluye y cuál se deja fuera. El principio de <em>materialidad</em> exige incluir solo a quienes experimenten cambios significativos — no a todos los potencialmente afectados. ¿Quién tiene más que ganar o perder? ¿Qué grupos quedan invisibilizados?</div>
+<div class="stage-desc">La decisión de alcance define qué valor se incluye y cuál se deja fuera. El principio de <em>materialidad</em> exige incluir solo a quienes experimenten cambios significativos. ¿Quién tiene más que ganar o perder? ¿Qué grupos quedan invisibilizados?</div>
 </div>
 
 <div class="stage-card" style="--stage-color: #8B5CF6">
@@ -436,7 +437,6 @@ toc: false
 </div>
 </div>
 
-```{=html}
 <style>
 /* ============================================================
    SEMÁFORO DE MADUREZ — 5 DIMENSIONES
