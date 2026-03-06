@@ -1,6 +1,6 @@
 ---
 title: "Nuestros Servicios"
-description: "VALOR·IA combina experiencia academica certificada con inteligencia artificial para medir el valor social de su inversion con el rigor que merece."
+description: "Valor·IA combina experiencia academica certificada con inteligencia artificial para medir el valor social de su inversion con el rigor que merece."
 toc: false
 ---
 

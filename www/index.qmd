@@ -1,5 +1,5 @@
 ---
-title: "Valor Público — VALOR·IA"
+title: "Valor·IA — CVP EAFIT"
 page-layout: full
 toc: false
 ---

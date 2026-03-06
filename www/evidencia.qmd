@@ -538,7 +538,7 @@ Plot.plot({
 <div style="color:#94A3B8;font-size:0.82rem;margin-bottom:0.35rem;">Siguiente seccion</div>
 <div style="font-size:1.1rem;font-weight:700;color:white;">Herramientas →</div>
 </div>
-<a href="herramientas.html" class="btn-primary-custom">Ver el ecosistema VALOR·IA</a>
+<a href="herramientas.html" class="btn-primary-custom">Ver el ecosistema Valor·IA</a>
 </div>
 </div>
 ```

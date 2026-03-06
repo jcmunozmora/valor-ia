@@ -1,6 +1,6 @@
 ---
 title: "Equipo"
-description: "El equipo del Centro de Valor Publico EAFIT detras de VALOR·IA — cinco profesionales que combinan academia, tecnologia e investigacion de frontera."
+description: "El equipo del Centro de Valor Publico EAFIT detras de Valor·IA — cinco profesionales que combinan academia, tecnologia e investigacion de frontera."
 toc: false
 ---
 
