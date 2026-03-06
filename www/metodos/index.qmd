@@ -1,0 +1,585 @@
+---
+title: "Caja de Herramientas"
+page-layout: full
+toc: false
+---
+
+```{=html}
+<!-- PAGE HEADER -->
+<div class="page-header">
+<div class="page-header-content">
+<span class="page-tag">Centro Valor Público · EAFIT</span>
+<h1>La caja de herramientas</h1>
+<p class="page-lead">El repertorio completo de métodos que usamos para estimar el impacto social. Organizados por función — desde la comprensión cualitativa del cambio hasta el cálculo del ratio SROI — con criterios claros de cuándo usar cada uno.</p>
+</div>
+</div>
+
+<!-- ORGANIZACIÓN GENERAL -->
+<div class="content-section alt">
+<div class="content-inner">
+
+<span class="section-label">Mapa de herramientas</span>
+<h2 class="section-heading">Tres familias de métodos, una sola ruta</h2>
+
+<p>No existe el método perfecto — existe el método apropiado para la pregunta correcta en el momento adecuado. Esta caja de herramientas está organizada por función: métodos para <strong>entender el cambio</strong>, métodos para <strong>medir y demostrar causalidad</strong>, y métodos para <strong>valorar monetariamente</strong> los outcomes. En un análisis completo, las tres familias trabajan juntas.</p>
+
+<div class="herr-map">
+
+  <div class="herr-fam">
+    <div class="herr-fam-header" style="background: #0F172A;">
+      <div class="herr-fam-icon">&#8644;</div>
+      <div>
+        <div class="herr-fam-name">Métodos cualitativos</div>
+        <div class="herr-fam-scope">Dimensiones 1–3 · Comprensión del cambio</div>
+      </div>
+    </div>
+    <div class="herr-fam-items">
+      <div class="herr-item herr-item--soon">
+        <span class="herr-dim">D1–D2</span>
+        <span class="herr-name">Entrevistas en profundidad</span>
+        <span class="herr-status">Próximamente</span>
+      </div>
+      <div class="herr-item herr-item--soon">
+        <span class="herr-dim">D1–D3</span>
+        <span class="herr-name">Grupos focales</span>
+        <span class="herr-status">Próximamente</span>
+      </div>
+      <div class="herr-item herr-item--soon">
+        <span class="herr-dim">D2–D3</span>
+        <span class="herr-name">Most Significant Change (MSC)</span>
+        <span class="herr-status">Próximamente</span>
+      </div>
+      <div class="herr-item herr-item--soon">
+        <span class="herr-dim">D1–D4</span>
+        <span class="herr-name">Desk research &amp; revisión documental</span>
+        <span class="herr-status">Próximamente</span>
+      </div>
+    </div>
+  </div>
+
+  <div class="herr-fam">
+    <div class="herr-fam-header" style="background: #0D9488;">
+      <div class="herr-fam-icon">&#9632;</div>
+      <div>
+        <div class="herr-fam-name">Métodos cuantitativos de evaluación</div>
+        <div class="herr-fam-scope">Dimensiones 3–4 · Dimensionamiento y causalidad</div>
+      </div>
+    </div>
+    <div class="herr-fam-items">
+      <div class="herr-item herr-item--soon">
+        <span class="herr-dim">D3</span>
+        <span class="herr-name">Encuesta pre-post sin control</span>
+        <span class="herr-status">Próximamente</span>
+      </div>
+      <a href="psm.html" class="herr-item herr-item--soon" style="text-decoration:none;">
+        <span class="herr-dim">D3–D4</span>
+        <span class="herr-name">Propensity Score Matching (PSM)</span>
+        <span class="herr-status">Próximamente</span>
+      </a>
+      <a href="did.html" class="herr-item herr-item--active" style="text-decoration:none;">
+        <span class="herr-dim">D3–D4</span>
+        <span class="herr-name">Diferencias en diferencias (DiD)</span>
+        <span class="herr-status herr-status--live">Ver método →</span>
+      </a>
+      <div class="herr-item herr-item--soon">
+        <span class="herr-dim">D4</span>
+        <span class="herr-name">Regresión discontinua (RD)</span>
+        <span class="herr-status">Próximamente</span>
+      </div>
+      <div class="herr-item herr-item--soon">
+        <span class="herr-dim">D4</span>
+        <span class="herr-name">Variables instrumentales (IV)</span>
+        <span class="herr-status">Próximamente</span>
+      </div>
+      <a href="rct.html" class="herr-item herr-item--active" style="text-decoration:none;">
+        <span class="herr-dim">D4–D5</span>
+        <span class="herr-name">RCT / cRCT (ensayo aleatorizado)</span>
+        <span class="herr-status herr-status--live">Ver método →</span>
+      </a>
+    </div>
+  </div>
+
+  <div class="herr-fam">
+    <div class="herr-fam-header" style="background: #1E3A5F;">
+      <div class="herr-fam-icon">&#9670;</div>
+      <div>
+        <div class="herr-fam-name">Métodos de valoración monetaria</div>
+        <div class="herr-fam-scope">Dimensión 5 · Traducción al lenguaje de la inversión</div>
+      </div>
+    </div>
+    <div class="herr-fam-items">
+      <a href="sroi.html" class="herr-item herr-item--active" style="text-decoration:none;">
+        <span class="herr-dim">D4–D5</span>
+        <span class="herr-name">SROI — Social Return on Investment</span>
+        <span class="herr-status herr-status--live">Ver método →</span>
+      </a>
+      <div class="herr-item herr-item--soon">
+        <span class="herr-dim">D5</span>
+        <span class="herr-name">WELLBY — Well-Being Years</span>
+        <span class="herr-status">Próximamente</span>
+      </div>
+      <div class="herr-item herr-item--soon">
+        <span class="herr-dim">D4–D5</span>
+        <span class="herr-name">Costos unitarios (unit costs)</span>
+        <span class="herr-status">Próximamente</span>
+      </div>
+      <div class="herr-item herr-item--soon">
+        <span class="herr-dim">D4–D5</span>
+        <span class="herr-name">Costo de oportunidad</span>
+        <span class="herr-status">Próximamente</span>
+      </div>
+      <div class="herr-item herr-item--soon">
+        <span class="herr-dim">D5</span>
+        <span class="herr-name">WTP / WTA — Valoración contingente</span>
+        <span class="herr-status">Próximamente</span>
+      </div>
+      <div class="herr-item herr-item--soon">
+        <span class="herr-dim">D5</span>
+        <span class="herr-name">Choice experiments</span>
+        <span class="herr-status">Próximamente</span>
+      </div>
+      <div class="herr-item herr-item--soon">
+        <span class="herr-dim">D4–D5</span>
+        <span class="herr-name">Value Game / Value Anchoring</span>
+        <span class="herr-status">Próximamente</span>
+      </div>
+    </div>
+  </div>
+
+</div>
+
+</div>
+</div>
+
+<!-- MÉTODOS DISPONIBLES HOY -->
+<div class="content-section">
+<div class="content-inner">
+
+<span class="section-label">Disponibles hoy</span>
+<h2 class="section-heading">Métodos con documentación completa</h2>
+
+<div style="display: grid; grid-template-columns: repeat(3, 1fr); gap: 1.25rem; margin-top: 1.75rem;">
+
+  <a href="sroi.html" style="text-decoration: none;">
+  <div class="meth-card meth-card--active">
+    <div class="meth-card-top" style="background: linear-gradient(135deg, #0D9488, #0F766E);">
+      <div class="meth-card-dim">D4–D5 · Valoración</div>
+      <div class="meth-card-title">SROI</div>
+      <div class="meth-card-sub">Social Return on Investment</div>
+    </div>
+    <div class="meth-card-body">
+      <p>El marco integrador. Convierte outcomes sociales en valores monetarios y calcula el ratio de retorno sobre la inversión. Incluye las 6 etapas SVI, los 4 factores de ajuste y los 8 principios.</p>
+      <div class="meth-card-tags">
+        <span>6 etapas SVI</span><span>Factores de ajuste</span><span>Value Map</span><span>Aseguramiento SVI</span>
+      </div>
+    </div>
+  </div>
+  </a>
+
+  <a href="did.html" style="text-decoration: none;">
+  <div class="meth-card meth-card--active">
+    <div class="meth-card-top" style="background: linear-gradient(135deg, #7C3AED, #5B21B6);">
+      <div class="meth-card-dim">D3–D4 · Evaluación</div>
+      <div class="meth-card-title">DiD</div>
+      <div class="meth-card-sub">Diferencias en Diferencias</div>
+    </div>
+    <div class="meth-card-body">
+      <p>El caballo de trabajo de la evaluación cuasi-experimental. Compara la evolución de grupos tratados y no tratados antes y después de la intervención, controlando factores de confusión no observables.</p>
+      <div class="meth-card-tags">
+        <span>Tendencias paralelas</span><span>Panel de datos</span><span>DiD estaggered</span><span>Event study</span>
+      </div>
+    </div>
+  </div>
+  </a>
+
+  <a href="rct.html" style="text-decoration: none;">
+  <div class="meth-card meth-card--active">
+    <div class="meth-card-top" style="background: linear-gradient(135deg, #059669, #047857);">
+      <div class="meth-card-dim">D4–D5 · Evaluación</div>
+      <div class="meth-card-title">RCT / cRCT</div>
+      <div class="meth-card-sub">Ensayo controlado aleatorizado</div>
+    </div>
+    <div class="meth-card-body">
+      <p>El estándar de oro de la evidencia causal. La asignación aleatoria elimina el sesgo de selección. El diseño en clústeres (cRCT) es apropiado para intervenciones comunitarias y permite Deadweight = 0%.</p>
+      <div class="meth-card-tags">
+        <span>Causalidad directa</span><span>Poder estadístico</span><span>Clústeres</span><span>DiD-PSM post-RCT</span>
+      </div>
+    </div>
+  </div>
+  </a>
+
+</div>
+
+</div>
+</div>
+
+<!-- EL CURSO DE SROI -->
+<div class="content-section alt">
+<div class="content-inner">
+
+<span class="section-label">Formación · 8 sesiones</span>
+<h2 class="section-heading">El programa completo: de cero a autonomía metodológica</h2>
+
+<p>El curso de SROI del Centro Valor Público lleva a los equipos de impacto social desde los fundamentos conceptuales hasta la capacidad de diseñar, ejecutar e interpretar sus propios análisis. Ocho sesiones que cubren la caja de herramientas completa — disponibles como demo abierta.</p>
+
+<div class="curso-grid">
+  <a href="../slides/sesion1.html" target="_blank" class="curso-card curso-card--live">
+    <div class="curso-num">01</div>
+    <div class="curso-info">
+      <div class="curso-name">Evaluación de programas sociales</div>
+      <div class="curso-desc">Marcos de evaluación, tipos de preguntas evaluativas, la jerarquía de evidencia y cómo elegir el diseño correcto.</div>
+    </div>
+    <div class="curso-badge">Demo</div>
+  </a>
+  <a href="../slides/sesion2.html" target="_blank" class="curso-card curso-card--live">
+    <div class="curso-num">02</div>
+    <div class="curso-info">
+      <div class="curso-name">Alcance y stakeholders</div>
+      <div class="curso-desc">Identificación de grupos materialmente afectados, análisis de poder e influencia, proceso de involucramiento.</div>
+    </div>
+    <div class="curso-badge">Demo</div>
+  </a>
+  <a href="../slides/sesion3.html" target="_blank" class="curso-card curso-card--live">
+    <div class="curso-num">03</div>
+    <div class="curso-info">
+      <div class="curso-name">Teoría del Cambio</div>
+      <div class="curso-desc">Construcción del Impact Map, diferencia entre outputs y outcomes, mapeo de outcomes emergentes.</div>
+    </div>
+    <div class="curso-badge">Demo</div>
+  </a>
+  <a href="../slides/sesion4.html" target="_blank" class="curso-card curso-card--live">
+    <div class="curso-num">04</div>
+    <div class="curso-info">
+      <div class="curso-name">Evidencia de outcomes</div>
+      <div class="curso-desc">Diseño de instrumentos de recolección, métodos cualitativos y cuantitativos, indicadores válidos y confiables.</div>
+    </div>
+    <div class="curso-badge">Demo</div>
+  </a>
+  <a href="../slides/sesion5.html" target="_blank" class="curso-card curso-card--live">
+    <div class="curso-num">05</div>
+    <div class="curso-info">
+      <div class="curso-name">Factores de ajuste</div>
+      <div class="curso-desc">Deadweight, atribución, displacement y drop-off — estimación, justificación y errores frecuentes.</div>
+    </div>
+    <div class="curso-badge">Demo</div>
+  </a>
+  <a href="../slides/sesion6.html" target="_blank" class="curso-card curso-card--live">
+    <div class="curso-num">06</div>
+    <div class="curso-info">
+      <div class="curso-name">Valoración monetaria</div>
+      <div class="curso-desc">El paisaje de métodos: WELLBY, unit costs, WTP, choice experiments, Value Game. Criterios de selección.</div>
+    </div>
+    <div class="curso-badge">Demo</div>
+  </a>
+  <a href="../slides/sesion7.html" target="_blank" class="curso-card curso-card--live">
+    <div class="curso-num">07</div>
+    <div class="curso-info">
+      <div class="curso-name">Cálculo del SROI</div>
+      <div class="curso-desc">VPN de beneficios, tasa de descuento, ratio SROI, análisis de sensibilidad y Monte Carlo.</div>
+    </div>
+    <div class="curso-badge">Demo</div>
+  </a>
+  <a href="../slides/sesion8.html" target="_blank" class="curso-card curso-card--live">
+    <div class="curso-num">08</div>
+    <div class="curso-info">
+      <div class="curso-name">Informe y aseguramiento</div>
+      <div class="curso-desc">Estructura del informe SVI, adaptación por audiencia, los 48 criterios del Estándar de Aseguramiento.</div>
+    </div>
+    <div class="curso-badge">Demo</div>
+  </a>
+</div>
+
+<div style="background: #0F172A; border-radius: 0.875rem; padding: 1.25rem 1.75rem; margin-top: 1.5rem; display: flex; align-items: center; justify-content: space-between; gap: 1.5rem; flex-wrap: wrap;">
+  <div>
+    <div style="color: #5EEAD4; font-size: 0.78rem; font-weight: 700; letter-spacing: 0.1em; text-transform: uppercase; margin-bottom: 0.3rem;">Formación in-house disponible</div>
+    <div style="color: white; font-size: 0.975rem; font-weight: 700; margin-bottom: 0.2rem;">¿Quiere este programa para su equipo?</div>
+    <div style="color: #94A3B8; font-size: 0.8rem;">8 sesiones adaptadas al contexto de su organización · Presencial o virtual · Con proyecto aplicado propio</div>
+  </div>
+  <a href="mailto:jcmunozm@eafit.edu.co?subject=Programa de formación SROI" class="btn-primary-custom" style="flex-shrink:0;">Solicitar información →</a>
+</div>
+
+</div>
+</div>
+
+<!-- CÓMO ELEGIR -->
+<div class="content-section">
+<div class="content-inner">
+
+<span class="section-label">Guía de selección</span>
+<h2 class="section-heading">¿Cómo elegir el método correcto?</h2>
+
+<p>La selección metodológica no es una decisión técnica aislada — es una decisión estratégica que depende de cuatro factores simultáneamente.</p>
+
+<div style="display: grid; grid-template-columns: repeat(2, 1fr); gap: 1rem; margin: 1.5rem 0;">
+
+  <div style="background: #F8FAFC; border: 1px solid #E2E8F0; border-radius: 0.75rem; padding: 1.25rem;">
+    <div style="font-weight: 800; color: #0F172A; margin-bottom: 0.5rem; font-size: 0.925rem;">1. La pregunta evaluativa</div>
+    <div style="font-size: 0.845rem; color: #475569; line-height: 1.6;">¿Quiero saber <em>qué cambió</em> (descripción), <em>cuánto cambió</em> (magnitud) o <em>si el programa lo causó</em> (causalidad)? Cada pregunta tiene su familia de métodos apropiada.</div>
+  </div>
+
+  <div style="background: #F8FAFC; border: 1px solid #E2E8F0; border-radius: 0.75rem; padding: 1.25rem;">
+    <div style="font-weight: 800; color: #0F172A; margin-bottom: 0.5rem; font-size: 0.925rem;">2. El estado del programa</div>
+    <div style="font-size: 0.845rem; color: #475569; line-height: 1.6;">¿El programa está en diseño (forecast) o lleva años en operación (evaluativo)? ¿Tiene datos de línea de base? ¿Hubo alguna forma de asignación aleatoria o escalonada?</div>
+  </div>
+
+  <div style="background: #F8FAFC; border: 1px solid #E2E8F0; border-radius: 0.75rem; padding: 1.25rem;">
+    <div style="font-weight: 800; color: #0F172A; margin-bottom: 0.5rem; font-size: 0.925rem;">3. Los datos disponibles</div>
+    <div style="font-size: 0.845rem; color: #475569; line-height: 1.6;">¿Tiene datos longitudinales de beneficiarios? ¿Existe un grupo de comparación potencial? ¿Qué variables de covariables hay disponibles para matching o regresión?</div>
+  </div>
+
+  <div style="background: #F8FAFC; border: 1px solid #E2E8F0; border-radius: 0.75rem; padding: 1.25rem;">
+    <div style="font-weight: 800; color: #0F172A; margin-bottom: 0.5rem; font-size: 0.925rem;">4. El uso del resultado</div>
+    <div style="font-size: 0.845rem; color: #475569; line-height: 1.6;">¿El análisis es para gestión interna, comunicación a financiadores, verificación SVI o publicación académica? El rigor requerido —y el método apropiado— varía sustancialmente.</div>
+  </div>
+
+</div>
+
+<div class="insight-box">
+<div class="insight-label">Regla de oro</div>
+<p>El método correcto es el más simple que responde la pregunta con suficiente rigor para el uso previsto. Un DiD bien ejecutado con datos reales supera a un RCT mal implementado. Un análisis SROI conservador y transparente supera a un ratio inflado con supuestos insostenibles.</p>
+</div>
+
+</div>
+</div>
+
+<!-- FOOTER -->
+<div class="content-section dark">
+<div class="content-inner" style="display: flex; justify-content: space-between; align-items: center; flex-wrap: wrap; gap: 1rem; padding: 1rem 0;">
+<div>
+<div style="color: #94A3B8; font-size: 0.82rem; margin-bottom: 0.35rem;">¿Listo para aplicar?</div>
+<div style="font-size: 1.1rem; font-weight: 700; color: white;">Ver casos reales del CVP →</div>
+</div>
+<a href="../aplicaciones.html" class="btn-primary-custom">Ver aplicaciones</a>
+</div>
+</div>
+
+<style>
+/* ============================================================
+   MAPA DE HERRAMIENTAS — TRES FAMILIAS
+   ============================================================ */
+.herr-map {
+  display: flex;
+  flex-direction: column;
+  gap: 1.25rem;
+  margin-top: 1.75rem;
+}
+.herr-fam {
+  border: 1px solid #E2E8F0;
+  border-radius: 0.875rem;
+  overflow: hidden;
+}
+.herr-fam-header {
+  display: flex;
+  align-items: center;
+  gap: 1rem;
+  padding: 0.875rem 1.25rem;
+}
+.herr-fam-icon {
+  font-size: 1rem;
+  color: rgba(255,255,255,0.6);
+  flex-shrink: 0;
+}
+.herr-fam-name {
+  font-size: 0.9rem;
+  font-weight: 800;
+  color: white;
+}
+.herr-fam-scope {
+  font-size: 0.7rem;
+  font-weight: 600;
+  color: rgba(255,255,255,0.55);
+  letter-spacing: 0.07em;
+  text-transform: uppercase;
+  margin-top: 0.15rem;
+}
+.herr-fam-items {
+  display: grid;
+  grid-template-columns: repeat(3, 1fr);
+  background: white;
+}
+.herr-item {
+  display: flex;
+  align-items: center;
+  gap: 0.6rem;
+  padding: 0.75rem 1rem;
+  border-right: 1px solid #F1F5F9;
+  border-bottom: 1px solid #F1F5F9;
+  cursor: default;
+}
+.herr-item--active {
+  background: #FAFFFE;
+  cursor: pointer;
+}
+.herr-item--active:hover { background: #F0FDFA; }
+.herr-dim {
+  font-size: 0.6rem;
+  font-weight: 800;
+  color: #94A3B8;
+  background: #F1F5F9;
+  padding: 0.1rem 0.4rem;
+  border-radius: 999px;
+  white-space: nowrap;
+  flex-shrink: 0;
+}
+.herr-name {
+  font-size: 0.8rem;
+  font-weight: 600;
+  color: #334155;
+  flex: 1;
+  line-height: 1.35;
+}
+.herr-item--soon .herr-name { color: #94A3B8; }
+.herr-status {
+  font-size: 0.62rem;
+  font-weight: 700;
+  color: #CBD5E1;
+  text-transform: uppercase;
+  letter-spacing: 0.06em;
+  white-space: nowrap;
+  flex-shrink: 0;
+}
+.herr-status--live {
+  color: #0D9488;
+  background: rgba(13,148,136,0.1);
+  padding: 0.15rem 0.5rem;
+  border-radius: 999px;
+  letter-spacing: 0;
+  text-transform: none;
+  font-weight: 700;
+  font-size: 0.72rem;
+}
+
+/* ============================================================
+   METHOD CARDS — 3 disponibles
+   ============================================================ */
+.meth-card {
+  border: 1px solid #E2E8F0;
+  border-radius: 0.875rem;
+  overflow: hidden;
+  transition: box-shadow 0.2s;
+}
+.meth-card--active:hover { box-shadow: 0 6px 24px rgba(0,0,0,0.1); }
+.meth-card-top {
+  padding: 1.5rem 1.25rem 1.25rem;
+}
+.meth-card-dim {
+  font-size: 0.65rem;
+  font-weight: 700;
+  color: rgba(255,255,255,0.65);
+  text-transform: uppercase;
+  letter-spacing: 0.09em;
+  margin-bottom: 0.4rem;
+}
+.meth-card-title {
+  font-size: 2rem;
+  font-weight: 900;
+  color: white;
+  line-height: 1;
+  margin-bottom: 0.15rem;
+}
+.meth-card-sub {
+  font-size: 0.82rem;
+  font-weight: 600;
+  color: rgba(255,255,255,0.75);
+}
+.meth-card-body {
+  padding: 1.1rem 1.25rem 1.25rem;
+  background: white;
+}
+.meth-card-body p {
+  font-size: 0.845rem;
+  color: #475569;
+  line-height: 1.65;
+  margin: 0 0 0.85rem;
+}
+.meth-card-tags {
+  display: flex;
+  flex-wrap: wrap;
+  gap: 0.35rem;
+}
+.meth-card-tags span {
+  font-size: 0.68rem;
+  font-weight: 600;
+  background: #F8FAFC;
+  border: 1px solid #E2E8F0;
+  color: #64748B;
+  padding: 0.15rem 0.55rem;
+  border-radius: 999px;
+}
+
+/* ============================================================
+   CURSO GRID — 8 sesiones
+   ============================================================ */
+.curso-grid {
+  display: grid;
+  grid-template-columns: repeat(4, 1fr);
+  gap: 0.5rem;
+  margin-top: 1.5rem;
+}
+.curso-card {
+  display: flex;
+  flex-direction: column;
+  gap: 0.5rem;
+  padding: 0.875rem 1rem;
+  background: white;
+  border: 1px solid #E2E8F0;
+  border-radius: 0.625rem;
+  text-decoration: none !important;
+  transition: all 0.18s;
+  position: relative;
+}
+.curso-card--live {
+  border-left: 3px solid #0D9488;
+}
+.curso-card--live:hover {
+  background: #F0FDFA;
+  border-color: rgba(13,148,136,0.4);
+  box-shadow: 0 2px 10px rgba(13,148,136,0.12);
+}
+.curso-num {
+  font-size: 0.65rem;
+  font-weight: 900;
+  color: #0D9488;
+  letter-spacing: 0.05em;
+}
+.curso-info { flex: 1; }
+.curso-name {
+  font-size: 0.78rem;
+  font-weight: 700;
+  color: #0F172A;
+  line-height: 1.3;
+  margin-bottom: 0.3rem;
+}
+.curso-desc {
+  font-size: 0.72rem;
+  color: #64748B;
+  line-height: 1.45;
+}
+.curso-badge {
+  font-size: 0.58rem;
+  font-weight: 700;
+  text-transform: uppercase;
+  letter-spacing: 0.07em;
+  color: #0D9488;
+  background: rgba(13,148,136,0.1);
+  border-radius: 999px;
+  padding: 0.1rem 0.45rem;
+  align-self: flex-start;
+}
+
+/* ============================================================
+   RESPONSIVE
+   ============================================================ */
+@media (max-width: 1024px) {
+  .herr-fam-items { grid-template-columns: repeat(2, 1fr); }
+}
+@media (max-width: 900px) {
+  .herr-fam-items { grid-template-columns: 1fr; }
+  .meth-card-title { font-size: 1.5rem; }
+  .curso-grid { grid-template-columns: repeat(2, 1fr); }
+}
+@media (max-width: 600px) {
+  .curso-grid { grid-template-columns: 1fr; }
+}
+</style>
+```

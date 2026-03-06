@@ -1,0 +1,265 @@
+---
+title: "RCT / cRCT — Ensayo Controlado Aleatorizado"
+page-layout: full
+toc: false
+---
+
+```{=html}
+<div class="page-header">
+<div class="page-header-content">
+<span class="page-tag">Herramientas · Evaluación experimental</span>
+<h1>RCT / cRCT</h1>
+<p class="page-lead">El estándar de oro de la evidencia causal. La asignación aleatoria al tratamiento elimina el sesgo de selección y permite atribuir directamente el efecto observado al programa — sin supuestos adicionales sobre tendencias o counterfactuales. En intervenciones comunitarias, el diseño en clústeres (cRCT) respeta la unidad natural de intervención.</p>
+</div>
+</div>
+
+<!-- QUÉ ES Y CUÁNDO -->
+<div class="content-section alt">
+<div class="content-inner">
+
+<span class="section-label">Fundamentos</span>
+<h2 class="section-heading">¿Por qué la aleatorización es tan poderosa?</h2>
+
+<p>En cualquier programa social, las personas que participan difieren sistemáticamente de quienes no participan — tienen más motivación, más acceso a información, o más recursos. Este <em>sesgo de selección</em> contamina cualquier comparación directa entre participantes y no participantes. La asignación aleatoria resuelve el problema de raíz: cuando la membresía al grupo tratado o control es determinada por un sorteo, los grupos son estadísticamente equivalentes en promedio — en todas las características observables Y no observables.</p>
+
+<div class="insight-box">
+<div class="insight-label">La lógica de la identificación</div>
+<p>Con aleatorización, E[Y(0)|D=1] = E[Y(0)|D=0]: el resultado potencial bajo no-tratamiento es el mismo para tratados y controles. Esto significa que la diferencia simple en medias E[Y|D=1] − E[Y|D=0] = ATE (Average Treatment Effect), sin necesidad de controlar por nada más. Es el único método donde el estimador simple es insesgado.</p>
+</div>
+
+<div style="display: grid; grid-template-columns: repeat(3, 1fr); gap: 1rem; margin: 1.5rem 0;">
+
+<div style="background: white; border: 1px solid #E2E8F0; border-radius: 0.75rem; padding: 1.1rem;">
+<div style="font-size: 0.7rem; font-weight: 700; color: #059669; text-transform: uppercase; letter-spacing: 0.07em; margin-bottom: 0.4rem;">RCT individual</div>
+<div style="font-size: 0.875rem; font-weight: 700; color: #0F172A; margin-bottom: 0.3rem;">Aleatorización por individuo</div>
+<div style="font-size: 0.8rem; color: #475569; line-height: 1.55;">Cada persona es asignada independientemente. Apropiado cuando el tratamiento es individual y no hay riesgo de contaminación entre participantes y controles.</div>
+</div>
+
+<div style="background: linear-gradient(135deg, #F0FDFA, #ECFDF5); border: 1px solid rgba(13,148,136,0.3); border-radius: 0.75rem; padding: 1.1rem;">
+<div style="font-size: 0.7rem; font-weight: 700; color: #0D9488; text-transform: uppercase; letter-spacing: 0.07em; margin-bottom: 0.4rem;">cRCT — Clústeres</div>
+<div style="font-size: 0.875rem; font-weight: 700; color: #0F172A; margin-bottom: 0.3rem;">Aleatorización por grupo</div>
+<div style="font-size: 0.8rem; color: #475569; line-height: 1.55;">La unidad de asignación es el grupo (comunidad, barrio, empresa). Necesario cuando la intervención opera a nivel colectivo o cuando los controles podrían "contagiarse" del tratamiento.</div>
+</div>
+
+<div style="background: white; border: 1px solid #E2E8F0; border-radius: 0.75rem; padding: 1.1rem;">
+<div style="font-size: 0.7rem; font-weight: 700; color: #7C3AED; text-transform: uppercase; letter-spacing: 0.07em; margin-bottom: 0.4rem;">Stepped-wedge</div>
+<div style="font-size: 0.875rem; font-weight: 700; color: #0F172A; margin-bottom: 0.3rem;">Aleatorización del momento</div>
+<div style="font-size: 0.8rem; color: #475569; line-height: 1.55;">Todos los clústeres eventualmente reciben el tratamiento, pero en un orden aleatorizado. Útil cuando es éticamente inaceptable un grupo de control permanente.</div>
+</div>
+
+</div>
+
+</div>
+</div>
+
+<!-- EL DISEÑO cRCT -->
+<div class="content-section">
+<div class="content-inner">
+
+<span class="section-label">El diseño clave para programas comunitarios</span>
+<h2 class="section-heading">Cluster RCT: aleatorizar comunidades, no individuos</h2>
+
+<p>En programas sociales comunitarios — mejoramiento de vivienda, salud comunitaria, desarrollo territorial — la intervención ocurre a nivel del colectivo, no del individuo. Asignar individuos aleatoriamente dentro de una misma comunidad crearía contaminación inmediata. El cRCT resuelve esto aleatorizando la unidad natural de intervención.</p>
+
+<div style="background: white; border: 1px solid #E2E8F0; border-radius: 0.75rem; margin: 1.5rem 0; overflow: hidden;">
+
+<div style="background: #0F172A; padding: 0.875rem 1.25rem; display: grid; grid-template-columns: 2fr 3fr 2fr; gap: 1rem;">
+<div style="font-weight: 700; color: #5EEAD4; font-size: 0.78rem; letter-spacing: 0.07em; text-transform: uppercase;">Elemento</div>
+<div style="font-weight: 700; color: #CBD5E1; font-size: 0.78rem; letter-spacing: 0.07em; text-transform: uppercase;">Decisión de diseño</div>
+<div style="font-weight: 700; color: #CBD5E1; font-size: 0.78rem; letter-spacing: 0.07em; text-transform: uppercase;">Implicación</div>
+</div>
+
+<div style="display: grid; grid-template-columns: 2fr 3fr 2fr; gap: 1rem; padding: 0.875rem 1.25rem; border-bottom: 1px solid #F1F5F9; align-items: start;">
+<div style="font-weight: 700; color: #0F172A; font-size: 0.845rem;">Unidad de aleatorización</div>
+<div style="font-size: 0.845rem; color: #475569; line-height: 1.55;">Comunidad, barrio, municipio — la misma que la unidad de intervención. Nunca individuo cuando el programa es comunitario.</div>
+<div style="font-size: 0.845rem; color: #64748B;">Elimina contaminación entre tratados y controles</div>
+</div>
+
+<div style="display: grid; grid-template-columns: 2fr 3fr 2fr; gap: 1rem; padding: 0.875rem 1.25rem; border-bottom: 1px solid #F1F5F9; background: #FAFAFA; align-items: start;">
+<div style="font-weight: 700; color: #0F172A; font-size: 0.845rem;">Número de clústeres</div>
+<div style="font-size: 0.845rem; color: #475569; line-height: 1.55;">Mínimo 20 clústeres por brazo (tratamiento y control) para estabilidad del estimador. Más importante que el tamaño de cada clúster para el poder estadístico.</div>
+<div style="font-size: 0.845rem; color: #64748B;">El poder viene de J (clústeres), no de n (individuos por clúster)</div>
+</div>
+
+<div style="display: grid; grid-template-columns: 2fr 3fr 2fr; gap: 1rem; padding: 0.875rem 1.25rem; border-bottom: 1px solid #F1F5F9; align-items: start;">
+<div style="font-weight: 700; color: #0F172A; font-size: 0.845rem;">ICC (Intraclass Correlation)</div>
+<div style="font-size: 0.845rem; color: #475569; line-height: 1.55;">La correlación entre individuos del mismo clúster. Un ICC alto requiere más clústeres. Estimarlo con datos pilotos o literatura similar es crítico para el cálculo de poder.</div>
+<div style="font-size: 0.845rem; color: #64748B;">Inflaciona el tamaño de muestra requerido por factor: 1 + (m-1)·ICC</div>
+</div>
+
+<div style="display: grid; grid-template-columns: 2fr 3fr 2fr; gap: 1rem; padding: 0.875rem 1.25rem; background: #FAFAFA; align-items: start;">
+<div style="font-weight: 700; color: #0F172A; font-size: 0.845rem;">Estimación</div>
+<div style="font-size: 0.845rem; color: #475569; line-height: 1.55;">Errores estándar clusterizados al nivel del clúster. Con pocos clústeres (&lt;20), usar bootstrap o corrección small-sample (CR2, CR3). Nunca errores estándar robustos simples.</div>
+<div style="font-size: 0.845rem; color: #64748B;">Errores sin clusterizar subestiman varianza → conclusiones falsas</div>
+</div>
+
+</div>
+
+</div>
+</div>
+
+<!-- PODER ESTADÍSTICO -->
+<div class="content-section alt">
+<div class="content-inner">
+
+<span class="section-label">Antes de comenzar</span>
+<h2 class="section-heading">Cálculo de poder estadístico</h2>
+
+<p>Un RCT con poder insuficiente es peor que no tener RCT: puede concluir que el programa no tuvo efecto cuando sí lo tuvo (error tipo II), desperdiciando recursos y desacreditando intervenciones que funcionan. El cálculo de poder debe realizarse <em>antes</em> del diseño, no después.</p>
+
+<div style="background: #0F172A; border-radius: 0.875rem; padding: 1.5rem; margin: 1.5rem 0; font-family: 'JetBrains Mono', monospace;">
+<div style="color: #5EEAD4; font-size: 0.72rem; font-weight: 700; letter-spacing: 0.1em; text-transform: uppercase; margin-bottom: 0.75rem;">Tamaño de muestra mínimo por brazo (cRCT)</div>
+<div style="color: white; font-size: 0.95rem; line-height: 2.2;">
+  J ≥ 2 · (z<sub style="color:#94A3B8;">α/2</sub> + z<sub style="color:#94A3B8;">β</sub>)² · σ² · DEFF / (m · Δ²)
+</div>
+<div style="color: #64748B; font-size: 0.75rem; margin-top: 0.75rem; line-height: 1.8;">
+  J = número de clústeres por brazo &nbsp;·&nbsp; m = individuos por clúster<br>
+  Δ = tamaño de efecto mínimo detectable (MDE) &nbsp;·&nbsp; σ² = varianza del outcome<br>
+  DEFF = 1 + (m-1)·ICC &nbsp;·&nbsp; α = 0.05, β = 0.20 (poder = 80%) típicamente
+</div>
+</div>
+
+<div style="display: grid; grid-template-columns: repeat(4, 1fr); gap: 0.75rem; margin: 1.25rem 0;">
+<div style="text-align: center; padding: 1rem; background: white; border: 1px solid #E2E8F0; border-radius: 0.625rem;">
+<div style="font-size: 1.5rem; font-weight: 900; color: #0D9488;">80%</div>
+<div style="font-size: 0.72rem; color: #64748B; margin-top: 0.2rem; line-height: 1.3;">Poder mínimo recomendado (1−β)</div>
+</div>
+<div style="text-align: center; padding: 1rem; background: white; border: 1px solid #E2E8F0; border-radius: 0.625rem;">
+<div style="font-size: 1.5rem; font-weight: 900; color: #0D9488;">5%</div>
+<div style="font-size: 0.72rem; color: #64748B; margin-top: 0.2rem; line-height: 1.3;">Nivel de significancia (α) estándar</div>
+</div>
+<div style="text-align: center; padding: 1rem; background: white; border: 1px solid #E2E8F0; border-radius: 0.625rem;">
+<div style="font-size: 1.5rem; font-weight: 900; color: #0D9488;">0.2σ</div>
+<div style="font-size: 0.72rem; color: #64748B; margin-top: 0.2rem; line-height: 1.3;">MDE mínimo detectable típico (0.2 SD)</div>
+</div>
+<div style="text-align: center; padding: 1rem; background: white; border: 1px solid #E2E8F0; border-radius: 0.625rem;">
+<div style="font-size: 1.5rem; font-weight: 900; color: #0D9488;">20+</div>
+<div style="font-size: 0.72rem; color: #64748B; margin-top: 0.2rem; line-height: 1.3;">Clústeres mínimos por brazo en cRCT</div>
+</div>
+</div>
+
+</div>
+</div>
+
+<!-- AMENAZAS A LA VALIDEZ -->
+<div class="content-section">
+<div class="content-inner">
+
+<span class="section-label">Proteger la integridad del diseño</span>
+<h2 class="section-heading">Amenazas a la validez interna y cómo mitigarlas</h2>
+
+<div style="display: flex; flex-direction: column; gap: 0.875rem; margin: 1.5rem 0;">
+
+<div style="background: #FFF7ED; border: 1px solid rgba(245,158,11,0.3); border-left: 4px solid #F59E0B; border-radius: 0 0.625rem 0.625rem 0; padding: 1rem 1.25rem;">
+<div style="font-weight: 800; color: #B45309; font-size: 0.875rem; margin-bottom: 0.3rem;">Attrition diferencial (desgaste)</div>
+<div style="font-size: 0.845rem; color: #475569; line-height: 1.6;">Si los participantes abandonan el seguimiento de manera diferente entre tratados y controles, el balance de la aleatorización se rompe. <strong>Mitigación:</strong> maximizar la tasa de seguimiento, comparar características de quienes se pierden en ambos grupos, usar bounds de Manski-Horowitz para análisis de sensibilidad.</div>
+</div>
+
+<div style="background: #FFF7ED; border: 1px solid rgba(245,158,11,0.3); border-left: 4px solid #F59E0B; border-radius: 0 0.625rem 0.625rem 0; padding: 1rem 1.25rem;">
+<div style="font-weight: 800; color: #B45309; font-size: 0.875rem; margin-bottom: 0.3rem;">Contaminación (spillovers / SUTVA)</div>
+<div style="font-size: 0.845rem; color: #475569; line-height: 1.6;">El grupo de control "aprende" del grupo tratado (por proximidad geográfica, redes sociales, medios de comunicación). <strong>Mitigación:</strong> aleatorizar clústeres geográficamente separados, usar buffers entre zonas tratadas y control, medir contaminación explícitamente.</div>
+</div>
+
+<div style="background: #FFF7ED; border: 1px solid rgba(245,158,11,0.3); border-left: 4px solid #F59E0B; border-radius: 0 0.625rem 0.625rem 0; padding: 1rem 1.25rem;">
+<div style="font-weight: 800; color: #B45309; font-size: 0.875rem; margin-bottom: 0.3rem;">Efecto Hawthorne</div>
+<div style="font-size: 0.845rem; color: #475569; line-height: 1.6;">Los participantes cambian su comportamiento por el mero hecho de ser observados, no por la intervención. <strong>Mitigación:</strong> medir outcomes con datos administrativos (no auto-reportados), usar diseños con información parcial sobre el grupo de pertenencia.</div>
+</div>
+
+<div style="background: #FFF7ED; border: 1px solid rgba(245,158,11,0.3); border-left: 4px solid #F59E0B; border-radius: 0 0.625rem 0.625rem 0; padding: 1rem 1.25rem;">
+<div style="font-weight: 800; color: #B45309; font-size: 0.875rem; margin-bottom: 0.3rem;">Incumplimiento (non-compliance)</div>
+<div style="font-size: 0.845rem; color: #475569; line-height: 1.6;">Asignados al tratamiento no lo reciben; asignados al control lo buscan por cuenta propia. <strong>Mitigación:</strong> reportar ITT (Intention-to-Treat) como estimador primario; usar IV/2SLS para el LATE (Local Average Treatment Effect) si hay incumplimiento.</div>
+</div>
+
+</div>
+
+</div>
+</div>
+
+<!-- CONEXIÓN CON SROI -->
+<div class="content-section alt">
+<div class="content-inner">
+
+<span class="section-label">Conexión con el SROI</span>
+<h2 class="section-heading">El RCT como base del análisis SROI de máxima credibilidad</h2>
+
+<p>Un análisis SROI basado en un RCT bien diseñado alcanza el nivel más alto de evidencia causal — y permite la justificación más sólida de los supuestos más discutidos del SROI.</p>
+
+<div style="display: grid; grid-template-columns: repeat(3, 1fr); gap: 1rem; margin: 1.5rem 0;">
+
+<div style="background: white; border: 1px solid #E2E8F0; border-radius: 0.75rem; padding: 1.1rem;">
+<div style="font-size: 0.7rem; font-weight: 700; color: #0D9488; text-transform: uppercase; letter-spacing: 0.07em; margin-bottom: 0.4rem;">Deadweight = 0%</div>
+<div style="font-size: 0.875rem; font-weight: 700; color: #0F172A; margin-bottom: 0.3rem;">Justificado por diseño</div>
+<div style="font-size: 0.8rem; color: #475569; line-height: 1.55;">El grupo de control del RCT demostró que el cambio no habría ocurrido sin el programa. Deadweight = 0% es defendible — no es una suposición optimista, es evidencia directa.</div>
+</div>
+
+<div style="background: white; border: 1px solid #E2E8F0; border-radius: 0.75rem; padding: 1.1rem;">
+<div style="font-size: 0.7rem; font-weight: 700; color: #0D9488; text-transform: uppercase; letter-spacing: 0.07em; margin-bottom: 0.4rem;">Cantidad de outcomes</div>
+<div style="font-size: 0.875rem; font-weight: 700; color: #0F172A; margin-bottom: 0.3rem;">ATT del RCT → Value Map</div>
+<div style="font-size: 0.8rem; color: #475569; line-height: 1.55;">El estimador de efecto promedio del RCT (ATT) alimenta directamente la columna "Cantidad" del Value Map. No hay incertidumbre sobre el contrafactual.</div>
+</div>
+
+<div style="background: white; border: 1px solid #E2E8F0; border-radius: 0.75rem; padding: 1.1rem;">
+<div style="font-size: 0.7rem; font-weight: 700; color: #0D9488; text-transform: uppercase; letter-spacing: 0.07em; margin-bottom: 0.4rem;">Aseguramiento SVI</div>
+<div style="font-size: 0.875rem; font-weight: 700; color: #0F172A; margin-bottom: 0.3rem;">Evidencia de grado N5</div>
+<div style="font-size: 0.8rem; color: #475569; line-height: 1.55;">Un SROI basado en RCT cumple el nivel N5 del Índice de Madurez de Impacto — el máximo. Esto fortalece significativamente el proceso de aseguramiento SVI.</div>
+</div>
+
+</div>
+
+<div class="insight-box">
+<div class="insight-label">Caso aplicado: Hogares Saludables — cRCT DiD-PSM</div>
+<p>El programa Hogares Saludables (Argos-CVP, 2024) usó un cRCT con 536 hogares distribuidos en clústeres (comunas) de Medellín. La estimación combinó DiD (para aprovechar el diseño pre-post) con PSM (para verificar balance en covariables). El resultado: Deadweight = 0% documentado, ATT significativos para 5 outcomes principales, y un ratio SROI de 3.74× (escenario conservador) — con plena trazabilidad metodológica para el aseguramiento SVI.</p>
+</div>
+
+</div>
+</div>
+
+<!-- CONSIDERACIONES ÉTICAS -->
+<div class="content-section">
+<div class="content-inner">
+
+<span class="section-label">La dimensión ética</span>
+<h2 class="section-heading">Consideraciones éticas del diseño experimental</h2>
+
+<p>El RCT genera dilemas éticos que deben abordarse explícitamente — no ignorarse. El grupo de control es privado temporalmente de una intervención que podría beneficiarlo. Esto es justificable solo bajo ciertas condiciones.</p>
+
+<div style="display: grid; grid-template-columns: 1fr 1fr; gap: 1rem; margin: 1.5rem 0;">
+
+<div style="background: #F0FDFA; border: 1px solid rgba(13,148,136,0.25); border-radius: 0.75rem; padding: 1.25rem;">
+<div style="font-weight: 700; color: #0D9488; margin-bottom: 0.5rem; font-size: 0.875rem;">Condiciones que justifican el RCT</div>
+<ul style="font-size: 0.845rem; color: #475569; line-height: 1.7; margin: 0; padding-left: 1.25rem;">
+<li>Genuina incertidumbre sobre la efectividad del programa</li>
+<li>Recursos insuficientes para atender a todos (asignación por sorteo es más justa que por criterios arbitrarios)</li>
+<li>El grupo de control eventualmente recibirá el programa (diseño escalonado)</li>
+<li>Consentimiento informado explícito de todos los participantes</li>
+<li>Aprobación por un comité de ética independiente</li>
+</ul>
+</div>
+
+<div style="background: #FEF2F2; border: 1px solid rgba(220,38,38,0.2); border-radius: 0.75rem; padding: 1.25rem;">
+<div style="font-weight: 700; color: #DC2626; margin-bottom: 0.5rem; font-size: 0.875rem;">Cuando el RCT NO es ético</div>
+<ul style="font-size: 0.845rem; color: #475569; line-height: 1.7; margin: 0; padding-left: 1.25rem;">
+<li>Intervenciones de urgencia humanitaria (no se puede crear grupo sin atención)</li>
+<li>Cuando hay fuerte evidencia previa de efectividad</li>
+<li>Cuando el grupo de control quedaría expuesto a daños evitables</li>
+<li>Cuando los participantes no pueden dar consentimiento informado real</li>
+<li>Cuando los beneficios individuales son claramente menores que los daños del no-tratamiento</li>
+</ul>
+</div>
+
+</div>
+
+</div>
+</div>
+
+<!-- FOOTER -->
+<div class="content-section dark">
+<div class="content-inner" style="display: flex; justify-content: space-between; align-items: center; flex-wrap: wrap; gap: 1rem; padding: 1rem 0;">
+<div>
+<div style="color: #94A3B8; font-size: 0.82rem; margin-bottom: 0.35rem;">El marco integrador</div>
+<div style="font-size: 1.1rem; font-weight: 700; color: white;">SROI — cómo el RCT alimenta el ratio →</div>
+</div>
+<a href="sroi.html" class="btn-primary-custom">Ver SROI</a>
+</div>
+</div>
+```

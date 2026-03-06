@@ -22,14 +22,18 @@ website:
         text: "Nuestros Servicios"
       - text: "Herramientas"
         menu:
+          - text: "Caja de herramientas — Índice"
+            href: metodos/index.qmd
+          - text: "---"
+          - text: "Evaluación de impacto"
+          - text: "RCT / cRCT — Ensayo aleatorizado"
+            href: metodos/rct.qmd
+          - text: "DiD — Diferencias en diferencias"
+            href: metodos/did.qmd
+          - text: "---"
+          - text: "Valoración monetaria"
           - text: "SROI — Social Return on Investment"
             href: metodos/sroi.qmd
-          - text: "WELLBY — Bienestar subjetivo"
-            href: metodos/wellby.qmd
-          - text: "Costos unitarios"
-            href: metodos/costos-unitarios.qmd
-          - text: "WTP / Valoración contingente"
-            href: metodos/wtp.qmd
       - href: aplicaciones.qmd
         text: Aplicaciones
       - href: equipo.qmd
