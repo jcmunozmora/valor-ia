@@ -1,0 +1,272 @@
+---
+title: "SROI — Social Return on Investment"
+page-layout: full
+toc: false
+---
+
+```{=html}
+<!-- PAGE HEADER -->
+<div class="page-header">
+<div class="page-header-content">
+<span class="page-tag">Herramientas · Valoración monetaria</span>
+<h1>Social Return on Investment</h1>
+<p class="page-lead">El SROI es el marco analítico que transforma outcomes sociales, ambientales y económicos en valores monetarios para calcular un ratio de retorno sobre la inversión. Un SROI de 4.5 significa que por cada peso invertido, se generan 4.5 pesos de valor social neto — con todos los supuestos documentados y auditables.</p>
+</div>
+</div>
+
+<!-- QUÉ MIDE Y QUÉ NO MIDE -->
+<div class="content-section alt">
+<div class="content-inner">
+
+<span class="section-label">Encuadre conceptual</span>
+<h2 class="section-heading">¿Qué mide el SROI y qué no mide?</h2>
+
+<p>Lo que el SROI realmente hace —y lo que lo distingue de un análisis costo-beneficio convencional— es obligar a responder preguntas difíciles: ¿A quién le importa este cambio y cuánto? ¿Qué parte del cambio habría ocurrido de todas formas? ¿Qué parte la generaron otros actores? ¿Por cuánto tiempo persiste el impacto?</p>
+
+<div class="insight-box">
+<div class="insight-label">Distinción crítica</div>
+<p>El SROI no mide <em>outputs</em> (lo que produce un programa) sino <em>outcomes</em> (los cambios que experimenta la gente). Esta distinción parece simple pero es la fuente más frecuente de error metodológico en la práctica. Un taller de liderazgo no produce "28 líderes capacitados" — produce un incremento en capacidad organizativa medible en iniciativas generadas, redes activadas y decisiones tomadas.</p>
+</div>
+
+<p>El SROI tampoco es un número omnisciente. Es una estimación puntual, condicional a supuestos que deben documentarse y justificarse. Su fortaleza no está en la precisión del resultado sino en el rigor del proceso: involucrar a los stakeholders reales, mapear solo los cambios materiales, evitar la sobreclamación y someter los supuestos a análisis de sensibilidad.</p>
+
+<div style="display: grid; grid-template-columns: 1fr 1fr; gap: 1rem; margin: 1.5rem 0;">
+<div style="background: white; border: 1px solid #E2E8F0; border-radius: 0.625rem; padding: 1.25rem;">
+<div style="font-weight: 700; color: #0D9488; margin-bottom: 0.5rem;">SROI Forecast</div>
+<div style="font-size: 0.875rem; color: #475569; line-height: 1.6;">Antes o durante la intervención, con proyecciones de outcomes basadas en evidencia existente. Útil para toma de decisiones de inversión y diseño de programas. Mayor incertidumbre, más valor estratégico.</div>
+</div>
+<div style="background: white; border: 1px solid #E2E8F0; border-radius: 0.625rem; padding: 1.25rem;">
+<div style="font-weight: 700; color: #1E3A5F; margin-bottom: 0.5rem;">SROI Evaluativo</div>
+<div style="font-size: 0.875rem; color: #475569; line-height: 1.6;">Post-intervención con datos reales de cambio. Mayor validez empírica pero requiere diseño de recolección de datos desde el inicio. Permite aseguramiento SVI y benchmarking internacional.</div>
+</div>
+</div>
+
+</div>
+</div>
+
+<!-- LAS 6 ETAPAS -->
+<div class="content-section">
+<div class="content-inner">
+
+<span class="section-label">Arquitectura del método</span>
+<h2 class="section-heading">Las seis etapas: dónde vive el juicio experto</h2>
+
+<p>Social Value International estructura el SROI en seis etapas. Lo que los libros de texto rara vez explican es que cada etapa tiene decisiones que determinan si el análisis final es defendible o no.</p>
+
+<div class="stage-grid">
+
+<div class="stage-card" style="--stage-color: #0EA5E9">
+<div class="stage-number">Etapa 1</div>
+<div class="stage-title">Alcance e identificación de stakeholders</div>
+<div class="stage-desc">La decisión de alcance define qué valor se incluye y cuál se deja fuera. El principio de <em>materialidad</em> exige incluir solo a quienes experimenten cambios significativos. La identificación de stakeholders no es una lista — es un análisis de poder e influencia. ¿Quién tiene más que ganar o perder? ¿Qué grupos quedan invisibilizados en la narrativa institucional?</div>
+</div>
+
+<div class="stage-card" style="--stage-color: #8B5CF6">
+<div class="stage-number">Etapa 2</div>
+<div class="stage-title">Mapeo de outcomes (Impact Map)</div>
+<div class="stage-desc">Articula la cadena lógica inputs → actividades → outputs → outcomes → impacto. El error más frecuente es confundir outcomes con outputs o con actividades. Construir este mapa requiere consulta directa con stakeholders. Los outcomes emergentes (no planificados) son frecuentemente los más significativos.</div>
+</div>
+
+<div class="stage-card" style="--stage-color: #059669">
+<div class="stage-number">Etapa 3</div>
+<div class="stage-title">Evidenciar outcomes</div>
+<div class="stage-desc">¿Realmente ocurrió el cambio? Requiere datos primarios de los stakeholders — encuestas, entrevistas, datos administrativos — no testimonios institucionales. El desafío metodológico central es distinguir entre <em>percepción</em> de cambio y <em>cambio medible</em>.</div>
+</div>
+
+<div class="stage-card" style="--stage-color: #F59E0B">
+<div class="stage-number">Etapa 4</div>
+<div class="stage-title">Establecer impacto</div>
+<div class="stage-desc">La etapa más técnicamente exigente. Cuatro factores de ajuste separan el beneficio bruto del impacto neto real: deadweight (¿habría ocurrido igual sin el programa?), atribución (¿cuánto aportaron otros?), displacement (¿el beneficio desplazó a alguien más?) y drop-off (¿cómo decae el efecto en el tiempo?).</div>
+</div>
+
+<div class="stage-card" style="--stage-color: #DC2626">
+<div class="stage-number">Etapa 5</div>
+<div class="stage-title">Calcular el SROI</div>
+<div class="stage-desc">El VPN de los beneficios ajustados se divide por la inversión total — que debe incluir el costo de oportunidad de todos los insumos, incluyendo trabajo voluntario e insumos en especie. La selección de la tasa de descuento requiere justificación contextual; en Colombia se usa típicamente 5%.</div>
+</div>
+
+<div class="stage-card" style="--stage-color: #0D9488">
+<div class="stage-number">Etapa 6</div>
+<div class="stage-title">Reportar, usar, integrar</div>
+<div class="stage-desc">Un informe SROI que nadie lee no sirve de nada. El informe debe ser apropiado para múltiples audiencias, transparente en sus supuestos, y diseñado para informar decisiones concretas — no para legitimar decisiones ya tomadas. El aseguramiento SVI agrega credibilidad externa.</div>
+</div>
+
+</div>
+
+</div>
+</div>
+
+<!-- FACTORES DE AJUSTE -->
+<div class="content-section alt">
+<div class="content-inner">
+
+<span class="section-label">El rigor técnico</span>
+<h2 class="section-heading">Los factores de ajuste: donde se prueba el experto</h2>
+
+<p>Si hubiera una sola razón por la que los análisis SROI fallan en credibilidad, sería la aplicación mecánica —o incorrecta— de los factores de ajuste de impacto. Estos cuatro factores son la diferencia entre un análisis riguroso y una cifra inflada que no soporta escrutinio.</p>
+
+<div style="background: white; border: 1px solid #E2E8F0; border-radius: 0.75rem; margin: 1.5rem 0; overflow: hidden;">
+
+<div class="factor-row" style="background: #0F172A; color: white;">
+<div style="font-weight: 700; color: #5EEAD4; font-size: 0.82rem; letter-spacing: 0.08em; text-transform: uppercase;">Factor</div>
+<div style="font-weight: 700; color: #CBD5E1; font-size: 0.82rem; letter-spacing: 0.08em; text-transform: uppercase;">Pregunta que responde</div>
+<div style="font-weight: 700; color: #CBD5E1; font-size: 0.82rem; letter-spacing: 0.08em; text-transform: uppercase; text-align: right;">Rango típico</div>
+</div>
+
+<div class="factor-row">
+<div class="factor-name">Deadweight</div>
+<div class="factor-desc">¿Cuánto del cambio habría ocurrido de todas formas, incluso sin el programa? Se estima comparando con grupos de control, datos históricos o comunidades comparables. Con un RCT o cRCT bien diseñado puede ser justificadamente 0%.</div>
+<div class="factor-range">0% – 70%</div>
+</div>
+
+<div class="factor-row">
+<div class="factor-name">Atribución</div>
+<div class="factor-desc">¿Cuánto del cambio se debe a otros actores, no al programa? Requiere consulta directa con stakeholders. La trampa: usar la atribución del "cambio general" para un proxy que mide algo específico del programa.</div>
+<div class="factor-range">15% – 60%</div>
+</div>
+
+<div class="factor-row">
+<div class="factor-name">Displacement</div>
+<div class="factor-desc">¿El beneficio del programa "desplazó" el de otra persona o comunidad? Más relevante en programas de empleo y en contextos de mercados fijos. Programas comunitarios de salud o vivienda tienen displacement usualmente bajo o nulo.</div>
+<div class="factor-range">0% – 30%</div>
+</div>
+
+<div class="factor-row">
+<div class="factor-name">Drop-off</div>
+<div class="factor-desc">¿A qué tasa decae el efecto del outcome en el tiempo? Sin drop-off, proyectar 10 años de un outcome que realmente dura 2 inflará el análisis enormemente. La tasa debe justificarse teórica o empíricamente.</div>
+<div class="factor-range">5% – 25% anual</div>
+</div>
+
+</div>
+
+<div class="insight-box">
+<div class="insight-label">El problema de la atribución proxy-específica</div>
+<p>La atribución debe ser específica al <em>proxy</em> que se está monetizando, no al cambio general. Si el proxy mide el costo de oportunidad de acceder a una infraestructura que el programa construyó físicamente, la atribución de ese proxy debería ser alta. Usar la atribución del "cambio personal percibido" para un proxy de infraestructura subestima sistemáticamente el valor real.</p>
+</div>
+
+</div>
+</div>
+
+<!-- LOS 8 PRINCIPIOS SVI -->
+<div class="content-section">
+<div class="content-inner">
+
+<span class="section-label">Los estándares de calidad</span>
+<h2 class="section-heading">Los 8 principios de Social Value International</h2>
+
+<p>Social Value International no es solo una metodología — es un estándar de calidad. Los 8 principios definen qué hace que un análisis SROI sea <em>creíble</em>. Un análisis que no los cumple puede producir un ratio atractivo, pero no superará el escrutinio de un evaluador externo.</p>
+
+<div class="principles-grid">
+
+<div class="principle-card">
+<div class="principle-number">1</div>
+<div class="principle-title">Involucrar a los stakeholders</div>
+<div class="principle-desc">El análisis debe basarse en la perspectiva real de quienes experimentan el cambio, no en supuestos institucionales.</div>
+</div>
+
+<div class="principle-card">
+<div class="principle-number">2</div>
+<div class="principle-title">Entender qué cambia</div>
+<div class="principle-desc">Identificar los outcomes materiales a través de evidencia directa de los stakeholders, no de la narrativa del programa.</div>
+</div>
+
+<div class="principle-card">
+<div class="principle-number">3</div>
+<div class="principle-title">Valorar las cosas que importan</div>
+<div class="principle-desc">Usar proxies financieros que representen genuinamente el valor que los stakeholders le asignan al cambio experimentado.</div>
+</div>
+
+<div class="principle-card">
+<div class="principle-number">4</div>
+<div class="principle-title">Incluir solo lo material</div>
+<div class="principle-desc">Excluir outcomes no significativos. El informe debe poder cambiar las decisiones de los stakeholders; si no lo hace, no es material.</div>
+</div>
+
+<div class="principle-card">
+<div class="principle-number">5</div>
+<div class="principle-title">No sobreclamar</div>
+<div class="principle-desc">Aplicar correctamente los factores de ajuste. No atribuir al programa lo que habría ocurrido de todas formas.</div>
+</div>
+
+<div class="principle-card">
+<div class="principle-number">6</div>
+<div class="principle-title">Ser transparente</div>
+<div class="principle-desc">Documentar y justificar cada supuesto. Un análisis SROI debe ser reproducible por un evaluador externo con la información proporcionada.</div>
+</div>
+
+<div class="principle-card">
+<div class="principle-number">7</div>
+<div class="principle-title">Verificar el resultado</div>
+<div class="principle-desc">Someter el análisis a sensibilidad. ¿Cambia el ratio significativamente si se modifican los supuestos más inciertos? Sin sensibilidad, el ratio solo no es creíble.</div>
+</div>
+
+<div class="principle-card">
+<div class="principle-number">8</div>
+<div class="principle-title">Ser responsable y honesto</div>
+<div class="principle-desc">Reportar tanto los resultados positivos como las limitaciones, los outcomes negativos y los aspectos no monetizados del análisis.</div>
+</div>
+
+</div>
+
+</div>
+</div>
+
+<!-- POR QUÉ ES DIFÍCIL -->
+<div class="content-section alt">
+<div class="content-inner">
+
+<span class="section-label">La perspectiva del practicante</span>
+<h2 class="section-heading">Por qué el SROI es difícil — en serio</h2>
+
+<p>La guía oficial de SVI tiene 108 páginas. Lo que no está escrito en esas páginas es donde vive el expertise real. Estas son las dificultades que solo se aprenden con práctica:</p>
+
+<div style="display: flex; flex-direction: column; gap: 1.25rem; margin: 1.5rem 0;">
+
+<div style="display: flex; gap: 1rem; align-items: flex-start; padding: 1.25rem; background: white; border: 1px solid #E2E8F0; border-radius: 0.625rem;">
+<div style="font-size: 1.25rem; flex-shrink: 0; margin-top: 0.1rem;">&#8680;</div>
+<div>
+<div style="font-weight: 700; color: #0F172A; margin-bottom: 0.35rem;">La selección del proxy es una ciencia y un arte</div>
+<div style="font-size: 0.875rem; color: #475569; line-height: 1.65;">Existen cientos de proxies disponibles para cualquier outcome. El criterio de selección no es solo la disponibilidad del dato — es la correspondencia conceptual entre el proxy y el outcome real. Un proxy mal elegido puede producir un resultado técnicamente correcto pero conceptualmente vacío.</div>
+</div>
+</div>
+
+<div style="display: flex; gap: 1rem; align-items: flex-start; padding: 1.25rem; background: white; border: 1px solid #E2E8F0; border-radius: 0.625rem;">
+<div style="font-size: 1.25rem; flex-shrink: 0; margin-top: 0.1rem;">&#8680;</div>
+<div>
+<div style="font-weight: 700; color: #0F172A; margin-bottom: 0.35rem;">El involucramiento de stakeholders es políticamente difícil</div>
+<div style="font-size: 0.875rem; color: #475569; line-height: 1.65;">Las organizaciones tienden a involucrar a los stakeholders que confirman su narrativa de éxito. Un SROI riguroso requiere también escuchar a quienes no se beneficiaron, quienes se vieron perjudicados, o quienes tienen una visión crítica del programa.</div>
+</div>
+</div>
+
+<div style="display: flex; gap: 1rem; align-items: flex-start; padding: 1.25rem; background: white; border: 1px solid #E2E8F0; border-radius: 0.625rem;">
+<div style="font-size: 1.25rem; flex-shrink: 0; margin-top: 0.1rem;">&#8680;</div>
+<div>
+<div style="font-weight: 700; color: #0F172A; margin-bottom: 0.35rem;">Los contrafactuales en contextos sin grupos de control</div>
+<div style="font-size: 0.875rem; color: #475569; line-height: 1.65;">Estimar el deadweight sin un grupo de control formal requiere creatividad metodológica: series de tiempo históricas, datos de comunidades comparables, referencias del sector. Cada aproximación tiene sesgos distintos que deben reconocerse.</div>
+</div>
+</div>
+
+<div style="display: flex; gap: 1rem; align-items: flex-start; padding: 1.25rem; background: white; border: 1px solid #E2E8F0; border-radius: 0.625rem;">
+<div style="font-size: 1.25rem; flex-shrink: 0; margin-top: 0.1rem;">&#8680;</div>
+<div>
+<div style="font-weight: 700; color: #0F172A; margin-bottom: 0.35rem;">La adaptación de proxies internacionales al contexto local</div>
+<div style="font-size: 0.875rem; color: #475569; line-height: 1.65;">La mayoría de los proxies disponibles (HACT, NICE, PSSRU) fueron calibrados en países de renta alta. Usarlos directamente en Colombia produce valores que no reflejan las preferencias ni los precios locales. La adaptación por PPP es solo el primer paso.</div>
+</div>
+</div>
+
+</div>
+
+</div>
+</div>
+
+<!-- VER CASO APLICADO -->
+<div class="content-section dark">
+<div class="content-inner" style="display: flex; justify-content: space-between; align-items: center; flex-wrap: wrap; gap: 1rem; padding: 1rem 0;">
+<div>
+<div style="color: #94A3B8; font-size: 0.82rem; margin-bottom: 0.35rem;">SROI en acción</div>
+<div style="font-size: 1.1rem; font-weight: 700; color: white;">Ver caso Hogares Saludables — SROI 3.74× con cRCT →</div>
+</div>
+<a href="../casos/hogares-saludables.html" class="btn-primary-custom">Ver caso completo</a>
+</div>
+</div>
+```
