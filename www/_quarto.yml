@@ -24,6 +24,8 @@ website:
         text: "Servicios"
       - href: aplicaciones.qmd
         text: Aplicaciones
+      - href: equipo.qmd
+        text: Equipo
     right:
       - text: "CVP · EAFIT"
         href: "https://www.eafit.edu.co"
