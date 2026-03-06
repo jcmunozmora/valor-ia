@@ -1,0 +1,28 @@
+# PDF corpus — too large for GitHub (625MB)
+reports/
+
+# Large input files
+00_inputs/
+01_References/
+02_Aplicaciones/
+
+# Large data files — SQLite DB and JSONL corpus
+data/sroi_reports.db
+data/sroi_reports_for_agent.jsonl
+data/pdf_download_log.json
+
+# Python
+__pycache__/
+*.py[cod]
+*.egg-info/
+.env
+venv/
+
+# Quarto intermediates
+.quarto/
+*_files/
+*.aux
+*.log
+
+# macOS
+.DS_Store

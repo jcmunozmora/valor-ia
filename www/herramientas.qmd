@@ -1,0 +1,796 @@
+---
+title: "VALOR·IA"
+description: "Plataforma de inteligencia para la medicion profesional del valor social — acompanamiento, formacion y auditoria con metodos rigurosos e inteligencia artificial."
+toc: false
+---
+
+```{=html}
+<!-- ============================================================
+     HERO
+     ============================================================ -->
+<div class="page-header vi-header">
+  <div class="page-header-content">
+    <div class="page-badge">Centro Valor Publico &middot; EAFIT</div>
+    <h1 class="page-title">VALOR&middot;IA</h1>
+    <p class="page-subtitle">
+      Medimos el valor social de su inversion con el metodo correcto para cada contexto.
+      Desde una evaluacion rapida hasta un SROI certificado por SVI —
+      con inteligencia artificial que construye autonomia dentro de su organizacion.
+    </p>
+  </div>
+</div>
+
+<!-- ============================================================
+     TRES SERVICIOS ANCLA
+     ============================================================ -->
+<div class="vi-services-strip">
+
+  <div class="vi-service vi-service--consult">
+    <div class="vi-service-icon">&#9672;</div>
+    <div class="vi-service-name">Acompanamiento en medicion</div>
+    <div class="vi-service-desc">
+      Diseno e implementacion de su sistema de medicion de impacto social.
+      Seleccionamos el metodo correcto, construimos el analisis con su equipo
+      y entregamos resultados que informan decisiones reales de inversion.
+    </div>
+    <div class="vi-service-tags">
+      <span>SROI</span><span>CBA</span><span>WELLBY</span><span>ToC</span>
+    </div>
+  </div>
+
+  <div class="vi-service vi-service--train">
+    <div class="vi-service-icon">&#9672;</div>
+    <div class="vi-service-name">Formacion y transferencia</div>
+    <div class="vi-service-desc">
+      Programa de 8 sesiones que forma a sus equipos en medicion de valor social.
+      Objetivo: que su organizacion pueda hacer sus propios analisis con rigor
+      y sin depender de consultores externos.
+    </div>
+    <div class="vi-service-tags">
+      <span>8 sesiones</span><span>Metodologia</span><span>Herramientas IA</span>
+    </div>
+  </div>
+
+  <div class="vi-service vi-service--audit">
+    <div class="vi-service-icon">&#9672;</div>
+    <div class="vi-service-name">Auditoria de informes</div>
+    <div class="vi-service-desc">
+      Revision independiente de analisis SROI ya elaborados contra los 48 criterios
+      del SVI Report Assurance Standard. Identificamos debilidades, validamos supuestos
+      y preparamos el informe para aseguramiento externo.
+    </div>
+    <div class="vi-service-tags">
+      <span>48 criterios SVI</span><span>Aseguramiento</span><span>Validacion</span>
+    </div>
+  </div>
+
+</div>
+
+<!-- ============================================================
+     METODOS DE VALORACION
+     ============================================================ -->
+<div class="content-section">
+<div class="content-inner">
+
+<span class="section-label">Enfoque metodologico</span>
+<h2 class="section-heading">El metodo correcto para cada pregunta</h2>
+
+<p>
+  No todos los programas sociales necesitan un SROI completo. La seleccion del metodo
+  depende de la pregunta que hay que responder, los datos disponibles, el horizonte temporal
+  y el uso que se le dara al resultado. En VALOR&middot;IA aplicamos el metodo apropiado —
+  y sabemos cuándo combinarlos.
+</p>
+
+<div class="methods-grid">
+
+  <div class="method-card method-card--flagship">
+    <div class="method-badge">Metodo estrella</div>
+    <div class="method-name">SROI — Retorno Social de la Inversion</div>
+    <div class="method-desc">
+      La metodologia mas rigurosa para convertir impacto social en valor monetario comparable.
+      Sigue las 6 etapas SVI: alcance, cambios, evidencia, valoracion, impacto e informe.
+      Unico metodo con estandar de aseguramiento externo (48 criterios, 8 principios).
+    </div>
+    <div class="method-meta">
+      <div class="method-meta-item"><span class="mm-label">Cuando usarlo</span><span class="mm-val">Rendir cuentas a inversionistas, justificar escala, competir por recursos con evidencia solida</span></div>
+      <div class="method-meta-item"><span class="mm-label">Resultado</span><span class="mm-val">Ratio: por cada COP invertido se generan X COP de valor social</span></div>
+      <div class="method-meta-item"><span class="mm-label">Rigor</span><span class="mm-val">Alto &middot; Aseguramiento SVI disponible</span></div>
+    </div>
+  </div>
+
+  <div class="method-card">
+    <div class="method-name">Analisis Costo-Beneficio Social (CBA)</div>
+    <div class="method-desc">
+      Marco amplio para evaluar si una intervencion genera mas beneficios que costos para
+      la sociedad. Incorpora externalidades, efectos fiscales y bienestar colectivo.
+      Estandar en evaluacion de politica publica.
+    </div>
+    <div class="method-meta">
+      <div class="method-meta-item"><span class="mm-label">Cuando usarlo</span><span class="mm-val">Decisiones de politica publica, infraestructura social, programas de gran escala</span></div>
+      <div class="method-meta-item"><span class="mm-label">Resultado</span><span class="mm-val">Ratio B/C, VPN social, TIR social</span></div>
+    </div>
+  </div>
+
+  <div class="method-card">
+    <div class="method-name">Valoracion del Bienestar (WELLBY)</div>
+    <div class="method-desc">
+      Metodo basado en bienestar subjetivo: cuanto vale un punto de mejora en la escala
+      de vida segun la evidencia de satisfaccion con la vida. Desarrollado por HM Treasury
+      (UK). Ideal cuando el impacto es en calidad de vida, salud mental o bienestar social.
+    </div>
+    <div class="method-meta">
+      <div class="method-meta-item"><span class="mm-label">Cuando usarlo</span><span class="mm-val">Programas de salud mental, inclusion social, acompanamiento psicosocial</span></div>
+      <div class="method-meta-item"><span class="mm-label">Resultado</span><span class="mm-val">Valor monetario del cambio en bienestar por beneficiario/ano</span></div>
+    </div>
+  </div>
+
+  <div class="method-card">
+    <div class="method-name">Teoria del Cambio + Impact Map</div>
+    <div class="method-desc">
+      Marco causal que conecta recursos, actividades, productos, resultados e impactos.
+      Base necesaria para cualquier evaluacion rigurosa. Sirve tanto como herramienta
+      de diseno de programas como de gestion del desempeno.
+    </div>
+    <div class="method-meta">
+      <div class="method-meta-item"><span class="mm-label">Cuando usarlo</span><span class="mm-val">Inicio de programas, rediseno de estrategia, sistemas de M&amp;E</span></div>
+      <div class="method-meta-item"><span class="mm-label">Resultado</span><span class="mm-val">Mapa causal verificable con indicadores y fuentes de evidencia</span></div>
+    </div>
+  </div>
+
+  <div class="method-card">
+    <div class="method-name">Estudios de Impacto Socioeconomico</div>
+    <div class="method-desc">
+      Evaluacion cuantitativa y cualitativa del efecto de un programa o empresa en
+      la economia local: empleo, ingreso, encadenamientos productivos, efecto multiplicador
+      y bienestar de las comunidades del entorno.
+    </div>
+    <div class="method-meta">
+      <div class="method-meta-item"><span class="mm-label">Cuando usarlo</span><span class="mm-val">RSE, licencia social, reporting ESG, grandes proyectos de infraestructura</span></div>
+      <div class="method-meta-item"><span class="mm-label">Resultado</span><span class="mm-val">Valor economico generado, empleos equivalentes, impacto en ingreso regional</span></div>
+    </div>
+  </div>
+
+  <div class="method-card">
+    <div class="method-name">Auditoria Social y Materialidad ESG</div>
+    <div class="method-desc">
+      Identificacion de los temas materiales de impacto social para el reporte ESG
+      y la gestion de riesgos no financieros. Alineado con GRI, SASB y los marcos
+      de doble materialidad de la CSRD europea.
+    </div>
+    <div class="method-meta">
+      <div class="method-meta-item"><span class="mm-label">Cuando usarlo</span><span class="mm-val">Reporte de sostenibilidad, due diligence de inversores, cumplimiento regulatorio</span></div>
+      <div class="method-meta-item"><span class="mm-label">Resultado</span><span class="mm-val">Matriz de materialidad, indicadores prioritarios, narrative de impacto</span></div>
+    </div>
+  </div>
+
+</div>
+
+<div class="method-selector-note">
+  <div class="msn-icon">&#8594;</div>
+  <div class="msn-text">
+    <strong>Como elegimos el metodo correcto</strong>
+    El primer paso de cada proyecto es un diagnostico de 30 minutos donde analizamos
+    la pregunta de negocio, los datos disponibles y el uso del resultado.
+    En la mayoria de los casos el metodo optimo combina elementos de mas de un enfoque.
+  </div>
+</div>
+
+</div>
+</div>
+
+<!-- ============================================================
+     VALOR·IA ECOSYSTEM
+     ============================================================ -->
+<div class="content-section alt">
+<div class="content-inner">
+
+<span class="section-label">Inteligencia Artificial</span>
+<h2 class="section-heading">El ecosistema de agentes que habilita la autonomia</h2>
+
+<p>
+  VALOR&middot;IA no es un software de caja negra. Es un ecosistema de 13 agentes de
+  inteligencia artificial especializados, construidos sobre la guia oficial SVI (108 paginas),
+  los 8 principios de Social Value International y la base de 383 reportes internacionales.
+  Cada agente hace una cosa y la hace con rigor. Su equipo puede usarlos directamente.
+</p>
+
+<div class="agents-compact-grid">
+
+  <div class="ac-card ac-card--orch">
+    <div class="ac-dot"></div>
+    <div class="ac-info">
+      <div class="ac-name">Orquestador</div>
+      <div class="ac-desc">Diagnostica el analisis y enruta al especialista correcto</div>
+    </div>
+  </div>
+
+  <div class="ac-card">
+    <div class="ac-dot" style="background:#8B5CF6"></div>
+    <div class="ac-info">
+      <div class="ac-name">Garante de Principios SVI</div>
+      <div class="ac-desc">Audita contra los 48 criterios del estandar de aseguramiento</div>
+    </div>
+  </div>
+
+  <div class="ac-card">
+    <div class="ac-dot" style="background:#0EA5E9"></div>
+    <div class="ac-info">
+      <div class="ac-name">Arquitecto Metodologico</div>
+      <div class="ac-desc">Construye las 6 etapas, el Impact Map y la Teoria del Cambio</div>
+    </div>
+  </div>
+
+  <div class="ac-card">
+    <div class="ac-dot" style="background:#059669"></div>
+    <div class="ac-info">
+      <div class="ac-name">Especialista en Valoracion</div>
+      <div class="ac-desc">Selecciona y justifica WTP, WELLBY, costos unitarios o Value Game</div>
+    </div>
+  </div>
+
+  <div class="ac-card">
+    <div class="ac-dot" style="background:#F59E0B"></div>
+    <div class="ac-info">
+      <div class="ac-name">Motor Cuantitativo</div>
+      <div class="ac-desc">Calcula deadweight, atribucion, VPN social y el ratio SROI</div>
+    </div>
+  </div>
+
+  <div class="ac-card">
+    <div class="ac-dot" style="background:#DC2626"></div>
+    <div class="ac-info">
+      <div class="ac-name">Analista de Riesgo</div>
+      <div class="ac-desc">Monte Carlo, tornado de sensibilidad y break-even analysis</div>
+    </div>
+  </div>
+
+  <div class="ac-card">
+    <div class="ac-dot" style="background:#0D9488"></div>
+    <div class="ac-info">
+      <div class="ac-name">Constructor Value Map</div>
+      <div class="ac-desc">Genera el Excel/Sheets con formulas SVI exactas, bilingue</div>
+    </div>
+  </div>
+
+  <div class="ac-card">
+    <div class="ac-dot" style="background:#1E3A5F"></div>
+    <div class="ac-info">
+      <div class="ac-name">Visualizacion Profesional</div>
+      <div class="ac-desc">Waterfall, tornado, Sankey en R/ggplot2 listo para publicar</div>
+    </div>
+  </div>
+
+  <div class="ac-card">
+    <div class="ac-dot" style="background:#059669"></div>
+    <div class="ac-info">
+      <div class="ac-name">Constructor de Informes</div>
+      <div class="ac-desc">Redacta el informe SVI adaptado por audiencia</div>
+    </div>
+  </div>
+
+  <div class="ac-card">
+    <div class="ac-dot" style="background:#8B5CF6"></div>
+    <div class="ac-info">
+      <div class="ac-name">Template Quarto SVI</div>
+      <div class="ac-desc">Documento HTML/PDF alineado con los 48 criterios de aseguramiento</div>
+    </div>
+  </div>
+
+  <div class="ac-card">
+    <div class="ac-dot" style="background:#DC2626"></div>
+    <div class="ac-info">
+      <div class="ac-name">Contradictor Academico</div>
+      <div class="ac-desc">Auditoria adversarial — prepara el analisis para escrutinio externo</div>
+    </div>
+  </div>
+
+  <div class="ac-card">
+    <div class="ac-dot" style="background:#0EA5E9"></div>
+    <div class="ac-info">
+      <div class="ac-name">Curador de Evidencia</div>
+      <div class="ac-desc">Benchmarks de ratios de 383 reportes SVI globales</div>
+    </div>
+  </div>
+
+  <div class="ac-card">
+    <div class="ac-dot" style="background:#F59E0B"></div>
+    <div class="ac-info">
+      <div class="ac-name">Presentaciones Ejecutivas</div>
+      <div class="ac-desc">Decks RevealJS para junta, inversionistas o gobierno</div>
+    </div>
+  </div>
+
+</div>
+
+</div>
+</div>
+
+<!-- ============================================================
+     FORMACION
+     ============================================================ -->
+<div class="content-section">
+<div class="content-inner">
+
+<span class="section-label">Servicio de Formacion</span>
+<h2 class="section-heading">Programa de formacion: de cero a autonomia metodologica</h2>
+
+<p>
+  Ocho sesiones que llevan a los equipos de impacto social desde los conceptos basicos
+  hasta la capacidad de disenar, ejecutar e interpretar sus propios analisis de valor social.
+  El objetivo no es crear dependencia del consultor — es transferir el metodo.
+</p>
+
+<div class="sessions-track">
+
+  <div class="st-session">
+    <div class="st-num">01</div>
+    <div class="st-body">
+      <div class="st-title">Fundamentos del valor social y el ecosistema SVI</div>
+      <div class="st-desc">Por que medir, los 8 principios SVI, el estandar de aseguramiento y el panorama global de metodos.</div>
+      <div class="st-foot">
+        <span class="st-tag">Conceptual</span>
+        <span class="st-slide st-slide--soon">Proximamente</span>
+      </div>
+    </div>
+  </div>
+
+  <div class="st-session">
+    <div class="st-num">02</div>
+    <div class="st-body">
+      <div class="st-title">Alcance, stakeholders y la pregunta correcta</div>
+      <div class="st-desc">Definicion del alcance, mapeo de grupos de interes, involucramiento participativo y diseno de la pregunta de analisis.</div>
+      <div class="st-foot">
+        <span class="st-tag">Etapa 1</span>
+        <span class="st-slide st-slide--soon">Proximamente</span>
+      </div>
+    </div>
+  </div>
+
+  <div class="st-session">
+    <div class="st-num">03</div>
+    <div class="st-body">
+      <div class="st-title">Teoria del Cambio e Impact Map</div>
+      <div class="st-desc">Construccion del mapa causal: inputs, actividades, outputs, outcomes e impacto. Cadenas de evidencia y logica de cambio.</div>
+      <div class="st-foot">
+        <span class="st-tag">Etapa 2</span>
+        <span class="st-slide st-slide--soon">Proximamente</span>
+      </div>
+    </div>
+  </div>
+
+  <div class="st-session">
+    <div class="st-num">04</div>
+    <div class="st-body">
+      <div class="st-title">Evidencia de outcomes: recoleccion y medicion</div>
+      <div class="st-desc">Indicadores de outcome, metodos de recoleccion, muestras representativas y triangulacion de fuentes primarias y secundarias.</div>
+      <div class="st-foot">
+        <span class="st-tag">Etapa 3</span>
+        <span class="st-slide st-slide--soon">Proximamente</span>
+      </div>
+    </div>
+  </div>
+
+  <div class="st-session">
+    <div class="st-num">05</div>
+    <div class="st-body">
+      <div class="st-title">Metodos de valoracion monetaria</div>
+      <div class="st-desc">WTP, WELLBY, costos unitarios (ADRES, SENA), Value Game y proxies participativos. Como seleccionar y justificar el metodo correcto.</div>
+      <div class="st-foot">
+        <span class="st-tag">Valoracion</span>
+        <span class="st-slide st-slide--soon">Proximamente</span>
+      </div>
+    </div>
+  </div>
+
+  <div class="st-session">
+    <div class="st-num">06</div>
+    <div class="st-body">
+      <div class="st-title">Factores de ajuste y calculo del SROI</div>
+      <div class="st-desc">Deadweight, atribucion, displacement y drop-off. VPN de beneficios sociales, el ratio SROI y la interpretacion de escenarios.</div>
+      <div class="st-foot">
+        <span class="st-tag">Etapas 4-5</span>
+        <span class="st-slide st-slide--soon">Proximamente</span>
+      </div>
+    </div>
+  </div>
+
+  <div class="st-session">
+    <div class="st-num">07</div>
+    <div class="st-body">
+      <div class="st-title">Sensibilidad, riesgo y casos sectoriales</div>
+      <div class="st-desc">Analisis de sensibilidad y Monte Carlo. Como comunicar la incertidumbre. Casos en vivienda, salud, empleabilidad e inclusion social.</div>
+      <div class="st-foot">
+        <span class="st-tag">Avanzado</span>
+        <span class="st-slide st-slide--soon">Proximamente</span>
+      </div>
+    </div>
+  </div>
+
+  <div class="st-session">
+    <div class="st-num">08</div>
+    <div class="st-body">
+      <div class="st-title">Informe, aseguramiento y toma de decisiones</div>
+      <div class="st-desc">El informe SVI: estructura y audiencias. El proceso de aseguramiento externo. Como usar el SROI en decisiones de inversion social.</div>
+      <div class="st-foot">
+        <span class="st-tag">Etapa 6</span>
+        <span class="st-slide st-slide--soon">Proximamente</span>
+      </div>
+    </div>
+  </div>
+
+</div>
+
+</div>
+</div>
+
+<!-- ============================================================
+     CTA
+     ============================================================ -->
+<div class="content-section vi-cta-section">
+<div class="content-inner">
+<div class="vi-cta-inner">
+  <div class="vi-cta-text">
+    <h2>Hablemos de su medicion de impacto</h2>
+    <p>El primer paso es un diagnostico sin costo: revisamos su programa, sus datos disponibles y le recomendamos el metodo mas apropiado para responder la pregunta que necesita responder.</p>
+  </div>
+  <div class="vi-cta-actions">
+    <a href="aplicaciones.html" class="cta-btn cta-btn--primary">Ver casos reales &rarr;</a>
+    <a href="metodologia.html" class="cta-btn cta-btn--outline">Explorar la metodologia</a>
+  </div>
+</div>
+</div>
+</div>
+```
+
+```{=html}
+<style>
+/* ============================================================
+   HERO
+   ============================================================ */
+.vi-header {
+  background: linear-gradient(135deg, #0F172A 0%, #1E3A5F 35%, #4C1D95 70%, #7C3AED 100%);
+}
+
+/* ============================================================
+   TRES SERVICIOS
+   ============================================================ */
+.vi-services-strip {
+  display: grid;
+  grid-template-columns: repeat(3, 1fr);
+  gap: 1.25rem;
+  margin-bottom: 2rem;
+}
+.vi-service {
+  background: white;
+  border-radius: 1rem;
+  padding: 1.75rem 1.5rem 1.5rem;
+  border: 1px solid #E2E8F0;
+  border-top: 4px solid #E2E8F0;
+  transition: box-shadow 0.2s, transform 0.2s;
+}
+.vi-service:hover {
+  box-shadow: 0 8px 28px rgba(0,0,0,0.09);
+  transform: translateY(-2px);
+}
+.vi-service--consult { border-top-color: #0D9488; }
+.vi-service--train   { border-top-color: #7C3AED; }
+.vi-service--audit   { border-top-color: #0EA5E9; }
+
+.vi-service-icon {
+  font-size: 0.55rem;
+  margin-bottom: 0.85rem;
+}
+.vi-service--consult .vi-service-icon { color: #0D9488; }
+.vi-service--train   .vi-service-icon { color: #7C3AED; }
+.vi-service--audit   .vi-service-icon { color: #0EA5E9; }
+
+.vi-service-name {
+  font-size: 1.05rem;
+  font-weight: 800;
+  color: #0F172A;
+  margin-bottom: 0.75rem;
+  line-height: 1.3;
+}
+.vi-service-desc {
+  font-size: 0.875rem;
+  color: #475569;
+  line-height: 1.7;
+  margin-bottom: 1.1rem;
+}
+.vi-service-tags {
+  display: flex;
+  flex-wrap: wrap;
+  gap: 0.4rem;
+}
+.vi-service-tags span {
+  font-size: 0.68rem;
+  font-weight: 700;
+  background: #F8FAFC;
+  border: 1px solid #E2E8F0;
+  color: #475569;
+  padding: 0.15rem 0.6rem;
+  border-radius: 999px;
+  letter-spacing: 0.03em;
+}
+
+/* ============================================================
+   METHODS GRID
+   ============================================================ */
+.methods-grid {
+  display: grid;
+  grid-template-columns: repeat(auto-fill, minmax(300px, 1fr));
+  gap: 1.15rem;
+  margin: 1.75rem 0 1.25rem;
+}
+.method-card {
+  background: white;
+  border: 1px solid #E2E8F0;
+  border-radius: 0.85rem;
+  padding: 1.4rem;
+  transition: box-shadow 0.2s;
+}
+.method-card:hover { box-shadow: 0 4px 16px rgba(0,0,0,0.07); }
+.method-card--flagship {
+  border-color: #0D9488;
+  border-width: 2px;
+  background: linear-gradient(135deg, #FAFFFE, #F0FDFA);
+  grid-column: span 2;
+}
+.method-badge {
+  font-size: 0.65rem;
+  font-weight: 700;
+  color: #0D9488;
+  text-transform: uppercase;
+  letter-spacing: 0.1em;
+  margin-bottom: 0.5rem;
+}
+.method-name {
+  font-size: 0.975rem;
+  font-weight: 800;
+  color: #0F172A;
+  margin-bottom: 0.6rem;
+  line-height: 1.3;
+}
+.method-desc {
+  font-size: 0.845rem;
+  color: #475569;
+  line-height: 1.65;
+  margin-bottom: 1rem;
+}
+.method-meta {
+  display: flex;
+  flex-direction: column;
+  gap: 0.45rem;
+  padding-top: 0.85rem;
+  border-top: 1px solid #E2E8F0;
+}
+.method-meta-item {
+  display: flex;
+  gap: 0.5rem;
+  font-size: 0.8rem;
+  align-items: flex-start;
+}
+.mm-label {
+  font-weight: 700;
+  color: #64748B;
+  white-space: nowrap;
+  flex-shrink: 0;
+  font-size: 0.75rem;
+}
+.mm-val {
+  color: #334155;
+  line-height: 1.45;
+}
+.method-selector-note {
+  display: flex;
+  gap: 1rem;
+  align-items: flex-start;
+  background: #EFF6FF;
+  border: 1px solid #BFDBFE;
+  border-radius: 0.75rem;
+  padding: 1.1rem 1.5rem;
+}
+.msn-icon {
+  font-size: 1.1rem;
+  color: #3B82F6;
+  flex-shrink: 0;
+  margin-top: 0.1rem;
+}
+.msn-text {
+  font-size: 0.875rem;
+  color: #1E3A5F;
+  line-height: 1.65;
+}
+.msn-text strong {
+  display: block;
+  font-weight: 700;
+  color: #1D4ED8;
+  margin-bottom: 0.25rem;
+}
+
+/* ============================================================
+   AGENTS COMPACT GRID
+   ============================================================ */
+.agents-compact-grid {
+  display: grid;
+  grid-template-columns: repeat(auto-fill, minmax(270px, 1fr));
+  gap: 0.75rem;
+  margin: 1.5rem 0;
+}
+.ac-card {
+  display: flex;
+  align-items: flex-start;
+  gap: 0.75rem;
+  background: white;
+  border: 1px solid #E2E8F0;
+  border-radius: 0.65rem;
+  padding: 0.9rem 1rem;
+  transition: box-shadow 0.15s;
+}
+.ac-card:hover { box-shadow: 0 2px 10px rgba(0,0,0,0.07); }
+.ac-card--orch { border-color: #7C3AED; background: #FAFBFF; }
+.ac-dot {
+  width: 9px;
+  height: 9px;
+  border-radius: 50%;
+  background: #7C3AED;
+  flex-shrink: 0;
+  margin-top: 0.35rem;
+}
+.ac-name {
+  font-size: 0.845rem;
+  font-weight: 700;
+  color: #0F172A;
+  margin-bottom: 0.2rem;
+}
+.ac-desc {
+  font-size: 0.775rem;
+  color: #64748B;
+  line-height: 1.5;
+}
+
+/* ============================================================
+   SESSIONS TRACK
+   ============================================================ */
+.sessions-track {
+  display: grid;
+  grid-template-columns: repeat(auto-fill, minmax(280px, 1fr));
+  gap: 0.9rem;
+  margin: 1.5rem 0;
+}
+.st-session {
+  background: white;
+  border: 1px solid #E2E8F0;
+  border-radius: 0.75rem;
+  padding: 1.1rem 1.25rem;
+  display: flex;
+  gap: 0.9rem;
+  transition: box-shadow 0.15s;
+}
+.st-session:hover { box-shadow: 0 3px 12px rgba(0,0,0,0.07); }
+.st-num {
+  font-size: 1.6rem;
+  font-weight: 900;
+  color: #E2E8F0;
+  line-height: 1;
+  flex-shrink: 0;
+  width: 2.2rem;
+  text-align: right;
+}
+.st-body { flex: 1; }
+.st-title {
+  font-size: 0.855rem;
+  font-weight: 700;
+  color: #0F172A;
+  line-height: 1.3;
+  margin-bottom: 0.35rem;
+}
+.st-desc {
+  font-size: 0.78rem;
+  color: #64748B;
+  line-height: 1.6;
+  margin-bottom: 0.6rem;
+}
+.st-foot {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  gap: 0.5rem;
+}
+.st-tag {
+  font-size: 0.63rem;
+  font-weight: 700;
+  background: #F0FDFA;
+  color: #0D9488;
+  border: 1px solid #99F6E4;
+  padding: 0.12rem 0.5rem;
+  border-radius: 999px;
+  text-transform: uppercase;
+  letter-spacing: 0.04em;
+}
+.st-slide {
+  font-size: 0.7rem;
+  font-weight: 600;
+  text-decoration: none;
+}
+.st-slide--soon {
+  color: #94A3B8;
+  font-style: italic;
+}
+.st-slide--active {
+  color: #7C3AED;
+}
+.st-slide--active:hover { color: #5B21B6; }
+
+/* ============================================================
+   CTA SECTION
+   ============================================================ */
+.vi-cta-section {
+  background: linear-gradient(135deg, #0F172A 0%, #1E3A5F 60%, #4C1D95 100%) !important;
+}
+.vi-cta-inner {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  gap: 2rem;
+  flex-wrap: wrap;
+  padding: 1rem 0;
+}
+.vi-cta-text h2 {
+  font-size: 1.4rem;
+  font-weight: 800;
+  color: white !important;
+  margin: 0 0 0.5rem;
+}
+.vi-cta-text p {
+  font-size: 0.9rem;
+  color: rgba(255,255,255,0.75);
+  margin: 0;
+  max-width: 520px;
+  line-height: 1.65;
+}
+.vi-cta-actions {
+  display: flex;
+  gap: 0.75rem;
+  flex-wrap: wrap;
+  flex-shrink: 0;
+}
+.cta-btn {
+  display: inline-block;
+  font-size: 0.85rem;
+  font-weight: 600;
+  padding: 0.6rem 1.25rem;
+  border-radius: 0.5rem;
+  text-decoration: none !important;
+  white-space: nowrap;
+  transition: all 0.2s;
+}
+.cta-btn--primary {
+  background: #0D9488;
+  color: white !important;
+}
+.cta-btn--primary:hover { background: #0F766E; }
+.cta-btn--outline {
+  background: transparent;
+  color: white !important;
+  border: 1.5px solid rgba(255,255,255,0.4);
+}
+.cta-btn--outline:hover {
+  background: rgba(255,255,255,0.1);
+  border-color: rgba(255,255,255,0.7);
+}
+
+/* ============================================================
+   RESPONSIVE
+   ============================================================ */
+@media (max-width: 900px) {
+  .vi-services-strip { grid-template-columns: 1fr; }
+  .method-card--flagship { grid-column: span 1; }
+}
+@media (max-width: 600px) {
+  .vi-cta-inner { flex-direction: column; align-items: flex-start; }
+  .agents-compact-grid { grid-template-columns: 1fr; }
+}
+</style>
+```

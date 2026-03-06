@@ -1,0 +1,152 @@
+---
+title: "Valor Público — SROI"
+page-layout: full
+toc: false
+---
+
+<!-- HERO -->
+<div class="hero-section">
+<div class="hero-content">
+
+<span class="hero-label">Centro Valor Público · Universidad EAFIT</span>
+
+# Midiendo lo que <span class="teal">verdaderamente</span> importa
+
+<p class="hero-lead">El Retorno Social de la Inversión (SROI) es la metodología más rigurosa para convertir impacto social en lenguaje financiero. Aquí reunimos más de dos años de investigación sistemática, herramientas analíticas de vanguardia y aplicaciones reales en el contexto colombiano.</p>
+
+<div class="hero-actions">
+<a href="metodologia.qmd" class="btn-primary-custom">Explorar la metodología →</a>
+<a href="literatura.qmd" class="btn-outline-custom">Ver revisión de literatura</a>
+</div>
+
+</div>
+</div>
+
+<!-- STATS STRIP -->
+<div class="stats-strip">
+<div class="stats-grid">
+
+<div class="stat-item">
+<span class="stat-number">383</span>
+<span class="stat-label">Reportes SVI analizados</span>
+</div>
+
+<div class="stat-item">
+<span class="stat-number">54</span>
+<span class="stat-label">Estudios académicos revisados</span>
+</div>
+
+<div class="stat-item">
+<span class="stat-number">4.53×</span>
+<span class="stat-label">Ratio SROI mediano (global)</span>
+</div>
+
+<div class="stat-item">
+<span class="stat-number">13</span>
+<span class="stat-label">Agentes IA especializados</span>
+</div>
+
+<div class="stat-item">
+<span class="stat-number">1ro</span>
+<span class="stat-label">Ecosistema SROI en Colombia</span>
+</div>
+
+</div>
+</div>
+
+<!-- OVERVIEW -->
+<div class="section-overview">
+
+<div class="section-title">
+<h2>Una plataforma de conocimiento vivo</h2>
+<p>Cinco dimensiones del expertise SROI, integradas y actualizadas continuamente.</p>
+</div>
+
+<div class="cards-grid" style="grid-template-columns: repeat(auto-fill, minmax(260px, 1fr));">
+
+<a href="metodologia.qmd" class="section-card" style="--card-accent: #0D9488">
+<span class="card-icon">&#9881;</span>
+<div class="card-title">Metodología</div>
+<p class="card-desc">El marco conceptual y técnico del SROI: las 6 etapas, los métodos de valoración, los factores de ajuste y los 8 principios de Social Value International.</p>
+<span class="card-arrow">Explorar →</span>
+</a>
+
+<a href="literatura.qmd" class="section-card" style="--card-accent: #8B5CF6">
+<span class="card-icon">&#128218;</span>
+<div class="card-title">Literatura Académica</div>
+<p class="card-desc">Revisión sistemática PRISMA de 54 estudios académicos: hallazgos, críticas metodológicas, brechas de investigación y agenda para América Latina.</p>
+<span class="card-arrow">Explorar →</span>
+</a>
+
+<a href="evidencia.qmd" class="section-card" style="--card-accent: #0EA5E9">
+<span class="card-icon">&#127758;</span>
+<div class="card-title">Evidencia Internacional</div>
+<p class="card-desc">Estadísticas descriptivas de 383 reportes del ecosistema SVI global: distribución por sector, ratios, geografía y lo que nos dicen sobre la efectividad de los programas.</p>
+<span class="card-arrow">Explorar →</span>
+</a>
+
+<a href="herramientas.qmd" class="section-card" style="--card-accent: #7C3AED">
+<span class="card-icon">&#9999;</span>
+<div class="card-title">Servicios · VALOR·IA</div>
+<p class="card-desc">Conocimiento académico + inteligencia artificial al servicio de la valoración. Acompañamiento (SROI, CBA, WELLBY), formación y auditoría de informes.</p>
+<span class="card-arrow">Explorar →</span>
+</a>
+
+<a href="aplicaciones.qmd" class="section-card" style="--card-accent: #DC2626">
+<span class="card-icon">&#128202;</span>
+<div class="card-title">Aplicaciones</div>
+<p class="card-desc">Portafolio de casos reales de SROI en Colombia: diagnóstico completo, escenarios optimizados y benchmarking contra el corpus internacional.</p>
+<span class="card-arrow">Explorar →</span>
+</a>
+
+</div>
+</div>
+
+<!-- POSITIONING -->
+<div class="content-section">
+<div class="content-inner">
+
+<span class="section-label">Por qué esto importa</span>
+<h2 class="section-heading">El problema del valor invisible</h2>
+
+<p>Miles de millones de pesos se invierten cada año en programas sociales en Colombia. La gran mayoría no puede demostrar —en términos que un directivo financiero entienda— cuánto valor real genera por cada peso invertido. No porque el impacto no exista, sino porque nadie lo ha medido con el rigor adecuado.</p>
+
+<p>El SROI resuelve exactamente este problema. Pero hacerlo bien requiere dominar simultáneamente la econometría del bienestar, la teoría del cambio, la estadística de encuestas y los estándares de aseguramiento de Social Value International. En Colombia, esa combinación de capacidades es escasa.</p>
+
+<p>Este sitio documenta el proceso de construir ese expertise desde cero: revisando toda la literatura académica disponible, analizando cada reporte asegurado por SVI, desarrollando herramientas analíticas propias y aplicando la metodología en contextos reales.</p>
+
+<div style="display: grid; grid-template-columns: repeat(auto-fit, minmax(220px, 1fr)); gap: 1.25rem; margin-top: 2rem;">
+
+<div style="background: #F8FAFC; border: 1px solid #E2E8F0; border-radius: 0.625rem; padding: 1.25rem;">
+<div style="font-size: 1.5rem; margin-bottom: 0.5rem;">🎯</div>
+<div style="font-weight: 700; color: #0F172A; font-size: 0.95rem; margin-bottom: 0.4rem;">Rigor metodológico</div>
+<div style="font-size: 0.83rem; color: #64748B; line-height: 1.6;">Alineado con los 48 criterios del SVI Report Assurance Standard y los 8 principios de Social Value International.</div>
+</div>
+
+<div style="background: #F8FAFC; border: 1px solid #E2E8F0; border-radius: 0.625rem; padding: 1.25rem;">
+<div style="font-size: 1.5rem; margin-bottom: 0.5rem;">🌎</div>
+<div style="font-weight: 700; color: #0F172A; font-size: 0.95rem; margin-bottom: 0.4rem;">Contexto colombiano</div>
+<div style="font-size: 0.83rem; color: #64748B; line-height: 1.6;">Adaptación de proxies internacionales a la realidad local: COP, tasas de descuento del mercado colombiano, fuentes nacionales.</div>
+</div>
+
+<div style="background: #F8FAFC; border: 1px solid #E2E8F0; border-radius: 0.625rem; padding: 1.25rem;">
+<div style="font-size: 1.5rem; margin-bottom: 0.5rem;">🤖</div>
+<div style="font-weight: 700; color: #0F172A; font-size: 0.95rem; margin-bottom: 0.4rem;">IA aplicada</div>
+<div style="font-size: 0.83rem; color: #64748B; line-height: 1.6;">El primer ecosistema de agentes de IA especializados en SROI: desde el diagnóstico hasta el informe final asegurado.</div>
+</div>
+
+</div>
+
+</div>
+</div>
+
+<!-- CTA DARK -->
+<div class="content-section dark">
+<div class="content-inner" style="text-align: center; padding: 2rem 0;">
+
+<h2 style="font-size: 2rem; margin-bottom: 0.75rem;">¿Trabaja usted con impacto social?</h2>
+<p style="max-width: 600px; margin: 0 auto 2rem; font-size: 1.05rem;">El SROI no es una caja negra. Es un proceso riguroso, transparente y auditable. Explorar esta metodología es el primer paso para demostrar el valor real de lo que usted hace.</p>
+<a href="metodologia.qmd" class="btn-primary-custom">Comenzar por la metodología →</a>
+
+</div>
+</div>

@@ -1,0 +1,438 @@
+Schema updated: 48 columns ready
+Reportes a procesar: 376
+Modelo: gpt-4o-mini
+Costo estimado: ~$0.38 USD
+
+[1/376] whizz-kids-sroi-march-2011 → ratio=10 | sector=discapacidad | país=UK | conf=media
+[2/376] social-return-on-investment-analysis-clyde-muirshiel-pa → ratio=9.0 | sector=medio_ambiente | país=UK | conf=alta
+[3/376] substance-abuse-dollars-and-cents-a-social-cost-benefit → ratio=None | sector=salud | país=USA | conf=baja
+[4/376] the-yss-pathways-accommodation-mentoring-pam-service → ratio=16.87 | sector=vivienda | país=UK | conf=alta
+[5/376] food-connect-brisbane-forecast-sroi-report → ratio=16.83 | sector=agricultura | país=Australia | conf=alta
+[6/376] veterans-contact-point-sroi-report → ratio=None | sector=inclusion_social | país=UK | conf=alta
+[7/376] hitting-the-target-missing-the-point-how-government-reg → ratio=None | sector=inclusion_social | país=UK | conf=media
+[8/376] nsw-employment-program-evaluation-and-social-return-on- → ratio=1.97 | sector=empleo | país=Australia | conf=alta
+[9/376] through-a-glass-darkly-measuring-the-social-value-of-un → ratio=None | sector=educacion | país=UK | conf=media
+[10/376] public-social-partnerships-employability-pilot-sroi → ratio=9.93 | sector=discapacidad | país=UK | conf=alta
+[11/376] vienna-university-of-economics-and-business-casa-abraha → ratio=3.47 | sector=infancia_juventud | país=Austria | conf=alta
+[12/376] evaluation-of-four-recovery-communities-across-england- → ratio=None | sector=inclusion_social | país=UK | conf=media
+[13/376] social-return-on-investment-report-the-yss-worcestershi → ratio=8.69 | sector=infancia_juventud | país=UK | conf=alta
+[14/376] north-ayrshire-fab-pad-project → ratio=8.38 | sector=inclusion_social | país=Scotland | conf=alta
+[15/376] subliminal-directions-social-return-on-investment-repor → ratio=8.27 | sector=educacion | país=UK | conf=alta
+[16/376] craft-cafe-sroi-evaluation → ratio=None | sector=personas_mayores | país=Escocia | conf=alta
+[17/376] integrating-adaptation-into-redd-potential-impacts-and- → ratio=None | sector=medio_ambiente | país=Indonesia | conf=media
+[18/376] food-connect-sydney-forecast-sroi-report → ratio=7.96 | sector=agricultura | país=Australia | conf=alta
+[19/376] the-social-value-of-carmichael-centre-2 → ratio=None | sector=inclusion_social | país=Ireland | conf=alta
+[20/376] sunderland-xl-youth-villages-sroi-evaluation → ratio=3.5 | sector=infancia_juventud | país=UK | conf=alta
+[21/376] cufa-sroi-report → ratio=5.13 | sector=microfinanzas | país=Cambodia | conf=alta
+[22/376] community-first-moray-sroi-analysis → ratio=None | sector=personas_mayores | país=UK | conf=alta
+[23/376] a-balanced-family → ratio=None | sector=inclusion_social | país=Países Bajos | conf=alta
+[24/376] measuring-the-sroi-of-stage-3-adaptations-and-very-shel → ratio=None | sector=vivienda | país=Scotland | conf=None
+[25/376] traveller-womens-community-development-programme-a-soci → ratio=6.59 | sector=inclusion_social | país=UK | conf=alta
+[26/376] choices-plus-an-sroi-study → ratio=None | sector=empleo | país=UK | conf=alta
+[27/376] ashram-employment-and-skills-service → ratio=None | sector=empleo | país=UK | conf=alta
+[28/376] cambridgeshires-funded-two-year-old-childcare-social-re → ratio=None | sector=infancia_juventud | país=UK | conf=alta
+[29/376] the-social-return-on-investment-of-drug-and-alcohol-fam → ratio=None | sector=salud | país=UK | conf=alta
+[30/376] the-wise-group-cadder-environmental-improvement-project → ratio=None | sector=medio_ambiente | país=UK | conf=media
+[31/376] an-evaluation-of-social-added-value-for-horizon-care-an → ratio=4.53 | sector=vivienda | país=UK | conf=alta
+[32/376] care-repair-west-lothian-sroi-analysis-summary → ratio=4.53 | sector=personas_mayores | país=UK | conf=alta
+[33/376] perth-ymca-get-ready-for-work-programme-social-retun-on → ratio=4.35 | sector=empleo | país=UK | conf=alta
+[34/376] sroi-evaluation-analysis-conversations-project → ratio=None | sector=arte_cultura | país=Emiratos Árabes Unidos | conf=media
+[35/376] national-specialist-family-service-phoenix-futures-sroi → ratio=None | sector=inclusion_social | país=UK | conf=media
+[36/376] social-return-on-investment-of-tasmanian-youth-justice- → ratio=None | sector=justicia | país=Australia | conf=media
+[37/376] an-sroi-analysis-of-anchor-house → ratio=3.98 | sector=inclusion_social | país=UK | conf=alta
+[38/376] be-by-gentoo → ratio=None | sector=bienestar | país=UK | conf=alta
+[39/376] rnib-and-action-for-blind-people-social-firms-a-social- → ratio=4.8 | sector=discapacidad | país=UK | conf=alta
+[40/376] trident-reach-homeless-link-transition-fund-project → ratio=None | sector=justicia | país=UK | conf=alta
+[41/376] an-evaluation-of-the-social-value-of-the-get-into-readi → ratio=None | sector=inclusion_social | país=UK | conf=alta
+[42/376] the-benefits-on-investing-in-early-child-development-an → ratio=None | sector=infancia_juventud | país=Ecuador | conf=None
+[43/376] a-social-return-on-investment-analysis-on-emfils-microf → ratio=None | sector=microfinanzas | país=India | conf=alta
+[44/376] victorian-womens-housing-association-research-report → ratio=3.14 | sector=vivienda | país=Australia | conf=alta
+[45/376] octavia-view-sroi-forecast → ratio=3.13 | sector=vivienda | país=UK | conf=alta
+[46/376] country-education-foundation-of-australia-sroi-forecast → ratio=None | sector=educacion | país=Australia | conf=alta
+[47/376] fair-gains-sroi-case-study → ratio=3.08 | sector=inclusion_social | país=Canada | conf=alta
+[48/376] future-jobs-fund-programme-sroi-evaluation → ratio=2.9 | sector=empleo | país=UK | conf=media
+[49/376] secondbite-food-distribution-activities-social-return-o → ratio=2.75 | sector=inclusion_social | país=Australia | conf=alta
+[50/376] furnish-sroi-report → ratio=None | sector=inclusion_social | país=UK | conf=alta
+[51/376] social-impact-analysis-for-sewa-day-on-7-october-2012 → ratio=None | sector=inclusion_social | país=UK | conf=baja
+[52/376] hidden-value-demonstrating-the-extraordinary-impact-of- → ratio=None | sector=None | país=UK | conf=media
+[53/376] befriending-at-the-quays-a-social-return-on-investment- → ratio=None | sector=salud | país=UK | conf=alta
+[54/376] the-social-return-on-investment-for-cleanstart → ratio=2.03 | sector=justicia | país=UK | conf=alta
+[55/376] partnership-brokers-program-baseline-social-return-on-i → ratio=None | sector=educacion | país=Australia | conf=alta
+[56/376] striking-the-right-balance-a-social-return-on-investmen → ratio=1.5 | sector=vivienda | país=Scotland | conf=alta
+[57/376] the-economic-and-social-impact-of-british-gas-energy-tr → ratio=None | sector=vivienda | país=UK | conf=media
+[58/376] evaluation-of-sroi-created-through-gentoo-living-older- → ratio=None | sector=personas_mayores | país=UK | conf=alta
+[59/376] nottingham-city-homes-decent-homes-impact-study → ratio=None | sector=vivienda | país=UK | conf=alta
+[60/376] sroi-evaluation-of-supported-apprenticeship-programme → ratio=None | sector=empleo | país=UK | conf=alta
+[61/376] auchinleck-community-development-initiative-sroi-foreca → ratio=3.0 | sector=medio_ambiente | país=UK | conf=alta
+[62/376] new-barracks-estate-retrofit-post-retrofit-evaluative-s → ratio=1.58 | sector=vivienda | país=UK | conf=alta
+[63/376] nef-investing-for-social-value → ratio=None | sector=None | país=UK | conf=media
+[64/376] the-value-of-business-involvement-in-youth-development → ratio=0.83 | sector=infancia_juventud | país=Sudáfrica | conf=alta
+[65/376] lawnmowers-independent-theatre-company-sroi → ratio=4.25 | sector=discapacidad | país=UK | conf=alta
+[66/376] dame-kelly-holmes-trust-impact-report-201314 → ratio=None | sector=inclusion_social | país=UK | conf=alta
+[67/376] institute-of-advanced-motorists-social-impact-evaluatio → ratio=None | sector=seguridad_vial | país=UK | conf=alta
+[68/376] greenspace-scotland-sroi-of-the-greenlink → ratio=None | sector=medio_ambiente | país=Scotland | conf=alta
+[69/376] berkshire-association-of-clubs-for-young-people-sroi-ev → ratio=None | sector=infancia_juventud | país=UK | conf=alta
+[70/376] pachamama-coffee-co-op → ratio=None | sector=agricultura | país=USA | conf=media
+[71/376] real-jobs-sroi-evaluation → ratio=None | sector=empleo | país=UK | conf=alta
+[72/376] catalysts-for-community-action-and-investment-sroi → ratio=2.16 | sector=inclusion_social | país=UK | conf=alta
+[73/376] the-cedar-foundation-community-inclusion-programmes-sro → ratio=3.19 | sector=inclusion_social | país=UK | conf=alta
+[74/376] gorgie-city-farm-community-gardening-project-sroi → ratio=3.56 | sector=medio_ambiente | país=UK | conf=alta
+[75/376] the-value-of-hamelin-trusts-roots-and-shoots-sroi → ratio=None | sector=discapacidad | país=UK | conf=None
+[76/376] the-breadmaker-sroi → ratio=None | sector=discapacidad | país=UK | conf=alta
+[77/376] kesho-organisation-secondary-school-programme-sroi → ratio=None | sector=educacion | país=Kenya | conf=alta
+[78/376] fifteen-sroi → ratio=9.5 | sector=empleo | país=UK | conf=alta
+[79/376] families-and-schools-together-sroi-case-study → ratio=None | sector=infancia_juventud | país=Canada | conf=media
+[80/376] beltline-youth-centre-sroi-case-study → ratio=None | sector=infancia_juventud | país=Canada | conf=media
+[81/376] youth-matters-program-sroi-case-study → ratio=11.72 | sector=infancia_juventud | país=Canada | conf=baja
+[82/376] ywca-mary-dover-house-sroi-case-study → ratio=2.7 | sector=vivienda | país=Canada | conf=media
+[83/376] louise-dean-centre-programming-for-pregnant-and-parenti → ratio=None | sector=educacion | país=Canada | conf=alta
+[84/376] discovery-house-child-and-youth-services-sroi-case-stud → ratio=11.37 | sector=infancia_juventud | país=Canada | conf=alta
+[85/376] family-diversionary-program-sroi-case-study → ratio=10.0 | sector=infancia_juventud | país=Canada | conf=alta
+[86/376] community-respite-program-sroi-case-study → ratio=None | sector=infancia_juventud | país=Canada | conf=media
+[87/376] measuring-the-social-impact-of-the-tomorrows-people-wel → ratio=None | sector=empleo | país=UK | conf=media
+[88/376] pubs-and-places-the-social-value-of-community-pubs → ratio=None | sector=inclusion_social | país=UK | conf=media
+[89/376] calgary-youth-justice-committee-program-sroi-case-study → ratio=5.52 | sector=justicia | país=Canada | conf=media
+[90/376] calgary-senior-resource-society-sroi-case-study → ratio=None | sector=personas_mayores | país=Canada | conf=media
+[91/376] cost-benefit-analysis-of-interventions-with-parents → ratio=None | sector=infancia_juventud | país=UK | conf=alta
+[92/376] communities-and-local-government-supporting-people-prog → ratio=None | sector=vivienda | país=UK | conf=baja
+[93/376] sroi-analysis-of-the-housing-coordinator-project → ratio=None | sector=vivienda | país=Canada | conf=alta
+[94/376] the-economic-and-social-costs-of-crime → ratio=None | sector=justicia | país=UK | conf=baja
+[95/376] making-services-better-costs-and-benefits-of-the-young- → ratio=None | sector=infancia_juventud | país=UK | conf=media
+[96/376] pwc-economic-cost-of-underachievement → ratio=None | sector=educacion | país=UK | conf=media
+[97/376] a-fare-return-ensuring-the-uks-railways-deliver-true-va → ratio=None | sector=otro | país=UK | conf=None
+[98/376] nef-degrees-of-value-how-universities-benefit-society → ratio=None | sector=educacion | país=UK | conf=alta
+[99/376] growing-social-capital-sroi-analysis → ratio=None | sector=inclusion_social | país=UK | conf=media
+[100/376] cost-benefit-analysis-of-early-childhood-intervention → ratio=None | sector=infancia_juventud | país=Alemania | conf=alta
+[101/376] alliance-of-sector-skills-councils-evaluating-economic- → ratio=None | sector=empleo | país=UK | conf=media
+[102/376] alana-house-sroi → ratio=2.66 | sector=justicia | país=UK | conf=alta
+[103/376] hact-the-social-impact-of-housing-providers → ratio=None | sector=vivienda | país=UK | conf=None
+[104/376] social-return-on-investment-developing-power → ratio=3.2 | sector=medio_ambiente | país=Brasil | conf=media
+[105/376] pact-witney-childrens-centre-sroi-evaluation → ratio=None | sector=infancia_juventud | país=UK | conf=media
+[106/376] investing-in-natural-capital-a-financial-assessment-of- → ratio=8.83 | sector=medio_ambiente | país=India | conf=alta
+[107/376] capturing-the-outcomes-of-hub-mueseums-sustainability-a → ratio=None | sector=medio_ambiente | país=UK | conf=alta
+[108/376] sitra-the-costs-and-benefits-of-housing-related-support → ratio=None | sector=vivienda | país=UK | conf=alta
+[109/376] the-social-value-of-community-housing-in-australia → ratio=None | sector=vivienda | país=Australia | conf=media
+[110/376] the-michael-project-2007-2010-new-perspectives-and-poss → ratio=None | sector=inclusion_social | país=Australia | conf=alta
+[111/376] young-foundation-outcomes-framework-for-young-peoples-s → ratio=None | sector=infancia_juventud | país=UK | conf=alta
+[112/376] st-giles-trust-an-analysis-of-economic-impact → ratio=10.0 | sector=justicia | país=UK | conf=alta
+[113/376] microeconomic-evidence-for-the-benefits-of-investment-i → ratio=None | sector=medio_ambiente | país=UK | conf=alta
+[114/376] youth-justice-cost-benefit-analysis → ratio=10.24 | sector=infancia_juventud | país=UK | conf=alta
+[115/376] investing-in-children-technical-report-april-2012 → ratio=None | sector=infancia_juventud | país=UK | conf=alta
+[116/376] care-repair-programme-irish-lifeage-action → ratio=None | sector=personas_mayores | país=Irlanda | conf=alta
+[117/376] costs-benefits-of-early-years-and-education → ratio=23.0 | sector=educacion | país=UK | conf=media
+[118/376] the-outcomes-and-values-of-souls-advanced-sroi-training → ratio=1.05 | sector=educacion | país=Suecia | conf=alta
+[119/376] the-bridge-project-western-australia-sroi-forecast → ratio=None | sector=justicia | país=Australia | conf=alta
+[120/376] scottish-chamber-orchestraa-pilot-primary-school-reside → ratio=None | sector=educacion | país=UK | conf=None
+[121/376] sroi-forecast-of-phase-1-of-the-vineburgh-development → ratio=None | sector=vivienda | país=UK | conf=alta
+[122/376] create-potential-academy-sroi → ratio=None | sector=empleo | país=UK | conf=media
+[123/376] crein-sroi-analysis → ratio=None | sector=vivienda | país=None | conf=alta
+[124/376] action-for-children-impact-report-2012 → ratio=None | sector=inclusion_social | país=Scotland | conf=alta
+[125/376] making-our-communities-better-places → ratio=3.25 | sector=vivienda | país=Escocia | conf=alta
+[126/376] making-an-impact-a-sroi-study-of-emmaus-uk → ratio=None | sector=None | país=UK | conf=None
+[127/376] coui-teens-and-toddlers-programme → ratio=5.52 | sector=infancia_juventud | país=UK | conf=alta
+[128/376] the-value-of-early-intervention-identifying-the-social- → ratio=None | sector=infancia_juventud | país=UK | conf=alta
+[129/376] work-related-learning-programme-run-by-action-for-kids- → ratio=5.47 | sector=discapacidad | país=UK | conf=alta
+[130/376] daycare-trust-parent-champions-liverpool-prototype-proj → ratio=None | sector=infancia_juventud | país=UK | conf=None
+[131/376] national-association-of-independent-and-non-maintained- → ratio=None | sector=educacion | país=UK | conf=None
+[132/376] shelter-scotland-more-than-housing → ratio=None | sector=vivienda | país=UK | conf=alta
+[133/376] galveston-sroi-case-studies → ratio=None | sector=medio_ambiente | país=USA | conf=alta
+[134/376] sroi-evaluative-analysis-of-introduction-to-supported-e → ratio=None | sector=empleo | país=Canada | conf=media
+[135/376] measuring-social-return-on-investment-for-community-sch → ratio=None | sector=educacion | país=USA | conf=media
+[136/376] worth-every-penny-of-every-pound-the-social-value-of-eq → ratio=None | sector=inclusion_social | país=UK | conf=media
+[137/376] social-return-on-investment-sroi-of-substance-misuse-wo → ratio=None | sector=justicia | país=UK | conf=None
+[138/376] grounded-a-new-approach-to-evaluating-runway-3 → ratio=None | sector=medio_ambiente | país=UK | conf=alta
+[139/376] action-for-children-impact-report-2013 → ratio=None | sector=infancia_juventud | país=UK | conf=alta
+[140/376] galveston-sustainable-return-on-investment → ratio=None | sector=medio_ambiente | país=USA | conf=media
+[141/376] social-return-on-investment-forecast-foresters-communit → ratio=2.07 | sector=microfinanzas | país=Australia | conf=alta
+[142/376] demonstrating-value-a-final-report-on-the-community-sec → ratio=None | sector=None | país=Canada | conf=None
+[143/376] african-australian-inclusion-program-aaip-summary → ratio=6.24 | sector=inclusion_social | país=Australia | conf=alta
+[144/376] twenty-twenty-social-return-on-investment → ratio=None | sector=educacion | país=UK | conf=alta
+[145/376] palestyle-forecast-sroi-report → ratio=None | sector=empleo | país=Jordan | conf=alta
+[146/376] sroi-on-quality-checkers-skills-for-people → ratio=None | sector=discapacidad | país=UK | conf=alta
+[147/376] sroi-analysis-of-the-plusone-mentoring-programme-execut → ratio=7.0 | sector=infancia_juventud | país=UK | conf=alta
+[148/376] sroi-on-dial-a-community-bus-shopping-service → ratio=3.03 | sector=inclusion_social | país=UK | conf=media
+[149/376] atira-property-management-inc-social-return-on-investme → ratio=None | sector=empleo | país=Canada | conf=alta
+[150/376] vienna-universtiy-of-economics-and-business-the-good-wo → ratio=0.98 | sector=empleo | país=Austria | conf=alta
+[151/376] vienna-university-of-economics-and-business-footprints- → ratio=2.44 | sector=inclusion_social | país=Austria | conf=media
+[152/376] vienna-university-of-economics-and-business-fire-brigad → ratio=10.2 | sector=medio_ambiente | país=Austria | conf=media
+[153/376] bookstart-investing-in-the-future-of-our-children-execu → ratio=25.0 | sector=infancia_juventud | país=UK | conf=alta
+[154/376] vienna-university-of-economics-and-business-donate-your → ratio=0.97 | sector=inclusion_social | país=Austria | conf=media
+[155/376] social-return-on-investment-of-citizens-advice-direct → ratio=None | sector=inclusion_social | país=Scotland | conf=media
+[156/376] vienna-univeristy-of-economics-and-business-miteinander → ratio=2.26 | sector=vivienda | país=Austria | conf=alta
+[157/376] vienna-university-of-economics-and-business-initial-hou → ratio=4.41 | sector=vivienda | país=Austria | conf=media
+[158/376] foodbank-hunger-report-2014 → ratio=None | sector=inclusion_social | país=Australia | conf=alta
+[159/376] literacy-buddies-program-ardoch-youth-foundation → ratio=None | sector=educacion | país=Australia | conf=alta
+[160/376] double-impact-citywide-services-in-nottingham-for-peopl → ratio=None | sector=salud | país=UK | conf=media
+[161/376] daisyhouse-transitional-housing-service-2009-2011 → ratio=None | sector=vivienda | país=Ireland | conf=None
+[162/376] off-centre-social-return-on-investment → ratio=None | sector=infancia_juventud | país=UK | conf=None
+[163/376] placing-a-value-on-work → ratio=4.12 | sector=empleo | país=UK | conf=alta
+[164/376] the-economic-and-social-return-of-action-for-childrens- → ratio=None | sector=infancia_juventud | país=UK | conf=baja
+[165/376] first-steps-housing-project-inc-final-sroi-and-evaluati → ratio=6.0 | sector=vivienda | país=Canada | conf=media
+[166/376] a-social-return-on-investment-analysis-of-the-m-pact-mo → ratio=None | sector=infancia_juventud | país=UK | conf=alta
+[167/376] manchester-sport-and-leisure-trust-december-2013-headli → ratio=None | sector=salud | país=UK | conf=media
+[168/376] women-moving-forward-sroi-case-study → ratio=None | sector=inclusion_social | país=Canada | conf=media
+[169/376] talensi-farmer-managed-natural-regeneration-project-gha → ratio=None | sector=medio_ambiente | país=Ghana | conf=baja
+[170/376] social-benefit-analysis-of-hotel-training-centres-room- → ratio=487.48 | sector=empleo | país=USA | conf=alta
+[171/376] manchester-sport-and-leisure-trust-december-2013-full-r → ratio=None | sector=deporte | país=UK | conf=alta
+[172/376] healthy-empowered-resilient-h-e-r-pregnancy-program → ratio=8.24 | sector=salud | país=Canada | conf=alta
+[173/376] low-income-monthly-transit-pass-sroi-case-study → ratio=12.25 | sector=inclusion_social | país=Canada | conf=media
+[174/376] the-value-added-for-families-before-and-after-using-sol → ratio=None | sector=salud | país=Kenya | conf=media
+[175/376] donbac-limited-social-return-on-investment-study → ratio=None | sector=microfinanzas | país=UK | conf=alta
+[176/376] acta-sroi-report → ratio=None | sector=arte_cultura | país=UK | conf=alta
+[177/376] the-economic-and-social-return-of-action-for-childrens- → ratio=None | sector=infancia_juventud | país=UK | conf=alta
+[178/376] measuring-the-impact-of-the-stepup-loan-program → ratio=None | sector=microfinanzas | país=Australia | conf=media
+[179/376] social-return-on-investment-forecast-of-the-indigenous- → ratio=None | sector=microfinanzas | país=Australia | conf=None
+[180/376] social-valuation-of-refuge-services-for-survivors-of-do → ratio=None | sector=vivienda | país=UK | conf=alta
+[181/376] brendoncare-clubs-social-return-on-investment-pilot-rep → ratio=2.1 | sector=personas_mayores | país=UK | conf=alta
+[182/376] introduction-to-supported-employment-2009-2010-sroi-cas → ratio=None | sector=discapacidad | país=Canada | conf=alta
+[183/376] odysseus-mentoring-project-a-summary-appraisal-of-socia → ratio=3.97 | sector=infancia_juventud | país=UK | conf=alta
+[184/376] social-impact-analysis-for-sewa-day-on-6-october-2013 → ratio=4.7 | sector=inclusion_social | país=UK | conf=alta
+[185/376] auckland-council-retrofit-your-home-financial-support-p → ratio=None | sector=vivienda | país=Nueva Zelanda | conf=alta
+[186/376] the-social-return-on-investment-of-food-for-life-school → ratio=None | sector=salud | país=UK | conf=None
+[187/376] cockpit-arts-sroi-evaluation-of-the-business-growth-loa → ratio=None | sector=arte_cultura | país=UK | conf=alta
+[188/376] social-leisure-youth-program-sroi-case-study → ratio=7.23 | sector=inclusion_social | país=Canada | conf=alta
+[189/376] the-outward-bound-trust-social-impact-report-2014 → ratio=None | sector=educacion | país=UK | conf=alta
+[190/376] foodcycle-social-impact-report-2014 → ratio=None | sector=inclusion_social | país=UK | conf=alta
+[191/376] accountability-lab-impact-report-2013 → ratio=None | sector=otro | país=Liberia, Nepal | conf=alta
+[192/376] building-a-qualilty-part-time-jobs-market-a-transformat → ratio=None | sector=empleo | país=UK | conf=media
+[193/376] the-landmarc-difference → ratio=None | sector=medio_ambiente | país=UK | conf=alta
+[194/376] water-for-life-collaborations-for-the-public-good → ratio=None | sector=medio_ambiente | país=India | conf=baja
+[195/376] hct-grounp-impact-report-201112-changing-environment-ch → ratio=None | sector=inclusion_social | país=UK | conf=media
+[196/376] futurefirst-annual-review-201213 → ratio=None | sector=educacion | país=UK | conf=alta
+[197/376] getting-together-the-impact-of-local-gingerbread-groups → ratio=None | sector=inclusion_social | país=UK | conf=alta
+[198/376] send-a-cow-our-impact → ratio=None | sector=agricultura | país=Uganda y Kenya | conf=media
+[199/376] co-operatives-uk-our-impact-in-2013 → ratio=None | sector=otro | país=UK | conf=alta
+[200/376] five-lamps-social-impact-report-april-2013-march-2014 → ratio=None | sector=inclusion_social | país=UK | conf=alta
+[201/376] achievement-for-all-impact-report-201314 → ratio=None | sector=educacion | país=UK | conf=media
+[202/376] the-outward-bound-trust-impact-report-2009 → ratio=None | sector=infancia_juventud | país=UK | conf=media
+[203/376] community-investment-by-social-housing-organisations-me → ratio=None | sector=None | país=None | conf=None
+[204/376] cornerstone-partnership-social-impact-report → ratio=None | sector=vivienda | país=USA | conf=media
+[205/376] unitytrust-bank-our-social-lending-impact-2013 → ratio=None | sector=inclusion_social | país=UK | conf=alta
+[206/376] arc-impact-report-autumn-2014 → ratio=None | sector=empleo | país=UK | conf=alta
+[207/376] skillforce-social-impact-report-2013 → ratio=None | sector=educacion | país=UK | conf=media
+[208/376] solaraid-impact-report-2014 → ratio=None | sector=medio_ambiente | país=Zambia | conf=alta
+[209/376] harrogate-ripon-centres-of-voluntary-service-impact-rep → ratio=None | sector=inclusion_social | país=UK | conf=alta
+[210/376] golden-lane-housing-social-impact-report-2014 → ratio=None | sector=vivienda | país=UK | conf=alta
+[211/376] impact-of-wea-adult-education-2014 → ratio=None | sector=educacion | país=UK | conf=media
+[212/376] unlocking-the-power-together-fairtrade-annual-impact-re → ratio=None | sector=agricultura | país=UK | conf=media
+[213/376] cambodia-impact-report → ratio=None | sector=None | país=Cambodia | conf=media
+[214/376] exeter-cvs-impact-report-2013-2014 → ratio=None | sector=inclusion_social | país=UK | conf=media
+[215/376] national-youth-agency-nya-impact-report-2014 → ratio=None | sector=infancia_juventud | país=UK | conf=media
+[216/376] co-operatives-uk-impact-report-2014 → ratio=None | sector=otro | país=UK | conf=media
+[217/376] priced-out-the-plight-of-low-income-families-and-young- → ratio=None | sector=infancia_juventud | país=UK | conf=media
+[218/376] every-night-you-cry-the-realities-of-having-a-parent-in → ratio=None | sector=infancia_juventud | país=UK | conf=alta
+[219/376] hct-group-impact-report-2014-national-vision-local-impa → ratio=None | sector=discapacidad | país=UK | conf=media
+[220/376] reminiscence-arts-and-dementia-care-impact-on-quality-o → ratio=None | sector=salud | país=UK | conf=media
+[221/376] victim-support-impact-report-201314 → ratio=None | sector=justicia | país=UK | conf=alta
+[222/376] the-downtown-outreach-addiction-partnership-team-doap-p → ratio=9.43 | sector=salud | país=Canada | conf=alta
+[223/376] the-evaluation-of-the-community-support-for-offenders-f → ratio=None | sector=justicia | país=UK | conf=media
+[224/376] night-shelter-impact-report-201314 → ratio=None | sector=vivienda | país=UK | conf=alta
+[225/376] crisis-impact-report-2013-2014 → ratio=None | sector=inclusion_social | país=UK | conf=alta
+[226/376] shaw-trust-making-a-difference-our-year-in-review-2013- → ratio=None | sector=empleo | país=UK | conf=alta
+[227/376] helping-more-people-shelter-impact-report-201213 → ratio=None | sector=vivienda | país=UK | conf=alta
+[228/376] keys-to-the-future-an-independent-evaluation-of-shelter → ratio=None | sector=infancia_juventud | país=UK | conf=alta
+[229/376] keys-to-the-future-an-independent-evaluation-of-shelter → ratio=None | sector=infancia_juventud | país=UK | conf=alta
+[230/376] wales-council-for-voluntary-action-impact-report-2013-1 → ratio=None | sector=inclusion_social | país=UK | conf=None
+[231/376] refugee-council-impact-report-2012-2013 → ratio=None | sector=inclusion_social | país=UK | conf=media
+[232/376] refugee-council-impact-report-2013-2014 → ratio=None | sector=inclusion_social | país=UK | conf=alta
+[233/376] cab-volunteering-how-everyone-benefits-the-value-of-cab → ratio=None | sector=inclusion_social | país=UK | conf=alta
+[234/376] citizens-advice-bureau-our-impact-on-consumer-choices → ratio=None | sector=otro | país=UK | conf=alta
+[235/376] the-national-autistic-society-impact-report-2014 → ratio=None | sector=discapacidad | país=UK | conf=alta
+[236/376] national-energy-action-annual-impact-report-2013-2014 → ratio=None | sector=vivienda | país=UK | conf=alta
+[237/376] lem-report-3-measuring-museum-impacts → ratio=None | sector=arte_cultura | país=Europa | conf=alta
+[238/376] quick-reads-impact-evaluation-report-2012-13 → ratio=None | sector=educacion | país=UK | conf=alta
+[239/376] fields-in-trust-impact-report-2013 → ratio=None | sector=medio_ambiente | país=UK | conf=media
+[240/376] quids-in-the-impact-of-financial-skills-training-for-so → ratio=None | sector=inclusion_social | país=UK | conf=alta
+[241/376] well-meet-again-dont-know-where-dont-know-when-supporti → ratio=None | sector=personas_mayores | país=UK | conf=media
+[242/376] caring-dads-safer-children-interim-evaluation-report → ratio=None | sector=infancia_juventud | país=UK | conf=alta
+[243/376] baby-steps-evidence-from-a-relationships-based-perinata → ratio=None | sector=infancia_juventud | país=UK | conf=alta
+[244/376] helping-parents-cope-with-babies-crying-evaluation-of-a → ratio=None | sector=infancia_juventud | país=UK | conf=alta
+[245/376] turn-the-page-learning-from-a-manualised-approach-to-tr → ratio=None | sector=infancia_juventud | país=UK | conf=alta
+[246/376] contact-the-elderly-impact-report-201213 → ratio=None | sector=personas_mayores | país=UK | conf=alta
+[247/376] case-kent-impact-report-2014 → ratio=10.0 | sector=otro | país=UK | conf=alta
+[248/376] give-gain-day-2013-wales-impact-report → ratio=None | sector=inclusion_social | país=UK | conf=alta
+[249/376] one-year-on-the-impact-of-our-2012-accelerator-course → ratio=None | sector=educacion | país=UK | conf=media
+[250/376] measuring-the-difference-the-economic-and-social-impact → ratio=None | sector=None | país=UK | conf=media
+[251/376] the-impact-of-universities-on-the-uk-economy → ratio=None | sector=educacion | país=UK | conf=alta
+[252/376] social-return-on-investment-for-the-vineburgh-regenerat → ratio=None | sector=vivienda | país=UK | conf=alta
+[253/376] onside-youth-zones-defining-the-impact-of-a-youth-zone → ratio=None | sector=infancia_juventud | país=UK | conf=alta
+[254/376] transforming-lives-the-social-return-on-habitats-work-i → ratio=4.0 | sector=vivienda | país=Canada | conf=alta
+[255/376] crest-co-operatives-social-impact-report-201415 → ratio=None | sector=empleo | país=UK | conf=alta
+[256/376] measuring-the-impact-of-community-mobilisers → ratio=None | sector=otro | país=UK | conf=None
+[257/376] medicine-hat-family-services-new-ways-for-families-nwff → ratio=7.4 | sector=infancia_juventud | país=Canada | conf=media
+[258/376] measuring-tourisms-impact-a-pilot-study-in-cyprus → ratio=None | sector=medio_ambiente | país=Cyprus | conf=alta
+[259/376] hct-group-impact-report-2015 → ratio=None | sector=inclusion_social | país=UK | conf=media
+[260/376] shedherds-bush-housing-group-consolidated-impact-report → ratio=None | sector=vivienda | país=UK | conf=None
+[261/376] rural-womens-gathering → ratio=2.2 | sector=inclusion_social | país=Australia | conf=alta
+[262/376] microvest-social-impact-report-2015 → ratio=None | sector=microfinanzas | país=None | conf=alta
+[263/376] sroi-of-jobs-at-home-for-thrive-homes-watford-community → ratio=2.58 | sector=empleo | país=UK | conf=media
+[264/376] constructing-equality-liverpool-pride-sroi-2014 → ratio=None | sector=inclusion_social | país=UK | conf=media
+[265/376] inspiring-futures-volunteering-for-wellbeing-year-1-exe → ratio=8.78 | sector=salud | país=UK | conf=alta
+[266/376] cufa-social-return-on-investment-report-2014 → ratio=8.07 | sector=microfinanzas | país=Australia | conf=alta
+[267/376] an-evidence-based-report-on-the-economic-impact-of-weav → ratio=None | sector=vivienda | país=UK | conf=media
+[268/376] the-social-value-of-solar-lights-in-africa-to-replace-t → ratio=None | sector=medio_ambiente | país=Africa | conf=None
+[269/376] an-evaluation-of-stick-n-step-charity-in-wirral-merseys → ratio=4.89 | sector=discapacidad | país=UK | conf=alta
+[270/376] impact-report-the-savoy → ratio=None | sector=vivienda | país=USA | conf=media
+[271/376] making-a-difference-for-children-and-families-home-star → ratio=None | sector=infancia_juventud | país=UK | conf=media
+[272/376] manor-house-development-trust-social-return-on-investme → ratio=2.51 | sector=medio_ambiente | país=UK | conf=alta
+[273/376] communities-in-schools-of-mid-america-at-tulsa-impact-r → ratio=None | sector=educacion | país=USA | conf=None
+[274/376] the-troubled-families-programme-a-process-impact-and-so → ratio=None | sector=inclusion_social | país=UK | conf=media
+[275/376] the-sleeping-giant-a-social-return-on-investment-report → ratio=None | sector=None | país=Australia | conf=None
+[276/376] the-social-inclusion-value-of-buses-marchwood → ratio=None | sector=inclusion_social | país=UK | conf=media
+[277/376] measuring-the-size-and-scope-of-the-voluntary-and-commu → ratio=None | sector=otro | país=UK | conf=media
+[278/376] people-helping-people-the-future-of-public-services → ratio=None | sector=inclusion_social | país=UK | conf=alta
+[279/376] real-lettings-property-social-impact-report-201415 → ratio=None | sector=vivienda | país=UK | conf=alta
+[280/376] bikespace-social-impact-report-2015 → ratio=None | sector=infancia_juventud | país=UK | conf=media
+[281/376] pohwer-community-advocacy-impact-report → ratio=None | sector=inclusion_social | país=UK | conf=media
+[282/376] the-dame-kelly-holmes-trust-impact-report-20142015 → ratio=3.7 | sector=inclusion_social | país=UK | conf=alta
+[283/376] value-in-private-equity-where-social-meets-shareholder → ratio=None | sector=inclusion_social | país=UK | conf=alta
+[284/376] bromford-social-value-report-2015 → ratio=9.49 | sector=vivienda | país=UK | conf=media
+[285/376] belu-impact-report-2015 → ratio=None | sector=medio_ambiente | país=UK | conf=alta
+[286/376] achieving-schools-social-impact-assessment → ratio=None | sector=educacion | país=None | conf=alta
+[287/376] accsys-technologies-plc-impact-report → ratio=None | sector=None | país=None | conf=None
+[288/376] the-aspen-intitute-alliance-for-artisan-enterprise-impa → ratio=None | sector=empleo | país=USA | conf=alta
+[289/376] mybnk-impact-report-2013-14 → ratio=None | sector=educacion | país=UK | conf=alta
+[290/376] key-fund-social-impact-report-2015 → ratio=None | sector=inclusion_social | país=UK | conf=baja
+[291/376] the-impact-of-long-term-engagement-on-empowerment-behav → ratio=None | sector=salud | país=UK | conf=alta
+[292/376] social-impact-study-craft-employment-opportunities-a-re → ratio=None | sector=empleo | país=UK | conf=alta
+[293/376] shared-interest-social-accounts-for-the-year-ended-30-s → ratio=None | sector=microfinanzas | país=None | conf=alta
+[294/376] social-enterprise-kent-social-impact-report-2013-14 → ratio=None | sector=inclusion_social | país=UK | conf=alta
+[295/376] pilotlight-impact-2015 → ratio=None | sector=inclusion_social | país=UK | conf=alta
+[296/376] school-home-support-impact-report-201415 → ratio=None | sector=educacion | país=UK | conf=media
+[297/376] enabling-enterprise-impact-report-2014 → ratio=2 | sector=educacion | país=UK | conf=alta
+[298/376] solaraid-impact-report-autumn-2015 → ratio=None | sector=medio_ambiente | país=Africa | conf=alta
+[299/376] tottenham-hotspur-foundation-201415-social-audit-and-im → ratio=7 | sector=deporte | país=UK | conf=alta
+[300/376] the-value-of-return-home-interviews-and-follow-up-suppo → ratio=None | sector=infancia_juventud | país=UK | conf=alta
+[301/376] counting-on-uncertainty-the-economic-case-for-community → ratio=None | sector=medio_ambiente | país=Kenya | conf=None
+[302/376] cost-benefit-analysis-for-a-minimum-standard-for-rental → ratio=None | sector=vivienda | país=Nueva Zelanda | conf=alta
+[303/376] cost-benefit-analysis-for-crime-prevention-opportunity- → ratio=None | sector=justicia | país=None | conf=None
+[304/376] demonstrating-the-benefits-of-early-response-cash-ofr-w → ratio=None | sector=empleo | país=Burkina Faso, Chad, Mauritania, Niger | conf=alta
+[305/376] measuring-impact-and-cost-benefit-a-sudanese-case-study → ratio=None | sector=salud | país=Sudan | conf=alta
+[306/376] cost-benefit-study-of-disaster-risk-mitigation-measures → ratio=None | sector=medio_ambiente | país=Maldives | conf=alta
+[307/376] disaster-preparedness-programmes-in-india-a-cost-benefi → ratio=None | sector=otro | país=India | conf=baja
+[308/376] cost-benefit-analysis-for-community-based-disaster-risk → ratio=None | sector=medio_ambiente | país=Nepal | conf=alta
+[309/376] social-cost-benefit-analysis-of-delhi-metro → ratio=None | sector=medio_ambiente | país=India | conf=media
+[310/376] a-cost-benefit-analysis-of-deforestation-on-the-brazili → ratio=None | sector=medio_ambiente | país=Brasil | conf=alta
+[311/376] a-cost-benefit-analysis-of-practical-actions-livelihood → ratio=1.13 | sector=medio_ambiente | país=Nepal | conf=alta
+[312/376] investing-in-communities-the-benefits-and-costs-of-buil → ratio=None | sector=agricultura | país=Malawi | conf=media
+[313/376] a-cost-benefit-analysis-of-the-new-orleans-flood-protec → ratio=None | sector=medio_ambiente | país=USA | conf=alta
+[314/376] costs-and-benefits-of-flood-mitigation-in-the-lower-bag → ratio=None | sector=medio_ambiente | país=Nepal, India | conf=media
+[315/376] assessing-quality-and-cost-benefit-a-philippines-case-s → ratio=None | sector=otro | país=Philippines | conf=None
+[316/376] mitigation-of-food-wastage-societal-costs-and-benefits → ratio=None | sector=medio_ambiente | país=None | conf=alta
+[317/376] the-long-road-to-resilience-impact-and-cost-benefit-ana → ratio=None | sector=otro | país=Bangladesh | conf=media
+[318/376] pricing-the-priceless-cost-benefit-analysis-of-environm → ratio=None | sector=medio_ambiente | país=USA | conf=?
+[319/376] the-cost-benefit-analysis-of-the-preschool-curriculum-c → ratio=None | sector=educacion | país=USA | conf=None
+[320/376] partnerships-for-change-a-cost-benefit-analysis-of-self → ratio=None | sector=inclusion_social | país=Ethiopia | conf=media
+[321/376] evaluating-costs-and-benefits-of-flood-reduction-under- → ratio=None | sector=medio_ambiente | país=Pakistan | conf=alta
+[322/376] fiji-technical-report-an-economic-analysis-of-flood-war → ratio=None | sector=medio_ambiente | país=Fiji | conf=alta
+[323/376] samoa-technical-report-economic-analysis-of-flood-risk- → ratio=None | sector=medio_ambiente | país=Samoa | conf=media
+[324/376] a-social-cost-benefit-analysis-of-the-rural-social-sche → ratio=2.89 | sector=inclusion_social | país=Irlanda | conf=alta
+[325/376] evaluating-costs-and-benefits-of-flood-reduction-under- → ratio=1 | sector=medio_ambiente | país=India | conf=alta
+[326/376] costs-and-benefits-of-early-warning-systems → ratio=None | sector=None | país=None | conf=None
+[327/376] recycling-cost-benefit-analysis → ratio=None | sector=medio_ambiente | país=Nueva Zelanda | conf=alta
+[328/376] assessing-the-costs-and-benefits-of-adaptation-options- → ratio=None | sector=medio_ambiente | país=None | conf=None
+[329/376] standing-council-on-environment-and-water-cost-benefit- → ratio=None | sector=medio_ambiente | país=Australia | conf=media
+[330/376] stakeholder-focused-cost-benefit-analysis-in-the-water- → ratio=None | sector=medio_ambiente | país=UK | conf=media
+[331/376] assessing-the-social-costs-and-benefits-of-regulating-c → ratio=None | sector=medio_ambiente | país=USA | conf=alta
+[332/376] a-social-cost-benefit-analysis-of-an-electric-vehicle → ratio=None | sector=medio_ambiente | país=Dinamarca | conf=alta
+[333/376] a-social-cost-benefit-analysis-early-intervention-progr → ratio=None | sector=infancia_juventud | país=Australia | conf=alta
+[334/376] the-economics-of-early-response-and-disaster-resilience → ratio=None | sector=None | país=Ethiopia | conf=alta
+[335/376] uttar-pradesh-drought-cost-benefit-analysis → ratio=None | sector=agricultura | país=India | conf=media
+[336/376] impact-assessment-a-report-on-the-woodcraft-folk-in-sct → ratio=None | sector=infancia_juventud | país=Scotland | conf=None
+[337/376] managing-uncertainty-an-economic-evaluation-of-communit → ratio=None | sector=medio_ambiente | país=Niger | conf=None
+[338/376] forgotten-families-the-impact-of-isolation-on-families- → ratio=None | sector=discapacidad | país=UK | conf=media
+[339/376] greasy-palms-the-social-and-ecological-impacts-of-large → ratio=None | sector=medio_ambiente | país=Southeast Asia | conf=alta
+[340/376] girls-friendly-society-annual-review-2013 → ratio=None | sector=infancia_juventud | país=UK | conf=alta
+[341/376] the-health-impacts-of-cold-homes-and-fuel-poverty → ratio=None | sector=salud | país=UK | conf=alta
+[342/376] social-investment-scotland-our-social-impact-2 → ratio=None | sector=inclusion_social | país=Scotland | conf=alta
+[343/376] national-evaluation-of-flying-start-impact-report → ratio=None | sector=infancia_juventud | país=Wales | conf=alta
+[344/376] estimating-the-costs-of-child-poverty-in-2013 → ratio=None | sector=infancia_juventud | país=UK | conf=alta
+[345/376] estimating-the-costs-of-child-poverty → ratio=None | sector=infancia_juventud | país=UK | conf=alta
+[346/376] social-valuation-of-resident-support-services-newlon-fu → ratio=None | sector=empleo | país=UK | conf=alta
+[347/376] student-contributions-to-the-uk-economy → ratio=None | sector=educacion | país=UK | conf=alta
+[348/376] building-bridges-an-evaluation-and-social-return-on-inv → ratio=2.8 | sector=justicia | país=Ireland | conf=alta
+[349/376] investing-in-culture-and-community-the-social-return-on → ratio=None | sector=empleo | país=UK | conf=None
+[350/376] making-a-difference-the-social-impact-of-brigade → ratio=1.57 | sector=empleo | país=UK | conf=alta
+[351/376] alabama-legal-aid-social-return-on-investment → ratio=None | sector=justicia | país=USA | conf=media
+[352/376] iniziative-di-microcredito-e-microfinanza-a-favore-dell → ratio=None | sector=microfinanzas | país=Italia | conf=baja
+[353/376] the-local-food-programme-a-social-return-on-investment- → ratio=None | sector=agricultura | país=UK | conf=alta
+[354/376] football-foundation-sroi-analysis-and-extra-time → ratio=None | sector=personas_mayores | país=UK | conf=alta
+[355/376] survivors-manchester-sroi-report → ratio=None | sector=inclusion_social | país=UK | conf=alta
+[356/376] sroi-evaluation-analysis-ahdaaf-project → ratio=1.98 | sector=deporte | país=Emiratos Árabes Unidos | conf=media
+[357/376] introduction-to-supported-employment → ratio=None | sector=empleo | país=Canada | conf=alta
+[358/376] measuring-social-value-creation-at-saipems-karimun-isla → ratio=None | sector=otro | país=Indonesia | conf=media
+[359/376] region-of-waterloo-step-home-sroi-roll-up-report → ratio=None | sector=vivienda | país=Canada | conf=alta
+[360/376] summary-and-extracts-from-edinburgh-leisures-social-ret → ratio=3.61 | sector=deporte | país=UK | conf=alta
+[361/376] an-sroi-report-from-the-social-resources-institute-in-c → ratio=None | sector=otro | país=China | conf=media
+[362/376] the-social-return-of-real-jobs-summary → ratio=None | sector=empleo | país=UK | conf=alta
+[363/376] womens-support-network-wsn-sroi-pilot-reports → ratio=None | sector=infancia_juventud | país=UK | conf=media
+[364/376] forecast-sroi-report-of-excited-ed-cic-activities → ratio=None | sector=educacion | país=UK | conf=alta
+[365/376] foundation-east-sroi → ratio=3.79 | sector=inclusion_social | país=UK | conf=alta
+[366/376] the-value-of-shoreditch-trusts-blue-marble-training-2 → ratio=None | sector=empleo | país=UK | conf=media
+[367/376] gentoo-living-young-persons-supported-housing-service-s → ratio=None | sector=vivienda | país=UK | conf=alta
+[368/376] adult-and-community-learning-fund-forecast-of-sroi-of-s → ratio=None | sector=salud | país=UK | conf=media
+[369/376] measuring-the-value-created-by-auckland-museums-moana-m → ratio=None | sector=arte_cultura | país=Nueva Zelanda | conf=alta
+[370/376] mayors-music-fund-for-young-londoners-impact-report-201 → ratio=None | sector=arte_cultura | país=UK | conf=alta
+[371/376] skillforce-social-impact-report-2014-2 → ratio=None | sector=educacion | país=UK | conf=None
+[372/376] calvert-foundation-2014-social-impact-report → ratio=None | sector=otro | país=USA | conf=alta
+[373/376] westminster-befriend-a-family-social-impact-evaluation- → ratio=None | sector=inclusion_social | país=UK | conf=alta
+[374/376] cost-analysis-of-anne-arundel-county-maryland-drug-cour → ratio=None | sector=justicia | país=USA | conf=alta
+[375/376] cost-benefit-analysis-of-raising-the-age-of-juvenile-ju → ratio=None | sector=justicia | país=USA | conf=alta
+[376/376] 9541 → ratio=None | sector=salud | país=European Union | conf=media
+
+Completo: 376 procesados | 0 errores
+
+=======================================================
+META-ANÁLISIS SROI — 376 REPORTES PROCESADOS
+=======================================================
+
+Por sector:
+  inclusion_social          n= 64  ratio_promedio=4.42
+  infancia_juventud         n= 53  ratio_promedio=8.36
+  medio_ambiente            n= 46  ratio_promedio=4.71
+  vivienda                  n= 40  ratio_promedio=4.84
+  educacion                 n= 32  ratio_promedio=8.58
+  empleo                    n= 31  ratio_promedio=57.27
+  salud                     n= 16  ratio_promedio=8.82
+  justicia                  n= 16  ratio_promedio=4.6
+  otro                      n= 14  ratio_promedio=10.0
+  discapacidad              n= 13  ratio_promedio=6.56
+  personas_mayores          n= 10  ratio_promedio=3.32
+  microfinanzas             n= 10  ratio_promedio=5.09
+  agricultura               n=  8  ratio_promedio=12.39
+  arte_cultura              n=  6  ratio_promedio=N/A
+  deporte                   n=  4  ratio_promedio=4.2
+  seguridad_vial            n=  1  ratio_promedio=N/A
+  bienestar                 n=  1  ratio_promedio=N/A
+
+Por país (top 10):
+  UK                   n=221
+  Canada               n=26
+  Australia            n=22
+  USA                  n=18
+  Scotland             n=8
+  India                n=7
+  Austria              n=7
+  Nueva Zelanda        n=4
+  Kenya                n=3
+  Ireland              n=3
+
+Factores de impacto (promedios):
+Traceback (most recent call last):
+  File "/Users/jcmunoz/Library/CloudStorage/OneDrive-UniversidadEAFIT/Agents_JC/SROI/scripts/04_extract_meta_analysis.py", line 460, in <module>
+    main()
+    ~~~~^^
+  File "/Users/jcmunoz/Library/CloudStorage/OneDrive-UniversidadEAFIT/Agents_JC/SROI/scripts/04_extract_meta_analysis.py", line 439, in main
+    print_stats(conn)
+    ~~~~~~~~~~~^^^^^^
+  File "/Users/jcmunoz/Library/CloudStorage/OneDrive-UniversidadEAFIT/Agents_JC/SROI/scripts/04_extract_meta_analysis.py", line 336, in print_stats
+    row = conn.execute("""
+          ~~~~~~~~~~~~^^^^
+        SELECT
+        ^^^^^^
+    ...<5 lines>...
+        FROM reports WHERE meta_extracted=1
+        ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+    """).fetchone()
+    ^^^^
+sqlite3.OperationalError: near "drop": syntax error

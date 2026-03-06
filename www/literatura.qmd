@@ -1,0 +1,327 @@
+---
+title: "Revisión de Literatura"
+page-layout: full
+toc: false
+---
+
+<!-- PAGE HEADER -->
+<div class="page-header">
+<div class="page-header-content">
+<span class="page-tag">Evidencia Sistemática</span>
+<h1>Revisión de Literatura SROI</h1>
+<p class="page-lead">Una revisión sistemática bajo protocolo PRISMA de la literatura académica y de los 383 reportes del ecosistema SVI global. La base empírica más completa disponible en español.</p>
+</div>
+</div>
+
+<!-- SCOPE -->
+<div class="content-section">
+<div class="content-inner">
+
+<span class="section-label">Protocolo de investigación</span>
+<h2 class="section-heading">Dos corpus, una visión integrada</h2>
+
+<p>Esta revisión opera en dos dimensiones simultáneas que se complementan. La <strong>literatura académica</strong> provee el marco teórico, las críticas metodológicas y los meta-análisis sobre la validez del SROI. Los <strong>reportes del ecosistema SVI</strong> proveen la evidencia empírica: cómo se aplica realmente la metodología, cuáles son los ratios observados, en qué sectores y contextos, y con qué nivel de rigor.</p>
+
+<div style="display: grid; grid-template-columns: 1fr 1fr; gap: 1.5rem; margin: 2rem 0;">
+
+<div style="background: white; border: 1px solid #E2E8F0; border-radius: 0.75rem; padding: 1.75rem; border-top: 4px solid #8B5CF6;">
+<div style="font-weight: 800; color: #0F172A; font-size: 1.1rem; margin-bottom: 0.75rem;">Literatura académica</div>
+<div style="display: flex; flex-direction: column; gap: 0.5rem;">
+<div style="display: flex; justify-content: space-between; font-size: 0.875rem; padding: 0.4rem 0; border-bottom: 1px solid #F1F5F9;">
+<span style="color: #475569;">Estudios identificados</span>
+<span style="font-weight: 700; color: #8B5CF6;">89</span>
+</div>
+<div style="display: flex; justify-content: space-between; font-size: 0.875rem; padding: 0.4rem 0; border-bottom: 1px solid #F1F5F9;">
+<span style="color: #475569;">Incluidos en síntesis</span>
+<span style="font-weight: 700; color: #8B5CF6;">54</span>
+</div>
+<div style="display: flex; justify-content: space-between; font-size: 0.875rem; padding: 0.4rem 0; border-bottom: 1px solid #F1F5F9;">
+<span style="color: #475569;">Revisiones sistemáticas</span>
+<span style="font-weight: 700; color: #8B5CF6;">7</span>
+</div>
+<div style="display: flex; justify-content: space-between; font-size: 0.875rem; padding: 0.4rem 0; border-bottom: 1px solid #F1F5F9;">
+<span style="color: #475569;">Marcos teóricos</span>
+<span style="font-weight: 700; color: #8B5CF6;">17</span>
+</div>
+<div style="display: flex; justify-content: space-between; font-size: 0.875rem; padding: 0.4rem 0;">
+<span style="color: #475569;">Protocolo</span>
+<span style="font-weight: 700; color: #8B5CF6;">PRISMA 2020</span>
+</div>
+</div>
+</div>
+
+<div style="background: white; border: 1px solid #E2E8F0; border-radius: 0.75rem; padding: 1.75rem; border-top: 4px solid #0D9488;">
+<div style="font-weight: 800; color: #0F172A; font-size: 1.1rem; margin-bottom: 0.75rem;">Reportes SVI globales</div>
+<div style="display: flex; flex-direction: column; gap: 0.5rem;">
+<div style="display: flex; justify-content: space-between; font-size: 0.875rem; padding: 0.4rem 0; border-bottom: 1px solid #F1F5F9;">
+<span style="color: #475569;">Reportes totales</span>
+<span style="font-weight: 700; color: #0D9488;">383</span>
+</div>
+<div style="display: flex; justify-content: space-between; font-size: 0.875rem; padding: 0.4rem 0; border-bottom: 1px solid #F1F5F9;">
+<span style="color: #475569;">Con texto PDF extraído</span>
+<span style="font-weight: 700; color: #0D9488;">302</span>
+</div>
+<div style="display: flex; justify-content: space-between; font-size: 0.875rem; padding: 0.4rem 0; border-bottom: 1px solid #F1F5F9;">
+<span style="color: #475569;">Con ratio SROI</span>
+<span style="font-weight: 700; color: #0D9488;">83</span>
+</div>
+<div style="display: flex; justify-content: space-between; font-size: 0.875rem; padding: 0.4rem 0; border-bottom: 1px solid #F1F5F9;">
+<span style="color: #475569;">Asegurados SVI</span>
+<span style="font-weight: 700; color: #0D9488;">8</span>
+</div>
+<div style="display: flex; justify-content: space-between; font-size: 0.875rem; padding: 0.4rem 0;">
+<span style="color: #475569;">Fuente</span>
+<span style="font-weight: 700; color: #0D9488;">socialvalueuk.org</span>
+</div>
+</div>
+</div>
+
+</div>
+
+</div>
+</div>
+
+<!-- PRISMA -->
+<div class="content-section alt">
+<div class="content-inner">
+
+<span class="section-label">Literatura académica</span>
+<h2 class="section-heading">Diagrama PRISMA — Estado de la revisión</h2>
+
+<p>La revisión sigue el protocolo PRISMA 2020. La pregunta de síntesis: <em>¿Cuáles son las aplicaciones, métodos de valoración, procesos de cálculo y problemas críticos del SROI en los sectores público y privado?</em></p>
+
+<div style="display: grid; grid-template-columns: 1fr; gap: 0.5rem; max-width: 600px; margin: 2rem auto;">
+
+<div class="prisma-box identification">
+<div class="prisma-label">Identificación</div>
+<div style="display: grid; grid-template-columns: 1fr 1fr; gap: 0.75rem;">
+<div>
+<div class="prisma-count">47</div>
+<div class="prisma-desc">Bases de datos académicas (Scopus, WOS, GScholar)</div>
+</div>
+<div>
+<div class="prisma-count">42</div>
+<div class="prisma-desc">Referencias adicionales (BibTeX + PDFs locales)</div>
+</div>
+</div>
+<div style="margin-top: 1rem; padding-top: 0.75rem; border-top: 1px solid #E2E8F0; font-size: 0.875rem; color: #475569;"><strong>Total identificado: 89 registros</strong></div>
+<div class="prisma-arrow">↓</div>
+</div>
+
+<div style="height: 1.5rem;"></div>
+
+<div class="prisma-box screening">
+<div class="prisma-label">Screening</div>
+<div style="display: grid; grid-template-columns: 1fr 1fr; gap: 0.75rem;">
+<div>
+<div class="prisma-count">83</div>
+<div class="prisma-desc">Tras eliminar duplicados</div>
+</div>
+<div>
+<div class="prisma-count" style="color: #DC2626;">19</div>
+<div class="prisma-desc" style="color: #DC2626;">Excluidos (título/abstract): solo mencionan SROI, idioma no elegible</div>
+</div>
+</div>
+<div class="prisma-arrow">↓</div>
+</div>
+
+<div style="height: 1.5rem;"></div>
+
+<div class="prisma-box eligibility">
+<div class="prisma-label">Elegibilidad</div>
+<div style="display: grid; grid-template-columns: 1fr 1fr; gap: 0.75rem;">
+<div>
+<div class="prisma-count">64</div>
+<div class="prisma-desc">Full-text evaluados</div>
+</div>
+<div>
+<div class="prisma-count" style="color: #DC2626;">10</div>
+<div class="prisma-desc" style="color: #DC2626;">Excluidos tras full-text</div>
+</div>
+</div>
+<div class="prisma-arrow">↓</div>
+</div>
+
+<div style="height: 1.5rem;"></div>
+
+<div class="prisma-box inclusion">
+<div class="prisma-label">Inclusión</div>
+<div>
+<div class="prisma-count">54</div>
+<div class="prisma-desc">Estudios incluidos en la síntesis</div>
+</div>
+<div style="display: grid; grid-template-columns: repeat(3, 1fr); gap: 0.5rem; margin-top: 1rem; padding-top: 0.75rem; border-top: 1px solid #E2E8F0;">
+<div style="text-align: center; font-size: 0.82rem; color: #475569;"><strong style="display: block; font-size: 1.2rem; color: #059669;">7</strong>Revisiones sistemáticas</div>
+<div style="text-align: center; font-size: 0.82rem; color: #475569;"><strong style="display: block; font-size: 1.2rem; color: #059669;">18</strong>Aplicaciones sectoriales</div>
+<div style="text-align: center; font-size: 0.82rem; color: #475569;"><strong style="display: block; font-size: 1.2rem; color: #059669;">17</strong>Marcos teóricos</div>
+</div>
+</div>
+
+</div>
+
+</div>
+</div>
+
+<!-- KEY FINDINGS - ACADEMIC -->
+<div class="content-section">
+<div class="content-inner">
+
+<span class="section-label">Síntesis de la evidencia</span>
+<h2 class="section-heading">Lo que dice la literatura académica</h2>
+
+<p>La revisión revela un campo en tensión productiva: el SROI ha ganado tracción como herramienta práctica mucho más rápido que la validación académica de sus supuestos. Estos son los hallazgos más robustos:</p>
+
+<div class="findings-grid">
+
+<div class="finding-card">
+<div class="finding-icon">📈</div>
+<div class="finding-title">Crecimiento bibliométrico acelerado</div>
+<div class="finding-text">La producción académica sobre SROI creció más de 400% entre 2010 y 2023. El pico de publicaciones se registra a partir de 2015, coincidiendo con la consolidación del ecosistema SVI y la adopción del marco por agencias gubernamentales del Reino Unido, Canadá y Australia.</div>
+<div class="finding-cite">Gutiérrez-Nieto et al., 2025 — Bibliometric analysis of SROI</div>
+</div>
+
+<div class="finding-card">
+<div class="finding-icon">⚠️</div>
+<div class="finding-title">Heterogeneidad metodológica crítica</div>
+<div class="finding-text">Las revisiones sistemáticas identifican variabilidad extrema en cómo los estudios aplican los factores de ajuste, seleccionan proxies y justifican supuestos. Esta heterogeneidad dificulta la comparación entre estudios y la construcción de benchmarks confiables.</div>
+<div class="finding-cite">Corvo et al., 2022 — SROI systematic literature review, Meditari Accountancy Research</div>
+</div>
+
+<div class="finding-card">
+<div class="finding-icon">🏥</div>
+<div class="finding-title">Salud pública: el sector más evaluado</div>
+<div class="finding-text">Las aplicaciones en salud pública y servicios sociales constituyen el cluster más grande de evidencia. Las revisiones sistemáticas en este sector muestran ratios SROI entre 1.5 y 12, con mayor rigor en estudios con grupos de control explícitos.</div>
+<div class="finding-cite">Banke-Thomas et al., 2015 — SROI public health systematic review, BMC Public Health</div>
+</div>
+
+<div class="finding-card">
+<div class="finding-icon">🔬</div>
+<div class="finding-title">Validez metodológica: debate abierto</div>
+<div class="finding-text">Un conjunto de autores cuestiona la pretensión de objetividad del SROI, argumentando que la selección de proxies introduce juicios de valor no declarados. La respuesta del campo SVI ha sido fortalecer los principios de transparencia y aseguramiento externo.</div>
+<div class="finding-cite">Maier et al., 2015 — Theoretical criticism of SROI</div>
+</div>
+
+<div class="finding-card">
+<div class="finding-icon">💹</div>
+<div class="finding-title">Inversión de impacto: convergencia emergente</div>
+<div class="finding-text">La literatura más reciente (2023-2025) muestra convergencia entre SROI y los marcos de inversión de impacto (IMM, IMoIC, CSRD). Los inversores institucionales adoptan variantes del SROI para due diligence y reporte de portafolio.</div>
+<div class="finding-cite">Impact Valuation Hub, 2025 — Playbook for investors</div>
+</div>
+
+<div class="finding-card">
+<div class="finding-icon">🌍</div>
+<div class="finding-title">Concentración geográfica extrema</div>
+<div class="finding-text">El 85% de la evidencia publicada proviene de Reino Unido, Australia, Canadá y Estados Unidos. La aplicación en América Latina, África y Asia del Sur está sistemáticamente subrepresentada, lo que crea una brecha de validez en contextos de renta media y baja.</div>
+<div class="finding-cite">Hallazgo propio — análisis de 383 reportes SVI</div>
+</div>
+
+</div>
+
+</div>
+</div>
+
+<!-- LINK TO EVIDENCIA -->
+<div class="content-section alt">
+<div class="content-inner">
+<div style="display:flex;align-items:center;justify-content:space-between;flex-wrap:wrap;gap:1.5rem;padding:0.5rem 0;">
+<div>
+<div style="font-size:0.8rem;font-weight:700;color:#0D9488;text-transform:uppercase;letter-spacing:0.08em;margin-bottom:0.5rem;">Base de datos global · 383 reportes SVI</div>
+<div style="font-size:1.25rem;font-weight:800;color:#0F172A;margin-bottom:0.5rem;">Evidencia Internacional</div>
+<p style="color:#475569;font-size:0.92rem;margin:0;max-width:540px;">Estadísticas descriptivas completas del corpus: distribución por sector, país, tipo de análisis, ratios SROI y qué nos dice sobre la efectividad de los programas a nivel global.</p>
+</div>
+<a href="evidencia.html" style="display:inline-block;background:#0D9488;color:white;font-size:0.85rem;font-weight:600;padding:0.65rem 1.35rem;border-radius:0.5rem;text-decoration:none;white-space:nowrap;">Explorar la base de datos →</a>
+</div>
+</div>
+</div>
+
+<!-- ACADEMIC THEMES -->
+<div class="content-section">
+<div class="content-inner">
+
+<span class="section-label">Ejes temáticos</span>
+<h2 class="section-heading">Los cuatro frentes de investigación</h2>
+
+<div style="display: grid; grid-template-columns: repeat(auto-fit, minmax(240px, 1fr)); gap: 1.25rem; margin: 1.5rem 0;">
+
+<div style="background: white; border: 1px solid #E2E8F0; border-radius: 0.75rem; padding: 1.5rem; border-top: 3px solid #0EA5E9;">
+<div style="font-weight: 800; color: #0F172A; font-size: 0.95rem; margin-bottom: 0.5rem;">T1 — Metodología y críticas</div>
+<div style="font-size: 0.83rem; color: #64748B; line-height: 1.65; margin-bottom: 0.75rem;">La pregunta central: ¿Es el SROI una herramienta válida o una racionalización post-hoc? El campo ha respondido con mayor transparencia, aseguramiento externo y análisis de sensibilidad sistemático.</div>
+<div style="font-size: 0.78rem; color: #0EA5E9; font-weight: 600;">Clave: Corvo 2022, Maier 2015, Banke-Thomas 2015</div>
+</div>
+
+<div style="background: white; border: 1px solid #E2E8F0; border-radius: 0.75rem; padding: 1.5rem; border-top: 3px solid #8B5CF6;">
+<div style="font-weight: 800; color: #0F172A; font-size: 0.95rem; margin-bottom: 0.5rem;">T2 — Sector público</div>
+<div style="font-size: 0.83rem; color: #64748B; line-height: 1.65; margin-bottom: 0.75rem;">Gobierno, salud pública y servicios sociales. Aquí la pregunta SROI se conecta con la asignación de recursos públicos y la evidencia para políticas. Mayor exigencia metodológica, menor flexibilidad en supuestos.</div>
+<div style="font-size: 0.78rem; color: #8B5CF6; font-weight: 600;">Aplicaciones en educación, salud mental, housing</div>
+</div>
+
+<div style="background: white; border: 1px solid #E2E8F0; border-radius: 0.75rem; padding: 1.5rem; border-top: 3px solid #F59E0B;">
+<div style="font-weight: 800; color: #0F172A; font-size: 0.95rem; margin-bottom: 0.5rem;">T3 — Empresa y economía social</div>
+<div style="font-size: 0.83rem; color: #64748B; line-height: 1.65; margin-bottom: 0.75rem;">Empresas sociales, cooperativas y el sector privado con mandato RSE. El SROI aquí sirve tanto para demostrar impacto a inversores como para optimizar el diseño de programas sociales corporativos.</div>
+<div style="font-size: 0.78rem; color: #D97706; font-weight: 600;">Conexión con marcos ESG e inversión de impacto</div>
+</div>
+
+<div style="background: white; border: 1px solid #E2E8F0; border-radius: 0.75rem; padding: 1.5rem; border-top: 3px solid #059669;">
+<div style="font-weight: 800; color: #0F172A; font-size: 0.95rem; margin-bottom: 0.5rem;">T4 — Métodos de valoración</div>
+<div style="font-size: 0.83rem; color: #64748B; line-height: 1.65; margin-bottom: 0.75rem;">El núcleo técnico del campo: WTP contingente, WELLBY, costos unitarios, experimentos de elección. La frontera actual es la adaptación de métodos desarrollados en países de renta alta a contextos de renta media.</div>
+<div style="font-size: 0.78rem; color: #059669; font-weight: 600;">Wellbeing guidance (HM Treasury), HACT Value Bank</div>
+</div>
+
+</div>
+
+</div>
+</div>
+
+<!-- GAP -->
+<div class="content-section alt">
+<div class="content-inner">
+
+<span class="section-label">Brecha identificada</span>
+<h2 class="section-heading">El SROI en América Latina: una agenda de investigación</h2>
+
+<p>El análisis de los 383 reportes SVI confirma una brecha geográfica profunda: no existe un solo reporte de un programa latinoamericano asegurado por SVI en la base de datos. La literatura académica en español sobre aplicaciones SROI es igualmente escasa.</p>
+
+<p>Esto no significa que no haya valor social que medir en la región — significa que el ecosistema de capacidades para medirlo con rigor es incipiente. Los desafíos específicos del contexto latinoamericano que esta revisión identifica:</p>
+
+<div style="display: flex; flex-direction: column; gap: 0.75rem; margin: 1.5rem 0;">
+
+<div style="display: flex; gap: 1rem; padding: 1rem 1.25rem; background: white; border: 1px solid #E2E8F0; border-radius: 0.5rem;">
+<div style="font-weight: 700; color: #0D9488; min-width: 2rem; font-size: 1.1rem;">01</div>
+<div style="font-size: 0.875rem; color: #334155; line-height: 1.6;"><strong>Ausencia de bases de datos de proxies locales.</strong> Los proxies de NHS, PSSRU y HACT no son directamente transferibles a contextos latinoamericanos sin validación local. La construcción de bases de referencia en COP, PEN, BRL es una urgencia metodológica.</div>
+</div>
+
+<div style="display: flex; gap: 1rem; padding: 1rem 1.25rem; background: white; border: 1px solid #E2E8F0; border-radius: 0.5rem;">
+<div style="font-weight: 700; color: #0D9488; min-width: 2rem; font-size: 1.1rem;">02</div>
+<div style="font-size: 0.875rem; color: #334155; line-height: 1.6;"><strong>Contextos de alta informalidad.</strong> Las metodologías asumen sistemas de servicios formales cuyo costo alternativo es medible. En territorios con alta informalidad, los costos alternativos son opcos o inexistentes, lo que requiere adaptación metodológica.</div>
+</div>
+
+<div style="display: flex; gap: 1rem; padding: 1rem 1.25rem; background: white; border: 1px solid #E2E8F0; border-radius: 0.5rem;">
+<div style="font-weight: 700; color: #0D9488; min-width: 2rem; font-size: 1.1rem;">03</div>
+<div style="font-size: 0.875rem; color: #334155; line-height: 1.6;"><strong>Desigualdad extrema y valores de bienestar.</strong> El enfoque WELLBY fue calibrado en distribuciones de ingreso europeas. En contextos de alta desigualdad, el valor marginal del bienestar por punto de la escala Cantril varía significativamente por quintil de ingreso.</div>
+</div>
+
+<div style="display: flex; gap: 1rem; padding: 1rem 1.25rem; background: white; border: 1px solid #E2E8F0; border-radius: 0.5rem;">
+<div style="font-weight: 700; color: #0D9488; min-width: 2rem; font-size: 1.1rem;">04</div>
+<div style="font-size: 0.875rem; color: #334155; line-height: 1.6;"><strong>Conflicto armado y efectos post-conflicto.</strong> Los programas en territorios afectados por el conflicto generan outcomes con complejidades causales que los modelos estándar de deadweight y atribución no capturan: agencia comunitaria preexistente, trauma histórico, liderazgos en contextos de riesgo.</div>
+</div>
+
+</div>
+
+<div class="insight-box">
+<div class="insight-label">Oportunidad de investigación</div>
+<p>Esta revisión es el punto de partida para construir el primer benchmark de ratios SROI para América Latina, adaptado a los contextos institucionales, económicos y culturales de la región. La agenda incluye la creación de proxies validados localmente, protocolos de involucramiento para comunidades en territorios de conflicto y una base de datos de aplicaciones reales en la región.</p>
+</div>
+
+</div>
+</div>
+
+<!-- FOOTER NAVIGATION -->
+<div class="content-section dark">
+<div class="content-inner" style="display: flex; justify-content: space-between; align-items: center; flex-wrap: wrap; gap: 1rem; padding: 1rem 0;">
+<div>
+<div style="color: #94A3B8; font-size: 0.82rem; margin-bottom: 0.35rem;">Siguiente sección</div>
+<div style="font-size: 1.1rem; font-weight: 700; color: white;">Evidencia Internacional →</div>
+</div>
+<a href="evidencia.html" class="btn-primary-custom">Explorar los 383 reportes SVI</a>
+</div>
+</div>

@@ -1,0 +1,55 @@
+project:
+  type: website
+  output-dir: ../docs
+
+website:
+  title: "Valor Público — SROI"
+  description: "Centro de expertise en Retorno Social de la Inversión · EAFIT"
+  favicon: images/favicon.svg
+
+  navbar:
+    background: "#0F172A"
+    foreground: light
+    pinned: true
+    left:
+      - href: index.qmd
+        text: Inicio
+      - href: metodologia.qmd
+        text: Metodología
+      - href: literatura.qmd
+        text: Literatura
+      - href: evidencia.qmd
+        text: Evidencia Internacional
+      - href: herramientas.qmd
+        text: "Servicios"
+      - href: aplicaciones.qmd
+        text: Aplicaciones
+    right:
+      - text: "CVP · EAFIT"
+        href: "https://www.eafit.edu.co"
+
+  page-footer:
+    background: "#0F172A"
+    foreground: light
+    left: "Centro Valor Público · Universidad EAFIT"
+    center: "Valor Público — SROI · Midiendo lo que importa"
+    right: "© 2026"
+
+  sidebar: false
+
+  open-graph:
+    title: "SROI Colombia · CVP EAFIT"
+    description: "Expertise en Retorno Social de la Inversión para Colombia y América Latina"
+    image: images/og-image.png
+
+format:
+  html:
+    theme: [cosmo, styles.scss]
+    toc: false
+    smooth-scroll: true
+    highlight-style: arrow-dark
+    include-in-header:
+      text: |
+        <link rel="preconnect" href="https://fonts.googleapis.com">
+        <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+        <link href="https://fonts.googleapis.com/css2?family=Inter:wght@300;400;500;600;700;800;900&family=JetBrains+Mono:wght@400;500&display=swap" rel="stylesheet">
