@@ -69,10 +69,6 @@ description: "Portafolio de casos reales donde el SROI ha transformado decisione
       </p>
 
       <div class="case-metrics">
-        <div class="case-metric">
-          <span class="metric-value">1.59&times;</span>
-          <span class="metric-label">SROI conservador (3 anos)</span>
-        </div>
         <div class="case-metric case-metric--highlight">
           <span class="metric-value">2.35&times;</span>
           <span class="metric-label">SROI central (3 anos)</span>
@@ -80,6 +76,10 @@ description: "Portafolio de casos reales donde el SROI ha transformado decisione
         <div class="case-metric">
           <span class="metric-value">3.37&times;</span>
           <span class="metric-label">SROI a 5 anos (vida util)</span>
+        </div>
+        <div class="case-metric">
+          <span class="metric-value">P38</span>
+          <span class="metric-label">Percentil global SVI</span>
         </div>
       </div>
 

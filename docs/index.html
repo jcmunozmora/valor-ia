@@ -411,6 +411,77 @@ ul.task-list li input[type="checkbox"] {
 </div>
 
 <!-- ============================================================
+     SEMÁFORO DE MADUREZ (VERSIÓN COMPACTA)
+     ============================================================ -->
+<div class="content-section idx-maturity-section">
+<div class="content-inner">
+
+<div class="idx-section-label">Maduracion del impacto</div>
+<h2 class="section-heading anchored">¿En que nivel esta hoy su programa?</h2>
+<p style="color:#475569;font-size:0.95rem;max-width:620px;margin-bottom:2rem;">
+  Medir el impacto no es un evento — es un proceso de aprendizaje. Lo acompanamos
+  desde la revision del diseno hasta el aseguramiento SVI verificado.
+</p>
+
+<div class="idx-maturity-steps">
+
+  <div class="idx-ms-step idx-ms-n1">
+    <div class="idx-ms-badge">N1</div>
+    <div class="idx-ms-name">Revision de diseno</div>
+    <div class="idx-ms-claim">"El programa esta bien disenado"</div>
+    <div class="idx-ms-service">Teoria del Cambio · Impact Map</div>
+  </div>
+
+  <div class="idx-ms-arrow">→</div>
+
+  <div class="idx-ms-step idx-ms-n2">
+    <div class="idx-ms-badge">N2</div>
+    <div class="idx-ms-name">Monitoreo de outputs</div>
+    <div class="idx-ms-claim">"Entregamos lo que prometimos"</div>
+    <div class="idx-ms-service">Sistema M&amp;E · Dashboard</div>
+  </div>
+
+  <div class="idx-ms-arrow">→</div>
+
+  <div class="idx-ms-step idx-ms-n3">
+    <div class="idx-ms-badge">N3</div>
+    <div class="idx-ms-name">Evaluacion de outcomes</div>
+    <div class="idx-ms-claim">"El programa contribuyo al cambio"</div>
+    <div class="idx-ms-service">SROI completo · WELLBY · Benchmark SVI</div>
+  </div>
+
+  <div class="idx-ms-arrow">→</div>
+
+  <div class="idx-ms-step idx-ms-n4">
+    <div class="idx-ms-badge">N4</div>
+    <div class="idx-ms-name">Diseno cuasi-experimental</div>
+    <div class="idx-ms-claim">"El programa causo el cambio"</div>
+    <div class="idx-ms-service">SROI + PSM/DiD · Aseguramiento SVI</div>
+  </div>
+
+  <div class="idx-ms-arrow">→</div>
+
+  <div class="idx-ms-step idx-ms-n5">
+    <div class="idx-ms-badge">N5</div>
+    <div class="idx-ms-name">Ensayo controlado (RCT)</div>
+    <div class="idx-ms-claim">"Estandar dorado de evidencia"</div>
+    <div class="idx-ms-service">SROI verificado · Publicacion SVI global</div>
+  </div>
+
+</div>
+
+<div class="idx-maturity-note">
+  <div>
+    La mayoria de los programas sociales en Colombia opera en <strong>N2 o N3</strong>.
+    Avanzar un nivel cambia significativamente la solidez de lo que puede afirmar ante sus financiadores.
+  </div>
+  <a href="herramientas.html#evidencia-y-causalidad" class="idx-maturity-link">Ver semaforo completo →</a>
+</div>
+
+</div>
+</div>
+
+<!-- ============================================================
      CASOS REALES
      ============================================================ -->
 <div class="content-section alt">
@@ -706,6 +777,111 @@ ul.task-list li input[type="checkbox"] {
   margin-top: 0.5rem;
   flex-shrink: 0;
 }
+
+/* ============================================================
+   SEMÁFORO COMPACTO — INDEX
+   ============================================================ */
+.idx-maturity-section { background: white; }
+
+.idx-maturity-steps {
+  display: flex;
+  align-items: stretch;
+  gap: 0;
+  flex-wrap: nowrap;
+  overflow-x: auto;
+  padding-bottom: 0.5rem;
+}
+
+.idx-ms-step {
+  flex: 1;
+  min-width: 140px;
+  border-radius: 0.75rem;
+  padding: 1.1rem 1rem;
+  display: flex;
+  flex-direction: column;
+  gap: 0.4rem;
+  text-align: center;
+  transition: transform 0.15s;
+}
+.idx-ms-step:hover { transform: translateY(-2px); }
+
+.idx-ms-arrow {
+  color: #CBD5E1;
+  font-size: 1.1rem;
+  display: flex;
+  align-items: center;
+  padding: 0 0.25rem;
+  flex-shrink: 0;
+}
+
+.idx-ms-badge {
+  width: 2rem; height: 2rem;
+  border-radius: 50%;
+  display: flex; align-items: center; justify-content: center;
+  font-size: 0.65rem; font-weight: 800;
+  color: white; margin: 0 auto 0.3rem;
+}
+.idx-ms-name {
+  font-size: 0.8rem; font-weight: 800;
+  line-height: 1.3;
+}
+.idx-ms-claim {
+  font-size: 0.72rem; font-style: italic;
+  line-height: 1.4;
+  opacity: 0.8;
+}
+.idx-ms-service {
+  font-size: 0.68rem; font-weight: 600;
+  margin-top: 0.25rem;
+  line-height: 1.4;
+}
+
+/* Colores */
+.idx-ms-n1 { background: #F8F9FA; }
+.idx-ms-n1 .idx-ms-badge { background: #64748B; }
+.idx-ms-n1 .idx-ms-name { color: #475569; }
+.idx-ms-n1 .idx-ms-claim { color: #64748B; }
+.idx-ms-n1 .idx-ms-service { color: #64748B; }
+
+.idx-ms-n2 { background: #FFF7F2; }
+.idx-ms-n2 .idx-ms-badge { background: #EA580C; }
+.idx-ms-n2 .idx-ms-name { color: #7C2D12; }
+.idx-ms-n2 .idx-ms-claim { color: #C2410C; }
+.idx-ms-n2 .idx-ms-service { color: #C2410C; }
+
+.idx-ms-n3 { background: #FFFBEB; }
+.idx-ms-n3 .idx-ms-badge { background: #D97706; }
+.idx-ms-n3 .idx-ms-name { color: #78350F; }
+.idx-ms-n3 .idx-ms-claim { color: #B45309; }
+.idx-ms-n3 .idx-ms-service { color: #B45309; }
+
+.idx-ms-n4 { background: #F0FDFA; border: 1px solid rgba(13,148,136,0.2); }
+.idx-ms-n4 .idx-ms-badge { background: #0D9488; }
+.idx-ms-n4 .idx-ms-name { color: #134E4A; }
+.idx-ms-n4 .idx-ms-claim { color: #0F766E; }
+.idx-ms-n4 .idx-ms-service { color: #0F766E; }
+
+.idx-ms-n5 { background: linear-gradient(160deg, #F0FDF4, #ECFDF5); border: 1px solid rgba(16,185,129,0.2); }
+.idx-ms-n5 .idx-ms-badge { background: linear-gradient(135deg, #059669, #10B981); box-shadow: 0 2px 6px rgba(16,185,129,0.35); }
+.idx-ms-n5 .idx-ms-name { color: #064E3B; }
+.idx-ms-n5 .idx-ms-claim { color: #065F46; }
+.idx-ms-n5 .idx-ms-service { color: #059669; }
+
+.idx-maturity-note {
+  display: flex; align-items: center; justify-content: space-between;
+  gap: 1rem; flex-wrap: wrap;
+  margin-top: 1.25rem;
+  background: #F8FAFC; border: 1px solid #E2E8F0;
+  border-radius: 0.75rem; padding: 1rem 1.25rem;
+  font-size: 0.85rem; color: #475569; line-height: 1.55;
+}
+.idx-maturity-note strong { color: #0F172A; }
+.idx-maturity-link {
+  font-size: 0.82rem; font-weight: 700;
+  color: #0D9488; text-decoration: none;
+  white-space: nowrap; flex-shrink: 0;
+}
+.idx-maturity-link:hover { color: #0F766E; text-decoration: underline; }
 
 /* ============================================================
    CASES PREVIEW

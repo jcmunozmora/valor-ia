@@ -1237,6 +1237,106 @@ div#quarto-document-content { padding: 0; }
                     strong { color: #059669; } }
 }
 
+/* Semáforo de madurez del impacto */
+.madurez-grid {
+  display: grid;
+  grid-template-columns: repeat(auto-fill, minmax(265px, 1fr));
+  gap: 1.2rem;
+  margin: 1.75rem 0;
+}
+
+.madurez-card {
+  border-radius: 0.875rem;
+  padding: 1.4rem 1.5rem;
+  border: 1px solid;
+  border-left-width: 4px;
+
+  .madurez-nivel {
+    display: inline-flex;
+    align-items: center;
+    gap: 0.4rem;
+    font-size: 0.65rem;
+    font-weight: 800;
+    text-transform: uppercase;
+    letter-spacing: 0.1em;
+    padding: 0.25rem 0.75rem;
+    border-radius: 999px;
+    margin-bottom: 0.9rem;
+  }
+
+  .madurez-titulo {
+    font-size: 1rem;
+    font-weight: 800;
+    margin-bottom: 0.75rem;
+    line-height: 1.3;
+  }
+
+  .madurez-puntos {
+    list-style: none;
+    padding: 0;
+    margin: 0;
+    display: flex;
+    flex-direction: column;
+    gap: 0.45rem;
+
+    li {
+      font-size: 0.83rem;
+      line-height: 1.5;
+      padding-left: 1.1rem;
+      position: relative;
+      color: #374151;
+
+      &::before {
+        content: '';
+        position: absolute;
+        left: 0;
+        top: 0.55em;
+        width: 0.4rem;
+        height: 0.4rem;
+        border-radius: 50%;
+      }
+    }
+  }
+
+  &.verde {
+    background: rgba(16,185,129,0.05);
+    border-color: rgba(16,185,129,0.2);
+    border-left-color: #10B981;
+
+    .madurez-nivel {
+      background: rgba(16,185,129,0.12);
+      color: #059669;
+    }
+    .madurez-titulo { color: #064E3B; }
+    .madurez-puntos li::before { background: #10B981; }
+  }
+
+  &.amarillo {
+    background: rgba(245,158,11,0.05);
+    border-color: rgba(245,158,11,0.2);
+    border-left-color: #F59E0B;
+
+    .madurez-nivel {
+      background: rgba(245,158,11,0.12);
+      color: #B45309;
+    }
+    .madurez-titulo { color: #78350F; }
+    .madurez-puntos li::before { background: #F59E0B; }
+  }
+}
+
+.madurez-footer {
+  background: #F8FAFC;
+  border: 1px solid #E2E8F0;
+  border-left: 3px solid #64748B;
+  border-radius: 0 0.625rem 0.625rem 0;
+  padding: 0.9rem 1.25rem;
+  font-size: 0.84rem;
+  color: #475569;
+  line-height: 1.6;
+  margin-top: 0.5rem;
+}
+
 /* Tables */
 .content-inner table, .content-wide table {
   width: 100%;
