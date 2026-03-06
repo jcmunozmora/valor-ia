@@ -19,20 +19,20 @@ description: "Portafolio de casos reales donde el SROI ha transformado decisione
 <!-- Stats strip -->
 <div class="app-stats-strip">
   <div class="app-stat">
-    <span class="app-stat-num">1</span>
-    <span class="app-stat-label">Caso completado</span>
+    <span class="app-stat-num">2</span>
+    <span class="app-stat-label">Casos completados</span>
   </div>
   <div class="app-stat">
-    <span class="app-stat-num">3</span>
-    <span class="app-stat-label">Sectores cubiertos</span>
+    <span class="app-stat-num">N5</span>
+    <span class="app-stat-label">Nivel evidencia maximo</span>
   </div>
   <div class="app-stat">
-    <span class="app-stat-num">3.37×</span>
+    <span class="app-stat-num">5.18×</span>
     <span class="app-stat-label">SROI maximo (5 anos)</span>
   </div>
   <div class="app-stat">
-    <span class="app-stat-num">2026</span>
-    <span class="app-stat-label">Ano de inicio</span>
+    <span class="app-stat-num">1,699</span>
+    <span class="app-stat-label">Hogares evaluados (RCT)</span>
   </div>
 </div>
 
@@ -112,6 +112,74 @@ description: "Portafolio de casos reales donde el SROI ha transformado decisione
         <span class="case-tag">SVI Principios</span>
       </div>
       <a href="casos/argos.html" class="case-cta">
+        Ver analisis completo &rarr;
+      </a>
+    </div>
+  </div>
+
+  <!-- HOGARES SALUDABLES — COMPLETED N5 -->
+  <div class="case-card case-card--featured" style="border-color: #3B82F6;">
+    <div class="case-card-header" style="background: linear-gradient(135deg, #0F172A 0%, #1E3A8A 100%);">
+      <div class="case-meta-top">
+        <span class="case-badge" style="background: rgba(139,92,246,0.25); color: #A78BFA; border: 1px solid rgba(139,92,246,0.4);">N5 &middot; RCT Completo</span>
+        <span class="case-year">2026</span>
+      </div>
+      <h2 class="case-name">Hogares Saludables &mdash; Cementos Argos</h2>
+      <p class="case-sector">Vivienda y habitat &middot; Mejoramiento habitacional &middot; Medellin &middot; Cali &middot; Barranquilla</p>
+    </div>
+
+    <div class="case-card-body">
+      <p class="case-description">
+        SROI evaluativo con el mas alto nivel de evidencia posible: un experimento aleatorizado por
+        conglomerados (cRCT) con 1,163 hogares en 3 ciudades colombianas. El programa mejora pisos,
+        cocinas y banos en hogares vulnerables, combinado con 40 horas de formacion. Seis efectos
+        causales confirmados: salud mental, empleo, salud infantil, deuda, aspiraciones y efecto catalizador.
+      </p>
+
+      <div class="case-metrics">
+        <div class="case-metric case-metric--highlight">
+          <span class="metric-value">3.74&times;</span>
+          <span class="metric-label">SROI central (3 anos)</span>
+        </div>
+        <div class="case-metric">
+          <span class="metric-value">5.18&times;</span>
+          <span class="metric-label">SROI a 5 anos</span>
+        </div>
+        <div class="case-metric">
+          <span class="metric-value">100%</span>
+          <span class="metric-label">P(SROI &gt; 1.0x)</span>
+        </div>
+      </div>
+
+      <div class="case-highlights">
+        <div class="case-highlight">
+          <span class="highlight-icon">&#9654;</span>
+          <span>$3.72B COP invertidos &middot; 536 hogares &middot; 1,163 hogares en RCT</span>
+        </div>
+        <div class="case-highlight">
+          <span class="highlight-icon">&#9654;</span>
+          <span>Salud mental +5.4 pp, desempleo -10.5 pp, deuda -15.1 pp (todos p&lt;0.01)</span>
+        </div>
+        <div class="case-highlight">
+          <span class="highlight-icon">&#9654;</span>
+          <span>31% de hogares hicieron mejoras adicionales autogestionadas (efecto catalizador)</span>
+        </div>
+      </div>
+    </div>
+
+    <div class="case-card-footer">
+      <div class="case-nivel-impacto" title="N5 — Experimento aleatorizado: cRCT DiD-PSM, 1,163 hogares, 3 ciudades, grupo control real">
+        <span class="nivel-dot nivel-n5"></span>
+        <span class="nivel-label" style="color:#1D4ED8;">Nivel de impacto N5</span>
+        <span class="nivel-desc">RCT completo &middot; cRCT DiD-PSM &middot; N=1,163</span>
+      </div>
+      <div class="case-tags">
+        <span class="case-tag">Vivienda</span>
+        <span class="case-tag">RCT</span>
+        <span class="case-tag">WELLBY</span>
+        <span class="case-tag">Monte Carlo</span>
+      </div>
+      <a href="casos/hogares-saludables.html" class="case-cta" style="background:#1D4ED8;">
         Ver analisis completo &rarr;
       </a>
     </div>
