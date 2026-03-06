@@ -22,6 +22,7 @@ toc: false
 <div style="display: flex; align-items: center; gap: 0.6rem; margin-bottom: 0.75rem; flex-wrap: wrap;">
 <span style="font-size: 0.63rem; font-weight: 700; letter-spacing: 0.15em; text-transform: uppercase; color: #5EEAD4; background: rgba(13,148,136,0.15); border: 1px solid rgba(13,148,136,0.3); padding: 0.25rem 0.7rem; border-radius: 2rem;">Infraestructura comunitaria</span>
 <span style="font-size: 0.63rem; font-weight: 700; letter-spacing: 0.12em; text-transform: uppercase; color: #34D399; background: rgba(52,211,153,0.12); border: 1px solid rgba(52,211,153,0.25); padding: 0.25rem 0.7rem; border-radius: 2rem;">Placemaking</span>
+<span title="Nivel de impacto N3 — Evaluacion de outcomes: evidencia pre-post con stakeholders, causalidad documentada, sin grupo de comparacion formal" style="font-size: 0.63rem; font-weight: 700; letter-spacing: 0.12em; text-transform: uppercase; color: #FCD34D; background: rgba(245,158,11,0.12); border: 1px solid rgba(245,158,11,0.35); padding: 0.25rem 0.7rem; border-radius: 2rem; cursor: help;">N3 · Evidencia Evaluativa</span>
 </div>
 <h1 style="color: white; font-size: clamp(1.6rem, 4vw, 2.2rem); margin-bottom: 0.4rem; letter-spacing: -0.03em; font-weight: 800;">Teatro Talita Cumi</h1>
 <h2 style="color: #CBD5E1; font-size: 1.05rem; font-weight: 400; margin-bottom: 0.5rem;">Sueños que Transforman — Fundación Grupo Argos</h2>

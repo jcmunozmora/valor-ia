@@ -100,6 +100,11 @@ description: "Portafolio de casos reales donde el SROI ha transformado decisione
     </div>
 
     <div class="case-card-footer">
+      <div class="case-nivel-impacto" title="N3 — Evaluacion de outcomes: evidencia pre-post con stakeholders, causalidad documentada, sin grupo de comparacion formal">
+        <span class="nivel-dot nivel-n3"></span>
+        <span class="nivel-label">Nivel de impacto N3</span>
+        <span class="nivel-desc">Evidencia evaluativa &middot; pre-post · N=20</span>
+      </div>
       <div class="case-tags">
         <span class="case-tag">Placemaking</span>
         <span class="case-tag">Comunidad</span>
@@ -411,6 +416,21 @@ description: "Portafolio de casos reales donde el SROI ha transformado decisione
   display: flex; align-items: center; justify-content: space-between;
   border-top: 1px solid #F1F5F9; gap: 1rem;
 }
+/* Nivel de impacto */
+.case-nivel-impacto {
+  display: flex; align-items: center; gap: 0.45rem;
+  font-size: 0.72rem; color: #64748B; margin-bottom: 0.6rem;
+  cursor: help;
+}
+.nivel-dot {
+  width: 8px; height: 8px; border-radius: 50%; flex-shrink: 0;
+}
+.nivel-n3 { background: #F59E0B; box-shadow: 0 0 0 2px rgba(245,158,11,0.25); }
+.nivel-n4 { background: #22C55E; box-shadow: 0 0 0 2px rgba(34,197,94,0.25); }
+.nivel-n5 { background: #3B82F6; box-shadow: 0 0 0 2px rgba(59,130,246,0.25); }
+.nivel-label { font-weight: 700; color: #B45309; }
+.nivel-desc { color: #94A3B8; }
+
 .case-tags { display: flex; flex-wrap: wrap; gap: 0.4rem; }
 .case-tag {
   font-size: 0.7rem; font-weight: 600;
