@@ -40,6 +40,10 @@ website:
             href: metodos/costos-unitarios.qmd
           - text: "WTP / WTA — Valoración contingente"
             href: metodos/wtp.qmd
+          - text: "---"
+          - text: "Teorías del Cambio"
+          - text: "Repositorio IMToC — 200 ToC calificadas"
+            href: toc.qmd
       - href: aplicaciones.qmd
         text: Aplicaciones
       - href: equipo.qmd
