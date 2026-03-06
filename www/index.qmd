@@ -4,149 +4,710 @@ page-layout: full
 toc: false
 ---
 
-<!-- HERO -->
-<div class="hero-section">
+```{=html}
+<!-- ============================================================
+     HERO
+     ============================================================ -->
+<div class="hero-section idx-hero">
 <div class="hero-content">
 
-<span class="hero-label">Centro Valor Público · Universidad EAFIT</span>
+<span class="hero-label">Centro Valor Público &middot; Universidad EAFIT</span>
 
-# Midiendo lo que <span class="teal">verdaderamente</span> importa
+<h1 class="idx-headline">
+  Su inversion social<br>
+  <span class="idx-hl">merece ser medida</span><br>
+  con rigor real
+</h1>
 
-<p class="hero-lead">El Retorno Social de la Inversión (SROI) es la metodología más rigurosa para convertir impacto social en lenguaje financiero. Aquí reunimos más de dos años de investigación sistemática, herramientas analíticas de vanguardia y aplicaciones reales en el contexto colombiano.</p>
+<p class="hero-lead">
+  Combinamos experiencia en valor público, evidencia científica internacional
+  y conocimiento profundo del contexto colombiano para construir soluciones
+  a medida en valoración de impacto social.
+</p>
 
 <div class="hero-actions">
-<a href="metodologia.qmd" class="btn-primary-custom">Explorar la metodología →</a>
-<a href="literatura.qmd" class="btn-outline-custom">Ver revisión de literatura</a>
+  <a href="herramientas.html" class="btn-primary-custom">Conocer nuestros servicios &rarr;</a>
+  <a href="aplicaciones.html" class="btn-outline-custom">Ver casos reales</a>
 </div>
 
 </div>
 </div>
 
-<!-- STATS STRIP -->
-<div class="stats-strip">
-<div class="stats-grid">
+<!-- ============================================================
+     TRES PILARES DIFERENCIADORES
+     ============================================================ -->
+<div class="idx-pillars">
 
-<div class="stat-item">
-<span class="stat-number">383</span>
-<span class="stat-label">Reportes SVI analizados</span>
-</div>
+  <div class="idx-pillar">
+    <div class="idx-pillar-icon idx-pillar-icon--teal">
+      <svg width="28" height="28" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><path d="M12 2L2 7l10 5 10-5-10-5z"/><path d="M2 17l10 5 10-5"/><path d="M2 12l10 5 10-5"/></svg>
+    </div>
+    <div class="idx-pillar-body">
+      <h3>Expertise en valor público</h3>
+      <p>
+        Años de investigación académica en medición de impacto social desde EAFIT,
+        con dominio de los estándares internacionales SVI, los 8 principios de Social Value
+        y los 48 criterios del estandar de aseguramiento. Sabemos lo que funciona
+        y por qué — y lo que no funciona también.
+      </p>
+    </div>
+  </div>
 
-<div class="stat-item">
-<span class="stat-number">54</span>
-<span class="stat-label">Estudios académicos revisados</span>
-</div>
+  <div class="idx-pillar">
+    <div class="idx-pillar-icon idx-pillar-icon--blue">
+      <svg width="28" height="28" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><circle cx="11" cy="11" r="8"/><path d="M21 21l-4.35-4.35"/></svg>
+    </div>
+    <div class="idx-pillar-body">
+      <h3>Evidencia científica global</h3>
+      <p>
+        383 reportes SVI analizados sistemáticamente, 54 estudios académicos revisados
+        bajo protocolo PRISMA. No construimos sobre supuestos — construimos sobre
+        la evidencia más completa disponible sobre qué genera valor social,
+        en qué sectores y con qué ratios reales.
+      </p>
+    </div>
+  </div>
 
-<div class="stat-item">
-<span class="stat-number">4.53×</span>
-<span class="stat-label">Ratio SROI mediano (global)</span>
-</div>
-
-<div class="stat-item">
-<span class="stat-number">13</span>
-<span class="stat-label">Agentes IA especializados</span>
-</div>
-
-<div class="stat-item">
-<span class="stat-number">1ro</span>
-<span class="stat-label">Ecosistema SROI en Colombia</span>
-</div>
-
-</div>
-</div>
-
-<!-- OVERVIEW -->
-<div class="section-overview">
-
-<div class="section-title">
-<h2>Una plataforma de conocimiento vivo</h2>
-<p>Cinco dimensiones del expertise SROI, integradas y actualizadas continuamente.</p>
-</div>
-
-<div class="cards-grid" style="grid-template-columns: repeat(auto-fill, minmax(260px, 1fr));">
-
-<a href="metodologia.qmd" class="section-card" style="--card-accent: #0D9488">
-<span class="card-icon">&#9881;</span>
-<div class="card-title">Metodología</div>
-<p class="card-desc">El marco conceptual y técnico del SROI: las 6 etapas, los métodos de valoración, los factores de ajuste y los 8 principios de Social Value International.</p>
-<span class="card-arrow">Explorar →</span>
-</a>
-
-<a href="literatura.qmd" class="section-card" style="--card-accent: #8B5CF6">
-<span class="card-icon">&#128218;</span>
-<div class="card-title">Literatura Académica</div>
-<p class="card-desc">Revisión sistemática PRISMA de 54 estudios académicos: hallazgos, críticas metodológicas, brechas de investigación y agenda para América Latina.</p>
-<span class="card-arrow">Explorar →</span>
-</a>
-
-<a href="evidencia.qmd" class="section-card" style="--card-accent: #0EA5E9">
-<span class="card-icon">&#127758;</span>
-<div class="card-title">Evidencia Internacional</div>
-<p class="card-desc">Estadísticas descriptivas de 383 reportes del ecosistema SVI global: distribución por sector, ratios, geografía y lo que nos dicen sobre la efectividad de los programas.</p>
-<span class="card-arrow">Explorar →</span>
-</a>
-
-<a href="herramientas.qmd" class="section-card" style="--card-accent: #7C3AED">
-<span class="card-icon">&#9999;</span>
-<div class="card-title">Servicios · VALOR·IA</div>
-<p class="card-desc">Conocimiento académico + inteligencia artificial al servicio de la valoración. Acompañamiento (SROI, CBA, WELLBY), formación y auditoría de informes.</p>
-<span class="card-arrow">Explorar →</span>
-</a>
-
-<a href="aplicaciones.qmd" class="section-card" style="--card-accent: #DC2626">
-<span class="card-icon">&#128202;</span>
-<div class="card-title">Aplicaciones</div>
-<p class="card-desc">Portafolio de casos reales de SROI en Colombia: diagnóstico completo, escenarios optimizados y benchmarking contra el corpus internacional.</p>
-<span class="card-arrow">Explorar →</span>
-</a>
+  <div class="idx-pillar">
+    <div class="idx-pillar-icon idx-pillar-icon--purple">
+      <svg width="28" height="28" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><path d="M17 21v-2a4 4 0 0 0-4-4H5a4 4 0 0 0-4 4v2"/><circle cx="9" cy="7" r="4"/><path d="M23 21v-2a4 4 0 0 0-3-3.87"/><path d="M16 3.13a4 4 0 0 1 0 7.75"/></svg>
+    </div>
+    <div class="idx-pillar-body">
+      <h3>Conocimiento del contexto y los aliados</h3>
+      <p>
+        Entendemos las realidades institucionales, los aliados estratégicos y
+        las particularidades del contexto colombiano y latinoamericano.
+        Eso significa proxies adaptados a COP, fuentes de datos locales
+        (ADRES, SENA, DANE) y análisis que resisten el escrutinio de
+        las organizaciones con las que trabaja.
+      </p>
+    </div>
+  </div>
 
 </div>
+
+<!-- ============================================================
+     SERVICIOS (resumen)
+     ============================================================ -->
+<div class="content-section idx-services-section">
+<div class="content-inner">
+
+<div class="idx-section-label">Lo que hacemos</div>
+<h2 class="section-heading">Soluciones a medida en valoracion de impacto</h2>
+<p style="color:#475569;font-size:0.95rem;max-width:620px;margin-bottom:2rem;">
+  No existe un método único correcto. Diseñamos el enfoque según la pregunta
+  que su organización necesita responder.
+</p>
+
+<div class="idx-services-row">
+
+  <div class="idx-svc-card">
+    <div class="idx-svc-num">01</div>
+    <div class="idx-svc-content">
+      <div class="idx-svc-name">Acompanamiento en medicion</div>
+      <div class="idx-svc-desc">
+        Diseñamos e implementamos su sistema de medición de impacto con el método
+        correcto: SROI, CBA social, WELLBY, Teoría del Cambio o estudios de impacto
+        socioeconómico. Entregamos resultados que informan decisiones reales.
+      </div>
+      <div class="idx-svc-methods">
+        <span>SROI</span><span>CBA</span><span>WELLBY</span><span>ToC</span><span>ESG</span>
+      </div>
+    </div>
+  </div>
+
+  <div class="idx-svc-card">
+    <div class="idx-svc-num">02</div>
+    <div class="idx-svc-content">
+      <div class="idx-svc-name">Formacion y transferencia</div>
+      <div class="idx-svc-desc">
+        Programa de 8 sesiones para que sus equipos aprendan a hacer sus propios
+        análisis de valor social con rigor metodológico. El objetivo es autonomía,
+        no dependencia del consultor externo.
+      </div>
+      <div class="idx-svc-methods">
+        <span>8 sesiones</span><span>VALOR&middot;IA agents</span><span>Casos reales</span>
+      </div>
+    </div>
+  </div>
+
+  <div class="idx-svc-card">
+    <div class="idx-svc-num">03</div>
+    <div class="idx-svc-content">
+      <div class="idx-svc-name">Auditoria de informes SROI</div>
+      <div class="idx-svc-desc">
+        Revisión independiente de análisis ya elaborados contra los 48 criterios
+        del SVI Report Assurance Standard. Identificamos debilidades, validamos
+        supuestos y preparamos para aseguramiento externo.
+      </div>
+      <div class="idx-svc-methods">
+        <span>48 criterios SVI</span><span>Aseguramiento</span><span>Validacion</span>
+      </div>
+    </div>
+  </div>
+
 </div>
 
-<!-- POSITIONING -->
+<div style="margin-top:1.75rem;">
+  <a href="herramientas.html" class="btn-primary-custom">Ver todos los servicios &rarr;</a>
+</div>
+
+</div>
+</div>
+
+<!-- ============================================================
+     CREDENCIALES — STRIP DE EVIDENCIA
+     ============================================================ -->
+<div class="idx-evidence-strip">
+  <div class="idx-ev-item">
+    <div class="idx-ev-num">383</div>
+    <div class="idx-ev-label">Reportes SVI<br>analizados</div>
+  </div>
+  <div class="idx-ev-div"></div>
+  <div class="idx-ev-item">
+    <div class="idx-ev-num">54</div>
+    <div class="idx-ev-label">Estudios academicos<br>revisados (PRISMA)</div>
+  </div>
+  <div class="idx-ev-div"></div>
+  <div class="idx-ev-item">
+    <div class="idx-ev-num">4.35×</div>
+    <div class="idx-ev-label">Ratio SROI mediano<br>global (benchmark)</div>
+  </div>
+  <div class="idx-ev-div"></div>
+  <div class="idx-ev-item">
+    <div class="idx-ev-num">13</div>
+    <div class="idx-ev-label">Agentes IA<br>especializados</div>
+  </div>
+  <div class="idx-ev-div"></div>
+  <div class="idx-ev-item">
+    <div class="idx-ev-num">6</div>
+    <div class="idx-ev-label">Metodos de<br>valoracion</div>
+  </div>
+</div>
+
+<!-- ============================================================
+     COMO TRABAJAMOS
+     ============================================================ -->
 <div class="content-section">
 <div class="content-inner">
 
-<span class="section-label">Por qué esto importa</span>
-<h2 class="section-heading">El problema del valor invisible</h2>
+<div class="idx-section-label">Nuestro proceso</div>
+<h2 class="section-heading">Como construimos soluciones a medida</h2>
 
-<p>Miles de millones de pesos se invierten cada año en programas sociales en Colombia. La gran mayoría no puede demostrar —en términos que un directivo financiero entienda— cuánto valor real genera por cada peso invertido. No porque el impacto no exista, sino porque nadie lo ha medido con el rigor adecuado.</p>
+<div class="idx-process">
 
-<p>El SROI resuelve exactamente este problema. Pero hacerlo bien requiere dominar simultáneamente la econometría del bienestar, la teoría del cambio, la estadística de encuestas y los estándares de aseguramiento de Social Value International. En Colombia, esa combinación de capacidades es escasa.</p>
+  <div class="idx-proc-step">
+    <div class="idx-proc-num">1</div>
+    <div class="idx-proc-body">
+      <div class="idx-proc-title">Diagnostico</div>
+      <div class="idx-proc-desc">
+        Revisamos su programa, sus datos disponibles, sus aliados y la pregunta
+        que necesita responder. En 30 minutos identificamos el método apropiado
+        y el alcance real del análisis.
+      </div>
+    </div>
+  </div>
 
-<p>Este sitio documenta el proceso de construir ese expertise desde cero: revisando toda la literatura académica disponible, analizando cada reporte asegurado por SVI, desarrollando herramientas analíticas propias y aplicando la metodología en contextos reales.</p>
+  <div class="idx-proc-arrow">&#8594;</div>
 
-<div style="display: grid; grid-template-columns: repeat(auto-fit, minmax(220px, 1fr)); gap: 1.25rem; margin-top: 2rem;">
+  <div class="idx-proc-step">
+    <div class="idx-proc-num">2</div>
+    <div class="idx-proc-body">
+      <div class="idx-proc-title">Diseno con su equipo</div>
+      <div class="idx-proc-desc">
+        Construimos el Impact Map y el sistema de evidencia con las personas
+        que conocen el programa. El análisis es suyo — nosotros aportamos
+        el rigor metodológico y las herramientas.
+      </div>
+    </div>
+  </div>
 
-<div style="background: #F8FAFC; border: 1px solid #E2E8F0; border-radius: 0.625rem; padding: 1.25rem;">
-<div style="font-size: 1.5rem; margin-bottom: 0.5rem;">🎯</div>
-<div style="font-weight: 700; color: #0F172A; font-size: 0.95rem; margin-bottom: 0.4rem;">Rigor metodológico</div>
-<div style="font-size: 0.83rem; color: #64748B; line-height: 1.6;">Alineado con los 48 criterios del SVI Report Assurance Standard y los 8 principios de Social Value International.</div>
+  <div class="idx-proc-arrow">&#8594;</div>
+
+  <div class="idx-proc-step">
+    <div class="idx-proc-num">3</div>
+    <div class="idx-proc-body">
+      <div class="idx-proc-title">Analisis y valoracion</div>
+      <div class="idx-proc-desc">
+        Aplicamos el método seleccionado con proxies validados para el contexto
+        colombiano, factores de ajuste rigurosos y análisis de sensibilidad.
+        Benchmark contra los 383 reportes del corpus internacional.
+      </div>
+    </div>
+  </div>
+
+  <div class="idx-proc-arrow">&#8594;</div>
+
+  <div class="idx-proc-step">
+    <div class="idx-proc-num">4</div>
+    <div class="idx-proc-body">
+      <div class="idx-proc-title">Informe y transferencia</div>
+      <div class="idx-proc-desc">
+        Entregamos un informe adaptado a su audiencia y transferimos el conocimiento
+        metodológico a su equipo. Usted queda con la capacidad de actualizar
+        y defender el análisis de forma autónoma.
+      </div>
+    </div>
+  </div>
+
 </div>
 
-<div style="background: #F8FAFC; border: 1px solid #E2E8F0; border-radius: 0.625rem; padding: 1.25rem;">
-<div style="font-size: 1.5rem; margin-bottom: 0.5rem;">🌎</div>
-<div style="font-weight: 700; color: #0F172A; font-size: 0.95rem; margin-bottom: 0.4rem;">Contexto colombiano</div>
-<div style="font-size: 0.83rem; color: #64748B; line-height: 1.6;">Adaptación de proxies internacionales a la realidad local: COP, tasas de descuento del mercado colombiano, fuentes nacionales.</div>
-</div>
-
-<div style="background: #F8FAFC; border: 1px solid #E2E8F0; border-radius: 0.625rem; padding: 1.25rem;">
-<div style="font-size: 1.5rem; margin-bottom: 0.5rem;">🤖</div>
-<div style="font-weight: 700; color: #0F172A; font-size: 0.95rem; margin-bottom: 0.4rem;">IA aplicada</div>
-<div style="font-size: 0.83rem; color: #64748B; line-height: 1.6;">El primer ecosistema de agentes de IA especializados en SROI: desde el diagnóstico hasta el informe final asegurado.</div>
-</div>
-
-</div>
-
 </div>
 </div>
 
-<!-- CTA DARK -->
-<div class="content-section dark">
-<div class="content-inner" style="text-align: center; padding: 2rem 0;">
+<!-- ============================================================
+     CASOS REALES
+     ============================================================ -->
+<div class="content-section alt">
+<div class="content-inner">
 
-<h2 style="font-size: 2rem; margin-bottom: 0.75rem;">¿Trabaja usted con impacto social?</h2>
-<p style="max-width: 600px; margin: 0 auto 2rem; font-size: 1.05rem;">El SROI no es una caja negra. Es un proceso riguroso, transparente y auditable. Explorar esta metodología es el primer paso para demostrar el valor real de lo que usted hace.</p>
-<a href="metodologia.qmd" class="btn-primary-custom">Comenzar por la metodología →</a>
+<div class="idx-section-label">Aplicaciones</div>
+<h2 class="section-heading">Casos reales en el contexto colombiano</h2>
+<p style="color:#475569;font-size:0.95rem;margin-bottom:1.75rem;">
+  El conocimiento se prueba en la práctica. Aquí están los análisis completos
+  con datos reales, diagnósticos honestos y recomendaciones accionables.
+</p>
+
+<div class="idx-cases-preview">
+
+  <div class="idx-case-card">
+    <div class="idx-case-header">
+      <span class="idx-case-badge idx-case-badge--done">Diagnostico completo</span>
+      <span class="idx-case-sector">Infraestructura &middot; Paz &middot; Antioquia</span>
+    </div>
+    <div class="idx-case-name">Argos — Semillero Tierra Colombiana</div>
+    <div class="idx-case-desc">
+      Diagnóstico SROI de 20 viviendas construidas con comunidades víctimas del conflicto.
+      Identificación de las palancas críticas para multiplicar el valor social de 0.52× a 2.35×.
+    </div>
+    <div class="idx-case-metrics">
+      <span><strong>0.52×</strong> base</span>
+      <span><strong>2.35×</strong> escenario óptimo</span>
+      <span><strong>COP 1.8B</strong> analizado</span>
+    </div>
+    <a href="casos/argos.html" class="idx-case-link">Ver analisis completo &rarr;</a>
+  </div>
+
+  <div class="idx-case-card idx-case-card--coming">
+    <div class="idx-case-header">
+      <span class="idx-case-badge idx-case-badge--dev">En desarrollo</span>
+      <span class="idx-case-sector">Empleabilidad &middot; Juventud</span>
+    </div>
+    <div class="idx-case-name">Programa de Empleabilidad Juvenil</div>
+    <div class="idx-case-desc">
+      Análisis SROI de formación técnica y vinculación laboral. Aplicación de WELLBY
+      para outcomes de bienestar y autoestima.
+    </div>
+    <div class="idx-case-metrics" style="opacity:0.5;">
+      <span>Impact Map en curso</span>
+    </div>
+    <span class="idx-case-link idx-case-link--disabled">Proximamente</span>
+  </div>
+
+</div>
+
+<div style="margin-top:1.5rem;">
+  <a href="aplicaciones.html" class="btn-primary-custom">Ver portafolio completo &rarr;</a>
+</div>
 
 </div>
 </div>
+
+<!-- ============================================================
+     CTA FINAL
+     ============================================================ -->
+<div class="idx-cta-section">
+<div class="idx-cta-inner">
+  <div class="idx-cta-text">
+    <h2>Midamos juntos el valor de lo que hacen</h2>
+    <p>
+      El primer paso es una conversacion de 30 minutos para entender su programa,
+      sus aliados y la pregunta que necesitan responder. Sin costo, sin compromiso.
+    </p>
+  </div>
+  <div class="idx-cta-actions">
+    <a href="herramientas.html" class="cta-btn-big cta-btn-big--primary">Hablar con nosotros &rarr;</a>
+    <a href="metodologia.html" class="cta-btn-big cta-btn-big--ghost">Explorar la metodologia</a>
+  </div>
+</div>
+</div>
+```
+
+```{=html}
+<style>
+/* ============================================================
+   HERO
+   ============================================================ */
+.idx-hero {
+  background: linear-gradient(135deg, #0F172A 0%, #1E3A5F 55%, #0D4B42 85%, #0D9488 100%);
+  min-height: 520px;
+  display: flex;
+  align-items: center;
+}
+.idx-headline {
+  font-size: clamp(2rem, 5vw, 3.25rem);
+  font-weight: 900;
+  color: white !important;
+  line-height: 1.15;
+  margin: 0.75rem 0 1.25rem;
+  letter-spacing: -0.03em;
+}
+.idx-hl {
+  color: #5EEAD4;
+}
+
+/* ============================================================
+   TRES PILARES
+   ============================================================ */
+.idx-pillars {
+  display: grid;
+  grid-template-columns: repeat(3, 1fr);
+  gap: 0;
+  background: white;
+  border-bottom: 1px solid #E2E8F0;
+  box-shadow: 0 2px 12px rgba(0,0,0,0.06);
+}
+.idx-pillar {
+  display: flex;
+  gap: 1.1rem;
+  padding: 2rem 1.75rem;
+  border-right: 1px solid #F1F5F9;
+  align-items: flex-start;
+  transition: background 0.2s;
+}
+.idx-pillar:last-child { border-right: none; }
+.idx-pillar:hover { background: #FAFBFF; }
+
+.idx-pillar-icon {
+  width: 48px;
+  height: 48px;
+  border-radius: 0.75rem;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  flex-shrink: 0;
+}
+.idx-pillar-icon--teal   { background: #F0FDFA; color: #0D9488; }
+.idx-pillar-icon--blue   { background: #F0F9FF; color: #0EA5E9; }
+.idx-pillar-icon--purple { background: #F5F3FF; color: #7C3AED; }
+
+.idx-pillar-body h3 {
+  font-size: 0.95rem;
+  font-weight: 800;
+  color: #0F172A;
+  margin: 0 0 0.5rem;
+  line-height: 1.3;
+}
+.idx-pillar-body p {
+  font-size: 0.83rem;
+  color: #64748B;
+  line-height: 1.65;
+  margin: 0;
+}
+
+/* ============================================================
+   SERVICES SUMMARY
+   ============================================================ */
+.idx-services-section { background: #FAFBFC; }
+.idx-section-label {
+  font-size: 0.72rem;
+  font-weight: 700;
+  color: #0D9488;
+  text-transform: uppercase;
+  letter-spacing: 0.1em;
+  display: block;
+  margin-bottom: 0.5rem;
+}
+.idx-services-row {
+  display: grid;
+  grid-template-columns: repeat(3, 1fr);
+  gap: 1.25rem;
+}
+.idx-svc-card {
+  background: white;
+  border: 1px solid #E2E8F0;
+  border-radius: 0.85rem;
+  padding: 1.5rem;
+  display: flex;
+  gap: 1rem;
+  transition: box-shadow 0.2s;
+}
+.idx-svc-card:hover { box-shadow: 0 4px 18px rgba(0,0,0,0.08); }
+.idx-svc-num {
+  font-size: 2rem;
+  font-weight: 900;
+  color: #E2E8F0;
+  line-height: 1;
+  flex-shrink: 0;
+}
+.idx-svc-name {
+  font-size: 0.9rem;
+  font-weight: 800;
+  color: #0F172A;
+  margin-bottom: 0.5rem;
+  line-height: 1.3;
+}
+.idx-svc-desc {
+  font-size: 0.81rem;
+  color: #64748B;
+  line-height: 1.65;
+  margin-bottom: 0.85rem;
+}
+.idx-svc-methods {
+  display: flex;
+  flex-wrap: wrap;
+  gap: 0.35rem;
+}
+.idx-svc-methods span {
+  font-size: 0.65rem;
+  font-weight: 700;
+  background: #F0FDFA;
+  color: #0D9488;
+  border: 1px solid #CCFBF1;
+  padding: 0.12rem 0.5rem;
+  border-radius: 999px;
+}
+
+/* ============================================================
+   EVIDENCE STRIP
+   ============================================================ */
+.idx-evidence-strip {
+  background: #0F172A;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  padding: 2.25rem 2rem;
+  gap: 0;
+  flex-wrap: wrap;
+}
+.idx-ev-item {
+  text-align: center;
+  padding: 0.5rem 2.5rem;
+}
+.idx-ev-num {
+  font-size: 2.25rem;
+  font-weight: 900;
+  color: #5EEAD4;
+  line-height: 1;
+  margin-bottom: 0.35rem;
+  letter-spacing: -0.03em;
+}
+.idx-ev-label {
+  font-size: 0.72rem;
+  color: #94A3B8;
+  font-weight: 500;
+  text-transform: uppercase;
+  letter-spacing: 0.05em;
+  line-height: 1.4;
+}
+.idx-ev-div {
+  width: 1px;
+  height: 3rem;
+  background: rgba(255,255,255,0.1);
+}
+
+/* ============================================================
+   PROCESS
+   ============================================================ */
+.idx-process {
+  display: flex;
+  gap: 0;
+  align-items: flex-start;
+  margin: 1.75rem 0;
+  flex-wrap: wrap;
+}
+.idx-proc-step {
+  flex: 1;
+  min-width: 180px;
+  display: flex;
+  gap: 0.85rem;
+  align-items: flex-start;
+}
+.idx-proc-num {
+  width: 36px;
+  height: 36px;
+  border-radius: 50%;
+  background: #0D9488;
+  color: white;
+  font-size: 0.875rem;
+  font-weight: 800;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  flex-shrink: 0;
+}
+.idx-proc-title {
+  font-size: 0.875rem;
+  font-weight: 700;
+  color: #0F172A;
+  margin-bottom: 0.35rem;
+}
+.idx-proc-desc {
+  font-size: 0.8rem;
+  color: #64748B;
+  line-height: 1.6;
+}
+.idx-proc-arrow {
+  color: #CBD5E1;
+  font-size: 1.25rem;
+  padding: 0 0.5rem;
+  margin-top: 0.5rem;
+  flex-shrink: 0;
+}
+
+/* ============================================================
+   CASES PREVIEW
+   ============================================================ */
+.idx-cases-preview {
+  display: grid;
+  grid-template-columns: repeat(2, 1fr);
+  gap: 1.25rem;
+}
+.idx-case-card {
+  background: white;
+  border: 1px solid #E2E8F0;
+  border-radius: 0.85rem;
+  padding: 1.5rem;
+  display: flex;
+  flex-direction: column;
+  gap: 0.6rem;
+  transition: box-shadow 0.2s;
+}
+.idx-case-card:hover { box-shadow: 0 4px 18px rgba(0,0,0,0.08); }
+.idx-case-card--coming { opacity: 0.75; }
+.idx-case-header {
+  display: flex;
+  align-items: center;
+  gap: 0.65rem;
+}
+.idx-case-badge {
+  font-size: 0.65rem;
+  font-weight: 700;
+  padding: 0.15rem 0.6rem;
+  border-radius: 999px;
+  text-transform: uppercase;
+  letter-spacing: 0.05em;
+}
+.idx-case-badge--done {
+  background: rgba(13,148,136,0.1);
+  border: 1px solid rgba(13,148,136,0.3);
+  color: #0D9488;
+}
+.idx-case-badge--dev {
+  background: rgba(245,158,11,0.1);
+  border: 1px solid rgba(245,158,11,0.3);
+  color: #D97706;
+}
+.idx-case-sector {
+  font-size: 0.72rem;
+  color: #94A3B8;
+  font-weight: 500;
+}
+.idx-case-name {
+  font-size: 1rem;
+  font-weight: 800;
+  color: #0F172A;
+  line-height: 1.3;
+}
+.idx-case-desc {
+  font-size: 0.82rem;
+  color: #64748B;
+  line-height: 1.65;
+  flex: 1;
+}
+.idx-case-metrics {
+  display: flex;
+  gap: 1.25rem;
+  font-size: 0.8rem;
+  color: #475569;
+}
+.idx-case-metrics strong { color: #0D9488; font-size: 0.95rem; }
+.idx-case-link {
+  font-size: 0.82rem;
+  font-weight: 700;
+  color: #0D9488;
+  text-decoration: none;
+  margin-top: 0.25rem;
+}
+.idx-case-link:hover { color: #0F766E; text-decoration: underline; }
+.idx-case-link--disabled { color: #94A3B8; cursor: default; }
+
+/* ============================================================
+   CTA FINAL
+   ============================================================ */
+.idx-cta-section {
+  background: linear-gradient(135deg, #0F172A 0%, #1E3A5F 50%, #4C1D95 100%);
+  padding: 4rem 2rem;
+}
+.idx-cta-inner {
+  max-width: 900px;
+  margin: 0 auto;
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  gap: 2.5rem;
+  flex-wrap: wrap;
+}
+.idx-cta-text h2 {
+  font-size: clamp(1.4rem, 3vw, 2rem);
+  font-weight: 800;
+  color: white !important;
+  margin: 0 0 0.75rem;
+  line-height: 1.2;
+}
+.idx-cta-text p {
+  font-size: 0.95rem;
+  color: rgba(255,255,255,0.72);
+  margin: 0;
+  max-width: 480px;
+  line-height: 1.65;
+}
+.idx-cta-actions {
+  display: flex;
+  flex-direction: column;
+  gap: 0.75rem;
+  flex-shrink: 0;
+}
+.cta-btn-big {
+  display: inline-block;
+  font-size: 0.9rem;
+  font-weight: 700;
+  padding: 0.75rem 1.75rem;
+  border-radius: 0.5rem;
+  text-decoration: none !important;
+  text-align: center;
+  transition: all 0.2s;
+  white-space: nowrap;
+}
+.cta-btn-big--primary { background: #0D9488; color: white !important; }
+.cta-btn-big--primary:hover { background: #0F766E; }
+.cta-btn-big--ghost {
+  background: transparent;
+  color: rgba(255,255,255,0.8) !important;
+  border: 1.5px solid rgba(255,255,255,0.3);
+}
+.cta-btn-big--ghost:hover {
+  background: rgba(255,255,255,0.08);
+  border-color: rgba(255,255,255,0.6);
+}
+
+/* ============================================================
+   RESPONSIVE
+   ============================================================ */
+@media (max-width: 960px) {
+  .idx-pillars { grid-template-columns: 1fr; }
+  .idx-pillar { border-right: none; border-bottom: 1px solid #F1F5F9; }
+  .idx-services-row { grid-template-columns: 1fr; }
+  .idx-cases-preview { grid-template-columns: 1fr; }
+  .idx-process { flex-direction: column; gap: 1rem; }
+  .idx-proc-arrow { display: none; }
+  .idx-ev-item { padding: 0.75rem 1.25rem; }
+  .idx-ev-div { display: none; }
+}
+@media (max-width: 600px) {
+  .idx-cta-inner { flex-direction: column; }
+  .idx-cta-actions { width: 100%; }
+  .cta-btn-big { width: 100%; }
+}
+</style>
+```
