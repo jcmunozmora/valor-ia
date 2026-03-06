@@ -15,15 +15,13 @@ website:
       - href: index.qmd
         text: Inicio
       - href: metodologia.qmd
-        text: Metodología
+        text: "Nuestra Aproximación"
       - href: ciencia.qmd
         text: Ciencia del Impacto
       - href: herramientas.qmd
         text: "Nuestros Servicios"
       - href: aplicaciones.qmd
         text: Aplicaciones
-      - href: formacion.qmd
-        text: "Formación"
       - href: equipo.qmd
         text: Equipo
     right:
