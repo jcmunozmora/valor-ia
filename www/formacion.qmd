@@ -1,0 +1,397 @@
+---
+title: "Formación en Valor Social"
+description: "Curso Básico de SROI — Retorno Social de la Inversión. Medición de impacto con rigor metodológico y aplicación práctica."
+toc: false
+---
+
+```{=html}
+<!-- ============================================================
+     HERO
+     ============================================================ -->
+<div class="page-header vi-header">
+  <div class="page-header-content">
+    <div class="page-badge">Centro Valor Público &middot; EAFIT</div>
+    <h1 class="page-title">Formación en Valor Social</h1>
+    <p class="page-subtitle">
+      Desarrollamos capacidades institucionales para medir, gestionar y comunicar el impacto social
+      con el rigor metodológico de <strong>Social Value International</strong> y la evidencia de
+      más de 383 reportes verificados globalmente.
+    </p>
+  </div>
+</div>
+
+<!-- ============================================================
+     PERFIL DEL INSTRUCTOR
+     ============================================================ -->
+<div class="content-section alt">
+<div class="content-inner">
+
+<span class="section-label">Instructor</span>
+<h2 class="section-heading">Juan Carlos Muñoz-Mora, PhD</h2>
+
+<div style="display: flex; gap: 2rem; align-items: flex-start; flex-wrap: wrap; margin-top: 1.5rem;">
+  <div style="flex: 0 0 auto;">
+    <div style="width: 120px; height: 120px; border-radius: 50%; background: linear-gradient(135deg, #0D9488, #0F172A); display: flex; align-items: center; justify-content: center; font-size: 2.5rem; font-weight: 800; color: white; font-family: 'Inter', sans-serif;">JC</div>
+  </div>
+  <div style="flex: 1; min-width: 280px;">
+    <div style="font-size: 1.1rem; font-weight: 700; color: #0F172A; margin-bottom: 0.25rem;">Juan Carlos Muñoz-Mora, PhD</div>
+    <div style="font-size: 0.9rem; color: #0D9488; font-weight: 600; margin-bottom: 0.75rem;">Economista · Profesor e Investigador · Centro Valor Público EAFIT</div>
+    <p style="color: #475569; font-size: 0.93rem; margin-bottom: 0.75rem;">
+      Economista con Ph.D. en Ciencias Económicas de la <strong>Universidad Libre de Bruselas (ULB)</strong>
+      e Investigador Asociado del <strong>Institute of Development Studies (IDS)</strong>, Sussex, UK.
+      Especialista en medición de impacto social, economía del desarrollo y evaluación de programas.
+    </p>
+    <div style="display: flex; gap: 0.5rem; flex-wrap: wrap;">
+      <span style="background: #F0FDF4; color: #166534; border: 1px solid #BBF7D0; padding: 0.2rem 0.7rem; border-radius: 2rem; font-size: 0.75rem; font-weight: 600;">SVI Certified</span>
+      <span style="background: #EFF6FF; color: #1E40AF; border: 1px solid #BFDBFE; padding: 0.2rem 0.7rem; border-radius: 2rem; font-size: 0.75rem; font-weight: 600;">Ph.D. ULB</span>
+      <span style="background: #FFF7ED; color: #9A3412; border: 1px solid #FED7AA; padding: 0.2rem 0.7rem; border-radius: 2rem; font-size: 0.75rem; font-weight: 600;">IDS · Sussex UK</span>
+      <span style="background: #F5F3FF; color: #5B21B6; border: 1px solid #DDD6FE; padding: 0.2rem 0.7rem; border-radius: 2rem; font-size: 0.75rem; font-weight: 600;">Universidad EAFIT</span>
+    </div>
+  </div>
+</div>
+
+</div>
+</div>
+
+<!-- ============================================================
+     CURSO BÁSICO — DESCRIPCIÓN
+     ============================================================ -->
+<div class="content-section">
+<div class="content-inner">
+
+<span class="section-label">Oferta formativa</span>
+<h2 class="section-heading">Curso Básico de SROI</h2>
+<p style="font-size: 1.05rem; color: #475569; margin-bottom: 1.5rem;">
+  Un recorrido completo por la metodología de Retorno Social de la Inversión — desde los fundamentos
+  conceptuales hasta el cálculo del ratio y la presentación de resultados. Diseñado para profesionales
+  de organizaciones sociales, fundaciones, entidades públicas e inversionistas de impacto.
+</p>
+
+<div style="display: grid; grid-template-columns: repeat(auto-fill, minmax(170px, 1fr)); gap: 1rem; margin: 1.5rem 0;">
+  <div style="background: #F8FAFC; border: 1px solid #E2E8F0; border-radius: 0.75rem; padding: 1rem; text-align: center;">
+    <div style="font-size: 1.8rem; font-weight: 800; color: #0D9488;">8</div>
+    <div style="font-size: 0.78rem; color: #64748B; margin-top: 0.25rem;">Sesiones temáticas</div>
+  </div>
+  <div style="background: #F8FAFC; border: 1px solid #E2E8F0; border-radius: 0.75rem; padding: 1rem; text-align: center;">
+    <div style="font-size: 1.8rem; font-weight: 800; color: #0D9488;">24h</div>
+    <div style="font-size: 0.78rem; color: #64748B; margin-top: 0.25rem;">Horas de formación</div>
+  </div>
+  <div style="background: #F8FAFC; border: 1px solid #E2E8F0; border-radius: 0.75rem; padding: 1rem; text-align: center;">
+    <div style="font-size: 1.8rem; font-weight: 800; color: #0D9488;">6</div>
+    <div style="font-size: 0.78rem; color: #64748B; margin-top: 0.25rem;">Etapas SVI cubiertas</div>
+  </div>
+  <div style="background: #F8FAFC; border: 1px solid #E2E8F0; border-radius: 0.75rem; padding: 1rem; text-align: center;">
+    <div style="font-size: 1.8rem; font-weight: 800; color: #1E3A5F;">383</div>
+    <div style="font-size: 0.78rem; color: #64748B; margin-top: 0.25rem;">Reportes SVI de referencia</div>
+  </div>
+</div>
+
+</div>
+</div>
+
+<!-- ============================================================
+     MÓDULOS DEL CURSO
+     ============================================================ -->
+<div class="content-section alt">
+<div class="content-wide">
+
+<span class="section-label">Contenido</span>
+<h2 class="section-heading">Ocho sesiones — del concepto a la práctica</h2>
+
+<div class="mod-grid-web">
+
+  <div class="mod-card-web mod-card-web--active">
+    <div class="mod-num-web">01</div>
+    <div class="mod-info-web">
+      <div class="mod-title-web">Fundamentos y Evaluación de Programas</div>
+      <div class="mod-desc-web">El río del cambio, la pregunta incómoda del impacto, modelos lógicos y teoría del cambio. Por qué los programas fallan y cómo medirlo.</div>
+      <div style="margin-top: 0.75rem;">
+        <a href="slides/sesion1.html" class="mod-btn" target="_blank">Ver slides &rarr;</a>
+      </div>
+    </div>
+  </div>
+
+  <div class="mod-card-web">
+    <div class="mod-num-web">02</div>
+    <div class="mod-info-web">
+      <div class="mod-title-web">Introducción al SROI y Marco SVI</div>
+      <div class="mod-desc-web">Historia y propósito del SROI. Los 8 principios de Social Value International. El estándar de aseguramiento y los 48 criterios de reporte.</div>
+    </div>
+  </div>
+
+  <div class="mod-card-web">
+    <div class="mod-num-web">03</div>
+    <div class="mod-info-web">
+      <div class="mod-title-web">Alcance, Stakeholders y Mapa de Outcomes</div>
+      <div class="mod-desc-web">Etapas 1 y 2 del SROI. Cómo definir el alcance, identificar stakeholders materiales y construir el Impact Map desde la teoría del cambio.</div>
+    </div>
+  </div>
+
+  <div class="mod-card-web">
+    <div class="mod-num-web">04</div>
+    <div class="mod-info-web">
+      <div class="mod-title-web">Evidencia de Outcomes</div>
+      <div class="mod-desc-web">Etapa 3 del SROI. Métodos de recolección de datos: encuestas, entrevistas, datos administrativos. Indicadores, fuentes y triangulación.</div>
+    </div>
+  </div>
+
+  <div class="mod-card-web">
+    <div class="mod-num-web">05</div>
+    <div class="mod-info-web">
+      <div class="mod-title-web">Impacto Neto: Deadweight, Atribución y Drop-off</div>
+      <div class="mod-desc-web">Etapa 4 del SROI. Los cuatro factores de ajuste: deadweight, attribution, displacement y drop-off. Cómo estimarlos con evidencia y documentarlos con rigor.</div>
+    </div>
+  </div>
+
+  <div class="mod-card-web mod-card-web--active">
+    <div class="mod-num-web">06</div>
+    <div class="mod-info-web">
+      <div class="mod-title-web">Valoración de Impactos y Monetización</div>
+      <div class="mod-desc-web">Métodos de valoración monetaria: WTP, Cost-based, Revealed Preference, Stated Preference, Wellbeing Valuation. El Value Map y el ratio SROI. Análisis de sensibilidad.</div>
+      <div style="margin-top: 0.75rem;">
+        <a href="slides/sesion6.html" class="mod-btn" target="_blank">Ver slides &rarr;</a>
+      </div>
+    </div>
+  </div>
+
+  <div class="mod-card-web">
+    <div class="mod-num-web">07</div>
+    <div class="mod-info-web">
+      <div class="mod-title-web">Cálculo del SROI y Análisis de Sensibilidad</div>
+      <div class="mod-desc-web">Etapa 5 del SROI. VPN de beneficios, tasa de descuento, horizonte temporal. Monte Carlo y análisis de tornado. Benchmarking internacional con la BD SVI.</div>
+    </div>
+  </div>
+
+  <div class="mod-card-web">
+    <div class="mod-num-web">08</div>
+    <div class="mod-info-web">
+      <div class="mod-title-web">Informe, Comunicación y Aseguramiento SVI</div>
+      <div class="mod-desc-web">Etapa 6 del SROI. Estructura del informe SVI. Semáforo de madurez, hoja de ruta y cumplimiento de los 48 criterios. Presentación ejecutiva y verificación.</div>
+    </div>
+  </div>
+
+</div>
+
+</div>
+</div>
+
+<!-- ============================================================
+     COMPETENCIAS
+     ============================================================ -->
+<div class="content-section">
+<div class="content-inner">
+
+<span class="section-label">Competencias</span>
+<h2 class="section-heading">Lo que desarrollarán los participantes</h2>
+
+<div style="display: grid; grid-template-columns: repeat(auto-fill, minmax(260px, 1fr)); gap: 1.25rem; margin: 1.5rem 0;">
+
+  <div style="background: #F0FDF4; border: 1px solid #BBF7D0; border-left: 4px solid #10B981; border-radius: 0.75rem; padding: 1.25rem;">
+    <div style="font-size: 0.7rem; font-weight: 700; letter-spacing: 0.1em; text-transform: uppercase; color: #059669; margin-bottom: 0.5rem;">Ser</div>
+    <div style="font-weight: 700; color: #0F172A; margin-bottom: 0.5rem;">Pensamiento crítico sobre el impacto</div>
+    <p style="font-size: 0.85rem; color: #475569; margin: 0;">Desarrollar un criterio riguroso para distinguir correlación de causalidad, y valor real de narrativa. Cuestionar supuestos propios y ajenos con evidencia.</p>
+  </div>
+
+  <div style="background: #EFF6FF; border: 1px solid #BFDBFE; border-left: 4px solid #3B82F6; border-radius: 0.75rem; padding: 1.25rem;">
+    <div style="font-size: 0.7rem; font-weight: 700; letter-spacing: 0.1em; text-transform: uppercase; color: #1D4ED8; margin-bottom: 0.5rem;">Saber</div>
+    <div style="font-weight: 700; color: #0F172A; margin-bottom: 0.5rem;">Metodología SROI completa</div>
+    <p style="font-size: 0.85rem; color: #475569; margin: 0;">Dominar las 6 etapas SVI, los 8 principios y los métodos de valoración monetaria — desde WTP y cost-based hasta WELLBY y precios hedónicos.</p>
+  </div>
+
+  <div style="background: #FFF7ED; border: 1px solid #FED7AA; border-left: 4px solid #F59E0B; border-radius: 0.75rem; padding: 1.25rem;">
+    <div style="font-size: 0.7rem; font-weight: 700; letter-spacing: 0.1em; text-transform: uppercase; color: #D97706; margin-bottom: 0.5rem;">Hacer</div>
+    <div style="font-weight: 700; color: #0F172A; margin-bottom: 0.5rem;">Construir y comunicar un análisis SROI</div>
+    <p style="font-size: 0.85rem; color: #475569; margin: 0;">Elaborar el Value Map, calcular el ratio SROI con análisis de sensibilidad, y comunicar los resultados a audiencias ejecutivas, técnicas y de financiadores.</p>
+  </div>
+
+</div>
+
+</div>
+</div>
+
+<!-- ============================================================
+     MUESTRA DE SLIDES — DOS SESIONES
+     ============================================================ -->
+<div class="content-section dark" style="background: #0F172A;">
+<div class="content-wide">
+
+<span class="section-label" style="color: #5EEAD4; border-color: rgba(94,234,212,0.25); background: rgba(13,148,136,0.15);">Sesiones disponibles</span>
+<h2 class="section-heading" style="color: white;">Muestra del curso</h2>
+<p style="color: #CBD5E1; margin-bottom: 2rem;">Dos sesiones completas en formato interactivo — disponibles para explorar el contenido y la metodología pedagógica del curso.</p>
+
+<div style="display: grid; grid-template-columns: repeat(auto-fill, minmax(320px, 1fr)); gap: 1.5rem; margin-bottom: 2rem;">
+
+  <div style="background: rgba(255,255,255,0.04); border: 1px solid rgba(255,255,255,0.1); border-radius: 1rem; padding: 1.75rem; transition: border-color 0.2s;"
+       onmouseover="this.style.borderColor='rgba(13,148,136,0.5)'" onmouseout="this.style.borderColor='rgba(255,255,255,0.1)'">
+    <div style="display: flex; align-items: center; gap: 0.75rem; margin-bottom: 1rem;">
+      <div style="background: rgba(13,148,136,0.2); border: 1px solid rgba(13,148,136,0.4); border-radius: 0.5rem; padding: 0.4rem 0.8rem; font-size: 0.75rem; font-weight: 700; color: #5EEAD4; letter-spacing: 0.05em;">SESIÓN 01</div>
+      <div style="font-size: 0.75rem; color: #64748B;">Fundamentos</div>
+    </div>
+    <h3 style="color: white; font-size: 1.05rem; font-weight: 700; margin-bottom: 0.6rem;">Fundamentos y Evaluación de Programas</h3>
+    <p style="color: #94A3B8; font-size: 0.85rem; margin-bottom: 1.25rem;">El río del cambio. La pregunta incómoda del impacto. Por qué los programas fallan. Del modelo lógico a la teoría del cambio.</p>
+    <div style="display: flex; gap: 0.5rem; flex-wrap: wrap; margin-bottom: 1.25rem;">
+      <span style="background: rgba(94,234,212,0.1); color: #5EEAD4; border: 1px solid rgba(94,234,212,0.2); padding: 0.15rem 0.6rem; border-radius: 2rem; font-size: 0.7rem; font-weight: 600;">16 slides</span>
+      <span style="background: rgba(94,234,212,0.1); color: #5EEAD4; border: 1px solid rgba(94,234,212,0.2); padding: 0.15rem 0.6rem; border-radius: 2rem; font-size: 0.7rem; font-weight: 600;">Quarto RevealJS</span>
+    </div>
+    <a href="slides/sesion1.html" target="_blank"
+       style="display: inline-flex; align-items: center; gap: 0.4rem; background: #0D9488; color: white; padding: 0.6rem 1.2rem; border-radius: 0.5rem; text-decoration: none; font-weight: 600; font-size: 0.85rem; transition: background 0.2s;"
+       onmouseover="this.style.background='#0F766E'" onmouseout="this.style.background='#0D9488'">
+      &#9654; Ver presentación
+    </a>
+  </div>
+
+  <div style="background: rgba(255,255,255,0.04); border: 1px solid rgba(255,255,255,0.1); border-radius: 1rem; padding: 1.75rem; transition: border-color 0.2s;"
+       onmouseover="this.style.borderColor='rgba(13,148,136,0.5)'" onmouseout="this.style.borderColor='rgba(255,255,255,0.1)'">
+    <div style="display: flex; align-items: center; gap: 0.75rem; margin-bottom: 1rem;">
+      <div style="background: rgba(13,148,136,0.2); border: 1px solid rgba(13,148,136,0.4); border-radius: 0.5rem; padding: 0.4rem 0.8rem; font-size: 0.75rem; font-weight: 700; color: #5EEAD4; letter-spacing: 0.05em;">SESIÓN 06</div>
+      <div style="font-size: 0.75rem; color: #64748B;">Valoración</div>
+    </div>
+    <h3 style="color: white; font-size: 1.05rem; font-weight: 700; margin-bottom: 0.6rem;">Valoración de Impactos y Monetización</h3>
+    <p style="color: #94A3B8; font-size: 0.85rem; margin-bottom: 1.25rem;">Métodos de monetización: WTP, Cost-based, RP, SP, Wellbeing Valuation. Value Map, ratio SROI y análisis de sensibilidad.</p>
+    <div style="display: flex; gap: 0.5rem; flex-wrap: wrap; margin-bottom: 1.25rem;">
+      <span style="background: rgba(94,234,212,0.1); color: #5EEAD4; border: 1px solid rgba(94,234,212,0.2); padding: 0.15rem 0.6rem; border-radius: 2rem; font-size: 0.7rem; font-weight: 600;">24 slides</span>
+      <span style="background: rgba(94,234,212,0.1); color: #5EEAD4; border: 1px solid rgba(94,234,212,0.2); padding: 0.15rem 0.6rem; border-radius: 2rem; font-size: 0.7rem; font-weight: 600;">Quarto RevealJS</span>
+    </div>
+    <a href="slides/sesion6.html" target="_blank"
+       style="display: inline-flex; align-items: center; gap: 0.4rem; background: #0D9488; color: white; padding: 0.6rem 1.2rem; border-radius: 0.5rem; text-decoration: none; font-weight: 600; font-size: 0.85rem; transition: background 0.2s;"
+       onmouseover="this.style.background='#0F766E'" onmouseout="this.style.background='#0D9488'">
+      &#9654; Ver presentación
+    </a>
+  </div>
+
+</div>
+
+</div>
+</div>
+
+<!-- ============================================================
+     MODALIDADES Y CTA
+     ============================================================ -->
+<div class="content-section">
+<div class="content-inner">
+
+<span class="section-label">Modalidades</span>
+<h2 class="section-heading">Cómo lo ofrecemos</h2>
+
+<div style="display: grid; grid-template-columns: repeat(auto-fill, minmax(250px, 1fr)); gap: 1.25rem; margin: 1.5rem 0 2rem;">
+
+  <div style="background: #F8FAFC; border: 1px solid #E2E8F0; border-radius: 0.875rem; padding: 1.5rem;">
+    <div style="font-size: 1.4rem; margin-bottom: 0.5rem;">&#127979;</div>
+    <div style="font-weight: 700; color: #0F172A; margin-bottom: 0.4rem;">Formación inhouse</div>
+    <p style="font-size: 0.85rem; color: #64748B; margin: 0;">Adaptada a los programas y la realidad de su organización. Incluye análisis real de un programa propio como caso de estudio.</p>
+  </div>
+
+  <div style="background: #F8FAFC; border: 1px solid #E2E8F0; border-radius: 0.875rem; padding: 1.5rem;">
+    <div style="font-size: 1.4rem; margin-bottom: 0.5rem;">&#127760;</div>
+    <div style="font-weight: 700; color: #0F172A; margin-bottom: 0.4rem;">Virtual sincrónico</div>
+    <p style="font-size: 0.85rem; color: #64748B; margin: 0;">Sesiones en vivo con grupos de hasta 20 participantes. Ejercicios prácticos y retroalimentación en tiempo real.</p>
+  </div>
+
+  <div style="background: #F8FAFC; border: 1px solid #E2E8F0; border-radius: 0.875rem; padding: 1.5rem;">
+    <div style="font-size: 1.4rem; margin-bottom: 0.5rem;">&#127891;</div>
+    <div style="font-weight: 700; color: #0F172A; margin-bottom: 0.4rem;">Acompañamiento aplicado</div>
+    <p style="font-size: 0.85rem; color: #64748B; margin: 0;">El equipo realiza un análisis SROI real mientras aprende. El resultado final es un informe verificable — no un ejercicio simulado.</p>
+  </div>
+
+</div>
+
+<div style="background: linear-gradient(135deg, #0F172A 0%, #0D4D4A 100%); border-radius: 1rem; padding: 2rem; display: flex; justify-content: space-between; align-items: center; gap: 1.5rem; flex-wrap: wrap;">
+  <div>
+    <div style="color: #5EEAD4; font-size: 0.8rem; font-weight: 700; letter-spacing: 0.1em; text-transform: uppercase; margin-bottom: 0.4rem;">Contacto</div>
+    <div style="color: white; font-size: 1.1rem; font-weight: 700; margin-bottom: 0.25rem;">¿Su organización quiere medir su impacto?</div>
+    <div style="color: #94A3B8; font-size: 0.9rem;">Hablemos sobre un programa piloto o una formación a medida.</div>
+  </div>
+  <a href="mailto:jcmunozm@eafit.edu.co"
+     style="display: inline-block; background: #0D9488; color: white; padding: 0.8rem 1.8rem; border-radius: 0.625rem; text-decoration: none; font-weight: 700; font-size: 0.9rem; white-space: nowrap; transition: background 0.2s;"
+     onmouseover="this.style.background='#0F766E'" onmouseout="this.style.background='#0D9488'">
+    Contactar &rarr;
+  </a>
+</div>
+
+</div>
+</div>
+```
+
+```{=html}
+<style>
+/* ── Módulos grid ────────────────────────────────────────────── */
+.mod-grid-web {
+  display: grid;
+  grid-template-columns: 1fr;
+  gap: 0.75rem;
+  margin-top: 1.5rem;
+}
+
+.mod-card-web {
+  display: flex;
+  gap: 1.25rem;
+  align-items: flex-start;
+  background: #FFFFFF;
+  border: 1px solid #E2E8F0;
+  border-radius: 0.875rem;
+  padding: 1.25rem 1.5rem;
+  transition: border-color 0.2s, box-shadow 0.2s;
+}
+
+.mod-card-web:hover {
+  border-color: #0D9488;
+  box-shadow: 0 4px 16px rgba(13,148,136,0.08);
+}
+
+.mod-card-web--active {
+  border-color: #0D9488;
+  background: #F0FDFA;
+}
+
+.mod-num-web {
+  flex: 0 0 auto;
+  width: 44px;
+  height: 44px;
+  background: #0F172A;
+  color: #5EEAD4;
+  border-radius: 0.5rem;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  font-size: 0.85rem;
+  font-weight: 800;
+  letter-spacing: 0.05em;
+}
+
+.mod-card-web--active .mod-num-web {
+  background: #0D9488;
+  color: white;
+}
+
+.mod-info-web { flex: 1; }
+
+.mod-title-web {
+  font-weight: 700;
+  color: #0F172A;
+  font-size: 0.95rem;
+  margin-bottom: 0.3rem;
+}
+
+.mod-desc-web {
+  font-size: 0.83rem;
+  color: #64748B;
+  line-height: 1.5;
+}
+
+.mod-btn {
+  display: inline-block;
+  background: #0D9488;
+  color: white !important;
+  padding: 0.35rem 1rem;
+  border-radius: 0.4rem;
+  text-decoration: none !important;
+  font-weight: 600;
+  font-size: 0.8rem;
+  transition: background 0.2s;
+}
+
+.mod-btn:hover {
+  background: #0F766E !important;
+}
+</style>
+```

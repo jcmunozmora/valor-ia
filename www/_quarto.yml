@@ -22,6 +22,8 @@ website:
         text: "Nuestros Servicios"
       - href: aplicaciones.qmd
         text: Aplicaciones
+      - href: formacion.qmd
+        text: "Formación"
       - href: equipo.qmd
         text: Equipo
     right:

@@ -1,0 +1,567 @@
+---
+title: "Curso Básico de SROI — Sesión 1"
+format:
+  revealjs:
+    theme: [dark, sroi_slides.scss]
+    slide-number: "c/t"
+    show-slide-number: all
+    transition: slide
+    transition-speed: fast
+    chalkboard: false
+    scrollable: false
+    fig-align: center
+    echo: false
+    warning: false
+    self-contained: true
+    width: 1280
+    height: 720
+    margin: 0.08
+    footer: "Juan Carlos Muñoz-Mora, PhD · CVP EAFIT · Curso Básico SROI"
+lang: es
+---
+
+## {background-color="#0F172A"}
+
+::: portada-wrap
+::: portada-eyebrow
+Centro Valor Público · EAFIT
+:::
+
+::: portada-titulo
+Curso Básico de SROI
+:::
+
+::: portada-sub
+Medición de Retorno Social de la Inversión —<br>
+De la intención al impacto verificable
+:::
+
+::: {style="margin-bottom: 0.6em;"}
+[Sesión 1]{.pill .pill-teal}
+[Fundamentos]{.pill .pill-slate}
+[Evaluación de programas]{.pill .pill-slate}
+:::
+
+::: portada-instructor
+**Juan Carlos Muñoz-Mora, PhD** · Economista · Universidad EAFIT<br>
+Ph.D. en Economía · Universidad Libre de Bruselas (ULB)<br>
+Investigador Asociado · Institute of Development Studies (IDS)
+:::
+:::
+
+---
+
+## Objetivo del curso
+
+::: col-6040
+::: {}
+Brindar a los participantes los **conocimientos fundamentales** para aplicar la metodología SROI en el análisis y evaluación del valor social generado por proyectos o intervenciones.
+
+Al finalizar el curso podrán:
+
+- Diseñar una Teoría del Cambio rigurosa
+- Identificar y valorar outcomes con evidencia
+- Calcular un ratio SROI defendible ante revisión externa
+- Comunicar el valor social con credibilidad
+:::
+::: box-teal
+**Metodología**
+
+40% Proyecto en grupo (hackathon)
+
+30% Clínicas y laboratorios prácticos
+
+30% Cuestionario individual (antes/después)
+:::
+:::
+
+---
+
+## {background-color="#0F172A"}
+
+::: seccion-label
+Malla curricular
+:::
+
+## Estructura del curso: 8 módulos
+
+::: mod-grid
+::: {.mod-card .activo}
+[01]{.mod-num}
+**Evaluación de programas**
+:::
+::: mod-card
+[02]{.mod-num}
+Alcance y stakeholders
+:::
+::: mod-card
+[03]{.mod-num}
+Teoría del Cambio
+:::
+::: mod-card
+[04]{.mod-num}
+Evidencia de outcomes
+:::
+::: mod-card
+[05]{.mod-num}
+Valoración monetaria
+:::
+::: mod-card
+[06]{.mod-num}
+Factores de ajuste y SROI
+:::
+::: mod-card
+[07]{.mod-num}
+Sensibilidad y riesgo
+:::
+::: mod-card
+[08]{.mod-num}
+Informe y aseguramiento SVI
+:::
+:::
+
+::: {.box-teal style="margin-top: 1.2em; font-size: 0.8em;"}
+**Módulo activo hoy:** 01 — Evaluación de programas sociales
+_Objetivo: alinear a todo el grupo en lenguajes y marcos comunes antes de hablar de monetización_
+:::
+
+---
+
+## Competencias que vamos a desarrollar
+
+::: col-2
+::: {}
+**Del ser — actitud**
+
+- Valorar la importancia de medir y comunicar el valor social creado
+- Fomentar la transparencia y la rendición de cuentas
+- Reconocer el rol de todos los grupos de interés
+- Integrar el análisis de impacto en la planificación
+- Promover una cultura organizacional centrada en el impacto
+:::
+::: {}
+**Del saber — conocimiento**
+
+- Dominar los 8 Principios de Social Value International
+- Construir y aplicar Teorías del Cambio
+- Aplicar métodos de valoración monetaria (WTP, WELLBY, costos unitarios)
+- Calcular e interpretar ratios SROI con escenarios
+
+**Del hacer — habilidad**
+
+- Diseñar y ejecutar un análisis SROI desde cero
+- Construir el Value Map en herramientas digitales
+:::
+:::
+
+---
+
+## {background-color="#0F172A"}
+
+::: seccion-label
+Módulo 1 · Evaluación de programas sociales
+:::
+
+::: {style="font-size: 2em; font-weight: 900; color: white; margin-top: 0.5em;"}
+El Río del Cambio
+:::
+
+::: {style="font-size: 0.9em; color: #94A3B8; margin-top: 0.3em;"}
+¿Cuál ha sido nuestro viaje?
+:::
+
+---
+
+## La pregunta incómoda del principio
+
+::: col-2
+::: {.box-amber style="text-align: center; padding: 2rem;"}
+::: {style="font-size: 2.8em; font-weight: 900; color: #FCD34D;"}
+¿Funciona?
+:::
+::: {style="font-size: 0.8em; color: #94A3B8; margin-top: 0.5em;"}
+¿Tu programa realmente genera el cambio que dice generar?
+:::
+:::
+::: {}
+La mayoría de las organizaciones sociales no pueden responder esta pregunta con evidencia.
+
+No porque no quieran.
+
+Porque **nunca construyeron el sistema para saberlo**.
+
+> "La ausencia de cultura de impacto convierte las acciones en cajas negras."
+:::
+:::
+
+---
+
+## Las 3 verdades del argumento
+
+::: {style="font-size: 0.85em;"}
+
+::: {.box-dark style="margin-bottom: 0.7em;"}
+**Verdad 1:** La mayoría de los programas sociales no cuentan con procesos de evaluación y gestión del impacto social.
+
+_Evidencia: menos del 20% de las intervenciones de desarrollo tienen evaluaciones de impacto rigurosas._
+:::
+
+::: {.box-dark style="margin-bottom: 0.7em;"}
+**Verdad 2:** Las buenas intenciones y los fines no son suficientes para tener un impacto.
+
+_Caso clásico: Cambridge Somerville Youth Study (1942) — intervención bien intencionada con efectos negativos documentados._
+:::
+
+::: {.box-dark}
+**Verdad 3:** Programas sin monitoreo son altamente inefectivos y vulnerables a la corrupción.
+
+_Estimado: USD $20–40 billones anuales (20–40% de la AOD) se pierden por corrupción y falta de rendición de cuentas._
+:::
+
+:::
+
+---
+
+## Pero no caigamos en la trampa
+
+::: col-6040
+::: {}
+Que la mayoría no mida bien **no significa** que los programas sociales no funcionen.
+
+Lo que significa es que:
+
+- Los programas son **cajas negras** — no sabemos qué hace que funcionen
+- Sin medición, no hay **aprendizaje organizacional**
+- Sin aprendizaje, no hay **mejora continua**
+- Sin mejora continua, el impacto **se estanca**
+
+La solución no es desconfiar de los programas. Es **abrirlos**.
+:::
+::: {.box-teal style="text-align: center;"}
+::: stat-grande
+📦
+:::
+::: stat-label
+Programa sin evaluación = caja negra
+_Se sabe que entra dinero. No se sabe qué sale._
+:::
+:::
+:::
+
+---
+
+## Por qué es tan difícil medir el impacto
+
+::: {style="font-size: 0.8em;"}
+
+| Desafío | Por qué es un problema |
+|:---|:---|
+| No existe una comprensión clara de "impacto" | Cada organización usa definiciones distintas |
+| Poca sostenibilidad de los cambios | Los efectos se diluyen sin seguimiento (Wood & Neal, 2016) |
+| Poca comprensión de los contextos | El mismo programa funciona diferente en barrios distintos |
+| Nuevas tecnologías y redes sociales | Crean dimensiones de impacto que no teníamos antes |
+| Poca evaluación y seguimiento sistemático | Sin línea de base no hay comparación posible |
+
+:::
+
+::: {.box-teal style="font-size: 0.8em; margin-top: 0.8em;"}
+**El reto central:** medir el impacto requiere saber *qué* medir, *cuándo* medirlo, *cómo* atribuirlo al programa — y todo esto antes de que el programa termine.
+:::
+
+---
+
+## El dilema del detalle y la confianza
+
+::: col-2
+::: {}
+```{=html}
+<div style="display: flex; align-items: center; justify-content: center; height: 250px; background: rgba(255,255,255,0.03); border: 1px solid rgba(255,255,255,0.08); border-radius: 8px;">
+  <div style="text-align: center;">
+    <div style="font-size: 3em; font-weight: 900; color: #5EEAD4;">Detalle</div>
+    <div style="color: #64748B; font-size: 0.8em; margin-top: 0.3em;">Profundidad de la medición</div>
+  </div>
+</div>
+```
+
+Más detalle = más precisión
+
+Pero también = más recursos, más tiempo, más complejidad
+:::
+::: {}
+```{=html}
+<div style="display: flex; align-items: center; justify-content: center; height: 250px; background: rgba(13,148,136,0.1); border: 1px solid rgba(13,148,136,0.3); border-radius: 8px;">
+  <div style="text-align: center;">
+    <div style="font-size: 3em; font-weight: 900; color: white;">Confianza</div>
+    <div style="color: #94A3B8; font-size: 0.8em; margin-top: 0.3em;">Credibilidad del resultado</div>
+  </div>
+</div>
+```
+
+Más confianza = más útil para decisiones
+
+Pero requiere metodología verificable
+:::
+:::
+
+::: {style="font-size: 0.8em; text-align: center; margin-top: 0.8em; color: #64748B;"}
+El SROI encuentra el equilibrio: *enough precision for the decision* — IV Hub Playbook, 2025
+:::
+
+---
+
+## {background-color="#0F172A"}
+
+::: seccion-label
+Módulo 1 · El enfoque sistémico
+:::
+
+::: {style="font-size: 2em; font-weight: 900; color: white; margin-top: 0.5em;"}
+Del modelo lógico<br>a la Teoría del Cambio
+:::
+
+---
+
+## El modelo lógico: una primera aproximación
+
+::: logico-grid
+::: {}
+::: logico-header
+Insumos
+:::
+::: logico-body
+Recursos financieros, humanos y materiales que entran al programa
+:::
+:::
+::: {}
+::: logico-header
+Actividades
+:::
+::: logico-body
+Lo que hace el programa con esos recursos
+:::
+:::
+::: {}
+::: logico-header
+Productos
+:::
+::: logico-body
+Entregables concretos y medibles de las actividades
+:::
+:::
+::: {}
+::: logico-header
+Resultados
+:::
+::: logico-body
+Cambios observables en la población objetivo (corto/mediano plazo)
+:::
+:::
+::: {}
+::: logico-header
+Impacto
+:::
+::: logico-body
+Cambio durable en las condiciones de vida atribuible al programa
+:::
+:::
+:::
+
+::: {.box-dark style="font-size: 0.75em; margin-top: 1em;"}
+_Dooren, Van Bouckaert & Halligan (2010). Performance Management in the Public Sector._
+:::
+
+---
+
+## El papel de la evaluación en cada eslabón
+
+::: {style="font-size: 0.78em;"}
+
+| Relación | Criterio | Pregunta |
+|:---|:---|:---|
+| Insumos ↔ Contexto | **Relevancia** | ¿El programa atiende una necesidad real? |
+| Insumos → Actividades | **Economía** | ¿Se usaron los recursos de manera óptima? |
+| Insumos → Productos | **Eficiencia** | ¿Se produjo suficiente con lo que se invirtió? |
+| Actividades → Resultados | **Efectividad** | ¿Se lograron los cambios esperados? |
+| Resultados → Impacto | **Costo-efectividad** | ¿El cambio justificó la inversión? |
+| Impacto → Largo plazo | **Sostenibilidad** | ¿El cambio perduró sin el programa? |
+
+:::
+
+::: {.box-teal style="font-size: 0.78em; margin-top: 0.8em;"}
+**El SROI opera principalmente en la relación resultados → impacto → costo-efectividad**, pero requiere que los eslabones anteriores estén bien construidos.
+:::
+
+---
+
+## Por qué los programas fallan — tres tipos de error
+
+::: col-2
+::: {}
+::: {.box-amber style="margin-bottom: 0.6em;"}
+**Error Tipo 1: Teoría incorrecta**
+
+El programa hace exactamente lo que planeó, pero la teoría de cambio era equivocada.
+
+_El programa impactó en el objetivo equivocado._
+:::
+
+::: box-dark
+**Error Tipo 2: Implementación deficiente**
+
+La teoría es correcta pero la ejecución falló.
+
+_El programa no llegó a quienes debía llegar._
+:::
+:::
+::: {}
+::: {style="text-align: center; padding: 1.5rem 0;"}
+```{=html}
+<div style="display: flex; flex-direction: column; gap: 0.4em; font-size: 0.7em;">
+  <div style="background: rgba(255,255,255,0.05); border: 1px solid rgba(255,255,255,0.08); padding: 0.5em; border-radius: 4px; display: flex; gap: 0.5em; align-items: center;">
+    <span style="color: #5EEAD4;">📋</span> <span>Lo esperado</span>
+  </div>
+  <div style="color: #64748B; text-align: center;">↓</div>
+  <div style="background: rgba(245,158,11,0.1); border: 1px solid rgba(245,158,11,0.3); padding: 0.5em; border-radius: 4px; display: flex; gap: 0.5em; align-items: center;">
+    <span style="color: #FCD34D;">⚠️</span> <span>Errores en la teoría</span>
+  </div>
+  <div style="color: #64748B; text-align: center;">↓</div>
+  <div style="background: rgba(239,68,68,0.1); border: 1px solid rgba(239,68,68,0.3); padding: 0.5em; border-radius: 4px; display: flex; gap: 0.5em; align-items: center;">
+    <span style="color: #F87171;">🔧</span> <span>Errores implementación</span>
+  </div>
+</div>
+```
+:::
+
+Ambos tipos de error son **evitables** si el sistema de medición está bien diseñado desde el principio.
+:::
+:::
+
+---
+
+## {background-color="#0F172A"}
+
+::: seccion-label
+Actividad 1 · Planeando el viaje
+:::
+
+::: {style="font-size: 2em; font-weight: 900; color: white; margin-top: 0.5em;"}
+Construyamos nuestro<br>barco juntos
+:::
+
+::: {style="font-size: 0.9em; color: #94A3B8; margin-top: 0.5em;"}
+El río del cambio — Parte práctica
+:::
+
+---
+
+## Actividad: los 4 pasos del viaje
+
+::: {style="font-size: 0.85em;"}
+
+::: col-2
+::: {}
+::: {.box-teal style="margin-bottom: 0.7em;"}
+**Paso 1: Construir el barco**
+
+¿Cuáles son los recursos con los que cuenta su organización para navegar el cambio social?
+
+_Listado de insumos clave_
+:::
+
+::: {.box-dark style="margin-bottom: 0.7em;"}
+**Paso 2: ¿Cuál es el destino?**
+
+¿Qué impacto quiere lograr? ¿Cómo se ve ese destino si se logra?
+
+_El cambio social que quieren producir_
+:::
+:::
+::: {}
+::: {.box-dark style="margin-bottom: 0.7em;"}
+**Paso 3: Organizar el plan**
+
+¿Cuáles son los pasos — actividades, productos, resultados — para llegar al destino?
+
+_La ruta del modelo lógico_
+:::
+
+::: {.box-amber}
+**Paso 4: Socialización**
+
+Comparten con el grupo: ¿qué encontraron? ¿Dónde hay vacíos en la teoría? ¿Qué no estaba en el plan original?
+
+_3 minutos por equipo_
+:::
+:::
+:::
+
+:::
+
+---
+
+## {background-color="#0F172A"}
+
+::: seccion-label
+Cierre de la Sesión 1
+:::
+
+::: {style="font-size: 1.8em; font-weight: 900; color: white; margin-top: 0.5em; line-height: 1.2;"}
+Los programas son cajas negras<br>hasta que les ponemos<br>un sistema de medición
+:::
+
+---
+
+## Qué llevamos de hoy
+
+::: col-2
+::: {}
+**Conceptos clave instalados**
+
+- La diferencia entre *outputs*, *resultados* e *impacto*
+- El modelo lógico como punto de partida
+- Los 3 tipos de falla de los programas sociales
+- El dilema detalle/confianza en la medición
+- La relevancia, eficiencia y efectividad como criterios
+
+**Lectura recomendada**
+
+SVI SROI Guide, 2012 — Capítulos 1 y 2
+:::
+::: {}
+**Próxima sesión**
+
+::: {.box-teal style="margin-bottom: 0.6em;"}
+**Sesión 2** · Alcance y stakeholders
+
+¿Para quién medimos? ¿Qué stakeholders son materiales? El Principio 1 de SVI en la práctica.
+:::
+
+::: {.box-dark}
+**Tarea para la próxima sesión**
+
+1. Identificar los 3–5 stakeholders principales de su programa
+2. Para cada uno: ¿qué cambia en sus vidas? (sin monetizar aún)
+3. Traer este listado a la sesión 2
+:::
+:::
+:::
+
+---
+
+## {background-color="#0F172A"}
+
+::: {style="text-align: center; padding: 2rem 0;"}
+::: {style="font-size: 0.55em; font-weight: 700; letter-spacing: 0.15em; color: #5EEAD4; text-transform: uppercase; margin-bottom: 1em;"}
+Centro Valor Público · Universidad EAFIT
+:::
+
+::: {style="font-size: 2.2em; font-weight: 900; color: white; line-height: 1.1; margin-bottom: 0.5em;"}
+Valor·IA SROI
+:::
+
+::: {style="font-size: 0.9em; color: #64748B;"}
+Juan Carlos Muñoz-Mora, PhD<br>
+jcmunozm@eafit.edu.co<br><br>
+_Sesión 1 de 8 — Fundamentos y Evaluación de Programas_
+:::
+:::

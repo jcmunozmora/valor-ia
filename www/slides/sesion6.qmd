@@ -1,0 +1,818 @@
+---
+title: "Curso Básico de SROI — Sesión 6"
+format:
+  revealjs:
+    theme: [dark, sroi_slides.scss]
+    slide-number: "c/t"
+    show-slide-number: all
+    transition: slide
+    transition-speed: fast
+    chalkboard: false
+    scrollable: false
+    fig-align: center
+    echo: false
+    warning: false
+    self-contained: true
+    width: 1280
+    height: 720
+    margin: 0.08
+    footer: "Juan Carlos Muñoz-Mora, PhD · CVP EAFIT · Curso Básico SROI"
+lang: es
+---
+
+## {background-color="#0F172A"}
+
+::: portada-wrap
+::: portada-eyebrow
+Centro Valor Público · EAFIT
+:::
+
+::: portada-titulo
+Valoración de Impactos
+:::
+
+::: portada-sub
+Métodos de monetización del valor social —<br>
+De la intuición al número defendible
+:::
+
+::: {style="margin-bottom: 0.6em;"}
+[Sesión 6]{.pill .pill-teal}
+[Monetización]{.pill .pill-slate}
+[Value Map]{.pill .pill-slate}
+:::
+
+::: portada-instructor
+**Juan Carlos Muñoz-Mora, PhD** · Economista · Universidad EAFIT<br>
+Ph.D. en Economía · Universidad Libre de Bruselas (ULB)<br>
+Investigador Asociado · Institute of Development Studies (IDS)
+:::
+:::
+
+---
+
+## Agenda
+
+::: col-2
+::: {}
+**Bloque 1 — Marco conceptual**
+
+1. Principios SVI relevantes (P3, P1, P4, P8)
+2. Métodos no-monetarios como base
+3. Métodos monetarios: panorama
+
+**Bloque 2 — Métodos de valoración**
+
+4. Value Game (presencial y online)
+5. Auction Game
+6. Cost-based (costos unitarios)
+7. Revealed Preference (RP)
+8. Stated Preference (SP)
+9. Wellbeing Valuation (WV)
+10. Métodos combinados
+:::
+::: {}
+**Bloque 3 — Aplicación**
+
+11. Mini Value Map: estructura y lógica
+12. Casos ilustrativos multi-sector
+    - Programa de empleabilidad juvenil
+    - Programa de salud preventiva
+    - Programa de espacio público
+
+**Bloque 4 — Cierre**
+
+13. Mini Value Map consolidado
+14. SROI y análisis de sensibilidad
+15. Recursos y lecturas
+:::
+:::
+
+---
+
+## {background-color="#0F172A"}
+
+::: seccion-label
+Bloque 1
+:::
+
+::: seccion-num
+Marco Conceptual
+:::
+
+Los cuatro principios SVI que guían la valoración
+
+---
+
+## Principios SVI para valorar outcomes
+
+::: col-2
+::: box-teal
+**Principio 3 — Valorar lo que importa**
+
+No limitar la valoración a lo fácilmente medible. Si algo importa a los stakeholders, se debe intentar asignarle valor — con el método más apropiado disponible.
+
+> "Use monetary values where they help communicate the importance of an outcome, even if imperfect."
+:::
+::: {}
+**Principio 1 — Involucrar a los stakeholders**
+
+Los stakeholders determinan qué outcomes son materiales. Sin su voz, el analista decide por ellos — y esa decisión raramente refleja lo que importa de verdad.
+
+**Principio 4 — Solo lo material**
+
+Incluir únicamente los outcomes que marcan diferencia para los stakeholders y para las conclusiones. Más outcomes no significa más rigor.
+
+**Principio 8 — Ser responsivo**
+
+Compartir los resultados con los stakeholders. Si el análisis no cambia nada, es un análisis desperdiciado.
+:::
+:::
+
+---
+
+## El espectro de los métodos
+
+::: {style="overflow-x: auto;"}
+| Dimensión | No-monetario | Monetario |
+|-----------|-------------|-----------|
+| **Ejemplo** | Encuestas, observación, relatos | WTP, cost-based, WV, RP |
+| **Para qué** | Identificar y evidenciar el outcome | Asignar valor monetario al outcome |
+| **Cuándo usarlo** | Siempre — es la base | Cuando se busca el ratio SROI |
+| **Riesgo** | Sin número → difícil comparar | Falsa precisión → ratio indefendible |
+| **En SROI** | Etapas 2–3 (mapa y evidencia) | Etapa 4–5 (impacto y cálculo) |
+:::
+
+::: box-dark
+Los métodos no-monetarios NO son inferiores — son el fundamento. La monetización sin evidencia cualitativa sólida produce un número frágil que no resiste un auditor.
+:::
+
+---
+
+## {background-color="#0F172A"}
+
+::: seccion-label
+Bloque 2
+:::
+
+::: seccion-num
+Métodos de Valoración
+:::
+
+De la intuición al número defendible
+
+---
+
+## Value Game — Presencial
+
+::: col-6040
+::: {}
+**¿Qué es?**
+
+Un método participativo donde los stakeholders usan un **mazo de cartas con valores conocidos** para anclar y comparar el valor de los outcomes del programa.
+
+**Procedimiento:**
+
+1. Preparar cartas con bienes de valor conocido (p. ej., visita médica, mes de transporte, curso de formación)
+2. Presentar el outcome a valorar
+3. Stakeholders ubican el outcome relativo a las cartas
+4. El facilitador extrae el valor implícito por comparación
+
+**Ventaja clave:** los participantes razonan en términos relativos, no en cifras abstractas.
+:::
+::: box-teal
+**¿Cuándo usarlo?**
+
+- Grupos focales o talleres presenciales
+- Outcomes difíciles de comparar con precios de mercado
+- Cuando se quiere involucrar activamente a los beneficiarios en la valoración
+
+**Limitación:** sensible a la selección de las cartas ancla; requiere facilitación cuidadosa para evitar anclaje.
+:::
+:::
+
+---
+
+## Value Game — Online
+
+::: col-2
+::: {}
+**Versión digital**
+
+Plataformas como Mentimeter o formularios con escenarios permiten replicar la lógica del Value Game en formato remoto.
+
+**Formato típico:**
+
+- Mostrar foto o descripción del outcome
+- Escala: "¿Cuánto vale esto comparado con...?"
+- Ancla monetaria explícita (p. ej., "100.000 COP al mes de guardería")
+- Slider o selección entre rangos
+
+**Ventaja:** escalable, asincrónico, anónimo.
+:::
+::: {}
+**Consideraciones metodológicas**
+
+- El diseño del formulario es crítico — el orden de las anclas afecta la respuesta
+- Reportar la distribución de respuestas, no solo la media
+- Documentar la muestra: N, perfil, método de reclutamiento
+- Comparar con otros métodos (triangulación)
+
+::: box-amber
+**Principio SVI relevante:** Principio 1. El valor que importa es el de los stakeholders — no el que el analista considera razonable.
+:::
+:::
+:::
+
+---
+
+## Auction Game
+
+::: col-6040
+::: {}
+**¿Qué es?**
+
+Una subasta simulada donde los participantes "pujan" por el outcome usando una dotación ficticia de dinero. Revela la **disposición a pagar** (WTP) implícita.
+
+**Procedimiento:**
+
+1. Cada participante recibe una dotación (p. ej., $500.000 ficticios)
+2. Se presentan los outcomes como "lotes" a subastar
+3. Puja secuencial o simultánea
+4. El precio final = estimado del WTP del grupo
+
+**Por qué funciona:** las pujas revelan preferencias reales porque los participantes tienen que priorizar (no pueden pagar por todo).
+:::
+::: {}
+**Variantes**
+
+- **Subasta Vickrey (second-price):** el ganador paga el segundo precio más alto → incentiva pujas honestas
+- **BDM (Becker-DeGroot-Marschak):** compara la puja con un precio aleatorio → también incentiva honestidad
+
+**Limitaciones**
+
+- Requiere participantes familiarizados con el formato
+- El bien subastado debe ser comprensible para todos
+- Riesgo de gaming si el grupo es pequeño
+
+**Uso en SROI:** ideal cuando el outcome tiene un equivalente de mercado cercano (un servicio, un acceso, un ahorro en tiempo).
+:::
+:::
+
+---
+
+## Cost-Based (Costos Unitarios)
+
+::: col-2
+::: {}
+**¿Qué es?**
+
+Usar el **costo de proveer un bien o servicio equivalente** como proxy del valor del outcome.
+
+**Lógica:** si alguien paga $X por un servicio similar, el outcome que lo reemplaza o evita vale al menos $X.
+
+**Fuentes típicas:**
+
+- Costos del sistema de salud (ADRES, MINSALUD)
+- Tarifas del SENA o universidades públicas
+- PSSRU Unit Costs (UK) — con ajuste PPP
+- HACT Social Value Bank (UK) — con ajuste PPP
+- Costos del sistema judicial (INPEC, Rama Judicial)
+:::
+::: {}
+**Tres tipos de costos unitarios**
+
+| Tipo | Qué es | Ejemplo |
+|------|--------|---------|
+| **Primarios** | Costos internos del programa | Costo por sesión de capacitación |
+| **Secundarios** | Costos de servicios públicos equivalentes | Hospitalización ADRES/año |
+| **Terciarios** | Costos sistémicos evitados | Costo de encarcelamiento por prevención |
+
+::: box-dark
+**Advertencia PPP:** los proxies UK/USA sobreestiman sistemáticamente el valor en Colombia por un factor 5–8×. Siempre ajustar por paridad de poder adquisitivo o usar fuentes locales.
+:::
+:::
+:::
+
+---
+
+## Revealed Preference (RP)
+
+::: col-6040
+::: {}
+**¿Qué es?**
+
+Inferir el valor de un outcome a partir de **comportamientos de mercado observados** — lo que las personas realmente pagan o hacen, no lo que dicen.
+
+**Métodos principales:**
+
+- **Precios hedónicos:** el diferencial de precio entre bienes similares con/sin el atributo de interés (p. ej., mayor alquiler en zonas con parque bien mantenido)
+- **Costo de viaje:** lo que las personas gastan en llegar a un lugar como proxy del valor que le asignan
+- **Sustitutos de mercado:** gasto en bienes que reemplazan el outcome (p. ej., filtros de agua como proxy del valor del agua limpia)
+:::
+::: box-teal
+**Ventaja:** se basa en comportamiento real, no declarado → menor sesgo hipotético.
+
+**Limitación:** solo aplica cuando existe un mercado observable relacionado. Muchos outcomes sociales no tienen sustitutos claros.
+
+**Ejemplo en vivienda:** diferenciales de precio entre predios cercanos y lejanos a un espacio público rehabilitado → proxy del valor que la comunidad asigna a ese espacio.
+:::
+:::
+
+---
+
+## Stated Preference (SP) — WTP
+
+::: col-2
+::: {}
+**¿Qué es?**
+
+Preguntar directamente a las personas cuánto estarían dispuestas a **pagar** (WTP) o a **aceptar** (WTA) por un cambio en el outcome.
+
+**Formatos de pregunta:**
+
+- **Abierta:** "¿Cuánto pagaría por...?" — sesgada al alza, poco recomendada
+- **Payment card:** rangos de valor para marcar — más cómoda, menos precisa
+- **Dichotomous choice:** "¿Pagaría $X por...?" Sí/No — el más robusto metodológicamente
+- **Double-bounded DC:** dos preguntas consecutivas — más eficiente estadísticamente
+:::
+::: {}
+**Diseño del escenario**
+
+El escenario debe ser:
+1. Realista y comprensible para el respondente
+2. Específico sobre qué se obtiene y qué se paga
+3. Creíble (el pago debe ser plausible)
+
+**Análisis:**
+
+$$\text{WTP medio} = \int_0^\infty [1 - F(x)] \, dx$$
+
+donde F(x) es la función de distribución acumulada de las respuestas.
+
+::: box-amber
+**En SROI:** multiplique WTP anual × N beneficiarios para obtener el valor bruto total del outcome.
+:::
+:::
+:::
+
+---
+
+## Wellbeing Valuation (WV)
+
+::: col-6040
+::: {}
+**¿Qué es?**
+
+Estimar el valor monetario equivalente de un cambio en **bienestar subjetivo** (life satisfaction) usando regresiones de ingresos-bienestar.
+
+**Lógica:**
+
+1. Medir bienestar antes y después (escalas Cantril, SWEMWBS, LS 0–10)
+2. Calcular el cambio: Δ bienestar
+3. Convertir usando la ecuación:
+
+$$\text{Valor} = \frac{\Delta \text{LS}}{\partial \text{LS}/\partial \text{ingreso}} \times \text{ingreso base}$$
+
+**Valor de referencia UK (HM Treasury):**
+£13,000 por punto de LS/año (precios 2019)
+:::
+::: {}
+**Escalas de medición**
+
+| Escala | Puntos | Uso típico |
+|--------|--------|-----------|
+| Cantril Ladder | 0–10 | Bienestar general |
+| SWEMWBS | 7–35 | Bienestar mental |
+| Rosenberg | 0–30 | Autoestima |
+| WEMWBS | 14–70 | Bienestar mental amplio |
+
+**Adaptación al contexto local:**
+
+El coeficiente £13,000/punto UK debe ajustarse por diferencial de ingresos y contexto. En la práctica: documentar el ajuste y presentar sensibilidad.
+
+::: box-dark
+Los WELLBY son un complemento poderoso para outcomes de salud mental, cohesión social y bienestar — especialmente cuando no hay proxy de mercado disponible.
+:::
+:::
+:::
+
+---
+
+## Métodos Combinados y Triangulación
+
+::: col-2
+::: {}
+**¿Por qué combinar?**
+
+Ningún método captura el valor completo de un outcome social. La triangulación reduce el sesgo de cada método individual y fortalece la credibilidad del análisis.
+
+**Estrategias de triangulación:**
+
+- **Convergente:** dos métodos dan resultados similares → mayor confianza
+- **Divergente:** resultados distintos → investigar por qué antes de elegir
+- **Conservadora:** usar el valor más bajo como estimado central
+
+**Reporte:** presentar todos los métodos con sus resultados; justificar explícitamente el elegido.
+:::
+::: {}
+**Ejemplo: valor de la inserción laboral juvenil**
+
+| Método | Valor estimado |
+|--------|---------------|
+| Cost-based (curso SENA equivalente) | $3.200.000 COP |
+| WTP por formación (SP) | $2.800.000 COP |
+| Diferencial salarial (RP) | $4.100.000 COP |
+| **Estimado conservador** | **$2.800.000 COP** |
+
+::: box-teal
+La triangulación también informa el análisis de sensibilidad: el rango entre métodos define los límites inferior y superior del escenario de sensibilidad.
+:::
+:::
+:::
+
+---
+
+## {background-color="#0F172A"}
+
+::: seccion-label
+Bloque 3
+:::
+
+::: seccion-num
+Aplicación Práctica
+:::
+
+Mini Value Map y casos ilustrativos multi-sector
+
+---
+
+## El Value Map: estructura básica
+
+::: {style="overflow-x: auto;"}
+| Outcome | Stakeholder | Indicador | N | Valor bruto | DW | Atrib. | Disp. | Valor neto |
+|---------|------------|-----------|---|-------------|----|----|----|----|
+| Inserción laboral | Jóvenes | % empleados a 6 meses | 200 | $640M | 20% | 25% | 0% | $384M |
+| Costos de salud evitados | Familias | Visitas evitadas/año | 500 | $120M | 15% | 20% | 0% | $81,6M |
+| Mejora de bienestar | Comunidad | Δ puntos LS | 800 | $95M | 10% | 15% | 5% | $68,5M |
+:::
+
+**Fórmula central:**
+
+$$V_{\text{neto}} = V_{\text{bruto}} \times (1-DW) \times (1-\text{Atrib}) \times (1-\text{Disp})$$
+
+::: box-amber
+**Regla del thumb:** si DW + Atribución > 70%, el análisis necesita evidencia adicional para justificar los factores. Un outcome con 80% de ajuste combinado deja muy poco valor imputable al programa.
+:::
+
+---
+
+## Caso A — Programa de Empleabilidad Juvenil
+
+::: col-6040
+::: {}
+**El programa**
+
+Formación técnica y acompañamiento en inserción laboral para jóvenes de 18–28 años en situación de vulnerabilidad socioeconómica.
+
+**Principales outcomes:**
+
+- Inserción laboral formal (empleo + cotización)
+- Incremento de ingresos respecto a línea de base
+- Desarrollo de habilidades blandas y técnicas
+- Reducción de tiempo en desempleo
+
+**Intuición de valoración:**
+
+- **Cost-based:** costo equivalente de formación técnica en el SENA
+- **RP:** diferencial salarial entre jóvenes con y sin el programa
+- **SP (WTP):** disposición a pagar por el servicio de formación
+:::
+::: box-dark
+**Metodología — Valoración**
+
+$$V_{\text{cost-based}} = N_{\text{insertados}} \times \text{costo anual programa equivalente}$$
+
+$$V_{\text{RP}} = N_{\text{insertados}} \times \Delta\text{salario mensual} \times 12$$
+
+$$V_{\text{WTP}} = \text{WTP mensual} \times 12 \times N_{\text{beneficiarios}}$$
+
+**Ejemplo ilustrativo:**
+
+- Cost-based (SENA): 200 × $3.200.000 = $640M/año
+- RP diferencial salarial: 200 × $150.000 × 12 = $360M
+- WTP formación: $230.000/mes × 12 × 200 = $552M
+- DW=20%, Atrib=25%
+- V neto = $640M × 0,80 × 0,75 = **$384M**
+:::
+:::
+
+---
+
+## Caso B — Programa de Salud Preventiva Comunitaria
+
+::: col-2
+::: {}
+**El programa**
+
+Atención primaria, tamizaje y educación en salud para comunidades con barreras de acceso al sistema formal.
+
+**Outcomes clave:**
+
+- Enfermedades crónicas detectadas temprano (hipertensión, diabetes)
+- Hospitalizaciones evitadas por atención oportuna
+- Mejora de hábitos de salud (dieta, actividad física)
+- Reducción de gasto de bolsillo en salud
+
+**Intuición:**
+
+- **Cost-based:** costo de hospitalización evitada (tarifa ADRES)
+- **WV:** cambio en bienestar subjetivo por mejora de salud
+:::
+::: {}
+**Metodología — Valoración**
+
+Cost-based: costos de atención evitados
+
+$$V_{\text{hosp.}} = \Delta N_{\text{hospitalizaciones}} \times \text{costo medio ADRES}$$
+
+WV: equivalente monetario del cambio en bienestar
+
+$$V_{\text{WV}} = \Delta\text{LS} \times \text{coeficiente monetario} \times N$$
+
+**Ejemplo ilustrativo:**
+
+| Componente | Valor |
+|-----------|-------|
+| Hospitalizaciones evitadas: 50 × $4.500.000 | $225M |
+| WV bienestar: +0.8 pts LS × coef. local × 500 personas | $160M |
+| **Valor bruto total** | **$385M** |
+| DW=15%, Atrib=20% | × 0,85 × 0,80 |
+| **Valor neto** | **$261,8M** |
+:::
+:::
+
+---
+
+## Caso C — Programa de Espacio Público y Cohesión
+
+::: col-6040
+::: {}
+**El programa**
+
+Rehabilitación de parques y espacios comunitarios en barrios vulnerables, con programación cultural y deportiva sostenida.
+
+**Beneficios identificados:**
+
+- Mejora de percepción de seguridad barrial
+- Mayor cohesión social y capital social
+- Aumento de actividad física de residentes
+- Valorización del entorno residencial
+
+**Intuición de valoración:**
+
+- **WV:** cambios en bienestar (seguridad, cohesión) → equivalente monetario
+- **RP (hedónico):** diferencial de arriendo/venta por proximidad al espacio rehabilitado
+- **SP (WTP):** disposición a pagar por mantener el espacio con programación
+:::
+::: box-teal
+**Ejemplo ilustrativo — Números**
+
+| Componente | Valor |
+|-----------|-------|
+| WV seguridad + cohesión: $280.000/hogar/año | — |
+| 1.200 hogares en el área de influencia | $336M |
+| RP hedónico: +2% valor predial × 800 predios | $48M |
+| **Valor bruto** | **$384M** |
+| DW=10%, Atrib=20% | × 0,90 × 0,80 |
+| **Valor neto** | **$276,5M** |
+
+Los métodos WV y RP se usan como triangulación: cada uno captura dimensiones distintas del valor sin solaparse.
+:::
+:::
+
+---
+
+## {background-color="#0F172A"}
+
+::: seccion-label
+Bloque 4
+:::
+
+::: seccion-num
+Cálculo del SROI
+:::
+
+Del Value Map al ratio final
+
+---
+
+## Mini Value Map Consolidado
+
+::: {style="overflow-x: auto; font-size: 0.85em;"}
+| Outcome | Valor bruto | DW | Atrib. | Disp. | Valor neto |
+|---------|-------------|----|----|----|----|
+| Inserción laboral (cost-based) | $640M | 20% | 25% | 0% | $384M |
+| Hospitalizaciones evitadas (ADRES) | $225M | 15% | 20% | 0% | $153M |
+| Bienestar comunitario (WV) | $336M | 10% | 20% | 5% | $228,1M |
+| Valorización predial (RP hedónico) | $48M | 10% | 20% | 10% | $31,1M |
+| **Total** | **$1.249M** | | | | **$796,2M** |
+:::
+
+**Fórmula:**
+
+$$V_{\text{neto}} = V_{\text{bruto}} \times (1-DW) \times (1-\text{Atrib}) \times (1-\text{Disp})$$
+
+::: box-teal
+Cada fila del Value Map es una decisión metodológica. Los factores DW, Atribución y Desplazamiento deben estar documentados con fuente — no son parámetros libres.
+:::
+
+---
+
+## Supuestos para el SROI
+
+::: col-2
+::: {}
+**Parámetros del modelo**
+
+| Parámetro | Valor base | Rango |
+|-----------|-----------|-------|
+| Horizonte temporal | 5 años | 3–7 años |
+| Tasa de descuento | 8% | 5–12% |
+| Drop-off anual | 15% | 0–25% |
+| Inversión total (CAPEX + OPEX) | $1.200M | — |
+
+**Lógica del drop-off:**
+
+El outcome decae si el programa deja de operar o si el contexto cambia. Un drop-off del 15% anual significa que en el año 5 solo queda ~52% del beneficio original.
+:::
+::: box-dark
+**¿Por qué el 8%?**
+
+La tasa de descuento social de referencia del DNP para Colombia es ~12%. Para programas sociales con horizonte largo, se suele aplicar el rango 5–10%.
+
+La tasa de descuento afecta significativamente el resultado cuando el horizonte es largo. Incluirla en el análisis de sensibilidad es obligatorio.
+:::
+:::
+
+---
+
+## Flujo de Valor y Cálculo del SROI
+
+::: col-6040
+::: {}
+**Valor Presente Neto de beneficios**
+
+$$PV(\text{beneficios}) = \sum_{t=0}^{4} \frac{V_{\text{neto},t} \times (1-\delta)^t}{(1+r)^t}$$
+
+donde:
+- $\delta$ = drop-off anual (15%)
+- $r$ = tasa de descuento (8%)
+- $t$ = año (0 a 4)
+
+**Ratio SROI**
+
+$$\text{SROI} = \frac{PV(\text{beneficios})}{\text{Inversión}}$$
+:::
+::: box-teal
+**Ejemplo integrador**
+
+Con el Value Map consolidado:
+
+- $V_{\text{neto año 0}}$ = $796,2M
+- PV a 5 años con drop-off 15% y descuento 8% ≈ $2.740M
+- Inversión total = $1.200M
+
+$$\text{SROI} = \frac{2.740M}{1.200M} = 2{,}28 : 1$$
+
+**Interpretación:** por cada $1 invertido, se generan $2.28 de valor social neto.
+:::
+:::
+
+---
+
+## Análisis de Sensibilidad
+
+::: col-2
+::: {}
+**¿Por qué es obligatorio?**
+
+El SROI es una estimación puntual basada en supuestos. La sensibilidad muestra qué tan robusto es el resultado cuando los supuestos cambian.
+
+**Procedimiento:**
+
+1. Identificar los 4–5 parámetros más importantes (DW, Atribución, WTP, tasa descuento, drop-off)
+2. Variar cada uno ±10–20 pp, uno a la vez
+3. Recalcular el SROI
+4. Reportar el rango resultante
+
+**Resultado esperado:**
+:::
+::: {}
+| Parámetro | Pesimista | Base | Optimista |
+|-----------|----------|------|----------|
+| DW ±10pp | 1.74 | 2.28 | 2.82 |
+| Atrib ±10pp | 1.90 | 2.28 | 2.66 |
+| WTP ±20% | 1.82 | 2.28 | 2.74 |
+| Tasa desc. 12% / 5% | 1.98 | 2.28 | 2.55 |
+| Drop-off 25% / 5% | 1.88 | 2.28 | 2.91 |
+
+::: box-amber
+**Regla de oro:** si el SROI se mantiene > 1.0 en todos los escenarios pesimistas, el programa genera valor social neto incluso bajo los peores supuestos razonables.
+:::
+:::
+:::
+
+---
+
+## Recursos y Lecturas
+
+::: col-2
+::: {}
+**Guías oficiales**
+
+- **SVI — Estándares y guías:** [socialvalueint.org](https://socialvalueint.org/social-value/standards-and-guidance/)
+- **Guía SROI (SVUK):** [socialvalueuk.org](https://www.socialvalueuk.org/resources/sroi-guide/)
+- **Principios 3, 1, 4, 8 (SVI):** en el mismo sitio
+
+**Valoración del bienestar**
+
+- **WELLBY (HM Treasury, UK):** Green Book Supplementary Guidance on Wellbeing
+- **HACT Social Value Bank:** [hact.org.uk](https://www.hact.org.uk/tools/social-value-bank/)
+
+**Marcos de capitales**
+
+- **Capitals Coalition:** [capitalscoalition.org](https://capitalscoalition.org/)
+- **IFVI:** [ifvi.org](https://ifvi.org/)
+:::
+::: {}
+**Lecturas académicas clave**
+
+- Nicholls, A. (2009). "'We do good things, don't we?'" *Accounting, Organizations and Society*, 34(6–7).
+- Arvidson, M. et al. (2013). "Valuing the social?" *Voluntary Sector Review*, 4(1).
+- McHugh, N. et al. (2013). "Social return on investment." *Critical Social Policy*, 33(3).
+- HM Treasury (2022). *Green Book: Central Government Guidance on Appraisal and Evaluation*.
+
+::: box-dark
+**Próximas sesiones**
+
+Esta sesión sienta las bases para la construcción completa del Value Map. Las sesiones 7–8 integran todos los métodos en el cálculo del SROI definitivo con análisis de sensibilidad avanzado.
+:::
+:::
+:::
+
+---
+
+## Cierre — Sesión 6
+
+::: col-2
+::: box-teal
+**Lo esencial de hoy**
+
+- La valoración monetaria sigue a la evidencia — nunca al revés
+- Ningún método es perfecto: la triangulación reduce el sesgo
+- Los factores DW, Atribución y Desplazamiento son decisiones metodológicas, no parámetros libres
+- El análisis de sensibilidad no es opcional — es la prueba de robustez del ratio
+- Un SROI > 1.0 en todos los escenarios pesimistas es la señal más fuerte de impacto real
+:::
+::: {}
+**El flujo completo de la sesión**
+
+*Intuición → Método → Ejemplo → Decisión*
+
+Para cada outcome del análisis:
+
+1. ¿Qué valoramos y por qué importa? (P3, P1)
+2. ¿Qué método es apropiado? (¿mercado observable? ¿preferencias reveladas? ¿wellbeing?)
+3. ¿Cuáles son los factores de ajuste y por qué? (DW, Atrib, Disp)
+4. ¿Qué tan sensible es el resultado? (sensibilidad obligatoria)
+5. ¿Qué decisión informa el ratio? (P8)
+
+> "El valor que no puedes defender no debería estar en el numerador."
+:::
+:::
+
+---
+
+## {background-color="#0F172A"}
+
+::: portada-wrap
+::: portada-eyebrow
+Centro Valor Público · Universidad EAFIT
+:::
+
+::: portada-titulo
+Sesión 6 completada
+:::
+
+::: portada-sub
+Valoración de Impactos — Métodos de Monetización<br>
+Del número al argumento defendible
+:::
+
+::: portada-instructor
+**Juan Carlos Muñoz-Mora, PhD**<br>
+jcmunozm@eafit.edu.co · Centro Valor Público EAFIT<br>
+[Siguiente sesión →]{.pill .pill-teal} [Informe SROI y aseguramiento SVI]{.pill .pill-slate}
+:::
+:::

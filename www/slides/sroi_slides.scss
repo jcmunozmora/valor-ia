@@ -1,0 +1,334 @@
+/*-- scss:defaults --*/
+@import url('https://fonts.googleapis.com/css2?family=Inter:wght@300;400;500;600;700;800;900&family=JetBrains+Mono:wght@400;500&display=swap');
+
+$font-family-sans-serif: 'Inter', 'Helvetica Neue', sans-serif !default;
+$presentation-font-size-root: 28px !default;
+$presentation-h1-font-size: 2.1em !default;
+$presentation-h2-font-size: 1.55em !default;
+$presentation-h3-font-size: 1.1em !default;
+
+// Paleta VALOR·IA
+$navy:    #0F172A;
+$teal:    #0D9488;
+$teal-lt: #5EEAD4;
+$slate:   #1E3A5F;
+$silver:  #94A3B8;
+$white:   #FFFFFF;
+$amber:   #F59E0B;
+$emerald: #10B981;
+
+$body-bg:    $navy    !default;
+$body-color: #E2E8F0 !default;
+$link-color: $teal-lt !default;
+$selection-bg: $teal !default;
+
+/*-- scss:rules --*/
+
+// ── Fondo de todas las slides ───────────────────────────────────────────────
+.reveal .slides {
+  color: #CBD5E1;
+}
+
+// ── Headings ────────────────────────────────────────────────────────────────
+.reveal h1, .reveal h2 {
+  font-weight: 800;
+  letter-spacing: -0.03em;
+  color: #FFFFFF;
+}
+.reveal h3 {
+  font-weight: 700;
+  color: $teal-lt;
+  font-size: 1em;
+  letter-spacing: 0.02em;
+  text-transform: uppercase;
+}
+
+// ── Portada ─────────────────────────────────────────────────────────────────
+.portada-wrap {
+  text-align: left;
+}
+.portada-eyebrow {
+  display: inline-block;
+  font-size: 0.55em;
+  font-weight: 700;
+  letter-spacing: 0.18em;
+  text-transform: uppercase;
+  color: $teal-lt;
+  background: rgba(13,148,136,0.15);
+  border: 1px solid rgba(13,148,136,0.35);
+  padding: 0.25em 0.8em;
+  border-radius: 2em;
+  margin-bottom: 0.8em;
+}
+.portada-titulo {
+  font-size: 2.8em;
+  font-weight: 900;
+  color: white;
+  letter-spacing: -0.04em;
+  line-height: 1.05;
+  margin-bottom: 0.2em;
+}
+.portada-sub {
+  font-size: 1.1em;
+  color: $silver;
+  font-weight: 400;
+  margin-bottom: 1.2em;
+}
+.portada-badge {
+  display: inline-block;
+  background: rgba(13,148,136,0.2);
+  border: 1px solid $teal;
+  color: $teal-lt;
+  font-size: 0.65em;
+  font-weight: 700;
+  padding: 0.35em 0.9em;
+  border-radius: 4px;
+  margin-right: 0.5em;
+}
+.portada-instructor {
+  margin-top: 1.8em;
+  border-top: 1px solid rgba(255,255,255,0.1);
+  padding-top: 0.8em;
+  font-size: 0.75em;
+  color: $silver;
+}
+.portada-instructor strong { color: white; }
+
+// ── Slide de sección ────────────────────────────────────────────────────────
+.seccion-label {
+  display: inline-block;
+  font-size: 0.55em;
+  font-weight: 700;
+  letter-spacing: 0.15em;
+  text-transform: uppercase;
+  color: $teal-lt;
+  border-left: 3px solid $teal;
+  padding-left: 0.8em;
+  margin-bottom: 0.5em;
+}
+.seccion-num {
+  font-size: 5em;
+  font-weight: 900;
+  color: rgba(13,148,136,0.2);
+  position: absolute;
+  top: -0.2em;
+  right: 0.1em;
+  line-height: 1;
+  z-index: 0;
+}
+
+// ── Stat / número grande ─────────────────────────────────────────────────────
+.stat-grande {
+  font-size: 4em;
+  font-weight: 900;
+  color: $teal-lt;
+  letter-spacing: -0.04em;
+  line-height: 1;
+}
+.stat-label {
+  font-size: 0.7em;
+  color: $silver;
+  margin-top: 0.3em;
+}
+
+// ── Grid 2 columnas ──────────────────────────────────────────────────────────
+.col-2 {
+  display: grid;
+  grid-template-columns: 1fr 1fr;
+  gap: 2rem;
+  align-items: start;
+}
+.col-6040 {
+  display: grid;
+  grid-template-columns: 60fr 40fr;
+  gap: 2rem;
+  align-items: center;
+}
+
+// ── Box components ───────────────────────────────────────────────────────────
+.box-teal {
+  background: rgba(13,148,136,0.12);
+  border: 1px solid rgba(13,148,136,0.35);
+  border-radius: 8px;
+  padding: 1rem 1.2rem;
+}
+.box-dark {
+  background: rgba(255,255,255,0.04);
+  border: 1px solid rgba(255,255,255,0.08);
+  border-radius: 8px;
+  padding: 1rem 1.2rem;
+}
+.box-amber {
+  background: rgba(245,158,11,0.12);
+  border: 1px solid rgba(245,158,11,0.3);
+  border-radius: 8px;
+  padding: 1rem 1.2rem;
+}
+
+// ── Lista de bullets mejorada ────────────────────────────────────────────────
+.reveal ul {
+  list-style: none;
+  padding-left: 0;
+}
+.reveal ul li {
+  padding: 0.25em 0 0.25em 1.4em;
+  position: relative;
+  color: #CBD5E1;
+}
+.reveal ul li::before {
+  content: "›";
+  position: absolute;
+  left: 0.2em;
+  color: $teal-lt;
+  font-weight: 700;
+  font-size: 1.1em;
+}
+
+// ── Módulo cards ─────────────────────────────────────────────────────────────
+.mod-grid {
+  display: grid;
+  grid-template-columns: repeat(4, 1fr);
+  gap: 0.6rem;
+  font-size: 0.7em;
+}
+.mod-card {
+  background: rgba(255,255,255,0.05);
+  border: 1px solid rgba(255,255,255,0.08);
+  border-radius: 6px;
+  padding: 0.7rem;
+  text-align: center;
+}
+.mod-card.activo {
+  background: rgba(13,148,136,0.15);
+  border-color: rgba(13,148,136,0.4);
+}
+.mod-num {
+  display: block;
+  font-size: 1.4em;
+  font-weight: 800;
+  color: $teal-lt;
+  margin-bottom: 0.2em;
+}
+.mod-card.activo .mod-num { color: white; }
+
+// ── Pill / badge ─────────────────────────────────────────────────────────────
+.pill {
+  display: inline-block;
+  font-size: 0.55em;
+  font-weight: 700;
+  letter-spacing: 0.1em;
+  text-transform: uppercase;
+  padding: 0.3em 0.8em;
+  border-radius: 2em;
+  margin: 0.1em;
+}
+.pill-teal  { background: rgba(13,148,136,0.2); color: $teal-lt; border: 1px solid rgba(13,148,136,0.4); }
+.pill-amber { background: rgba(245,158,11,0.15); color: #FCD34D; border: 1px solid rgba(245,158,11,0.3); }
+.pill-slate { background: rgba(100,116,139,0.2); color: #CBD5E1; border: 1px solid rgba(100,116,139,0.3); }
+
+// ── Cita / blockquote ────────────────────────────────────────────────────────
+.reveal blockquote {
+  background: rgba(13,148,136,0.08);
+  border-left: 3px solid $teal;
+  border-radius: 0 6px 6px 0;
+  padding: 0.8em 1.2em;
+  font-style: italic;
+  color: #E2E8F0;
+  font-size: 0.88em;
+  margin: 0.8em 0;
+}
+
+// ── Tabla ────────────────────────────────────────────────────────────────────
+.reveal table {
+  font-size: 0.72em;
+  border-collapse: collapse;
+  width: 100%;
+}
+.reveal table th {
+  background: $teal;
+  color: white;
+  padding: 0.4em 0.7em;
+  font-weight: 700;
+}
+.reveal table td {
+  padding: 0.35em 0.7em;
+  border-bottom: 1px solid rgba(255,255,255,0.07);
+}
+.reveal table tr:nth-child(even) td { background: rgba(255,255,255,0.03); }
+
+// ── Río del cambio visual ─────────────────────────────────────────────────────
+.rio-grid {
+  display: grid;
+  grid-template-columns: repeat(5, 1fr);
+  gap: 0.4rem;
+  font-size: 0.62em;
+  margin: 0.8em 0;
+}
+.rio-item {
+  background: rgba(255,255,255,0.05);
+  border: 1px solid rgba(255,255,255,0.08);
+  border-radius: 6px;
+  padding: 0.6rem;
+  text-align: center;
+}
+.rio-item.activo {
+  background: rgba(13,148,136,0.2);
+  border-color: $teal;
+}
+.rio-icon { font-size: 1.6em; display: block; margin-bottom: 0.2em; }
+
+// ── Modelo lógico ────────────────────────────────────────────────────────────
+.logico-grid {
+  display: grid;
+  grid-template-columns: repeat(5, 1fr);
+  gap: 0;
+  font-size: 0.6em;
+  margin: 0.8em 0;
+}
+.logico-item {
+  background: rgba(30,58,95,0.6);
+  border: 1px solid rgba(255,255,255,0.1);
+  padding: 0.6rem 0.4rem;
+  text-align: center;
+  position: relative;
+}
+.logico-item:not(:last-child)::after {
+  content: "→";
+  position: absolute;
+  right: -0.6em;
+  top: 50%;
+  transform: translateY(-50%);
+  color: $teal-lt;
+  font-size: 1.2em;
+  z-index: 1;
+}
+.logico-header {
+  background: $slate;
+  font-weight: 800;
+  color: $teal-lt;
+  font-size: 0.8em;
+  text-transform: uppercase;
+  letter-spacing: 0.05em;
+  padding: 0.4rem;
+  border-bottom: 2px solid $teal;
+}
+.logico-body { color: #CBD5E1; padding-top: 0.3rem; }
+
+// ── Progress bar (pie de slide) ──────────────────────────────────────────────
+.reveal .progress {
+  background: rgba(255,255,255,0.1);
+  color: $teal;
+  height: 3px;
+}
+
+// ── Slides de sección/divisor ────────────────────────────────────────────────
+section.has-dark-background h2 { color: white; }
+
+// ── Footer ───────────────────────────────────────────────────────────────────
+.slide-footer {
+  font-size: 0.55em;
+  color: #475569;
+  position: absolute;
+  bottom: 0.5em;
+  left: 1.5em;
+}

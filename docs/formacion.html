@@ -1,0 +1,973 @@
+<!DOCTYPE html>
+<html xmlns="http://www.w3.org/1999/xhtml" lang="en" xml:lang="en"><head>
+
+<meta charset="utf-8">
+<meta name="generator" content="quarto-1.7.34">
+
+<meta name="viewport" content="width=device-width, initial-scale=1.0, user-scalable=yes">
+
+<meta name="description" content="Curso Básico de SROI — Retorno Social de la Inversión. Medición de impacto con rigor metodológico y aplicación práctica.">
+
+<title>Formación en Valor Social – Valor·IA — CVP EAFIT</title>
+<style>
+code{white-space: pre-wrap;}
+span.smallcaps{font-variant: small-caps;}
+div.columns{display: flex; gap: min(4vw, 1.5em);}
+div.column{flex: auto; overflow-x: auto;}
+div.hanging-indent{margin-left: 1.5em; text-indent: -1.5em;}
+ul.task-list{list-style: none;}
+ul.task-list li input[type="checkbox"] {
+  width: 0.8em;
+  margin: 0 0.8em 0.2em -1em; /* quarto-specific, see https://github.com/quarto-dev/quarto-cli/issues/4556 */ 
+  vertical-align: middle;
+}
+</style>
+
+
+<script src="site_libs/quarto-nav/quarto-nav.js"></script>
+<script src="site_libs/clipboard/clipboard.min.js"></script>
+<script src="site_libs/quarto-search/autocomplete.umd.js"></script>
+<script src="site_libs/quarto-search/fuse.min.js"></script>
+<script src="site_libs/quarto-search/quarto-search.js"></script>
+<meta name="quarto:offset" content="./">
+<link href="./images/favicon.svg" rel="icon" type="image/svg+xml">
+<script src="site_libs/quarto-html/quarto.js" type="module"></script>
+<script src="site_libs/quarto-html/tabsets/tabsets.js" type="module"></script>
+<script src="site_libs/quarto-html/popper.min.js"></script>
+<script src="site_libs/quarto-html/tippy.umd.min.js"></script>
+<script src="site_libs/quarto-html/anchor.min.js"></script>
+<link href="site_libs/quarto-html/tippy.css" rel="stylesheet">
+<link href="site_libs/quarto-html/quarto-syntax-highlighting-48057c8318adb0cac17b2c26210119c4.css" rel="stylesheet" id="quarto-text-highlighting-styles">
+<script src="site_libs/bootstrap/bootstrap.min.js"></script>
+<link href="site_libs/bootstrap/bootstrap-icons.css" rel="stylesheet">
+<link href="site_libs/bootstrap/bootstrap-3fc971585eb44275fc4cbf61cf2c1055.min.css" rel="stylesheet" append-hash="true" id="quarto-bootstrap" data-mode="light">
+<script id="quarto-search-options" type="application/json">{
+  "location": "navbar",
+  "copy-button": false,
+  "collapse-after": 3,
+  "panel-placement": "end",
+  "type": "overlay",
+  "limit": 50,
+  "keyboard-shortcut": [
+    "f",
+    "/",
+    "s"
+  ],
+  "show-item-context": false,
+  "language": {
+    "search-no-results-text": "No results",
+    "search-matching-documents-text": "matching documents",
+    "search-copy-link-title": "Copy link to search",
+    "search-hide-matches-text": "Hide additional matches",
+    "search-more-match-text": "more match in this document",
+    "search-more-matches-text": "more matches in this document",
+    "search-clear-button-title": "Clear",
+    "search-text-placeholder": "",
+    "search-detached-cancel-button-title": "Cancel",
+    "search-submit-button-title": "Submit",
+    "search-label": "Search"
+  }
+}</script>
+<style>html{ scroll-behavior: smooth; }</style>
+<link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin="">
+<link href="https://fonts.googleapis.com/css2?family=Inter:wght@300;400;500;600;700;800;900&amp;family=JetBrains+Mono:wght@400;500&amp;display=swap" rel="stylesheet">
+
+
+<meta property="og:title" content="Valor·IA — CVP EAFIT">
+<meta property="og:description" content="Plataforma de inteligencia para la medicion de valor social — SROI, CBA, WELLBY">
+<meta property="og:image" content="images/og-image.png">
+<meta property="og:site_name" content="Valor·IA — CVP EAFIT">
+</head>
+
+<body class="nav-fixed fullcontent quarto-light">
+
+<div id="quarto-search-results"></div>
+  <header id="quarto-header" class="headroom fixed-top">
+    <nav class="navbar navbar-expand-lg " data-bs-theme="dark">
+      <div class="navbar-container container-fluid">
+      <div class="navbar-brand-container mx-auto">
+    <a class="navbar-brand" href="./index.html">
+    <span class="navbar-title">Valor·IA — CVP EAFIT</span>
+    </a>
+  </div>
+            <div id="quarto-search" class="" title="Search"></div>
+          <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarCollapse" aria-controls="navbarCollapse" role="menu" aria-expanded="false" aria-label="Toggle navigation" onclick="if (window.quartoToggleHeadroom) { window.quartoToggleHeadroom(); }">
+  <span class="navbar-toggler-icon"></span>
+</button>
+          <div class="collapse navbar-collapse" id="navbarCollapse">
+            <ul class="navbar-nav navbar-nav-scroll me-auto">
+  <li class="nav-item">
+    <a class="nav-link" href="./index.html"> 
+<span class="menu-text">Inicio</span></a>
+  </li>  
+  <li class="nav-item">
+    <a class="nav-link" href="./metodologia.html"> 
+<span class="menu-text">Metodología</span></a>
+  </li>  
+  <li class="nav-item">
+    <a class="nav-link" href="./ciencia.html"> 
+<span class="menu-text">Ciencia del Impacto</span></a>
+  </li>  
+  <li class="nav-item">
+    <a class="nav-link" href="./herramientas.html"> 
+<span class="menu-text">Nuestros Servicios</span></a>
+  </li>  
+  <li class="nav-item">
+    <a class="nav-link" href="./aplicaciones.html"> 
+<span class="menu-text">Aplicaciones</span></a>
+  </li>  
+  <li class="nav-item">
+    <a class="nav-link active" href="./formacion.html" aria-current="page"> 
+<span class="menu-text">Formación</span></a>
+  </li>  
+  <li class="nav-item">
+    <a class="nav-link" href="./equipo.html"> 
+<span class="menu-text">Equipo</span></a>
+  </li>  
+</ul>
+            <ul class="navbar-nav navbar-nav-scroll ms-auto">
+  <li class="nav-item">
+    <a class="nav-link" href="https://www.eafit.edu.co"> 
+<span class="menu-text">CVP · EAFIT</span></a>
+  </li>  
+</ul>
+          </div> <!-- /navcollapse -->
+            <div class="quarto-navbar-tools">
+</div>
+      </div> <!-- /container-fluid -->
+    </nav>
+</header>
+<!-- content -->
+<div id="quarto-content" class="quarto-container page-columns page-rows-contents page-layout-article page-navbar">
+<!-- sidebar -->
+<!-- margin-sidebar -->
+    
+<!-- main -->
+<main class="content" id="quarto-document-content">
+
+<header id="title-block-header" class="quarto-title-block default">
+<div class="quarto-title">
+<h1 class="title">Formación en Valor Social</h1>
+</div>
+
+<div>
+  <div class="description">
+    Curso Básico de SROI — Retorno Social de la Inversión. Medición de impacto con rigor metodológico y aplicación práctica.
+  </div>
+</div>
+
+
+<div class="quarto-title-meta">
+
+    
+  
+    
+  </div>
+  
+
+
+</header>
+
+
+<!-- ============================================================
+     HERO
+     ============================================================ -->
+<div class="page-header vi-header">
+  <div class="page-header-content">
+    <div class="page-badge">Centro Valor Público · EAFIT</div>
+    <h1 class="page-title">Formación en Valor Social</h1>
+    <p class="page-subtitle">
+      Desarrollamos capacidades institucionales para medir, gestionar y comunicar el impacto social
+      con el rigor metodológico de <strong>Social Value International</strong> y la evidencia de
+      más de 383 reportes verificados globalmente.
+    </p>
+  </div>
+</div>
+
+<!-- ============================================================
+     PERFIL DEL INSTRUCTOR
+     ============================================================ -->
+<div class="content-section alt">
+<div class="content-inner">
+
+<span class="section-label">Instructor</span>
+<h2 class="section-heading anchored">Juan Carlos Muñoz-Mora, PhD</h2>
+
+<div style="display: flex; gap: 2rem; align-items: flex-start; flex-wrap: wrap; margin-top: 1.5rem;">
+  <div style="flex: 0 0 auto;">
+    <div style="width: 120px; height: 120px; border-radius: 50%; background: linear-gradient(135deg, #0D9488, #0F172A); display: flex; align-items: center; justify-content: center; font-size: 2.5rem; font-weight: 800; color: white; font-family: 'Inter', sans-serif;">JC</div>
+  </div>
+  <div style="flex: 1; min-width: 280px;">
+    <div style="font-size: 1.1rem; font-weight: 700; color: #0F172A; margin-bottom: 0.25rem;">Juan Carlos Muñoz-Mora, PhD</div>
+    <div style="font-size: 0.9rem; color: #0D9488; font-weight: 600; margin-bottom: 0.75rem;">Economista · Profesor e Investigador · Centro Valor Público EAFIT</div>
+    <p style="color: #475569; font-size: 0.93rem; margin-bottom: 0.75rem;">
+      Economista con Ph.D. en Ciencias Económicas de la <strong>Universidad Libre de Bruselas (ULB)</strong>
+      e Investigador Asociado del <strong>Institute of Development Studies (IDS)</strong>, Sussex, UK.
+      Especialista en medición de impacto social, economía del desarrollo y evaluación de programas.
+    </p>
+    <div style="display: flex; gap: 0.5rem; flex-wrap: wrap;">
+      <span style="background: #F0FDF4; color: #166534; border: 1px solid #BBF7D0; padding: 0.2rem 0.7rem; border-radius: 2rem; font-size: 0.75rem; font-weight: 600;">SVI Certified</span>
+      <span style="background: #EFF6FF; color: #1E40AF; border: 1px solid #BFDBFE; padding: 0.2rem 0.7rem; border-radius: 2rem; font-size: 0.75rem; font-weight: 600;">Ph.D. ULB</span>
+      <span style="background: #FFF7ED; color: #9A3412; border: 1px solid #FED7AA; padding: 0.2rem 0.7rem; border-radius: 2rem; font-size: 0.75rem; font-weight: 600;">IDS · Sussex UK</span>
+      <span style="background: #F5F3FF; color: #5B21B6; border: 1px solid #DDD6FE; padding: 0.2rem 0.7rem; border-radius: 2rem; font-size: 0.75rem; font-weight: 600;">Universidad EAFIT</span>
+    </div>
+  </div>
+</div>
+
+</div>
+</div>
+
+<!-- ============================================================
+     CURSO BÁSICO — DESCRIPCIÓN
+     ============================================================ -->
+<div class="content-section">
+<div class="content-inner">
+
+<span class="section-label">Oferta formativa</span>
+<h2 class="section-heading anchored">Curso Básico de SROI</h2>
+<p style="font-size: 1.05rem; color: #475569; margin-bottom: 1.5rem;">
+  Un recorrido completo por la metodología de Retorno Social de la Inversión — desde los fundamentos
+  conceptuales hasta el cálculo del ratio y la presentación de resultados. Diseñado para profesionales
+  de organizaciones sociales, fundaciones, entidades públicas e inversionistas de impacto.
+</p>
+
+<div style="display: grid; grid-template-columns: repeat(auto-fill, minmax(170px, 1fr)); gap: 1rem; margin: 1.5rem 0;">
+  <div style="background: #F8FAFC; border: 1px solid #E2E8F0; border-radius: 0.75rem; padding: 1rem; text-align: center;">
+    <div style="font-size: 1.8rem; font-weight: 800; color: #0D9488;">8</div>
+    <div style="font-size: 0.78rem; color: #64748B; margin-top: 0.25rem;">Sesiones temáticas</div>
+  </div>
+  <div style="background: #F8FAFC; border: 1px solid #E2E8F0; border-radius: 0.75rem; padding: 1rem; text-align: center;">
+    <div style="font-size: 1.8rem; font-weight: 800; color: #0D9488;">24h</div>
+    <div style="font-size: 0.78rem; color: #64748B; margin-top: 0.25rem;">Horas de formación</div>
+  </div>
+  <div style="background: #F8FAFC; border: 1px solid #E2E8F0; border-radius: 0.75rem; padding: 1rem; text-align: center;">
+    <div style="font-size: 1.8rem; font-weight: 800; color: #0D9488;">6</div>
+    <div style="font-size: 0.78rem; color: #64748B; margin-top: 0.25rem;">Etapas SVI cubiertas</div>
+  </div>
+  <div style="background: #F8FAFC; border: 1px solid #E2E8F0; border-radius: 0.75rem; padding: 1rem; text-align: center;">
+    <div style="font-size: 1.8rem; font-weight: 800; color: #1E3A5F;">383</div>
+    <div style="font-size: 0.78rem; color: #64748B; margin-top: 0.25rem;">Reportes SVI de referencia</div>
+  </div>
+</div>
+
+</div>
+</div>
+
+<!-- ============================================================
+     MÓDULOS DEL CURSO
+     ============================================================ -->
+<div class="content-section alt">
+<div class="content-wide">
+
+<span class="section-label">Contenido</span>
+<h2 class="section-heading anchored">Ocho sesiones — del concepto a la práctica</h2>
+
+<div class="mod-grid-web">
+
+  <div class="mod-card-web mod-card-web--active">
+    <div class="mod-num-web">01</div>
+    <div class="mod-info-web">
+      <div class="mod-title-web">Fundamentos y Evaluación de Programas</div>
+      <div class="mod-desc-web">El río del cambio, la pregunta incómoda del impacto, modelos lógicos y teoría del cambio. Por qué los programas fallan y cómo medirlo.</div>
+      <div style="margin-top: 0.75rem;">
+        <a href="slides/sesion1.html" class="mod-btn" target="_blank">Ver slides →</a>
+      </div>
+    </div>
+  </div>
+
+  <div class="mod-card-web">
+    <div class="mod-num-web">02</div>
+    <div class="mod-info-web">
+      <div class="mod-title-web">Introducción al SROI y Marco SVI</div>
+      <div class="mod-desc-web">Historia y propósito del SROI. Los 8 principios de Social Value International. El estándar de aseguramiento y los 48 criterios de reporte.</div>
+    </div>
+  </div>
+
+  <div class="mod-card-web">
+    <div class="mod-num-web">03</div>
+    <div class="mod-info-web">
+      <div class="mod-title-web">Alcance, Stakeholders y Mapa de Outcomes</div>
+      <div class="mod-desc-web">Etapas 1 y 2 del SROI. Cómo definir el alcance, identificar stakeholders materiales y construir el Impact Map desde la teoría del cambio.</div>
+    </div>
+  </div>
+
+  <div class="mod-card-web">
+    <div class="mod-num-web">04</div>
+    <div class="mod-info-web">
+      <div class="mod-title-web">Evidencia de Outcomes</div>
+      <div class="mod-desc-web">Etapa 3 del SROI. Métodos de recolección de datos: encuestas, entrevistas, datos administrativos. Indicadores, fuentes y triangulación.</div>
+    </div>
+  </div>
+
+  <div class="mod-card-web">
+    <div class="mod-num-web">05</div>
+    <div class="mod-info-web">
+      <div class="mod-title-web">Impacto Neto: Deadweight, Atribución y Drop-off</div>
+      <div class="mod-desc-web">Etapa 4 del SROI. Los cuatro factores de ajuste: deadweight, attribution, displacement y drop-off. Cómo estimarlos con evidencia y documentarlos con rigor.</div>
+    </div>
+  </div>
+
+  <div class="mod-card-web mod-card-web--active">
+    <div class="mod-num-web">06</div>
+    <div class="mod-info-web">
+      <div class="mod-title-web">Valoración de Impactos y Monetización</div>
+      <div class="mod-desc-web">Métodos de valoración monetaria: WTP, Cost-based, Revealed Preference, Stated Preference, Wellbeing Valuation. El Value Map y el ratio SROI. Análisis de sensibilidad.</div>
+      <div style="margin-top: 0.75rem;">
+        <a href="slides/sesion6.html" class="mod-btn" target="_blank">Ver slides →</a>
+      </div>
+    </div>
+  </div>
+
+  <div class="mod-card-web">
+    <div class="mod-num-web">07</div>
+    <div class="mod-info-web">
+      <div class="mod-title-web">Cálculo del SROI y Análisis de Sensibilidad</div>
+      <div class="mod-desc-web">Etapa 5 del SROI. VPN de beneficios, tasa de descuento, horizonte temporal. Monte Carlo y análisis de tornado. Benchmarking internacional con la BD SVI.</div>
+    </div>
+  </div>
+
+  <div class="mod-card-web">
+    <div class="mod-num-web">08</div>
+    <div class="mod-info-web">
+      <div class="mod-title-web">Informe, Comunicación y Aseguramiento SVI</div>
+      <div class="mod-desc-web">Etapa 6 del SROI. Estructura del informe SVI. Semáforo de madurez, hoja de ruta y cumplimiento de los 48 criterios. Presentación ejecutiva y verificación.</div>
+    </div>
+  </div>
+
+</div>
+
+</div>
+</div>
+
+<!-- ============================================================
+     COMPETENCIAS
+     ============================================================ -->
+<div class="content-section">
+<div class="content-inner">
+
+<span class="section-label">Competencias</span>
+<h2 class="section-heading anchored">Lo que desarrollarán los participantes</h2>
+
+<div style="display: grid; grid-template-columns: repeat(auto-fill, minmax(260px, 1fr)); gap: 1.25rem; margin: 1.5rem 0;">
+
+  <div style="background: #F0FDF4; border: 1px solid #BBF7D0; border-left: 4px solid #10B981; border-radius: 0.75rem; padding: 1.25rem;">
+    <div style="font-size: 0.7rem; font-weight: 700; letter-spacing: 0.1em; text-transform: uppercase; color: #059669; margin-bottom: 0.5rem;">Ser</div>
+    <div style="font-weight: 700; color: #0F172A; margin-bottom: 0.5rem;">Pensamiento crítico sobre el impacto</div>
+    <p style="font-size: 0.85rem; color: #475569; margin: 0;">Desarrollar un criterio riguroso para distinguir correlación de causalidad, y valor real de narrativa. Cuestionar supuestos propios y ajenos con evidencia.</p>
+  </div>
+
+  <div style="background: #EFF6FF; border: 1px solid #BFDBFE; border-left: 4px solid #3B82F6; border-radius: 0.75rem; padding: 1.25rem;">
+    <div style="font-size: 0.7rem; font-weight: 700; letter-spacing: 0.1em; text-transform: uppercase; color: #1D4ED8; margin-bottom: 0.5rem;">Saber</div>
+    <div style="font-weight: 700; color: #0F172A; margin-bottom: 0.5rem;">Metodología SROI completa</div>
+    <p style="font-size: 0.85rem; color: #475569; margin: 0;">Dominar las 6 etapas SVI, los 8 principios y los métodos de valoración monetaria — desde WTP y cost-based hasta WELLBY y precios hedónicos.</p>
+  </div>
+
+  <div style="background: #FFF7ED; border: 1px solid #FED7AA; border-left: 4px solid #F59E0B; border-radius: 0.75rem; padding: 1.25rem;">
+    <div style="font-size: 0.7rem; font-weight: 700; letter-spacing: 0.1em; text-transform: uppercase; color: #D97706; margin-bottom: 0.5rem;">Hacer</div>
+    <div style="font-weight: 700; color: #0F172A; margin-bottom: 0.5rem;">Construir y comunicar un análisis SROI</div>
+    <p style="font-size: 0.85rem; color: #475569; margin: 0;">Elaborar el Value Map, calcular el ratio SROI con análisis de sensibilidad, y comunicar los resultados a audiencias ejecutivas, técnicas y de financiadores.</p>
+  </div>
+
+</div>
+
+</div>
+</div>
+
+<!-- ============================================================
+     MUESTRA DE SLIDES — DOS SESIONES
+     ============================================================ -->
+<div class="content-section dark" style="background: #0F172A;">
+<div class="content-wide">
+
+<span class="section-label" style="color: #5EEAD4; border-color: rgba(94,234,212,0.25); background: rgba(13,148,136,0.15);">Sesiones disponibles</span>
+<h2 class="section-heading anchored" style="color: white;">Muestra del curso</h2>
+<p style="color: #CBD5E1; margin-bottom: 2rem;">Dos sesiones completas en formato interactivo — disponibles para explorar el contenido y la metodología pedagógica del curso.</p>
+
+<div style="display: grid; grid-template-columns: repeat(auto-fill, minmax(320px, 1fr)); gap: 1.5rem; margin-bottom: 2rem;">
+
+  <div style="background: rgba(255,255,255,0.04); border: 1px solid rgba(255,255,255,0.1); border-radius: 1rem; padding: 1.75rem; transition: border-color 0.2s;" onmouseover="this.style.borderColor='rgba(13,148,136,0.5)'" onmouseout="this.style.borderColor='rgba(255,255,255,0.1)'">
+    <div style="display: flex; align-items: center; gap: 0.75rem; margin-bottom: 1rem;">
+      <div style="background: rgba(13,148,136,0.2); border: 1px solid rgba(13,148,136,0.4); border-radius: 0.5rem; padding: 0.4rem 0.8rem; font-size: 0.75rem; font-weight: 700; color: #5EEAD4; letter-spacing: 0.05em;">SESIÓN 01</div>
+      <div style="font-size: 0.75rem; color: #64748B;">Fundamentos</div>
+    </div>
+    <h3 style="color: white; font-size: 1.05rem; font-weight: 700; margin-bottom: 0.6rem;" class="anchored">Fundamentos y Evaluación de Programas</h3>
+    <p style="color: #94A3B8; font-size: 0.85rem; margin-bottom: 1.25rem;">El río del cambio. La pregunta incómoda del impacto. Por qué los programas fallan. Del modelo lógico a la teoría del cambio.</p>
+    <div style="display: flex; gap: 0.5rem; flex-wrap: wrap; margin-bottom: 1.25rem;">
+      <span style="background: rgba(94,234,212,0.1); color: #5EEAD4; border: 1px solid rgba(94,234,212,0.2); padding: 0.15rem 0.6rem; border-radius: 2rem; font-size: 0.7rem; font-weight: 600;">16 slides</span>
+      <span style="background: rgba(94,234,212,0.1); color: #5EEAD4; border: 1px solid rgba(94,234,212,0.2); padding: 0.15rem 0.6rem; border-radius: 2rem; font-size: 0.7rem; font-weight: 600;">Quarto RevealJS</span>
+    </div>
+    <a href="slides/sesion1.html" target="_blank" style="display: inline-flex; align-items: center; gap: 0.4rem; background: #0D9488; color: white; padding: 0.6rem 1.2rem; border-radius: 0.5rem; text-decoration: none; font-weight: 600; font-size: 0.85rem; transition: background 0.2s;" onmouseover="this.style.background='#0F766E'" onmouseout="this.style.background='#0D9488'">
+      ▶ Ver presentación
+    </a>
+  </div>
+
+  <div style="background: rgba(255,255,255,0.04); border: 1px solid rgba(255,255,255,0.1); border-radius: 1rem; padding: 1.75rem; transition: border-color 0.2s;" onmouseover="this.style.borderColor='rgba(13,148,136,0.5)'" onmouseout="this.style.borderColor='rgba(255,255,255,0.1)'">
+    <div style="display: flex; align-items: center; gap: 0.75rem; margin-bottom: 1rem;">
+      <div style="background: rgba(13,148,136,0.2); border: 1px solid rgba(13,148,136,0.4); border-radius: 0.5rem; padding: 0.4rem 0.8rem; font-size: 0.75rem; font-weight: 700; color: #5EEAD4; letter-spacing: 0.05em;">SESIÓN 06</div>
+      <div style="font-size: 0.75rem; color: #64748B;">Valoración</div>
+    </div>
+    <h3 style="color: white; font-size: 1.05rem; font-weight: 700; margin-bottom: 0.6rem;" class="anchored">Valoración de Impactos y Monetización</h3>
+    <p style="color: #94A3B8; font-size: 0.85rem; margin-bottom: 1.25rem;">Métodos de monetización: WTP, Cost-based, RP, SP, Wellbeing Valuation. Value Map, ratio SROI y análisis de sensibilidad.</p>
+    <div style="display: flex; gap: 0.5rem; flex-wrap: wrap; margin-bottom: 1.25rem;">
+      <span style="background: rgba(94,234,212,0.1); color: #5EEAD4; border: 1px solid rgba(94,234,212,0.2); padding: 0.15rem 0.6rem; border-radius: 2rem; font-size: 0.7rem; font-weight: 600;">24 slides</span>
+      <span style="background: rgba(94,234,212,0.1); color: #5EEAD4; border: 1px solid rgba(94,234,212,0.2); padding: 0.15rem 0.6rem; border-radius: 2rem; font-size: 0.7rem; font-weight: 600;">Quarto RevealJS</span>
+    </div>
+    <a href="slides/sesion6.html" target="_blank" style="display: inline-flex; align-items: center; gap: 0.4rem; background: #0D9488; color: white; padding: 0.6rem 1.2rem; border-radius: 0.5rem; text-decoration: none; font-weight: 600; font-size: 0.85rem; transition: background 0.2s;" onmouseover="this.style.background='#0F766E'" onmouseout="this.style.background='#0D9488'">
+      ▶ Ver presentación
+    </a>
+  </div>
+
+</div>
+
+</div>
+</div>
+
+<!-- ============================================================
+     MODALIDADES Y CTA
+     ============================================================ -->
+<div class="content-section">
+<div class="content-inner">
+
+<span class="section-label">Modalidades</span>
+<h2 class="section-heading anchored">Cómo lo ofrecemos</h2>
+
+<div style="display: grid; grid-template-columns: repeat(auto-fill, minmax(250px, 1fr)); gap: 1.25rem; margin: 1.5rem 0 2rem;">
+
+  <div style="background: #F8FAFC; border: 1px solid #E2E8F0; border-radius: 0.875rem; padding: 1.5rem;">
+    <div style="font-size: 1.4rem; margin-bottom: 0.5rem;">🏫</div>
+    <div style="font-weight: 700; color: #0F172A; margin-bottom: 0.4rem;">Formación inhouse</div>
+    <p style="font-size: 0.85rem; color: #64748B; margin: 0;">Adaptada a los programas y la realidad de su organización. Incluye análisis real de un programa propio como caso de estudio.</p>
+  </div>
+
+  <div style="background: #F8FAFC; border: 1px solid #E2E8F0; border-radius: 0.875rem; padding: 1.5rem;">
+    <div style="font-size: 1.4rem; margin-bottom: 0.5rem;">🌐</div>
+    <div style="font-weight: 700; color: #0F172A; margin-bottom: 0.4rem;">Virtual sincrónico</div>
+    <p style="font-size: 0.85rem; color: #64748B; margin: 0;">Sesiones en vivo con grupos de hasta 20 participantes. Ejercicios prácticos y retroalimentación en tiempo real.</p>
+  </div>
+
+  <div style="background: #F8FAFC; border: 1px solid #E2E8F0; border-radius: 0.875rem; padding: 1.5rem;">
+    <div style="font-size: 1.4rem; margin-bottom: 0.5rem;">🎓</div>
+    <div style="font-weight: 700; color: #0F172A; margin-bottom: 0.4rem;">Acompañamiento aplicado</div>
+    <p style="font-size: 0.85rem; color: #64748B; margin: 0;">El equipo realiza un análisis SROI real mientras aprende. El resultado final es un informe verificable — no un ejercicio simulado.</p>
+  </div>
+
+</div>
+
+<div style="background: linear-gradient(135deg, #0F172A 0%, #0D4D4A 100%); border-radius: 1rem; padding: 2rem; display: flex; justify-content: space-between; align-items: center; gap: 1.5rem; flex-wrap: wrap;">
+  <div>
+    <div style="color: #5EEAD4; font-size: 0.8rem; font-weight: 700; letter-spacing: 0.1em; text-transform: uppercase; margin-bottom: 0.4rem;">Contacto</div>
+    <div style="color: white; font-size: 1.1rem; font-weight: 700; margin-bottom: 0.25rem;">¿Su organización quiere medir su impacto?</div>
+    <div style="color: #94A3B8; font-size: 0.9rem;">Hablemos sobre un programa piloto o una formación a medida.</div>
+  </div>
+  <a href="mailto:jcmunozm@eafit.edu.co" style="display: inline-block; background: #0D9488; color: white; padding: 0.8rem 1.8rem; border-radius: 0.625rem; text-decoration: none; font-weight: 700; font-size: 0.9rem; white-space: nowrap; transition: background 0.2s;" onmouseover="this.style.background='#0F766E'" onmouseout="this.style.background='#0D9488'">
+    Contactar →
+  </a>
+</div>
+
+</div>
+</div>
+<style>
+/* ── Módulos grid ────────────────────────────────────────────── */
+.mod-grid-web {
+  display: grid;
+  grid-template-columns: 1fr;
+  gap: 0.75rem;
+  margin-top: 1.5rem;
+}
+
+.mod-card-web {
+  display: flex;
+  gap: 1.25rem;
+  align-items: flex-start;
+  background: #FFFFFF;
+  border: 1px solid #E2E8F0;
+  border-radius: 0.875rem;
+  padding: 1.25rem 1.5rem;
+  transition: border-color 0.2s, box-shadow 0.2s;
+}
+
+.mod-card-web:hover {
+  border-color: #0D9488;
+  box-shadow: 0 4px 16px rgba(13,148,136,0.08);
+}
+
+.mod-card-web--active {
+  border-color: #0D9488;
+  background: #F0FDFA;
+}
+
+.mod-num-web {
+  flex: 0 0 auto;
+  width: 44px;
+  height: 44px;
+  background: #0F172A;
+  color: #5EEAD4;
+  border-radius: 0.5rem;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  font-size: 0.85rem;
+  font-weight: 800;
+  letter-spacing: 0.05em;
+}
+
+.mod-card-web--active .mod-num-web {
+  background: #0D9488;
+  color: white;
+}
+
+.mod-info-web { flex: 1; }
+
+.mod-title-web {
+  font-weight: 700;
+  color: #0F172A;
+  font-size: 0.95rem;
+  margin-bottom: 0.3rem;
+}
+
+.mod-desc-web {
+  font-size: 0.83rem;
+  color: #64748B;
+  line-height: 1.5;
+}
+
+.mod-btn {
+  display: inline-block;
+  background: #0D9488;
+  color: white !important;
+  padding: 0.35rem 1rem;
+  border-radius: 0.4rem;
+  text-decoration: none !important;
+  font-weight: 600;
+  font-size: 0.8rem;
+  transition: background 0.2s;
+}
+
+.mod-btn:hover {
+  background: #0F766E !important;
+}
+</style>
+
+
+
+</main> <!-- /main -->
+<script id="quarto-html-after-body" type="application/javascript">
+  window.document.addEventListener("DOMContentLoaded", function (event) {
+    const icon = "";
+    const anchorJS = new window.AnchorJS();
+    anchorJS.options = {
+      placement: 'right',
+      icon: icon
+    };
+    anchorJS.add('.anchored');
+    const isCodeAnnotation = (el) => {
+      for (const clz of el.classList) {
+        if (clz.startsWith('code-annotation-')) {                     
+          return true;
+        }
+      }
+      return false;
+    }
+    const onCopySuccess = function(e) {
+      // button target
+      const button = e.trigger;
+      // don't keep focus
+      button.blur();
+      // flash "checked"
+      button.classList.add('code-copy-button-checked');
+      var currentTitle = button.getAttribute("title");
+      button.setAttribute("title", "Copied!");
+      let tooltip;
+      if (window.bootstrap) {
+        button.setAttribute("data-bs-toggle", "tooltip");
+        button.setAttribute("data-bs-placement", "left");
+        button.setAttribute("data-bs-title", "Copied!");
+        tooltip = new bootstrap.Tooltip(button, 
+          { trigger: "manual", 
+            customClass: "code-copy-button-tooltip",
+            offset: [0, -8]});
+        tooltip.show();    
+      }
+      setTimeout(function() {
+        if (tooltip) {
+          tooltip.hide();
+          button.removeAttribute("data-bs-title");
+          button.removeAttribute("data-bs-toggle");
+          button.removeAttribute("data-bs-placement");
+        }
+        button.setAttribute("title", currentTitle);
+        button.classList.remove('code-copy-button-checked');
+      }, 1000);
+      // clear code selection
+      e.clearSelection();
+    }
+    const getTextToCopy = function(trigger) {
+        const codeEl = trigger.previousElementSibling.cloneNode(true);
+        for (const childEl of codeEl.children) {
+          if (isCodeAnnotation(childEl)) {
+            childEl.remove();
+          }
+        }
+        return codeEl.innerText;
+    }
+    const clipboard = new window.ClipboardJS('.code-copy-button:not([data-in-quarto-modal])', {
+      text: getTextToCopy
+    });
+    clipboard.on('success', onCopySuccess);
+    if (window.document.getElementById('quarto-embedded-source-code-modal')) {
+      const clipboardModal = new window.ClipboardJS('.code-copy-button[data-in-quarto-modal]', {
+        text: getTextToCopy,
+        container: window.document.getElementById('quarto-embedded-source-code-modal')
+      });
+      clipboardModal.on('success', onCopySuccess);
+    }
+      var localhostRegex = new RegExp(/^(?:http|https):\/\/localhost\:?[0-9]*\//);
+      var mailtoRegex = new RegExp(/^mailto:/);
+        var filterRegex = new RegExp('/' + window.location.host + '/');
+      var isInternal = (href) => {
+          return filterRegex.test(href) || localhostRegex.test(href) || mailtoRegex.test(href);
+      }
+      // Inspect non-navigation links and adorn them if external
+     var links = window.document.querySelectorAll('a[href]:not(.nav-link):not(.navbar-brand):not(.toc-action):not(.sidebar-link):not(.sidebar-item-toggle):not(.pagination-link):not(.no-external):not([aria-hidden]):not(.dropdown-item):not(.quarto-navigation-tool):not(.about-link)');
+      for (var i=0; i<links.length; i++) {
+        const link = links[i];
+        if (!isInternal(link.href)) {
+          // undo the damage that might have been done by quarto-nav.js in the case of
+          // links that we want to consider external
+          if (link.dataset.originalHref !== undefined) {
+            link.href = link.dataset.originalHref;
+          }
+        }
+      }
+    function tippyHover(el, contentFn, onTriggerFn, onUntriggerFn) {
+      const config = {
+        allowHTML: true,
+        maxWidth: 500,
+        delay: 100,
+        arrow: false,
+        appendTo: function(el) {
+            return el.parentElement;
+        },
+        interactive: true,
+        interactiveBorder: 10,
+        theme: 'quarto',
+        placement: 'bottom-start',
+      };
+      if (contentFn) {
+        config.content = contentFn;
+      }
+      if (onTriggerFn) {
+        config.onTrigger = onTriggerFn;
+      }
+      if (onUntriggerFn) {
+        config.onUntrigger = onUntriggerFn;
+      }
+      window.tippy(el, config); 
+    }
+    const noterefs = window.document.querySelectorAll('a[role="doc-noteref"]');
+    for (var i=0; i<noterefs.length; i++) {
+      const ref = noterefs[i];
+      tippyHover(ref, function() {
+        // use id or data attribute instead here
+        let href = ref.getAttribute('data-footnote-href') || ref.getAttribute('href');
+        try { href = new URL(href).hash; } catch {}
+        const id = href.replace(/^#\/?/, "");
+        const note = window.document.getElementById(id);
+        if (note) {
+          return note.innerHTML;
+        } else {
+          return "";
+        }
+      });
+    }
+    const xrefs = window.document.querySelectorAll('a.quarto-xref');
+    const processXRef = (id, note) => {
+      // Strip column container classes
+      const stripColumnClz = (el) => {
+        el.classList.remove("page-full", "page-columns");
+        if (el.children) {
+          for (const child of el.children) {
+            stripColumnClz(child);
+          }
+        }
+      }
+      stripColumnClz(note)
+      if (id === null || id.startsWith('sec-')) {
+        // Special case sections, only their first couple elements
+        const container = document.createElement("div");
+        if (note.children && note.children.length > 2) {
+          container.appendChild(note.children[0].cloneNode(true));
+          for (let i = 1; i < note.children.length; i++) {
+            const child = note.children[i];
+            if (child.tagName === "P" && child.innerText === "") {
+              continue;
+            } else {
+              container.appendChild(child.cloneNode(true));
+              break;
+            }
+          }
+          if (window.Quarto?.typesetMath) {
+            window.Quarto.typesetMath(container);
+          }
+          return container.innerHTML
+        } else {
+          if (window.Quarto?.typesetMath) {
+            window.Quarto.typesetMath(note);
+          }
+          return note.innerHTML;
+        }
+      } else {
+        // Remove any anchor links if they are present
+        const anchorLink = note.querySelector('a.anchorjs-link');
+        if (anchorLink) {
+          anchorLink.remove();
+        }
+        if (window.Quarto?.typesetMath) {
+          window.Quarto.typesetMath(note);
+        }
+        if (note.classList.contains("callout")) {
+          return note.outerHTML;
+        } else {
+          return note.innerHTML;
+        }
+      }
+    }
+    for (var i=0; i<xrefs.length; i++) {
+      const xref = xrefs[i];
+      tippyHover(xref, undefined, function(instance) {
+        instance.disable();
+        let url = xref.getAttribute('href');
+        let hash = undefined; 
+        if (url.startsWith('#')) {
+          hash = url;
+        } else {
+          try { hash = new URL(url).hash; } catch {}
+        }
+        if (hash) {
+          const id = hash.replace(/^#\/?/, "");
+          const note = window.document.getElementById(id);
+          if (note !== null) {
+            try {
+              const html = processXRef(id, note.cloneNode(true));
+              instance.setContent(html);
+            } finally {
+              instance.enable();
+              instance.show();
+            }
+          } else {
+            // See if we can fetch this
+            fetch(url.split('#')[0])
+            .then(res => res.text())
+            .then(html => {
+              const parser = new DOMParser();
+              const htmlDoc = parser.parseFromString(html, "text/html");
+              const note = htmlDoc.getElementById(id);
+              if (note !== null) {
+                const html = processXRef(id, note);
+                instance.setContent(html);
+              } 
+            }).finally(() => {
+              instance.enable();
+              instance.show();
+            });
+          }
+        } else {
+          // See if we can fetch a full url (with no hash to target)
+          // This is a special case and we should probably do some content thinning / targeting
+          fetch(url)
+          .then(res => res.text())
+          .then(html => {
+            const parser = new DOMParser();
+            const htmlDoc = parser.parseFromString(html, "text/html");
+            const note = htmlDoc.querySelector('main.content');
+            if (note !== null) {
+              // This should only happen for chapter cross references
+              // (since there is no id in the URL)
+              // remove the first header
+              if (note.children.length > 0 && note.children[0].tagName === "HEADER") {
+                note.children[0].remove();
+              }
+              const html = processXRef(null, note);
+              instance.setContent(html);
+            } 
+          }).finally(() => {
+            instance.enable();
+            instance.show();
+          });
+        }
+      }, function(instance) {
+      });
+    }
+        let selectedAnnoteEl;
+        const selectorForAnnotation = ( cell, annotation) => {
+          let cellAttr = 'data-code-cell="' + cell + '"';
+          let lineAttr = 'data-code-annotation="' +  annotation + '"';
+          const selector = 'span[' + cellAttr + '][' + lineAttr + ']';
+          return selector;
+        }
+        const selectCodeLines = (annoteEl) => {
+          const doc = window.document;
+          const targetCell = annoteEl.getAttribute("data-target-cell");
+          const targetAnnotation = annoteEl.getAttribute("data-target-annotation");
+          const annoteSpan = window.document.querySelector(selectorForAnnotation(targetCell, targetAnnotation));
+          const lines = annoteSpan.getAttribute("data-code-lines").split(",");
+          const lineIds = lines.map((line) => {
+            return targetCell + "-" + line;
+          })
+          let top = null;
+          let height = null;
+          let parent = null;
+          if (lineIds.length > 0) {
+              //compute the position of the single el (top and bottom and make a div)
+              const el = window.document.getElementById(lineIds[0]);
+              top = el.offsetTop;
+              height = el.offsetHeight;
+              parent = el.parentElement.parentElement;
+            if (lineIds.length > 1) {
+              const lastEl = window.document.getElementById(lineIds[lineIds.length - 1]);
+              const bottom = lastEl.offsetTop + lastEl.offsetHeight;
+              height = bottom - top;
+            }
+            if (top !== null && height !== null && parent !== null) {
+              // cook up a div (if necessary) and position it 
+              let div = window.document.getElementById("code-annotation-line-highlight");
+              if (div === null) {
+                div = window.document.createElement("div");
+                div.setAttribute("id", "code-annotation-line-highlight");
+                div.style.position = 'absolute';
+                parent.appendChild(div);
+              }
+              div.style.top = top - 2 + "px";
+              div.style.height = height + 4 + "px";
+              div.style.left = 0;
+              let gutterDiv = window.document.getElementById("code-annotation-line-highlight-gutter");
+              if (gutterDiv === null) {
+                gutterDiv = window.document.createElement("div");
+                gutterDiv.setAttribute("id", "code-annotation-line-highlight-gutter");
+                gutterDiv.style.position = 'absolute';
+                const codeCell = window.document.getElementById(targetCell);
+                const gutter = codeCell.querySelector('.code-annotation-gutter');
+                gutter.appendChild(gutterDiv);
+              }
+              gutterDiv.style.top = top - 2 + "px";
+              gutterDiv.style.height = height + 4 + "px";
+            }
+            selectedAnnoteEl = annoteEl;
+          }
+        };
+        const unselectCodeLines = () => {
+          const elementsIds = ["code-annotation-line-highlight", "code-annotation-line-highlight-gutter"];
+          elementsIds.forEach((elId) => {
+            const div = window.document.getElementById(elId);
+            if (div) {
+              div.remove();
+            }
+          });
+          selectedAnnoteEl = undefined;
+        };
+          // Handle positioning of the toggle
+      window.addEventListener(
+        "resize",
+        throttle(() => {
+          elRect = undefined;
+          if (selectedAnnoteEl) {
+            selectCodeLines(selectedAnnoteEl);
+          }
+        }, 10)
+      );
+      function throttle(fn, ms) {
+      let throttle = false;
+      let timer;
+        return (...args) => {
+          if(!throttle) { // first call gets through
+              fn.apply(this, args);
+              throttle = true;
+          } else { // all the others get throttled
+              if(timer) clearTimeout(timer); // cancel #2
+              timer = setTimeout(() => {
+                fn.apply(this, args);
+                timer = throttle = false;
+              }, ms);
+          }
+        };
+      }
+        // Attach click handler to the DT
+        const annoteDls = window.document.querySelectorAll('dt[data-target-cell]');
+        for (const annoteDlNode of annoteDls) {
+          annoteDlNode.addEventListener('click', (event) => {
+            const clickedEl = event.target;
+            if (clickedEl !== selectedAnnoteEl) {
+              unselectCodeLines();
+              const activeEl = window.document.querySelector('dt[data-target-cell].code-annotation-active');
+              if (activeEl) {
+                activeEl.classList.remove('code-annotation-active');
+              }
+              selectCodeLines(clickedEl);
+              clickedEl.classList.add('code-annotation-active');
+            } else {
+              // Unselect the line
+              unselectCodeLines();
+              clickedEl.classList.remove('code-annotation-active');
+            }
+          });
+        }
+    const findCites = (el) => {
+      const parentEl = el.parentElement;
+      if (parentEl) {
+        const cites = parentEl.dataset.cites;
+        if (cites) {
+          return {
+            el,
+            cites: cites.split(' ')
+          };
+        } else {
+          return findCites(el.parentElement)
+        }
+      } else {
+        return undefined;
+      }
+    };
+    var bibliorefs = window.document.querySelectorAll('a[role="doc-biblioref"]');
+    for (var i=0; i<bibliorefs.length; i++) {
+      const ref = bibliorefs[i];
+      const citeInfo = findCites(ref);
+      if (citeInfo) {
+        tippyHover(citeInfo.el, function() {
+          var popup = window.document.createElement('div');
+          citeInfo.cites.forEach(function(cite) {
+            var citeDiv = window.document.createElement('div');
+            citeDiv.classList.add('hanging-indent');
+            citeDiv.classList.add('csl-entry');
+            var biblioDiv = window.document.getElementById('ref-' + cite);
+            if (biblioDiv) {
+              citeDiv.innerHTML = biblioDiv.innerHTML;
+            }
+            popup.appendChild(citeDiv);
+          });
+          return popup.innerHTML;
+        });
+      }
+    }
+  });
+  </script>
+</div> <!-- /content -->
+<footer class="footer">
+  <div class="nav-footer">
+    <div class="nav-footer-left">
+<p>Centro Valor Público · Universidad EAFIT</p>
+</div>   
+    <div class="nav-footer-center">
+<p>Valor·IA — CVP EAFIT · Midiendo lo que importa</p>
+</div>
+    <div class="nav-footer-right">
+<p>© 2026</p>
+</div>
+  </div>
+</footer>
+
+
+
+
+<script src="site_libs/quarto-html/zenscroll-min.js"></script>
+</body></html>
