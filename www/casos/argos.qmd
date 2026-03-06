@@ -4,6 +4,7 @@ page-layout: full
 toc: false
 ---
 
+```{=html}
 <!-- BACK NAV -->
 <div style="background: #0F172A; padding: 0.9rem 2rem; border-bottom: 1px solid rgba(255,255,255,0.07);">
 <div style="max-width: 950px; margin: 0 auto;">
@@ -43,30 +44,29 @@ toc: false
 </div>
 </div>
 
-<!-- STATS STRIP -->
 <div class="stats-strip">
-  <div class="stats-grid">
-    <div class="stat-item">
-      <span class="stat-number">$203M</span>
-      <span class="stat-label">COP invertidos</span>
-    </div>
-    <div class="stat-item">
-      <span class="stat-number">25</span>
-      <span class="stat-label">años deterioro revertidos</span>
-    </div>
-    <div class="stat-item">
-      <span class="stat-number">60</span>
-      <span class="stat-label">beneficiarios (central)</span>
-    </div>
-    <div class="stat-item">
-      <span class="stat-number">P38</span>
-      <span class="stat-label">percentil global — ciclo 1</span>
-    </div>
-    <div class="stat-item">
-      <span class="stat-number">383</span>
-      <span class="stat-label">reportes SVI comparados</span>
-    </div>
-  </div>
+<div class="stats-grid">
+<div class="stat-item">
+<span class="stat-number">$203M</span>
+<span class="stat-label">COP invertidos</span>
+</div>
+<div class="stat-item">
+<span class="stat-number">25</span>
+<span class="stat-label">años deterioro revertidos</span>
+</div>
+<div class="stat-item">
+<span class="stat-number">60</span>
+<span class="stat-label">beneficiarios (central)</span>
+</div>
+<div class="stat-item">
+<span class="stat-number">P38</span>
+<span class="stat-label">percentil global — ciclo 1</span>
+</div>
+<div class="stat-item">
+<span class="stat-number">383</span>
+<span class="stat-label">reportes SVI comparados</span>
+</div>
+</div>
 </div>
 
 <!-- CONTEXTO -->
@@ -713,3 +713,4 @@ toc: false
 <div>Confidencial — Fundación Grupo Argos · Marzo 2026</div>
 </div>
 </div>
+```
