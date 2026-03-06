@@ -3,7 +3,7 @@ project:
   output-dir: ../docs
 
 website:
-  title: "VALOR·IA"
+  title: "Valor Público — VALOR·IA"
   description: "Plataforma de inteligencia para la medicion de valor social · CVP EAFIT"
   favicon: images/favicon.svg
 
@@ -32,13 +32,13 @@ website:
     background: "#0F172A"
     foreground: light
     left: "Centro Valor Público · Universidad EAFIT"
-    center: "VALOR·IA · Midiendo lo que importa"
+    center: "Valor Público — VALOR·IA · Midiendo lo que importa"
     right: "© 2026"
 
   sidebar: false
 
   open-graph:
-    title: "VALOR·IA · CVP EAFIT"
+    title: "Valor Público — VALOR·IA · CVP EAFIT"
     description: "Plataforma de inteligencia para la medicion de valor social — SROI, CBA, WELLBY"
     image: images/og-image.png
 
