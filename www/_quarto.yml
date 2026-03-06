@@ -3,8 +3,8 @@ project:
   output-dir: ../docs
 
 website:
-  title: "Valor Público — SROI"
-  description: "Centro de expertise en Retorno Social de la Inversión · EAFIT"
+  title: "VALOR·IA"
+  description: "Plataforma de inteligencia para la medicion de valor social · CVP EAFIT"
   favicon: images/favicon.svg
 
   navbar:
@@ -32,14 +32,14 @@ website:
     background: "#0F172A"
     foreground: light
     left: "Centro Valor Público · Universidad EAFIT"
-    center: "Valor Público — SROI · Midiendo lo que importa"
+    center: "VALOR·IA · Midiendo lo que importa"
     right: "© 2026"
 
   sidebar: false
 
   open-graph:
-    title: "SROI Colombia · CVP EAFIT"
-    description: "Expertise en Retorno Social de la Inversión para Colombia y América Latina"
+    title: "VALOR·IA · CVP EAFIT"
+    description: "Plataforma de inteligencia para la medicion de valor social — SROI, CBA, WELLBY"
     image: images/og-image.png
 
 format:
