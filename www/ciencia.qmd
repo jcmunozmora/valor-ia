@@ -1,0 +1,1022 @@
+---
+title: "Ciencia del Impacto"
+description: "Marco academico y evidencia internacional del SROI: 54 estudios PRISMA y 383 reportes SVI globales — la base empirica mas completa disponible en espanol."
+toc: false
+---
+
+```{=html}
+<!-- ============================================================
+     HEADER
+     ============================================================ -->
+<div class="page-header ci-header">
+  <div class="page-header-content">
+    <div class="ci-badges">
+      <span class="ci-badge ci-badge--purple">54 estudios academicos &middot; PRISMA 2020</span>
+      <span class="ci-badge ci-badge--teal">383 reportes SVI &middot; Corpus global</span>
+    </div>
+    <h1 class="page-title">Ciencia del Impacto</h1>
+    <p class="page-subtitle">
+      La base empirica que sustenta cada analisis de VALOR&middot;IA: una revision sistematica
+      de la literatura academica sobre el SROI y el corpus mas completo de reportes SVI globales
+      analizado en espanol.
+    </p>
+  </div>
+</div>
+
+<!-- ANCHOR NAV -->
+<div class="ci-anchor-nav">
+  <a href="#marco" class="ci-anchor-link">
+    <span class="can-num">I</span>
+    <span class="can-text">
+      <span class="can-title">Marco Academico</span>
+      <span class="can-sub">54 estudios &middot; PRISMA 2020</span>
+    </span>
+  </a>
+  <div class="ci-anchor-divider"></div>
+  <a href="#evidencia" class="ci-anchor-link">
+    <span class="can-num">II</span>
+    <span class="can-text">
+      <span class="can-title">Evidencia Global</span>
+      <span class="can-sub">383 reportes SVI &middot; Corpus interactivo</span>
+    </span>
+  </a>
+</div>
+```
+
+<!-- ================================================================
+     PARTE I: MARCO ACADÉMICO
+     ================================================================ -->
+
+```{=html}
+<div id="marco" class="ci-section-header ci-section-header--purple">
+  <div class="csh-inner">
+    <div class="csh-label">Parte I</div>
+    <div class="csh-title">Marco Academico</div>
+    <div class="csh-sub">Revision sistematica de la literatura sobre SROI — 54 estudios bajo protocolo PRISMA 2020</div>
+  </div>
+</div>
+
+<!-- DOS CORPUS -->
+<div class="content-section">
+<div class="content-inner">
+
+<span class="section-label">Alcance de la revision</span>
+<h2 class="section-heading">Dos corpus, una vision integrada</h2>
+
+<p>Esta revision opera en dos dimensiones simultaneas que se complementan. La <strong>literatura academica</strong> provee el marco teorico, las criticas metodologicas y los meta-analisis sobre la validez del SROI. Los <strong>reportes del ecosistema SVI</strong> proveen la evidencia empirica: como se aplica realmente la metodologia, cuales son los ratios observados, en que sectores y contextos, y con que nivel de rigor.</p>
+
+<div style="display: grid; grid-template-columns: 1fr 1fr; gap: 1.5rem; margin: 2rem 0;">
+
+<div style="background: white; border: 1px solid #E2E8F0; border-radius: 0.75rem; padding: 1.75rem; border-top: 4px solid #8B5CF6;">
+<div style="font-weight: 800; color: #0F172A; font-size: 1.1rem; margin-bottom: 0.75rem;">Literatura academica</div>
+<div style="display: flex; flex-direction: column; gap: 0.5rem;">
+<div style="display: flex; justify-content: space-between; font-size: 0.875rem; padding: 0.4rem 0; border-bottom: 1px solid #F1F5F9;">
+<span style="color: #475569;">Estudios identificados</span>
+<span style="font-weight: 700; color: #8B5CF6;">89</span>
+</div>
+<div style="display: flex; justify-content: space-between; font-size: 0.875rem; padding: 0.4rem 0; border-bottom: 1px solid #F1F5F9;">
+<span style="color: #475569;">Incluidos en sintesis</span>
+<span style="font-weight: 700; color: #8B5CF6;">54</span>
+</div>
+<div style="display: flex; justify-content: space-between; font-size: 0.875rem; padding: 0.4rem 0; border-bottom: 1px solid #F1F5F9;">
+<span style="color: #475569;">Revisiones sistematicas</span>
+<span style="font-weight: 700; color: #8B5CF6;">7</span>
+</div>
+<div style="display: flex; justify-content: space-between; font-size: 0.875rem; padding: 0.4rem 0; border-bottom: 1px solid #F1F5F9;">
+<span style="color: #475569;">Marcos teoricos</span>
+<span style="font-weight: 700; color: #8B5CF6;">17</span>
+</div>
+<div style="display: flex; justify-content: space-between; font-size: 0.875rem; padding: 0.4rem 0;">
+<span style="color: #475569;">Protocolo</span>
+<span style="font-weight: 700; color: #8B5CF6;">PRISMA 2020</span>
+</div>
+</div>
+</div>
+
+<div style="background: white; border: 1px solid #E2E8F0; border-radius: 0.75rem; padding: 1.75rem; border-top: 4px solid #0D9488;">
+<div style="font-weight: 800; color: #0F172A; font-size: 1.1rem; margin-bottom: 0.75rem;">Reportes SVI globales</div>
+<div style="display: flex; flex-direction: column; gap: 0.5rem;">
+<div style="display: flex; justify-content: space-between; font-size: 0.875rem; padding: 0.4rem 0; border-bottom: 1px solid #F1F5F9;">
+<span style="color: #475569;">Reportes totales</span>
+<span style="font-weight: 700; color: #0D9488;">383</span>
+</div>
+<div style="display: flex; justify-content: space-between; font-size: 0.875rem; padding: 0.4rem 0; border-bottom: 1px solid #F1F5F9;">
+<span style="color: #475569;">Con texto PDF extraido</span>
+<span style="font-weight: 700; color: #0D9488;">302</span>
+</div>
+<div style="display: flex; justify-content: space-between; font-size: 0.875rem; padding: 0.4rem 0; border-bottom: 1px solid #F1F5F9;">
+<span style="color: #475569;">Con ratio SROI</span>
+<span style="font-weight: 700; color: #0D9488;">83</span>
+</div>
+<div style="display: flex; justify-content: space-between; font-size: 0.875rem; padding: 0.4rem 0; border-bottom: 1px solid #F1F5F9;">
+<span style="color: #475569;">Asegurados SVI</span>
+<span style="font-weight: 700; color: #0D9488;">8</span>
+</div>
+<div style="display: flex; justify-content: space-between; font-size: 0.875rem; padding: 0.4rem 0;">
+<span style="color: #475569;">Fuente</span>
+<span style="font-weight: 700; color: #0D9488;">socialvalueuk.org</span>
+</div>
+</div>
+</div>
+
+</div>
+
+</div>
+</div>
+
+<!-- PRISMA -->
+<div class="content-section alt">
+<div class="content-inner">
+
+<span class="section-label">Literatura academica</span>
+<h2 class="section-heading">Diagrama PRISMA — Estado de la revision</h2>
+
+<p>La revision sigue el protocolo PRISMA 2020. La pregunta de sintesis: <em>¿Cuales son las aplicaciones, metodos de valoracion, procesos de calculo y problemas criticos del SROI en los sectores publico y privado?</em></p>
+
+<div style="display: grid; grid-template-columns: 1fr; gap: 0.5rem; max-width: 600px; margin: 2rem auto;">
+
+<div class="prisma-box identification">
+<div class="prisma-label">Identificacion</div>
+<div style="display: grid; grid-template-columns: 1fr 1fr; gap: 0.75rem;">
+<div>
+<div class="prisma-count">47</div>
+<div class="prisma-desc">Bases de datos academicas (Scopus, WOS, GScholar)</div>
+</div>
+<div>
+<div class="prisma-count">42</div>
+<div class="prisma-desc">Referencias adicionales (BibTeX + PDFs locales)</div>
+</div>
+</div>
+<div style="margin-top: 1rem; padding-top: 0.75rem; border-top: 1px solid #E2E8F0; font-size: 0.875rem; color: #475569;"><strong>Total identificado: 89 registros</strong></div>
+<div class="prisma-arrow">↓</div>
+</div>
+
+<div style="height: 1.5rem;"></div>
+
+<div class="prisma-box screening">
+<div class="prisma-label">Screening</div>
+<div style="display: grid; grid-template-columns: 1fr 1fr; gap: 0.75rem;">
+<div>
+<div class="prisma-count">83</div>
+<div class="prisma-desc">Tras eliminar duplicados</div>
+</div>
+<div>
+<div class="prisma-count" style="color: #DC2626;">19</div>
+<div class="prisma-desc" style="color: #DC2626;">Excluidos (titulo/abstract): solo mencionan SROI, idioma no elegible</div>
+</div>
+</div>
+<div class="prisma-arrow">↓</div>
+</div>
+
+<div style="height: 1.5rem;"></div>
+
+<div class="prisma-box eligibility">
+<div class="prisma-label">Elegibilidad</div>
+<div style="display: grid; grid-template-columns: 1fr 1fr; gap: 0.75rem;">
+<div>
+<div class="prisma-count">64</div>
+<div class="prisma-desc">Full-text evaluados</div>
+</div>
+<div>
+<div class="prisma-count" style="color: #DC2626;">10</div>
+<div class="prisma-desc" style="color: #DC2626;">Excluidos tras full-text</div>
+</div>
+</div>
+<div class="prisma-arrow">↓</div>
+</div>
+
+<div style="height: 1.5rem;"></div>
+
+<div class="prisma-box inclusion">
+<div class="prisma-label">Inclusion</div>
+<div>
+<div class="prisma-count">54</div>
+<div class="prisma-desc">Estudios incluidos en la sintesis</div>
+</div>
+<div style="display: grid; grid-template-columns: repeat(3, 1fr); gap: 0.5rem; margin-top: 1rem; padding-top: 0.75rem; border-top: 1px solid #E2E8F0;">
+<div style="text-align: center; font-size: 0.82rem; color: #475569;"><strong style="display: block; font-size: 1.2rem; color: #059669;">7</strong>Revisiones sistematicas</div>
+<div style="text-align: center; font-size: 0.82rem; color: #475569;"><strong style="display: block; font-size: 1.2rem; color: #059669;">18</strong>Aplicaciones sectoriales</div>
+<div style="text-align: center; font-size: 0.82rem; color: #475569;"><strong style="display: block; font-size: 1.2rem; color: #059669;">17</strong>Marcos teoricos</div>
+</div>
+</div>
+
+</div>
+
+</div>
+</div>
+
+<!-- KEY FINDINGS -->
+<div class="content-section">
+<div class="content-inner">
+
+<span class="section-label">Sintesis de la evidencia</span>
+<h2 class="section-heading">Lo que dice la literatura academica</h2>
+
+<p>La revision revela un campo en tension productiva: el SROI ha ganado traccion como herramienta practica mucho mas rapido que la validacion academica de sus supuestos. Estos son los hallazgos mas robustos:</p>
+
+<div class="findings-grid">
+
+<div class="finding-card">
+<div class="finding-icon">&#128200;</div>
+<div class="finding-title">Crecimiento bibliometrico acelerado</div>
+<div class="finding-text">La produccion academica sobre SROI crecio mas de 400% entre 2010 y 2023. El pico de publicaciones se registra a partir de 2015, coincidiendo con la consolidacion del ecosistema SVI y la adopcion del marco por agencias gubernamentales del Reino Unido, Canada y Australia.</div>
+<div class="finding-cite">Gutierrez-Nieto et al., 2025 — Bibliometric analysis of SROI</div>
+</div>
+
+<div class="finding-card">
+<div class="finding-icon">&#9888;&#65039;</div>
+<div class="finding-title">Heterogeneidad metodologica critica</div>
+<div class="finding-text">Las revisiones sistematicas identifican variabilidad extrema en como los estudios aplican los factores de ajuste, seleccionan proxies y justifican supuestos. Esta heterogeneidad dificulta la comparacion entre estudios y la construccion de benchmarks confiables.</div>
+<div class="finding-cite">Corvo et al., 2022 — SROI systematic literature review, Meditari Accountancy Research</div>
+</div>
+
+<div class="finding-card">
+<div class="finding-icon">&#127973;</div>
+<div class="finding-title">Salud publica: el sector mas evaluado</div>
+<div class="finding-text">Las aplicaciones en salud publica y servicios sociales constituyen el cluster mas grande de evidencia. Las revisiones sistematicas en este sector muestran ratios SROI entre 1.5 y 12, con mayor rigor en estudios con grupos de control explicitos.</div>
+<div class="finding-cite">Banke-Thomas et al., 2015 — SROI public health systematic review, BMC Public Health</div>
+</div>
+
+<div class="finding-card">
+<div class="finding-icon">&#128300;</div>
+<div class="finding-title">Validez metodologica: debate abierto</div>
+<div class="finding-text">Un conjunto de autores cuestiona la pretension de objetividad del SROI, argumentando que la seleccion de proxies introduce juicios de valor no declarados. La respuesta del campo SVI ha sido fortalecer los principios de transparencia y aseguramiento externo.</div>
+<div class="finding-cite">Maier et al., 2015 — Theoretical criticism of SROI</div>
+</div>
+
+<div class="finding-card">
+<div class="finding-icon">&#128201;</div>
+<div class="finding-title">Inversion de impacto: convergencia emergente</div>
+<div class="finding-text">La literatura mas reciente (2023-2025) muestra convergencia entre SROI y los marcos de inversion de impacto (IMM, IMoIC, CSRD). Los inversores institucionales adoptan variantes del SROI para due diligence y reporte de portafolio.</div>
+<div class="finding-cite">Impact Valuation Hub, 2025 — Playbook for investors</div>
+</div>
+
+<div class="finding-card">
+<div class="finding-icon">&#127758;</div>
+<div class="finding-title">Concentracion geografica extrema</div>
+<div class="finding-text">El 85% de la evidencia publicada proviene de Reino Unido, Australia, Canada y Estados Unidos. La aplicacion en America Latina esta sistematicamente subrepresentada, lo que crea una brecha de validez en contextos de renta media y baja.</div>
+<div class="finding-cite">Hallazgo propio — analisis de 383 reportes SVI</div>
+</div>
+
+</div>
+
+</div>
+</div>
+
+<!-- EJES TEMATICOS -->
+<div class="content-section alt">
+<div class="content-inner">
+
+<span class="section-label">Ejes tematicos</span>
+<h2 class="section-heading">Los cuatro frentes de investigacion</h2>
+
+<div style="display: grid; grid-template-columns: repeat(auto-fit, minmax(240px, 1fr)); gap: 1.25rem; margin: 1.5rem 0;">
+
+<div style="background: white; border: 1px solid #E2E8F0; border-radius: 0.75rem; padding: 1.5rem; border-top: 3px solid #0EA5E9;">
+<div style="font-weight: 800; color: #0F172A; font-size: 0.95rem; margin-bottom: 0.5rem;">T1 — Metodologia y criticas</div>
+<div style="font-size: 0.83rem; color: #64748B; line-height: 1.65; margin-bottom: 0.75rem;">La pregunta central: ¿Es el SROI una herramienta valida o una racionalizacion post-hoc? El campo ha respondido con mayor transparencia, aseguramiento externo y analisis de sensibilidad sistematico.</div>
+<div style="font-size: 0.78rem; color: #0EA5E9; font-weight: 600;">Clave: Corvo 2022, Maier 2015, Banke-Thomas 2015</div>
+</div>
+
+<div style="background: white; border: 1px solid #E2E8F0; border-radius: 0.75rem; padding: 1.5rem; border-top: 3px solid #8B5CF6;">
+<div style="font-weight: 800; color: #0F172A; font-size: 0.95rem; margin-bottom: 0.5rem;">T2 — Sector publico</div>
+<div style="font-size: 0.83rem; color: #64748B; line-height: 1.65; margin-bottom: 0.75rem;">Gobierno, salud publica y servicios sociales. Aqui la pregunta SROI se conecta con la asignacion de recursos publicos y la evidencia para politicas. Mayor exigencia metodologica, menor flexibilidad en supuestos.</div>
+<div style="font-size: 0.78rem; color: #8B5CF6; font-weight: 600;">Aplicaciones en educacion, salud mental, housing</div>
+</div>
+
+<div style="background: white; border: 1px solid #E2E8F0; border-radius: 0.75rem; padding: 1.5rem; border-top: 3px solid #F59E0B;">
+<div style="font-weight: 800; color: #0F172A; font-size: 0.95rem; margin-bottom: 0.5rem;">T3 — Empresa y economia social</div>
+<div style="font-size: 0.83rem; color: #64748B; line-height: 1.65; margin-bottom: 0.75rem;">Empresas sociales, cooperativas y el sector privado con mandato RSE. El SROI aqui sirve tanto para demostrar impacto a inversores como para optimizar el diseno de programas sociales corporativos.</div>
+<div style="font-size: 0.78rem; color: #D97706; font-weight: 600;">Conexion con marcos ESG e inversion de impacto</div>
+</div>
+
+<div style="background: white; border: 1px solid #E2E8F0; border-radius: 0.75rem; padding: 1.5rem; border-top: 3px solid #059669;">
+<div style="font-weight: 800; color: #0F172A; font-size: 0.95rem; margin-bottom: 0.5rem;">T4 — Metodos de valoracion</div>
+<div style="font-size: 0.83rem; color: #64748B; line-height: 1.65; margin-bottom: 0.75rem;">El nucleo tecnico del campo: WTP contingente, WELLBY, costos unitarios, experimentos de eleccion. La frontera actual es la adaptacion de metodos desarrollados en paises de renta alta a contextos de renta media.</div>
+<div style="font-size: 0.78rem; color: #059669; font-weight: 600;">Wellbeing guidance (HM Treasury), HACT Value Bank</div>
+</div>
+
+</div>
+
+</div>
+</div>
+
+<!-- GAP LATAM -->
+<div class="content-section">
+<div class="content-inner">
+
+<span class="section-label">Brecha identificada</span>
+<h2 class="section-heading">El SROI en America Latina: una agenda de investigacion</h2>
+
+<p>El analisis de los 383 reportes SVI confirma una brecha geografica profunda: no existe un solo reporte de un programa latinoamericano asegurado por SVI. La literatura academica en espanol sobre aplicaciones SROI es igualmente escasa.</p>
+
+<div style="display: flex; flex-direction: column; gap: 0.75rem; margin: 1.5rem 0;">
+
+<div style="display: flex; gap: 1rem; padding: 1rem 1.25rem; background: white; border: 1px solid #E2E8F0; border-radius: 0.5rem;">
+<div style="font-weight: 700; color: #0D9488; min-width: 2rem; font-size: 1.1rem;">01</div>
+<div style="font-size: 0.875rem; color: #334155; line-height: 1.6;"><strong>Ausencia de bases de datos de proxies locales.</strong> Los proxies de NHS, PSSRU y HACT no son directamente transferibles a contextos latinoamericanos. La construccion de bases de referencia en COP es una urgencia metodologica.</div>
+</div>
+
+<div style="display: flex; gap: 1rem; padding: 1rem 1.25rem; background: white; border: 1px solid #E2E8F0; border-radius: 0.5rem;">
+<div style="font-weight: 700; color: #0D9488; min-width: 2rem; font-size: 1.1rem;">02</div>
+<div style="font-size: 0.875rem; color: #334155; line-height: 1.6;"><strong>Contextos de alta informalidad.</strong> Las metodologias asumen sistemas de servicios formales cuyo costo alternativo es medible. En territorios con alta informalidad, los costos alternativos son opacos o inexistentes.</div>
+</div>
+
+<div style="display: flex; gap: 1rem; padding: 1rem 1.25rem; background: white; border: 1px solid #E2E8F0; border-radius: 0.5rem;">
+<div style="font-weight: 700; color: #0D9488; min-width: 2rem; font-size: 1.1rem;">03</div>
+<div style="font-size: 0.875rem; color: #334155; line-height: 1.6;"><strong>Desigualdad extrema y valores de bienestar.</strong> El enfoque WELLBY fue calibrado en distribuciones de ingreso europeas. En contextos de alta desigualdad, el valor marginal del bienestar varia significativamente por quintil de ingreso.</div>
+</div>
+
+<div style="display: flex; gap: 1rem; padding: 1rem 1.25rem; background: white; border: 1px solid #E2E8F0; border-radius: 0.5rem;">
+<div style="font-weight: 700; color: #0D9488; min-width: 2rem; font-size: 1.1rem;">04</div>
+<div style="font-size: 0.875rem; color: #334155; line-height: 1.6;"><strong>Conflicto armado y efectos post-conflicto.</strong> Los programas en territorios afectados por el conflicto generan outcomes con complejidades causales que los modelos estandar de deadweight y atribucion no capturan.</div>
+</div>
+
+</div>
+
+<div class="insight-box">
+<div class="insight-label">Oportunidad de investigacion</div>
+<p>Esta revision es el punto de partida para construir el primer benchmark de ratios SROI para America Latina, adaptado a los contextos institucionales, economicos y culturales de la region.</p>
+</div>
+
+</div>
+</div>
+```
+
+<!-- ================================================================
+     PARTE II: EVIDENCIA GLOBAL
+     ================================================================ -->
+
+```{=html}
+<div id="evidencia" class="ci-section-header ci-section-header--teal">
+  <div class="csh-inner">
+    <div class="csh-label">Parte II</div>
+    <div class="csh-title">Evidencia Global</div>
+    <div class="csh-sub">383 reportes del ecosistema SVI analizados sistematicamente — la fuente empirica mas completa sobre como el SROI se aplica a nivel global</div>
+  </div>
+</div>
+
+<!-- STATS STRIP -->
+<div class="ev-stats-strip">
+  <div class="ev-stat ev-stat--primary">
+    <span class="ev-stat-num">383</span>
+    <span class="ev-stat-label">Reportes en el corpus</span>
+  </div>
+  <div class="ev-stat ev-stat--assured">
+    <span class="ev-stat-num">8</span>
+    <span class="ev-stat-label">Asegurados por SVI</span>
+    <span class="ev-stat-note">Certificacion maxima</span>
+  </div>
+  <div class="ev-stat">
+    <span class="ev-stat-num">63</span>
+    <span class="ev-stat-label">Con ratio identificado</span>
+  </div>
+  <div class="ev-stat">
+    <span class="ev-stat-num">4.35×</span>
+    <span class="ev-stat-label">Mediana del ratio SROI</span>
+  </div>
+  <div class="ev-stat">
+    <span class="ev-stat-num">17</span>
+    <span class="ev-stat-label">Paises representados</span>
+  </div>
+  <div class="ev-stat">
+    <span class="ev-stat-num">15</span>
+    <span class="ev-stat-label">Sectores cubiertos</span>
+  </div>
+</div>
+
+<!-- SVI ASSURANCE STANDARD -->
+<div class="content-section alt">
+<div class="content-inner">
+
+<span class="section-label">Estandar de Aseguramiento SVI</span>
+<h2 class="section-heading">Los 7 principios y 48 criterios</h2>
+
+<p>Social Value International (SVI) es el organismo rector del ecosistema SROI global. Su estandar de aseguramiento consta de <strong>48 criterios organizados en 7 principios</strong>. Un reporte "asegurado" ha sido verificado de forma independiente contra estos criterios — es la certificacion de mayor rigor en medicion de valor social.</p>
+
+<div style="display:grid;grid-template-columns:repeat(auto-fit,minmax(200px,1fr));gap:1rem;margin:1.5rem 0;">
+
+<div class="svi-principle-card">
+  <div class="svi-p-num">P1</div>
+  <div class="svi-p-name">Involucrar a los stakeholders</div>
+  <div class="svi-p-criteria">7 criterios</div>
+</div>
+<div class="svi-principle-card">
+  <div class="svi-p-num">P2</div>
+  <div class="svi-p-name">Comprender lo que cambia</div>
+  <div class="svi-p-criteria">9 criterios</div>
+</div>
+<div class="svi-principle-card">
+  <div class="svi-p-num">P3</div>
+  <div class="svi-p-name">Solo lo material</div>
+  <div class="svi-p-criteria">6 criterios</div>
+</div>
+<div class="svi-principle-card">
+  <div class="svi-p-num">P4</div>
+  <div class="svi-p-name">No sobreestimar</div>
+  <div class="svi-p-criteria">8 criterios</div>
+</div>
+<div class="svi-principle-card">
+  <div class="svi-p-num">P5</div>
+  <div class="svi-p-name">Ser transparente</div>
+  <div class="svi-p-criteria">6 criterios</div>
+</div>
+<div class="svi-principle-card">
+  <div class="svi-p-num">P6</div>
+  <div class="svi-p-name">Verificar el resultado</div>
+  <div class="svi-p-criteria">7 criterios</div>
+</div>
+<div class="svi-principle-card">
+  <div class="svi-p-num">P7</div>
+  <div class="svi-p-name">Ser responsivo</div>
+  <div class="svi-p-criteria">5 criterios</div>
+</div>
+
+</div>
+
+<div class="insight-box" style="margin-top:1rem;">
+<div class="insight-label">Por que importa el aseguramiento</div>
+<p>Solo 8 de 383 reportes en el corpus han superado el proceso de aseguramiento externo completo. Esto refleja una brecha real: el SROI se practica ampliamente pero pocas organizaciones someten sus analisis a verificacion independiente. Cerrar esa brecha — en Colombia y America Latina — es parte central de la agenda de este centro.</p>
+</div>
+
+</div>
+</div>
+```
+
+## Distribucion del corpus
+
+```{=html}
+<div class="content-section">
+<div class="content-wide">
+<p>Las cuatro visualizaciones interactivas a continuacion muestran como se distribuyen los 383 reportes por sector y pais, y como se comportan los ratios SROI en diferentes contextos. Pasa el cursor sobre los graficos para ver los valores exactos.</p>
+
+<div style="display:grid;grid-template-columns:1fr 1fr;gap:1.5rem;margin-bottom:1.5rem;">
+
+<div class="viz-container">
+<div class="viz-title">Distribucion por sector</div>
+<div class="viz-subtitle">Numero de reportes en el corpus SVI &middot; n = 383</div>
+```
+
+```{ojs}
+//| echo: false
+evSectorData = FileAttachment("data/sectors.json").json()
+
+evSectorLabels = (new Map([
+  ["inclusion_social", "Inclusion Social"],
+  ["infancia_juventud", "Infancia y Juventud"],
+  ["medio_ambiente", "Medio Ambiente"],
+  ["vivienda", "Vivienda"],
+  ["educacion", "Educacion"],
+  ["empleo", "Empleo"],
+  ["salud", "Salud"],
+  ["justicia", "Justicia"],
+  ["discapacidad", "Discapacidad"],
+  ["personas_mayores", "Personas Mayores"],
+  ["microfinanzas", "Microfinanzas"],
+  ["otro", "Otro"],
+  ["agricultura", "Agricultura"],
+  ["arte_cultura", "Arte y Cultura"],
+  ["deporte", "Deporte"],
+  ["bienestar", "Bienestar"],
+  ["seguridad_vial", "Seguridad Vial"]
+]))
+
+evSectorClean = evSectorData.map(d => ({...d, sector_label: evSectorLabels.get(d.sector) || d.sector}))
+
+Plot.plot({
+  marginLeft: 150,
+  marginRight: 55,
+  height: 400,
+  style: {fontFamily: "Inter, sans-serif", fontSize: "12px"},
+  marks: [
+    Plot.barX(evSectorClean, {
+      x: "count",
+      y: "sector_label",
+      sort: {y: "-x"},
+      fill: (d, i) => d3.interpolateTeal(0.3 + i * 0.045),
+      rx: 3,
+      tip: true,
+      title: d => `${d.sector_label}: ${d.count} reportes`
+    }),
+    Plot.text(evSectorClean, {
+      x: "count",
+      y: "sector_label",
+      text: "count",
+      dx: 6,
+      sort: {y: "-x"},
+      fill: "#475569",
+      fontWeight: "600",
+      fontSize: 11
+    }),
+    Plot.ruleX([0])
+  ],
+  x: {label: "Numero de reportes", tickSpacing: 40},
+  y: {label: null}
+})
+```
+
+```{=html}
+<div class="chart-note">Fuente: Base de datos CVP EAFIT, construida a partir de socialvalueuk.org (2026). Inclusion social y primera infancia dominan el corpus.</div>
+</div>
+
+<div class="viz-container">
+<div class="viz-title">Distribucion geografica</div>
+<div class="viz-subtitle">Reportes por pais de origen &middot; 17 paises representados</div>
+```
+
+```{ojs}
+//| echo: false
+evCountryData = FileAttachment("data/countries.json").json()
+
+Plot.plot({
+  marginLeft: 130,
+  marginRight: 55,
+  height: 400,
+  style: {fontFamily: "Inter, sans-serif", fontSize: "12px"},
+  marks: [
+    Plot.barX(evCountryData, {
+      x: "count",
+      y: "country",
+      sort: {y: "-x"},
+      fill: "#1E3A5F",
+      rx: 3,
+      tip: true,
+      title: d => `${d.country}: ${d.count} reportes`
+    }),
+    Plot.text(evCountryData, {
+      x: "count",
+      y: "country",
+      text: "count",
+      dx: 6,
+      sort: {y: "-x"},
+      fill: "#475569",
+      fontWeight: "600",
+      fontSize: 11
+    }),
+    Plot.ruleX([0])
+  ],
+  x: {label: "Numero de reportes", tickSpacing: 40},
+  y: {label: null}
+})
+```
+
+```{=html}
+<div class="chart-note">UK concentra el 60% del corpus, Canada y Australia el 12% adicional. America Latina: cero reportes asegurados. Esta es la brecha que cerramos.</div>
+</div>
+
+</div>
+
+<div class="viz-container" style="margin-bottom:1.5rem;">
+<div class="viz-title">Distribucion del ratio SROI</div>
+<div class="viz-subtitle">63 reportes con ratio identificado &middot; mediana = 4.35x &middot; promedio = 5.87x &middot; rango: 0.83x a 27x</div>
+```
+
+```{ojs}
+//| echo: false
+evRatioData = FileAttachment("data/ratios.json").json()
+
+Plot.plot({
+  height: 300,
+  marginLeft: 60,
+  style: {fontFamily: "Inter, sans-serif", fontSize: "12px"},
+  marks: [
+    Plot.rectY(evRatioData,
+      Plot.binX(
+        {y: "count"},
+        {
+          x: "ratio",
+          fill: d => {
+            const r = d.ratio;
+            if (r < 2) return "#DC2626";
+            if (r < 5) return "#0D9488";
+            if (r < 10) return "#0EA5E9";
+            return "#F59E0B";
+          },
+          thresholds: 18,
+          tip: true
+        }
+      )
+    ),
+    Plot.ruleX([4.35], {stroke: "#F59E0B", strokeWidth: 2, strokeDasharray: "4,3"}),
+    Plot.text([{x: 4.35, text: "Mediana 4.35x"}], {
+      x: "x", y: 0, dy: -8, text: "text",
+      fill: "#D97706", fontWeight: "700", fontSize: 11, textAnchor: "start", dx: 6
+    }),
+    Plot.ruleY([0])
+  ],
+  x: {label: "Ratio SROI (valor social por unidad invertida)", domain: [0, 28]},
+  y: {label: "Numero de reportes"},
+  color: {
+    legend: true,
+    domain: ["< 2x", "2x - 5x", "5x - 10x", "> 10x"],
+    range: ["#DC2626", "#0D9488", "#0EA5E9", "#F59E0B"]
+  }
+})
+```
+
+```{=html}
+<div class="chart-note">Se excluyen 3 valores atipicos > 30x. Distribucion asimetrica positiva tipica: mayoria de programas entre 2x y 8x. Menos del 5% reporta SROI negativo o menor a 1x.</div>
+</div>
+
+<div class="viz-container">
+<div class="viz-title">Ratio SROI por sector</div>
+<div class="viz-subtitle">Sectores con 3 o mas reportes con ratio identificado</div>
+```
+
+```{ojs}
+//| echo: false
+evSectorRatioData = evRatioData.filter(d => d.sector !== "otro" && d.ratio > 0)
+  .map(d => ({...d, sector_label: evSectorLabels.get(d.sector) || d.sector}))
+
+evSectorCounts = d3.rollup(evSectorRatioData, v => v.length, d => d.sector_label)
+
+evValidSectors = [...evSectorCounts.entries()].filter(([k,v]) => v >= 3).map(([k]) => k)
+
+evFilteredRatio = evSectorRatioData.filter(d => evValidSectors.includes(d.sector_label))
+
+Plot.plot({
+  height: 340,
+  marginLeft: 155,
+  style: {fontFamily: "Inter, sans-serif", fontSize: "12px"},
+  marks: [
+    Plot.boxX(evFilteredRatio, {
+      x: "ratio",
+      y: "sector_label",
+      fill: "#0D9488",
+      fillOpacity: 0.25,
+      stroke: "#0D9488",
+      sort: {y: "x", reduce: "median", reverse: true},
+      tip: true
+    }),
+    Plot.dot(evFilteredRatio, {
+      x: "ratio",
+      y: "sector_label",
+      fill: "#0F172A",
+      fillOpacity: 0.5,
+      r: 3,
+      tip: true,
+      title: d => `${d.sector_label}: ${d.ratio}x`
+    }),
+    Plot.ruleX([4.35], {stroke: "#F59E0B", strokeWidth: 1.5, strokeDasharray: "4,3"})
+  ],
+  x: {label: "Ratio SROI", domain: [0, 22]},
+  y: {label: null}
+})
+```
+
+```{=html}
+<div class="chart-note">Linea punteada = mediana global (4.35x). Ambiente y agricultura muestran los ratios mas altos (mediana > 8x); justicia los mas conservadores (mediana ~3x). Puntos = reportes individuales.</div>
+</div>
+
+</div>
+</div>
+```
+
+## Estadisticas clave del corpus
+
+```{=html}
+<div class="content-section alt">
+<div class="content-inner">
+
+<span class="section-label">Analisis descriptivo</span>
+<h2 class="section-heading">Lo que nos dicen los 383 reportes</h2>
+
+<div style="display:grid;grid-template-columns:repeat(3,1fr);gap:1.25rem;margin:1.5rem 0;">
+
+<div class="stat-insight-card">
+  <div class="si-header" style="background:linear-gradient(135deg,#0F172A,#1E3A5F);">
+    <div class="si-big">60%</div>
+    <div class="si-label">Reino Unido</div>
+  </div>
+  <div class="si-body">
+    <p>El ecosistema SVI es predominantemente anglosajón. UK, Canada y Australia suman el 72% del corpus. Esta concentracion refleja el origen institucional del SROI y la disponibilidad de datos de bienestar en paises de renta alta.</p>
+  </div>
+</div>
+
+<div class="stat-insight-card">
+  <div class="si-header" style="background:linear-gradient(135deg,#0D4B42,#0D9488);">
+    <div class="si-big">4.35×</div>
+    <div class="si-label">Mediana global</div>
+  </div>
+  <div class="si-body">
+    <p>Por cada unidad invertida, el programa social tipico genera 4.35 unidades de valor social. El rango real va de 0.83x a 27x, con distribucion asimetrica: la mitad superior del corpus supera 4.35x.</p>
+  </div>
+</div>
+
+<div class="stat-insight-card">
+  <div class="si-header" style="background:linear-gradient(135deg,#7C3AED,#8B5CF6);">
+    <div class="si-big">2.1%</div>
+    <div class="si-label">Asegurados SVI</div>
+  </div>
+  <div class="si-body">
+    <p>Solo 8 de 383 reportes han sido verificados bajo el Estandar de Aseguramiento completo. El 97.9% restante no ha pasado por revision independiente, lo que subraya la diferencia entre practicar el SROI y hacerlo con rigor verificable.</p>
+  </div>
+</div>
+
+<div class="stat-insight-card">
+  <div class="si-header" style="background:linear-gradient(135deg,#B45309,#F59E0B);">
+    <div class="si-big">22</div>
+    <div class="si-label">Analisis Forecast</div>
+  </div>
+  <div class="si-body">
+    <p>De los reportes con tipo identificado, 22 son analisis prospectivos (Forecast) y 10 son evaluativos (Evaluative). Los Forecast son mas comunes en fases de diseno; los Evaluative, en rendicion de cuentas post-implementacion.</p>
+  </div>
+</div>
+
+<div class="stat-insight-card">
+  <div class="si-header" style="background:linear-gradient(135deg,#065F46,#059669);">
+    <div class="si-big">17%</div>
+    <div class="si-label">Tasa de extraccion de ratios</div>
+  </div>
+  <div class="si-body">
+    <p>Solo el 17% de los reportes del corpus reporta un ratio SROI explicito y extraible. En el resto, el ratio existe pero esta enterrado en el texto del PDF o no se reporta de forma estandarizada.</p>
+  </div>
+</div>
+
+<div class="stat-insight-card">
+  <div class="si-header" style="background:linear-gradient(135deg,#7C2D12,#DC2626);">
+    <div class="si-big">0</div>
+    <div class="si-label">Reportes de America Latina</div>
+  </div>
+  <div class="si-body">
+    <p>Ningun reporte en el corpus proviene de un programa latinoamericano asegurado por SVI. Esta ausencia no significa que no haya valor social que medir — significa que la capacidad metodologica para hacerlo con rigor es incipiente.</p>
+  </div>
+</div>
+
+</div>
+
+</div>
+</div>
+
+<!-- BENCHMARK TABLE -->
+<div class="content-section">
+<div class="content-inner">
+
+<span class="section-label">Benchmark por sector</span>
+<h2 class="section-heading">Ratios SROI de referencia — sectores con datos</h2>
+
+<p>La tabla resume los parametros de referencia para cada sector con suficientes reportes en el corpus. Estos valores son el punto de partida para calibrar supuestos en analisis colombianos — siempre con ajuste por PPP y contexto institucional local.</p>
+
+<div class="sector-table-wrap">
+<table class="sector-table">
+  <thead>
+    <tr>
+      <th>Sector</th>
+      <th>Reportes con ratio</th>
+      <th>Minimo</th>
+      <th>Promedio</th>
+      <th>Maximo</th>
+      <th>Interpretacion</th>
+    </tr>
+  </thead>
+  <tbody>
+    <tr>
+      <td><span class="sector-pill">Agricultura</span></td>
+      <td>2</td><td>7.96×</td><td><strong>12.39×</strong></td><td>16.83×</td>
+      <td>Ratios mas altos del corpus — tipicamente por bajos costos de insumo y altos impactos en seguridad alimentaria</td>
+    </tr>
+    <tr>
+      <td><span class="sector-pill">Medio ambiente</span></td>
+      <td>4</td><td>1.50×</td><td><strong>10.31×</strong></td><td>27.00×</td>
+      <td>Alta variabilidad; los mejores programas capturan valor de ecosistema y bienestar colectivo</td>
+    </tr>
+    <tr>
+      <td><span class="sector-pill">Salud</span></td>
+      <td>3</td><td>2.20×</td><td><strong>8.30×</strong></td><td>18.00×</td>
+      <td>Costos alternativos del sistema de salud amplifican el denominador; ratios altos pero sensibles al proxy</td>
+    </tr>
+    <tr>
+      <td><span class="sector-pill">Discapacidad</span></td>
+      <td>2</td><td>3.29×</td><td><strong>6.61×</strong></td><td>9.93×</td>
+      <td>Inclusion laboral y social con altos costos alternativos en cuidado formal</td>
+    </tr>
+    <tr>
+      <td><span class="sector-pill">Inclusion social</span></td>
+      <td>14</td><td>2.60×</td><td><strong>6.28×</strong></td><td>15.70×</td>
+      <td>Sector mas representado; variabilidad refleja heterogeneidad de programas y metodologias</td>
+    </tr>
+    <tr>
+      <td><span class="sector-pill">Infancia y juventud</span></td>
+      <td>6</td><td>0.83×</td><td><strong>5.66×</strong></td><td>9.30×</td>
+      <td>Alto potencial de valor pero sensible al horizonte temporal del analisis</td>
+    </tr>
+    <tr>
+      <td><span class="sector-pill">Educacion</span></td>
+      <td>4</td><td>2.00×</td><td><strong>5.84×</strong></td><td>10.00×</td>
+      <td>Impactos en empleabilidad y movilidad social bien documentados en la literatura</td>
+    </tr>
+    <tr>
+      <td><span class="sector-pill">Personas mayores</span></td>
+      <td>4</td><td>1.60×</td><td><strong>5.21×</strong></td><td>8.27×</td>
+      <td>Independencia y prevencion de hospitalizaciones como outcomes principales</td>
+    </tr>
+    <tr>
+      <td><span class="sector-pill">Empleo</span></td>
+      <td>6</td><td>1.50×</td><td><strong>4.91×</strong></td><td>10.00×</td>
+      <td>Ratios moderados; beneficios fiscales y reduccion de transferencias amplifican el valor social</td>
+    </tr>
+    <tr>
+      <td><span class="sector-pill">Vivienda</span></td>
+      <td>9</td><td>1.50×</td><td><strong>4.52×</strong></td><td>16.87×</td>
+      <td>La calidad del proxy de vivienda determina el ratio; impactos en salud mental frecuentemente subvalorados</td>
+    </tr>
+    <tr>
+      <td><span class="sector-pill">Justicia</span></td>
+      <td>3</td><td>2.02×</td><td><strong>2.91×</strong></td><td>3.50×</td>
+      <td>Ratios mas conservadores del corpus; costos de reincidencia como outcome central</td>
+    </tr>
+  </tbody>
+</table>
+</div>
+
+<div class="insight-box" style="margin-top:1.5rem;">
+<div class="insight-label">Nota metodologica sobre estos benchmarks</div>
+<p>Estos ratios provienen de contextos donde los proxies de valoracion estan disponibles en bases locales (NHS, PSSRU, HACT en UK). Para aplicaciones colombianas, los valores deben ajustarse por PPP, disponibilidad de proxies ADRES/SENA y las condiciones especificas del programa. Un ratio de 4× en UK no equivale directamente a 4× en Colombia — el numero importa, pero el proceso de construccion importa mas.</p>
+</div>
+
+</div>
+</div>
+
+<!-- FOOTER NAV -->
+<div class="content-section dark">
+<div class="content-inner" style="display:flex;justify-content:space-between;align-items:center;flex-wrap:wrap;gap:1rem;padding:1rem 0;">
+<div>
+<div style="color:#94A3B8;font-size:0.82rem;margin-bottom:0.35rem;">Siguiente seccion</div>
+<div style="font-size:1.1rem;font-weight:700;color:white;">Nuestros Servicios →</div>
+</div>
+<a href="herramientas.html" class="btn-primary-custom">Ver como aplicamos esta evidencia</a>
+</div>
+</div>
+```
+
+```{=html}
+<style>
+/* ============================================================
+   HEADER
+   ============================================================ */
+.ci-header {
+  background: linear-gradient(135deg, #0F172A 0%, #1E3A5F 40%, #4C1D95 75%, #0D9488 100%);
+}
+.ci-badges {
+  display: flex; gap: 0.75rem; flex-wrap: wrap; margin-bottom: 1rem;
+}
+.ci-badge {
+  font-size: 0.72rem; font-weight: 700; letter-spacing: 0.08em;
+  text-transform: uppercase; padding: 0.3rem 0.85rem; border-radius: 999px;
+}
+.ci-badge--purple {
+  background: rgba(139,92,246,0.2); border: 1px solid rgba(139,92,246,0.4); color: #C4B5FD;
+}
+.ci-badge--teal {
+  background: rgba(13,148,136,0.2); border: 1px solid rgba(13,148,136,0.5); color: #5EEAD4;
+}
+
+/* ANCHOR NAV */
+.ci-anchor-nav {
+  display: flex; align-items: stretch;
+  background: white; border: 1px solid #E2E8F0;
+  border-radius: 0.85rem; overflow: hidden;
+  margin-bottom: 2rem;
+  box-shadow: 0 1px 4px rgba(0,0,0,0.06);
+}
+.ci-anchor-link {
+  flex: 1; display: flex; align-items: center; gap: 1rem;
+  padding: 1.25rem 1.75rem; text-decoration: none !important;
+  color: inherit; transition: background 0.15s;
+}
+.ci-anchor-link:hover { background: #F8FAFC; }
+.can-num {
+  font-size: 1.5rem; font-weight: 900; color: #E2E8F0;
+  flex-shrink: 0; line-height: 1;
+}
+.can-text { display: flex; flex-direction: column; gap: 0.15rem; }
+.can-title { font-size: 1rem; font-weight: 700; color: #0F172A; }
+.can-sub { font-size: 0.78rem; color: #64748B; }
+.ci-anchor-divider { width: 1px; background: #E2E8F0; flex-shrink: 0; }
+
+/* SECTION DIVIDERS */
+.ci-section-header {
+  border-radius: 0.85rem; margin-bottom: 2rem; padding: 1.75rem 2rem;
+}
+.ci-section-header--purple {
+  background: linear-gradient(135deg, #2E1065, #4C1D95);
+}
+.ci-section-header--teal {
+  background: linear-gradient(135deg, #0F172A, #0D4B42, #0D9488);
+}
+.csh-inner { position: relative; z-index: 1; }
+.csh-label {
+  font-size: 0.65rem; font-weight: 700; letter-spacing: 0.15em;
+  text-transform: uppercase; color: rgba(255,255,255,0.5); margin-bottom: 0.4rem;
+}
+.csh-title { font-size: 1.75rem; font-weight: 900; color: white; margin-bottom: 0.35rem; }
+.csh-sub { font-size: 0.9rem; color: rgba(255,255,255,0.7); max-width: 600px; }
+
+/* PRISMA */
+.prisma-box {
+  background: white; border: 1px solid #E2E8F0;
+  border-radius: 0.85rem; padding: 1.25rem; position: relative;
+}
+.prisma-label {
+  font-size: 0.7rem; font-weight: 700; letter-spacing: 0.1em;
+  text-transform: uppercase; color: #94A3B8; margin-bottom: 0.85rem;
+}
+.identification { border-left: 4px solid #8B5CF6; }
+.screening      { border-left: 4px solid #0EA5E9; }
+.eligibility    { border-left: 4px solid #F59E0B; }
+.inclusion      { border-left: 4px solid #059669; }
+.prisma-count { font-size: 2rem; font-weight: 900; color: #0F172A; line-height: 1; }
+.prisma-desc  { font-size: 0.8rem; color: #64748B; line-height: 1.5; margin-top: 0.2rem; }
+.prisma-arrow { text-align: center; font-size: 1.5rem; color: #CBD5E1; margin-top: 0.5rem; }
+
+/* FINDINGS */
+.findings-grid {
+  display: grid;
+  grid-template-columns: repeat(auto-fill, minmax(300px, 1fr));
+  gap: 1.25rem; margin-top: 1.75rem;
+}
+.finding-card {
+  background: white; border: 1px solid #E2E8F0;
+  border-radius: 0.85rem; padding: 1.4rem;
+  transition: box-shadow 0.2s;
+}
+.finding-card:hover { box-shadow: 0 4px 16px rgba(0,0,0,0.08); }
+.finding-icon { font-size: 1.5rem; margin-bottom: 0.75rem; }
+.finding-title { font-size: 0.925rem; font-weight: 700; color: #0F172A; margin-bottom: 0.5rem; line-height: 1.3; }
+.finding-text  { font-size: 0.845rem; color: #475569; line-height: 1.65; margin-bottom: 0.75rem; }
+.finding-cite  { font-size: 0.75rem; color: #94A3B8; font-style: italic; }
+
+/* EV STATS STRIP */
+.ev-stats-strip {
+  display: grid; grid-template-columns: repeat(6, 1fr);
+  gap: 0.85rem; margin-bottom: 2rem;
+}
+.ev-stat {
+  background: white; border: 1px solid #E2E8F0;
+  border-radius: 0.75rem; padding: 1.1rem 0.85rem;
+  text-align: center; box-shadow: 0 1px 3px rgba(0,0,0,0.05);
+}
+.ev-stat--primary { border-top: 3px solid #0D9488; }
+.ev-stat--assured { border-top: 3px solid #8B5CF6; }
+.ev-stat-num { display: block; font-size: 1.6rem; font-weight: 800; color: #0D9488; line-height: 1; margin-bottom: 0.3rem; }
+.ev-stat--assured .ev-stat-num { color: #8B5CF6; }
+.ev-stat-label { font-size: 0.72rem; color: #64748B; font-weight: 500; text-transform: uppercase; letter-spacing: 0.04em; display: block; }
+.ev-stat-note  { font-size: 0.65rem; color: #8B5CF6; font-weight: 600; display: block; margin-top: 0.2rem; }
+
+/* SVI PRINCIPLE CARDS */
+.svi-principle-card { background: white; border: 1px solid #E2E8F0; border-radius: 0.65rem; padding: 1rem; text-align: center; }
+.svi-p-num { font-size: 0.75rem; font-weight: 800; color: #0D9488; text-transform: uppercase; letter-spacing: 0.08em; margin-bottom: 0.35rem; }
+.svi-p-name { font-size: 0.82rem; font-weight: 700; color: #1E293B; line-height: 1.3; margin-bottom: 0.3rem; }
+.svi-p-criteria { font-size: 0.72rem; color: #94A3B8; font-weight: 500; }
+
+/* VIZ CONTAINERS */
+.viz-container {
+  background: white; border: 1px solid #E2E8F0;
+  border-radius: 0.85rem; padding: 1.25rem;
+}
+.viz-title { font-size: 0.9rem; font-weight: 700; color: #0F172A; margin-bottom: 0.2rem; }
+.viz-subtitle { font-size: 0.76rem; color: #64748B; margin-bottom: 1rem; }
+.chart-note { font-size: 0.77rem; color: #94A3B8; margin-top: 0.75rem; font-style: italic; }
+
+/* INSIGHT BOX */
+.insight-box {
+  background: #F0FDFA; border: 1px solid #CCFBF1;
+  border-radius: 0.75rem; padding: 1.25rem 1.5rem;
+}
+.insight-label {
+  font-size: 0.7rem; font-weight: 700; color: #0D9488;
+  text-transform: uppercase; letter-spacing: 0.08em; margin-bottom: 0.5rem;
+}
+.insight-box p { font-size: 0.875rem; color: #334155; line-height: 1.65; margin: 0; }
+
+/* STAT INSIGHT CARDS */
+.stat-insight-card { background: white; border: 1px solid #E2E8F0; border-radius: 0.85rem; overflow: hidden; box-shadow: 0 1px 4px rgba(0,0,0,0.06); }
+.si-header { padding: 1.25rem 1.25rem 1rem; color: white; }
+.si-big { font-size: 2rem; font-weight: 900; line-height: 1; margin-bottom: 0.3rem; }
+.si-label { font-size: 0.72rem; color: rgba(255,255,255,0.75); font-weight: 600; text-transform: uppercase; letter-spacing: 0.06em; }
+.si-body { padding: 1rem 1.25rem 1.25rem; font-size: 0.84rem; color: #475569; line-height: 1.65; }
+.si-body p { margin: 0; }
+
+/* SECTOR TABLE */
+.sector-table-wrap { overflow-x: auto; border-radius: 0.75rem; border: 1px solid #E2E8F0; box-shadow: 0 1px 4px rgba(0,0,0,0.05); margin: 1.25rem 0; }
+.sector-table { width: 100%; border-collapse: collapse; font-size: 0.875rem; }
+.sector-table thead tr { background: #0F172A; color: #F8FAFC; }
+.sector-table thead th { padding: 0.85rem 1rem; font-weight: 600; font-size: 0.78rem; letter-spacing: 0.04em; text-transform: uppercase; border: none; text-align: left; }
+.sector-table tbody tr { border-bottom: 1px solid #F1F5F9; transition: background 0.15s; }
+.sector-table tbody tr:hover { background: #F8FAFC; }
+.sector-table tbody tr:last-child { border-bottom: none; }
+.sector-table tbody td { padding: 0.75rem 1rem; color: #334155; vertical-align: middle; }
+.sector-pill { display: inline-block; background: #F0FDFA; color: #0D9488; border: 1px solid #99F6E4; font-size: 0.75rem; font-weight: 600; padding: 0.2rem 0.65rem; border-radius: 999px; white-space: nowrap; }
+
+/* RESPONSIVE */
+@media (max-width: 900px) {
+  .ci-anchor-nav { flex-direction: column; }
+  .ci-anchor-divider { width: 100%; height: 1px; }
+  .ev-stats-strip { grid-template-columns: repeat(3, 1fr); }
+}
+@media (max-width: 600px) {
+  .ev-stats-strip { grid-template-columns: repeat(2, 1fr); }
+  .findings-grid { grid-template-columns: 1fr; }
+}
+</style>
+```

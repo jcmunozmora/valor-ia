@@ -16,12 +16,10 @@ website:
         text: Inicio
       - href: metodologia.qmd
         text: Metodología
-      - href: literatura.qmd
-        text: Literatura
-      - href: evidencia.qmd
-        text: Evidencia Internacional
+      - href: ciencia.qmd
+        text: Ciencia del Impacto
       - href: herramientas.qmd
-        text: "Servicios"
+        text: "Nuestros Servicios"
       - href: aplicaciones.qmd
         text: Aplicaciones
       - href: equipo.qmd
