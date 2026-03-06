@@ -1,6 +1,6 @@
 ---
 title: "Nuestros Servicios"
-description: "Valor·IA combina experiencia academica certificada con inteligencia artificial para medir el valor social de su inversion con el rigor que merece."
+description: "Tres productos. Una ruta de madurez. Acompañamos a las organizaciones en el camino hacia el impacto verificable."
 toc: false
 ---
 
@@ -10,90 +10,252 @@ toc: false
      ============================================================ -->
 <div class="page-header vi-header">
   <div class="page-header-content">
-    <div class="page-badge">Centro Valor Publico &middot; EAFIT</div>
+    <div class="page-badge">Centro Valor Público &middot; EAFIT</div>
     <h1 class="page-title">Nuestros Servicios</h1>
     <p class="page-subtitle">
-      VALOR&middot;IA es la plataforma que combina <strong>experiencia academica certificada</strong>,
-      <strong>inteligencia artificial especializada</strong> y <strong>conocimiento del contexto local</strong>
-      para convertir su inversion social en evidencia rigurosa — y esa evidencia, en mejores decisiones.
+      Tres productos diseñados como una <strong>ruta de acompañamiento</strong>. No importa en qué
+      punto del camino esté su organización — tenemos un producto que le ayuda a avanzar al siguiente nivel.
     </p>
   </div>
 </div>
 
 <!-- ============================================================
-     LO QUE NOS DIFERENCIA
+     SEMÁFORO DE MADUREZ — VISUAL BACKBONE
      ============================================================ -->
-<div class="vi-pillars">
+<div class="content-section alt">
+<div class="content-inner">
 
-  <div class="vi-pillar">
-    <div class="vi-pillar-icon">
-      <svg width="32" height="32" viewBox="0 0 24 24" fill="none" stroke="#0D9488" stroke-width="2">
-        <path d="M12 2L2 7l10 5 10-5-10-5z"/><path d="M2 17l10 5 10-5"/><path d="M2 12l10 5 10-5"/>
-      </svg>
-    </div>
-    <div class="vi-pillar-name">Metodologia certificada SVI</div>
-    <div class="vi-pillar-desc">Las 6 etapas, los 8 principios y los 48 criterios del Estandar de Aseguramiento de Social Value International — el mismo marco que usan las organizaciones con reporte verificado a nivel global.</div>
+<span class="section-label">La ruta de madurez</span>
+<h2 class="section-heading">¿Dónde está su programa hoy?</h2>
+
+<p>
+  Medir el impacto social no es un evento — es un proceso de aprendizaje acumulativo. El Semáforo de Madurez de Impacto del Centro Valor Público evalúa cinco dimensiones que determinan qué puede afirmar hoy, qué no puede afirmar aún, y qué inversión metodológica tiene más sentido para avanzar.
+</p>
+
+<!-- Semáforo 5 dimensiones -->
+<div class="madur-dims">
+  <div class="madur-dim">
+    <div class="madur-dim-num">1</div>
+    <div class="madur-dim-name">Coherencia programática</div>
+    <div class="madur-dim-desc">Teoría del cambio documentada e indicadores alineados con los outcomes</div>
   </div>
-
-  <div class="vi-pillar">
-    <div class="vi-pillar-icon">
-      <svg width="32" height="32" viewBox="0 0 24 24" fill="none" stroke="#7C3AED" stroke-width="2">
-        <circle cx="12" cy="12" r="3"/><path d="M12 2v4m0 12v4M4.93 4.93l2.83 2.83m8.48 8.48l2.83 2.83M2 12h4m12 0h4M4.93 19.07l2.83-2.83m8.48-8.48l2.83-2.83"/>
-      </svg>
-    </div>
-    <div class="vi-pillar-name">Plataforma de agentes IA</div>
-    <div class="vi-pillar-desc">13 agentes de inteligencia artificial especializados — construidos sobre la guia oficial SVI y 383 reportes globales — que aceleran cada etapa del analisis sin sacrificar rigor metodologico.</div>
+  <div class="madur-arrow">&#8594;</div>
+  <div class="madur-dim">
+    <div class="madur-dim-num">2</div>
+    <div class="madur-dim-name">Eficacia</div>
+    <div class="madur-dim-desc">Objetivos cumplidos y beneficiarios alcanzados según meta</div>
   </div>
-
-  <div class="vi-pillar">
-    <div class="vi-pillar-icon">
-      <svg width="32" height="32" viewBox="0 0 24 24" fill="none" stroke="#0EA5E9" stroke-width="2">
-        <path d="M17 21v-2a4 4 0 0 0-4-4H5a4 4 0 0 0-4 4v2"/><circle cx="9" cy="7" r="4"/>
-        <path d="M23 21v-2a4 4 0 0 0-3-3.87"/><path d="M16 3.13a4 4 0 0 1 0 7.75"/>
-      </svg>
-    </div>
-    <div class="vi-pillar-name">Autonomia, no dependencia</div>
-    <div class="vi-pillar-desc">Cada proyecto transfiere capacidades al equipo cliente. El objetivo no es vender analisis recurrentes — es que su organizacion aprenda a medir y gestionar su propio impacto social.</div>
+  <div class="madur-arrow">&#8594;</div>
+  <div class="madur-dim">
+    <div class="madur-dim-num">3</div>
+    <div class="madur-dim-name">Eficiencia operativa</div>
+    <div class="madur-dim-desc">Trazabilidad de recursos y factores de ajuste documentados</div>
   </div>
+  <div class="madur-arrow">&#8594;</div>
+  <div class="madur-dim">
+    <div class="madur-dim-num">4</div>
+    <div class="madur-dim-name">Impacto social</div>
+    <div class="madur-dim-desc">Evidencia de cambio real en beneficiarios con contrafactual considerado</div>
+  </div>
+  <div class="madur-arrow">&#8594;</div>
+  <div class="madur-dim madur-dim--last">
+    <div class="madur-dim-num">5</div>
+    <div class="madur-dim-name">Valoración monetaria</div>
+    <div class="madur-dim-desc">Proxies validados, ratio SROI calculado y aseguramiento SVI</div>
+  </div>
+</div>
 
+<!-- Cómo leer el semáforo -->
+<div class="madur-legend">
+  <div class="madur-leg-item">
+    <span class="madur-dot" style="background:#10B981;"></span>
+    <strong>Verde — Consolidado:</strong> puede afirmar y comunicar con confianza
+  </div>
+  <div class="madur-leg-item">
+    <span class="madur-dot" style="background:#F59E0B;"></span>
+    <strong>Amarillo — En consolidación:</strong> valor real demostrado, evidencia por ampliar
+  </div>
+  <div class="madur-leg-item">
+    <span class="madur-dot" style="background:#EF4444;"></span>
+    <strong>Rojo — Prioritario:</strong> aquí está la siguiente inversión metodológica
+  </div>
+</div>
+
+<div style="background: #0F172A; border-radius: 0.875rem; padding: 1.25rem 1.75rem; margin-top: 1.25rem; display: flex; align-items: center; justify-content: space-between; gap: 1.5rem; flex-wrap: wrap;">
+  <div>
+    <div style="color: #5EEAD4; font-size: 0.78rem; font-weight: 700; letter-spacing: 0.1em; text-transform: uppercase; margin-bottom: 0.3rem;">Diagnóstico sin costo</div>
+    <div style="color: white; font-size: 0.975rem; font-weight: 700; margin-bottom: 0.2rem;">¿En cuál de las 5 dimensiones está su programa hoy?</div>
+    <div style="color: #94A3B8; font-size: 0.8rem;">30 minutos. Sin compromiso. Con una hoja de ruta concreta.</div>
+  </div>
+  <a href="mailto:jcmunozm@eafit.edu.co?subject=Diagnóstico de madurez de impacto" class="cta-btn cta-btn--primary" style="flex-shrink:0;">Solicitar diagnóstico &rarr;</a>
+</div>
+
+</div>
 </div>
 
 <!-- ============================================================
-     TRES SERVICIOS
+     TRES PRODUCTOS
      ============================================================ -->
+<div class="content-section">
+<div class="content-inner">
+
+<span class="section-label">Portafolio</span>
+<h2 class="section-heading">Tres productos. Cada uno posicionado en la ruta.</h2>
+
+<p style="color:#475569; margin-bottom: 2rem;">
+  Cada producto está diseñado para acompañar un tramo específico de la ruta de madurez. Pueden usarse de forma independiente o en secuencia — según dónde esté su organización y a dónde quiere llegar.
+</p>
+
 <div class="services-section">
 
-  <div class="service-card service-card--measure">
+  <!-- PRODUCTO 01 — FORMACIÓN -->
+  <div class="service-card service-card--train">
     <div class="service-num">01</div>
     <div class="service-content">
-      <div class="service-line" style="background:#0D9488"></div>
-      <div class="service-name">Medicion de impacto social</div>
-      <div class="service-tagline">Convertimos su programa social en evidencia con ratio SROI verificable</div>
+      <div class="service-line" style="background:#7C3AED"></div>
+
+      <div style="display:flex; align-items:flex-start; justify-content:space-between; gap:1rem; flex-wrap:wrap; margin-bottom:0.25rem;">
+        <div class="service-name">Formación y transferencia metodológica</div>
+        <div class="nivel-badge nivel-badge--train">Dimensiones 1–3 · Bases sólidas</div>
+      </div>
+
+      <div class="service-tagline">Su equipo aprende a medir sin depender de consultores externos</div>
       <p class="service-desc">
-        Acompanamos el proceso completo: desde definir la pregunta correcta hasta entregar un informe
-        con ratio SROI, analisis de sensibilidad y recomendaciones estrategicas. Seleccionamos el
-        metodo de valoracion apropiado — SROI, CBA, WELLBY o combinaciones — segun el tipo de
-        programa, los datos disponibles y el uso que se dara al resultado.
+        Programa de 8 sesiones que lleva a los equipos de impacto social desde los fundamentos
+        del valor social hasta la capacidad de diseñar, ejecutar e interpretar sus propios análisis.
+        Se combina formación conceptual con entrenamiento práctico en la plataforma de agentes VALOR&middot;IA —
+        de modo que el conocimiento queda institucionalizado, no en la cabeza del consultor.
       </p>
-      <div class="service-includes">
-        <div class="si-title">Que incluye</div>
-        <div class="si-items">
-          <span>Diagnostico y scoping</span>
-          <span>Impact Map + Teoria del Cambio</span>
-          <span>Valoracion de outcomes</span>
-          <span>Informe SVI</span>
-          <span>Analisis de sensibilidad</span>
+
+      <!-- Programa completo — 8 sesiones -->
+      <div style="margin-bottom:1.25rem;">
+        <div class="si-title">De cero a autonomía metodológica — 8 sesiones</div>
+        <div class="sesiones-grid">
+          <a href="slides/sesion1.html" target="_blank" class="ses-card ses-card--active">
+            <span class="ses-num">01</span>
+            <span class="ses-name">Evaluación de programas</span>
+            <span class="ses-badge">Demo</span>
+          </a>
+          <a href="slides/sesion2.html" target="_blank" class="ses-card ses-card--active">
+            <span class="ses-num">02</span>
+            <span class="ses-name">Alcance y stakeholders</span>
+            <span class="ses-badge">Demo</span>
+          </a>
+          <a href="slides/sesion3.html" target="_blank" class="ses-card ses-card--active">
+            <span class="ses-num">03</span>
+            <span class="ses-name">Teoría del Cambio</span>
+            <span class="ses-badge">Demo</span>
+          </a>
+          <a href="slides/sesion4.html" target="_blank" class="ses-card ses-card--active">
+            <span class="ses-num">04</span>
+            <span class="ses-name">Evidencia de outcomes</span>
+            <span class="ses-badge">Demo</span>
+          </a>
+          <a href="slides/sesion5.html" target="_blank" class="ses-card ses-card--active">
+            <span class="ses-num">05</span>
+            <span class="ses-name">Factores de ajuste</span>
+            <span class="ses-badge">Demo</span>
+          </a>
+          <a href="slides/sesion6.html" target="_blank" class="ses-card ses-card--active">
+            <span class="ses-num">06</span>
+            <span class="ses-name">Valoración monetaria</span>
+            <span class="ses-badge">Demo</span>
+          </a>
+          <a href="slides/sesion7.html" target="_blank" class="ses-card ses-card--active">
+            <span class="ses-num">07</span>
+            <span class="ses-name">Cálculo del SROI</span>
+            <span class="ses-badge">Demo</span>
+          </a>
+          <a href="slides/sesion8.html" target="_blank" class="ses-card ses-card--active">
+            <span class="ses-num">08</span>
+            <span class="ses-name">Informe y aseguramiento</span>
+            <span class="ses-badge">Demo</span>
+          </a>
         </div>
       </div>
+
+      <div class="service-includes">
+        <div class="si-title">Qué incluye</div>
+        <div class="si-items">
+          <span>8 sesiones metodológicas</span>
+          <span>Acceso a plataforma IA</span>
+          <span>Casos colombianos reales</span>
+          <span>Proyecto aplicado del equipo</span>
+          <span>Certificación de participación</span>
+        </div>
+      </div>
+
       <div class="service-for">
-        <div class="sf-title">Para quien</div>
+        <div class="sf-title">Para quién</div>
+        <div class="sf-items">
+          <span class="sf-chip">Áreas de sostenibilidad / RSE</span>
+          <span class="sf-chip">Equipos de M&amp;E</span>
+          <span class="sf-chip">Profesionales independientes</span>
+          <span class="sf-chip">Equipos de impacto social</span>
+        </div>
+      </div>
+
+      <div class="service-result">
+        <span class="sr-label">Resultado</span>
+        <span class="sr-val">Equipo capaz de diseñar y ejecutar análisis propios &middot; Autonomía metodológica real</span>
+      </div>
+    </div>
+  </div>
+
+  <!-- PRODUCTO 02 — MEDICIÓN -->
+  <div class="service-card service-card--measure">
+    <div class="service-num">02</div>
+    <div class="service-content">
+      <div class="service-line" style="background:#0D9488"></div>
+
+      <div style="display:flex; align-items:flex-start; justify-content:space-between; gap:1rem; flex-wrap:wrap; margin-bottom:0.25rem;">
+        <div class="service-name">Medición y valoración de impacto</div>
+        <div class="nivel-badge nivel-badge--measure">Dimensiones 3–5 · Análisis SROI completo</div>
+      </div>
+
+      <div class="service-tagline">Convertimos su programa social en evidencia con ratio SROI verificable</div>
+      <p class="service-desc">
+        Acompañamos el proceso completo: desde definir la pregunta correcta hasta entregar un informe
+        con ratio SROI, análisis de sensibilidad y recomendaciones estratégicas. Seleccionamos el
+        método de valoración apropiado — SROI, CBA, WELLBY o combinaciones — según el estado de madurez
+        del programa, los datos disponibles y el uso que se dará al resultado.
+      </p>
+
+      <!-- Métodos compactos -->
+      <div style="margin-bottom:1.25rem;">
+        <div class="si-title">Métodos de valoración disponibles</div>
+        <div class="si-items">
+          <span style="border-color:#0D9488; color:#0F766E; background:#F0FDFA;">SROI · método estrella</span>
+          <span>Análisis Costo-Beneficio (CBA)</span>
+          <span>Wellbeing Valuation (WELLBY)</span>
+          <span>WTP / Stated Preference</span>
+          <span>Precios hedónicos / RP</span>
+          <span>Costos unitarios ADRES/SENA</span>
+        </div>
+      </div>
+
+      <div class="service-includes">
+        <div class="si-title">Qué incluye</div>
+        <div class="si-items">
+          <span>Diagnóstico y scoping</span>
+          <span>Impact Map + Teoría del Cambio</span>
+          <span>Valoración de outcomes</span>
+          <span>Informe SVI</span>
+          <span>Análisis de sensibilidad</span>
+          <span>Presentación ejecutiva</span>
+        </div>
+      </div>
+
+      <div class="service-for">
+        <div class="sf-title">Para quién</div>
         <div class="sf-items">
           <span class="sf-chip">Empresas con programas RSE</span>
           <span class="sf-chip">Fundaciones privadas</span>
-          <span class="sf-chip">Cajas de compensacion</span>
-          <span class="sf-chip">Entidades con fondos publicos</span>
+          <span class="sf-chip">Cajas de compensación</span>
+          <span class="sf-chip">Entidades con fondos públicos</span>
         </div>
       </div>
+
       <div class="service-result">
         <span class="sr-label">Resultado</span>
         <span class="sr-val">Ratio SROI con rango de confianza &middot; Benchmarking global &middot; Recomendaciones de escala</span>
@@ -101,113 +263,139 @@ toc: false
     </div>
   </div>
 
-  <div class="service-card service-card--train">
-    <div class="service-num">02</div>
-    <div class="service-content">
-      <div class="service-line" style="background:#7C3AED"></div>
-      <div class="service-name">Formacion y transferencia metodologica</div>
-      <div class="service-tagline">Su equipo aprende a medir sin depender de consultores externos</div>
-      <p class="service-desc">
-        Programa de 8 sesiones que lleva a los equipos de impacto social desde los fundamentos
-        del valor social hasta la capacidad de disenar, ejecutar e interpretar sus propios analisis.
-        Se combina formacion conceptual con entrenamiento en la plataforma de agentes VALOR&middot;IA —
-        de modo que el conocimiento queda institucionalizado, no en la cabeza del consultor.
-      </p>
-      <div class="service-includes">
-        <div class="si-title">Que incluye</div>
-        <div class="si-items">
-          <span>8 sesiones metodologicas</span>
-          <span>Acceso a plataforma IA</span>
-          <span>Casos colombianos reales</span>
-          <span>Proyecto aplicado del equipo</span>
-          <span>Certificacion de participacion</span>
-        </div>
-      </div>
-      <div class="service-for">
-        <div class="sf-title">Para quien</div>
-        <div class="sf-items">
-          <span class="sf-chip">Areas de sostenibilidad / RSE</span>
-          <span class="sf-chip">Equipos de M&amp;E</span>
-          <span class="sf-chip">Profesionales independientes</span>
-          <span class="sf-chip">Equipos de impacto social</span>
-        </div>
-      </div>
-      <div class="service-result">
-        <span class="sr-label">Resultado</span>
-        <span class="sr-val">Equipo capaz de disenar y ejecutar analisis propios &middot; Autonomia metodologica real</span>
-      </div>
-    </div>
-  </div>
-
+  <!-- PRODUCTO 03 — AUDITORÍA -->
   <div class="service-card service-card--audit">
     <div class="service-num">03</div>
     <div class="service-content">
       <div class="service-line" style="background:#0EA5E9"></div>
-      <div class="service-name">Auditoria y aseguramiento de informes</div>
-      <div class="service-tagline">Validamos su analisis contra el estandar internacional SVI</div>
+
+      <div style="display:flex; align-items:flex-start; justify-content:space-between; gap:1rem; flex-wrap:wrap; margin-bottom:0.25rem;">
+        <div class="service-name">Auditoría y aseguramiento de informes</div>
+        <div class="nivel-badge nivel-badge--audit">Dimensión 5 · Camino a SVI</div>
+      </div>
+
+      <div class="service-tagline">Validamos su análisis contra el estándar internacional SVI</div>
       <p class="service-desc">
-        Revision independiente de analisis de valor social ya elaborados. Evaluamos el informe
-        contra los 48 criterios del SVI Report Assurance Standard, identificamos brechas criticas,
-        validamos los supuestos de valoracion y preparamos el documento para el proceso de
-        aseguramiento externo. El primer paso hacia la certificacion SVI.
+        Revisión independiente de análisis de valor social ya elaborados. Evaluamos el informe
+        contra los 48 criterios del SVI Report Assurance Standard, identificamos brechas críticas,
+        validamos los supuestos de valoración y preparamos el documento para el proceso de
+        aseguramiento externo. El primer paso hacia la certificación SVI.
       </p>
+
       <div class="service-includes">
-        <div class="si-title">Que incluye</div>
+        <div class="si-title">Qué incluye</div>
         <div class="si-items">
-          <span>Revision 48 criterios SVI</span>
-          <span>Validacion de proxies y supuestos</span>
+          <span>Revisión 48 criterios SVI</span>
+          <span>Validación de proxies y supuestos</span>
+          <span>Semáforo de madurez del informe</span>
           <span>Informe de brechas</span>
           <span>Plan de mejora</span>
-          <span>Acompanamiento al proceso SVI</span>
+          <span>Acompañamiento al proceso SVI</span>
         </div>
       </div>
+
       <div class="service-for">
-        <div class="sf-title">Para quien</div>
+        <div class="sf-title">Para quién</div>
         <div class="sf-items">
           <span class="sf-chip">Org. con SROI propio</span>
-          <span class="sf-chip">Consultoras que buscan validacion</span>
-          <span class="sf-chip">Entidades con mandato de reporte ESG</span>
+          <span class="sf-chip">Consultoras que buscan validación</span>
+          <span class="sf-chip">Entidades con mandato ESG</span>
+          <span class="sf-chip">Preparación para reporte SVI</span>
         </div>
       </div>
+
       <div class="service-result">
         <span class="sr-label">Resultado</span>
-        <span class="sr-val">Informe listo para aseguramiento SVI &middot; Brechas identificadas &middot; Posicion en ranking global</span>
+        <span class="sr-val">Informe listo para aseguramiento SVI &middot; Brechas identificadas &middot; Posición en ranking global</span>
       </div>
     </div>
   </div>
 
 </div>
+</div>
+</div>
 
 <!-- ============================================================
-     LA PLATAFORMA
+     CÓMO FUNCIONA EL ACOMPAÑAMIENTO
      ============================================================ -->
 <div class="content-section alt">
 <div class="content-inner">
 
-<span class="section-label">VALOR&middot;IA — Plataforma</span>
-<h2 class="section-heading">Experiencia academica con potencia de inteligencia artificial</h2>
+<span class="section-label">La ruta completa</span>
+<h2 class="section-heading">Un acompañamiento que crece con su organización</h2>
 
-<p>
-  VALOR&middot;IA no es un software de medicion ni una consultora tradicional — es la combinacion
-  de ambas. Un equipo academico con formacion certificada en SVI que ha construido una plataforma
-  de inteligencia artificial especializada en valor social. Cada analisis combina juicio experto
-  humano con el procesamiento que solo la IA puede hacer a escala.
-</p>
+<p>Los tres productos no son servicios independientes — son tres puntos de entrada a la misma ruta. Dependiendo de dónde esté su organización, comenzamos en el punto correcto y avanzamos juntos.</p>
+
+<div class="ruta-flow">
+
+  <div class="ruta-step">
+    <div class="ruta-icon" style="background:rgba(124,58,237,0.12); border-color:rgba(124,58,237,0.3); color:#7C3AED;">&#127979;</div>
+    <div class="ruta-info">
+      <div class="ruta-prod" style="color:#7C3AED;">Formación</div>
+      <div class="ruta-label">Construir capacidades</div>
+      <div class="ruta-cuando">Cuando el equipo necesita fundamentos metodológicos antes de medir</div>
+    </div>
+  </div>
+
+  <div class="ruta-connector">
+    <div class="ruta-line"></div>
+    <div class="ruta-arrow">&#8594;</div>
+    <div class="ruta-line"></div>
+  </div>
+
+  <div class="ruta-step">
+    <div class="ruta-icon" style="background:rgba(13,148,136,0.12); border-color:rgba(13,148,136,0.3); color:#0D9488;">&#128200;</div>
+    <div class="ruta-info">
+      <div class="ruta-prod" style="color:#0D9488;">Medición</div>
+      <div class="ruta-label">Producir evidencia</div>
+      <div class="ruta-cuando">Cuando el programa está en operación y se quiere el ratio SROI</div>
+    </div>
+  </div>
+
+  <div class="ruta-connector">
+    <div class="ruta-line"></div>
+    <div class="ruta-arrow">&#8594;</div>
+    <div class="ruta-line"></div>
+  </div>
+
+  <div class="ruta-step">
+    <div class="ruta-icon" style="background:rgba(14,165,233,0.12); border-color:rgba(14,165,233,0.3); color:#0EA5E9;">&#10003;</div>
+    <div class="ruta-info">
+      <div class="ruta-prod" style="color:#0EA5E9;">Auditoría</div>
+      <div class="ruta-label">Verificar y asegurar</div>
+      <div class="ruta-cuando">Cuando el análisis existe y se quiere validación independiente SVI</div>
+    </div>
+  </div>
+
+</div>
+
+<div style="background:white; border:1px solid #E2E8F0; border-left:4px solid #0D9488; border-radius:0 0.75rem 0.75rem 0; padding:1rem 1.5rem; font-size:0.875rem; color:#334155; margin-top:1.5rem; line-height:1.65;">
+  <strong style="color:#0D9488;">No es necesario empezar desde cero.</strong> Muchas organizaciones llegan directamente a Medición o Auditoría. El diagnóstico inicial determina el punto de entrada correcto — sin costo y sin compromiso.
+</div>
+
+</div>
+</div>
+
+<!-- ============================================================
+     LA PLATAFORMA
+     ============================================================ -->
+<div class="content-section">
+<div class="content-inner">
+
+<span class="section-label">VALOR&middot;IA — Plataforma</span>
+<h2 class="section-heading">Lo que hace diferente cada producto</h2>
 
 <div class="platform-pillars">
 
   <div class="pp-card">
     <div class="pp-icon pp-icon--teal">&#9670;</div>
-    <div class="pp-name">Metodologia de frontera</div>
+    <div class="pp-name">Metodología certificada SVI</div>
     <div class="pp-desc">
-      El unico equipo en Colombia con certificacion SVI en SROI. Formacion directa
-      en las 6 etapas, los 8 principios y el Estandar de Aseguramiento. Aplicamos
-      la misma metodologia que usan los 8 reportes asegurados en el corpus global.
+      El único equipo en Colombia con certificación SVI en SROI. Formación directa en las 6 etapas, los 8 principios y el Estándar de Aseguramiento. Aplicamos la misma metodología que usan los 8 reportes asegurados en el corpus global.
     </div>
     <div class="pp-stats">
-      <span>6 etapas SVI</span>
-      <span>8 principios</span>
-      <span>48 criterios aseguramiento</span>
+      <span>6 etapas SVI &middot; 8 principios</span>
+      <span>48 criterios de aseguramiento</span>
     </div>
   </div>
 
@@ -215,14 +403,11 @@ toc: false
     <div class="pp-icon pp-icon--purple">&#9670;</div>
     <div class="pp-name">13 agentes especializados</div>
     <div class="pp-desc">
-      Desde el orquestador que diagnostica el caso hasta el contradictor academico que
-      prepara el analisis para escrutinio externo. Cada agente hace una tarea con rigor:
-      valoracion, calculo, sensibilidad, informe, presentaciones ejecutivas.
+      Desde el orquestador que diagnostica el caso hasta el contradictor académico que prepara el análisis para escrutinio externo. Monte Carlo automatizado, benchmarking global instantáneo, informes Quarto con estándar SVI.
     </div>
     <div class="pp-stats">
-      <span>Construccion de Impact Map</span>
-      <span>Monte Carlo automatizado</span>
-      <span>Benchmarking global instantaneo</span>
+      <span>Impact Map automatizado</span>
+      <span>Monte Carlo &middot; Tornado &middot; Waterfall</span>
     </div>
   </div>
 
@@ -230,413 +415,11 @@ toc: false
     <div class="pp-icon pp-icon--blue">&#9670;</div>
     <div class="pp-name">383 reportes de referencia</div>
     <div class="pp-desc">
-      La base de datos mas completa disponible en espanol: 383 reportes SVI globales,
-      con ratios por sector, pais y tipo de programa. Sus resultados se posicionan
-      automaticamente en el benchmark internacional — sin necesidad de busqueda manual.
+      La base de datos más completa disponible en español: 383 reportes SVI globales, con ratios por sector, país y tipo de programa. Sus resultados se posicionan automáticamente en el benchmark internacional.
     </div>
     <div class="pp-stats">
-      <span>Mediana global: 4.35x</span>
-      <span>17 paises</span>
-      <span>15 sectores</span>
-    </div>
-  </div>
-
-</div>
-
-</div>
-</div>
-
-<!-- ============================================================
-     METODOS DE VALORACION
-     ============================================================ -->
-<div class="content-section">
-<div class="content-inner">
-
-<span class="section-label">Enfoque metodologico</span>
-<h2 class="section-heading">El metodo correcto para cada pregunta</h2>
-
-<p>
-  No todo programa social necesita un SROI completo. La seleccion del metodo depende
-  de la pregunta que hay que responder, los datos disponibles y el uso que se dara al resultado.
-  En la mayoria de los casos el metodo optimo combina elementos de mas de un enfoque.
-</p>
-
-<div class="methods-compact">
-
-  <div class="mc-row mc-row--flagship">
-    <div class="mc-name">SROI — Retorno Social de la Inversion</div>
-    <div class="mc-when">Rendir cuentas a inversionistas, justificar escala, competir por recursos</div>
-    <div class="mc-result">Ratio: por cada COP invertido se generan X COP de valor social</div>
-    <div class="mc-badge">Metodo estrella &middot; Aseguramiento SVI disponible</div>
-  </div>
-
-  <div class="mc-row">
-    <div class="mc-name">Analisis Costo-Beneficio Social (CBA)</div>
-    <div class="mc-when">Politica publica, infraestructura social, programas de gran escala</div>
-    <div class="mc-result">Ratio B/C, VPN social, TIR social</div>
-    <div class="mc-badge"></div>
-  </div>
-
-  <div class="mc-row">
-    <div class="mc-name">Valoracion del Bienestar (WELLBY)</div>
-    <div class="mc-when">Salud mental, inclusion social, acompanamiento psicosocial</div>
-    <div class="mc-result">Valor monetario del cambio en bienestar por beneficiario/ano</div>
-    <div class="mc-badge"></div>
-  </div>
-
-  <div class="mc-row">
-    <div class="mc-name">Teoria del Cambio + Impact Map</div>
-    <div class="mc-when">Inicio de programas, rediseno de estrategia, sistemas M&amp;E</div>
-    <div class="mc-result">Mapa causal verificable con indicadores y fuentes de evidencia</div>
-    <div class="mc-badge"></div>
-  </div>
-
-  <div class="mc-row">
-    <div class="mc-name">Estudios de Impacto Socioeconomico</div>
-    <div class="mc-when">RSE, licencia social, reporting ESG, grandes proyectos</div>
-    <div class="mc-result">Valor economico generado, empleos equivalentes, impacto regional</div>
-    <div class="mc-badge"></div>
-  </div>
-
-  <div class="mc-row">
-    <div class="mc-name">Auditoria Social y Materialidad ESG</div>
-    <div class="mc-when">Reporte de sostenibilidad, due diligence de inversores, CSRD</div>
-    <div class="mc-result">Matriz de materialidad, indicadores prioritarios, narrativa de impacto</div>
-    <div class="mc-badge"></div>
-  </div>
-
-</div>
-
-<div class="method-selector-note">
-  <div class="msn-icon">&#8594;</div>
-  <div class="msn-text">
-    <strong>Como elegimos el metodo correcto</strong>
-    El primer paso de cada proyecto es un diagnostico de 30 minutos. Analizamos la pregunta de negocio,
-    los datos disponibles y el uso del resultado. Sin costo, sin compromiso.
-  </div>
-</div>
-
-</div>
-</div>
-
-<!-- ============================================================
-     SEMÁFORO DE MADUREZ DE LA EVIDENCIA
-     ============================================================ -->
-<div class="content-section alt">
-<div class="content-inner">
-
-<span class="section-label">Maduracion del impacto</span>
-<h2 class="section-heading">Lo acompanamos en la maduracion del impacto de sus inversiones</h2>
-
-<p>
-  Medir el impacto social no es un evento — es un proceso de aprendizaje acumulativo. Las organizaciones
-  que generan mas valor no son las que tienen mas recursos: son las que han desarrollado la capacidad
-  de entender, demostrar y mejorar su impacto con el tiempo.
-</p>
-
-<p>
-  Este semaforo le ayuda a ubicar su programa en la escala de madurez de la evidencia — y a
-  entender exactamente que puede afirmar hoy, que no puede afirmar aun, y que inversiones
-  de medicion tienen sentido para avanzar al siguiente nivel. Cada nivel tiene sus propios
-  metodos, sus propias afirmaciones legitimas y sus propios servicios de acompanamiento.
-</p>
-
-<div class="ev-journey-banner">
-  <div class="ev-jb-left">
-    <div class="ev-jb-title">¿Donde esta hoy su programa?</div>
-    <div class="ev-jb-sub">El diagnostico de 30 minutos le dara una respuesta clara — sin costo, sin compromiso.</div>
-  </div>
-  <div class="ev-jb-levels">
-    <div class="ev-jb-dot ev-jb-d1">N1</div>
-    <div class="ev-jb-arrow">&#8594;</div>
-    <div class="ev-jb-dot ev-jb-d2">N2</div>
-    <div class="ev-jb-arrow">&#8594;</div>
-    <div class="ev-jb-dot ev-jb-d3">N3</div>
-    <div class="ev-jb-arrow">&#8594;</div>
-    <div class="ev-jb-dot ev-jb-d4">N4</div>
-    <div class="ev-jb-arrow">&#8594;</div>
-    <div class="ev-jb-dot ev-jb-d5">N5</div>
-  </div>
-</div>
-
-<div class="ev-ladder">
-
-  <!-- NIVEL 1 -->
-  <div class="ev-step ev-n1">
-    <div class="ev-step-head">
-      <div class="ev-level-badge">N1</div>
-      <div class="ev-step-info">
-        <div class="ev-step-name">Revision de diseno</div>
-        <div class="ev-step-claim">Solo se puede afirmar: <em>"El programa esta bien disenado"</em></div>
-      </div>
-      <div class="ev-step-icon">&#9632;</div>
-    </div>
-    <div class="ev-step-body">
-      <div class="ev-col">
-        <div class="ev-col-title">Evidencia disponible</div>
-        <p>Documentos del programa, fichas descriptivas, logica de intervencion sin validacion empirica. Sin datos de beneficiarios.</p>
-      </div>
-      <div class="ev-col">
-        <div class="ev-col-title">Que se puede concluir</div>
-        <p>El diseno es coherente y el programa deberia generar los outcomes esperados <em>si se implementa como fue concebido</em>.</p>
-      </div>
-      <div class="ev-col">
-        <div class="ev-col-title">Servicios VALOR&middot;IA</div>
-        <div class="ev-tags">
-          <span>Diseno de Teoria del Cambio</span>
-          <span>Construccion del Impact Map</span>
-          <span>Diagnostico de coherencia logica</span>
-        </div>
-      </div>
-    </div>
-  </div>
-
-  <!-- NIVEL 2 -->
-  <div class="ev-step ev-n2">
-    <div class="ev-step-head">
-      <div class="ev-level-badge">N2</div>
-      <div class="ev-step-info">
-        <div class="ev-step-name">Monitoreo de outputs</div>
-        <div class="ev-step-claim">Solo se puede afirmar: <em>"Entregamos lo que prometimos"</em></div>
-      </div>
-      <div class="ev-step-icon">&#9632;</div>
-    </div>
-    <div class="ev-step-body">
-      <div class="ev-col">
-        <div class="ev-col-title">Evidencia disponible</div>
-        <p>Registros del programa, conteos de beneficiarios, actividades realizadas y productos entregados. Sin medicion de cambios.</p>
-      </div>
-      <div class="ev-col">
-        <div class="ev-col-title">Que se puede concluir</div>
-        <p>El programa opero segun lo planificado. La implementacion fue fiel al diseno. No se puede afirmar nada sobre el cambio generado.</p>
-      </div>
-      <div class="ev-col">
-        <div class="ev-col-title">Servicios VALOR&middot;IA</div>
-        <div class="ev-tags">
-          <span>Diseno de sistema M&amp;E</span>
-          <span>Dashboard de indicadores de proceso</span>
-          <span>Auditoria de registros</span>
-        </div>
-      </div>
-    </div>
-  </div>
-
-  <!-- NIVEL 3 -->
-  <div class="ev-step ev-n3">
-    <div class="ev-step-head">
-      <div class="ev-level-badge">N3</div>
-      <div class="ev-step-info">
-        <div class="ev-step-name">Evaluacion de outcomes sin comparacion</div>
-        <div class="ev-step-claim">Se puede afirmar: <em>"Los beneficiarios cambiaron — y el programa contribuyo"</em></div>
-      </div>
-      <div class="ev-step-icon">&#9632;</div>
-    </div>
-    <div class="ev-step-body">
-      <div class="ev-col">
-        <div class="ev-col-title">Evidencia disponible</div>
-        <p>Encuestas pre-post a beneficiarios, entrevistas estructuradas, datos administrativos con seguimiento. Sin grupo de comparacion.</p>
-      </div>
-      <div class="ev-col">
-        <div class="ev-col-title">Que se puede concluir</div>
-        <p>Los beneficiarios experimentaron cambios medibles. Con ajuste por deadweight y atribucion, se puede construir un ratio SROI solido. La causalidad es plausible, no demostrada.</p>
-      </div>
-      <div class="ev-col">
-        <div class="ev-col-title">Servicios VALOR&middot;IA</div>
-        <div class="ev-tags">
-          <span>SROI evaluativo completo</span>
-          <span>Valoracion WELLBY</span>
-          <span>Analisis de sensibilidad Monte Carlo</span>
-          <span>Benchmarking global SVI</span>
-        </div>
-      </div>
-    </div>
-  </div>
-
-  <!-- NIVEL 4 -->
-  <div class="ev-step ev-n4">
-    <div class="ev-step-head">
-      <div class="ev-level-badge">N4</div>
-      <div class="ev-step-info">
-        <div class="ev-step-name">Diseno cuasi-experimental</div>
-        <div class="ev-step-claim">Se puede afirmar: <em>"El programa causo estos cambios — con alta confianza"</em></div>
-      </div>
-      <div class="ev-step-icon">&#9632;</div>
-    </div>
-    <div class="ev-step-body">
-      <div class="ev-col">
-        <div class="ev-col-title">Evidencia disponible</div>
-        <p>Grupo de comparacion comparable (PSM, DiD, RD, variables instrumentales). Datos longitudinales o paneles. Fuentes administrativas emparejadas.</p>
-      </div>
-      <div class="ev-col">
-        <div class="ev-col-title">Que se puede concluir</div>
-        <p>El programa causo el cambio observado, con supuestos de identificacion explicitos y verificables. El deadweight se estima empiricamente, no por consulta. Credible para publicacion academica.</p>
-      </div>
-      <div class="ev-col">
-        <div class="ev-col-title">Servicios VALOR&middot;IA</div>
-        <div class="ev-tags">
-          <span>SROI con diseno cuasi-experimental</span>
-          <span>Estimacion empirica de deadweight</span>
-          <span>Analisis de impacto economico</span>
-          <span>Informe listo para aseguramiento SVI</span>
-        </div>
-      </div>
-    </div>
-  </div>
-
-  <!-- NIVEL 5 -->
-  <div class="ev-step ev-n5">
-    <div class="ev-step-head">
-      <div class="ev-level-badge">N5</div>
-      <div class="ev-step-info">
-        <div class="ev-step-name">Ensayo controlado aleatorio (RCT)</div>
-        <div class="ev-step-claim">Se puede afirmar: <em>"El programa causo estos cambios — estandar dorado de evidencia"</em></div>
-      </div>
-      <div class="ev-step-icon">&#9733;</div>
-    </div>
-    <div class="ev-step-body">
-      <div class="ev-col">
-        <div class="ev-col-title">Evidencia disponible</div>
-        <p>Asignacion aleatoria al grupo de tratamiento. Seguimiento prospectivo. Protocolo de evaluacion pre-registrado. Potencia estadistica calculada.</p>
-      </div>
-      <div class="ev-col">
-        <div class="ev-col-title">Que se puede concluir</div>
-        <p>Efecto causal del programa con el nivel mas alto de confianza posible. El SROI tiene el minimo sesgo de atribucion. Apto para publicacion en revistas de evaluacion de impacto.</p>
-      </div>
-      <div class="ev-col">
-        <div class="ev-col-title">Servicios VALOR&middot;IA</div>
-        <div class="ev-tags">
-          <span>SROI con evidencia RCT</span>
-          <span>Diseno del protocolo de evaluacion</span>
-          <span>Aseguramiento SVI verificado</span>
-          <span>Publicacion y posicionamiento global</span>
-        </div>
-      </div>
-    </div>
-  </div>
-
-</div>
-
-<div class="ev-note">
-  <div class="ev-note-icon">&#9650;</div>
-  <div class="ev-note-text">
-    <strong>La mayoria de los programas sociales en Colombia opera en N2 o N3 — y avanzar un nivel ya cambia significativamente la solidez de sus afirmaciones de impacto.</strong>
-    El objetivo no es siempre llegar al N5. Es entender en que nivel esta hoy y decidir conscientemente que inversicion en medicion justifica el valor de la decision que necesita tomar.
-    VALOR&middot;IA lo acompana en cada transicion: desde el primer Impact Map hasta el informe listo para aseguramiento SVI.
-  </div>
-</div>
-
-</div>
-</div>
-
-<!-- ============================================================
-     FORMACION — 8 SESIONES
-     ============================================================ -->
-<div class="content-section alt">
-<div class="content-inner">
-
-<span class="section-label">Servicio de Formacion</span>
-<h2 class="section-heading">De cero a autonomia metodologica: 8 sesiones</h2>
-
-<p>
-  El programa de formacion lleva a los equipos de impacto social desde los fundamentos
-  hasta la capacidad de disenar, ejecutar e interpretar analisis propios de valor social.
-</p>
-
-<div class="sessions-track">
-
-  <div class="st-session">
-    <div class="st-num">01</div>
-    <div class="st-body">
-      <div class="st-title">Fundamentos del valor social y el ecosistema SVI</div>
-      <div class="st-desc">Por que medir, los 8 principios SVI, el estandar de aseguramiento y el panorama global de metodos.</div>
-      <div class="st-foot">
-        <span class="st-tag">Conceptual</span>
-        <span class="st-slide st-slide--soon">Proximamente</span>
-      </div>
-    </div>
-  </div>
-
-  <div class="st-session">
-    <div class="st-num">02</div>
-    <div class="st-body">
-      <div class="st-title">Alcance, stakeholders y la pregunta correcta</div>
-      <div class="st-desc">Definicion del alcance, mapeo de grupos de interes, involucramiento participativo y diseno de la pregunta de analisis.</div>
-      <div class="st-foot">
-        <span class="st-tag">Etapa 1</span>
-        <span class="st-slide st-slide--soon">Proximamente</span>
-      </div>
-    </div>
-  </div>
-
-  <div class="st-session">
-    <div class="st-num">03</div>
-    <div class="st-body">
-      <div class="st-title">Teoria del Cambio e Impact Map</div>
-      <div class="st-desc">Construccion del mapa causal: inputs, actividades, outputs, outcomes e impacto. Cadenas de evidencia y logica de cambio.</div>
-      <div class="st-foot">
-        <span class="st-tag">Etapa 2</span>
-        <span class="st-slide st-slide--soon">Proximamente</span>
-      </div>
-    </div>
-  </div>
-
-  <div class="st-session">
-    <div class="st-num">04</div>
-    <div class="st-body">
-      <div class="st-title">Evidencia de outcomes: recoleccion y medicion</div>
-      <div class="st-desc">Indicadores de outcome, metodos de recoleccion, muestras y triangulacion de fuentes primarias y secundarias.</div>
-      <div class="st-foot">
-        <span class="st-tag">Etapa 3</span>
-        <span class="st-slide st-slide--soon">Proximamente</span>
-      </div>
-    </div>
-  </div>
-
-  <div class="st-session">
-    <div class="st-num">05</div>
-    <div class="st-body">
-      <div class="st-title">Metodos de valoracion monetaria</div>
-      <div class="st-desc">WTP, WELLBY, costos unitarios (ADRES, SENA), Value Game y proxies participativos. Como seleccionar y justificar el metodo.</div>
-      <div class="st-foot">
-        <span class="st-tag">Valoracion</span>
-        <span class="st-slide st-slide--soon">Proximamente</span>
-      </div>
-    </div>
-  </div>
-
-  <div class="st-session">
-    <div class="st-num">06</div>
-    <div class="st-body">
-      <div class="st-title">Factores de ajuste y calculo del SROI</div>
-      <div class="st-desc">Deadweight, atribucion, displacement y drop-off. VPN de beneficios sociales, el ratio SROI y la interpretacion de escenarios.</div>
-      <div class="st-foot">
-        <span class="st-tag">Etapas 4-5</span>
-        <span class="st-slide st-slide--soon">Proximamente</span>
-      </div>
-    </div>
-  </div>
-
-  <div class="st-session">
-    <div class="st-num">07</div>
-    <div class="st-body">
-      <div class="st-title">Sensibilidad, riesgo y casos sectoriales</div>
-      <div class="st-desc">Analisis de sensibilidad y Monte Carlo. Como comunicar la incertidumbre. Casos en vivienda, salud, empleabilidad e inclusion.</div>
-      <div class="st-foot">
-        <span class="st-tag">Avanzado</span>
-        <span class="st-slide st-slide--soon">Proximamente</span>
-      </div>
-    </div>
-  </div>
-
-  <div class="st-session">
-    <div class="st-num">08</div>
-    <div class="st-body">
-      <div class="st-title">Informe, aseguramiento y toma de decisiones</div>
-      <div class="st-desc">El informe SVI: estructura y audiencias. El proceso de aseguramiento externo. Como usar el SROI en decisiones de inversion social.</div>
-      <div class="st-foot">
-        <span class="st-tag">Etapa 6</span>
-        <span class="st-slide st-slide--soon">Proximamente</span>
-      </div>
+      <span>Mediana global: 4.35&times;</span>
+      <span>17 países &middot; 15 sectores</span>
     </div>
   </div>
 
@@ -652,13 +435,12 @@ toc: false
 <div class="content-inner">
 <div class="vi-cta-inner">
   <div class="vi-cta-text">
-    <h2>Hablemos de su medicion de impacto</h2>
-    <p>El primer paso es un diagnostico sin costo: revisamos su programa, sus datos disponibles
-    y le recomendamos el metodo mas apropiado para responder la pregunta que necesita responder.</p>
+    <h2>¿Por dónde empezamos?</h2>
+    <p>El primer paso es un diagnóstico de 30 minutos — sin costo, sin compromiso. Identificamos en cuál de las 5 dimensiones del Semáforo de Madurez está su programa, y cuál de los tres productos tiene más sentido para su organización hoy.</p>
   </div>
   <div class="vi-cta-actions">
-    <a href="aplicaciones.html" class="cta-btn cta-btn--primary">Ver casos reales &rarr;</a>
-    <a href="metodologia.html" class="cta-btn cta-btn--outline">Explorar la metodologia</a>
+    <a href="mailto:jcmunozm@eafit.edu.co?subject=Diagnóstico de madurez de impacto" class="cta-btn cta-btn--primary">Solicitar diagnóstico</a>
+    <a href="aplicaciones.html" class="cta-btn cta-btn--outline">Ver casos reales</a>
   </div>
 </div>
 </div>
@@ -668,33 +450,139 @@ toc: false
 ```{=html}
 <style>
 /* ============================================================
-   HERO
-   ============================================================ */
-.vi-header {
-  background: linear-gradient(135deg, #0F172A 0%, #1E3A5F 35%, #4C1D95 70%, #7C3AED 100%);
-}
-
-/* ============================================================
-   TRES PILARES DIFERENCIADORES
+   PILLARS — LO QUE NOS DIFERENCIA
    ============================================================ */
 .vi-pillars {
   display: grid;
   grid-template-columns: repeat(3, 1fr);
-  gap: 1.25rem;
-  margin-bottom: 2rem;
+  gap: 1.5rem;
+  padding: 2rem;
+  background: #F8FAFC;
+  border-bottom: 1px solid #E2E8F0;
 }
-.vi-pillar {
-  background: white;
+.vi-pillar { padding: 0.5rem 0; }
+.vi-pillar-icon { margin-bottom: 0.75rem; }
+.vi-pillar-name { font-size: 0.95rem; font-weight: 800; color: #0F172A; margin-bottom: 0.4rem; }
+.vi-pillar-desc { font-size: 0.82rem; color: #64748B; line-height: 1.6; }
+
+/* ============================================================
+   SEMÁFORO DE MADUREZ — 5 DIMENSIONES
+   ============================================================ */
+.madur-dims {
+  display: flex;
+  align-items: stretch;
+  gap: 0;
+  margin: 1.75rem 0 1.25rem;
+  flex-wrap: wrap;
+}
+.madur-dim {
+  flex: 1;
+  min-width: 130px;
+  background: #F8FAFC;
   border: 1px solid #E2E8F0;
-  border-radius: 1rem;
-  padding: 1.75rem 1.5rem;
-  text-align: center;
-  transition: box-shadow 0.2s, transform 0.2s;
+  border-right: none;
+  padding: 1.1rem 1rem;
 }
-.vi-pillar:hover { box-shadow: 0 6px 24px rgba(0,0,0,0.09); transform: translateY(-2px); }
-.vi-pillar-icon { margin-bottom: 1rem; display: flex; justify-content: center; }
-.vi-pillar-name { font-size: 1rem; font-weight: 800; color: #0F172A; margin-bottom: 0.75rem; line-height: 1.3; }
-.vi-pillar-desc { font-size: 0.855rem; color: #475569; line-height: 1.7; }
+.madur-dim:first-of-type { border-radius: 0.75rem 0 0 0.75rem; }
+.madur-dim--last {
+  border-right: 1px solid #E2E8F0;
+  border-radius: 0 0.75rem 0.75rem 0;
+  background: linear-gradient(135deg, #F0FDFA, #ECFDF5);
+  border-color: rgba(13,148,136,0.25);
+}
+.madur-dim-num {
+  width: 1.6rem; height: 1.6rem;
+  background: #0F172A; color: #5EEAD4;
+  border-radius: 50%;
+  display: flex; align-items: center; justify-content: center;
+  font-size: 0.65rem; font-weight: 800;
+  margin-bottom: 0.5rem;
+}
+.madur-dim--last .madur-dim-num { background: #0D9488; color: white; }
+.madur-dim-name { font-size: 0.78rem; font-weight: 800; color: #0F172A; margin-bottom: 0.3rem; line-height: 1.2; }
+.madur-dim-desc { font-size: 0.72rem; color: #64748B; line-height: 1.45; }
+.madur-arrow {
+  display: flex; align-items: center; padding: 0 0.3rem;
+  color: #CBD5E1; font-size: 1rem; font-weight: 300;
+}
+.madur-legend {
+  display: flex; gap: 1.5rem; flex-wrap: wrap;
+  font-size: 0.8rem; color: #475569;
+}
+.madur-leg-item { display: flex; align-items: center; gap: 0.5rem; }
+.madur-dot {
+  width: 0.7rem; height: 0.7rem; border-radius: 50%; flex-shrink: 0;
+}
+
+/* ============================================================
+   NIVEL BADGES — POR PRODUCTO
+   ============================================================ */
+.nivel-badge {
+  display: inline-flex;
+  align-items: center;
+  font-size: 0.65rem;
+  font-weight: 700;
+  letter-spacing: 0.07em;
+  text-transform: uppercase;
+  padding: 0.25rem 0.7rem;
+  border-radius: 999px;
+  white-space: nowrap;
+  flex-shrink: 0;
+}
+.nivel-badge--train  { background: rgba(124,58,237,0.1); color: #7C3AED; border: 1px solid rgba(124,58,237,0.25); }
+.nivel-badge--measure { background: rgba(13,148,136,0.1); color: #0D9488; border: 1px solid rgba(13,148,136,0.25); }
+.nivel-badge--audit  { background: rgba(14,165,233,0.1); color: #0EA5E9; border: 1px solid rgba(14,165,233,0.25); }
+
+/* ============================================================
+   SESIONES GRID — programa completo 8 sesiones
+   ============================================================ */
+.sesiones-grid {
+  display: grid;
+  grid-template-columns: repeat(4, 1fr);
+  gap: 0.4rem;
+  margin: 0.5rem 0 0.4rem;
+}
+.ses-card {
+  display: flex;
+  flex-direction: column;
+  gap: 0.2rem;
+  padding: 0.55rem 0.6rem;
+  background: #F8FAFC;
+  border: 1px solid #E2E8F0;
+  border-radius: 0.5rem;
+  text-decoration: none !important;
+  transition: all 0.18s;
+  position: relative;
+}
+.ses-card:hover {
+  background: #F0FDFA;
+  border-color: rgba(13,148,136,0.4);
+  box-shadow: 0 2px 8px rgba(13,148,136,0.1);
+}
+.ses-card--active { border-left: 3px solid #0D9488; }
+.ses-num {
+  font-size: 0.65rem;
+  font-weight: 800;
+  color: #0D9488;
+}
+.ses-name {
+  font-size: 0.71rem;
+  font-weight: 600;
+  color: #334155;
+  line-height: 1.3;
+}
+.ses-badge {
+  font-size: 0.58rem;
+  font-weight: 700;
+  text-transform: uppercase;
+  letter-spacing: 0.07em;
+  color: #0D9488;
+  background: rgba(13,148,136,0.1);
+  border-radius: 999px;
+  padding: 0.1rem 0.4rem;
+  align-self: flex-start;
+  margin-top: 0.1rem;
+}
 
 /* ============================================================
    TRES SERVICIOS — CARDS GRANDES
@@ -761,6 +649,47 @@ toc: false
 .service-card--audit   { border-left: 4px solid #0EA5E9; }
 
 /* ============================================================
+   RUTA FLOW — CÓMO FUNCIONA EL ACOMPAÑAMIENTO
+   ============================================================ */
+.ruta-flow {
+  display: flex;
+  align-items: stretch;
+  gap: 0;
+  margin: 1.75rem 0 0;
+  flex-wrap: wrap;
+}
+.ruta-step {
+  flex: 1;
+  min-width: 200px;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  text-align: center;
+  gap: 0.75rem;
+  padding: 1.5rem 1rem;
+  background: white;
+  border: 1px solid #E2E8F0;
+  border-radius: 0.875rem;
+}
+.ruta-icon {
+  width: 3.2rem; height: 3.2rem;
+  border-radius: 50%;
+  border: 1.5px solid;
+  display: flex; align-items: center; justify-content: center;
+  font-size: 1.2rem;
+  font-weight: 700;
+}
+.ruta-prod { font-size: 0.75rem; font-weight: 800; text-transform: uppercase; letter-spacing: 0.1em; margin-bottom: 0.2rem; }
+.ruta-label { font-size: 0.9rem; font-weight: 700; color: #0F172A; margin-bottom: 0.3rem; }
+.ruta-cuando { font-size: 0.78rem; color: #64748B; line-height: 1.5; }
+.ruta-connector {
+  display: flex; align-items: center; padding: 0 0.75rem;
+  flex-shrink: 0; gap: 0.2rem;
+}
+.ruta-line { flex: 1; height: 1px; background: #E2E8F0; min-width: 1rem; }
+.ruta-arrow { color: #CBD5E1; font-size: 1.1rem; }
+
+/* ============================================================
    PLATAFORMA — 3 PILARES
    ============================================================ */
 .platform-pillars {
@@ -775,10 +704,7 @@ toc: false
   border-radius: 0.85rem;
   padding: 1.5rem;
 }
-.pp-icon {
-  font-size: 0.5rem;
-  margin-bottom: 0.85rem;
-}
+.pp-icon { font-size: 0.5rem; margin-bottom: 0.85rem; }
 .pp-icon--teal { color: #0D9488; }
 .pp-icon--purple { color: #7C3AED; }
 .pp-icon--blue { color: #0EA5E9; }
@@ -786,236 +712,6 @@ toc: false
 .pp-desc { font-size: 0.845rem; color: #475569; line-height: 1.65; margin-bottom: 1rem; }
 .pp-stats { display: flex; flex-direction: column; gap: 0.25rem; border-top: 1px solid #F1F5F9; padding-top: 0.75rem; }
 .pp-stats span { font-size: 0.75rem; color: #64748B; font-weight: 500; }
-
-/* ============================================================
-   METHODS COMPACT TABLE
-   ============================================================ */
-.methods-compact {
-  display: flex;
-  flex-direction: column;
-  gap: 0;
-  border: 1px solid #E2E8F0;
-  border-radius: 0.85rem;
-  overflow: hidden;
-  margin: 1.75rem 0 1.25rem;
-}
-.mc-row {
-  display: grid;
-  grid-template-columns: 2fr 2fr 2fr auto;
-  gap: 0;
-  padding: 1rem 1.25rem;
-  border-bottom: 1px solid #F1F5F9;
-  align-items: start;
-  background: white;
-  transition: background 0.15s;
-}
-.mc-row:last-child { border-bottom: none; }
-.mc-row:hover { background: #F8FAFC; }
-.mc-row--flagship {
-  background: linear-gradient(135deg, #FAFFFE, #F0FDFA);
-  border-left: 3px solid #0D9488;
-}
-.mc-name { font-size: 0.875rem; font-weight: 700; color: #0F172A; line-height: 1.35; padding-right: 1rem; }
-.mc-when { font-size: 0.8rem; color: #475569; line-height: 1.55; padding-right: 1rem; }
-.mc-result { font-size: 0.8rem; color: #334155; line-height: 1.55; padding-right: 1rem; }
-.mc-badge {
-  font-size: 0.65rem; font-weight: 700; color: #0D9488;
-  text-transform: uppercase; letter-spacing: 0.08em;
-  white-space: nowrap;
-}
-.method-selector-note {
-  display: flex; gap: 1rem; align-items: flex-start;
-  background: #EFF6FF; border: 1px solid #BFDBFE;
-  border-radius: 0.75rem; padding: 1.1rem 1.5rem;
-}
-.msn-icon { font-size: 1.1rem; color: #3B82F6; flex-shrink: 0; margin-top: 0.1rem; }
-.msn-text { font-size: 0.875rem; color: #1E3A5F; line-height: 1.65; }
-.msn-text strong { display: block; font-weight: 700; color: #1D4ED8; margin-bottom: 0.25rem; }
-
-/* ============================================================
-   SEMÁFORO DE MADUREZ DE LA EVIDENCIA — 5 NIVELES
-   ============================================================ */
-.ev-ladder {
-  display: flex;
-  flex-direction: column;
-  gap: 0;
-  border-radius: 1rem;
-  overflow: hidden;
-  margin: 1.75rem 0 1.25rem;
-  border: 1px solid #E2E8F0;
-}
-.ev-step {
-  padding: 1.25rem 1.5rem;
-  border-bottom: 1px solid rgba(0,0,0,0.06);
-  transition: background 0.15s;
-}
-.ev-step:last-child { border-bottom: none; }
-.ev-step-head {
-  display: flex;
-  align-items: center;
-  gap: 1rem;
-  margin-bottom: 1rem;
-}
-.ev-level-badge {
-  width: 2.4rem; height: 2.4rem;
-  border-radius: 50%;
-  display: flex; align-items: center; justify-content: center;
-  font-size: 0.72rem; font-weight: 800; letter-spacing: 0.05em;
-  flex-shrink: 0;
-  color: white;
-}
-.ev-step-info { flex: 1; }
-.ev-step-name {
-  font-size: 0.96rem; font-weight: 800; color: #0F172A;
-  margin-bottom: 0.2rem; line-height: 1.3;
-}
-.ev-step-claim {
-  font-size: 0.78rem; color: #64748B; line-height: 1.4;
-}
-.ev-step-claim em { font-style: italic; }
-.ev-step-icon {
-  font-size: 1.2rem;
-  flex-shrink: 0;
-  opacity: 0.5;
-}
-.ev-step-body {
-  display: grid;
-  grid-template-columns: 1.2fr 1.3fr 1.5fr;
-  gap: 1.25rem;
-  padding-top: 0.25rem;
-  padding-left: 3.4rem;
-}
-.ev-col-title {
-  font-size: 0.67rem; font-weight: 700;
-  text-transform: uppercase; letter-spacing: 0.09em;
-  color: #94A3B8; margin-bottom: 0.4rem;
-}
-.ev-col p {
-  font-size: 0.82rem; color: #475569;
-  line-height: 1.6; margin: 0;
-}
-.ev-tags {
-  display: flex; flex-wrap: wrap; gap: 0.35rem;
-}
-.ev-tags span {
-  font-size: 0.72rem; font-weight: 600;
-  padding: 0.18rem 0.55rem; border-radius: 999px;
-  border: 1px solid; line-height: 1.4;
-}
-
-/* Colores por nivel */
-.ev-n1 { background: #F8F9FA; }
-.ev-n1 .ev-level-badge { background: #64748B; }
-.ev-n1 .ev-step-name { color: #475569; }
-.ev-n1 .ev-tags span { background: rgba(100,116,139,0.08); border-color: rgba(100,116,139,0.25); color: #64748B; }
-.ev-n1 .ev-step-icon { color: #94A3B8; }
-
-.ev-n2 { background: #FFF7F2; }
-.ev-n2 .ev-level-badge { background: #EA580C; }
-.ev-n2 .ev-step-name { color: #7C2D12; }
-.ev-n2 .ev-tags span { background: rgba(234,88,12,0.08); border-color: rgba(234,88,12,0.25); color: #C2410C; }
-.ev-n2 .ev-step-icon { color: #FB923C; }
-
-.ev-n3 { background: #FFFBEB; }
-.ev-n3 .ev-level-badge { background: #D97706; }
-.ev-n3 .ev-step-name { color: #78350F; }
-.ev-n3 .ev-tags span { background: rgba(217,119,6,0.09); border-color: rgba(217,119,6,0.28); color: #B45309; }
-.ev-n3 .ev-step-icon { color: #FCD34D; }
-
-.ev-n4 { background: #F0FDFA; border-left: 3px solid #0D9488; }
-.ev-n4 .ev-level-badge { background: #0D9488; }
-.ev-n4 .ev-step-name { color: #134E4A; }
-.ev-n4 .ev-tags span { background: rgba(13,148,136,0.09); border-color: rgba(13,148,136,0.28); color: #0F766E; }
-.ev-n4 .ev-step-icon { color: #2DD4BF; }
-
-.ev-n5 { background: linear-gradient(135deg, #F0FDF4, #ECFDF5); border-left: 3px solid #10B981; }
-.ev-n5 .ev-level-badge { background: linear-gradient(135deg, #059669, #10B981); box-shadow: 0 2px 8px rgba(16,185,129,0.35); }
-.ev-n5 .ev-step-name { color: #064E3B; }
-.ev-n5 .ev-step-claim { color: #065F46; font-weight: 600; }
-.ev-n5 .ev-tags span { background: rgba(16,185,129,0.1); border-color: rgba(16,185,129,0.3); color: #059669; }
-.ev-n5 .ev-step-icon { color: #34D399; opacity: 0.8; }
-
-/* Journey banner — visual de los 5 niveles */
-.ev-journey-banner {
-  display: flex; align-items: center; justify-content: space-between;
-  gap: 1.5rem; flex-wrap: wrap;
-  background: #0F172A;
-  border-radius: 0.875rem;
-  padding: 1.25rem 1.75rem;
-  margin: 1.5rem 0 1.75rem;
-}
-.ev-jb-left { flex: 1; min-width: 200px; }
-.ev-jb-title {
-  font-size: 0.975rem; font-weight: 800; color: white;
-  margin-bottom: 0.3rem; line-height: 1.3;
-}
-.ev-jb-sub { font-size: 0.8rem; color: #94A3B8; line-height: 1.5; }
-.ev-jb-levels {
-  display: flex; align-items: center; gap: 0.5rem; flex-shrink: 0;
-}
-.ev-jb-dot {
-  width: 2.2rem; height: 2.2rem; border-radius: 50%;
-  display: flex; align-items: center; justify-content: center;
-  font-size: 0.68rem; font-weight: 800; color: white;
-  letter-spacing: 0.03em;
-}
-.ev-jb-arrow { font-size: 0.75rem; color: #475569; }
-.ev-jb-d1 { background: #64748B; }
-.ev-jb-d2 { background: #EA580C; }
-.ev-jb-d3 { background: #D97706; }
-.ev-jb-d4 { background: #0D9488; }
-.ev-jb-d5 { background: linear-gradient(135deg, #059669, #10B981); box-shadow: 0 2px 8px rgba(16,185,129,0.4); }
-
-.ev-note {
-  display: flex; gap: 1rem; align-items: flex-start;
-  background: #EFF6FF; border: 1px solid #BFDBFE;
-  border-radius: 0.75rem; padding: 1.1rem 1.5rem;
-}
-.ev-note-icon { font-size: 1rem; color: #3B82F6; flex-shrink: 0; margin-top: 0.2rem; }
-.ev-note-text { font-size: 0.875rem; color: #1E3A5F; line-height: 1.65; }
-.ev-note-text strong { display: block; font-weight: 700; color: #1D4ED8; margin-bottom: 0.3rem; }
-
-@media (max-width: 900px) {
-  .ev-step-body { grid-template-columns: 1fr; padding-left: 0; gap: 0.75rem; }
-  .ev-step-head { flex-wrap: wrap; }
-  .ev-step-icon { display: none; }
-}
-
-/* ============================================================
-   SESSIONS TRACK
-   ============================================================ */
-.sessions-track {
-  display: grid;
-  grid-template-columns: repeat(auto-fill, minmax(280px, 1fr));
-  gap: 0.9rem;
-  margin: 1.5rem 0;
-}
-.st-session {
-  background: white;
-  border: 1px solid #E2E8F0;
-  border-radius: 0.75rem;
-  padding: 1.1rem 1.25rem;
-  display: flex;
-  gap: 1rem;
-  align-items: flex-start;
-  transition: box-shadow 0.15s;
-}
-.st-session:hover { box-shadow: 0 3px 12px rgba(0,0,0,0.07); }
-.st-num {
-  font-size: 1.65rem; font-weight: 900;
-  color: #E2E8F0; line-height: 1; flex-shrink: 0;
-  font-variant-numeric: tabular-nums;
-}
-.st-body { flex: 1; }
-.st-title { font-size: 0.875rem; font-weight: 700; color: #0F172A; margin-bottom: 0.35rem; line-height: 1.3; }
-.st-desc { font-size: 0.8rem; color: #64748B; line-height: 1.55; margin-bottom: 0.6rem; }
-.st-foot { display: flex; align-items: center; gap: 0.5rem; flex-wrap: wrap; }
-.st-tag {
-  font-size: 0.65rem; font-weight: 700; text-transform: uppercase;
-  letter-spacing: 0.07em; background: #F0FDFA; color: #0D9488;
-  border: 1px solid #CCFBF1; padding: 0.12rem 0.5rem; border-radius: 999px;
-}
-.st-slide--soon { font-size: 0.7rem; color: #94A3B8; }
 
 /* ============================================================
    CTA SECTION
@@ -1045,12 +741,18 @@ toc: false
   .vi-pillars { grid-template-columns: 1fr; }
   .platform-pillars { grid-template-columns: 1fr; }
   .service-card { flex-direction: column; gap: 1rem; padding: 1.5rem; }
-  .mc-row { grid-template-columns: 1fr; gap: 0.25rem; }
-  .mc-badge { display: none; }
+  .sesiones-grid { grid-template-columns: repeat(2, 1fr); }
+  .madur-dims { flex-direction: column; }
+  .madur-dim { border-right: 1px solid #E2E8F0; border-bottom: none; border-radius: 0; }
+  .madur-dim:first-of-type { border-radius: 0.75rem 0.75rem 0 0; }
+  .madur-dim--last { border-radius: 0 0 0.75rem 0.75rem; border-bottom: 1px solid rgba(13,148,136,0.25); }
+  .madur-arrow { display: none; }
+  .ruta-flow { flex-direction: column; }
+  .ruta-connector { display: none; }
 }
 @media (max-width: 600px) {
-  .sessions-track { grid-template-columns: 1fr; }
   .vi-cta-inner { flex-direction: column; }
+  .modulos-compact { grid-template-columns: 1fr 1fr; }
 }
 </style>
 ```

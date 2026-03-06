@@ -1,0 +1,358 @@
+---
+title: "Curso Básico de SROI — Sesión 2"
+format:
+  revealjs:
+    theme: [dark, sroi_slides.scss]
+    slide-number: "c/t"
+    show-slide-number: all
+    transition: slide
+    transition-speed: fast
+    chalkboard: false
+    scrollable: false
+    fig-align: center
+    echo: false
+    warning: false
+    self-contained: true
+    width: 1280
+    height: 720
+    margin: 0.08
+    footer: "Juan Carlos Muñoz-Mora, PhD · CVP EAFIT · Curso Básico SROI"
+lang: es
+---
+
+## {background-color="#0F172A"}
+
+::: portada-wrap
+::: portada-eyebrow
+Centro Valor Público · EAFIT
+:::
+
+::: portada-titulo
+Alcance y Stakeholders
+:::
+
+::: portada-sub
+Etapa 1 del SROI — Definir quién, qué y hasta dónde
+:::
+
+::: {style="margin-bottom: 0.6em;"}
+[Sesión 2]{.pill .pill-teal}
+[Etapa 1 SVI]{.pill .pill-slate}
+[Principio 1]{.pill .pill-amber}
+:::
+
+::: portada-instructor
+**Juan Carlos Muñoz-Mora, PhD** · Economista · Universidad EAFIT<br>
+Ph.D. en Economía · Universidad Libre de Bruselas (ULB)<br>
+Investigador Asociado · Institute of Development Studies (IDS)
+:::
+:::
+
+---
+
+## {background-color="#0F172A"}
+
+::: seccion-label
+Malla curricular
+:::
+
+## Estructura del curso: 8 sesiones
+
+::: mod-grid
+::: mod-card
+[01]{.mod-num}
+Evaluación de programas
+:::
+::: {.mod-card .activo}
+[02]{.mod-num}
+**Alcance y stakeholders**
+:::
+::: mod-card
+[03]{.mod-num}
+Teoría del Cambio
+:::
+::: mod-card
+[04]{.mod-num}
+Evidencia de outcomes
+:::
+::: mod-card
+[05]{.mod-num}
+Factores de ajuste
+:::
+::: mod-card
+[06]{.mod-num}
+Valoración monetaria
+:::
+::: mod-card
+[07]{.mod-num}
+Cálculo del SROI
+:::
+::: mod-card
+[08]{.mod-num}
+Informe y aseguramiento
+:::
+:::
+
+::: {.box-teal style="margin-top: 1.2em; font-size: 0.8em;"}
+**Hoy:** 02 — Alcance y stakeholders · Etapa 1 de las 6 etapas SVI
+_El alcance determina qué puede afirmar el análisis — y qué no puede_
+:::
+
+---
+
+## {background-color="#0F172A"}
+
+::: seccion-label
+Etapa 1 · Alcance
+:::
+
+::: {style="font-size: 2em; font-weight: 900; color: white; margin-top: 0.5em;"}
+La decisión más importante del análisis
+:::
+
+::: {style="font-size: 0.9em; color: #94A3B8; margin-top: 0.3em;"}
+Lo que no se define al principio, no se mide al final
+:::
+
+---
+
+## Definir el alcance: las 4 preguntas
+
+::: col-2
+::: {}
+Antes de identificar stakeholders, el análisis necesita responder cuatro preguntas que delimitan el universo del estudio:
+
+**¿Qué programa o intervención?**
+Solo lo que la organización puede atribuir a su acción
+
+**¿Qué período?**
+Fechas de inicio y cierre del ciclo evaluativo
+
+**¿Qué geografía?**
+El territorio donde ocurrió la intervención
+
+**¿Evaluativo o prospectivo?**
+¿Medimos lo que ya pasó o lo que esperamos que pase?
+:::
+::: box-teal
+**Evaluativo vs. Prospectivo**
+
+*Evaluativo:* el programa ya se ejecutó. Los outcomes son observables. El riesgo de sobreestimación es menor.
+
+*Prospectivo:* el programa es nuevo o se está planeando. Se usan supuestos sobre outcomes futuros. Requiere más conservadurismo.
+
+**El 80% de los informes SVI verificados son evaluativos.**
+:::
+:::
+
+---
+
+## El mapa de stakeholders: ¿quién entra?
+
+::: col-2
+::: {}
+**Stakeholder:** cualquier persona, grupo u organización que experimenta un cambio — positivo o negativo — como resultado del programa.
+
+Categorías principales:
+
+- **Beneficiarios directos** — quienes reciben la intervención
+- **Beneficiarios indirectos** — familias, comunidades, empleadores
+- **Financiadores** — quienes ponen los recursos
+- **Sociedad / Estado** — costos evitados, externalidades
+- **No-beneficiarios** — personas afectadas que no participaron
+
+:::
+::: {}
+::: box-dark
+**¿Quién NO entra como stakeholder?**
+
+No todo el que tiene opinión sobre el programa experimenta un cambio material.
+
+El criterio es: **¿Su vida o sus recursos cambian de forma diferenciada por esta intervención?**
+
+Si la respuesta es no → no es stakeholder del análisis (aunque pueda ser parte de la gobernanza o el reporte).
+:::
+:::
+:::
+
+---
+
+## La cuadrícula de priorización
+
+Cuando hay muchos stakeholders potenciales, se usa una cuadrícula de dos dimensiones para priorizar:
+
+::: col-2
+::: {}
+```
+                IMPACTO RECIBIDO
+                bajo        alto
+INFLUENCIA alta │ Gestionar │ Priorizar  │
+           baja │ Monitorear│ Involucrar │
+```
+
+**Priorizar:** alto impacto, alta influencia → stakeholders núcleo del análisis
+
+**Involucrar:** alto impacto, baja influencia → los más importantes metodológicamente (Principio 1)
+
+**Gestionar:** alta influencia, bajo impacto → comunicar resultados
+
+**Monitorear:** periferia → documentar pero no centralizar
+:::
+::: box-amber
+**Error frecuente**
+
+Las organizaciones tienden a priorizar los stakeholders que tienen más influencia sobre el financiamiento — no los que experimentan los cambios más significativos.
+
+El Principio 1 de SVI invierte esta lógica: los que más importan metodológicamente son los que **más cambian**, no los que más deciden.
+:::
+:::
+
+---
+
+## El Principio 1 de SVI: Involucrar a los stakeholders
+
+::: col-2
+::: {}
+> *"Identify and involve stakeholders. Identify who makes a difference to the work, and involve stakeholders in the process of identifying what outcomes to include in the analysis."*
+> — Social Value International, 2012
+
+**Lo que esto significa en la práctica:**
+
+- Los outcomes deben surgir de los stakeholders, no imponerse desde el analista
+- La definición de lo que "vale" debe ser participativa
+- La voz de los menos poderosos tiene el mismo peso metodológico que la de los financiadores
+:::
+::: {}
+::: box-teal
+**Métodos de involucramiento**
+
+**Consulta inicial:** grupos focales, entrevistas semiestructuradas → identificar qué cambios perciben los stakeholders
+
+**Validación:** presentar el mapa de outcomes y preguntar: ¿falta algo? ¿algo no representa lo que vivieron?
+
+**Co-interpretación:** compartir resultados preliminares antes del informe final
+
+Mínimo: un ciclo de consulta con beneficiarios directos antes de cerrar el mapa de outcomes
+:::
+:::
+:::
+
+---
+
+## Cuántos stakeholders analizar
+
+::: col-2
+::: box-dark
+**El criterio de materialidad**
+
+No todos los stakeholders producen outcomes que valen la pena incluir en el análisis cuantitativo.
+
+Un outcome es **material** si excluirlo cambiaría las conclusiones del análisis.
+
+La guía SVI (2012) sugiere que en la mayoría de los análisis, 3–5 grupos de stakeholders capturan el 80% del valor social generado.
+:::
+::: {}
+**Lo que pasa cuando se incluyen demasiados:**
+
+- El análisis se vuelve intratable
+- Los outcomes secundarios dilatan el trabajo sin agregar precisión
+- La presentación de resultados pierde claridad
+
+**Lo que pasa cuando se incluyen muy pocos:**
+
+- Se subestima el impacto real
+- Se excluyen grupos vulnerables (sesgo sistemático)
+- El análisis viola el Principio 4 (Solo lo material)
+
+**La regla práctica:** empezar con todos los stakeholders posibles, luego filtrar por materialidad
+:::
+:::
+
+---
+
+## Documentar el alcance: la Etapa 1 del informe
+
+Todo análisis SROI debe documentar, al inicio del informe, los siguientes elementos de alcance:
+
+::: col-2
+::: {}
+**Lo que debe quedar escrito:**
+
+1. Nombre exacto del programa/intervención analizado
+2. Período cubierto (fecha inicio — fecha fin)
+3. Geografía y contexto
+4. Tipo de análisis (evaluativo / prospectivo)
+5. Lista de stakeholders incluidos con justificación
+6. Lista de stakeholders excluidos con razón
+7. Proceso de involucramiento realizado
+:::
+::: box-teal
+**Ejemplo de redacción SVI**
+
+_"El presente análisis cubre el programa X ejecutado entre enero y diciembre de 2024 en el municipio de [Y]. Se identificaron inicialmente 8 grupos de stakeholders. Se incluyeron 4 grupos en el análisis cuantitativo por materialidad: [A], [B], [C], [D]. Se excluyeron [E], [F] porque el análisis previo no identificó cambios diferenciados. El proceso de involucramiento incluyó dos grupos focales con beneficiarios directos y una entrevista con el equipo ejecutor."_
+:::
+:::
+
+---
+
+## {background-color="#0F172A"}
+
+::: seccion-label
+Actividad práctica
+:::
+
+## Actividad: mapeando los stakeholders de su programa
+
+::: col-2
+::: {}
+**Instrucciones (20 minutos en grupo):**
+
+1. Elijan un programa social real de su organización (o uno ficticio acordado en grupo)
+
+2. Construyan una lista inicial de todos los posibles stakeholders (sin filtro)
+
+3. Para cada stakeholder, identifiquen:
+   - ¿Qué cambiaría en su vida si el programa existe vs. si no existe?
+   - ¿Ese cambio es positivo, negativo o neutral?
+   - ¿Es un cambio material (grande) o marginal?
+
+4. Usen la cuadrícula de priorización para seleccionar los 3–4 stakeholders núcleo
+:::
+::: box-amber
+**Entregable del ejercicio**
+
+Una tabla con:
+
+| Stakeholder | Cambio esperado | Positivo/Negativo | ¿Material? | ¿Incluir? |
+|-------------|----------------|-------------------|------------|-----------|
+| [Grupo A] | … | … | Sí/No | Sí/No |
+| [Grupo B] | … | … | Sí/No | Sí/No |
+
+Y un párrafo de 3–5 líneas justificando las exclusiones.
+:::
+:::
+
+---
+
+## Síntesis: lo que definimos hoy
+
+::: col-2
+::: {}
+**El alcance es el primer contrato del análisis** — define qué podemos afirmar y qué no podemos afirmar al final.
+
+**Los stakeholders núcleo son los que más cambian** — no los que más influyen sobre el financiamiento.
+
+**La materialidad es el filtro** — incluir todo dilata el análisis sin mejorar la precisión.
+
+**El involucramiento es metodológicamente necesario** — no solo es ética: es la única forma de identificar outcomes que el analista externo no puede observar.
+:::
+::: box-teal
+**Próxima sesión: Teoría del Cambio**
+
+Con los stakeholders identificados, la siguiente pregunta es: ¿qué cambia exactamente en la vida de esas personas como resultado de nuestro programa?
+
+Eso es lo que construye la Teoría del Cambio — el mapa de la cadena causal desde los recursos hasta el impacto.
+
+**Tarea:** traer a la Sesión 3 la lista de stakeholders núcleo y una primera hipótesis de lo que cambia para cada uno.
+:::
+:::

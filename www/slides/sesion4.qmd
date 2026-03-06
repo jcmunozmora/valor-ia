@@ -1,0 +1,425 @@
+---
+title: "Curso Básico de SROI — Sesión 4"
+format:
+  revealjs:
+    theme: [dark, sroi_slides.scss]
+    slide-number: "c/t"
+    show-slide-number: all
+    transition: slide
+    transition-speed: fast
+    chalkboard: false
+    scrollable: false
+    fig-align: center
+    echo: false
+    warning: false
+    self-contained: true
+    width: 1280
+    height: 720
+    margin: 0.08
+    footer: "Juan Carlos Muñoz-Mora, PhD · CVP EAFIT · Curso Básico SROI"
+lang: es
+---
+
+## {background-color="#0F172A"}
+
+::: portada-wrap
+::: portada-eyebrow
+Centro Valor Público · EAFIT
+:::
+
+::: portada-titulo
+Evidencia de Outcomes
+:::
+
+::: portada-sub
+Etapa 3 del SROI — Medir lo que cambia, con rigor
+:::
+
+::: {style="margin-bottom: 0.6em;"}
+[Sesión 4]{.pill .pill-teal}
+[Etapa 3 SVI]{.pill .pill-slate}
+[Principios 2–4]{.pill .pill-amber}
+:::
+
+::: portada-instructor
+**Juan Carlos Muñoz-Mora, PhD** · Economista · Universidad EAFIT<br>
+Ph.D. en Economía · Universidad Libre de Bruselas (ULB)<br>
+Investigador Asociado · Institute of Development Studies (IDS)
+:::
+:::
+
+---
+
+## {background-color="#0F172A"}
+
+::: seccion-label
+Malla curricular
+:::
+
+## Estructura del curso: 8 sesiones
+
+::: mod-grid
+::: mod-card
+[01]{.mod-num}
+Evaluación de programas
+:::
+::: mod-card
+[02]{.mod-num}
+Alcance y stakeholders
+:::
+::: mod-card
+[03]{.mod-num}
+Teoría del Cambio
+:::
+::: {.mod-card .activo}
+[04]{.mod-num}
+**Evidencia de outcomes**
+:::
+::: mod-card
+[05]{.mod-num}
+Factores de ajuste
+:::
+::: mod-card
+[06]{.mod-num}
+Valoración monetaria
+:::
+::: mod-card
+[07]{.mod-num}
+Cálculo del SROI
+:::
+::: mod-card
+[08]{.mod-num}
+Informe y aseguramiento
+:::
+:::
+
+::: {.box-teal style="margin-top: 1.2em; font-size: 0.8em;"}
+**Hoy:** 04 — Evidencia de outcomes · Etapa 3 de las 6 etapas SVI
+_Un SROI es tan sólido como la evidencia que respalda sus outcomes_
+:::
+
+---
+
+## {background-color="#0F172A"}
+
+::: seccion-label
+Módulo 4 · Evidencia
+:::
+
+::: {style="font-size: 2em; font-weight: 900; color: white; margin-top: 0.5em;"}
+Sin evidencia, no hay impacto
+:::
+
+::: {style="font-size: 0.9em; color: #94A3B8; margin-top: 0.3em;"}
+Solo lo que podemos sostener con datos puede entrar al análisis
+:::
+
+---
+
+## La pregunta de la evidencia
+
+::: col-2
+::: {}
+El Impact Map de la Sesión 3 identificó los outcomes que esperamos. La Etapa 3 responde:
+
+**¿Cuántos beneficiarios experimentaron ese outcome?**
+→ El volumen o magnitud del cambio
+
+**¿En qué medida cambió?**
+→ La intensidad del cambio (de X a Y en una escala)
+
+**¿Cuánto dura ese cambio?**
+→ La duración (relevante para el drop-off en Etapa 4)
+
+**¿Cómo lo sabemos?**
+→ La fuente de datos y el método de recolección
+:::
+::: box-teal
+**El principio de materialidad (P4)**
+
+> *"Only include information that is material. Determine what information is material and should therefore be included in the accounts."*
+
+Si un outcome existe pero no puede respaldarse con evidencia mínima, el principio de materialidad sugiere excluirlo o declararla como estimación con alta incertidumbre.
+
+No es honesto incluir outcomes que solo intuimos pero no podemos demostrar.
+:::
+:::
+
+---
+
+## Métodos de recolección de evidencia
+
+::: col-2
+::: {}
+**Evidencia primaria** — recolectada para el análisis
+
+*Encuestas cuantitativas:*
+- Escalas validadas (Likert, Cantril, SWEMWBS)
+- Preguntas pre/post sobre el cambio
+- Recomendación: mínimo 80–100 beneficiarios para resultados robustos
+
+*Entrevistas cualitativas:*
+- Comprensión profunda de mecanismos de cambio
+- Identificar outcomes inesperados
+- Validar la plausibilidad de la cadena causal
+
+*Grupos focales:*
+- Co-construcción del Impact Map con beneficiarios
+- Validación de interpretaciones
+:::
+::: {}
+**Evidencia secundaria** — ya existente
+
+*Datos administrativos del programa:*
+- Registros de asistencia, graduaciones, accesos
+- Datos de seguimiento post-intervención
+- Reportes de empleadores o instituciones
+
+*Datos de contexto:*
+- Estadísticas DANE, SENA, ADRES, MinSalud
+- Tasas de referencia (desempleo juvenil, hospitalizaciones por grupo etario)
+- Útiles para estimar el contrafactual (deadweight)
+
+::: box-dark
+**Triangulación:** La combinación de fuentes primarias y secundarias aumenta la solidez del análisis y reduce la dependencia de un único método.
+:::
+:::
+:::
+
+---
+
+## Indicadores: la traducción del outcome a datos
+
+::: col-2
+::: {}
+Un indicador es la variable que captura el outcome de forma medible. Para cada outcome del Impact Map se necesita al menos un indicador.
+
+**Características de un buen indicador:**
+
+- **Específico:** mide exactamente lo que dice medir
+- **Atribuible:** el programa puede influir sobre él
+- **Medible:** existe una fuente de datos accesible
+- **Sensible al cambio:** varía con la intervención
+
+**Tipos de indicadores:**
+- Dicotómicos (sí/no): ¿consiguió empleo?
+- Continuos: ingreso mensual, puntaje en escala de bienestar
+- De escala: Cantril Ladder 0–10, Likert 1–5
+:::
+::: {}
+| Outcome | Indicador | Escala |
+|---------|-----------|--------|
+| Mayor empleabilidad | % con empleo formal a 6 meses | 0–100% |
+| Mejor bienestar subjetivo | Escala Cantril (satisfacción con la vida) | 0–10 |
+| Reducción de violencia intrafamiliar | Incidentes reportados por familia | Número |
+| Mayor cohesión comunitaria | SWEMWBS | 7–35 pts |
+| Ingresos laborales | Salario mensual bruto | COP |
+
+::: {.box-amber style="font-size: 0.82em; margin-top: 0.8em;"}
+**Regla:** si el indicador no cambia cuando el outcome ocurre, el indicador está mal definido.
+:::
+:::
+:::
+
+---
+
+## El diseño de la medición: baseline y post
+
+::: col-2
+::: {}
+Para saber si el outcome ocurrió, necesitamos dos puntos de medición:
+
+**Baseline (antes):**
+¿Cuál era la situación del beneficiario antes de participar en el programa?
+
+Fuentes del baseline:
+- Encuesta de entrada al programa
+- Datos administrativos pre-intervención
+- Estadísticas de referencia de la población (si no hay baseline directo)
+
+**Post-intervención:**
+¿Cuál es la situación después del programa?
+
+El tiempo óptimo de medición depende del outcome: algunas habilidades se manifiestan a 3 meses; otros cambios (en salud, cohesión) pueden necesitar 12–24 meses.
+:::
+::: box-teal
+**Cuando no hay baseline**
+
+En muchos primeros ciclos evaluativos, el programa no registró datos antes de la intervención. En ese caso:
+
+1. **Reconstrucción retrospectiva:** preguntar al beneficiario cómo estaba antes
+2. **Datos secundarios de referencia:** usar tasas de la población comparable
+3. **Declarar la limitación:** si el baseline es estimado, se reporta como supuesto con mayor incertidumbre
+
+El análisis de sensibilidad (Sesión 7) captura el impacto de esta incertidumbre sobre el ratio SROI.
+:::
+:::
+
+---
+
+## El tamaño de muestra: cuántos beneficiarios encuestar
+
+::: col-2
+::: {}
+El SROI no requiere censar a todos los beneficiarios, pero la muestra debe ser representativa del grupo que experimentó el outcome.
+
+**Referencia para encuestas:**
+
+| Universo | Muestra mínima |
+|---------|----------------|
+| < 200 | 80–100% |
+| 200–500 | 100–150 |
+| 500–2.000 | 150–200 |
+| > 2.000 | 200–250 |
+
+Para análisis exploratorios de primer ciclo, 50–80 encuestas pueden ser suficientes con las advertencias metodológicas apropiadas.
+:::
+::: {}
+**¿Quién responde la encuesta?**
+
+El encuestado debe ser el stakeholder que experimenta el outcome — no el coordinador del programa, no un informante indirecto.
+
+**Excepciones:**
+- Niños menores de 10 años → padres/tutores con preguntas adaptadas
+- Comunidades sin acceso a encuestas digitales → encuestadores presenciales
+
+**Sesgo de selección:**
+Si solo responden quienes ya estaban comprometidos con el programa, la muestra sobreestima el impacto. Diseñar mecanismos para capturar también beneficiarios que abandonaron o tuvieron resultados menores.
+:::
+:::
+
+---
+
+## Escalas validadas de bienestar
+
+Para outcomes intangibles (bienestar subjetivo, cohesión, autoestima), el SROI usa escalas psicométricas validadas internacionalmente:
+
+::: col-2
+::: {}
+**Escala Cantril — Satisfacción con la vida**
+
+*"En una escala de 0 a 10, donde 0 es la peor vida posible y 10 es la mejor vida posible, ¿cómo califica su vida en este momento?"*
+
+Ampliamente usada en análisis WELLBY. Un punto en la escala Cantril equivale a £13,000 al año en valoración UK (2019).
+
+**SWEMWBS** — Warwick-Edinburgh Mental Wellbeing Scale
+7 ítems sobre bienestar mental positivo. Rango 7–35.
+Validada en múltiples contextos de habla hispana.
+:::
+::: {}
+**Rosenberg Self-Esteem Scale**
+10 ítems. Útil para programas de desarrollo de capacidades.
+
+**GHQ-12** — General Health Questionnaire
+Para outcomes de salud mental general. Validado en Colombia.
+
+**UCLA Loneliness Scale**
+Para programas de cohesión y acompañamiento social.
+
+::: box-teal
+**Principio:** usar escalas validadas permite comparar resultados entre programas y contextos, y facilita la monetización en la Sesión 6 mediante wellbeing valuation.
+:::
+:::
+:::
+
+---
+
+## Evidencia para el contrafactual
+
+::: col-2
+::: {}
+La evidencia de outcomes no es solo para los cambios observados — también necesitamos evidencia para estimar qué hubiera pasado sin el programa.
+
+**Diseños que informan el contrafactual:**
+
+*Con grupo de control/comparación:*
+Mayor solidez. Ideal para futuros ciclos.
+
+*Diferencias en diferencias:*
+Comparar el grupo tratado antes/después con un grupo no tratado.
+
+*Matching:*
+Comparar beneficiarios con personas similares que no participaron.
+
+*Estadísticas de referencia:*
+¿Cuál es la tasa de empleo juvenil en el municipio para el mismo grupo etario?
+:::
+::: box-amber
+**La realidad del primer ciclo**
+
+La mayoría de primeros análisis SROI no tienen grupo de control. Eso no invalida el análisis — pero sí requiere:
+
+1. **Declarar explícitamente** la limitación en el informe
+2. **Usar estadísticas de referencia** como proxy del contrafactual
+3. **Ser conservador** en la estimación del deadweight (Sesión 5)
+4. **Planear** un diseño más robusto para el siguiente ciclo
+
+La honestidad sobre las limitaciones del diseño aumenta — no reduce — la credibilidad del análisis.
+:::
+:::
+
+---
+
+## {background-color="#0F172A"}
+
+::: seccion-label
+Actividad práctica
+:::
+
+## Actividad: diseñar la estrategia de evidencia
+
+::: col-2
+::: {}
+**Instrucciones (20 minutos en grupo):**
+
+Para los outcomes del Impact Map construido en la Sesión 3:
+
+1. Para cada outcome, definan el indicador que lo captura
+
+2. Identifiquen si hay evidencia ya disponible o si necesitan recolectarla
+
+3. Si necesitan recolectarla: ¿encuesta, entrevista, datos admin?
+
+4. ¿Cuántos beneficiarios tienen que responder para que sea representativo?
+
+5. ¿Tienen baseline? Si no, ¿cómo lo reconstruirían?
+:::
+::: box-amber
+**Entregable:**
+
+| Outcome | Indicador | Fuente | N mínimo | Baseline disponible |
+|---------|-----------|--------|----------|---------------------|
+| [O1] | ... | ... | ... | Sí/No/Reconstruir |
+| [O2] | ... | ... | ... | Sí/No/Reconstruir |
+
+Más una nota de una limitación relevante de la evidencia disponible y cómo la manejarían en el informe.
+:::
+:::
+
+---
+
+## Síntesis: lo que aprendimos hoy
+
+::: col-2
+::: {}
+**La evidencia es el corazón del análisis SROI.** Sin datos que respalden los outcomes, el análisis no cumple el estándar SVI.
+
+**Output ≠ Outcome.** Registrar asistentes no es evidencia de cambio. Hay que medir qué cambió en la vida de esas personas.
+
+**El baseline importa.** Sin un punto de partida, no podemos saber cuánto cambió el beneficiario — ni si el programa contribuyó a ese cambio.
+
+**Las escalas validadas permiten monetizar.** Outcomes intangibles medidos con escalas internacionales pueden convertirse en valores monetarios en la Sesión 6.
+:::
+::: box-teal
+**Próxima sesión: Factores de Ajuste**
+
+Con la evidencia de outcomes recolectada, el siguiente paso es ajustar esa evidencia para reflejar solo el impacto **neto** del programa:
+
+- ¿Cuánto habría ocurrido sin el programa? → Deadweight
+- ¿Cuánto fue por otras causas? → Attribution
+- ¿A quién le quitamos para darle a estos? → Displacement
+- ¿Durante cuánto tiempo dura el efecto? → Drop-off
+
+La Sesión 5 convierte los outcomes observados en impacto neto atribuible.
+:::
+:::

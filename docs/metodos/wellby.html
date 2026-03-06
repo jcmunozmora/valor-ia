@@ -7,7 +7,7 @@
 <meta name="viewport" content="width=device-width, initial-scale=1.0, user-scalable=yes">
 
 
-<title>Diferencias en Diferencias (DiD) – Valor·IA — CVP EAFIT</title>
+<title>WELLBY — Well-Being Years – Valor·IA — CVP EAFIT</title>
 <style>
 code{white-space: pre-wrap;}
 span.smallcaps{font-variant: small-caps;}
@@ -182,7 +182,7 @@ ul.task-list li input[type="checkbox"] {
 
 <header id="title-block-header" class="quarto-title-block default">
 <div class="quarto-title">
-<h1 class="title">Diferencias en Diferencias (DiD)</h1>
+<h1 class="title">WELLBY — Well-Being Years</h1>
 </div>
 
 
@@ -201,50 +201,51 @@ ul.task-list li input[type="checkbox"] {
 
 <div class="page-header">
 <div class="page-header-content">
-<span class="page-tag">Herramientas · Evaluación cuasi-experimental</span>
-<h1>Diferencias en Diferencias</h1>
-<p class="page-lead">El método cuasi-experimental más usado en evaluación de impacto. Compara cómo evolucionó el grupo intervenido respecto a un grupo de comparación, antes y después de la intervención — controlando factores no observables que afectan a ambos grupos por igual.</p>
+<span class="page-tag">Herramientas · Valoración por bienestar subjetivo</span>
+<h1>WELLBY</h1>
+<p class="page-lead">Well-Being Years — el método desarrollado por HM Treasury UK para convertir cambios en bienestar subjetivo reportado a valores monetarios. Permite valorar outcomes que no tienen precio de mercado ni costo institucional equivalente: la reducción de la ansiedad, el aumento de la autoestima, el sentido de pertenencia comunitaria.</p>
 </div>
 </div>
 
-<!-- QUÉ ES Y CUÁNDO -->
+<!-- QUÉ ES -->
 <div class="content-section alt">
 <div class="content-inner">
 
 <span class="section-label">Fundamentos</span>
-<h2 class="section-heading anchored">¿Qué mide el DiD y cuándo usarlo?</h2>
+<h2 class="section-heading anchored">¿Qué mide un WELLBY y cómo se construye?</h2>
 
-<p>El estimador de diferencias en diferencias (DiD) identifica el efecto causal de una intervención comparando el cambio pre-post del grupo tratado con el cambio pre-post de un grupo de comparación. La intuición es simple: si ambos grupos habrían seguido trayectorias paralelas en ausencia del programa, cualquier divergencia post-intervención se puede atribuir al programa.</p>
+<p>Un WELLBY (Well-Being Year) es la unidad de bienestar subjetivo equivalente a un punto en una escala de satisfacción con la vida de 0 a 10, durante un año. El método está basado en la econometría del bienestar: regresiones que estiman cuánto ingreso adicional necesita una persona para compensar la pérdida de un punto en su bienestar subjetivo — y por tanto, cuánto vale monetariamente un punto de mejora.</p>
 
 <div style="background: #0F172A; border-radius: 0.875rem; padding: 1.5rem; margin: 1.5rem 0; font-family: 'JetBrains Mono', monospace;">
-  <div style="color: #5EEAD4; font-size: 0.72rem; font-weight: 700; letter-spacing: 0.1em; text-transform: uppercase; margin-bottom: 0.75rem;">El estimador DiD</div>
-  <div style="color: white; font-size: 1.05rem; font-weight: 500; line-height: 1.8;">
-    τ<sub style="color:#94A3B8;">DiD</sub> = (Ȳ<sub style="color:#5EEAD4;">T,post</sub> − Ȳ<sub style="color:#5EEAD4;">T,pre</sub>) − (Ȳ<sub style="color:#94A3B8;">C,post</sub> − Ȳ<sub style="color:#94A3B8;">C,pre</sub>)
-  </div>
-  <div style="color: #64748B; font-size: 0.78rem; margin-top: 0.75rem; line-height: 1.6;">
-    T = grupo tratado &nbsp;·&nbsp; C = grupo de comparación &nbsp;·&nbsp; pre/post = antes/después de la intervención
+  <div style="color: #5EEAD4; font-size: 0.72rem; font-weight: 700; letter-spacing: 0.1em; text-transform: uppercase; margin-bottom: 0.75rem;">El valor WELLBY — referencia central</div>
+  <div style="color: white; font-size: 1.5rem; font-weight: 900; margin-bottom: 0.5rem;">£13,000 / punto LS / año</div>
+  <div style="color: #94A3B8; font-size: 0.8rem; line-height: 1.7;">
+    HM Treasury Green Book (2021) &nbsp;·&nbsp; Precios 2019 UK &nbsp;·&nbsp; Basado en Life Satisfaction (Cantril Ladder 0–10)<br>
+    Equivalente Colombia (PPP 2024): <strong style="color: #5EEAD4;">~$18,000,000 COP / punto / año</strong>
   </div>
 </div>
+
+<p>La lógica econométrica: en grandes encuestas de bienestar subjetivo (Understanding Society UK, European Social Survey), la regresión de satisfacción con la vida sobre el ingreso revela que un incremento del 1% en el ingreso produce ~0.002 puntos de mejora en LS. Invirtiendo: 1 punto de LS equivale a un incremento de ingreso de aproximadamente £13,000 anuales. Este es el "precio sombra" del bienestar.</p>
 
 <div style="display: grid; grid-template-columns: 1fr 1fr; gap: 1rem; margin: 1.5rem 0;">
 <div style="background: white; border: 1px solid #E2E8F0; border-radius: 0.75rem; padding: 1.25rem;">
-<div style="font-weight: 700; color: #0D9488; margin-bottom: 0.5rem; font-size: 0.9rem;">Cuándo es apropiado el DiD</div>
+<div style="font-weight: 700; color: #0D9488; margin-bottom: 0.5rem; font-size: 0.9rem;">Cuándo el WELLBY es apropiado</div>
 <ul style="font-size: 0.845rem; color: #475569; line-height: 1.7; margin: 0; padding-left: 1.25rem;">
-<li>Existe un grupo de comparación creíble (no intervenido)</li>
-<li>Hay datos de al menos un período pre-intervención</li>
-<li>La asignación al tratamiento no fue aleatoria</li>
-<li>Los grupos tratado y control tienen trayectorias pre-paralelas</li>
-<li>La intervención tiene un inicio claro y definido</li>
+<li>El outcome es un cambio en bienestar psicológico o emocional</li>
+<li>No existe un precio de mercado equivalente razonable</li>
+<li>Los participantes pueden responder escalas de satisfacción con la vida</li>
+<li>Se tienen datos pre y post intervención en la misma escala</li>
+<li>El contexto permite adaptar el valor UK por PPP</li>
 </ul>
 </div>
 <div style="background: white; border: 1px solid #E2E8F0; border-radius: 0.75rem; padding: 1.25rem;">
-<div style="font-weight: 700; color: #DC2626; margin-bottom: 0.5rem; font-size: 0.9rem;">Cuándo NO usar DiD</div>
+<div style="font-weight: 700; color: #DC2626; margin-bottom: 0.5rem; font-size: 0.9rem;">Cuándo NO es el método más apropiado</div>
 <ul style="font-size: 0.845rem; color: #475569; line-height: 1.7; margin: 0; padding-left: 1.25rem;">
-<li>No existe grupo de comparación (considere PSM primero)</li>
-<li>Solo hay datos post-intervención (use cross-section)</li>
-<li>Los grupos tienen trayectorias pre-intervención muy diferentes</li>
-<li>El tratamiento afecta al grupo de control (spillovers)</li>
-<li>La asignación fue aleatoria (use diferencia en medias simple)</li>
+<li>Outcomes con precio de mercado claro (usar costos unitarios)</li>
+<li>Poblaciones con dificultad para comprender escalas abstractas</li>
+<li>Cuando el cambio en SWB es insignificante o no medido</li>
+<li>Cuando el stakeholder financia en un contexto que desconfía del SWB</li>
+<li>Outcomes de corta duración (&lt;3 meses) sin seguimiento</li>
 </ul>
 </div>
 </div>
@@ -252,160 +253,175 @@ ul.task-list li input[type="checkbox"] {
 </div>
 </div>
 
-<!-- EL SUPUESTO CLAVE -->
+<!-- LOS INSTRUMENTOS DE MEDICIÓN -->
 <div class="content-section">
 <div class="content-inner">
 
-<span class="section-label">La piedra angular del método</span>
-<h2 class="section-heading anchored">El supuesto de tendencias paralelas</h2>
+<span class="section-label">Instrumentos de medición</span>
+<h2 class="section-heading anchored">Cómo recolectar el dato de bienestar subjetivo</h2>
 
-<p>El supuesto más crítico del DiD — y el que más frecuentemente se viola — es el de <strong>tendencias paralelas</strong> (parallel trends): en ausencia de la intervención, los grupos tratado y control habrían evolucionado de manera paralela. Este supuesto no es testeable directamente (el contrafactual no es observable), pero se puede evaluar indirectamente.</p>
+<p>El WELLBY requiere medir el bienestar subjetivo con una escala validada, en al menos dos momentos (pre y post intervención). La elección del instrumento debe justificarse según el tipo de outcome y la población.</p>
 
-<div class="insight-box">
-<div class="insight-label">Cómo verificar el supuesto</div>
-<p><strong>Prueba pre-tendencias (event study):</strong> Si tienes múltiples períodos pre-intervención, estima el efecto en cada uno. Los coeficientes pre-intervención deben ser estadísticamente indistinguibles de cero — si no lo son, las tendencias no eran paralelas y el DiD estándar está sesgado. <strong>Placebo test:</strong> Asigna la intervención a un período falso anterior a la intervención real y verifica que el efecto estimado sea cero.</p>
+<div style="display: flex; flex-direction: column; gap: 0.875rem; margin: 1.5rem 0;">
+
+<div style="background: white; border: 1px solid #E2E8F0; border-left: 4px solid #0D9488; border-radius: 0 0.75rem 0.75rem 0; padding: 1.1rem 1.25rem;">
+<div style="display: grid; grid-template-columns: 200px 1fr 120px; gap: 1rem; align-items: start;">
+<div>
+  <div style="font-weight: 800; color: #0F172A; font-size: 0.875rem;">Cantril Ladder</div>
+  <div style="font-size: 0.72rem; color: #0D9488; font-weight: 600; margin-top: 0.15rem;">Satisfacción con la vida · 0–10</div>
 </div>
-
-<div style="display: grid; grid-template-columns: repeat(3, 1fr); gap: 1rem; margin: 1.5rem 0;">
-
-<div style="background: #F0FDFA; border: 1px solid rgba(13,148,136,0.25); border-radius: 0.75rem; padding: 1.1rem;">
-<div style="font-size: 0.7rem; font-weight: 700; color: #0D9488; text-transform: uppercase; letter-spacing: 0.07em; margin-bottom: 0.4rem;">Supuesto 1</div>
-<div style="font-size: 0.875rem; font-weight: 700; color: #0F172A; margin-bottom: 0.3rem;">Tendencias paralelas</div>
-<div style="font-size: 0.8rem; color: #475569; line-height: 1.55;">Sin la intervención, ambos grupos habrían seguido trayectorias con la misma pendiente.</div>
-</div>
-
-<div style="background: #F0FDFA; border: 1px solid rgba(13,148,136,0.25); border-radius: 0.75rem; padding: 1.1rem;">
-<div style="font-size: 0.7rem; font-weight: 700; color: #0D9488; text-transform: uppercase; letter-spacing: 0.07em; margin-bottom: 0.4rem;">Supuesto 2</div>
-<div style="font-size: 0.875rem; font-weight: 700; color: #0F172A; margin-bottom: 0.3rem;">SUTVA</div>
-<div style="font-size: 0.8rem; color: #475569; line-height: 1.55;">El tratamiento de una unidad no afecta los outcomes de otra (no spillovers, no interferencia).</div>
-</div>
-
-<div style="background: #F0FDFA; border: 1px solid rgba(13,148,136,0.25); border-radius: 0.75rem; padding: 1.1rem;">
-<div style="font-size: 0.7rem; font-weight: 700; color: #0D9488; text-transform: uppercase; letter-spacing: 0.07em; margin-bottom: 0.4rem;">Supuesto 3</div>
-<div style="font-size: 0.875rem; font-weight: 700; color: #0F172A; margin-bottom: 0.3rem;">Overlap temporal</div>
-<div style="font-size: 0.8rem; color: #475569; line-height: 1.55;">Ambos grupos existen y son observados en los mismos períodos pre y post intervención.</div>
-</div>
-
-</div>
-
+<div style="font-size: 0.845rem; color: #475569; line-height: 1.6;">"En general, ¿qué tan satisfecho está con su vida en este momento?" Escala 0 (nada satisfecho) a 10 (completamente satisfecho). Es la pregunta calibrada por HM Treasury — usar esta escala permite aplicar el valor £13,000 directamente. Disponible en español validado.</div>
+<div style="text-align: right;"><span style="background: #F0FDFA; color: #0D9488; font-size: 0.68rem; font-weight: 700; padding: 0.2rem 0.6rem; border-radius: 999px; border: 1px solid rgba(13,148,136,0.3);">Recomendada</span></div>
 </div>
 </div>
 
-<!-- IMPLEMENTACIÓN -->
+<div style="background: white; border: 1px solid #E2E8F0; border-left: 4px solid #7C3AED; border-radius: 0 0.75rem 0.75rem 0; padding: 1.1rem 1.25rem;">
+<div style="display: grid; grid-template-columns: 200px 1fr 120px; gap: 1rem; align-items: start;">
+<div>
+  <div style="font-weight: 800; color: #0F172A; font-size: 0.875rem;">ONS4</div>
+  <div style="font-size: 0.72rem; color: #7C3AED; font-weight: 600; margin-top: 0.15rem;">Bienestar subjetivo · 4 preguntas</div>
+</div>
+<div style="font-size: 0.845rem; color: #475569; line-height: 1.6;">4 preguntas que cubren: satisfacción con la vida, felicidad ayer, ansiedad ayer y si la vida tiene sentido (worthwhile). Desarrollado por Office for National Statistics UK. Permite capturar dimensiones hedónicas y eudaimónicas simultáneamente.</div>
+<div style="text-align: right;"><span style="background: #F5F3FF; color: #7C3AED; font-size: 0.68rem; font-weight: 700; padding: 0.2rem 0.6rem; border-radius: 999px; border: 1px solid rgba(124,58,237,0.3);">Multidimensional</span></div>
+</div>
+</div>
+
+<div style="background: white; border: 1px solid #E2E8F0; border-left: 4px solid #0EA5E9; border-radius: 0 0.75rem 0.75rem 0; padding: 1.1rem 1.25rem;">
+<div style="display: grid; grid-template-columns: 200px 1fr 120px; gap: 1rem; align-items: start;">
+<div>
+  <div style="font-weight: 800; color: #0F172A; font-size: 0.875rem;">SWEMWBS</div>
+  <div style="font-size: 0.72rem; color: #0EA5E9; font-weight: 600; margin-top: 0.15rem;">Salud mental positiva · 7 ítems</div>
+</div>
+<div style="font-size: 0.845rem; color: #475569; line-height: 1.6;">Short Warwick Edinburgh Mental Wellbeing Scale. 7 ítems tipo Likert (1–5) que miden bienestar mental positivo: optimismo, utilidad, claridad de pensamiento, cercanía con otros, toma de decisiones, resolución de problemas, sentirse bien. Útil para intervenciones de salud mental y sociales.</div>
+<div style="text-align: right;"><span style="background: #EFF6FF; color: #0EA5E9; font-size: 0.68rem; font-weight: 700; padding: 0.2rem 0.6rem; border-radius: 999px; border: 1px solid rgba(14,165,233,0.3);">Salud mental</span></div>
+</div>
+</div>
+
+<div style="background: white; border: 1px solid #E2E8F0; border-left: 4px solid #F59E0B; border-radius: 0 0.75rem 0.75rem 0; padding: 1.1rem 1.25rem;">
+<div style="display: grid; grid-template-columns: 200px 1fr 120px; gap: 1rem; align-items: start;">
+<div>
+  <div style="font-weight: 800; color: #0F172A; font-size: 0.875rem;">Rosenberg SES</div>
+  <div style="font-size: 0.72rem; color: #B45309; font-weight: 600; margin-top: 0.15rem;">Autoestima · 10 ítems</div>
+</div>
+<div style="font-size: 0.845rem; color: #475569; line-height: 1.6;">Rosenberg Self-Esteem Scale. 10 ítems que miden autoestima global (0–30). No es una escala de LS directamente, pero cambios en autoestima pueden convertirse a WELLBYs si se calibra la relación Rosenberg→LS usando datos comparativos o estudios publicados.</div>
+<div style="text-align: right;"><span style="background: #FFFBEB; color: #B45309; font-size: 0.68rem; font-weight: 700; padding: 0.2rem 0.6rem; border-radius: 999px; border: 1px solid rgba(245,158,11,0.3);">Con conversión</span></div>
+</div>
+</div>
+
+</div>
+
+</div>
+</div>
+
+<!-- CÁLCULO Y ADAPTACIÓN COLOMBIA -->
 <div class="content-section alt">
 <div class="content-inner">
 
-<span class="section-label">Implementación práctica</span>
-<h2 class="section-heading anchored">Del supuesto al modelo: cómo estimar el DiD</h2>
+<span class="section-label">Del dato al valor monetario</span>
+<h2 class="section-heading anchored">Cálculo del WELLBY e integración al SROI</h2>
 
-<h3 style="font-size: 1rem; font-weight: 800; color: #0F172A; margin: 1.5rem 0 0.75rem;" class="anchored">Especificación básica (two-way fixed effects)</h3>
+<div style="background: white; border: 1px solid #E2E8F0; border-radius: 0.75rem; overflow: hidden; margin: 1.5rem 0;">
 
-<div style="background: #0F172A; border-radius: 0.75rem; padding: 1.25rem 1.5rem; margin-bottom: 1.25rem; font-family: 'JetBrains Mono', monospace;">
-<div style="color: #5EEAD4; font-size: 0.72rem; font-weight: 700; letter-spacing: 0.1em; text-transform: uppercase; margin-bottom: 0.6rem;">Modelo de regresión</div>
-<div style="color: white; font-size: 0.92rem; line-height: 2;">
-  Y<sub style="color:#94A3B8;">it</sub> = α + β<sub>1</sub>·Treat<sub style="color:#5EEAD4;">i</sub> + β<sub>2</sub>·Post<sub style="color:#5EEAD4;">t</sub> + <strong style="color:#FCD34D;">β<sub>3</sub>·(Treat<sub>i</sub> × Post<sub>t</sub>)</strong> + ε<sub style="color:#94A3B8;">it</sub>
-</div>
-<div style="color: #64748B; font-size: 0.75rem; margin-top: 0.75rem; line-height: 1.7;">
-  Treat<sub>i</sub> = 1 si unidad i recibió el tratamiento &nbsp;·&nbsp; Post<sub>t</sub> = 1 si período t es post-intervención<br>
-  <strong style="color: #FCD34D;">β<sub>3</sub> = el estimador DiD = efecto causal promedio del tratamiento (ATT)</strong>
-</div>
+<div style="background: #0F172A; padding: 0.875rem 1.25rem;">
+<div style="font-weight: 700; color: #5EEAD4; font-size: 0.82rem; letter-spacing: 0.07em; text-transform: uppercase;">Secuencia de cálculo</div>
 </div>
 
-<h3 style="font-size: 1rem; font-weight: 800; color: #0F172A; margin: 1.5rem 0 0.75rem;" class="anchored">Variantes y extensiones</h3>
+<div style="padding: 0;">
 
-<div style="display: flex; flex-direction: column; gap: 0.75rem; margin-bottom: 1.5rem;">
-
-<div style="background: white; border: 1px solid #E2E8F0; border-radius: 0.625rem; padding: 1rem 1.25rem;">
-<div style="display: flex; gap: 1rem; align-items: flex-start;">
-<div style="font-weight: 800; color: #0F172A; font-size: 0.875rem; min-width: 200px; flex-shrink: 0;">DiD con efectos fijos</div>
-<div style="font-size: 0.845rem; color: #475569; line-height: 1.6;">Incluye efectos fijos por unidad (α<sub>i</sub>) y por período (λ<sub>t</sub>) para controlar heterogeneidad no observada. El estimador TWFE (Two-Way Fixed Effects) es el estándar en datos de panel.</div>
+<div style="display: grid; grid-template-columns: 40px 1fr; gap: 1rem; padding: 1rem 1.25rem; border-bottom: 1px solid #F1F5F9; align-items: start;">
+<div style="width: 32px; height: 32px; background: #0D9488; color: white; border-radius: 50%; display: flex; align-items: center; justify-content: center; font-weight: 800; font-size: 0.82rem; flex-shrink: 0;">1</div>
+<div>
+<div style="font-weight: 700; color: #0F172A; font-size: 0.875rem; margin-bottom: 0.25rem;">Medir el cambio en LS (Δ)</div>
+<div style="font-size: 0.845rem; color: #475569; line-height: 1.6;">Calcular la diferencia entre la puntuación post y pre en la escala Cantril (0–10). Ejemplo: promedio pre = 6.2, promedio post = 7.1 → <strong>Δ = 0.9 puntos LS</strong>. Usar DiD o comparación tratado-control cuando sea posible.</div>
 </div>
 </div>
 
-<div style="background: white; border: 1px solid #E2E8F0; border-radius: 0.625rem; padding: 1rem 1.25rem;">
-<div style="display: flex; gap: 1rem; align-items: flex-start;">
-<div style="font-weight: 800; color: #0F172A; font-size: 0.875rem; min-width: 200px; flex-shrink: 0;">DiD escalonado (staggered)</div>
-<div style="font-size: 0.845rem; color: #475569; line-height: 1.6;">Cuando las unidades reciben el tratamiento en momentos distintos. Los estimadores TWFE estándar pueden ser sesgados. Usar los estimadores de Callaway &amp; Sant'Anna (2021) o Sun &amp; Abraham (2021) para robustez.</div>
+<div style="display: grid; grid-template-columns: 40px 1fr; gap: 1rem; padding: 1rem 1.25rem; border-bottom: 1px solid #F1F5F9; background: #FAFAFA; align-items: start;">
+<div style="width: 32px; height: 32px; background: #0D9488; color: white; border-radius: 50%; display: flex; align-items: center; justify-content: center; font-weight: 800; font-size: 0.82rem; flex-shrink: 0;">2</div>
+<div>
+<div style="font-weight: 700; color: #0F172A; font-size: 0.875rem; margin-bottom: 0.25rem;">Aplicar el valor por punto</div>
+<div style="font-size: 0.845rem; color: #475569; line-height: 1.6;">Multiplicar Δ × valor WELLBY. En COP: 0.9 × $18,000,000 = <strong>$16,200,000 COP/año por persona</strong>. El valor en COP se obtiene convirtiendo £13,000 × PPP Colombia/UK (factor ~1.38 en 2024).</div>
 </div>
 </div>
 
-<div style="background: white; border: 1px solid #E2E8F0; border-radius: 0.625rem; padding: 1rem 1.25rem;">
-<div style="display: flex; gap: 1rem; align-items: flex-start;">
-<div style="font-weight: 800; color: #0F172A; font-size: 0.875rem; min-width: 200px; flex-shrink: 0;">DiD + PSM (Matching)</div>
-<div style="font-size: 0.845rem; color: #475569; line-height: 1.6;">Combina matching por propensity score (para asegurar overlap en características observables) con DiD (para controlar no observables). Especialmente robusto cuando los grupos difieren significativamente en covariables pre-intervención.</div>
+<div style="display: grid; grid-template-columns: 40px 1fr; gap: 1rem; padding: 1rem 1.25rem; border-bottom: 1px solid #F1F5F9; align-items: start;">
+<div style="width: 32px; height: 32px; background: #0D9488; color: white; border-radius: 50%; display: flex; align-items: center; justify-content: center; font-weight: 800; font-size: 0.82rem; flex-shrink: 0;">3</div>
+<div>
+<div style="font-weight: 700; color: #0F172A; font-size: 0.875rem; margin-bottom: 0.25rem;">Estimar la duración del efecto</div>
+<div style="font-size: 0.845rem; color: #475569; line-height: 1.6;">¿Por cuántos años persiste la mejora en bienestar? La literatura WELLBY sugiere que los efectos de intervenciones de salud mental o vivienda persisten 1–5 años con drop-off. Aplicar el factor de drop-off anual definido en la Etapa 4 del SROI.</div>
 </div>
 </div>
 
-<div style="background: white; border: 1px solid #E2E8F0; border-radius: 0.625rem; padding: 1rem 1.25rem;">
-<div style="display: flex; gap: 1rem; align-items: flex-start;">
-<div style="font-weight: 800; color: #0F172A; font-size: 0.875rem; min-width: 200px; flex-shrink: 0;">Event study</div>
-<div style="font-size: 0.845rem; color: #475569; line-height: 1.6;">Estima el efecto en cada período (pre y post) por separado. Permite visualizar la dinámica del efecto, verificar pre-tendencias y mostrar cuándo el efecto alcanza su máximo o decae.</div>
+<div style="display: grid; grid-template-columns: 40px 1fr; gap: 1rem; padding: 1rem 1.25rem; align-items: start;">
+<div style="width: 32px; height: 32px; background: #0D9488; color: white; border-radius: 50%; display: flex; align-items: center; justify-content: center; font-weight: 800; font-size: 0.82rem; flex-shrink: 0;">4</div>
+<div>
+<div style="font-weight: 700; color: #0F172A; font-size: 0.875rem; margin-bottom: 0.25rem;">Aplicar factores de ajuste SROI</div>
+<div style="font-size: 0.845rem; color: #475569; line-height: 1.6;">El valor WELLBY entra al Value Map como cualquier otro proxy: sujeto a deadweight, atribución, displacement y drop-off. El VPN del flujo de WELLBYs ajustados es la contribución de este outcome al ratio SROI.</div>
 </div>
-</div>
-
-</div>
-
-<div class="warning-box">
-<div class="warning-label">Error frecuente en la práctica</div>
-<p>No reportar los errores estándar correctamente. Con datos de panel, los errores deben ser <em>clusterizados</em> al nivel de la unidad de tratamiento (no individuos, sino grupos, comunidades o municipios). Los errores sin clusterizar subestiman la varianza real y producen p-valores artificialmente pequeños.</p>
 </div>
 
 </div>
 </div>
 
-<!-- CONEXIÓN CON SROI -->
+<h3 style="font-size: 1rem; font-weight: 800; color: #0F172A; margin: 2rem 0 0.75rem;" class="anchored">Adaptación a Colombia: el factor PPP</h3>
+
+<p>El valor base £13,000 está calibrado para el contexto UK. Para usarlo en Colombia, la conversión por Paridad de Poder Adquisitivo (PPP) es el mínimo necesario — pero no suficiente.</p>
+
+<div style="display: grid; grid-template-columns: repeat(3, 1fr); gap: 0.75rem; margin: 1rem 0;">
+<div style="background: white; border: 1px solid #E2E8F0; border-radius: 0.625rem; padding: 1rem; text-align: center;">
+<div style="font-size: 0.7rem; color: #94A3B8; font-weight: 700; text-transform: uppercase; letter-spacing: 0.07em; margin-bottom: 0.25rem;">Paso 1 — PPP</div>
+<div style="font-size: 1rem; font-weight: 800; color: #0D9488;">£13,000 × 1.38</div>
+<div style="font-size: 0.72rem; color: #64748B; margin-top: 0.15rem;">Factor PPP Col/UK World Bank 2024</div>
+</div>
+<div style="background: white; border: 1px solid #E2E8F0; border-radius: 0.625rem; padding: 1rem; text-align: center;">
+<div style="font-size: 0.7rem; color: #94A3B8; font-weight: 700; text-transform: uppercase; letter-spacing: 0.07em; margin-bottom: 0.25rem;">Paso 2 — TRM</div>
+<div style="font-size: 1rem; font-weight: 800; color: #0D9488;">× $5,200 COP/£</div>
+<div style="font-size: 0.72rem; color: #64748B; margin-top: 0.15rem;">TRM promedio 2024 (ajustar anualmente)</div>
+</div>
+<div style="background: linear-gradient(135deg, #F0FDFA, #ECFDF5); border: 1px solid rgba(13,148,136,0.3); border-radius: 0.625rem; padding: 1rem; text-align: center;">
+<div style="font-size: 0.7rem; color: #0D9488; font-weight: 700; text-transform: uppercase; letter-spacing: 0.07em; margin-bottom: 0.25rem;">Valor central Colombia</div>
+<div style="font-size: 1rem; font-weight: 800; color: #0D9488;">~$18M COP/punto/año</div>
+<div style="font-size: 0.72rem; color: #475569; margin-top: 0.15rem;">Rango: $14M–$22M según sensibilidad</div>
+</div>
+</div>
+
+<div class="warning-box" style="margin-top: 1rem;">
+<div class="warning-label">Más allá del PPP</div>
+<p>El ajuste por PPP convierte el poder adquisitivo pero no las preferencias culturales o la distribución del bienestar en Colombia. Idealmente, el valor WELLBY para Colombia debería calibrarse con encuestas locales de SWB vs ingreso (ENCV-DANE, LAPOP). Hasta que exista esa calibración, el valor PPP-ajustado con análisis de sensibilidad (±30%) es la mejor práctica disponible.</p>
+</div>
+
+</div>
+</div>
+
+<!-- FORTALEZAS Y LIMITACIONES -->
 <div class="content-section">
 <div class="content-inner">
 
-<span class="section-label">Conexión con el SROI</span>
-<h2 class="section-heading anchored">Cómo el DiD alimenta el análisis SROI</h2>
+<span class="section-label">Evaluación crítica</span>
+<h2 class="section-heading anchored">Fortalezas y limitaciones del WELLBY</h2>
 
-<p>El DiD no es un método alternativo al SROI — es uno de los métodos que alimenta la Etapa 4 (Establecer Impacto) del SROI, permitiendo estimar los factores de ajuste con mayor rigor.</p>
+<div style="display: grid; grid-template-columns: 1fr 1fr; gap: 1.5rem; margin: 1.5rem 0;">
 
-<div style="display: grid; grid-template-columns: repeat(2, 1fr); gap: 1rem; margin: 1.5rem 0;">
-
-<div style="background: #F8FAFC; border: 1px solid #E2E8F0; border-radius: 0.75rem; padding: 1.25rem;">
-<div style="font-weight: 700; color: #0D9488; margin-bottom: 0.5rem; font-size: 0.875rem;">Deadweight desde el DiD</div>
-<div style="font-size: 0.845rem; color: #475569; line-height: 1.6;">El grupo de control del DiD es exactamente el contrafactual que define el deadweight. Si el grupo control mejoró un 15% en el período post, ese 15% es deadweight — habría ocurrido sin el programa. El deadweight = cambio del grupo control / cambio del grupo tratado.</div>
-</div>
-
-<div style="background: #F8FAFC; border: 1px solid #E2E8F0; border-radius: 0.75rem; padding: 1.25rem;">
-<div style="font-weight: 700; color: #0D9488; margin-bottom: 0.5rem; font-size: 0.875rem;">Drop-off desde el event study</div>
-<div style="font-size: 0.845rem; color: #475569; line-height: 1.6;">El event study con múltiples períodos post-intervención permite trazar la curva de decaimiento del efecto. El coeficiente del período t+1 vs t+2 vs t+3 calibra empíricamente el drop-off del SROI — en lugar de asumir una tasa arbitraria.</div>
-</div>
-
-</div>
-
-<div class="insight-box">
-<div class="insight-label">Caso aplicado: Hogares Saludables (Argos-CVP)</div>
-<p>En el análisis SROI del programa Hogares Saludables se usó un cRCT con estimación DiD-PSM. El diseño RCT garantizó Deadweight = 0% (el grupo control no mejoró en las variables intervención por asignación aleatoria). El PSM post-RCT verificó el balance en covariables. El estimador DiD produjo los ATT para cada outcome monetizable, que alimentaron directamente la columna "Cantidad de outcomes" del Value Map.</p>
-</div>
-
+<div>
+<div style="font-weight: 800; color: #059669; font-size: 0.9rem; margin-bottom: 0.75rem; padding-bottom: 0.5rem; border-bottom: 2px solid #D1FAE5;">Fortalezas</div>
+<div style="display: flex; flex-direction: column; gap: 0.6rem;">
+<div style="font-size: 0.845rem; color: #475569; line-height: 1.6; display: flex; gap: 0.6rem;"><span style="color: #059669; font-weight: 700; flex-shrink: 0;">+</span>Permite valorar outcomes intangibles que no tienen precio de mercado ni costo institucional equivalente.</div>
+<div style="font-size: 0.845rem; color: #475569; line-height: 1.6; display: flex; gap: 0.6rem;"><span style="color: #059669; font-weight: 700; flex-shrink: 0;">+</span>Respaldado por HM Treasury — alta credibilidad institucional en análisis de política pública.</div>
+<div style="font-size: 0.845rem; color: #475569; line-height: 1.6; display: flex; gap: 0.6rem;"><span style="color: #059669; font-weight: 700; flex-shrink: 0;">+</span>Captura el bienestar desde la perspectiva de quien lo experimenta — consistente con el Principio 1 SVI.</div>
+<div style="font-size: 0.845rem; color: #475569; line-height: 1.6; display: flex; gap: 0.6rem;"><span style="color: #059669; font-weight: 700; flex-shrink: 0;">+</span>Comparable entre programas — permite benchmarking de costo-efectividad en bienestar (cost per WELLBY).</div>
+<div style="font-size: 0.845rem; color: #475569; line-height: 1.6; display: flex; gap: 0.6rem;"><span style="color: #059669; font-weight: 700; flex-shrink: 0;">+</span>Las escalas SWB son breves, validadas y de bajo costo de administración.</div>
 </div>
 </div>
 
-<!-- RECURSOS -->
-<div class="content-section alt">
-<div class="content-inner">
-
-<span class="section-label">Para profundizar</span>
-<h2 class="section-heading anchored">Referencias clave</h2>
-
-<div style="display: flex; flex-direction: column; gap: 0.75rem;">
-
-<div style="background: white; border: 1px solid #E2E8F0; border-radius: 0.625rem; padding: 1rem 1.25rem; display: flex; gap: 1rem; align-items: flex-start;">
-<div style="font-weight: 800; color: #0D9488; font-size: 0.8rem; min-width: 80px; flex-shrink: 0;">Fundamentos</div>
-<div style="font-size: 0.845rem; color: #334155; line-height: 1.6;">Angrist, J. &amp; Pischke, J-S. (2009). <em>Mostly Harmless Econometrics</em>. Princeton UP. — El texto de referencia para DiD y métodos de evaluación cuasi-experimental.</div>
+<div>
+<div style="font-weight: 800; color: #DC2626; font-size: 0.9rem; margin-bottom: 0.75rem; padding-bottom: 0.5rem; border-bottom: 2px solid #FEE2E2;">Limitaciones</div>
+<div style="display: flex; flex-direction: column; gap: 0.6rem;">
+<div style="font-size: 0.845rem; color: #475569; line-height: 1.6; display: flex; gap: 0.6rem;"><span style="color: #DC2626; font-weight: 700; flex-shrink: 0;">−</span>El valor £13,000 está calibrado para UK — la transferencia a Colombia requiere justificación y sensibilidad.</div>
+<div style="font-size: 0.845rem; color: #475569; line-height: 1.6; display: flex; gap: 0.6rem;"><span style="color: #DC2626; font-weight: 700; flex-shrink: 0;">−</span>Las escalas SWB tienen sesgo de respuesta positiva (social desirability bias) en contextos de evaluación.</div>
+<div style="font-size: 0.845rem; color: #475569; line-height: 1.6; display: flex; gap: 0.6rem;"><span style="color: #DC2626; font-weight: 700; flex-shrink: 0;">−</span>La adaptación hedónica puede subestimar el bienestar real de personas en pobreza crónica.</div>
+<div style="font-size: 0.845rem; color: #475569; line-height: 1.6; display: flex; gap: 0.6rem;"><span style="color: #DC2626; font-weight: 700; flex-shrink: 0;">−</span>Requiere datos pre-post y suficiente muestra para detectar cambios estadísticamente significativos en LS.</div>
+<div style="font-size: 0.845rem; color: #475569; line-height: 1.6; display: flex; gap: 0.6rem;"><span style="color: #DC2626; font-weight: 700; flex-shrink: 0;">−</span>No aplica si el outcome es físico o económico (hay mejores proxies disponibles).</div>
 </div>
-
-<div style="background: white; border: 1px solid #E2E8F0; border-radius: 0.625rem; padding: 1rem 1.25rem; display: flex; gap: 1rem; align-items: flex-start;">
-<div style="font-weight: 800; color: #0D9488; font-size: 0.8rem; min-width: 80px; flex-shrink: 0;">Staggered DiD</div>
-<div style="font-size: 0.845rem; color: #334155; line-height: 1.6;">Callaway, B. &amp; Sant'Anna, P. (2021). Difference-in-differences with multiple time periods. <em>Journal of Econometrics</em>, 225(2), 200–230. — Esencial para DiD con adopción escalonada.</div>
-</div>
-
-<div style="background: white; border: 1px solid #E2E8F0; border-radius: 0.625rem; padding: 1rem 1.25rem; display: flex; gap: 1rem; align-items: flex-start;">
-<div style="font-weight: 800; color: #0D9488; font-size: 0.8rem; min-width: 80px; flex-shrink: 0;">Aplicaciones</div>
-<div style="font-size: 0.845rem; color: #334155; line-height: 1.6;">Gertler, P. et al. (2016). <em>Impact Evaluation in Practice</em> (2ª ed.). World Bank. — Manual práctico de evaluación de impacto, disponible abierto en línea. Cap. 7 cubre DiD en detalle.</div>
 </div>
 
 </div>
@@ -417,10 +433,10 @@ ul.task-list li input[type="checkbox"] {
 <div class="content-section dark">
 <div class="content-inner" style="display: flex; justify-content: space-between; align-items: center; flex-wrap: wrap; gap: 1rem; padding: 1rem 0;">
 <div>
-<div style="color: #94A3B8; font-size: 0.82rem; margin-bottom: 0.35rem;">Siguiente método</div>
-<div style="font-size: 1.1rem; font-weight: 700; color: white;">RCT / cRCT — La asignación aleatoria →</div>
+<div style="color: #94A3B8; font-size: 0.82rem; margin-bottom: 0.35rem;">Siguiente método de valoración</div>
+<div style="font-size: 1.1rem; font-weight: 700; color: white;">Costos unitarios — proxies desde servicios reales →</div>
 </div>
-<a href="rct.html" class="btn-primary-custom">Ver RCT</a>
+<a href="costos-unitarios.html" class="btn-primary-custom">Ver costos unitarios</a>
 </div>
 </div>
 

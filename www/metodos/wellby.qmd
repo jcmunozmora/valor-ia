@@ -1,0 +1,248 @@
+---
+title: "WELLBY — Well-Being Years"
+page-layout: full
+toc: false
+---
+
+```{=html}
+<div class="page-header">
+<div class="page-header-content">
+<span class="page-tag">Herramientas · Valoración por bienestar subjetivo</span>
+<h1>WELLBY</h1>
+<p class="page-lead">Well-Being Years — el método desarrollado por HM Treasury UK para convertir cambios en bienestar subjetivo reportado a valores monetarios. Permite valorar outcomes que no tienen precio de mercado ni costo institucional equivalente: la reducción de la ansiedad, el aumento de la autoestima, el sentido de pertenencia comunitaria.</p>
+</div>
+</div>
+
+<!-- QUÉ ES -->
+<div class="content-section alt">
+<div class="content-inner">
+
+<span class="section-label">Fundamentos</span>
+<h2 class="section-heading">¿Qué mide un WELLBY y cómo se construye?</h2>
+
+<p>Un WELLBY (Well-Being Year) es la unidad de bienestar subjetivo equivalente a un punto en una escala de satisfacción con la vida de 0 a 10, durante un año. El método está basado en la econometría del bienestar: regresiones que estiman cuánto ingreso adicional necesita una persona para compensar la pérdida de un punto en su bienestar subjetivo — y por tanto, cuánto vale monetariamente un punto de mejora.</p>
+
+<div style="background: #0F172A; border-radius: 0.875rem; padding: 1.5rem; margin: 1.5rem 0; font-family: 'JetBrains Mono', monospace;">
+  <div style="color: #5EEAD4; font-size: 0.72rem; font-weight: 700; letter-spacing: 0.1em; text-transform: uppercase; margin-bottom: 0.75rem;">El valor WELLBY — referencia central</div>
+  <div style="color: white; font-size: 1.5rem; font-weight: 900; margin-bottom: 0.5rem;">£13,000 / punto LS / año</div>
+  <div style="color: #94A3B8; font-size: 0.8rem; line-height: 1.7;">
+    HM Treasury Green Book (2021) &nbsp;·&nbsp; Precios 2019 UK &nbsp;·&nbsp; Basado en Life Satisfaction (Cantril Ladder 0–10)<br>
+    Equivalente Colombia (PPP 2024): <strong style="color: #5EEAD4;">~$18,000,000 COP / punto / año</strong>
+  </div>
+</div>
+
+<p>La lógica econométrica: en grandes encuestas de bienestar subjetivo (Understanding Society UK, European Social Survey), la regresión de satisfacción con la vida sobre el ingreso revela que un incremento del 1% en el ingreso produce ~0.002 puntos de mejora en LS. Invirtiendo: 1 punto de LS equivale a un incremento de ingreso de aproximadamente £13,000 anuales. Este es el "precio sombra" del bienestar.</p>
+
+<div style="display: grid; grid-template-columns: 1fr 1fr; gap: 1rem; margin: 1.5rem 0;">
+<div style="background: white; border: 1px solid #E2E8F0; border-radius: 0.75rem; padding: 1.25rem;">
+<div style="font-weight: 700; color: #0D9488; margin-bottom: 0.5rem; font-size: 0.9rem;">Cuándo el WELLBY es apropiado</div>
+<ul style="font-size: 0.845rem; color: #475569; line-height: 1.7; margin: 0; padding-left: 1.25rem;">
+<li>El outcome es un cambio en bienestar psicológico o emocional</li>
+<li>No existe un precio de mercado equivalente razonable</li>
+<li>Los participantes pueden responder escalas de satisfacción con la vida</li>
+<li>Se tienen datos pre y post intervención en la misma escala</li>
+<li>El contexto permite adaptar el valor UK por PPP</li>
+</ul>
+</div>
+<div style="background: white; border: 1px solid #E2E8F0; border-radius: 0.75rem; padding: 1.25rem;">
+<div style="font-weight: 700; color: #DC2626; margin-bottom: 0.5rem; font-size: 0.9rem;">Cuándo NO es el método más apropiado</div>
+<ul style="font-size: 0.845rem; color: #475569; line-height: 1.7; margin: 0; padding-left: 1.25rem;">
+<li>Outcomes con precio de mercado claro (usar costos unitarios)</li>
+<li>Poblaciones con dificultad para comprender escalas abstractas</li>
+<li>Cuando el cambio en SWB es insignificante o no medido</li>
+<li>Cuando el stakeholder financia en un contexto que desconfía del SWB</li>
+<li>Outcomes de corta duración (&lt;3 meses) sin seguimiento</li>
+</ul>
+</div>
+</div>
+
+</div>
+</div>
+
+<!-- LOS INSTRUMENTOS DE MEDICIÓN -->
+<div class="content-section">
+<div class="content-inner">
+
+<span class="section-label">Instrumentos de medición</span>
+<h2 class="section-heading">Cómo recolectar el dato de bienestar subjetivo</h2>
+
+<p>El WELLBY requiere medir el bienestar subjetivo con una escala validada, en al menos dos momentos (pre y post intervención). La elección del instrumento debe justificarse según el tipo de outcome y la población.</p>
+
+<div style="display: flex; flex-direction: column; gap: 0.875rem; margin: 1.5rem 0;">
+
+<div style="background: white; border: 1px solid #E2E8F0; border-left: 4px solid #0D9488; border-radius: 0 0.75rem 0.75rem 0; padding: 1.1rem 1.25rem;">
+<div style="display: grid; grid-template-columns: 200px 1fr 120px; gap: 1rem; align-items: start;">
+<div>
+  <div style="font-weight: 800; color: #0F172A; font-size: 0.875rem;">Cantril Ladder</div>
+  <div style="font-size: 0.72rem; color: #0D9488; font-weight: 600; margin-top: 0.15rem;">Satisfacción con la vida · 0–10</div>
+</div>
+<div style="font-size: 0.845rem; color: #475569; line-height: 1.6;">"En general, ¿qué tan satisfecho está con su vida en este momento?" Escala 0 (nada satisfecho) a 10 (completamente satisfecho). Es la pregunta calibrada por HM Treasury — usar esta escala permite aplicar el valor £13,000 directamente. Disponible en español validado.</div>
+<div style="text-align: right;"><span style="background: #F0FDFA; color: #0D9488; font-size: 0.68rem; font-weight: 700; padding: 0.2rem 0.6rem; border-radius: 999px; border: 1px solid rgba(13,148,136,0.3);">Recomendada</span></div>
+</div>
+</div>
+
+<div style="background: white; border: 1px solid #E2E8F0; border-left: 4px solid #7C3AED; border-radius: 0 0.75rem 0.75rem 0; padding: 1.1rem 1.25rem;">
+<div style="display: grid; grid-template-columns: 200px 1fr 120px; gap: 1rem; align-items: start;">
+<div>
+  <div style="font-weight: 800; color: #0F172A; font-size: 0.875rem;">ONS4</div>
+  <div style="font-size: 0.72rem; color: #7C3AED; font-weight: 600; margin-top: 0.15rem;">Bienestar subjetivo · 4 preguntas</div>
+</div>
+<div style="font-size: 0.845rem; color: #475569; line-height: 1.6;">4 preguntas que cubren: satisfacción con la vida, felicidad ayer, ansiedad ayer y si la vida tiene sentido (worthwhile). Desarrollado por Office for National Statistics UK. Permite capturar dimensiones hedónicas y eudaimónicas simultáneamente.</div>
+<div style="text-align: right;"><span style="background: #F5F3FF; color: #7C3AED; font-size: 0.68rem; font-weight: 700; padding: 0.2rem 0.6rem; border-radius: 999px; border: 1px solid rgba(124,58,237,0.3);">Multidimensional</span></div>
+</div>
+</div>
+
+<div style="background: white; border: 1px solid #E2E8F0; border-left: 4px solid #0EA5E9; border-radius: 0 0.75rem 0.75rem 0; padding: 1.1rem 1.25rem;">
+<div style="display: grid; grid-template-columns: 200px 1fr 120px; gap: 1rem; align-items: start;">
+<div>
+  <div style="font-weight: 800; color: #0F172A; font-size: 0.875rem;">SWEMWBS</div>
+  <div style="font-size: 0.72rem; color: #0EA5E9; font-weight: 600; margin-top: 0.15rem;">Salud mental positiva · 7 ítems</div>
+</div>
+<div style="font-size: 0.845rem; color: #475569; line-height: 1.6;">Short Warwick Edinburgh Mental Wellbeing Scale. 7 ítems tipo Likert (1–5) que miden bienestar mental positivo: optimismo, utilidad, claridad de pensamiento, cercanía con otros, toma de decisiones, resolución de problemas, sentirse bien. Útil para intervenciones de salud mental y sociales.</div>
+<div style="text-align: right;"><span style="background: #EFF6FF; color: #0EA5E9; font-size: 0.68rem; font-weight: 700; padding: 0.2rem 0.6rem; border-radius: 999px; border: 1px solid rgba(14,165,233,0.3);">Salud mental</span></div>
+</div>
+</div>
+
+<div style="background: white; border: 1px solid #E2E8F0; border-left: 4px solid #F59E0B; border-radius: 0 0.75rem 0.75rem 0; padding: 1.1rem 1.25rem;">
+<div style="display: grid; grid-template-columns: 200px 1fr 120px; gap: 1rem; align-items: start;">
+<div>
+  <div style="font-weight: 800; color: #0F172A; font-size: 0.875rem;">Rosenberg SES</div>
+  <div style="font-size: 0.72rem; color: #B45309; font-weight: 600; margin-top: 0.15rem;">Autoestima · 10 ítems</div>
+</div>
+<div style="font-size: 0.845rem; color: #475569; line-height: 1.6;">Rosenberg Self-Esteem Scale. 10 ítems que miden autoestima global (0–30). No es una escala de LS directamente, pero cambios en autoestima pueden convertirse a WELLBYs si se calibra la relación Rosenberg→LS usando datos comparativos o estudios publicados.</div>
+<div style="text-align: right;"><span style="background: #FFFBEB; color: #B45309; font-size: 0.68rem; font-weight: 700; padding: 0.2rem 0.6rem; border-radius: 999px; border: 1px solid rgba(245,158,11,0.3);">Con conversión</span></div>
+</div>
+</div>
+
+</div>
+
+</div>
+</div>
+
+<!-- CÁLCULO Y ADAPTACIÓN COLOMBIA -->
+<div class="content-section alt">
+<div class="content-inner">
+
+<span class="section-label">Del dato al valor monetario</span>
+<h2 class="section-heading">Cálculo del WELLBY e integración al SROI</h2>
+
+<div style="background: white; border: 1px solid #E2E8F0; border-radius: 0.75rem; overflow: hidden; margin: 1.5rem 0;">
+
+<div style="background: #0F172A; padding: 0.875rem 1.25rem;">
+<div style="font-weight: 700; color: #5EEAD4; font-size: 0.82rem; letter-spacing: 0.07em; text-transform: uppercase;">Secuencia de cálculo</div>
+</div>
+
+<div style="padding: 0;">
+
+<div style="display: grid; grid-template-columns: 40px 1fr; gap: 1rem; padding: 1rem 1.25rem; border-bottom: 1px solid #F1F5F9; align-items: start;">
+<div style="width: 32px; height: 32px; background: #0D9488; color: white; border-radius: 50%; display: flex; align-items: center; justify-content: center; font-weight: 800; font-size: 0.82rem; flex-shrink: 0;">1</div>
+<div>
+<div style="font-weight: 700; color: #0F172A; font-size: 0.875rem; margin-bottom: 0.25rem;">Medir el cambio en LS (Δ)</div>
+<div style="font-size: 0.845rem; color: #475569; line-height: 1.6;">Calcular la diferencia entre la puntuación post y pre en la escala Cantril (0–10). Ejemplo: promedio pre = 6.2, promedio post = 7.1 → <strong>Δ = 0.9 puntos LS</strong>. Usar DiD o comparación tratado-control cuando sea posible.</div>
+</div>
+</div>
+
+<div style="display: grid; grid-template-columns: 40px 1fr; gap: 1rem; padding: 1rem 1.25rem; border-bottom: 1px solid #F1F5F9; background: #FAFAFA; align-items: start;">
+<div style="width: 32px; height: 32px; background: #0D9488; color: white; border-radius: 50%; display: flex; align-items: center; justify-content: center; font-weight: 800; font-size: 0.82rem; flex-shrink: 0;">2</div>
+<div>
+<div style="font-weight: 700; color: #0F172A; font-size: 0.875rem; margin-bottom: 0.25rem;">Aplicar el valor por punto</div>
+<div style="font-size: 0.845rem; color: #475569; line-height: 1.6;">Multiplicar Δ × valor WELLBY. En COP: 0.9 × $18,000,000 = <strong>$16,200,000 COP/año por persona</strong>. El valor en COP se obtiene convirtiendo £13,000 × PPP Colombia/UK (factor ~1.38 en 2024).</div>
+</div>
+</div>
+
+<div style="display: grid; grid-template-columns: 40px 1fr; gap: 1rem; padding: 1rem 1.25rem; border-bottom: 1px solid #F1F5F9; align-items: start;">
+<div style="width: 32px; height: 32px; background: #0D9488; color: white; border-radius: 50%; display: flex; align-items: center; justify-content: center; font-weight: 800; font-size: 0.82rem; flex-shrink: 0;">3</div>
+<div>
+<div style="font-weight: 700; color: #0F172A; font-size: 0.875rem; margin-bottom: 0.25rem;">Estimar la duración del efecto</div>
+<div style="font-size: 0.845rem; color: #475569; line-height: 1.6;">¿Por cuántos años persiste la mejora en bienestar? La literatura WELLBY sugiere que los efectos de intervenciones de salud mental o vivienda persisten 1–5 años con drop-off. Aplicar el factor de drop-off anual definido en la Etapa 4 del SROI.</div>
+</div>
+</div>
+
+<div style="display: grid; grid-template-columns: 40px 1fr; gap: 1rem; padding: 1rem 1.25rem; align-items: start;">
+<div style="width: 32px; height: 32px; background: #0D9488; color: white; border-radius: 50%; display: flex; align-items: center; justify-content: center; font-weight: 800; font-size: 0.82rem; flex-shrink: 0;">4</div>
+<div>
+<div style="font-weight: 700; color: #0F172A; font-size: 0.875rem; margin-bottom: 0.25rem;">Aplicar factores de ajuste SROI</div>
+<div style="font-size: 0.845rem; color: #475569; line-height: 1.6;">El valor WELLBY entra al Value Map como cualquier otro proxy: sujeto a deadweight, atribución, displacement y drop-off. El VPN del flujo de WELLBYs ajustados es la contribución de este outcome al ratio SROI.</div>
+</div>
+</div>
+
+</div>
+</div>
+
+<h3 style="font-size: 1rem; font-weight: 800; color: #0F172A; margin: 2rem 0 0.75rem;">Adaptación a Colombia: el factor PPP</h3>
+
+<p>El valor base £13,000 está calibrado para el contexto UK. Para usarlo en Colombia, la conversión por Paridad de Poder Adquisitivo (PPP) es el mínimo necesario — pero no suficiente.</p>
+
+<div style="display: grid; grid-template-columns: repeat(3, 1fr); gap: 0.75rem; margin: 1rem 0;">
+<div style="background: white; border: 1px solid #E2E8F0; border-radius: 0.625rem; padding: 1rem; text-align: center;">
+<div style="font-size: 0.7rem; color: #94A3B8; font-weight: 700; text-transform: uppercase; letter-spacing: 0.07em; margin-bottom: 0.25rem;">Paso 1 — PPP</div>
+<div style="font-size: 1rem; font-weight: 800; color: #0D9488;">£13,000 × 1.38</div>
+<div style="font-size: 0.72rem; color: #64748B; margin-top: 0.15rem;">Factor PPP Col/UK World Bank 2024</div>
+</div>
+<div style="background: white; border: 1px solid #E2E8F0; border-radius: 0.625rem; padding: 1rem; text-align: center;">
+<div style="font-size: 0.7rem; color: #94A3B8; font-weight: 700; text-transform: uppercase; letter-spacing: 0.07em; margin-bottom: 0.25rem;">Paso 2 — TRM</div>
+<div style="font-size: 1rem; font-weight: 800; color: #0D9488;">× $5,200 COP/£</div>
+<div style="font-size: 0.72rem; color: #64748B; margin-top: 0.15rem;">TRM promedio 2024 (ajustar anualmente)</div>
+</div>
+<div style="background: linear-gradient(135deg, #F0FDFA, #ECFDF5); border: 1px solid rgba(13,148,136,0.3); border-radius: 0.625rem; padding: 1rem; text-align: center;">
+<div style="font-size: 0.7rem; color: #0D9488; font-weight: 700; text-transform: uppercase; letter-spacing: 0.07em; margin-bottom: 0.25rem;">Valor central Colombia</div>
+<div style="font-size: 1rem; font-weight: 800; color: #0D9488;">~$18M COP/punto/año</div>
+<div style="font-size: 0.72rem; color: #475569; margin-top: 0.15rem;">Rango: $14M–$22M según sensibilidad</div>
+</div>
+</div>
+
+<div class="warning-box" style="margin-top: 1rem;">
+<div class="warning-label">Más allá del PPP</div>
+<p>El ajuste por PPP convierte el poder adquisitivo pero no las preferencias culturales o la distribución del bienestar en Colombia. Idealmente, el valor WELLBY para Colombia debería calibrarse con encuestas locales de SWB vs ingreso (ENCV-DANE, LAPOP). Hasta que exista esa calibración, el valor PPP-ajustado con análisis de sensibilidad (±30%) es la mejor práctica disponible.</p>
+</div>
+
+</div>
+</div>
+
+<!-- FORTALEZAS Y LIMITACIONES -->
+<div class="content-section">
+<div class="content-inner">
+
+<span class="section-label">Evaluación crítica</span>
+<h2 class="section-heading">Fortalezas y limitaciones del WELLBY</h2>
+
+<div style="display: grid; grid-template-columns: 1fr 1fr; gap: 1.5rem; margin: 1.5rem 0;">
+
+<div>
+<div style="font-weight: 800; color: #059669; font-size: 0.9rem; margin-bottom: 0.75rem; padding-bottom: 0.5rem; border-bottom: 2px solid #D1FAE5;">Fortalezas</div>
+<div style="display: flex; flex-direction: column; gap: 0.6rem;">
+<div style="font-size: 0.845rem; color: #475569; line-height: 1.6; display: flex; gap: 0.6rem;"><span style="color: #059669; font-weight: 700; flex-shrink: 0;">+</span>Permite valorar outcomes intangibles que no tienen precio de mercado ni costo institucional equivalente.</div>
+<div style="font-size: 0.845rem; color: #475569; line-height: 1.6; display: flex; gap: 0.6rem;"><span style="color: #059669; font-weight: 700; flex-shrink: 0;">+</span>Respaldado por HM Treasury — alta credibilidad institucional en análisis de política pública.</div>
+<div style="font-size: 0.845rem; color: #475569; line-height: 1.6; display: flex; gap: 0.6rem;"><span style="color: #059669; font-weight: 700; flex-shrink: 0;">+</span>Captura el bienestar desde la perspectiva de quien lo experimenta — consistente con el Principio 1 SVI.</div>
+<div style="font-size: 0.845rem; color: #475569; line-height: 1.6; display: flex; gap: 0.6rem;"><span style="color: #059669; font-weight: 700; flex-shrink: 0;">+</span>Comparable entre programas — permite benchmarking de costo-efectividad en bienestar (cost per WELLBY).</div>
+<div style="font-size: 0.845rem; color: #475569; line-height: 1.6; display: flex; gap: 0.6rem;"><span style="color: #059669; font-weight: 700; flex-shrink: 0;">+</span>Las escalas SWB son breves, validadas y de bajo costo de administración.</div>
+</div>
+</div>
+
+<div>
+<div style="font-weight: 800; color: #DC2626; font-size: 0.9rem; margin-bottom: 0.75rem; padding-bottom: 0.5rem; border-bottom: 2px solid #FEE2E2;">Limitaciones</div>
+<div style="display: flex; flex-direction: column; gap: 0.6rem;">
+<div style="font-size: 0.845rem; color: #475569; line-height: 1.6; display: flex; gap: 0.6rem;"><span style="color: #DC2626; font-weight: 700; flex-shrink: 0;">−</span>El valor £13,000 está calibrado para UK — la transferencia a Colombia requiere justificación y sensibilidad.</div>
+<div style="font-size: 0.845rem; color: #475569; line-height: 1.6; display: flex; gap: 0.6rem;"><span style="color: #DC2626; font-weight: 700; flex-shrink: 0;">−</span>Las escalas SWB tienen sesgo de respuesta positiva (social desirability bias) en contextos de evaluación.</div>
+<div style="font-size: 0.845rem; color: #475569; line-height: 1.6; display: flex; gap: 0.6rem;"><span style="color: #DC2626; font-weight: 700; flex-shrink: 0;">−</span>La adaptación hedónica puede subestimar el bienestar real de personas en pobreza crónica.</div>
+<div style="font-size: 0.845rem; color: #475569; line-height: 1.6; display: flex; gap: 0.6rem;"><span style="color: #DC2626; font-weight: 700; flex-shrink: 0;">−</span>Requiere datos pre-post y suficiente muestra para detectar cambios estadísticamente significativos en LS.</div>
+<div style="font-size: 0.845rem; color: #475569; line-height: 1.6; display: flex; gap: 0.6rem;"><span style="color: #DC2626; font-weight: 700; flex-shrink: 0;">−</span>No aplica si el outcome es físico o económico (hay mejores proxies disponibles).</div>
+</div>
+</div>
+
+</div>
+
+</div>
+</div>
+
+<!-- FOOTER -->
+<div class="content-section dark">
+<div class="content-inner" style="display: flex; justify-content: space-between; align-items: center; flex-wrap: wrap; gap: 1rem; padding: 1rem 0;">
+<div>
+<div style="color: #94A3B8; font-size: 0.82rem; margin-bottom: 0.35rem;">Siguiente método de valoración</div>
+<div style="font-size: 1.1rem; font-weight: 700; color: white;">Costos unitarios — proxies desde servicios reales →</div>
+</div>
+<a href="costos-unitarios.html" class="btn-primary-custom">Ver costos unitarios</a>
+</div>
+</div>
+```

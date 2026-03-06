@@ -1,0 +1,429 @@
+---
+title: "Curso Básico de SROI — Sesión 7"
+format:
+  revealjs:
+    theme: [dark, sroi_slides.scss]
+    slide-number: "c/t"
+    show-slide-number: all
+    transition: slide
+    transition-speed: fast
+    chalkboard: false
+    scrollable: false
+    fig-align: center
+    echo: false
+    warning: false
+    self-contained: true
+    width: 1280
+    height: 720
+    margin: 0.08
+    footer: "Juan Carlos Muñoz-Mora, PhD · CVP EAFIT · Curso Básico SROI"
+lang: es
+---
+
+## {background-color="#0F172A"}
+
+::: portada-wrap
+::: portada-eyebrow
+Centro Valor Público · EAFIT
+:::
+
+::: portada-titulo
+Cálculo del SROI
+:::
+
+::: portada-sub
+Etapa 5 del SROI — Del Value Map al ratio final
+:::
+
+::: {style="margin-bottom: 0.6em;"}
+[Sesión 7]{.pill .pill-teal}
+[Etapa 5 SVI]{.pill .pill-slate}
+[Value Map]{.pill .pill-amber}
+:::
+
+::: portada-instructor
+**Juan Carlos Muñoz-Mora, PhD** · Economista · Universidad EAFIT<br>
+Ph.D. en Economía · Universidad Libre de Bruselas (ULB)<br>
+Investigador Asociado · Institute of Development Studies (IDS)
+:::
+:::
+
+---
+
+## {background-color="#0F172A"}
+
+::: seccion-label
+Malla curricular
+:::
+
+## Estructura del curso: 8 sesiones
+
+::: mod-grid
+::: mod-card
+[01]{.mod-num}
+Evaluación de programas
+:::
+::: mod-card
+[02]{.mod-num}
+Alcance y stakeholders
+:::
+::: mod-card
+[03]{.mod-num}
+Teoría del Cambio
+:::
+::: mod-card
+[04]{.mod-num}
+Evidencia de outcomes
+:::
+::: mod-card
+[05]{.mod-num}
+Factores de ajuste
+:::
+::: mod-card
+[06]{.mod-num}
+Valoración monetaria
+:::
+::: {.mod-card .activo}
+[07]{.mod-num}
+**Cálculo del SROI**
+:::
+::: mod-card
+[08]{.mod-num}
+Informe y aseguramiento
+:::
+:::
+
+::: {.box-teal style="margin-top: 1.2em; font-size: 0.8em;"}
+**Hoy:** 07 — Cálculo del SROI · Etapa 5 de las 6 etapas SVI
+_El Value Map integra todo el trabajo anterior. El ratio es la síntesis._
+:::
+
+---
+
+## {background-color="#0F172A"}
+
+::: seccion-label
+Módulo 7 · Cálculo
+:::
+
+::: {style="font-size: 2em; font-weight: 900; color: white; margin-top: 0.5em;"}
+El momento de la verdad
+:::
+
+::: {style="font-size: 0.9em; color: #94A3B8; margin-top: 0.3em;"}
+Todos los pasos anteriores convergen en una sola hoja de cálculo
+:::
+
+---
+
+## El Value Map: la hoja central del SROI
+
+::: col-2
+::: {}
+El Value Map es la hoja de cálculo que integra todos los componentes del análisis en una estructura tabulada que permite calcular el VPN total de los beneficios y, finalmente, el ratio SROI.
+
+**Las columnas del Value Map:**
+
+1. Stakeholder
+2. Outcome
+3. Indicador (con unidad)
+4. Proxy financiero (con fuente)
+5. Valor del proxy (COP/unidad)
+6. N beneficiarios
+7. Duración (años)
+8. Deadweight (%)
+9. Attribution (%)
+10. Displacement (%)
+11. Drop-off (% anual)
+12. Valor neto por año (calculado)
+13. VPN (descontado)
+:::
+::: box-teal
+**Por qué no es solo una celda de Excel**
+
+El Value Map no es solo el resultado final — es la documentación completa de cada supuesto del análisis.
+
+Un revisor SVI puede reproducir exactamente el ratio SROI siguiendo las fórmulas de cada columna.
+
+Esto es lo que hace posible el aseguramiento externo (Sesión 8): la cadena de supuestos → datos → cálculo es completamente transparente.
+:::
+:::
+
+---
+
+## La tasa de descuento: por qué descontamos
+
+::: col-2
+::: {}
+Los beneficios que ocurren en el año 2, 3, 4 no valen lo mismo que los beneficios del año 1. Hay tres razones:
+
+**Preferencia temporal:** un beneficio hoy es preferido a uno igual mañana (la gente descuenta el futuro)
+
+**Inflación:** el poder adquisitivo del dinero disminuye con el tiempo
+
+**Riesgo:** la incertidumbre sobre si el beneficio realmente ocurrirá aumenta con el horizonte temporal
+
+La tasa de descuento convierte beneficios futuros a valor presente neto (VPN).
+:::
+::: {}
+**¿Qué tasa usar en Colombia?**
+
+| Contexto | Tasa recomendada |
+|---------|-----------------|
+| Programas sociales con financiamiento público | 5% |
+| Programas con financiamiento privado corporativo | 5–8% |
+| Contexto de alta incertidumbre | 8–10% |
+| Referencia SVI (UK) | 3.5% |
+
+**La referencia central del CVP EAFIT:** 5% anual.
+
+Usar tasas más altas reduce el VPN y el ratio SROI. El análisis de sensibilidad debe incluir escenarios con 3.5% y 8% para mostrar la robustez del resultado.
+:::
+:::
+
+---
+
+## Fórmula del VPN por outcome
+
+::: {style="text-align: center; margin: 1em 0;"}
+::: {style="font-size: 1.05em; color: #5EEAD4; font-weight: 700; margin-bottom: 0.5em;"}
+VPN = Σ [ Vₜ / (1 + r)ᵗ ]
+:::
+::: {style="font-size: 0.78em; color: #94A3B8;"}
+Vₜ = Valor neto en el año t · r = Tasa de descuento · t = Año (1, 2, 3, …)
+:::
+:::
+
+::: col-2
+::: {}
+**Ejemplo completo — Outcome: empleabilidad juvenil**
+
+Proxy: diferencial salarial = $4.032.000/persona/año (neto de DW, AT, DI)
+N beneficiarios: 100 personas
+Drop-off: 15%/año
+Horizonte: 3 años · Tasa descuento: 5%
+
+| Año | Valor neto | Factor descuento | VPN año |
+|-----|-----------|-----------------|---------|
+| 1 | $403.200.000 | 1/(1.05)¹ = 0.952 | $383.980.000 |
+| 2 | $342.720.000 | 1/(1.05)² = 0.907 | $310.847.000 |
+| 3 | $291.312.000 | 1/(1.05)³ = 0.864 | $251.677.000 |
+| **Total** | | | **$946.504.000** |
+:::
+::: box-teal
+**El VPN total del análisis**
+
+Se calcula sumando el VPN de todos los outcomes incluidos en el Value Map:
+
+VPN total = VPN(O1) + VPN(O2) + VPN(O3) + … + VPN(Oₙ)
+
+Si hay outcomes negativos (displazamiento, efectos adversos), se restan.
+
+El resultado es el **Valor Social Neto** del programa para el horizonte analizado.
+:::
+:::
+
+---
+
+## La fórmula SROI
+
+::: {style="text-align: center; margin: 1.5em 0;"}
+::: {style="font-size: 1.4em; color: white; font-weight: 900; margin-bottom: 0.3em;"}
+SROI = VPN(Beneficios netos) / Inversión total
+:::
+::: {style="font-size: 0.85em; color: #94A3B8;"}
+Inversión total = valor monetario total de todos los inputs del programa en el período analizado
+:::
+:::
+
+::: col-2
+::: {}
+**¿Qué incluye la inversión total?**
+
+- Presupuesto operativo del programa (salarios, logística, materiales)
+- Valor del voluntariado (si es significativo)
+- Donaciones en especie valoradas a precio de mercado
+- Infraestructura usada (amortización)
+
+**Lo que NO incluye:**
+- Recursos de otras organizaciones que contribuyeron pero no son el análisis principal
+- Inversiones de beneficiarios (a menos que sean insumos directos del programa)
+:::
+::: {}
+**Interpretación del ratio:**
+
+| Ratio SROI | Interpretación |
+|-----------|----------------|
+| < 1:1 | El programa destruye valor social neto |
+| 1:1 a 2:1 | Por debajo de la mediana internacional |
+| 2:1 a 5:1 | Rango típico de programas sociales bien ejecutados |
+| > 5:1 | Por encima de la mediana internacional (revisar supuestos) |
+
+::: {.box-amber style="font-size: 0.82em; margin-top: 0.8em;"}
+Mediana global: 4.35:1 (383 reportes SVI verificados, CVP EAFIT 2025)
+:::
+:::
+:::
+
+---
+
+## Escenarios: conservador, central y optimista
+
+::: col-2
+::: {}
+El SROI no se reporta como un número puntual sino como un rango de escenarios:
+
+**Escenario conservador:**
+Deadweight alto, attribution alta, horizonte corto, tasa de descuento alta.
+Responde: "¿Cuál es el mínimo que podemos afirmar con seguridad?"
+
+**Escenario central (línea base):**
+Los supuestos más razonables dados los datos disponibles.
+
+**Escenario optimista:**
+Deadweight bajo, más outcomes incluidos, horizonte extendido.
+Responde: "¿Cuál sería el impacto si nuestros supuestos más favorables son correctos?"
+
+Los tres escenarios definen el **rango de confianza** del análisis.
+:::
+::: box-dark
+**Por qué no reportar un único número**
+
+El ratio SROI es sensible a los supuestos. Un cambio del 10% en el deadweight puede mover el ratio en ±0.5 puntos.
+
+Reportar un único número (ej: "4.3:1") sin el rango de confianza da una falsa sensación de precisión que no refleja la incertidumbre real del análisis.
+
+La guía SVI (2012) y el Estándar de Aseguramiento exigen que las limitaciones y la sensibilidad del ratio sean explícitas en el informe.
+
+Sesión 8 cubre cómo reportar esto correctamente.
+:::
+:::
+
+---
+
+## El análisis de sensibilidad básico
+
+::: col-2
+::: {}
+El análisis de sensibilidad responde: "¿Qué tan diferente sería el ratio si cambiara uno de los supuestos clave?"
+
+**Variables más sensibles (típicamente):**
+1. El proxy financiero del outcome más grande
+2. El deadweight del outcome principal
+3. El número de beneficiarios (si es estimado)
+4. La tasa de descuento
+
+**Cómo construirlo:**
+
+Para cada variable clave, calcular el SROI con el valor central, con el valor pesimista (–20% del central) y con el valor optimista (+20%).
+:::
+::: {}
+| Variable | –20% | Central | +20% | SROI |
+|---------|------|---------|------|------|
+| Proxy O1 | –20% | 0% | +20% | 2.8 / 3.5 / 4.2 |
+| DW O1 | +20% DW | central | –20% DW | 2.9 / 3.5 / 4.1 |
+| N beneficiarios | –20% | 0% | +20% | 2.8 / 3.5 / 4.2 |
+
+::: box-teal
+**La señal de un ratio robusto:** el SROI se mantiene por encima de 1.0 incluso bajo el escenario más pesimista.
+
+Si cae por debajo de 1.0 bajo supuestos razonables, el análisis tiene un problema que el informe debe abordar con honestidad.
+:::
+:::
+:::
+
+---
+
+## Cómo comunicar el ratio
+
+::: col-2
+::: {}
+El ratio SROI no habla solo. Necesita contexto para ser interpretado correctamente.
+
+**Contexto necesario para la comunicación:**
+
+1. **El período cubierto:** "Para el ciclo 2024"
+2. **Los stakeholders incluidos:** "Considerando solo beneficiarios directos"
+3. **El rango de confianza:** "Entre 2.3:1 y 5.1:1"
+4. **La posición en el benchmark:** "Por encima de la mediana internacional de 4.35:1"
+5. **Lo que está excluido:** "Sin incluir el impacto en familias por limitaciones de datos"
+:::
+::: box-amber
+**Frases que destruyen credibilidad**
+
+✗ "Generamos $4 de valor por cada $1 invertido"
+(sin mencionar supuestos, rango, ni exclusiones)
+
+✗ "Nuestro SROI es 6.2:1, el más alto del sector"
+(sin evidencia de la comparación)
+
+✗ "El análisis demuestra que el programa es efectivo"
+(el SROI mide eficiencia relativa, no efectividad absoluta)
+
+**Frase que construye credibilidad:**
+
+✓ "El análisis SROI del ciclo 2024 estima entre $2.8 y $5.1 de valor social por cada $1 invertido, con un escenario central de $3.5:1, considerando solo los outcomes monetizables de los beneficiarios directos."
+:::
+:::
+
+---
+
+## {background-color="#0F172A"}
+
+::: seccion-label
+Actividad práctica
+:::
+
+## Actividad: calcular el SROI de su programa
+
+::: col-2
+::: {}
+**Instrucciones (30 minutos en grupo):**
+
+Con los datos de las sesiones anteriores (outcomes, proxies, factores de ajuste), construyan el Value Map simplificado de su programa y calculen el ratio:
+
+1. Completen una fila del Value Map por outcome (stakeholder, proxy, valor, factores, VPN)
+
+2. Sumen los VPN de todos los outcomes → Valor Social Neto
+
+3. Dividan entre la inversión total del programa → Ratio SROI central
+
+4. Construyan un escenario conservador (cambien el deadweight +10pp) y uno optimista (deadweight –10pp)
+
+5. Reporten el resultado como rango: "Entre X:1 y Y:1, escenario central Z:1"
+:::
+::: box-teal
+**Entregable:**
+
+Una tabla de Value Map con al menos 2 outcomes completos, el VPN total, la inversión declarada, el ratio central, y el rango conservador/optimista.
+
+**Reflexión de grupo:** ¿cuál es la variable que más mueve el ratio? ¿qué información necesitarían para reducir esa incertidumbre en el próximo ciclo?
+:::
+:::
+
+---
+
+## Síntesis: de los datos al ratio
+
+::: col-2
+::: {}
+**El Value Map integra todo:**
+- Outcomes de la Sesión 3
+- Evidencia de la Sesión 4
+- Factores de ajuste de la Sesión 5
+- Proxies financieros de la Sesión 6
+
+**El VPN descuenta el tiempo** a una tasa que refleja el costo de oportunidad del capital social (5% para Colombia).
+
+**El ratio no es un punto sino un rango.** El escenario central es la mejor estimación; los extremos definen la zona de incertidumbre honesta.
+:::
+::: box-teal
+**Próxima sesión: Informe y Aseguramiento SVI**
+
+Con el ratio calculado, la última etapa es comunicarlo correctamente: cómo estructurar el informe SVI, los 48 criterios de aseguramiento, y el proceso de verificación externa.
+
+La Sesión 8 cierra el ciclo: de los datos al informe que resiste auditoría.
+
+**Tarea:** traer el Value Map completo con el ratio central y el rango de sensibilidad.
+:::
+:::

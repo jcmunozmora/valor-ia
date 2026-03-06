@@ -1,0 +1,246 @@
+---
+title: "Costos Unitarios"
+page-layout: full
+toc: false
+---
+
+```{=html}
+<div class="page-header">
+<div class="page-header-content">
+<span class="page-tag">Herramientas · Valoración por costos evitados</span>
+<h1>Costos unitarios</h1>
+<p class="page-lead">El método de valoración más usado en SROI: el costo real de un servicio institucional equivalente como proxy del valor generado. Si el programa evitó que alguien necesitara hospitalización, el costo de esa hospitalización es el valor mínimo del outcome. Robusto, justificable y auditable — si se elige el proxy correcto.</p>
+</div>
+</div>
+
+<!-- QUÉ ES Y LA LÓGICA -->
+<div class="content-section alt">
+<div class="content-inner">
+
+<span class="section-label">La lógica del método</span>
+<h2 class="section-heading">¿Qué es un proxy de costo unitario y cuándo es válido?</h2>
+
+<p>Un proxy de costo unitario valora un outcome social usando el costo de un servicio que la persona ya no necesita (costos evitados) o al que ahora puede acceder sin pagarlo (costos de oportunidad). La premisa: si el programa generó un outcome equivalente a lo que ese servicio produce, su costo es el valor mínimo de ese outcome.</p>
+
+<div class="insight-box">
+<div class="insight-label">La distinción clave: costo evitado vs. costo de oportunidad</div>
+<p><strong>Costo evitado:</strong> El servicio habría ocurrido sin el programa y el programa lo previno. Ej.: hospitalización evitada por mejora de salud. El valor = costo de la hospitalización que ya no ocurrirá. <strong>Costo de oportunidad:</strong> El programa produce el mismo efecto que el servicio, pero sin pagarlo. Ej.: el programa reduce el tiempo de desplazamiento al trabajo. El valor = lo que habría costado resolver ese problema de otra forma. La distinción importa para la argumentación pero el cálculo es similar.</p>
+</div>
+
+<div style="display: grid; grid-template-columns: 1fr 1fr; gap: 1rem; margin: 1.5rem 0;">
+<div style="background: white; border: 1px solid #E2E8F0; border-radius: 0.75rem; padding: 1.25rem;">
+<div style="font-weight: 700; color: #0D9488; margin-bottom: 0.5rem; font-size: 0.9rem;">Cuándo usar costos unitarios</div>
+<ul style="font-size: 0.845rem; color: #475569; line-height: 1.7; margin: 0; padding-left: 1.25rem;">
+<li>Existe un servicio institucional con costo conocido y comparable</li>
+<li>El outcome del programa es conceptualmente equivalente a ese servicio</li>
+<li>La fuente del costo unitario es oficial, auditada y reproducible</li>
+<li>El contexto del programa permite la transferencia del proxy</li>
+<li>El stakeholder no habría pagado el servicio de otra forma</li>
+</ul>
+</div>
+<div style="background: white; border: 1px solid #E2E8F0; border-radius: 0.75rem; padding: 1.25rem;">
+<div style="font-weight: 700; color: #DC2626; margin-bottom: 0.5rem; font-size: 0.9rem;">Errores frecuentes</div>
+<ul style="font-size: 0.845rem; color: #475569; line-height: 1.7; margin: 0; padding-left: 1.25rem;">
+<li>Usar el costo más alto disponible sin justificar la equivalencia</li>
+<li>Aplicar costos UK/USA directamente sin ajuste PPP</li>
+<li>Asumir que evitar 1 evento = 1 costo de hospital completo</li>
+<li>Ignorar que parte del costo ya era pagado por el propio beneficiario</li>
+<li>Usar costos privados cuando el beneficio es público o viceversa</li>
+</ul>
+</div>
+</div>
+
+</div>
+</div>
+
+<!-- FUENTES COLOMBIA -->
+<div class="content-section">
+<div class="content-inner">
+
+<span class="section-label">Fuentes primarias — Colombia</span>
+<h2 class="section-heading">Bases de costos unitarios para el contexto colombiano</h2>
+
+<div style="display: flex; flex-direction: column; gap: 0.875rem; margin: 1.5rem 0;">
+
+<div style="background: white; border: 1px solid #E2E8F0; border-radius: 0.75rem; overflow: hidden;">
+<div style="background: #0F172A; padding: 0.75rem 1.25rem; display: flex; align-items: center; justify-content: space-between;">
+<div style="color: white; font-weight: 800; font-size: 0.875rem;">ADRES — Administradora de los Recursos del Sistema General de Seguridad Social en Salud</div>
+<div style="color: #5EEAD4; font-size: 0.7rem; font-weight: 700; text-transform: uppercase; letter-spacing: 0.07em;">Salud</div>
+</div>
+<div style="padding: 1rem 1.25rem; display: grid; grid-template-columns: 1fr 1fr; gap: 1rem;">
+<div>
+<div style="font-size: 0.8rem; font-weight: 700; color: #0F172A; margin-bottom: 0.3rem;">Qué incluye</div>
+<div style="font-size: 0.8rem; color: #475569; line-height: 1.6;">Tarifas SOAT, UPC (Unidad de Pago por Capitación), costos de procedimientos médicos, hospitalización, urgencias, medicamentos del POS. Desagregados por nivel de atención (I, II, III) y departamento.</div>
+</div>
+<div>
+<div style="font-size: 0.8rem; font-weight: 700; color: #0F172A; margin-bottom: 0.3rem;">Aplicaciones típicas</div>
+<div style="font-size: 0.8rem; color: #475569; line-height: 1.6;">Costo de hospitalización evitada, atención de urgencias, consulta psicológica o psiquiátrica, rehabilitación física, tratamientos de enfermedades prevenibles.</div>
+</div>
+</div>
+</div>
+
+<div style="background: white; border: 1px solid #E2E8F0; border-radius: 0.75rem; overflow: hidden;">
+<div style="background: #0D9488; padding: 0.75rem 1.25rem; display: flex; align-items: center; justify-content: space-between;">
+<div style="color: white; font-weight: 800; font-size: 0.875rem;">SENA — Servicio Nacional de Aprendizaje</div>
+<div style="color: rgba(255,255,255,0.75); font-size: 0.7rem; font-weight: 700; text-transform: uppercase; letter-spacing: 0.07em;">Formación laboral</div>
+</div>
+<div style="padding: 1rem 1.25rem; display: grid; grid-template-columns: 1fr 1fr; gap: 1rem;">
+<div>
+<div style="font-size: 0.8rem; font-weight: 700; color: #0F172A; margin-bottom: 0.3rem;">Qué incluye</div>
+<div style="font-size: 0.8rem; color: #475569; line-height: 1.6;">Costo de formación por hora de instrucción, costos por programa técnico y tecnológico, valor de certificaciones de competencias laborales. Publicados en informes de gestión anuales SENA.</div>
+</div>
+<div>
+<div style="font-size: 0.8rem; font-weight: 700; color: #0F172A; margin-bottom: 0.3rem;">Aplicaciones típicas</div>
+<div style="font-size: 0.8rem; color: #475569; line-height: 1.6;">Programas de formación para el trabajo, capacitación técnica, empleabilidad juvenil. El costo SENA es el proxy del valor del entrenamiento que el programa proveyó sin cargo.</div>
+</div>
+</div>
+</div>
+
+<div style="background: white; border: 1px solid #E2E8F0; border-radius: 0.75rem; overflow: hidden;">
+<div style="background: #1E3A5F; padding: 0.75rem 1.25rem; display: flex; align-items: center; justify-content: space-between;">
+<div style="color: white; font-weight: 800; font-size: 0.875rem;">MEN — Ministerio de Educación Nacional</div>
+<div style="color: rgba(255,255,255,0.75); font-size: 0.7rem; font-weight: 700; text-transform: uppercase; letter-spacing: 0.07em;">Educación</div>
+</div>
+<div style="padding: 1rem 1.25rem; display: grid; grid-template-columns: 1fr 1fr; gap: 1rem;">
+<div>
+<div style="font-size: 0.8rem; font-weight: 700; color: #0F172A; margin-bottom: 0.3rem;">Qué incluye</div>
+<div style="font-size: 0.8rem; color: #475569; line-height: 1.6;">Costo por alumno en educación preescolar, primaria, secundaria y media. Costo por estudiante en educación superior (IES públicas). Costos diferenciados por zona urbana/rural y estrato.</div>
+</div>
+<div>
+<div style="font-size: 0.8rem; font-weight: 700; color: #0F172A; margin-bottom: 0.3rem;">Aplicaciones típicas</div>
+<div style="font-size: 0.8rem; color: #475569; line-height: 1.6;">Costo de deserción escolar evitada, valor de la permanencia escolar, apoyo a niños con necesidades educativas especiales, programas de refuerzo académico.</div>
+</div>
+</div>
+</div>
+
+<div style="background: white; border: 1px solid #E2E8F0; border-radius: 0.75rem; overflow: hidden;">
+<div style="background: #7C3AED; padding: 0.75rem 1.25rem; display: flex; align-items: center; justify-content: space-between;">
+<div style="color: white; font-weight: 800; font-size: 0.875rem;">INPEC — Instituto Nacional Penitenciario y Carcelario</div>
+<div style="color: rgba(255,255,255,0.75); font-size: 0.7rem; font-weight: 700; text-transform: uppercase; letter-spacing: 0.07em;">Justicia</div>
+</div>
+<div style="padding: 1rem 1.25rem; display: grid; grid-template-columns: 1fr 1fr; gap: 1rem;">
+<div>
+<div style="font-size: 0.8rem; font-weight: 700; color: #0F172A; margin-bottom: 0.3rem;">Qué incluye</div>
+<div style="font-size: 0.8rem; color: #475569; line-height: 1.6;">Costo diario por recluso, costo anual de privación de libertad, costos del sistema judicial (FGN). Publicados en informes anuales del Ministerio de Justicia y INPEC.</div>
+</div>
+<div>
+<div style="font-size: 0.8rem; font-weight: 700; color: #0F172A; margin-bottom: 0.3rem;">Aplicaciones típicas</div>
+<div style="font-size: 0.8rem; color: #475569; line-height: 1.6;">Programas de prevención de delincuencia, reinserción social, acompañamiento a jóvenes en riesgo. Costo de encarcelamiento evitado como proxy del impacto en seguridad.</div>
+</div>
+</div>
+</div>
+
+<div style="background: white; border: 1px solid #E2E8F0; border-radius: 0.75rem; overflow: hidden;">
+<div style="background: #F59E0B; padding: 0.75rem 1.25rem; display: flex; align-items: center; justify-content: space-between;">
+<div style="color: white; font-weight: 800; font-size: 0.875rem;">DANE — Encuesta de Calidad de Vida (ECV)</div>
+<div style="color: rgba(255,255,255,0.85); font-size: 0.7rem; font-weight: 700; text-transform: uppercase; letter-spacing: 0.07em;">Referencia general</div>
+</div>
+<div style="padding: 1rem 1.25rem;">
+<div style="font-size: 0.8rem; color: #475569; line-height: 1.6;">Gasto promedio de los hogares colombianos en salud, educación, vivienda y cuidado. Útil para estimar el costo de oportunidad de acceder a bienes sin el programa. La ECV es anual y desagregada por decil de ingreso, municipio y tipo de hogar.</div>
+</div>
+</div>
+
+</div>
+
+</div>
+</div>
+
+<!-- FUENTES INTERNACIONALES -->
+<div class="content-section alt">
+<div class="content-inner">
+
+<span class="section-label">Fuentes internacionales (con ajuste PPP)</span>
+<h2 class="section-heading">Bases de datos globales más usadas</h2>
+
+<div style="display: grid; grid-template-columns: repeat(3, 1fr); gap: 1rem; margin: 1.5rem 0;">
+
+<div style="background: white; border: 1px solid #E2E8F0; border-radius: 0.75rem; padding: 1.25rem;">
+<div style="font-weight: 800; color: #0F172A; font-size: 0.875rem; margin-bottom: 0.25rem;">PSSRU Unit Costs</div>
+<div style="font-size: 0.7rem; color: #0D9488; font-weight: 700; margin-bottom: 0.6rem;">Personal Social Services Research Unit · UK</div>
+<div style="font-size: 0.8rem; color: #475569; line-height: 1.6;">Publicación anual de costos unitarios de servicios sociales y de salud del NHS. Incluye servicios de trabajo social, cuidado de adultos mayores, salud mental comunitaria, enfermería. Referencia estándar para SROI evaluativo en UK.</div>
+</div>
+
+<div style="background: white; border: 1px solid #E2E8F0; border-radius: 0.75rem; padding: 1.25rem;">
+<div style="font-weight: 800; color: #0F172A; font-size: 0.875rem; margin-bottom: 0.25rem;">HACT Value Bank</div>
+<div style="font-size: 0.7rem; color: #7C3AED; font-weight: 700; margin-bottom: 0.6rem;">Housing Associations Charitable Trust · UK</div>
+<div style="font-size: 0.8rem; color: #475569; line-height: 1.6;">Base de proxies financieros para outcomes comunitarios y de vivienda social. Categorías: empleo, salud, comunidad, educación. Proxies codificados por grupo de edad y tipo de beneficio. Muy usado en SVI internacionalmente.</div>
+</div>
+
+<div style="background: white; border: 1px solid #E2E8F0; border-radius: 0.75rem; padding: 1.25rem;">
+<div style="font-weight: 800; color: #0F172A; font-size: 0.875rem; margin-bottom: 0.25rem;">Global Value Exchange</div>
+<div style="font-size: 0.7rem; color: #059669; font-weight: 700; margin-bottom: 0.6rem;">Social Value UK</div>
+<div style="font-size: 0.8rem; color: #475569; line-height: 1.6;">Base colaborativa de proxies usados en informes SROI de todo el mundo. Útil para benchmarking de proxies entre sectores. Disponible en línea: globalvaluexchange.org. Permite ver qué proxy usaron otros para outcomes similares.</div>
+</div>
+
+</div>
+
+<div class="warning-box">
+<div class="warning-label">Regla de oro para proxies internacionales</div>
+<p>Nunca aplicar un proxy UK o USA directamente a Colombia. El ajuste mínimo es por PPP (World Bank ICP data). El ajuste preferido es por PPP + validación local: verificar que el servicio equivalente existe en Colombia con características similares, y documentar la fuente local cuando esté disponible. Siempre incluir el ajuste PPP en el análisis de sensibilidad.</p>
+</div>
+
+</div>
+</div>
+
+<!-- CÓMO SELECCIONAR EL PROXY -->
+<div class="content-section">
+<div class="content-inner">
+
+<span class="section-label">La decisión más crítica</span>
+<h2 class="section-heading">Cómo seleccionar y justificar el proxy correcto</h2>
+
+<p>La selección del proxy es una decisión técnica y conceptual que determina si el análisis SROI es creíble. No hay un proxy universalmente "correcto" — hay proxies más o menos apropiados para cada outcome específico.</p>
+
+<div style="background: white; border: 1px solid #E2E8F0; border-radius: 0.75rem; overflow: hidden; margin: 1.5rem 0;">
+
+<div style="background: #0F172A; padding: 0.875rem 1.25rem;">
+<div style="font-weight: 700; color: #5EEAD4; font-size: 0.82rem; letter-spacing: 0.07em; text-transform: uppercase;">Criterios de selección — en orden de prioridad</div>
+</div>
+
+<div style="padding: 0;">
+<div style="display: grid; grid-template-columns: 50px 1fr; gap: 1rem; padding: 0.875rem 1.25rem; border-bottom: 1px solid #F1F5F9; align-items: start;">
+<div style="font-size: 1.5rem; font-weight: 900; color: #0D9488; line-height: 1;">1</div>
+<div>
+<div style="font-weight: 700; color: #0F172A; margin-bottom: 0.2rem; font-size: 0.875rem;">Correspondencia conceptual</div>
+<div style="font-size: 0.845rem; color: #475569; line-height: 1.6;">¿El proxy mide la misma dimensión del bienestar que el outcome? Un programa de mejora de vivienda que reduce el tiempo de desplazamiento debería usar el costo del tiempo perdido — no el costo de una consulta médica, aunque ambos sean "beneficios de salud".</div>
+</div>
+</div>
+<div style="display: grid; grid-template-columns: 50px 1fr; gap: 1rem; padding: 0.875rem 1.25rem; border-bottom: 1px solid #F1F5F9; background: #FAFAFA; align-items: start;">
+<div style="font-size: 1.5rem; font-weight: 900; color: #0D9488; line-height: 1;">2</div>
+<div>
+<div style="font-weight: 700; color: #0F172A; margin-bottom: 0.2rem; font-size: 0.875rem;">Calidad y trazabilidad de la fuente</div>
+<div style="font-size: 0.845rem; color: #475569; line-height: 1.6;">¿El costo unitario viene de una fuente oficial, auditada y reproducible? Un proxy de ADRES o MEN es más defendible que una estimación propia o un costo de proveedor privado. La fuente debe ser citada explícitamente en el informe.</div>
+</div>
+</div>
+<div style="display: grid; grid-template-columns: 50px 1fr; gap: 1rem; padding: 0.875rem 1.25rem; border-bottom: 1px solid #F1F5F9; align-items: start;">
+<div style="font-size: 1.5rem; font-weight: 900; color: #0D9488; line-height: 1;">3</div>
+<div>
+<div style="font-weight: 700; color: #0F172A; margin-bottom: 0.2rem; font-size: 0.875rem;">Contexto de la población beneficiaria</div>
+<div style="font-size: 0.845rem; color: #475569; line-height: 1.6;">¿El proxy es relevante para esta población específica? El costo de una hospitalización en clínica privada no es un proxy válido para una población que solo accede al sistema subsidiado (Sisbén).</div>
+</div>
+</div>
+<div style="display: grid; grid-template-columns: 50px 1fr; gap: 1rem; padding: 0.875rem 1.25rem; align-items: start;">
+<div style="font-size: 1.5rem; font-weight: 900; color: #0D9488; line-height: 1;">4</div>
+<div>
+<div style="font-weight: 700; color: #0F172A; margin-bottom: 0.2rem; font-size: 0.875rem;">Conservadurismo (Principio 5 SVI)</div>
+<div style="font-size: 0.845rem; color: #475569; line-height: 1.6;">Cuando hay varios proxies igualmente válidos, el Principio 5 SVI (no sobreclamar) sugiere usar el más conservador. Documentar los proxies alternativos en el análisis de sensibilidad — si el ratio SROI sigue siendo positivo con el proxy más bajo, el resultado es más creíble.</div>
+</div>
+</div>
+</div>
+
+</div>
+
+</div>
+</div>
+
+<!-- FOOTER -->
+<div class="content-section dark">
+<div class="content-inner" style="display: flex; justify-content: space-between; align-items: center; flex-wrap: wrap; gap: 1rem; padding: 1rem 0;">
+<div>
+<div style="color: #94A3B8; font-size: 0.82rem; margin-bottom: 0.35rem;">Siguiente método de valoración</div>
+<div style="font-size: 1.1rem; font-weight: 700; color: white;">WTP / Valoración contingente →</div>
+</div>
+<a href="wtp.html" class="btn-primary-custom">Ver WTP</a>
+</div>
+</div>
+```

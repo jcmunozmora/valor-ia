@@ -1,0 +1,454 @@
+---
+title: "Curso Básico de SROI — Sesión 5"
+format:
+  revealjs:
+    theme: [dark, sroi_slides.scss]
+    slide-number: "c/t"
+    show-slide-number: all
+    transition: slide
+    transition-speed: fast
+    chalkboard: false
+    scrollable: false
+    fig-align: center
+    echo: false
+    warning: false
+    self-contained: true
+    width: 1280
+    height: 720
+    margin: 0.08
+    footer: "Juan Carlos Muñoz-Mora, PhD · CVP EAFIT · Curso Básico SROI"
+lang: es
+---
+
+## {background-color="#0F172A"}
+
+::: portada-wrap
+::: portada-eyebrow
+Centro Valor Público · EAFIT
+:::
+
+::: portada-titulo
+Factores de Ajuste
+:::
+
+::: portada-sub
+Etapa 4 del SROI — Del cambio observado al impacto neto
+:::
+
+::: {style="margin-bottom: 0.6em;"}
+[Sesión 5]{.pill .pill-teal}
+[Etapa 4 SVI]{.pill .pill-slate}
+[Principio 5]{.pill .pill-amber}
+:::
+
+::: portada-instructor
+**Juan Carlos Muñoz-Mora, PhD** · Economista · Universidad EAFIT<br>
+Ph.D. en Economía · Universidad Libre de Bruselas (ULB)<br>
+Investigador Asociado · Institute of Development Studies (IDS)
+:::
+:::
+
+---
+
+## {background-color="#0F172A"}
+
+::: seccion-label
+Malla curricular
+:::
+
+## Estructura del curso: 8 sesiones
+
+::: mod-grid
+::: mod-card
+[01]{.mod-num}
+Evaluación de programas
+:::
+::: mod-card
+[02]{.mod-num}
+Alcance y stakeholders
+:::
+::: mod-card
+[03]{.mod-num}
+Teoría del Cambio
+:::
+::: mod-card
+[04]{.mod-num}
+Evidencia de outcomes
+:::
+::: {.mod-card .activo}
+[05]{.mod-num}
+**Factores de ajuste**
+:::
+::: mod-card
+[06]{.mod-num}
+Valoración monetaria
+:::
+::: mod-card
+[07]{.mod-num}
+Cálculo del SROI
+:::
+::: mod-card
+[08]{.mod-num}
+Informe y aseguramiento
+:::
+:::
+
+::: {.box-teal style="margin-top: 1.2em; font-size: 0.8em;"}
+**Hoy:** 05 — Factores de ajuste · Etapa 4 de las 6 etapas SVI
+_Sin ajustar, reclamamos demasiado. Ajustar es lo que hace el análisis creíble._
+:::
+
+---
+
+## {background-color="#0F172A"}
+
+::: seccion-label
+Módulo 5 · Factores de impacto
+:::
+
+::: {style="font-size: 2em; font-weight: 900; color: white; margin-top: 0.5em;"}
+No todo el cambio es nuestro
+:::
+
+::: {style="font-size: 0.9em; color: #94A3B8; margin-top: 0.3em;"}
+El Principio 5 exige honestidad sobre la atribución del impacto
+:::
+
+---
+
+## Por qué ajustamos: el riesgo de sobreatribuir
+
+::: col-2
+::: {}
+Sin los factores de ajuste, el análisis SROI cometería un error sistemático: atribuir al programa **todo** el cambio observado en los beneficiarios.
+
+Ese error produce ratios inflados que:
+- No resisten el escrutinio externo
+- Generan desconfianza en el sector
+- Violan el Principio 5 de SVI (No reclamar en exceso)
+- Toman decisiones de asignación de recursos basadas en información incorrecta
+
+**La pregunta correcta:** del total del cambio observado, ¿cuánto es directamente atribuible a la intervención del programa?
+:::
+::: box-amber
+**Principio 5 de SVI**
+
+> *"Do not overclaim. Only claim the value that activities are responsible for creating."*
+
+Un análisis con factores de ajuste bien documentados produce un ratio más bajo — pero mucho más creíble y defendible.
+
+Un ratio de 3.2:1 con factores documentados es más valioso que un ratio de 8:1 sin ajustes. El primero resiste auditoría; el segundo no.
+:::
+:::
+
+---
+
+## Los 4 factores de ajuste
+
+::: col-2
+::: {}
+**1. Deadweight (Peso muerto)**
+Proporción del outcome que habría ocurrido de todas formas, sin el programa.
+
+*Ejemplo:* en un programa de empleo juvenil, si el 30% de los beneficiarios habrían conseguido trabajo igualmente (por el crecimiento del mercado), el deadweight es 30%.
+
+**2. Attribution (Atribución)**
+Proporción del outcome atribuible a otras personas u organizaciones que también contribuyeron.
+
+*Ejemplo:* un programa de formación empresarial colaboró con el SENA y una incubadora local. El programa puede atribuirse el 60% del cambio; el resto se atribuye a los otros actores.
+:::
+::: {}
+**3. Displacement (Desplazamiento)**
+Parte del outcome que se logró a expensas de un efecto negativo en otra parte del sistema.
+
+*Ejemplo:* los graduados del programa consiguieron empleo desplazando a candidatos que no participaron del programa.
+
+**4. Drop-off (Decaimiento)**
+Reducción anual del outcome más allá del primer año. Los efectos no duran para siempre.
+
+*Ejemplo:* las habilidades digitales aprendidas se deprecian a un ritmo del 15% anual si no se usan.
+
+::: box-teal
+Cada factor reduce el valor bruto del outcome. El impacto neto es el resultado de aplicar los cuatro.
+:::
+:::
+:::
+
+---
+
+## La fórmula del impacto neto
+
+::: {style="text-align: center; margin: 1.5em 0;"}
+::: {style="font-size: 1.1em; color: #5EEAD4; font-weight: 700; margin-bottom: 0.5em;"}
+Impacto neto = Valor bruto × (1 – DW) × (1 – AT) × (1 – DI) × (1 – DO)
+:::
+
+::: {style="font-size: 0.78em; color: #94A3B8;"}
+DW = Deadweight · AT = Attribution · DI = Displacement · DO = Drop-off (por año)
+:::
+:::
+
+::: col-2
+::: {}
+**Ejemplo:**
+
+Outcome: empleabilidad juvenil
+Valor bruto del outcome: $8.000.000 COP/persona/año
+N beneficiarios: 100 personas
+
+Deadweight (30%): habría ocurrido de todas formas
+Attribution (20%): parte del SENA y otros actores
+Displacement (10%): se desplazó a candidatos similares
+Drop-off (15%): decaimiento anual del efecto
+:::
+::: {}
+**Cálculo:**
+
+Valor neto (año 1):
+$8.000.000 × (1 – 0.30) × (1 – 0.20) × (1 – 0.10) = **$4.032.000/persona**
+
+Para 100 personas: **$403.200.000 COP**
+
+Año 2 (con drop-off del 15%):
+$403.200.000 × (1 – 0.15) = **$342.720.000 COP**
+
+Año 3:
+$342.720.000 × (1 – 0.15) = **$291.312.000 COP**
+:::
+:::
+
+---
+
+## Cómo estimar el Deadweight
+
+::: col-2
+::: {}
+El deadweight es el factor más determinante del SROI y el más difícil de estimar con precisión.
+
+**Métodos de estimación:**
+
+*Estadísticas de referencia (más común en primer ciclo):*
+Si el 20% de los jóvenes del mismo grupo etario y municipio consigue empleo formal sin intervención → deadweight del 20%
+
+*Consulta con stakeholders:*
+Preguntar a los beneficiarios: "¿Hubiera conseguido este resultado sin el programa?" (resultado orientativo, no definitivo)
+
+*Grupo de comparación:*
+El método más robusto: comparar con personas similares que no participaron
+
+*Literatura académica:*
+¿Existe evidencia de programas similares que informen el deadweight esperado?
+:::
+::: box-dark
+**La trampa del deadweight bajo**
+
+Si el deadweight estimado es muy bajo (< 10%), el análisis debe poder justificarlo rigurosamente. Deadweights bajos sin justificación son la señal de alerta más común en revisiones SVI.
+
+Preguntas que hace un revisor:
+- ¿Por qué solo el 10% habría logrado este resultado sin el programa?
+- ¿Cuál es la tasa de referencia de esta población en el contexto?
+- ¿El beneficiario tiene acceso a alternativas que producirían el mismo outcome?
+:::
+:::
+
+---
+
+## Cómo estimar la Attribution
+
+::: col-2
+::: {}
+**Pasos para la estimación:**
+
+1. Identificar todos los actores que contribuyeron al outcome del beneficiario
+
+2. Consultar con los beneficiarios: "¿Qué otras organizaciones, personas o programas contribuyeron a este cambio?"
+
+3. Asignar proporcionalmente la contribución relativa del programa analizado
+
+**Ejemplo:**
+
+Un joven mejora su empleabilidad gracias a:
+- El programa analizado (60%)
+- El SENA (25%)
+- Un familiar que lo conectó con la empresa (15%)
+
+Attribution del programa: 40% (el 60% restante se atribuye al programa)
+:::
+::: {}
+::: box-teal
+**Cuándo la Attribution es 0%**
+
+Si el programa fue el único actor que intervino en el outcome del beneficiario, la Attribution es 0%.
+
+Pero esto es inusual. La mayoría de los outcomes son resultado de múltiples factores. Asumir Attribution = 0% sin justificación es overclaiming.
+
+**Cuándo la Attribution puede ser alta:**
+
+- Programas en ecosistemas densos de intervención (muchos actores en el mismo territorio)
+- Outcomes que también son objetivo de políticas públicas activas
+- Beneficiarios que participan simultáneamente en múltiples programas
+:::
+:::
+:::
+
+---
+
+## Displacement y Drop-off
+
+::: col-2
+::: {}
+**Displacement — cuándo preocupa:**
+
+El displacement es relevante cuando el outcome del beneficiario se logra a costa de terceros en el mismo mercado o sistema.
+
+Contextos de alto displacement:
+- Formación laboral en mercados de trabajo estrechos
+- Programas de microcrédito en mercados financieros locales pequeños
+- Subsidios de vivienda en mercados inmobiliarios con oferta fija
+
+Cuando el mercado es lo suficientemente grande para absorber el output del programa sin desplazar a nadie, el displacement puede ser cercano a 0%.
+:::
+::: {}
+**Drop-off — cómo calcularlo:**
+
+El drop-off se aplica a los años siguientes al primero. Representa el porcentaje en que el outcome decae cada año.
+
+No todos los outcomes tienen drop-off:
+- Un empleo conseguido en el año 1 puede mantenerse en el año 2 → drop-off bajo o nulo
+- Una habilidad aprendida que no se practica → drop-off del 10–20% anual
+- Un activo construido (parque, infraestructura) → puede tener drop-off negativo (el efecto crece)
+
+::: box-amber
+El drop-off máximo es del 100% (el outcome desaparece completamente después del primer año). Esto hace el horizonte temporal relevante solo para el año 1.
+:::
+:::
+:::
+
+---
+
+## El impacto neto multianual
+
+::: col-2
+::: {}
+Los outcomes no ocurren solo en el año de la intervención. Muchos beneficiarios siguen experimentando el cambio durante varios años.
+
+El SROI calcula el valor del impacto neto para cada año del horizonte temporal y descuenta esos valores a valor presente (Sesión 7).
+
+**Horizonte temporal típico:** 3–5 años para la mayoría de programas sociales.
+
+Para programas con efectos de largo plazo (infraestructura, cambios de comportamiento permanentes) puede extenderse a 10 años.
+:::
+::: {}
+| Año | Beneficiarios | Factor Drop-off | Impacto neto |
+|-----|--------------|-----------------|--------------|
+| 1 | 100 | — | $403.200.000 |
+| 2 | 100 | 15% | $342.720.000 |
+| 3 | 100 | 15% | $291.312.000 |
+| 4 | 100 | 15% | $247.615.000 |
+| **Total** | | | **$1.284.847.000** |
+
+::: {.box-teal style="font-size: 0.82em; margin-top: 0.8em;"}
+Este total (antes de descuento) es el VPN bruto del outcome. En la Sesión 7 se aplica la tasa de descuento.
+:::
+:::
+:::
+
+---
+
+## Documentar los supuestos: transparencia sobre los factores
+
+::: col-2
+::: {}
+Cada factor de ajuste es un supuesto. Todos los supuestos deben documentarse en el informe con:
+
+1. El valor asignado (ej: deadweight 30%)
+2. La fuente o método de estimación
+3. La justificación narrativa de por qué ese valor es razonable
+4. El rango plausible (para el análisis de sensibilidad)
+
+**Un análisis con supuestos bien documentados:**
+- Puede ser auditado por terceros
+- Permite mejorar las estimaciones en ciclos futuros
+- Demuestra que el analista conoce las limitaciones de su trabajo
+:::
+::: box-dark
+**La tabla de factores en el informe SVI**
+
+| Outcome | Deadweight | Attribution | Displacement | Drop-off |
+|---------|-----------|-------------|-------------|----------|
+| Empleabilidad | 30% | 20% | 10% | 15%/año |
+| Bienestar mental | 15% | 10% | 0% | 10%/año |
+| Reducción de violencia | 20% | 30% | 5% | 20%/año |
+
+Esta tabla es uno de los elementos obligatorios del informe según el Estándar de Aseguramiento SVI (Criterio 4.2).
+:::
+:::
+
+---
+
+## {background-color="#0F172A"}
+
+::: seccion-label
+Actividad práctica
+:::
+
+## Actividad: calcular el impacto neto
+
+::: col-2
+::: {}
+**Instrucciones (25 minutos en grupo):**
+
+Para los outcomes del Impact Map de su programa, asignen los 4 factores de ajuste:
+
+1. **Deadweight:** ¿qué hubiera pasado sin el programa? Busquen un dato de referencia para su contexto
+
+2. **Attribution:** ¿qué otros actores contribuyeron? Consulten si pueden con datos del programa
+
+3. **Displacement:** ¿hay un mercado o sistema en el que el beneficio de unos vino a costa de otros?
+
+4. **Drop-off:** ¿cuánto dura el efecto? Estimen el decaimiento anual
+
+Calculen el impacto neto del año 1 usando la fórmula.
+:::
+::: box-amber
+**Entregable:**
+
+| Outcome | DW | AT | DI | DO | Valor bruto | Impacto neto año 1 |
+|---------|-----|-----|-----|-----|------------|---------------------|
+| [O1] | % | % | % | % | $... | $... |
+
+**Reflexión de grupo:** ¿en cuál factor tienen mayor incertidumbre? ¿cómo podría mejorarse la estimación en el próximo ciclo?
+:::
+:::
+
+---
+
+## Síntesis: los factores como sello de credibilidad
+
+::: col-2
+::: {}
+**Los 4 factores de ajuste son el estándar de honestidad del análisis SROI.**
+
+Un informe sin estos factores está reclamando que el 100% del cambio observado en los beneficiarios fue causado por el programa — lo cual es casi nunca cierto.
+
+**Deadweight:** lo que habría pasado de todas formas
+**Attribution:** lo que hicieron otros
+**Displacement:** lo que quitamos a terceros
+**Drop-off:** cuánto dura el efecto
+
+La fórmula convierte cambio observado en **impacto neto atribuible**.
+:::
+::: box-teal
+**Próxima sesión: Valoración monetaria**
+
+Con el impacto neto calculado, la pregunta es: ¿cuánto vale ese impacto en términos monetarios?
+
+La Sesión 6 enseña cómo asignar un valor financiero a outcomes sociales:
+- Costos unitarios (ADRES, SENA, MinSalud)
+- Preferencias reveladas (salarios, precios hedónicos)
+- Preferencias declaradas (WTP)
+- Valoración del bienestar (WELLBY)
+
+**Tarea:** traer los factores de ajuste calculados y el impacto neto del año 1 para su programa.
+:::
+:::

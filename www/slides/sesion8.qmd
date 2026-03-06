@@ -1,0 +1,419 @@
+---
+title: "Curso Básico de SROI — Sesión 8"
+format:
+  revealjs:
+    theme: [dark, sroi_slides.scss]
+    slide-number: "c/t"
+    show-slide-number: all
+    transition: slide
+    transition-speed: fast
+    chalkboard: false
+    scrollable: false
+    fig-align: center
+    echo: false
+    warning: false
+    self-contained: true
+    width: 1280
+    height: 720
+    margin: 0.08
+    footer: "Juan Carlos Muñoz-Mora, PhD · CVP EAFIT · Curso Básico SROI"
+lang: es
+---
+
+## {background-color="#0F172A"}
+
+::: portada-wrap
+::: portada-eyebrow
+Centro Valor Público · EAFIT
+:::
+
+::: portada-titulo
+Informe y Aseguramiento
+:::
+
+::: portada-sub
+Etapa 6 del SROI — Comunicar el valor social con credibilidad
+:::
+
+::: {style="margin-bottom: 0.6em;"}
+[Sesión 8]{.pill .pill-teal}
+[Etapa 6 SVI]{.pill .pill-slate}
+[48 criterios]{.pill .pill-amber}
+:::
+
+::: portada-instructor
+**Juan Carlos Muñoz-Mora, PhD** · Economista · Universidad EAFIT<br>
+Ph.D. en Economía · Universidad Libre de Bruselas (ULB)<br>
+Investigador Asociado · Institute of Development Studies (IDS)
+:::
+:::
+
+---
+
+## {background-color="#0F172A"}
+
+::: seccion-label
+Malla curricular
+:::
+
+## Estructura del curso: 8 sesiones
+
+::: mod-grid
+::: mod-card
+[01]{.mod-num}
+Evaluación de programas
+:::
+::: mod-card
+[02]{.mod-num}
+Alcance y stakeholders
+:::
+::: mod-card
+[03]{.mod-num}
+Teoría del Cambio
+:::
+::: mod-card
+[04]{.mod-num}
+Evidencia de outcomes
+:::
+::: mod-card
+[05]{.mod-num}
+Factores de ajuste
+:::
+::: mod-card
+[06]{.mod-num}
+Valoración monetaria
+:::
+::: mod-card
+[07]{.mod-num}
+Cálculo del SROI
+:::
+::: {.mod-card .activo}
+[08]{.mod-num}
+**Informe y aseguramiento**
+:::
+:::
+
+::: {.box-teal style="margin-top: 1.2em; font-size: 0.8em;"}
+**Hoy:** 08 — Informe y aseguramiento · Etapa 6 de las 6 etapas SVI
+_El análisis más riguroso no sirve si no se comunica con transparencia y estructura_
+:::
+
+---
+
+## {background-color="#0F172A"}
+
+::: seccion-label
+Módulo 8 · Informe y aseguramiento
+:::
+
+::: {style="font-size: 2em; font-weight: 900; color: white; margin-top: 0.5em;"}
+La última milla del análisis
+:::
+
+::: {style="font-size: 0.9em; color: #94A3B8; margin-top: 0.3em;"}
+Un informe SROI no es el final — es el inicio del uso
+:::
+
+---
+
+## Qué es el Estándar de Aseguramiento SVI
+
+::: col-2
+::: {}
+Social Value International publica el **SVI Report Assurance Standard**: un conjunto de criterios que define qué debe contener un informe SROI para ser verificable externamente.
+
+**48 criterios** organizados en 7 grupos (correspondientes a los Principios 1–7):
+
+- Principio 1: Involucramiento de stakeholders (8 criterios)
+- Principio 2: Entender qué cambia (7 criterios)
+- Principio 3: Valorar lo que importa (8 criterios)
+- Principio 4: Solo lo material (6 criterios)
+- Principio 5: No reclamar en exceso (7 criterios)
+- Principio 6: Ser transparente (6 criterios)
+- Principio 7: Verificar el resultado (6 criterios)
+:::
+::: box-teal
+**Por qué importa el Estándar**
+
+Sin el Estándar, cualquier organización puede publicar un "análisis SROI" con cualquier ratio. El Estándar define lo que hace verificable un análisis y lo diferencia de una presentación de marketing.
+
+Los 8 reportes actualmente asegurados por SVI en el mundo pasaron por una revisión independiente contra los 48 criterios.
+
+La credibilidad del sector depende de que la mayoría de los análisis busque acercarse al Estándar, aunque no todos lleguen al aseguramiento formal.
+:::
+:::
+
+---
+
+## Estructura del informe SROI según SVI
+
+::: col-2
+::: {}
+**Sección 1: Alcance y stakeholders**
+Quién, qué, cuándo, dónde. Proceso de involucramiento.
+
+**Sección 2: Outcomes y evidencia**
+Impact Map completo. Fuentes de datos. N muestral. Indicadores.
+
+**Sección 3: Valoración**
+Proxies financieros con fuentes. Justificación de cada proxy.
+
+**Sección 4: Impacto neto**
+Tabla de factores de ajuste (DW, AT, DI, DO) por outcome. Justificación.
+
+**Sección 5: Cálculo del SROI**
+Value Map completo. Tasa de descuento. VPN por outcome. Ratio SROI.
+
+**Sección 6: Análisis de sensibilidad y limitaciones**
+Rango de escenarios. Variables más sensibles. Limitaciones conocidas.
+:::
+::: box-dark
+**Lo que distingue un buen informe**
+
+1. Puede reproducirse: las fórmulas y los supuestos permiten que un tercero llegue al mismo número
+2. Es honesto sobre las limitaciones: no solo presenta lo que funcionó
+3. Es proporcional: la extensión de cada sección refleja su importancia metodológica
+4. No confunde outputs con outcomes en ninguna sección
+5. El resumen ejecutivo y el informe técnico son consistentes entre sí
+
+**Señal de alerta:** si el ratio solo aparece en el resumen ejecutivo pero el análisis detallado no lo respalda paso a paso, el informe no es verificable.
+:::
+:::
+
+---
+
+## Los niveles de aseguramiento SVI
+
+::: col-2
+::: {}
+No todos los análisis SROI tienen el mismo nivel de verificación. SVI reconoce una progresión:
+
+**Nivel 1 — Autoevaluado:**
+La organización aplica la metodología y reporta los resultados. Sin revisión independiente.
+
+**Nivel 2 — Revisado por pares:**
+Un tercero familiarizado con SROI revisa el informe y da retroalimentación antes de publicarlo.
+
+**Nivel 3 — Asegurado por SVI:**
+Un verificador certificado por Social Value International revisa el informe contra los 48 criterios y emite una carta de aseguramiento.
+
+**Nivel 4 — Asegurado + publicado:**
+El informe aparece en la base de datos pública de reportes SVI verificados.
+:::
+::: {}
+::: box-teal
+**El Semáforo de Madurez y los niveles**
+
+El nivel de aseguramiento es la dimensión más objetiva del Semáforo de Madurez del CVP EAFIT:
+
+🟡 **Amarillo:** análisis existe, primer ciclo, sin aseguramiento externo aún
+
+🟢 **Verde:** revisión por pares completada. Próximo ciclo con mejoras metodológicas comprometidas
+
+🟢🟢 **Verde oscuro:** aseguramiento SVI completo
+
+La mayoría de primeros análisis son Nivel 1. El aseguramiento SVI completo típicamente toma 2–3 ciclos evaluativos de mejora continua.
+:::
+:::
+:::
+
+---
+
+## El Principio 7: Verificar el resultado
+
+::: col-2
+::: {}
+> *"Verify the result. Appropriate verification of the SROI should take place. Seek external assurance."*
+> — Social Value International, 2012
+
+Este principio reconoce que incluso el analista más riguroso tiene sesgos potenciales. La verificación externa —ya sea por pares o por SVI— aumenta la credibilidad del resultado.
+
+**El problema con la autoevaluación:**
+
+Las organizaciones que producen sus propios análisis SROI tienen incentivos para:
+- Incluir más outcomes positivos que negativos
+- Estimar deadweight más bajo de lo justificado
+- Seleccionar proxies que maximizan el ratio
+
+La verificación externa contrarresta estos sesgos.
+:::
+::: box-amber
+**¿Cómo declarlo en el informe cuando no hay aseguramiento?**
+
+El informe debe incluir una sección explícita que declare el nivel de verificación actual y el plan de mejora:
+
+*"Este informe fue producido por [organización] con acompañamiento metodológico del Centro Valor Público EAFIT. No ha sido formalmente asegurado por Social Value International. Los resultados representan el mejor juicio del equipo analítico dados los datos disponibles. El plan de mejora para el siguiente ciclo incluye [acciones específicas] con el objetivo de alcanzar aseguramiento SVI en [año]."*
+:::
+:::
+
+---
+
+## El Principio 8: Ser responsivo
+
+::: col-2
+::: {}
+> *"Be responsive. Recognise that assuring social value should lead to ongoing improvement and communication."*
+> — Social Value International, 2012
+
+Un informe SROI que no cambia nada en el programa es un informe desperdiciado. El Principio 8 cierra el ciclo: el análisis debe conducir a decisiones y compromisos concretos.
+
+**Lo que debe incluir el informe en la sección de cierre:**
+
+- Qué decisiones se tomaron o se tomarán a partir del análisis
+- Qué ajustes se harán al programa en el próximo ciclo
+- Cómo se compartirán los resultados con los stakeholders
+- El plan de mejora metodológica para el siguiente análisis
+:::
+::: box-teal
+**La hoja de ruta de mejora continua**
+
+Un informe SROI bien construido cierra con compromisos en 3–4 fases:
+
+**Inmediato (0–3 meses):** acciones del programa derivadas del análisis
+
+**Próximo ciclo (6–12 meses):** mejoras en el sistema de medición (baseline, encuestas)
+
+**Ciclo + 1 (12–24 meses):** diseño más robusto, grupo de comparación, proxies actualizados
+
+**Aseguramiento (24–36 meses):** revisión SVI formal
+
+La hoja de ruta es un contrato público de rendición de cuentas.
+:::
+:::
+
+---
+
+## Los 48 criterios: una mirada general
+
+::: col-2
+::: {}
+No es necesario memorizar los 48 criterios, pero sí entender su lógica general:
+
+**Los criterios cubiertos por defecto** en un análisis bien ejecutado:
+- Alcance definido (P1)
+- Stakeholders identificados con justificación (P1)
+- Impact Map documentado (P2)
+- Proxies con fuentes declaradas (P3)
+- Factores de ajuste por outcome (P5)
+- Rango de sensibilidad reportado (P6)
+- Nivel de verificación declarado (P7)
+
+**Los criterios que más análisis incumplen:**
+- Proceso de involucramiento de stakeholders documentado (P1.2–P1.5)
+- Outcomes negativos materiales incluidos (P2.4)
+- Justificación de exclusiones (P4.2)
+- Análisis de sensibilidad con variables específicas (P6.3)
+:::
+::: box-dark
+**Cómo usar los 48 criterios como checklist**
+
+Antes de publicar el informe, revise cada criterio y clasifíquelo:
+
+✓ **Cumplido:** el informe contiene evidencia de este criterio
+
+⚠ **Parcial:** el criterio está mencionado pero no documentado a fondo
+
+✗ **No cumplido:** el informe no aborda este criterio
+
+El resultado es el Semáforo de Madurez del informe — una vista honesta de qué tan cerca está el análisis del estándar de aseguramiento.
+:::
+:::
+
+---
+
+## Comunicar a diferentes audiencias
+
+::: col-2
+::: {}
+El mismo análisis SROI debe comunicarse de forma diferente a distintas audiencias:
+
+**Junta directiva / alta gerencia:**
+Resumen ejecutivo de 2 páginas. El ratio, el rango, las recomendaciones estratégicas. Sin metodología detallada.
+
+**Financiadores e inversionistas de impacto:**
+Énfasis en la robustez metodológica, el benchmarking internacional, la trayectoria de mejora. Señales de credibilidad.
+
+**Comunidades y beneficiarios:**
+Lenguaje accesible. Qué encontramos sobre el impacto en sus vidas. Compromisos de la organización derivados del análisis.
+
+**Reguladores y academia:**
+Metodología completa, fuentes primarias, análisis de sensibilidad, limitaciones explícitas.
+:::
+::: box-amber
+**El error más frecuente de comunicación**
+
+Publicar el resumen ejecutivo como si fuera el análisis completo, sin acceso al informe técnico.
+
+Un ratio SROI sin la estructura metodológica que lo respalda no es transparente — es una cifra sin contexto.
+
+**La buena práctica:** el resumen ejecutivo siempre referencia el informe técnico completo, y el informe técnico siempre está disponible para quien quiera auditarlo.
+:::
+:::
+
+---
+
+## {background-color="#0F172A"}
+
+::: seccion-label
+Actividad final
+:::
+
+## Actividad: el semáforo de madurez de su análisis
+
+::: col-2
+::: {}
+**Instrucciones (25 minutos en grupo):**
+
+Usando el análisis que han construido a lo largo del curso, evalúen su propio trabajo contra las 5 dimensiones del Semáforo de Madurez:
+
+1. **Coherencia programática (D1):** ¿tienen Teoría del Cambio documentada con cadenas causales plausibles?
+
+2. **Eficacia (D2):** ¿tienen evidencia de que los outcomes ocurrieron y en qué medida?
+
+3. **Eficiencia operativa (D3):** ¿los factores de ajuste están documentados con justificación?
+
+4. **Impacto social (D4):** ¿el análisis es robusto metodológicamente? ¿tienen grupo de comparación?
+
+5. **Valoración monetaria (D5):** ¿los proxies son apropiados para el contexto? ¿tienen rango de sensibilidad?
+:::
+::: box-teal
+**Entregable:**
+
+Para cada dimensión, asignar verde / amarillo / rojo con una justificación de 2–3 líneas.
+
+Luego definir 3 compromisos de mejora para el próximo ciclo evaluativo — uno por cada dimensión que no esté en verde.
+
+**Reflexión final del curso:** ¿cuál es la acción más urgente que tomarán en su organización a partir de lo aprendido?
+:::
+:::
+
+---
+
+## {background-color="#0F172A"}
+
+::: portada-wrap
+::: portada-eyebrow
+Centro Valor Público · EAFIT
+:::
+
+::: portada-titulo
+De cero a autonomía metodológica
+:::
+
+::: portada-sub
+Ha recorrido las 6 etapas SVI, los 8 principios y el Estándar de Aseguramiento.<br>
+El siguiente paso es aplicarlo con su propio programa.
+:::
+
+::: {style="margin-bottom: 0.6em;"}
+[8 sesiones completadas]{.pill .pill-teal}
+[Value Map propio]{.pill .pill-slate}
+[Semáforo de Madurez]{.pill .pill-amber}
+:::
+
+::: portada-instructor
+**Centro Valor Público · Universidad EAFIT**<br>
+Medellín, Colombia · cvp@eafit.edu.co<br>
+Consultas metodológicas: jcmunozm@eafit.edu.co
+:::
+:::

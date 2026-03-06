@@ -314,6 +314,110 @@ $selection-bg: $teal !default;
 }
 .logico-body { color: #CBD5E1; padding-top: 0.3rem; }
 
+// ── Semáforo de madurez de impacto ───────────────────────────────────────────
+.semafor-grid {
+  display: grid;
+  grid-template-columns: repeat(5, 1fr);
+  gap: 0.5rem;
+  font-size: 0.62em;
+  margin: 0.8em 0;
+}
+.semafor-grid-3 {
+  display: grid;
+  grid-template-columns: repeat(3, 1fr);
+  gap: 0.6rem;
+  font-size: 0.7em;
+  margin: 0.8em 0;
+}
+.semafor-card {
+  border-radius: 6px;
+  padding: 0.75rem 0.7rem;
+  border: 1px solid;
+  border-left-width: 3px;
+}
+.semafor-nivel {
+  font-size: 0.75em;
+  font-weight: 800;
+  text-transform: uppercase;
+  letter-spacing: 0.08em;
+  display: flex;
+  align-items: center;
+  gap: 0.3em;
+  margin-bottom: 0.45em;
+}
+.semafor-titulo {
+  font-weight: 800;
+  color: white;
+  margin-bottom: 0.35em;
+  font-size: 0.95em;
+  line-height: 1.2;
+}
+.semafor-desc {
+  color: #94A3B8;
+  font-size: 0.85em;
+  line-height: 1.4;
+}
+.semafor-card.verde {
+  background: rgba(16,185,129,0.08);
+  border-color: rgba(16,185,129,0.25);
+  border-left-color: #10B981;
+  .semafor-nivel { color: #34D399; }
+}
+.semafor-card.amarillo {
+  background: rgba(245,158,11,0.08);
+  border-color: rgba(245,158,11,0.25);
+  border-left-color: #F59E0B;
+  .semafor-nivel { color: #FCD34D; }
+}
+.semafor-card.rojo {
+  background: rgba(239,68,68,0.08);
+  border-color: rgba(239,68,68,0.25);
+  border-left-color: #EF4444;
+  .semafor-nivel { color: #F87171; }
+}
+.semafor-leyenda {
+  display: flex;
+  gap: 1.5rem;
+  font-size: 0.65em;
+  color: #64748B;
+  margin-top: 0.7em;
+  justify-content: center;
+}
+.semafor-dot {
+  display: inline-block;
+  width: 0.55em;
+  height: 0.55em;
+  border-radius: 50%;
+  margin-right: 0.3em;
+  vertical-align: middle;
+}
+
+// ── Método-selector cards (qué método para qué semáforo) ─────────────────────
+.metodo-selector {
+  display: grid;
+  grid-template-columns: 1fr 1fr;
+  gap: 0.6rem;
+  font-size: 0.68em;
+  margin: 0.6em 0;
+}
+.metodo-sel-card {
+  border-radius: 6px;
+  padding: 0.7rem 0.8rem;
+  display: flex;
+  gap: 0.6rem;
+  align-items: flex-start;
+}
+.metodo-sel-dim {
+  font-weight: 800;
+  color: white;
+  font-size: 0.9em;
+  margin-bottom: 0.2em;
+}
+.metodo-sel-rec {
+  color: #94A3B8;
+  font-size: 0.85em;
+}
+
 // ── Progress bar (pie de slide) ──────────────────────────────────────────────
 .reveal .progress {
   background: rgba(255,255,255,0.1);

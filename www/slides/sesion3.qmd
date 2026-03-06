@@ -1,0 +1,406 @@
+---
+title: "Curso Básico de SROI — Sesión 3"
+format:
+  revealjs:
+    theme: [dark, sroi_slides.scss]
+    slide-number: "c/t"
+    show-slide-number: all
+    transition: slide
+    transition-speed: fast
+    chalkboard: false
+    scrollable: false
+    fig-align: center
+    echo: false
+    warning: false
+    self-contained: true
+    width: 1280
+    height: 720
+    margin: 0.08
+    footer: "Juan Carlos Muñoz-Mora, PhD · CVP EAFIT · Curso Básico SROI"
+lang: es
+---
+
+## {background-color="#0F172A"}
+
+::: portada-wrap
+::: portada-eyebrow
+Centro Valor Público · EAFIT
+:::
+
+::: portada-titulo
+Teoría del Cambio
+:::
+
+::: portada-sub
+Etapa 2 del SROI — Construir el mapa de impacto
+:::
+
+::: {style="margin-bottom: 0.6em;"}
+[Sesión 3]{.pill .pill-teal}
+[Impact Map]{.pill .pill-slate}
+[Principios 2–3]{.pill .pill-amber}
+:::
+
+::: portada-instructor
+**Juan Carlos Muñoz-Mora, PhD** · Economista · Universidad EAFIT<br>
+Ph.D. en Economía · Universidad Libre de Bruselas (ULB)<br>
+Investigador Asociado · Institute of Development Studies (IDS)
+:::
+:::
+
+---
+
+## {background-color="#0F172A"}
+
+::: seccion-label
+Malla curricular
+:::
+
+## Estructura del curso: 8 sesiones
+
+::: mod-grid
+::: mod-card
+[01]{.mod-num}
+Evaluación de programas
+:::
+::: mod-card
+[02]{.mod-num}
+Alcance y stakeholders
+:::
+::: {.mod-card .activo}
+[03]{.mod-num}
+**Teoría del Cambio**
+:::
+::: mod-card
+[04]{.mod-num}
+Evidencia de outcomes
+:::
+::: mod-card
+[05]{.mod-num}
+Factores de ajuste
+:::
+::: mod-card
+[06]{.mod-num}
+Valoración monetaria
+:::
+::: mod-card
+[07]{.mod-num}
+Cálculo del SROI
+:::
+::: mod-card
+[08]{.mod-num}
+Informe y aseguramiento
+:::
+:::
+
+::: {.box-teal style="margin-top: 1.2em; font-size: 0.8em;"}
+**Hoy:** 03 — Teoría del Cambio · El mapa entre la inversión y el impacto
+_Sin una Teoría del Cambio explícita, el análisis SROI no tiene estructura causal_
+:::
+
+---
+
+## {background-color="#0F172A"}
+
+::: seccion-label
+Módulo 3 · Teoría del Cambio
+:::
+
+::: {style="font-size: 2em; font-weight: 900; color: white; margin-top: 0.5em;"}
+El mapa antes del territorio
+:::
+
+::: {style="font-size: 0.9em; color: #94A3B8; margin-top: 0.3em;"}
+¿Cómo se supone que funciona su programa?
+:::
+
+---
+
+## La cadena de cambio: 5 eslabones
+
+La Teoría del Cambio mapea la cadena causal completa del programa, desde los recursos hasta el impacto último:
+
+::: logico-grid
+::: {}
+::: logico-header
+Inputs
+:::
+::: logico-body
+Recursos invertidos: tiempo, dinero, infraestructura, voluntariado
+:::
+:::
+::: {}
+::: logico-header
+Actividades
+:::
+::: logico-body
+Lo que hace el programa: talleres, entregas, atenciones, construcciones
+:::
+:::
+::: {}
+::: logico-header
+Outputs
+:::
+::: logico-body
+Lo que produce: personas capacitadas, servicios entregados, metros construidos
+:::
+:::
+::: {}
+::: logico-header
+Outcomes
+:::
+::: logico-body
+Los cambios en la vida de las personas: nuevas habilidades, mejor salud, mayor ingreso
+:::
+:::
+::: {}
+::: logico-header
+Impacto
+:::
+::: logico-body
+El cambio neto atribuible al programa, una vez descontados los efectos que habrían ocurrido de todas formas
+:::
+:::
+:::
+
+::: {.box-amber style="margin-top: 1em; font-size: 0.82em;"}
+**El error más frecuente:** confundir outputs con outcomes. El número de personas capacitadas es un output. Lo que cambia en la vida de esas personas como resultado de la capacitación es un outcome.
+:::
+
+---
+
+## Output vs. Outcome: la distinción clave
+
+::: col-2
+::: {}
+**Outputs** — lo que el programa entrega
+
+Son contables, verificables, directamente controlados por la organización. Responden a "¿cuánto hicimos?"
+
+Ejemplos:
+- 320 jóvenes formados en habilidades digitales
+- 45 talleres realizados
+- 1.200 m² de parque rehabilitado
+- 580 controles de salud preventiva realizados
+
+Los outputs son necesarios para el análisis, pero **no son el impacto**. No tienen valor social por sí mismos.
+:::
+::: {}
+**Outcomes** — lo que cambia en la gente
+
+Son los cambios en el comportamiento, actitudes, habilidades, salud, ingresos o circunstancias de los stakeholders. Responden a "¿qué fue diferente?"
+
+Ejemplos:
+- Jóvenes que consiguen empleo formal
+- Comunidad que percibe el espacio como seguro
+- Personas que evitan hospitalizaciones
+- Familias con mayor cohesión social
+
+::: box-teal
+Los outcomes son la **materia prima** del SROI. Todo el análisis cuantitativo opera sobre ellos.
+:::
+:::
+:::
+
+---
+
+## El principio de causalidad plausible
+
+Para que un outcome pueda incluirse en el análisis SROI, la Teoría del Cambio debe mostrar que existe una cadena causal **plausible** entre las actividades del programa y ese cambio:
+
+::: col-2
+::: {}
+**Cadena plausible:**
+
+Actividad → Output → Outcome → ¿Por qué tiene sentido?
+
+*Ejemplo:*
+Talleres de alfabetización digital (actividad)
+→ Jóvenes con certificación (output)
+→ Jóvenes que consiguen empleo formal (outcome)
+→ Plausible: empleadores reportan valorar las competencias digitales certificadas
+:::
+::: {}
+**Cadena débil (señal de alerta):**
+
+*Ejemplo:*
+Actividad cultural en espacio público (actividad)
+→ 800 asistentes al evento (output)
+→ Reducción de la tasa de homicidios del municipio (outcome)
+→ La cadena causal es demasiado larga e intermediada para ser atribuible
+
+::: box-amber
+Un outcome sin cadena causal plausible no debe incluirse — viola el Principio 5 (No reclamar en exceso).
+:::
+:::
+:::
+
+---
+
+## Outcomes esperados e inesperados
+
+::: col-2
+::: {}
+El mapa de impacto no debe incluir solo los outcomes que la organización **quería** producir. Debe incluir también los que **realmente ocurrieron** — incluso si no estaban planificados.
+
+**Outcomes inesperados positivos:**
+Incluirlos si son materiales y verificables. Agregan credibilidad (la organización fue honesta con lo que encontró)
+
+**Outcomes inesperados negativos:**
+También deben incluirse si son materiales. Omitirlos viola el Principio 6 (Ser transparente)
+
+Ejemplos de outcomes negativos:
+- Desplazamiento de beneficiarios competidores
+- Efectos de estigmatización
+- Dependencia creada por el programa
+:::
+::: box-dark
+**El caso del programa de formación laboral**
+
+Una organización forma a 200 jóvenes desempleados y todos consiguen empleo (+).
+
+Pero en el mismo mercado laboral, 40 personas sin formación perdieron sus puestos de trabajo porque los empleadores prefirieron a los graduados del programa (−).
+
+El análisis honesto incluye ambos efectos. Ignorar los negativos es cherry-picking que destruye credibilidad.
+:::
+:::
+
+---
+
+## Construir el Impact Map: paso a paso
+
+El Impact Map es la representación visual de la Teoría del Cambio en formato de tabla. Es el documento central del análisis SROI.
+
+::: col-2
+::: {}
+**Columnas del Impact Map:**
+
+1. **Stakeholder** — quién experimenta el cambio
+2. **Input** — qué recursos usa para ese stakeholder
+3. **Actividades** — qué hace el programa con ese stakeholder
+4. **Output** — qué entrega medible se produce
+5. **Outcome** — qué cambia en su vida
+6. **Indicador** — cómo vamos a medir ese cambio
+7. **Fuente de datos** — cómo sabremos que ocurrió
+:::
+::: box-teal
+**Un outcome por fila**
+
+Cada fila del Impact Map representa un outcome específico para un stakeholder específico.
+
+Si un stakeholder tiene 3 outcomes distintos → 3 filas separadas.
+
+Si dos stakeholders comparten el mismo tipo de outcome → 2 filas separadas (porque el volumen y el valor puede diferir).
+
+Esto permite el análisis por separado en las etapas siguientes.
+:::
+:::
+
+---
+
+## El contrafactual: la pregunta incómoda
+
+::: col-2
+::: box-amber
+**¿Qué hubiera pasado sin el programa?**
+
+Esta pregunta — el contrafactual — es la más difícil y más importante de la Teoría del Cambio.
+
+Sin el contrafactual, no sabemos si los outcomes son resultado del programa o de otros factores (crecimiento económico, políticas públicas, otras intervenciones, maduración natural de la población).
+:::
+::: {}
+**Cómo pensar el contrafactual en la Etapa 2:**
+
+No es necesario cuantificarlo todavía (eso viene en la Etapa 4 con el deadweight). Pero la Teoría del Cambio debe reconocer que los outcomes observados tienen una porción que habría ocurrido de todas formas.
+
+**Preguntas para la ToC:**
+- ¿Estos jóvenes habrían conseguido empleo sin el programa?
+- ¿Esta comunidad se habría sentido más segura sin la intervención?
+- ¿Esta mejora en salud habría ocurrido con solo el paso del tiempo?
+:::
+:::
+
+---
+
+## Principios 2 y 3 de SVI: la guía de la ToC
+
+::: col-2
+::: {}
+**Principio 2: Entender lo que cambia**
+
+> *"Articulate how change is created and evaluate this. Think about what happens as a result of the activity and recognize this in terms of both intended and unintended, positive and negative changes."*
+
+La ToC debe ser explícita sobre los mecanismos de cambio — no asumirlos.
+:::
+::: {}
+**Principio 3: Valorar lo que importa**
+
+> *"Use stakeholder involvement to understand the relative importance of outcomes and value them in a way that reflects the stakeholder perspective."*
+
+La selección de outcomes para el Impact Map debe reflejar lo que los stakeholders dicen que importa — no solo lo que es fácil de medir.
+:::
+:::
+
+::: {.box-teal style="margin-top: 1em; font-size: 0.82em;"}
+**La ToC como contrato:** Una Teoría del Cambio bien construida es un contrato público. Si al final del ciclo evaluativo los outcomes no se materializaron, la organización tiene la responsabilidad de explicar por qué la cadena causal no funcionó.
+:::
+
+---
+
+## {background-color="#0F172A"}
+
+::: seccion-label
+Actividad práctica
+:::
+
+## Actividad: construir la ToC de su programa
+
+::: col-2
+::: {}
+**Instrucciones (25 minutos en grupo):**
+
+Usando los stakeholders identificados en la Sesión 2, construyan las primeras filas del Impact Map para su programa:
+
+1. Para cada stakeholder núcleo, listen los outcomes principales (2–3 por stakeholder)
+2. Para cada outcome, construyan la cadena: Actividad → Output → Outcome
+3. Identifiquen si hay outcomes inesperados (positivos o negativos) que deberían aparecer
+4. Señalen cuál sería el contrafactual para el outcome más importante
+5. Discutan: ¿la cadena causal es plausible? ¿o es demasiado larga?
+:::
+::: box-amber
+**Formato de entrega:**
+
+Tabla con columnas:
+
+| Stakeholder | Actividad | Output | Outcome | ¿Cadena plausible? |
+|-------------|-----------|--------|---------|-------------------|
+| ... | ... | ... | ... | Sí/No/Dudoso |
+
+**Señal de éxito:** si pueden explicar en una oración cómo la actividad produce el outcome, la cadena es plausible. Si necesitan más de 3 pasos intermedios, probablemente es demasiado larga.
+:::
+:::
+
+---
+
+## Síntesis: lo que construimos hoy
+
+::: col-2
+::: {}
+**La Teoría del Cambio es el mapa** antes del territorio. Define qué vamos a medir, para quién, y por qué tiene sentido esperar ese cambio.
+
+**Outputs ≠ Outcomes.** La diferencia entre lo que el programa hace y lo que cambia en la vida de la gente es la distinción más importante del análisis SROI.
+
+**El contrafactual empieza aquí.** Pensar en qué hubiera pasado sin el programa es parte del diseño de la ToC, no solo del análisis cuantitativo posterior.
+
+**Los outcomes negativos también cuentan.** Un Impact Map sin outcomes negativos es una señal de que no se buscaron.
+:::
+::: box-teal
+**Próxima sesión: Evidencia de Outcomes**
+
+Con el Impact Map construido, la siguiente pregunta es: ¿cómo sabemos que esos outcomes realmente ocurrieron? ¿Qué evidencia los respalda?
+
+La Sesión 4 aborda los métodos de recolección de evidencia: encuestas, entrevistas, datos administrativos, escalas validadas de bienestar.
+
+**Tarea:** traer el Impact Map con al menos 3 outcomes para 2 stakeholders, con una hipótesis de cómo podrían medirse.
+:::
+:::

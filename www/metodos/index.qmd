@@ -113,26 +113,26 @@ toc: false
         <span class="herr-name">SROI — Social Return on Investment</span>
         <span class="herr-status herr-status--live">Ver método →</span>
       </a>
-      <div class="herr-item herr-item--soon">
+      <a href="wellby.html" class="herr-item herr-item--active" style="text-decoration:none;">
         <span class="herr-dim">D5</span>
         <span class="herr-name">WELLBY — Well-Being Years</span>
-        <span class="herr-status">Próximamente</span>
-      </div>
-      <div class="herr-item herr-item--soon">
+        <span class="herr-status herr-status--live">Ver método →</span>
+      </a>
+      <a href="costos-unitarios.html" class="herr-item herr-item--active" style="text-decoration:none;">
         <span class="herr-dim">D4–D5</span>
         <span class="herr-name">Costos unitarios (unit costs)</span>
-        <span class="herr-status">Próximamente</span>
-      </div>
+        <span class="herr-status herr-status--live">Ver método →</span>
+      </a>
       <div class="herr-item herr-item--soon">
         <span class="herr-dim">D4–D5</span>
         <span class="herr-name">Costo de oportunidad</span>
         <span class="herr-status">Próximamente</span>
       </div>
-      <div class="herr-item herr-item--soon">
+      <a href="wtp.html" class="herr-item herr-item--active" style="text-decoration:none;">
         <span class="herr-dim">D5</span>
         <span class="herr-name">WTP / WTA — Valoración contingente</span>
-        <span class="herr-status">Próximamente</span>
-      </div>
+        <span class="herr-status herr-status--live">Ver método →</span>
+      </a>
       <div class="herr-item herr-item--soon">
         <span class="herr-dim">D5</span>
         <span class="herr-name">Choice experiments</span>
@@ -203,6 +203,54 @@ toc: false
       <p>El estándar de oro de la evidencia causal. La asignación aleatoria elimina el sesgo de selección. El diseño en clústeres (cRCT) es apropiado para intervenciones comunitarias y permite Deadweight = 0%.</p>
       <div class="meth-card-tags">
         <span>Causalidad directa</span><span>Poder estadístico</span><span>Clústeres</span><span>DiD-PSM post-RCT</span>
+      </div>
+    </div>
+  </div>
+  </a>
+
+  <a href="wellby.html" style="text-decoration: none;">
+  <div class="meth-card meth-card--active">
+    <div class="meth-card-top" style="background: linear-gradient(135deg, #1E3A5F, #2D5986);">
+      <div class="meth-card-dim">D5 · Valoración</div>
+      <div class="meth-card-title">WELLBY</div>
+      <div class="meth-card-sub">Well-Being Years</div>
+    </div>
+    <div class="meth-card-body">
+      <p>Valora el bienestar subjetivo en unidades monetarias. Un punto en la escala Cantril Ladder sostenido un año = 1 WELLBY = £13,000 (HM Treasury 2021) ≈ $18M COP. Recomendado por el HM Green Book.</p>
+      <div class="meth-card-tags">
+        <span>Cantril Ladder</span><span>SWEMWBS</span><span>£13,000/WELLBY</span><span>PPP</span>
+      </div>
+    </div>
+  </div>
+  </a>
+
+  <a href="costos-unitarios.html" style="text-decoration: none;">
+  <div class="meth-card meth-card--active">
+    <div class="meth-card-top" style="background: linear-gradient(135deg, #92400E, #B45309);">
+      <div class="meth-card-dim">D4–D5 · Valoración</div>
+      <div class="meth-card-title">Costos unitarios</div>
+      <div class="meth-card-sub">Unit Costs approach</div>
+    </div>
+    <div class="meth-card-body">
+      <p>Cuantifica el valor de los outcomes usando el costo de los servicios públicos evitados o reemplazados. Fuentes colombianas: ADRES, SENA, MEN, INPEC, DANE. Internacionales: PSSRU, HACT Value Bank.</p>
+      <div class="meth-card-tags">
+        <span>Costos evitados</span><span>ADRES · SENA</span><span>PSSRU</span><span>Conservador</span>
+      </div>
+    </div>
+  </div>
+  </a>
+
+  <a href="wtp.html" style="text-decoration: none;">
+  <div class="meth-card meth-card--active">
+    <div class="meth-card-top" style="background: linear-gradient(135deg, #701A75, #9D174D);">
+      <div class="meth-card-dim">D5 · Valoración</div>
+      <div class="meth-card-title">WTP / WTA</div>
+      <div class="meth-card-sub">Valoración contingente</div>
+    </div>
+    <div class="meth-card-body">
+      <p>Elicita la máxima disposición a pagar por un outcome mediante encuestas hipotéticas. El formato dicotómico (NOAA Panel, 1993) es el más robusto. Requiere control de sesgos hipotéticos, estratégicos y de anclaje.</p>
+      <div class="meth-card-tags">
+        <span>Dichotomous choice</span><span>NOAA Panel</span><span>Sesgo hipotético</span><span>Protest zeros</span>
       </div>
     </div>
   </div>

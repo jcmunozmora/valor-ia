@@ -51,11 +51,312 @@ Investigador Asociado · Institute of Development Studies (IDS)
 
 ---
 
+## Por qué valorar el impacto
+
+::: col-6040
+::: {}
+La pregunta que toda organización social debería poder responder con evidencia:
+
+::: {style="font-size: 1.6em; font-weight: 900; color: #5EEAD4; margin: 0.4em 0 0.3em; line-height: 1.1;"}
+¿Cuánto valor real<br>genera nuestra inversión?
+:::
+
+No para justificarse ante un financiador.
+
+Sino para **decidir mejor**, **aprender**, y **mejorar** lo que se hace.
+:::
+::: {}
+**Tres razones para monetizar outcomes:**
+
+::: box-dark
+**1 — Comparabilidad**
+Permite comparar programas distintos y priorizar con criterio. Sin un denominador común, toda decisión de asignación es arbitraria.
+:::
+
+::: {.box-dark style="margin-top: 0.5em;"}
+**2 — Comunicación**
+Un ratio SROI transmite en una cifra lo que 50 páginas de narrativa no logran. Habla el idioma de quienes asignan recursos.
+:::
+
+::: {.box-dark style="margin-top: 0.5em;"}
+**3 — Responsabilidad**
+Si algo importa a los stakeholders, merece ser valorado. Ignorarlo no es neutralidad — es una decisión implícita de que no importa.
+:::
+:::
+:::
+
+---
+
+## ¿Qué método usar? Depende de dónde estamos
+
+::: col-2
+::: {}
+No hay un método universal para valorar outcomes sociales.
+
+La elección del método correcto depende de **tres factores**:
+
+- **La naturaleza del outcome** — ¿tiene sustitutos de mercado? ¿se puede observar en comportamientos? ¿está en el dominio del bienestar?
+- **Los datos disponibles** — ¿hay series comparables? ¿se puede encuestar a los beneficiarios?
+- **La madurez del análisis** — ¿es el primer ciclo evaluativo o hay datos históricos acumulados?
+
+::: box-amber
+Este tercer factor — **la madurez del análisis** — es el que con más frecuencia se ignora. Y es el más determinante.
+:::
+:::
+::: box-teal
+**El principio de proporcionalidad**
+
+> *"Enough precision for the decision."*
+> — IV Hub Playbook, 2025
+
+No se necesita el método más sofisticado para cada outcome. Se necesita el método **más apropiado** dada la información disponible y el uso que se dará al resultado.
+
+Un Cost-based bien documentado es más valioso que un Choice Experiment mal ejecutado.
+
+Un análisis honesto sobre sus limitaciones genera más credibilidad que un ratio sin transparencia.
+:::
+:::
+
+---
+
+## {background-color="#0F172A"}
+
+::: seccion-label
+Marco diagnóstico
+:::
+
+::: {style="font-size: 2.1em; font-weight: 900; color: white; margin-top: 0.5em; line-height: 1.15;"}
+El Semáforo de<br>Madurez de Impacto
+:::
+
+::: {style="font-size: 0.9em; color: #94A3B8; margin-top: 0.4em;"}
+Centro Valor Público · EAFIT — Una herramienta de diagnóstico antes de elegir métodos
+:::
+
+---
+
+## El Semáforo de Madurez de Impacto
+
+::: {style="font-size: 0.82em; color: #94A3B8; margin-bottom: 0.8em;"}
+Cinco dimensiones que evalúan el estado de la gestión de impacto de una organización o programa. El diagnóstico determina qué métodos son apropiados — no al revés.
+:::
+
+::: semafor-grid
+::: {.semafor-card .verde}
+::: semafor-nivel
+🟢 Coherencia
+:::
+::: semafor-titulo
+Coherencia programática
+:::
+::: semafor-desc
+Teoría del cambio documentada. Indicadores alineados con los outcomes. Lógica causal verificable.
+:::
+:::
+
+::: {.semafor-card .verde}
+::: semafor-nivel
+🟢 Eficacia
+:::
+::: semafor-titulo
+Eficacia
+:::
+::: semafor-desc
+Objetivos cumplidos. Beneficiarios alcanzados según meta. Evidencia cuantitativa de logro de outputs.
+:::
+:::
+
+::: {.semafor-card .amarillo}
+::: semafor-nivel
+🟡 Eficiencia
+:::
+::: semafor-titulo
+Eficiencia operativa
+:::
+::: semafor-desc
+Trazabilidad de recursos. Factores DW/ATTR calculados con datos o estimados con fuente documentada.
+:::
+:::
+
+::: {.semafor-card .amarillo}
+::: semafor-nivel
+🟡 Impacto
+:::
+::: semafor-titulo
+Impacto social
+:::
+::: semafor-desc
+Evidencia de cambio real en beneficiarios. Contrafactual considerado. N muestral representativo.
+:::
+:::
+
+::: {.semafor-card .rojo}
+::: semafor-nivel
+🔴 Valoración
+:::
+::: semafor-titulo
+Valoración monetaria
+:::
+::: semafor-desc
+Proxies validados y localizados. Outcomes monetizados. Ratio SROI calculado con supuestos transparentes.
+:::
+:::
+:::
+
+::: semafor-leyenda
+[]{.semafor-dot style="background:#10B981"} **Verde** — Consolidado
+[]{.semafor-dot style="background:#F59E0B"} **Amarillo** — En consolidación
+[]{.semafor-dot style="background:#EF4444"} **Rojo** — Prioritario
+:::
+
+---
+
+## Cómo leer el semáforo
+
+::: col-2
+::: {}
+**El semáforo no es una calificación — es un mapa de ruta**
+
+Un semáforo en rojo no dice "el programa falla". Dice: *"aquí está la siguiente inversión metodológica"*.
+
+Es natural que un **primer ciclo evaluativo** tenga dimensiones en amarillo o rojo. Lo que distingue a una organización seria no es llegar al verde en el primer año — sino **saber dónde está y tener un plan explícito**.
+
+::: box-teal
+**Lectura estratégica:**
+
+Las dimensiones se construyen en secuencia. Sin **coherencia** sólida, no hay base para medir **eficacia**. Sin **eficacia** documentada, la **valoración monetaria** flota sin sustento.
+:::
+:::
+::: {}
+**¿Qué dice cada color?**
+
+::: {.semafor-card .verde style="margin-bottom: 0.5em;"}
+::: semafor-nivel
+🟢 Consolidado
+:::
+::: semafor-desc
+Esta dimensión tiene evidencia suficiente para soportar conclusiones. Se puede avanzar hacia métodos más sofisticados o comunicar con confianza.
+:::
+:::
+
+::: {.semafor-card .amarillo style="margin-bottom: 0.5em;"}
+::: semafor-nivel
+🟡 En consolidación
+:::
+::: semafor-desc
+Hay valor real demostrado, pero la evidencia necesita ampliarse. Indicado para profundizar la medición en el siguiente ciclo.
+:::
+:::
+
+::: {.semafor-card .rojo}
+::: semafor-nivel
+🔴 Prioritario
+:::
+::: semafor-desc
+Esta es la brecha metodológica urgente. El siguiente ciclo debe concentrar recursos aquí antes de intentar avanzar otras dimensiones.
+:::
+:::
+:::
+:::
+
+---
+
+## El semáforo guía la elección del método
+
+::: {style="font-size: 0.82em; color: #94A3B8; margin-bottom: 0.7em;"}
+Según el estado de cada dimensión, el equipo evaluador sabe qué método priorizar — y cuáles no tiene aún capacidad de ejecutar con rigor.
+:::
+
+::: metodo-selector
+::: {.metodo-sel-card .box-dark}
+::: {.semafor-dot style="background:#10B981; width:0.8em; height:0.8em; flex-shrink:0; margin-top:0.2em;"}
+:::
+::: {}
+::: metodo-sel-dim
+Coherencia verde → Monetización posible
+:::
+::: metodo-sel-rec
+La teoría del cambio es sólida. Se puede construir el Value Map y elegir proxies con fundamento.
+:::
+:::
+:::
+
+::: {.metodo-sel-card .box-dark}
+::: {.semafor-dot style="background:#F59E0B; width:0.8em; height:0.8em; flex-shrink:0; margin-top:0.2em;"}
+:::
+::: {}
+::: metodo-sel-dim
+Eficiencia amarilla → Cost-based primero
+:::
+::: metodo-sel-rec
+Los factores DW/ATTR son estimados. Usar costos unitarios secundarios (ADRES, SENA) como proxy conservador.
+:::
+:::
+:::
+
+::: {.metodo-sel-card .box-dark}
+::: {.semafor-dot style="background:#F59E0B; width:0.8em; height:0.8em; flex-shrink:0; margin-top:0.2em;"}
+:::
+::: {}
+::: metodo-sel-dim
+Impacto amarillo → WV o SP encuesta
+:::
+::: metodo-sel-rec
+Hay outcomes identificados pero sin valoración. Encuesta WTP o escala de bienestar en próximo ciclo.
+:::
+:::
+:::
+
+::: {.metodo-sel-card .box-dark}
+::: {.semafor-dot style="background:#EF4444; width:0.8em; height:0.8em; flex-shrink:0; margin-top:0.2em;"}
+:::
+::: {}
+::: metodo-sel-dim
+Valoración roja → Value Game primero
+:::
+::: metodo-sel-rec
+Sin proxies aún. Comenzar con Value Game participativo para anclar valores con stakeholders directamente.
+:::
+:::
+:::
+
+::: {.metodo-sel-card .box-dark}
+::: {.semafor-dot style="background:#10B981; width:0.8em; height:0.8em; flex-shrink:0; margin-top:0.2em;"}
+:::
+::: {}
+::: metodo-sel-dim
+Todo verde → RP o Choice Experiments
+:::
+::: metodo-sel-rec
+Con datos históricos y ciclos previos, se puede aplicar precios hedónicos, costo de viaje o choice experiments.
+:::
+:::
+:::
+
+::: {.metodo-sel-card .box-amber}
+::: {}
+::: metodo-sel-dim
+Regla general
+:::
+::: metodo-sel-rec
+**Primero consolide las dimensiones anteriores.** Un Choice Experiment con teoría del cambio débil produce un ratio indefendible.
+:::
+:::
+:::
+:::
+
+---
+
 ## Agenda
 
 ::: col-2
 ::: {}
-**Bloque 1 — Marco conceptual**
+**Marco diagnóstico**
+
+- Semáforo de Madurez de Impacto (CVP EAFIT)
+- Del diagnóstico a la elección del método
+
+**Bloque 1 — Fundamentos**
 
 1. Principios SVI relevantes (P3, P1, P4, P8)
 2. Métodos no-monetarios como base

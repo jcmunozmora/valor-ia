@@ -7,7 +7,7 @@
 <meta name="viewport" content="width=device-width, initial-scale=1.0, user-scalable=yes">
 
 
-<title>Diferencias en Diferencias (DiD) – Valor·IA — CVP EAFIT</title>
+<title>WTP / Valoración Contingente – Valor·IA — CVP EAFIT</title>
 <style>
 code{white-space: pre-wrap;}
 span.smallcaps{font-variant: small-caps;}
@@ -182,7 +182,7 @@ ul.task-list li input[type="checkbox"] {
 
 <header id="title-block-header" class="quarto-title-block default">
 <div class="quarto-title">
-<h1 class="title">Diferencias en Diferencias (DiD)</h1>
+<h1 class="title">WTP / Valoración Contingente</h1>
 </div>
 
 
@@ -201,213 +201,229 @@ ul.task-list li input[type="checkbox"] {
 
 <div class="page-header">
 <div class="page-header-content">
-<span class="page-tag">Herramientas · Evaluación cuasi-experimental</span>
-<h1>Diferencias en Diferencias</h1>
-<p class="page-lead">El método cuasi-experimental más usado en evaluación de impacto. Compara cómo evolucionó el grupo intervenido respecto a un grupo de comparación, antes y después de la intervención — controlando factores no observables que afectan a ambos grupos por igual.</p>
+<span class="page-tag">Herramientas · Valoración por preferencias declaradas</span>
+<h1>WTP / Valoración Contingente</h1>
+<p class="page-lead">Cuando no existe ni precio de mercado ni costo institucional equivalente, podemos preguntar directamente: ¿cuánto estaría dispuesto a pagar por este cambio? La valoración contingente elicita la Disponibilidad a Pagar (WTP) o la Disponibilidad a Aceptar compensación (WTA) a través de encuestas hipotéticas diseñadas para minimizar el sesgo estratégico.</p>
 </div>
 </div>
 
-<!-- QUÉ ES Y CUÁNDO -->
+<!-- FUNDAMENTOS -->
 <div class="content-section alt">
 <div class="content-inner">
 
-<span class="section-label">Fundamentos</span>
-<h2 class="section-heading anchored">¿Qué mide el DiD y cuándo usarlo?</h2>
+<span class="section-label">Fundamentos teóricos</span>
+<h2 class="section-heading anchored">WTP, WTA y la brecha entre ellas</h2>
 
-<p>El estimador de diferencias en diferencias (DiD) identifica el efecto causal de una intervención comparando el cambio pre-post del grupo tratado con el cambio pre-post de un grupo de comparación. La intuición es simple: si ambos grupos habrían seguido trayectorias paralelas en ausencia del programa, cualquier divergencia post-intervención se puede atribuir al programa.</p>
-
-<div style="background: #0F172A; border-radius: 0.875rem; padding: 1.5rem; margin: 1.5rem 0; font-family: 'JetBrains Mono', monospace;">
-  <div style="color: #5EEAD4; font-size: 0.72rem; font-weight: 700; letter-spacing: 0.1em; text-transform: uppercase; margin-bottom: 0.75rem;">El estimador DiD</div>
-  <div style="color: white; font-size: 1.05rem; font-weight: 500; line-height: 1.8;">
-    τ<sub style="color:#94A3B8;">DiD</sub> = (Ȳ<sub style="color:#5EEAD4;">T,post</sub> − Ȳ<sub style="color:#5EEAD4;">T,pre</sub>) − (Ȳ<sub style="color:#94A3B8;">C,post</sub> − Ȳ<sub style="color:#94A3B8;">C,pre</sub>)
-  </div>
-  <div style="color: #64748B; font-size: 0.78rem; margin-top: 0.75rem; line-height: 1.6;">
-    T = grupo tratado &nbsp;·&nbsp; C = grupo de comparación &nbsp;·&nbsp; pre/post = antes/después de la intervención
-  </div>
-</div>
+<p>La valoración contingente (CV, Contingent Valuation) parte de la teoría de la utilidad: el valor de un bien para una persona es el máximo que estaría dispuesta a pagar por él (WTP) o el mínimo que aceptaría recibir como compensación si lo perdiera (WTA). Ambas medidas son equivalentes en teoría neoclásica — en la práctica, divergen sistemáticamente.</p>
 
 <div style="display: grid; grid-template-columns: 1fr 1fr; gap: 1rem; margin: 1.5rem 0;">
-<div style="background: white; border: 1px solid #E2E8F0; border-radius: 0.75rem; padding: 1.25rem;">
-<div style="font-weight: 700; color: #0D9488; margin-bottom: 0.5rem; font-size: 0.9rem;">Cuándo es apropiado el DiD</div>
-<ul style="font-size: 0.845rem; color: #475569; line-height: 1.7; margin: 0; padding-left: 1.25rem;">
-<li>Existe un grupo de comparación creíble (no intervenido)</li>
-<li>Hay datos de al menos un período pre-intervención</li>
-<li>La asignación al tratamiento no fue aleatoria</li>
-<li>Los grupos tratado y control tienen trayectorias pre-paralelas</li>
-<li>La intervención tiene un inicio claro y definido</li>
-</ul>
+<div style="background: #F0FDFA; border: 1px solid rgba(13,148,136,0.25); border-radius: 0.75rem; padding: 1.25rem;">
+<div style="font-weight: 800; color: #0D9488; margin-bottom: 0.5rem; font-size: 0.9rem;">WTP — Disponibilidad a Pagar</div>
+<div style="font-size: 0.845rem; color: #475569; line-height: 1.65;">"¿Cuánto pagaría por tener este beneficio?" Mide la ganancia en utilidad. Acotada hacia arriba por el ingreso disponible. Más fácil de elicitar, más conservadora. El formato estándar en SROI y análisis de política pública.</div>
+<div style="margin-top: 0.75rem; font-size: 0.78rem; background: white; border-radius: 0.5rem; padding: 0.5rem 0.75rem; color: #0F766E; font-weight: 600;">Usar cuando el programa genera un BENEFICIO nuevo para el stakeholder</div>
 </div>
-<div style="background: white; border: 1px solid #E2E8F0; border-radius: 0.75rem; padding: 1.25rem;">
-<div style="font-weight: 700; color: #DC2626; margin-bottom: 0.5rem; font-size: 0.9rem;">Cuándo NO usar DiD</div>
-<ul style="font-size: 0.845rem; color: #475569; line-height: 1.7; margin: 0; padding-left: 1.25rem;">
-<li>No existe grupo de comparación (considere PSM primero)</li>
-<li>Solo hay datos post-intervención (use cross-section)</li>
-<li>Los grupos tienen trayectorias pre-intervención muy diferentes</li>
-<li>El tratamiento afecta al grupo de control (spillovers)</li>
-<li>La asignación fue aleatoria (use diferencia en medias simple)</li>
-</ul>
+<div style="background: #FEF2F2; border: 1px solid rgba(220,38,38,0.2); border-radius: 0.75rem; padding: 1.25rem;">
+<div style="font-weight: 800; color: #DC2626; margin-bottom: 0.5rem; font-size: 0.9rem;">WTA — Disponibilidad a Aceptar</div>
+<div style="font-size: 0.845rem; color: #475569; line-height: 1.65;">"¿Cuánto aceptaría como compensación si perdiera este beneficio?" Mide la pérdida de utilidad. No está acotada por el ingreso. Sistemáticamente más alta que WTP (la brecha puede ser 3×–10×). Más difícil de justificar sin fundamento teórico sólido.</div>
+<div style="margin-top: 0.75rem; font-size: 0.78rem; background: white; border-radius: 0.5rem; padding: 0.5rem 0.75rem; color: #991B1B; font-weight: 600;">Usar cuando el programa evita una PÉRDIDA existente de bienestar</div>
 </div>
+</div>
+
+<div class="insight-box">
+<div class="insight-label">La brecha WTA/WTP: por qué existe y cómo tratarla</div>
+<p>La brecha entre WTA y WTP (hasta 10 veces mayor) se explica por la aversión a la pérdida (Kahneman &amp; Tversky) y el efecto dotación: valoramos más lo que ya tenemos que lo que aún no tenemos. En SROI, esta brecha importa: usar WTA cuando el programa evita una pérdida producirá un valor mucho mayor que WTP para la misma mejora. El <strong>Principio 5 SVI (no sobreclamar)</strong> sugiere usar WTP como medida por defecto, salvo justificación explícita de que WTA es más apropiada.</p>
 </div>
 
 </div>
 </div>
 
-<!-- EL SUPUESTO CLAVE -->
+<!-- FORMATOS DE ELICITACIÓN -->
 <div class="content-section">
 <div class="content-inner">
 
-<span class="section-label">La piedra angular del método</span>
-<h2 class="section-heading anchored">El supuesto de tendencias paralelas</h2>
+<span class="section-label">Diseño del instrumento</span>
+<h2 class="section-heading anchored">Formatos de elicitación: cómo preguntar el WTP</h2>
 
-<p>El supuesto más crítico del DiD — y el que más frecuentemente se viola — es el de <strong>tendencias paralelas</strong> (parallel trends): en ausencia de la intervención, los grupos tratado y control habrían evolucionado de manera paralela. Este supuesto no es testeable directamente (el contrafactual no es observable), pero se puede evaluar indirectamente.</p>
+<p>La forma en que se pregunta la disposición a pagar afecta dramáticamente la respuesta. Existen cuatro formatos principales, con fortalezas y debilidades muy distintas.</p>
 
-<div class="insight-box">
-<div class="insight-label">Cómo verificar el supuesto</div>
-<p><strong>Prueba pre-tendencias (event study):</strong> Si tienes múltiples períodos pre-intervención, estima el efecto en cada uno. Los coeficientes pre-intervención deben ser estadísticamente indistinguibles de cero — si no lo son, las tendencias no eran paralelas y el DiD estándar está sesgado. <strong>Placebo test:</strong> Asigna la intervención a un período falso anterior a la intervención real y verifica que el efecto estimado sea cero.</p>
+<div style="display: flex; flex-direction: column; gap: 0.875rem; margin: 1.5rem 0;">
+
+<div style="background: white; border: 1px solid #E2E8F0; border-radius: 0.75rem; overflow: hidden;">
+<div style="display: grid; grid-template-columns: 220px 1fr 110px; align-items: stretch;">
+<div style="background: linear-gradient(135deg, #F0FDFA, #ECFDF5); border-right: 1px solid #E2E8F0; padding: 1rem 1.25rem; display: flex; flex-direction: column; justify-content: center;">
+<div style="font-weight: 800; color: #0D9488; font-size: 0.875rem;">Dicotómico</div>
+<div style="font-size: 0.72rem; color: #0F766E; font-weight: 600; margin-top: 0.15rem;">(Single-Bounded)</div>
 </div>
-
-<div style="display: grid; grid-template-columns: repeat(3, 1fr); gap: 1rem; margin: 1.5rem 0;">
-
-<div style="background: #F0FDFA; border: 1px solid rgba(13,148,136,0.25); border-radius: 0.75rem; padding: 1.1rem;">
-<div style="font-size: 0.7rem; font-weight: 700; color: #0D9488; text-transform: uppercase; letter-spacing: 0.07em; margin-bottom: 0.4rem;">Supuesto 1</div>
-<div style="font-size: 0.875rem; font-weight: 700; color: #0F172A; margin-bottom: 0.3rem;">Tendencias paralelas</div>
-<div style="font-size: 0.8rem; color: #475569; line-height: 1.55;">Sin la intervención, ambos grupos habrían seguido trayectorias con la misma pendiente.</div>
+<div style="padding: 1rem 1.25rem;">
+<div style="font-size: 0.845rem; color: #475569; line-height: 1.65; margin-bottom: 0.5rem;">"¿Estaría dispuesto a pagar $X por [el beneficio]?" — Solo Sí/No. Cada encuestado recibe una cantidad diferente (asignada aleatoriamente). El WTP se estima con logit/probit. Es el formato más robusto: minimiza el sesgo de anclaje y el sesgo estratégico.</div>
+<div style="font-size: 0.78rem; font-weight: 600; color: #0D9488;">Ventaja: mínimo sesgo estratégico · Compatible con teoría de utilidad</div>
 </div>
-
-<div style="background: #F0FDFA; border: 1px solid rgba(13,148,136,0.25); border-radius: 0.75rem; padding: 1.1rem;">
-<div style="font-size: 0.7rem; font-weight: 700; color: #0D9488; text-transform: uppercase; letter-spacing: 0.07em; margin-bottom: 0.4rem;">Supuesto 2</div>
-<div style="font-size: 0.875rem; font-weight: 700; color: #0F172A; margin-bottom: 0.3rem;">SUTVA</div>
-<div style="font-size: 0.8rem; color: #475569; line-height: 1.55;">El tratamiento de una unidad no afecta los outcomes de otra (no spillovers, no interferencia).</div>
+<div style="padding: 1rem; display: flex; align-items: center; justify-content: center; border-left: 1px solid #E2E8F0;">
+<span style="background: #F0FDFA; color: #0D9488; font-size: 0.7rem; font-weight: 700; padding: 0.3rem 0.7rem; border-radius: 999px; border: 1px solid rgba(13,148,136,0.3); text-align: center;">Preferido</span>
 </div>
-
-<div style="background: #F0FDFA; border: 1px solid rgba(13,148,136,0.25); border-radius: 0.75rem; padding: 1.1rem;">
-<div style="font-size: 0.7rem; font-weight: 700; color: #0D9488; text-transform: uppercase; letter-spacing: 0.07em; margin-bottom: 0.4rem;">Supuesto 3</div>
-<div style="font-size: 0.875rem; font-weight: 700; color: #0F172A; margin-bottom: 0.3rem;">Overlap temporal</div>
-<div style="font-size: 0.8rem; color: #475569; line-height: 1.55;">Ambos grupos existen y son observados en los mismos períodos pre y post intervención.</div>
-</div>
-
-</div>
-
 </div>
 </div>
 
-<!-- IMPLEMENTACIÓN -->
+<div style="background: white; border: 1px solid #E2E8F0; border-radius: 0.75rem; overflow: hidden;">
+<div style="display: grid; grid-template-columns: 220px 1fr 110px; align-items: stretch;">
+<div style="background: #F8FAFC; border-right: 1px solid #E2E8F0; padding: 1rem 1.25rem; display: flex; flex-direction: column; justify-content: center;">
+<div style="font-weight: 800; color: #0F172A; font-size: 0.875rem;">Doble dicotómico</div>
+<div style="font-size: 0.72rem; color: #64748B; font-weight: 600; margin-top: 0.15rem;">(Double-Bounded)</div>
+</div>
+<div style="padding: 1rem 1.25rem;">
+<div style="font-size: 0.845rem; color: #475569; line-height: 1.65; margin-bottom: 0.5rem;">Dos preguntas: si dice Sí a $X, se pregunta por $2X (bid-up); si dice No, se pregunta por $X/2 (bid-down). Mayor eficiencia estadística que el simple dicotómico, pero introduce sesgo de anclaje en la segunda pregunta. Útil para reducir el tamaño de muestra necesario.</div>
+<div style="font-size: 0.78rem; font-weight: 600; color: #64748B;">Mayor eficiencia muestral · Pero sesgo anchoring en bid-follow</div>
+</div>
+<div style="padding: 1rem; display: flex; align-items: center; justify-content: center; border-left: 1px solid #E2E8F0;">
+<span style="background: #F8FAFC; color: #475569; font-size: 0.7rem; font-weight: 700; padding: 0.3rem 0.7rem; border-radius: 999px; border: 1px solid #E2E8F0; text-align: center;">Alternativa</span>
+</div>
+</div>
+</div>
+
+<div style="background: white; border: 1px solid #E2E8F0; border-radius: 0.75rem; overflow: hidden;">
+<div style="display: grid; grid-template-columns: 220px 1fr 110px; align-items: stretch;">
+<div style="background: #F8FAFC; border-right: 1px solid #E2E8F0; padding: 1rem 1.25rem; display: flex; flex-direction: column; justify-content: center;">
+<div style="font-weight: 800; color: #0F172A; font-size: 0.875rem;">Payment card</div>
+<div style="font-size: 0.72rem; color: #64748B; font-weight: 600; margin-top: 0.15rem;">(Tarjeta de pagos)</div>
+</div>
+<div style="padding: 1rem 1.25rem;">
+<div style="font-size: 0.845rem; color: #475569; line-height: 1.65; margin-bottom: 0.5rem;">Se presenta una escala de montos y el encuestado selecciona el máximo que pagaría (o el rango). Más fácil de administrar, pero introduce fuertemente el sesgo de anclaje según los valores listados. Solo recomendable cuando el contexto hace imposible el dicotómico.</div>
+<div style="font-size: 0.78rem; font-weight: 600; color: #B45309;">Fuerte sesgo de anclaje · No recomendado en análisis rigurosos</div>
+</div>
+<div style="padding: 1rem; display: flex; align-items: center; justify-content: center; border-left: 1px solid #E2E8F0;">
+<span style="background: #FFFBEB; color: #B45309; font-size: 0.7rem; font-weight: 700; padding: 0.3rem 0.7rem; border-radius: 999px; border: 1px solid rgba(245,158,11,0.3); text-align: center;">Usar con cuidado</span>
+</div>
+</div>
+</div>
+
+<div style="background: white; border: 1px solid #E2E8F0; border-radius: 0.75rem; overflow: hidden;">
+<div style="display: grid; grid-template-columns: 220px 1fr 110px; align-items: stretch;">
+<div style="background: #FEF2F2; border-right: 1px solid #E2E8F0; padding: 1rem 1.25rem; display: flex; flex-direction: column; justify-content: center;">
+<div style="font-weight: 800; color: #DC2626; font-size: 0.875rem;">Pregunta abierta</div>
+<div style="font-size: 0.72rem; color: #991B1B; font-weight: 600; margin-top: 0.15rem;">(Open-ended)</div>
+</div>
+<div style="padding: 1rem 1.25rem;">
+<div style="font-size: 0.845rem; color: #475569; line-height: 1.65; margin-bottom: 0.5rem;">"¿Cuánto estaría dispuesto a pagar?" sin rangos ni sugerencias. Alta tasa de no-respuesta, valores extremos (ceros de protesta o valores estratégicos muy altos), distribuciones muy sesgadas. El NOAA Panel (1993) lo desaconsejó explícitamente para estudios de valoración ambiental y social.</div>
+<div style="font-size: 0.78rem; font-weight: 600; color: #DC2626;">Máxima tasa de sesgo · Solo en exploratorios cualitativos</div>
+</div>
+<div style="padding: 1rem; display: flex; align-items: center; justify-content: center; border-left: 1px solid #E2E8F0;">
+<span style="background: #FEF2F2; color: #DC2626; font-size: 0.7rem; font-weight: 700; padding: 0.3rem 0.7rem; border-radius: 999px; border: 1px solid rgba(220,38,38,0.3); text-align: center;">No recomendado</span>
+</div>
+</div>
+</div>
+
+</div>
+
+</div>
+</div>
+
+<!-- SESGOS Y CÓMO CONTROLARLOS -->
 <div class="content-section alt">
 <div class="content-inner">
 
-<span class="section-label">Implementación práctica</span>
-<h2 class="section-heading anchored">Del supuesto al modelo: cómo estimar el DiD</h2>
+<span class="section-label">Los principales riesgos del método</span>
+<h2 class="section-heading anchored">Sesgos de la valoración contingente y cómo mitigarlos</h2>
 
-<h3 style="font-size: 1rem; font-weight: 800; color: #0F172A; margin: 1.5rem 0 0.75rem;" class="anchored">Especificación básica (two-way fixed effects)</h3>
+<div style="display: grid; grid-template-columns: repeat(2, 1fr); gap: 1rem; margin: 1.5rem 0;">
 
-<div style="background: #0F172A; border-radius: 0.75rem; padding: 1.25rem 1.5rem; margin-bottom: 1.25rem; font-family: 'JetBrains Mono', monospace;">
-<div style="color: #5EEAD4; font-size: 0.72rem; font-weight: 700; letter-spacing: 0.1em; text-transform: uppercase; margin-bottom: 0.6rem;">Modelo de regresión</div>
-<div style="color: white; font-size: 0.92rem; line-height: 2;">
-  Y<sub style="color:#94A3B8;">it</sub> = α + β<sub>1</sub>·Treat<sub style="color:#5EEAD4;">i</sub> + β<sub>2</sub>·Post<sub style="color:#5EEAD4;">t</sub> + <strong style="color:#FCD34D;">β<sub>3</sub>·(Treat<sub>i</sub> × Post<sub>t</sub>)</strong> + ε<sub style="color:#94A3B8;">it</sub>
-</div>
-<div style="color: #64748B; font-size: 0.75rem; margin-top: 0.75rem; line-height: 1.7;">
-  Treat<sub>i</sub> = 1 si unidad i recibió el tratamiento &nbsp;·&nbsp; Post<sub>t</sub> = 1 si período t es post-intervención<br>
-  <strong style="color: #FCD34D;">β<sub>3</sub> = el estimador DiD = efecto causal promedio del tratamiento (ATT)</strong>
-</div>
+<div style="background: white; border: 1px solid #E2E8F0; border-radius: 0.75rem; padding: 1.25rem;">
+<div style="font-weight: 700; color: #DC2626; font-size: 0.875rem; margin-bottom: 0.6rem;">Sesgo hipotético</div>
+<div style="font-size: 0.845rem; color: #475569; line-height: 1.6; margin-bottom: 0.75rem;">Las personas declaran pagar más en contextos hipotéticos que en decisiones reales. La brecha hipotética promedio es 2×–3× según la literatura.</div>
+<div style="font-size: 0.78rem; font-weight: 600; color: #0D9488; background: #F0FDFA; padding: 0.5rem 0.75rem; border-radius: 0.4rem;">Mitigación: usar escenarios realistas, "cheap talk" script (recordar que las respuestas influyen en decisiones reales), o calibración empírica con datos de mercado comparables.</div>
 </div>
 
-<h3 style="font-size: 1rem; font-weight: 800; color: #0F172A; margin: 1.5rem 0 0.75rem;" class="anchored">Variantes y extensiones</h3>
-
-<div style="display: flex; flex-direction: column; gap: 0.75rem; margin-bottom: 1.5rem;">
-
-<div style="background: white; border: 1px solid #E2E8F0; border-radius: 0.625rem; padding: 1rem 1.25rem;">
-<div style="display: flex; gap: 1rem; align-items: flex-start;">
-<div style="font-weight: 800; color: #0F172A; font-size: 0.875rem; min-width: 200px; flex-shrink: 0;">DiD con efectos fijos</div>
-<div style="font-size: 0.845rem; color: #475569; line-height: 1.6;">Incluye efectos fijos por unidad (α<sub>i</sub>) y por período (λ<sub>t</sub>) para controlar heterogeneidad no observada. El estimador TWFE (Two-Way Fixed Effects) es el estándar en datos de panel.</div>
-</div>
+<div style="background: white; border: 1px solid #E2E8F0; border-radius: 0.75rem; padding: 1.25rem;">
+<div style="font-weight: 700; color: #DC2626; font-size: 0.875rem; margin-bottom: 0.6rem;">Sesgo estratégico</div>
+<div style="font-size: 0.845rem; color: #475569; line-height: 1.6; margin-bottom: 0.75rem;">Si el encuestado cree que su respuesta afecta cuánto pagará realmente, tiene incentivo a declarar WTP=0 (free rider) o WTP altísimo (para asegurar que el bien se provea).</div>
+<div style="font-size: 0.78rem; font-weight: 600; color: #0D9488; background: #F0FDFA; padding: 0.5rem 0.75rem; border-radius: 0.4rem;">Mitigación: formato dicotómico (el encuestado no puede manipular el precio), garantía de confidencialidad, aclaración de que las respuestas son anónimas.</div>
 </div>
 
-<div style="background: white; border: 1px solid #E2E8F0; border-radius: 0.625rem; padding: 1rem 1.25rem;">
-<div style="display: flex; gap: 1rem; align-items: flex-start;">
-<div style="font-weight: 800; color: #0F172A; font-size: 0.875rem; min-width: 200px; flex-shrink: 0;">DiD escalonado (staggered)</div>
-<div style="font-size: 0.845rem; color: #475569; line-height: 1.6;">Cuando las unidades reciben el tratamiento en momentos distintos. Los estimadores TWFE estándar pueden ser sesgados. Usar los estimadores de Callaway &amp; Sant'Anna (2021) o Sun &amp; Abraham (2021) para robustez.</div>
-</div>
-</div>
-
-<div style="background: white; border: 1px solid #E2E8F0; border-radius: 0.625rem; padding: 1rem 1.25rem;">
-<div style="display: flex; gap: 1rem; align-items: flex-start;">
-<div style="font-weight: 800; color: #0F172A; font-size: 0.875rem; min-width: 200px; flex-shrink: 0;">DiD + PSM (Matching)</div>
-<div style="font-size: 0.845rem; color: #475569; line-height: 1.6;">Combina matching por propensity score (para asegurar overlap en características observables) con DiD (para controlar no observables). Especialmente robusto cuando los grupos difieren significativamente en covariables pre-intervención.</div>
-</div>
+<div style="background: white; border: 1px solid #E2E8F0; border-radius: 0.75rem; padding: 1.25rem;">
+<div style="font-weight: 700; color: #DC2626; font-size: 0.875rem; margin-bottom: 0.6rem;">Sesgo de anclaje</div>
+<div style="font-size: 0.845rem; color: #475569; line-height: 1.6; margin-bottom: 0.75rem;">El valor sugerido (bid amount) en la pregunta funciona como ancla y arrastra la respuesta hacia él. Usando una tarjeta de pagos con $100K como máximo, pocas personas declararán $500K aunque lo valoren así.</div>
+<div style="font-size: 0.78rem; font-weight: 600; color: #0D9488; background: #F0FDFA; padding: 0.5rem 0.75rem; border-radius: 0.4rem;">Mitigación: usar diseño dicotómico con asignación aleatoria de bids, probar rangos amplios de preguntas, analizar la curva de demanda completa.</div>
 </div>
 
-<div style="background: white; border: 1px solid #E2E8F0; border-radius: 0.625rem; padding: 1rem 1.25rem;">
-<div style="display: flex; gap: 1rem; align-items: flex-start;">
-<div style="font-weight: 800; color: #0F172A; font-size: 0.875rem; min-width: 200px; flex-shrink: 0;">Event study</div>
-<div style="font-size: 0.845rem; color: #475569; line-height: 1.6;">Estima el efecto en cada período (pre y post) por separado. Permite visualizar la dinámica del efecto, verificar pre-tendencias y mostrar cuándo el efecto alcanza su máximo o decae.</div>
-</div>
+<div style="background: white; border: 1px solid #E2E8F0; border-radius: 0.75rem; padding: 1.25rem;">
+<div style="font-weight: 700; color: #DC2626; font-size: 0.875rem; margin-bottom: 0.6rem;">Ceros de protesta</div>
+<div style="font-size: 0.845rem; color: #475569; line-height: 1.6; margin-bottom: 0.75rem;">Respuestas WTP=0 que no reflejan valoración nula sino rechazo al método, al escenario hipotético o a la asignación de responsabilidad de pago. Incluirlos sin tratar subestima el WTP real.</div>
+<div style="font-size: 0.78rem; font-weight: 600; color: #0D9488; background: #F0FDFA; padding: 0.5rem 0.75rem; border-radius: 0.4rem;">Mitigación: incluir preguntas de seguimiento para identificar "ceros genuinos" vs "ceros de protesta". Reportar el WTP con y sin ceros de protesta en el análisis de sensibilidad.</div>
 </div>
 
 </div>
 
-<div class="warning-box">
-<div class="warning-label">Error frecuente en la práctica</div>
-<p>No reportar los errores estándar correctamente. Con datos de panel, los errores deben ser <em>clusterizados</em> al nivel de la unidad de tratamiento (no individuos, sino grupos, comunidades o municipios). Los errores sin clusterizar subestiman la varianza real y producen p-valores artificialmente pequeños.</p>
+</div>
+</div>
+
+<!-- DISEÑO DE LA ENCUESTA -->
+<div class="content-section">
+<div class="content-inner">
+
+<span class="section-label">Buenas prácticas</span>
+<h2 class="section-heading anchored">Principios del NOAA Panel para una CV robusta</h2>
+
+<p>El panel de expertos convocado por la NOAA (National Oceanic and Atmospheric Administration) en 1993 —Arrow, Solow, Portney et al.— estableció los estándares de calidad para la valoración contingente. Siguen siendo la referencia metodológica internacional.</p>
+
+<div style="display: grid; grid-template-columns: repeat(3, 1fr); gap: 0.75rem; margin: 1.5rem 0;">
+
+<div style="background: #F8FAFC; border: 1px solid #E2E8F0; border-radius: 0.625rem; padding: 1rem;">
+<div style="font-size: 0.7rem; font-weight: 700; color: #0D9488; text-transform: uppercase; letter-spacing: 0.07em; margin-bottom: 0.35rem;">Formato</div>
+<div style="font-size: 0.8rem; color: #334155; line-height: 1.55;">Usar formato dicotómico (referéndum). Evitar preguntas abiertas.</div>
+</div>
+
+<div style="background: #F8FAFC; border: 1px solid #E2E8F0; border-radius: 0.625rem; padding: 1rem;">
+<div style="font-size: 0.7rem; font-weight: 700; color: #0D9488; text-transform: uppercase; letter-spacing: 0.07em; margin-bottom: 0.35rem;">Descripción del bien</div>
+<div style="font-size: 0.8rem; color: #334155; line-height: 1.55;">El escenario hipotético debe ser concreto, creíble y comprensible para el encuestado medio.</div>
+</div>
+
+<div style="background: #F8FAFC; border: 1px solid #E2E8F0; border-radius: 0.625rem; padding: 1rem;">
+<div style="font-size: 0.7rem; font-weight: 700; color: #0D9488; text-transform: uppercase; letter-spacing: 0.07em; margin-bottom: 0.35rem;">Recordatorio de presupuesto</div>
+<div style="font-size: 0.8rem; color: #334155; line-height: 1.55;">Recordar al encuestado sus restricciones presupuestarias antes de preguntar. Reduce el sesgo hipotético.</div>
+</div>
+
+<div style="background: #F8FAFC; border: 1px solid #E2E8F0; border-radius: 0.625rem; padding: 1rem;">
+<div style="font-size: 0.7rem; font-weight: 700; color: #0D9488; text-transform: uppercase; letter-spacing: 0.07em; margin-bottom: 0.35rem;">Encuestador entrenado</div>
+<div style="font-size: 0.8rem; color: #334155; line-height: 1.55;">Aplicar en persona o telefónicamente con encuestadores entrenados. Las encuestas en línea tienen mayor tasa de respuestas inconsistentes.</div>
+</div>
+
+<div style="background: #F8FAFC; border: 1px solid #E2E8F0; border-radius: 0.625rem; padding: 1rem;">
+<div style="font-size: 0.7rem; font-weight: 700; color: #0D9488; text-transform: uppercase; letter-spacing: 0.07em; margin-bottom: 0.35rem;">Prueba piloto</div>
+<div style="font-size: 0.8rem; color: #334155; line-height: 1.55;">Siempre realizar piloto con 20–30 personas para verificar comprensión, rango de bids y tasa de respuesta.</div>
+</div>
+
+<div style="background: #F8FAFC; border: 1px solid #E2E8F0; border-radius: 0.625rem; padding: 1rem;">
+<div style="font-size: 0.7rem; font-weight: 700; color: #0D9488; text-transform: uppercase; letter-spacing: 0.07em; margin-bottom: 0.35rem;">Reportar sesgos</div>
+<div style="font-size: 0.8rem; color: #334155; line-height: 1.55;">Documentar explícitamente los sesgos identificados y cómo se trataron. Reportar WTP con y sin ceros de protesta.</div>
+</div>
+
 </div>
 
 </div>
 </div>
 
 <!-- CONEXIÓN CON SROI -->
-<div class="content-section">
-<div class="content-inner">
-
-<span class="section-label">Conexión con el SROI</span>
-<h2 class="section-heading anchored">Cómo el DiD alimenta el análisis SROI</h2>
-
-<p>El DiD no es un método alternativo al SROI — es uno de los métodos que alimenta la Etapa 4 (Establecer Impacto) del SROI, permitiendo estimar los factores de ajuste con mayor rigor.</p>
-
-<div style="display: grid; grid-template-columns: repeat(2, 1fr); gap: 1rem; margin: 1.5rem 0;">
-
-<div style="background: #F8FAFC; border: 1px solid #E2E8F0; border-radius: 0.75rem; padding: 1.25rem;">
-<div style="font-weight: 700; color: #0D9488; margin-bottom: 0.5rem; font-size: 0.875rem;">Deadweight desde el DiD</div>
-<div style="font-size: 0.845rem; color: #475569; line-height: 1.6;">El grupo de control del DiD es exactamente el contrafactual que define el deadweight. Si el grupo control mejoró un 15% en el período post, ese 15% es deadweight — habría ocurrido sin el programa. El deadweight = cambio del grupo control / cambio del grupo tratado.</div>
-</div>
-
-<div style="background: #F8FAFC; border: 1px solid #E2E8F0; border-radius: 0.75rem; padding: 1.25rem;">
-<div style="font-weight: 700; color: #0D9488; margin-bottom: 0.5rem; font-size: 0.875rem;">Drop-off desde el event study</div>
-<div style="font-size: 0.845rem; color: #475569; line-height: 1.6;">El event study con múltiples períodos post-intervención permite trazar la curva de decaimiento del efecto. El coeficiente del período t+1 vs t+2 vs t+3 calibra empíricamente el drop-off del SROI — en lugar de asumir una tasa arbitraria.</div>
-</div>
-
-</div>
-
-<div class="insight-box">
-<div class="insight-label">Caso aplicado: Hogares Saludables (Argos-CVP)</div>
-<p>En el análisis SROI del programa Hogares Saludables se usó un cRCT con estimación DiD-PSM. El diseño RCT garantizó Deadweight = 0% (el grupo control no mejoró en las variables intervención por asignación aleatoria). El PSM post-RCT verificó el balance en covariables. El estimador DiD produjo los ATT para cada outcome monetizable, que alimentaron directamente la columna "Cantidad de outcomes" del Value Map.</p>
-</div>
-
-</div>
-</div>
-
-<!-- RECURSOS -->
 <div class="content-section alt">
 <div class="content-inner">
 
-<span class="section-label">Para profundizar</span>
-<h2 class="section-heading anchored">Referencias clave</h2>
+<span class="section-label">Integración al SROI</span>
+<h2 class="section-heading anchored">El WTP como proxy en el Value Map</h2>
 
-<div style="display: flex; flex-direction: column; gap: 0.75rem;">
+<p>El WTP estimado entra al Value Map exactamente como cualquier otro proxy financiero: como el valor unitario del outcome, multiplicado por el número de beneficiarios y ajustado por los factores de impacto.</p>
 
-<div style="background: white; border: 1px solid #E2E8F0; border-radius: 0.625rem; padding: 1rem 1.25rem; display: flex; gap: 1rem; align-items: flex-start;">
-<div style="font-weight: 800; color: #0D9488; font-size: 0.8rem; min-width: 80px; flex-shrink: 0;">Fundamentos</div>
-<div style="font-size: 0.845rem; color: #334155; line-height: 1.6;">Angrist, J. &amp; Pischke, J-S. (2009). <em>Mostly Harmless Econometrics</em>. Princeton UP. — El texto de referencia para DiD y métodos de evaluación cuasi-experimental.</div>
+<div style="background: white; border: 1px solid #E2E8F0; border-radius: 0.75rem; overflow: hidden; margin: 1.5rem 0;">
+<div style="background: #0F172A; padding: 0.875rem 1.25rem;">
+<div style="font-weight: 700; color: #5EEAD4; font-size: 0.82rem; letter-spacing: 0.07em; text-transform: uppercase;">Ejemplo: valoración WTP de un outcome de seguridad comunitaria</div>
 </div>
-
-<div style="background: white; border: 1px solid #E2E8F0; border-radius: 0.625rem; padding: 1rem 1.25rem; display: flex; gap: 1rem; align-items: flex-start;">
-<div style="font-weight: 800; color: #0D9488; font-size: 0.8rem; min-width: 80px; flex-shrink: 0;">Staggered DiD</div>
-<div style="font-size: 0.845rem; color: #334155; line-height: 1.6;">Callaway, B. &amp; Sant'Anna, P. (2021). Difference-in-differences with multiple time periods. <em>Journal of Econometrics</em>, 225(2), 200–230. — Esencial para DiD con adopción escalonada.</div>
+<div style="padding: 1.25rem; display: grid; grid-template-columns: 1fr 1fr; gap: 1.5rem;">
+<div>
+<div style="font-size: 0.8rem; font-weight: 700; color: #0F172A; margin-bottom: 0.5rem;">Diseño de la encuesta</div>
+<div style="font-size: 0.8rem; color: #475569; line-height: 1.65;">Se presenta el escenario: "El programa ha reducido los incidentes de inseguridad en su comunidad en un 30%. ¿Estaría dispuesto a pagar $X mensuales por mantener este nivel de seguridad durante el próximo año?" Formato dicotómico, bids: $10K, $30K, $60K, $120K, $200K COP/mes (asignados aleatoriamente).</div>
 </div>
-
-<div style="background: white; border: 1px solid #E2E8F0; border-radius: 0.625rem; padding: 1rem 1.25rem; display: flex; gap: 1rem; align-items: flex-start;">
-<div style="font-weight: 800; color: #0D9488; font-size: 0.8rem; min-width: 80px; flex-shrink: 0;">Aplicaciones</div>
-<div style="font-size: 0.845rem; color: #334155; line-height: 1.6;">Gertler, P. et al. (2016). <em>Impact Evaluation in Practice</em> (2ª ed.). World Bank. — Manual práctico de evaluación de impacto, disponible abierto en línea. Cap. 7 cubre DiD en detalle.</div>
+<div>
+<div style="font-size: 0.8rem; font-weight: 700; color: #0F172A; margin-bottom: 0.5rem;">Resultado e integración al SROI</div>
+<div style="font-size: 0.8rem; color: #475569; line-height: 1.65;">WTP mediana estimada = $45,000 COP/mes = $540,000 COP/año por hogar. Con 200 hogares, WTP total = $108M COP (bruto). Aplicando deadweight 10%, atribución 25%, displacement 5% → valor neto ajustado = $73M COP/año. Este flujo, descontado al 5%, entra al VPN del SROI.</div>
 </div>
-
+</div>
 </div>
 
 </div>
@@ -417,10 +433,10 @@ ul.task-list li input[type="checkbox"] {
 <div class="content-section dark">
 <div class="content-inner" style="display: flex; justify-content: space-between; align-items: center; flex-wrap: wrap; gap: 1rem; padding: 1rem 0;">
 <div>
-<div style="color: #94A3B8; font-size: 0.82rem; margin-bottom: 0.35rem;">Siguiente método</div>
-<div style="font-size: 1.1rem; font-weight: 700; color: white;">RCT / cRCT — La asignación aleatoria →</div>
+<div style="color: #94A3B8; font-size: 0.82rem; margin-bottom: 0.35rem;">Marco integrador</div>
+<div style="font-size: 1.1rem; font-weight: 700; color: white;">SROI — cómo WTP alimenta el Value Map →</div>
 </div>
-<a href="rct.html" class="btn-primary-custom">Ver RCT</a>
+<a href="sroi.html" class="btn-primary-custom">Ver SROI</a>
 </div>
 </div>
 
