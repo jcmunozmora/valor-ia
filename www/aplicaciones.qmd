@@ -27,8 +27,8 @@ description: "Portafolio de casos reales donde el SROI ha transformado decisione
     <span class="app-stat-label">Sectores cubiertos</span>
   </div>
   <div class="app-stat">
-    <span class="app-stat-num">2.35×</span>
-    <span class="app-stat-label">Maximo SROI documentado</span>
+    <span class="app-stat-num">3.37×</span>
+    <span class="app-stat-label">SROI maximo (5 anos)</span>
   </div>
   <div class="app-stat">
     <span class="app-stat-num">2026</span>
@@ -49,59 +49,60 @@ description: "Portafolio de casos reales donde el SROI ha transformado decisione
      ============================================================ -->
 <div class="cases-grid">
 
-  <!-- ARGOS / STC — COMPLETED -->
+  <!-- ARGOS / SQT — COMPLETED -->
   <div class="case-card case-card--featured">
     <div class="case-card-header">
       <div class="case-meta-top">
         <span class="case-badge case-badge--complete">Diagnostico completo</span>
         <span class="case-year">2026</span>
       </div>
-      <h2 class="case-name">Argos — Semillero Tierra Colombiana</h2>
-      <p class="case-sector">Infraestructura comunitaria &middot; Paz y reconciliacion &middot; Antioquia</p>
+      <h2 class="case-name">Sueños que Transforman — Fundación Grupo Argos</h2>
+      <p class="case-sector">Infraestructura comunitaria &middot; Placemaking &middot; Barrio Manrique, Medellin</p>
     </div>
 
     <div class="case-card-body">
       <p class="case-description">
-        Diagnostico SROI del programa STC de Argos: 20 viviendas construidas con comunidades
-        victimas del conflicto en Antioquia. El analisis identifica las palancas criticas para
-        multiplicar el valor social y justifica la expansion del programa.
+        Analisis SROI de <em>Sueños que Transforman (SQT)</em>: alianza entre la Fundacion Grupo Argos
+        y la comunidad del barrio Manrique para recuperar el Teatro Talita Cumi mediante urbanismo
+        participativo — un espacio que llevaba 25 anos en deterioro. El analisis cuantifica el valor
+        social generado en el primer ciclo e identifica las palancas para escalar el impacto.
       </p>
 
       <div class="case-metrics">
         <div class="case-metric">
           <span class="metric-value">0.52&times;</span>
-          <span class="metric-label">SROI linea base</span>
+          <span class="metric-label">SROI reportado (ciclo 1)</span>
         </div>
         <div class="case-metric case-metric--highlight">
           <span class="metric-value">2.35&times;</span>
-          <span class="metric-label">Escenario optimo (3 anos)</span>
+          <span class="metric-label">SROI central (3 anos)</span>
         </div>
         <div class="case-metric">
-          <span class="metric-value">COP 1.8B</span>
-          <span class="metric-label">Inversion total analizada</span>
+          <span class="metric-value">3.37&times;</span>
+          <span class="metric-label">SROI a 5 anos (vida util)</span>
         </div>
       </div>
 
       <div class="case-highlights">
         <div class="case-highlight">
           <span class="highlight-icon">&#9654;</span>
-          <span>5 outcomes identificados, 1 monetizado en linea base</span>
+          <span>Teatro Talita Cumi: 25 anos de deterioro revertidos en un ciclo</span>
         </div>
         <div class="case-highlight">
           <span class="highlight-icon">&#9654;</span>
-          <span>Deadweight 47% — palanca critica para mejorar documentacion</span>
+          <span>COP $203M invertidos &middot; 60 beneficiarios directos &middot; P38 percentil global SVI</span>
         </div>
         <div class="case-highlight">
           <span class="highlight-icon">&#9654;</span>
-          <span>Escenario 2x requiere solo ampliar a 50 beneficiarios</span>
+          <span>Deadweight y atribucion identificados como palancas criticas para escalar</span>
         </div>
       </div>
     </div>
 
     <div class="case-card-footer">
       <div class="case-tags">
-        <span class="case-tag">Vivienda</span>
-        <span class="case-tag">Victimas</span>
+        <span class="case-tag">Placemaking</span>
+        <span class="case-tag">Comunidad</span>
         <span class="case-tag">Monte Carlo</span>
         <span class="case-tag">SVI Principios</span>
       </div>
