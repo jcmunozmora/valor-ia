@@ -197,7 +197,7 @@ ul.task-list li input[type="checkbox"] {
             <ul class="navbar-nav navbar-nav-scroll ms-auto">
   <li class="nav-item">
     <a class="nav-link" href="https://www.eafit.edu.co"> 
-<span class="menu-text">CVP · EAFIT</span></a>
+<span class="menu-text">iMEL® · EAFIT</span></a>
   </li>  
 </ul>
           </div> <!-- /navcollapse -->
@@ -240,7 +240,10 @@ ul.task-list li input[type="checkbox"] {
 <div class="hero-content">
 
 <span class="hero-label">Centro Valor Público · Universidad EAFIT</span>
-<div class="hero-imel-badge">iMEL<sup>®</sup> &nbsp;—&nbsp; Metodología propia registrada</div>
+<div class="hero-badges-row">
+  <div class="hero-imel-badge">iMEL<sup>®</sup> &nbsp;—&nbsp; Metodología propia registrada</div>
+  <div class="hero-svi-badge">✓ SVI Certified &nbsp;·&nbsp; Social Value International</div>
+</div>
 
 <h1 class="idx-headline">
   Todo programa social<br>
@@ -313,8 +316,6 @@ ul.task-list li input[type="checkbox"] {
     <span class="idx-logos-sep">·</span>
     <span class="idx-logo-item"><strong>Comfama</strong></span>
     <span class="idx-logos-sep">·</span>
-    <span class="idx-logo-item">Swiss <strong>Philanthropy</strong></span>
-    <span class="idx-logos-sep">·</span>
     <span class="idx-logo-item"><strong>BID</strong></span>
     <span class="idx-logos-sep">·</span>
     <span class="idx-logo-item"><strong>AGROSAVIA</strong></span>
@@ -322,6 +323,8 @@ ul.task-list li input[type="checkbox"] {
     <span class="idx-logo-item">Grupo<strong>Argos</strong></span>
     <span class="idx-logos-sep">·</span>
     <span class="idx-logo-item"><strong>Despacio</strong></span>
+    <span class="idx-logos-sep idx-logos-sep--divider">|</span>
+    <span class="idx-logo-item idx-logo-item--intl">🇨🇭 Swiss <strong>Philanthropy</strong> <span class="idx-logo-intl-tag">Internacional</span></span>
   </div>
 </div>
 
@@ -723,6 +726,13 @@ ul.task-list li input[type="checkbox"] {
 .idx-hl {
   color: #5EEAD4;
 }
+.hero-badges-row {
+  display: flex;
+  flex-wrap: wrap;
+  gap: 0.5rem;
+  margin-bottom: 0.85rem;
+  align-items: center;
+}
 .hero-imel-badge {
   display: inline-block;
   background: rgba(94,234,212,0.12);
@@ -734,7 +744,18 @@ ul.task-list li input[type="checkbox"] {
   text-transform: uppercase;
   padding: 0.3rem 0.85rem;
   border-radius: 999px;
-  margin-bottom: 0.85rem;
+}
+.hero-svi-badge {
+  display: inline-block;
+  background: rgba(29,78,216,0.15);
+  border: 1px solid rgba(96,165,250,0.35);
+  color: #93C5FD;
+  font-size: 0.72rem;
+  font-weight: 700;
+  letter-spacing: 0.06em;
+  text-transform: uppercase;
+  padding: 0.3rem 0.85rem;
+  border-radius: 999px;
 }
 .hero-imel-inline {
   color: #5EEAD4;
@@ -854,6 +875,27 @@ ul.task-list li input[type="checkbox"] {
 .idx-logos-sep {
   color: #334155;
   font-size: 0.75rem;
+}
+.idx-logos-sep--divider {
+  color: #1E293B;
+  font-size: 1rem;
+  margin: 0 0.25rem;
+}
+.idx-logo-item--intl {
+  display: inline-flex;
+  align-items: center;
+  gap: 0.4rem;
+}
+.idx-logo-intl-tag {
+  font-size: 0.65rem;
+  font-weight: 700;
+  letter-spacing: 0.08em;
+  text-transform: uppercase;
+  background: rgba(96,165,250,0.12);
+  border: 1px solid rgba(96,165,250,0.25);
+  color: #93C5FD;
+  padding: 0.1rem 0.45rem;
+  border-radius: 999px;
 }
 
 .idx-pillar-icon--teal   { background: #F0FDFA; color: #0D9488; }

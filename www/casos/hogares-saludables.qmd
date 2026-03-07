@@ -750,6 +750,38 @@ toc: false
 </div>
 </div>
 
+<!-- ENGLISH SUMMARY -->
+<div class="content-section" style="border-top: 2px solid #1D4ED8;">
+<div class="content-inner">
+<div style="display:flex;align-items:center;gap:0.75rem;margin-bottom:1rem;">
+  <span style="font-size:1.2rem;">🇬🇧</span>
+  <span style="font-size:0.68rem;font-weight:700;letter-spacing:0.1em;text-transform:uppercase;color:#1D4ED8;">English Summary — For international audiences</span>
+</div>
+<h2 class="section-heading" style="color:#0F172A;">Hogares Saludables: $3.74 Social Return per $1 Invested</h2>
+<div style="max-width:720px;">
+<p style="font-size:0.95rem;line-height:1.8;color:#334155;">
+  <strong>Program:</strong> Hogares Saludables (Healthy Homes) is a housing improvement program run by Cementos Argos — one of Latin America's largest cement producers — targeting vulnerable households in three Colombian cities: Barranquilla, Bogotá, and Medellín.
+</p>
+<p style="font-size:0.95rem;line-height:1.8;color:#334155;">
+  <strong>Evidence design:</strong> A <strong>cluster Randomized Controlled Trial (cRCT)</strong> with 1,163 households — the highest level of causal evidence (N5 on the iMEL® Maturity Scale). Interventions included floor replacement, kitchen upgrades, and bathroom improvements. The study measured outcomes across health, employment, economic wellbeing, and subjective wellbeing.
+</p>
+<p style="font-size:0.95rem;line-height:1.8;color:#334155;">
+  <strong>Key results:</strong> Six statistically significant causal effects were confirmed, including a 10.5 percentage point reduction in household unemployment (p&lt;0.01), a 12.0 pp improvement in asset ownership, and significant gains in subjective wellbeing. Two outcomes showed precise null effects — an equally important finding that strengthens the credibility of the positive results.
+</p>
+<p style="font-size:0.95rem;line-height:1.8;color:#334155;">
+  <strong>Social Return on Investment:</strong> Central SROI ratio of <strong>3.74× over 3 years</strong> (5.18× over 5 years), representing COP 12.51 billion in gross social value against COP 3.72 billion invested. Monte Carlo sensitivity analysis (10,000 simulations) confirms a positive SROI in 100% of scenarios. Deadweight = 0% by experimental design.
+</p>
+<p style="font-size:0.95rem;line-height:1.8;color:#334155;">
+  <strong>Methodology:</strong> iMEL® (Integrated Monitoring, Evaluation &amp; Learning) — a proprietary framework built on Social Value International's 7 Principles and aligned with DCED Standards, Value for Money criteria, and SDG indicators 1, 3, 8, and 10. SVI Report Assurance process initiated for 2026.
+</p>
+<div style="display:flex;gap:1rem;flex-wrap:wrap;margin-top:1.5rem;">
+  <a href="mailto:jmunozm1@eafit.edu.co?subject=Hogares Saludables — International Inquiry" style="display:inline-block;background:#1D4ED8;color:#fff;text-decoration:none;font-size:0.85rem;font-weight:700;padding:0.65rem 1.5rem;border-radius:0.5rem;">Contact for full report →</a>
+  <a href="../metodologia.html" style="display:inline-block;background:transparent;border:1px solid #CBD5E1;color:#475569;text-decoration:none;font-size:0.85rem;font-weight:600;padding:0.65rem 1.5rem;border-radius:0.5rem;">iMEL® Methodology</a>
+</div>
+</div>
+</div>
+</div>
+
 <!-- SECCION: CONCLUSIONES -->
 <!-- TESTIMONIOS -->
 <div class="content-section">

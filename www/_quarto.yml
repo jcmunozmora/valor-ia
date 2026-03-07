@@ -55,7 +55,7 @@ website:
       - href: equipo.qmd
         text: Equipo
     right:
-      - text: "CVP · EAFIT"
+      - text: "iMEL® · EAFIT"
         href: "https://www.eafit.edu.co"
 
   page-footer:

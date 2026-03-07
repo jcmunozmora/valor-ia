@@ -197,7 +197,7 @@ ul.task-list li input[type="checkbox"] {
             <ul class="navbar-nav navbar-nav-scroll ms-auto">
   <li class="nav-item">
     <a class="nav-link" href="https://www.eafit.edu.co"> 
-<span class="menu-text">CVP · EAFIT</span></a>
+<span class="menu-text">iMEL® · EAFIT</span></a>
   </li>  
 </ul>
           </div> <!-- /navcollapse -->
@@ -575,6 +575,33 @@ ul.task-list li input[type="checkbox"] {
 <div class="content-inner">
 
 <span class="section-label">Herramientas disponibles</span>
+<!-- MARCOS INTERNACIONALES -->
+<div class="imel-intl-strip">
+  <div class="imel-intl-label">Alineación con marcos internacionales</div>
+  <div class="imel-intl-row">
+    <div class="imel-intl-item">
+      <div class="imel-intl-name">SVI / SROI</div>
+      <div class="imel-intl-desc">Social Value International — 7 principios · Report Assurance Standard</div>
+    </div>
+    <div class="imel-intl-item">
+      <div class="imel-intl-name">DCED</div>
+      <div class="imel-intl-desc">Donor Committee for Enterprise Development — Results Measurement Standard</div>
+    </div>
+    <div class="imel-intl-item">
+      <div class="imel-intl-name">Value for Money</div>
+      <div class="imel-intl-desc">DFID / FCDO — Economy, Efficiency, Effectiveness, Equity</div>
+    </div>
+    <div class="imel-intl-item">
+      <div class="imel-intl-name">ODS / SDGs</div>
+      <div class="imel-intl-desc">ODS 1, 3, 4, 8, 10 y 16 — indicadores alineados con la agenda 2030</div>
+    </div>
+    <div class="imel-intl-item">
+      <div class="imel-intl-name">GRI / SASB</div>
+      <div class="imel-intl-desc">Reporte de sostenibilidad corporativa — compatible con iMEL® D3–D5</div>
+    </div>
+  </div>
+</div>
+
 <h2 class="section-heading anchored">¿Quiere profundizar en una herramienta específica?</h2>
 
 <p>La caja de herramientas de métodos se desarrolla en detalle en la sección <strong>Herramientas</strong> del sitio. Cada método tiene su propia página con fundamentos teóricos, criterios de selección, ejemplos aplicados y conexión con los casos del Centro Valor Público.</p>
@@ -908,6 +935,41 @@ ul.task-list li input[type="checkbox"] {
 @media (max-width: 600px) {
   .toolbox-grid { grid-template-columns: 1fr; }
   .tool-card { border-right: none !important; }
+}
+
+/* MARCOS INTERNACIONALES */
+.imel-intl-strip {
+  background: #F8FAFC;
+  border: 1px solid #E2E8F0;
+  border-left: 4px solid #1D4ED8;
+  border-radius: 0 0.75rem 0.75rem 0;
+  padding: 1.25rem 1.5rem;
+  margin: 2rem 0;
+}
+.imel-intl-label {
+  font-size: 0.68rem;
+  font-weight: 700;
+  letter-spacing: 0.1em;
+  text-transform: uppercase;
+  color: #1D4ED8;
+  margin-bottom: 1rem;
+}
+.imel-intl-row {
+  display: flex;
+  flex-wrap: wrap;
+  gap: 0.75rem 2rem;
+}
+.imel-intl-item { min-width: 180px; }
+.imel-intl-name {
+  font-size: 0.8rem;
+  font-weight: 800;
+  color: #0F172A;
+  margin-bottom: 0.2rem;
+}
+.imel-intl-desc {
+  font-size: 0.73rem;
+  color: #64748B;
+  line-height: 1.4;
 }
 </style>
 
