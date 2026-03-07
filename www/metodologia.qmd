@@ -31,31 +31,42 @@ toc: false
     <div class="madur-dim-num">1</div>
     <div class="madur-dim-name">Coherencia programática</div>
     <div class="madur-dim-desc">Teoría del cambio documentada e indicadores alineados con los outcomes</div>
+    <a href="herramientas.html" class="madur-dim-cta">Construir la ToC &rarr;</a>
   </div>
   <div class="madur-arrow">&#8594;</div>
   <div class="madur-dim">
     <div class="madur-dim-num">2</div>
     <div class="madur-dim-name">Eficacia</div>
     <div class="madur-dim-desc">Objetivos cumplidos y beneficiarios alcanzados según meta</div>
+    <a href="herramientas.html" class="madur-dim-cta">Diseñar sistema M&amp;E &rarr;</a>
   </div>
   <div class="madur-arrow">&#8594;</div>
   <div class="madur-dim">
     <div class="madur-dim-num">3</div>
     <div class="madur-dim-name">Eficiencia operativa</div>
     <div class="madur-dim-desc">Trazabilidad de recursos y factores de ajuste documentados</div>
+    <a href="herramientas.html" class="madur-dim-cta">Auditar la eficiencia &rarr;</a>
   </div>
   <div class="madur-arrow">&#8594;</div>
   <div class="madur-dim">
     <div class="madur-dim-num">4</div>
     <div class="madur-dim-name">Impacto social</div>
     <div class="madur-dim-desc">Evidencia de cambio real en beneficiarios con contrafactual considerado</div>
+    <a href="metodos/sroi.html" class="madur-dim-cta">Análisis SROI completo &rarr;</a>
   </div>
   <div class="madur-arrow">&#8594;</div>
   <div class="madur-dim madur-dim--last">
     <div class="madur-dim-num">5</div>
     <div class="madur-dim-name">Valoración monetaria</div>
     <div class="madur-dim-desc">Proxies validados, ratio SROI calculado y aseguramiento SVI</div>
+    <a href="metodos/sroi.html" class="madur-dim-cta">Aseguramiento SVI &rarr;</a>
   </div>
+</div>
+
+<div class="madur-entry-note">
+  <span>&#9654;</span>
+  <span>¿No sabe en qué dimensión está su programa?
+  <a href="herramientas.html" style="color:#0D9488;font-weight:700;">Diagnóstico gratuito en 30 min →</a></span>
 </div>
 
 <!-- Leyenda semáforo -->
@@ -322,6 +333,12 @@ toc: false
 <p>Ningún método de valoración es universalmente superior. La elección debe justificarse en función del tipo de outcome, la disponibilidad de datos, las preferencias de los stakeholders y los recursos disponibles. El error más frecuente es aplicar el método más fácil —costos unitarios de bases secundarias— sin verificar si captura realmente el outcome que se está midiendo.</p>
 </div>
 
+<div class="madur-entry-note" style="margin-top:1.25rem;">
+  <span>&#9654;</span>
+  <span><strong>¿No sabe por dónde empezar?</strong> El 80% de nuestros aliados en América Latina comienza en la Dimensión 1 o 2 — con una Teoría del Cambio bien construida y un sistema básico de M&amp;E.
+  <a href="herramientas.html" style="color:#0D9488;font-weight:700;">Hablar con un especialista iMEL® →</a></span>
+</div>
+
 </div>
 </div>
 
@@ -528,7 +545,33 @@ toc: false
 }
 .madur-dim--last .madur-dim-num { background: #0D9488; color: white; }
 .madur-dim-name { font-size: 0.78rem; font-weight: 800; color: #0F172A; margin-bottom: 0.3rem; line-height: 1.2; }
-.madur-dim-desc { font-size: 0.72rem; color: #64748B; line-height: 1.45; }
+.madur-dim-desc { font-size: 0.72rem; color: #64748B; line-height: 1.45; margin-bottom: 0.6rem; }
+.madur-dim-cta {
+  display: inline-block;
+  font-size: 0.65rem;
+  font-weight: 700;
+  color: #0D9488;
+  text-decoration: none;
+  border: 1px solid rgba(13,148,136,0.3);
+  border-radius: 999px;
+  padding: 0.15rem 0.55rem;
+  transition: background 0.15s;
+}
+.madur-dim-cta:hover { background: rgba(13,148,136,0.08); }
+.madur-dim--last .madur-dim-cta { color: #059669; border-color: rgba(5,150,105,0.4); }
+.madur-entry-note {
+  display: flex;
+  align-items: center;
+  gap: 0.6rem;
+  background: #FFFBEB;
+  border: 1px solid #FDE68A;
+  border-radius: 0.65rem;
+  padding: 0.75rem 1rem;
+  font-size: 0.82rem;
+  color: #78350F;
+  margin-top: 1rem;
+}
+.madur-entry-note span:first-child { color: #D97706; flex-shrink: 0; }
 .madur-arrow {
   display: flex; align-items: center; padding: 0 0.3rem;
   color: #CBD5E1; font-size: 1rem; font-weight: 300;
