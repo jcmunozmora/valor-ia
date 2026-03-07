@@ -12,21 +12,24 @@ toc: false
 <div class="hero-content">
 
 <span class="hero-label">Centro Valor Público &middot; Universidad EAFIT</span>
+<div class="hero-imel-badge">iMEL<sup>®</sup> &nbsp;&mdash;&nbsp; Metodología propia registrada</div>
 
 <h1 class="idx-headline">
-  Su inversion social<br>
-  <span class="idx-hl">merece ser medida</span><br>
-  con rigor real
+  Todo programa social<br>
+  <span class="idx-hl">ya se está evaluando.</span><br>
+  La pregunta es con qué rigor.
 </h1>
 
 <p class="hero-lead">
-  Combinamos experiencia en valor público, evidencia científica internacional
-  y conocimiento profundo del contexto colombiano para construir soluciones
-  a medida en valoración de impacto social.
+  <strong style="color:#5EEAD4;">iMEL®</strong> (Integrated Monitoring, Evaluation &amp; Learning)
+  es nuestra metodología propia: combina tecnología, <strong style="color:#A5F3FC;">métodos participativos</strong>
+  y marcos de aprendizaje para acompañar a sus aliados en el proceso de madurar
+  el impacto de sus iniciativas sociales.<br>
+  <em style="color:rgba(255,255,255,0.7);font-size:0.92em;">Evaluamos para aprender. Aprendemos para mejorar. Mejoramos para aplicar.</em>
 </p>
 
 <div class="hero-actions">
-  <a href="herramientas.html" class="btn-primary-custom">Conocer nuestros servicios &rarr;</a>
+  <a href="metodologia.html" class="btn-primary-custom">Conocer el método iMEL<sup>®</sup> &rarr;</a>
   <a href="aplicaciones.html" class="btn-outline-custom">Ver casos reales</a>
 </div>
 
@@ -70,16 +73,16 @@ toc: false
 
   <div class="idx-pillar">
     <div class="idx-pillar-icon idx-pillar-icon--purple">
-      <svg width="28" height="28" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><path d="M17 21v-2a4 4 0 0 0-4-4H5a4 4 0 0 0-4 4v2"/><circle cx="9" cy="7" r="4"/><path d="M23 21v-2a4 4 0 0 0-3-3.87"/><path d="M16 3.13a4 4 0 0 1 0 7.75"/></svg>
+      <svg width="28" height="28" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><circle cx="12" cy="12" r="10"/><path d="M12 8v4l3 3"/><path d="M5 3l1.5 1.5"/><path d="M19 3l-1.5 1.5"/></svg>
     </div>
     <div class="idx-pillar-body">
-      <h3>Conocimiento del contexto y los aliados</h3>
+      <h3>Métodos participativos como eje transversal</h3>
       <p>
-        Entendemos las realidades institucionales, los aliados estratégicos y
-        las particularidades del contexto colombiano y latinoamericano.
-        Eso significa proxies adaptados a COP, fuentes de datos locales
-        (ADRES, SENA, DANE) y análisis que resisten el escrutinio de
-        las organizaciones con las que trabaja.
+        La voz de los beneficiarios no es un complemento — es parte central del
+        análisis. Métodos participativos (Value Game, MSC, grupos focales, PIA)
+        atraviesan todo el proceso: desde la construcción de la Teoría del Cambio
+        hasta la validación de proxies y la lectura de resultados. Evaluamos <em>con</em>
+        las comunidades, no solo <em>sobre</em> ellas.
       </p>
     </div>
   </div>
@@ -183,6 +186,11 @@ toc: false
     <div class="idx-ev-num">6</div>
     <div class="idx-ev-label">Metodos de<br>valoracion</div>
   </div>
+  <div class="idx-ev-div"></div>
+  <div class="idx-ev-item">
+    <div class="idx-ev-num">iMEL<sup style="font-size:0.55em;vertical-align:super;">®</sup></div>
+    <div class="idx-ev-label">Metodología<br>propia registrada</div>
+  </div>
 </div>
 
 <!-- ============================================================
@@ -241,11 +249,12 @@ toc: false
   <div class="idx-proc-step">
     <div class="idx-proc-num">4</div>
     <div class="idx-proc-body">
-      <div class="idx-proc-title">Informe y transferencia</div>
+      <div class="idx-proc-title">Aprendizaje y mejora continua</div>
       <div class="idx-proc-desc">
-        Entregamos un informe adaptado a su audiencia y transferimos el conocimiento
-        metodológico a su equipo. Usted queda con la capacidad de actualizar
-        y defender el análisis de forma autónoma.
+        Los resultados no son el final — son el inicio del ciclo de mejora.
+        Devolvemos los hallazgos en formatos que informan decisiones reales,
+        y transferimos la capacidad metodológica para que su equipo aprenda,
+        itere y aplique de forma autónoma.
       </div>
     </div>
   </div>
@@ -425,6 +434,19 @@ toc: false
 }
 .idx-hl {
   color: #5EEAD4;
+}
+.hero-imel-badge {
+  display: inline-block;
+  background: rgba(94,234,212,0.12);
+  border: 1px solid rgba(94,234,212,0.35);
+  color: #5EEAD4;
+  font-size: 0.72rem;
+  font-weight: 700;
+  letter-spacing: 0.08em;
+  text-transform: uppercase;
+  padding: 0.3rem 0.85rem;
+  border-radius: 999px;
+  margin-bottom: 0.85rem;
 }
 
 /* ============================================================
