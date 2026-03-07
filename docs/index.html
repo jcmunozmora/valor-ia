@@ -71,10 +71,28 @@ ul.task-list li input[type="checkbox"] {
 <link rel="preconnect" href="https://fonts.googleapis.com">
 <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin="">
 <link href="https://fonts.googleapis.com/css2?family=Inter:wght@300;400;500;600;700;800;900&amp;family=JetBrains+Mono:wght@400;500&amp;display=swap" rel="stylesheet">
+<script type="application/ld+json">
+{
+  "@context": "https://schema.org",
+  "@type": "Organization",
+  "name": "Valor·IA — Centro Valor Público EAFIT",
+  "description": "Especialistas en medición de impacto social para América Latina. SROI, evaluación de impacto, Teorías del Cambio y metodología iMEL®.",
+  "url": "https://jcmunozmora.github.io/valor-ia/",
+  "logo": "https://jcmunozmora.github.io/valor-ia/images/favicon.svg",
+  "parentOrganization": {
+    "@type": "EducationalOrganization",
+    "name": "Universidad EAFIT",
+    "url": "https://www.eafit.edu.co"
+  },
+  "areaServed": ["Colombia", "México", "Argentina", "Chile", "América Latina"],
+  "knowsAbout": ["SROI", "Social Return on Investment", "Evaluación de impacto social", "Teoría del Cambio", "WELLBY", "iMEL"],
+  "foundingDate": "2020"
+}
+</script>
 
 
 <meta property="og:title" content="Valor·IA — CVP EAFIT">
-<meta property="og:description" content="Plataforma de inteligencia para la medicion de valor social — SROI, CBA, WELLBY">
+<meta property="og:description" content="Especialistas en medición de impacto social para América Latina. SROI, evaluación de impacto, Teorías del Cambio y metodología iMEL® — Centro Valor Público, Universidad EAFIT.">
 <meta property="og:image" content="images/og-image.png">
 <meta property="og:site_name" content="Valor·IA — CVP EAFIT">
 </head>
@@ -102,15 +120,15 @@ ul.task-list li input[type="checkbox"] {
   </li>  
   <li class="nav-item">
     <a class="nav-link" href="./metodologia.html"> 
-<span class="menu-text">Nuestra Aproximación</span></a>
+<span class="menu-text">Metodología iMEL®</span></a>
   </li>  
   <li class="nav-item">
     <a class="nav-link" href="./ciencia.html"> 
-<span class="menu-text">Ciencia del Impacto</span></a>
+<span class="menu-text">Evidencia</span></a>
   </li>  
   <li class="nav-item">
     <a class="nav-link" href="./herramientas.html"> 
-<span class="menu-text">Nuestros Servicios</span></a>
+<span class="menu-text">Servicios</span></a>
   </li>  
   <li class="nav-item dropdown ">
     <a class="nav-link dropdown-toggle" href="#" id="nav-menu-herramientas" role="link" data-bs-toggle="dropdown" aria-expanded="false">
@@ -169,7 +187,7 @@ ul.task-list li input[type="checkbox"] {
   </li>  
   <li class="nav-item">
     <a class="nav-link" href="./aplicaciones.html"> 
-<span class="menu-text">Aplicaciones</span></a>
+<span class="menu-text">Casos reales</span></a>
   </li>  
   <li class="nav-item">
     <a class="nav-link" href="./equipo.html"> 
@@ -283,6 +301,28 @@ ul.task-list li input[type="checkbox"] {
     </p>
   </div>
 
+</div>
+
+<!-- ============================================================
+     FRANJA DE LOGOS — CLIENTES
+     ============================================================ -->
+<div class="idx-logos-strip">
+  <div class="idx-logos-label">Organizaciones que ya miden su impacto con iMEL®</div>
+  <div class="idx-logos-row">
+    <span class="idx-logo-item">Cementos<strong>Argos</strong></span>
+    <span class="idx-logos-sep">·</span>
+    <span class="idx-logo-item"><strong>Comfama</strong></span>
+    <span class="idx-logos-sep">·</span>
+    <span class="idx-logo-item">Swiss <strong>Philanthropy</strong></span>
+    <span class="idx-logos-sep">·</span>
+    <span class="idx-logo-item"><strong>BID</strong></span>
+    <span class="idx-logos-sep">·</span>
+    <span class="idx-logo-item"><strong>AGROSAVIA</strong></span>
+    <span class="idx-logos-sep">·</span>
+    <span class="idx-logo-item">Grupo<strong>Argos</strong></span>
+    <span class="idx-logos-sep">·</span>
+    <span class="idx-logo-item"><strong>Despacio</strong></span>
+  </div>
 </div>
 
 <!-- ============================================================
@@ -775,6 +815,47 @@ ul.task-list li input[type="checkbox"] {
   justify-content: center;
   flex-shrink: 0;
 }
+/* LOGO STRIP */
+.idx-logos-strip {
+  background: #1E293B;
+  border-top: 1px solid rgba(255,255,255,0.06);
+  border-bottom: 1px solid rgba(255,255,255,0.06);
+  padding: 1.25rem 2rem;
+  text-align: center;
+}
+.idx-logos-label {
+  font-size: 0.68rem;
+  font-weight: 600;
+  letter-spacing: 0.12em;
+  text-transform: uppercase;
+  color: #475569;
+  margin-bottom: 0.9rem;
+}
+.idx-logos-row {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  flex-wrap: wrap;
+  gap: 0.5rem 0.25rem;
+}
+.idx-logo-item {
+  font-size: 0.82rem;
+  font-weight: 400;
+  color: #64748B;
+  letter-spacing: 0.01em;
+  padding: 0 0.5rem;
+  transition: color 0.2s;
+}
+.idx-logo-item strong {
+  font-weight: 700;
+  color: #94A3B8;
+}
+.idx-logo-item:hover strong { color: #CBD5E1; }
+.idx-logos-sep {
+  color: #334155;
+  font-size: 0.75rem;
+}
+
 .idx-pillar-icon--teal   { background: #F0FDFA; color: #0D9488; }
 .idx-pillar-icon--blue   { background: #F0F9FF; color: #0EA5E9; }
 .idx-pillar-icon--purple { background: #F5F3FF; color: #7C3AED; }
@@ -1617,7 +1698,7 @@ ul.task-list li input[type="checkbox"] {
 <p>Centro Valor Público · Universidad EAFIT</p>
 </div>   
     <div class="nav-footer-center">
-<p>Valor·IA — CVP EAFIT · Midiendo lo que importa</p>
+<p>Valor·IA — CVP EAFIT · El rigor que su impacto merece.</p>
 </div>
     <div class="nav-footer-right">
 <p>© 2026</p>

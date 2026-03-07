@@ -15,11 +15,11 @@ website:
       - href: index.qmd
         text: Inicio
       - href: metodologia.qmd
-        text: "Nuestra Aproximación"
+        text: "Metodología iMEL®"
       - href: ciencia.qmd
-        text: Ciencia del Impacto
+        text: "Evidencia"
       - href: herramientas.qmd
-        text: "Nuestros Servicios"
+        text: "Servicios"
       - text: "Herramientas"
         menu:
           - text: "Caja de herramientas — Índice"
@@ -51,7 +51,7 @@ website:
       - href: diagnostico.qmd
         text: "Diagnóstico"
       - href: aplicaciones.qmd
-        text: Aplicaciones
+        text: "Casos reales"
       - href: equipo.qmd
         text: Equipo
     right:
@@ -62,14 +62,14 @@ website:
     background: "#0F172A"
     foreground: light
     left: "Centro Valor Público · Universidad EAFIT"
-    center: "Valor·IA — CVP EAFIT · Midiendo lo que importa"
+    center: "Valor·IA — CVP EAFIT · El rigor que su impacto merece."
     right: "© 2026"
 
   sidebar: false
 
   open-graph:
     title: "Valor·IA — CVP EAFIT"
-    description: "Plataforma de inteligencia para la medicion de valor social — SROI, CBA, WELLBY"
+    description: "Especialistas en medición de impacto social para América Latina. SROI, evaluación de impacto, Teorías del Cambio y metodología iMEL® — Centro Valor Público, Universidad EAFIT."
     image: images/og-image.png
 
 format:
@@ -83,3 +83,21 @@ format:
         <link rel="preconnect" href="https://fonts.googleapis.com">
         <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
         <link href="https://fonts.googleapis.com/css2?family=Inter:wght@300;400;500;600;700;800;900&family=JetBrains+Mono:wght@400;500&display=swap" rel="stylesheet">
+        <script type="application/ld+json">
+        {
+          "@context": "https://schema.org",
+          "@type": "Organization",
+          "name": "Valor·IA — Centro Valor Público EAFIT",
+          "description": "Especialistas en medición de impacto social para América Latina. SROI, evaluación de impacto, Teorías del Cambio y metodología iMEL®.",
+          "url": "https://jcmunozmora.github.io/valor-ia/",
+          "logo": "https://jcmunozmora.github.io/valor-ia/images/favicon.svg",
+          "parentOrganization": {
+            "@type": "EducationalOrganization",
+            "name": "Universidad EAFIT",
+            "url": "https://www.eafit.edu.co"
+          },
+          "areaServed": ["Colombia", "México", "Argentina", "Chile", "América Latina"],
+          "knowsAbout": ["SROI", "Social Return on Investment", "Evaluación de impacto social", "Teoría del Cambio", "WELLBY", "iMEL"],
+          "foundingDate": "2020"
+        }
+        </script>

@@ -754,6 +754,136 @@ format:
   }
   .diag-opt-icon { font-size: 1rem; }
 }
+
+/* ============================================================
+   LEAD CAPTURE
+   ============================================================ */
+.diag-capture {
+  display: none;
+  max-width: 520px;
+  margin: 3rem auto;
+  padding: 0 1.5rem 3rem;
+}
+
+.diag-capture-card {
+  background: #1E293B;
+  border: 1px solid rgba(13,148,136,0.3);
+  border-radius: 1rem;
+  padding: 2.5rem 2rem;
+  text-align: center;
+  position: relative;
+  overflow: hidden;
+}
+
+.diag-capture-card::before {
+  content: '';
+  position: absolute;
+  top: 0; left: 0; right: 0;
+  height: 3px;
+  background: linear-gradient(90deg, #0D9488, #5EEAD4);
+}
+
+.diag-capture-icon {
+  font-size: 2.5rem;
+  margin-bottom: 1rem;
+  display: block;
+}
+
+.diag-capture-title {
+  font-size: 1.35rem;
+  font-weight: 800;
+  color: #F8FAFC;
+  letter-spacing: -0.02em;
+  margin-bottom: 0.5rem;
+}
+
+.diag-capture-sub {
+  color: #94A3B8;
+  font-size: 0.9rem;
+  line-height: 1.6;
+  margin-bottom: 1.75rem;
+}
+
+.diag-capture-preview {
+  display: inline-flex;
+  align-items: center;
+  gap: 0.5rem;
+  background: rgba(13,148,136,0.12);
+  border: 1px solid rgba(13,148,136,0.3);
+  color: #5EEAD4;
+  font-size: 0.82rem;
+  font-weight: 600;
+  padding: 0.4rem 1rem;
+  border-radius: 2rem;
+  margin-bottom: 1.75rem;
+}
+
+.diag-capture-form {
+  display: flex;
+  flex-direction: column;
+  gap: 0.75rem;
+  margin-bottom: 1.25rem;
+}
+
+.diag-capture-input {
+  width: 100%;
+  background: rgba(255,255,255,0.06);
+  border: 1px solid rgba(255,255,255,0.12);
+  border-radius: 0.5rem;
+  color: #F8FAFC;
+  font-size: 0.9rem;
+  padding: 0.75rem 1rem;
+  font-family: inherit;
+  transition: border-color 0.2s;
+  box-sizing: border-box;
+}
+
+.diag-capture-input::placeholder { color: #475569; }
+.diag-capture-input:focus {
+  outline: none;
+  border-color: #0D9488;
+  background: rgba(13,148,136,0.06);
+}
+
+.diag-capture-btn {
+  width: 100%;
+  background: #0D9488;
+  border: none;
+  color: #fff;
+  font-size: 0.95rem;
+  font-weight: 700;
+  padding: 0.85rem 2rem;
+  border-radius: 0.5rem;
+  cursor: pointer;
+  transition: all 0.2s;
+  font-family: inherit;
+}
+
+.diag-capture-btn:hover {
+  background: #0F766E;
+  transform: translateY(-1px);
+  box-shadow: 0 4px 12px rgba(13,148,136,0.3);
+}
+
+.diag-capture-skip {
+  background: transparent;
+  border: none;
+  color: #475569;
+  font-size: 0.82rem;
+  cursor: pointer;
+  font-family: inherit;
+  text-decoration: underline;
+  padding: 0;
+  transition: color 0.2s;
+}
+.diag-capture-skip:hover { color: #94A3B8; }
+
+.diag-capture-privacy {
+  margin-top: 1rem;
+  font-size: 0.72rem;
+  color: #334155;
+  line-height: 1.5;
+}
 </style>
 
 <div class="diag-wrapper">
@@ -827,6 +957,45 @@ format:
 
   <!-- QUIZ AREA -->
   <div id="diagQuiz" class="diag-quiz-area" style="display:none;"></div>
+
+  <!-- LEAD CAPTURE -->
+  <div id="diagCapture" class="diag-capture">
+    <div class="diag-capture-card">
+      <span class="diag-capture-icon">📬</span>
+      <div class="diag-capture-title">Su diagnóstico está listo</div>
+      <p class="diag-capture-sub">
+        ¿A qué email le enviamos el informe con su nivel de madurez,
+        el semáforo por dimensión y la hoja de ruta personalizada?
+      </p>
+      <div class="diag-capture-preview" id="capturePreviewBadge">
+        Calculando su nivel...
+      </div>
+      <div class="diag-capture-form">
+        <input
+          type="text"
+          id="captureName"
+          class="diag-capture-input"
+          placeholder="Nombre y organización"
+          autocomplete="name">
+        <input
+          type="email"
+          id="captureEmail"
+          class="diag-capture-input"
+          placeholder="Email corporativo"
+          autocomplete="email">
+        <button class="diag-capture-btn" onclick="submitCapture()">
+          Recibir mi informe →
+        </button>
+      </div>
+      <button class="diag-capture-skip" onclick="skipCapture()">
+        Ver resultados sin registrar
+      </button>
+      <p class="diag-capture-privacy">
+        Su información es confidencial. No compartimos datos con terceros.<br>
+        Solo recibirá el informe solicitado.
+      </p>
+    </div>
+  </div>
 
   <!-- RESULTS -->
   <div id="diagResults" class="diag-results"></div>
@@ -1087,6 +1256,11 @@ function updateProgress() {
 // RESULTS
 // ============================================================
 
+// Store computed results for use after capture
+let _cachedDimScores = null;
+let _cachedLevel = null;
+let _cachedRec = null;
+
 function showResults() {
   document.getElementById('diagQuiz').style.display = 'none';
   document.getElementById('diagProgress').style.display = 'none';
@@ -1104,6 +1278,56 @@ function showResults() {
   const totalScore = dimScores.reduce((s, d) => s + d.score, 0);
   const level = LEVELS.find(l => totalScore >= l.min && totalScore <= l.max) || LEVELS[0];
   const rec = RECOMMENDATIONS.find(r => r.level === level.level);
+
+  // Cache for after capture
+  _cachedDimScores = dimScores;
+  _cachedLevel = level;
+  _cachedRec = rec;
+
+  // Show capture form first
+  document.getElementById('capturePreviewBadge').textContent = `Su nivel: ${level.level} — ${level.name}`;
+  document.getElementById('diagCapture').style.display = 'block';
+  window.scrollTo({ top: 0, behavior: 'smooth' });
+}
+
+function submitCapture() {
+  const name = document.getElementById('captureName').value.trim();
+  const email = document.getElementById('captureEmail').value.trim();
+
+  if (!email) {
+    document.getElementById('captureEmail').focus();
+    return;
+  }
+
+  // Build mailto with results summary
+  const level = _cachedLevel;
+  const dimScores = _cachedDimScores;
+  const dimSummary = dimScores.map(d => `${d.name}: ${d.score}/${d.max}`).join(', ');
+  const subject = encodeURIComponent(`Diagnóstico iMEL® — ${level.level} ${level.name}`);
+  const body = encodeURIComponent(
+    `Nombre: ${name || '(no indicado)'}\n` +
+    `Email: ${email}\n\n` +
+    `Nivel de madurez: ${level.level} — ${level.name}\n` +
+    `Puntaje total: ${dimScores.reduce((s,d) => s+d.score, 0)}/30\n\n` +
+    `Detalle por dimensión:\n${dimSummary}\n\n` +
+    `Descripción del nivel:\n${level.desc}`
+  );
+
+  window.open(`mailto:cvp@eafit.edu.co?cc=${encodeURIComponent(email)}&subject=${subject}&body=${body}`, '_blank');
+  renderResults();
+}
+
+function skipCapture() {
+  renderResults();
+}
+
+function renderResults() {
+  document.getElementById('diagCapture').style.display = 'none';
+
+  const dimScores = _cachedDimScores;
+  const level = _cachedLevel;
+  const rec = _cachedRec;
+  const totalScore = dimScores.reduce((s, d) => s + d.score, 0);
 
   // Semáforo cells
   const semHtml = dimScores.map(d => {
@@ -1173,9 +1397,15 @@ function showResults() {
 function restartDiag() {
   document.getElementById('diagResults').style.display = 'none';
   document.getElementById('diagResults').innerHTML = '';
+  document.getElementById('diagCapture').style.display = 'none';
+  document.getElementById('captureName').value = '';
+  document.getElementById('captureEmail').value = '';
   document.getElementById('diagStart').style.display = 'block';
   answers = {};
   currentStep = 0;
+  _cachedDimScores = null;
+  _cachedLevel = null;
+  _cachedRec = null;
   window.scrollTo({ top: 0, behavior: 'smooth' });
 }
 </script>

@@ -72,10 +72,28 @@ ul.task-list li input[type="checkbox"] {
 <link rel="preconnect" href="https://fonts.googleapis.com">
 <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin="">
 <link href="https://fonts.googleapis.com/css2?family=Inter:wght@300;400;500;600;700;800;900&amp;family=JetBrains+Mono:wght@400;500&amp;display=swap" rel="stylesheet">
+<script type="application/ld+json">
+{
+  "@context": "https://schema.org",
+  "@type": "Organization",
+  "name": "Valor·IA — Centro Valor Público EAFIT",
+  "description": "Especialistas en medición de impacto social para América Latina. SROI, evaluación de impacto, Teorías del Cambio y metodología iMEL®.",
+  "url": "https://jcmunozmora.github.io/valor-ia/",
+  "logo": "https://jcmunozmora.github.io/valor-ia/images/favicon.svg",
+  "parentOrganization": {
+    "@type": "EducationalOrganization",
+    "name": "Universidad EAFIT",
+    "url": "https://www.eafit.edu.co"
+  },
+  "areaServed": ["Colombia", "México", "Argentina", "Chile", "América Latina"],
+  "knowsAbout": ["SROI", "Social Return on Investment", "Evaluación de impacto social", "Teoría del Cambio", "WELLBY", "iMEL"],
+  "foundingDate": "2020"
+}
+</script>
 
 
 <meta property="og:title" content="Valor·IA — CVP EAFIT">
-<meta property="og:description" content="Plataforma de inteligencia para la medicion de valor social — SROI, CBA, WELLBY">
+<meta property="og:description" content="Especialistas en medición de impacto social para América Latina. SROI, evaluación de impacto, Teorías del Cambio y metodología iMEL® — Centro Valor Público, Universidad EAFIT.">
 <meta property="og:image" content="images/og-image.png">
 <meta property="og:site_name" content="Valor·IA — CVP EAFIT">
 </head>
@@ -103,15 +121,15 @@ ul.task-list li input[type="checkbox"] {
   </li>  
   <li class="nav-item">
     <a class="nav-link" href="./metodologia.html"> 
-<span class="menu-text">Nuestra Aproximación</span></a>
+<span class="menu-text">Metodología iMEL®</span></a>
   </li>  
   <li class="nav-item">
     <a class="nav-link" href="./ciencia.html"> 
-<span class="menu-text">Ciencia del Impacto</span></a>
+<span class="menu-text">Evidencia</span></a>
   </li>  
   <li class="nav-item">
     <a class="nav-link" href="./herramientas.html"> 
-<span class="menu-text">Nuestros Servicios</span></a>
+<span class="menu-text">Servicios</span></a>
   </li>  
   <li class="nav-item dropdown ">
     <a class="nav-link dropdown-toggle" href="#" id="nav-menu-herramientas" role="link" data-bs-toggle="dropdown" aria-expanded="false">
@@ -170,7 +188,7 @@ ul.task-list li input[type="checkbox"] {
   </li>  
   <li class="nav-item">
     <a class="nav-link" href="./aplicaciones.html"> 
-<span class="menu-text">Aplicaciones</span></a>
+<span class="menu-text">Casos reales</span></a>
   </li>  
   <li class="nav-item">
     <a class="nav-link" href="./equipo.html"> 
@@ -968,6 +986,136 @@ ul.task-list li input[type="checkbox"] {
   }
   .diag-opt-icon { font-size: 1rem; }
 }
+
+/* ============================================================
+   LEAD CAPTURE
+   ============================================================ */
+.diag-capture {
+  display: none;
+  max-width: 520px;
+  margin: 3rem auto;
+  padding: 0 1.5rem 3rem;
+}
+
+.diag-capture-card {
+  background: #1E293B;
+  border: 1px solid rgba(13,148,136,0.3);
+  border-radius: 1rem;
+  padding: 2.5rem 2rem;
+  text-align: center;
+  position: relative;
+  overflow: hidden;
+}
+
+.diag-capture-card::before {
+  content: '';
+  position: absolute;
+  top: 0; left: 0; right: 0;
+  height: 3px;
+  background: linear-gradient(90deg, #0D9488, #5EEAD4);
+}
+
+.diag-capture-icon {
+  font-size: 2.5rem;
+  margin-bottom: 1rem;
+  display: block;
+}
+
+.diag-capture-title {
+  font-size: 1.35rem;
+  font-weight: 800;
+  color: #F8FAFC;
+  letter-spacing: -0.02em;
+  margin-bottom: 0.5rem;
+}
+
+.diag-capture-sub {
+  color: #94A3B8;
+  font-size: 0.9rem;
+  line-height: 1.6;
+  margin-bottom: 1.75rem;
+}
+
+.diag-capture-preview {
+  display: inline-flex;
+  align-items: center;
+  gap: 0.5rem;
+  background: rgba(13,148,136,0.12);
+  border: 1px solid rgba(13,148,136,0.3);
+  color: #5EEAD4;
+  font-size: 0.82rem;
+  font-weight: 600;
+  padding: 0.4rem 1rem;
+  border-radius: 2rem;
+  margin-bottom: 1.75rem;
+}
+
+.diag-capture-form {
+  display: flex;
+  flex-direction: column;
+  gap: 0.75rem;
+  margin-bottom: 1.25rem;
+}
+
+.diag-capture-input {
+  width: 100%;
+  background: rgba(255,255,255,0.06);
+  border: 1px solid rgba(255,255,255,0.12);
+  border-radius: 0.5rem;
+  color: #F8FAFC;
+  font-size: 0.9rem;
+  padding: 0.75rem 1rem;
+  font-family: inherit;
+  transition: border-color 0.2s;
+  box-sizing: border-box;
+}
+
+.diag-capture-input::placeholder { color: #475569; }
+.diag-capture-input:focus {
+  outline: none;
+  border-color: #0D9488;
+  background: rgba(13,148,136,0.06);
+}
+
+.diag-capture-btn {
+  width: 100%;
+  background: #0D9488;
+  border: none;
+  color: #fff;
+  font-size: 0.95rem;
+  font-weight: 700;
+  padding: 0.85rem 2rem;
+  border-radius: 0.5rem;
+  cursor: pointer;
+  transition: all 0.2s;
+  font-family: inherit;
+}
+
+.diag-capture-btn:hover {
+  background: #0F766E;
+  transform: translateY(-1px);
+  box-shadow: 0 4px 12px rgba(13,148,136,0.3);
+}
+
+.diag-capture-skip {
+  background: transparent;
+  border: none;
+  color: #475569;
+  font-size: 0.82rem;
+  cursor: pointer;
+  font-family: inherit;
+  text-decoration: underline;
+  padding: 0;
+  transition: color 0.2s;
+}
+.diag-capture-skip:hover { color: #94A3B8; }
+
+.diag-capture-privacy {
+  margin-top: 1rem;
+  font-size: 0.72rem;
+  color: #334155;
+  line-height: 1.5;
+}
 </style>
 
 <div class="diag-wrapper">
@@ -1041,6 +1189,35 @@ ul.task-list li input[type="checkbox"] {
 
   <!-- QUIZ AREA -->
   <div id="diagQuiz" class="diag-quiz-area" style="display:none;"></div>
+
+  <!-- LEAD CAPTURE -->
+  <div id="diagCapture" class="diag-capture">
+    <div class="diag-capture-card">
+      <span class="diag-capture-icon">📬</span>
+      <div class="diag-capture-title">Su diagnóstico está listo</div>
+      <p class="diag-capture-sub">
+        ¿A qué email le enviamos el informe con su nivel de madurez,
+        el semáforo por dimensión y la hoja de ruta personalizada?
+      </p>
+      <div class="diag-capture-preview" id="capturePreviewBadge">
+        Calculando su nivel...
+      </div>
+      <div class="diag-capture-form">
+        <input type="text" id="captureName" class="diag-capture-input" placeholder="Nombre y organización" autocomplete="name">
+        <input type="email" id="captureEmail" class="diag-capture-input" placeholder="Email corporativo" autocomplete="email">
+        <button class="diag-capture-btn" onclick="submitCapture()">
+          Recibir mi informe →
+        </button>
+      </div>
+      <button class="diag-capture-skip" onclick="skipCapture()">
+        Ver resultados sin registrar
+      </button>
+      <p class="diag-capture-privacy">
+        Su información es confidencial. No compartimos datos con terceros.<br>
+        Solo recibirá el informe solicitado.
+      </p>
+    </div>
+  </div>
 
   <!-- RESULTS -->
   <div id="diagResults" class="diag-results"></div>
@@ -1301,6 +1478,11 @@ function updateProgress() {
 // RESULTS
 // ============================================================
 
+// Store computed results for use after capture
+let _cachedDimScores = null;
+let _cachedLevel = null;
+let _cachedRec = null;
+
 function showResults() {
   document.getElementById('diagQuiz').style.display = 'none';
   document.getElementById('diagProgress').style.display = 'none';
@@ -1318,6 +1500,56 @@ function showResults() {
   const totalScore = dimScores.reduce((s, d) => s + d.score, 0);
   const level = LEVELS.find(l => totalScore >= l.min && totalScore <= l.max) || LEVELS[0];
   const rec = RECOMMENDATIONS.find(r => r.level === level.level);
+
+  // Cache for after capture
+  _cachedDimScores = dimScores;
+  _cachedLevel = level;
+  _cachedRec = rec;
+
+  // Show capture form first
+  document.getElementById('capturePreviewBadge').textContent = `Su nivel: ${level.level} — ${level.name}`;
+  document.getElementById('diagCapture').style.display = 'block';
+  window.scrollTo({ top: 0, behavior: 'smooth' });
+}
+
+function submitCapture() {
+  const name = document.getElementById('captureName').value.trim();
+  const email = document.getElementById('captureEmail').value.trim();
+
+  if (!email) {
+    document.getElementById('captureEmail').focus();
+    return;
+  }
+
+  // Build mailto with results summary
+  const level = _cachedLevel;
+  const dimScores = _cachedDimScores;
+  const dimSummary = dimScores.map(d => `${d.name}: ${d.score}/${d.max}`).join(', ');
+  const subject = encodeURIComponent(`Diagnóstico iMEL® — ${level.level} ${level.name}`);
+  const body = encodeURIComponent(
+    `Nombre: ${name || '(no indicado)'}\n` +
+    `Email: ${email}\n\n` +
+    `Nivel de madurez: ${level.level} — ${level.name}\n` +
+    `Puntaje total: ${dimScores.reduce((s,d) => s+d.score, 0)}/30\n\n` +
+    `Detalle por dimensión:\n${dimSummary}\n\n` +
+    `Descripción del nivel:\n${level.desc}`
+  );
+
+  window.open(`mailto:cvp@eafit.edu.co?cc=${encodeURIComponent(email)}&subject=${subject}&body=${body}`, '_blank');
+  renderResults();
+}
+
+function skipCapture() {
+  renderResults();
+}
+
+function renderResults() {
+  document.getElementById('diagCapture').style.display = 'none';
+
+  const dimScores = _cachedDimScores;
+  const level = _cachedLevel;
+  const rec = _cachedRec;
+  const totalScore = dimScores.reduce((s, d) => s + d.score, 0);
 
   // Semáforo cells
   const semHtml = dimScores.map(d => {
@@ -1387,9 +1619,15 @@ function showResults() {
 function restartDiag() {
   document.getElementById('diagResults').style.display = 'none';
   document.getElementById('diagResults').innerHTML = '';
+  document.getElementById('diagCapture').style.display = 'none';
+  document.getElementById('captureName').value = '';
+  document.getElementById('captureEmail').value = '';
   document.getElementById('diagStart').style.display = 'block';
   answers = {};
   currentStep = 0;
+  _cachedDimScores = null;
+  _cachedLevel = null;
+  _cachedRec = null;
   window.scrollTo({ top: 0, behavior: 'smooth' });
 }
 </script>
@@ -1803,7 +2041,7 @@ function restartDiag() {
 <p>Centro Valor Público · Universidad EAFIT</p>
 </div>   
     <div class="nav-footer-center">
-<p>Valor·IA — CVP EAFIT · Midiendo lo que importa</p>
+<p>Valor·IA — CVP EAFIT · El rigor que su impacto merece.</p>
 </div>
     <div class="nav-footer-right">
 <p>© 2026</p>

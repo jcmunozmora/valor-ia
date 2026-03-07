@@ -76,6 +76,28 @@ toc: false
 </div>
 
 <!-- ============================================================
+     FRANJA DE LOGOS — CLIENTES
+     ============================================================ -->
+<div class="idx-logos-strip">
+  <div class="idx-logos-label">Organizaciones que ya miden su impacto con iMEL®</div>
+  <div class="idx-logos-row">
+    <span class="idx-logo-item">Cementos<strong>Argos</strong></span>
+    <span class="idx-logos-sep">·</span>
+    <span class="idx-logo-item"><strong>Comfama</strong></span>
+    <span class="idx-logos-sep">·</span>
+    <span class="idx-logo-item">Swiss <strong>Philanthropy</strong></span>
+    <span class="idx-logos-sep">·</span>
+    <span class="idx-logo-item"><strong>BID</strong></span>
+    <span class="idx-logos-sep">·</span>
+    <span class="idx-logo-item"><strong>AGROSAVIA</strong></span>
+    <span class="idx-logos-sep">·</span>
+    <span class="idx-logo-item">Grupo<strong>Argos</strong></span>
+    <span class="idx-logos-sep">·</span>
+    <span class="idx-logo-item"><strong>Despacio</strong></span>
+  </div>
+</div>
+
+<!-- ============================================================
      TRES PILARES DIFERENCIADORES
      ============================================================ -->
 <div class="idx-pillars">
@@ -568,6 +590,47 @@ toc: false
   justify-content: center;
   flex-shrink: 0;
 }
+/* LOGO STRIP */
+.idx-logos-strip {
+  background: #1E293B;
+  border-top: 1px solid rgba(255,255,255,0.06);
+  border-bottom: 1px solid rgba(255,255,255,0.06);
+  padding: 1.25rem 2rem;
+  text-align: center;
+}
+.idx-logos-label {
+  font-size: 0.68rem;
+  font-weight: 600;
+  letter-spacing: 0.12em;
+  text-transform: uppercase;
+  color: #475569;
+  margin-bottom: 0.9rem;
+}
+.idx-logos-row {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  flex-wrap: wrap;
+  gap: 0.5rem 0.25rem;
+}
+.idx-logo-item {
+  font-size: 0.82rem;
+  font-weight: 400;
+  color: #64748B;
+  letter-spacing: 0.01em;
+  padding: 0 0.5rem;
+  transition: color 0.2s;
+}
+.idx-logo-item strong {
+  font-weight: 700;
+  color: #94A3B8;
+}
+.idx-logo-item:hover strong { color: #CBD5E1; }
+.idx-logos-sep {
+  color: #334155;
+  font-size: 0.75rem;
+}
+
 .idx-pillar-icon--teal   { background: #F0FDFA; color: #0D9488; }
 .idx-pillar-icon--blue   { background: #F0F9FF; color: #0EA5E9; }
 .idx-pillar-icon--purple { background: #F5F3FF; color: #7C3AED; }
