@@ -1313,7 +1313,7 @@ function submitCapture() {
     `Descripción del nivel:\n${level.desc}`
   );
 
-  window.open(`mailto:cvp@eafit.edu.co?cc=${encodeURIComponent(email)}&subject=${subject}&body=${body}`, '_blank');
+  window.open(`mailto:jmunozm1@eafit.edu.co?cc=${encodeURIComponent(email)}&subject=${subject}&body=${body}`, '_blank');
   renderResults();
 }
 
