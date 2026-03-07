@@ -197,22 +197,23 @@ toc: false
 <div class="eq-profile">
   <div class="eq-photo-wrap">
     <img src="images/team/sebas.png" alt="Sebastian Vasquez Lopez" class="eq-photo">
-    <div class="eq-photo-badge eq-badge--indigo">IA &amp; Tech</div>
+    <div class="eq-photo-badge eq-badge--indigo">Comportamiento &amp; IA</div>
   </div>
   <div class="eq-profile-body">
     <div class="eq-name">Sebastian Vasquez Lopez, Ph.D. (Oxon)</div>
-    <div class="eq-role">Desarrollador Tecnologico &mdash; Inteligencia Artificial y Plataformas Digitales</div>
+    <div class="eq-role">Especialista en Ciencias del Comportamiento &mdash; Medicion, Seguimiento e Inteligencia Artificial</div>
     <div class="eq-affil">Cofundador, Two Sigma Lab &middot; Ex-investigador, University of Oxford</div>
     <p class="eq-bio">
-      Ph.D. Neurociencia (Oxford, 2017). Diez anos en IA aplicada, machine learning y ciencia de datos.
-      Faculty AI Fellowship (Londres, 2025). Becario Clarendon (Oxford) y Colfuturo. Cofundo Two Sigma Lab,
-      ecosistema de investigacion impulsado por IA. Publicaciones en <em>Nature Light</em> y <em>eLife</em>.
-      Es el arquitecto natural de sistemas agenticos que convierten datos en inteligencia organizacional.
+      Ph.D. Neurociencia (Oxford, 2017). Experto en ciencias del comportamiento aplicadas a la medicion y
+      el seguimiento de programas sociales: diseño de instrumentos conductuales, metricas de cambio de
+      comportamiento y sistemas de monitoreo basados en evidencia experimental. Diez anos en IA aplicada
+      y machine learning. Faculty AI Fellowship (Londres, 2025). Becario Clarendon (Oxford) y Colfuturo.
+      Cofundo Two Sigma Lab. Publicaciones en <em>Nature Light</em> y <em>eLife</em>.
     </p>
     <div class="eq-tags-row">
-      <span class="eq-tag eq-tag--indigo">Sistemas agenticos</span>
-      <span class="eq-tag eq-tag--indigo">LLMs &middot; LangChain</span>
-      <span class="eq-tag eq-tag--indigo">Python &middot; Docker</span>
+      <span class="eq-tag eq-tag--indigo">Ciencias del comportamiento</span>
+      <span class="eq-tag eq-tag--indigo">Medicion conductual</span>
+      <span class="eq-tag eq-tag--indigo">Sistemas agenticos &middot; IA</span>
       <span class="eq-tag eq-tag--indigo">Oxford &middot; Faculty AI</span>
     </div>
     <div class="eq-portfolio">
@@ -275,9 +276,9 @@ toc: false
     </tr>
     <tr>
       <td><strong>Sebastian Vasquez Lopez</strong></td>
-      <td><span class="eq-role-pill" style="background:#EEF2FF;color:#4338CA;border-color:#C7D2FE;">IA &amp; Tech</span></td>
+      <td><span class="eq-role-pill" style="background:#EEF2FF;color:#4338CA;border-color:#C7D2FE;">Comportamiento &amp; IA</span></td>
       <td>Ph.D. Oxford &middot; Faculty AI</td>
-      <td>10+ anos en IA aplicada &middot; Sistemas agenticos &middot; Two Sigma Lab</td>
+      <td>Especialista en ciencias del comportamiento &middot; Medicion conductual &middot; IA aplicada</td>
     </tr>
   </tbody>
 </table>
