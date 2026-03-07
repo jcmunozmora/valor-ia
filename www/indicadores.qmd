@@ -1,0 +1,674 @@
+---
+title: "Banco de Indicadores de Valor Social"
+description: "105 indicadores clasificados por tipo (producto/resultado/impacto), sector, enfoque y método de medición"
+toc: false
+---
+
+```{=html}
+<script src="indicadores_data.js"></script>
+
+<!-- ============================================================
+     HERO
+     ============================================================ -->
+<div class="page-header vi-header">
+  <div class="page-header-content">
+    <div class="page-badge">Centro Valor Público &middot; EAFIT</div>
+    <h1 class="page-title">Banco de Indicadores de Valor Social</h1>
+    <p class="page-subtitle">
+      Una caja de herramientas con <strong>105 indicadores</strong> para medir programas sociales —
+      clasificados por tipo (producto, resultado, impacto), sector, enfoque de medición,
+      tipo de línea de base y alineación con los ODS.
+      Cada indicador incluye fórmula, instrumento sugerido, método de recolección y limitaciones.
+    </p>
+  </div>
+</div>
+
+<!-- ============================================================
+     KPIs
+     ============================================================ -->
+<div class="content-section">
+<div class="content-inner">
+
+<div class="kpi-grid">
+  <div class="kpi-card kpi-card--producto">
+    <div class="kpi-icon">📦</div>
+    <div class="kpi-num">21</div>
+    <div class="kpi-tag">Producto</div>
+    <div class="kpi-label">Lo que el programa produce directamente — alcance, actividades, insumos entregados</div>
+  </div>
+  <div class="kpi-card kpi-card--resultado">
+    <div class="kpi-icon">📈</div>
+    <div class="kpi-num">65</div>
+    <div class="kpi-tag">Resultado</div>
+    <div class="kpi-label">Cambios en conocimiento, comportamiento, condición — en personas y hogares</div>
+  </div>
+  <div class="kpi-card kpi-card--impacto">
+    <div class="kpi-icon">🎯</div>
+    <div class="kpi-num">19</div>
+    <div class="kpi-tag">Impacto</div>
+    <div class="kpi-label">Cambios sistémicos y de largo plazo atribuibles netos — después de factores de ajuste</div>
+  </div>
+  <div class="kpi-card kpi-card--sectores">
+    <div class="kpi-icon">🌐</div>
+    <div class="kpi-num">15</div>
+    <div class="kpi-tag">Sectores</div>
+    <div class="kpi-label">Salud, Educación, Empleo, Género, Infancia, Medioambiente, Paz y más</div>
+  </div>
+</div>
+
+</div>
+</div>
+
+<!-- ============================================================
+     CADENA LÓGICA P → R → I
+     ============================================================ -->
+<div class="content-section alt">
+<div class="content-inner">
+
+<span class="section-label">Marco conceptual</span>
+<h2 class="section-heading">Producto → Resultado → Impacto: ¿cuál medir?</h2>
+
+<p>
+  La confusión entre estos tres niveles es uno de los errores más comunes en el diseño de sistemas
+  de seguimiento. Medir solo productos es fácil pero vacío; medir solo impacto es riguroso pero
+  costoso. Un buen sistema de medición usa los tres niveles de forma complementaria.
+</p>
+
+<div class="pri-chain">
+
+  <div class="pri-box pri-box--p">
+    <div class="pri-header">
+      <span class="pri-code">P</span>
+      <span class="pri-name">Producto</span>
+      <span class="pri-pts">Output</span>
+    </div>
+    <div class="pri-def">Lo que el programa hace o entrega directamente como resultado de sus actividades.</div>
+    <div class="pri-ejemplos">
+      <div class="pri-ej">Talleres realizados</div>
+      <div class="pri-ej">Personas atendidas</div>
+      <div class="pri-ej">Materiales distribuidos</div>
+      <div class="pri-ej">Visitas domiciliarias</div>
+    </div>
+    <div class="pri-medicion">
+      <strong>Medición:</strong> Cuantitativa · Registro administrativo · Sin línea base requerida
+    </div>
+    <div class="pri-limitation">
+      <strong>Limitación:</strong> No dice si los participantes cambiaron en algo.
+    </div>
+  </div>
+
+  <div class="pri-arrow">&#10132;</div>
+
+  <div class="pri-box pri-box--r">
+    <div class="pri-header">
+      <span class="pri-code">R</span>
+      <span class="pri-name">Resultado</span>
+      <span class="pri-pts">Outcome</span>
+    </div>
+    <div class="pri-def">Cambios observables en las personas o comunidades como consecuencia de haber participado en el programa.</div>
+    <div class="pri-ejemplos">
+      <div class="pri-ej">Conocimiento adquirido</div>
+      <div class="pri-ej">Comportamiento cambiado</div>
+      <div class="pri-ej">Condición mejorada</div>
+      <div class="pri-ej">Habilidad desarrollada</div>
+    </div>
+    <div class="pri-medicion">
+      <strong>Medición:</strong> Cuanti + Cuali · Encuesta pre-post · Requiere línea base
+    </div>
+    <div class="pri-limitation">
+      <strong>Limitación:</strong> No garantiza que el cambio sea sostenido ni atribuible solo al programa.
+    </div>
+  </div>
+
+  <div class="pri-arrow">&#10132;</div>
+
+  <div class="pri-box pri-box--i">
+    <div class="pri-header">
+      <span class="pri-code">I</span>
+      <span class="pri-name">Impacto</span>
+      <span class="pri-pts">Impact</span>
+    </div>
+    <div class="pri-def">Cambio neto atribuible al programa, descontando lo que hubiera ocurrido de todas formas (deadweight) y lo que logaron otros actores (attribution).</div>
+    <div class="pri-ejemplos">
+      <div class="pri-ej">Tasa de mortalidad reducida</div>
+      <div class="pri-ej">Ingresos incrementados (neto)</div>
+      <div class="pri-ej">Pobreza reducida</div>
+      <div class="pri-ej">CO₂ capturado (verificado)</div>
+    </div>
+    <div class="pri-medicion">
+      <strong>Medición:</strong> Cuantitativa robusta · RCT / cuasi-experimental · Grupo de control ideal
+    </div>
+    <div class="pri-limitation">
+      <strong>Limitación:</strong> Costoso, requiere mucho tiempo y diseño riguroso.
+    </div>
+  </div>
+
+</div>
+
+<!-- Tipos de línea de base -->
+<div class="linea-base-grid">
+  <div class="lb-box">
+    <div class="lb-title">Línea base cuantitativa</div>
+    <div class="lb-desc">Medición numérica del estado inicial en los indicadores clave. Permite comparación estadística pre-post. Requiere encuesta o datos administrativos al inicio.</div>
+    <div class="lb-cuando"><strong>Cuándo:</strong> Indicadores de resultado/impacto con escala numérica (puntajes, tasas, proporciones)</div>
+  </div>
+  <div class="lb-box">
+    <div class="lb-title">Línea base cualitativa</div>
+    <div class="lb-desc">Descripción del estado inicial mediante entrevistas, grupos focales o mapeo participativo. Captura contexto y significados que las cifras no revelan.</div>
+    <div class="lb-cuando"><strong>Cuándo:</strong> Indicadores de percepción, empoderamiento, narrativas, cohesión social</div>
+  </div>
+  <div class="lb-box">
+    <div class="lb-title">Línea base mixta</div>
+    <div class="lb-desc">Combina medición cuantitativa con exploración cualitativa para entender tanto el nivel como el contexto del estado inicial.</div>
+    <div class="lb-cuando"><strong>Cuándo:</strong> Indicadores complejos o cuando el contexto puede alterar la interpretación de los números</div>
+  </div>
+  <div class="lb-box lb-box--na">
+    <div class="lb-title">Sin línea base requerida</div>
+    <div class="lb-desc">Para indicadores de producto (outputs): solo se cuenta lo que se hizo. No requiere comparación con estado anterior.</div>
+    <div class="lb-cuando"><strong>Cuándo:</strong> Número de talleres, personas atendidas, materiales distribuidos</div>
+  </div>
+</div>
+
+</div>
+</div>
+
+<!-- ============================================================
+     MÉTODOS DE RECOLECCIÓN
+     ============================================================ -->
+<div class="content-section">
+<div class="content-inner">
+
+<span class="section-label">Guía rápida de métodos</span>
+<h2 class="section-heading">¿Cuantitativo o cualitativo?</h2>
+
+<div class="metodo-grid">
+
+  <div class="metodo-card">
+    <div class="metodo-icon">📋</div>
+    <div class="metodo-name">Encuesta autorreporte</div>
+    <div class="metodo-desc">La persona reporta su propia situación. Escalable y económico. Riesgo de sesgo de deseabilidad social.</div>
+    <div class="metodo-usos">PHQ-9 · FIES · WEAI · Satisfacción de vida</div>
+  </div>
+
+  <div class="metodo-card">
+    <div class="metodo-icon">🗂️</div>
+    <div class="metodo-name">Registro administrativo</div>
+    <div class="metodo-desc">Datos de sistemas existentes (SIMAT, SISVAN, PILA). Alta cobertura, bajo costo. Calidad dependiente del sistema.</div>
+    <div class="metodo-usos">Matrícula · Vacunación · Empleo formal</div>
+  </div>
+
+  <div class="metodo-card">
+    <div class="metodo-icon">👁️</div>
+    <div class="metodo-name">Observación directa</div>
+    <div class="metodo-desc">Observador entrenado mide o verifica directamente. Más objetiva que el autorreporte. Costosa a escala.</div>
+    <div class="metodo-usos">Antropometría · Prácticas de higiene · Pruebas de desempeño</div>
+  </div>
+
+  <div class="metodo-card">
+    <div class="metodo-icon">🗣️</div>
+    <div class="metodo-name">Entrevista semiestructurada</div>
+    <div class="metodo-desc">Conversación guiada en profundidad. Captura matices y contexto. No es generalizable estadísticamente.</div>
+    <div class="metodo-usos">Narrativas de cambio · Barreras · Experiencias</div>
+  </div>
+
+  <div class="metodo-card">
+    <div class="metodo-icon">👥</div>
+    <div class="metodo-name">Grupo focal</div>
+    <div class="metodo-desc">Discusión grupal facilitada (6–12 personas). Genera interacción y contraste de perspectivas. Riesgo de dominancia de voz.</div>
+    <div class="metodo-usos">Percepciones · Cohesión social · Cambios colectivos</div>
+  </div>
+
+  <div class="metodo-card">
+    <div class="metodo-icon">🌍</div>
+    <div class="metodo-name">Participativo</div>
+    <div class="metodo-desc">La comunidad diseña y aplica la medición (mapas, scoring participativo, calendarios). Alta apropiación. Menos estandarizable.</div>
+    <div class="metodo-usos">Capital social · Medioambiente · Derechos</div>
+  </div>
+
+  <div class="metodo-card">
+    <div class="metodo-icon">📊</div>
+    <div class="metodo-name">Datos secundarios</div>
+    <div class="metodo-desc">Datos de terceros: DANE, INMLCF, Banco Mundial, UNICEF. Gratuitos pero no siempre en el nivel de desagregación necesario.</div>
+    <div class="metodo-usos">Mortalidad · Pobreza · Desempleo · PIB</div>
+  </div>
+
+  <div class="metodo-card">
+    <div class="metodo-icon">📄</div>
+    <div class="metodo-name">Revisión documental</div>
+    <div class="metodo-desc">Análisis de documentos oficiales, presupuestos, actas. Útil para indicadores de gobernanza y procesos institucionales.</div>
+    <div class="metodo-usos">Transparencia · Presupuesto participativo · OCA</div>
+  </div>
+
+</div>
+
+</div>
+</div>
+
+<!-- ============================================================
+     TABLE — REPOSITORIO COMPLETO
+     ============================================================ -->
+<div class="content-section alt">
+<div class="content-inner ind-table-section">
+
+<span class="section-label">105 indicadores</span>
+<h2 class="section-heading">Explorar el banco de indicadores</h2>
+<p>Busque por nombre, sector o instrumento. Filtre por tipo (producto/resultado/impacto), enfoque (cuanti/cuali/mixto), tipo de línea de base y sector.</p>
+
+<div class="ind-filters">
+  <input type="text" id="ind-search" class="ind-search-input" placeholder="Buscar por nombre, sector, fórmula, instrumento...">
+  <select id="ind-filter-tipo" class="ind-filter-select">
+    <option value="">Todos los tipos</option>
+    <option value="producto">📦 Producto (Output)</option>
+    <option value="resultado">📈 Resultado (Outcome)</option>
+    <option value="impacto">🎯 Impacto (Impact)</option>
+  </select>
+  <select id="ind-filter-enfoque" class="ind-filter-select">
+    <option value="">Cuanti + Cuali + Mixto</option>
+    <option value="cuantitativo">Cuantitativo</option>
+    <option value="cualitativo">Cualitativo</option>
+    <option value="mixto">Mixto</option>
+  </select>
+  <select id="ind-filter-lb" class="ind-filter-select">
+    <option value="">Todos los tipos de LB</option>
+    <option value="cuantitativa">LB Cuantitativa</option>
+    <option value="cualitativa">LB Cualitativa</option>
+    <option value="mixta">LB Mixta</option>
+    <option value="no_aplica">Sin LB (productos)</option>
+  </select>
+  <select id="ind-filter-sector" class="ind-filter-select">
+    <option value="">Todos los sectores</option>
+  </select>
+  <div class="ind-filter-count"><span id="ind-count">105</span> indicadores</div>
+</div>
+
+<div class="ind-table-wrap">
+<table class="ind-table" id="ind-table">
+  <thead>
+    <tr>
+      <th class="col-tipo">Tipo</th>
+      <th class="col-nombre">Indicador</th>
+      <th class="col-sector">Sector</th>
+      <th class="col-enfoque">Enfoque</th>
+      <th class="col-lb">Línea base</th>
+      <th class="col-metodo">Método recolección</th>
+      <th class="col-ods">ODS</th>
+      <th class="col-detail">Detalle</th>
+    </tr>
+  </thead>
+  <tbody id="ind-tbody">
+  </tbody>
+</table>
+</div>
+
+</div>
+</div>
+
+<!-- ============================================================
+     MODAL — DETALLE DEL INDICADOR
+     ============================================================ -->
+<div id="ind-modal" class="ind-modal" style="display:none" onclick="closeModal(event)">
+  <div class="ind-modal-inner" onclick="event.stopPropagation()">
+    <button class="ind-modal-close" onclick="document.getElementById('ind-modal').style.display='none'">&#x2715;</button>
+    <div id="ind-modal-content"></div>
+  </div>
+</div>
+
+<!-- ============================================================
+     CTA
+     ============================================================ -->
+<div class="content-section">
+<div class="content-inner">
+
+<span class="section-label">Servicios CVP EAFIT</span>
+<h2 class="section-heading">Diseñamos su sistema de medición</h2>
+
+<p>
+  Este banco de indicadores es el punto de partida. El Centro Valor Público acompaña a organizaciones
+  en el diseño completo de su sistema de seguimiento y evaluación: desde la selección de indicadores
+  pertinentes hasta la construcción de la línea de base y la vinculación con el análisis SROI.
+</p>
+
+<div class="ind-services">
+  <div class="ind-service-card">
+    <div class="ind-service-num">01</div>
+    <div class="ind-service-title">Selección de indicadores</div>
+    <div class="ind-service-desc">Dado su programa y su Teoría del Cambio, identificamos los 8–12 indicadores más pertinentes con su fórmula, instrumento y plan de recolección.</div>
+  </div>
+  <div class="ind-service-card">
+    <div class="ind-service-num">02</div>
+    <div class="ind-service-title">Diseño de línea de base</div>
+    <div class="ind-service-desc">Diseñamos la estrategia de línea de base (cuanti/cuali/mixta), los instrumentos y el protocolo de recolección según el contexto del programa.</div>
+  </div>
+  <div class="ind-service-card">
+    <div class="ind-service-num">03</div>
+    <div class="ind-service-title">Puente hacia el SROI</div>
+    <div class="ind-service-desc">Los indicadores de resultado e impacto se conectan con proxies financieros para el análisis SROI. Diseñamos la lógica de valoración desde el inicio.</div>
+  </div>
+</div>
+
+<div class="ind-cta-contact">
+  <p><strong>¿Quiere diseñar el sistema de medición de su programa?</strong></p>
+  <a href="mailto:cvp@eafit.edu.co" class="btn-primary">Contactar al Centro Valor Público</a>
+</div>
+
+</div>
+</div>
+
+<!-- ============================================================
+     JS — TABLE + MODAL LOGIC
+     ============================================================ -->
+<script>
+(function() {
+  const TIPO_CONFIG = {
+    producto: { label: "Producto", color: "#7C3AED", bg: "#F5F3FF", emoji: "📦" },
+    resultado: { label: "Resultado", color: "#0D9488", bg: "#F0FDFA", emoji: "📈" },
+    impacto:   { label: "Impacto",   color: "#DC2626", bg: "#FEF2F2", emoji: "🎯" },
+  };
+  const ENFOQUE_COLOR = {
+    cuantitativo: { bg: "#DBEAFE", color: "#1D4ED8" },
+    cualitativo:  { bg: "#FEF3C7", color: "#B45309" },
+    mixto:        { bg: "#D1FAE5", color: "#065F46" },
+  };
+  const LB_LABEL = {
+    cuantitativa: "Cuantitativa",
+    cualitativa:  "Cualitativa",
+    mixta:        "Mixta",
+    no_aplica:    "Sin LB",
+  };
+  const LB_COLOR = {
+    cuantitativa: { bg: "#DBEAFE", color: "#1D4ED8" },
+    cualitativa:  { bg: "#FEF3C7", color: "#92400E" },
+    mixta:        { bg: "#D1FAE5", color: "#065F46" },
+    no_aplica:    { bg: "#F1F5F9", color: "#64748B" },
+  };
+
+  let filtered = [];
+
+  // Populate sector select
+  const sectors = [...new Set(INDICADORES_DATA.map(r => r.sector).filter(Boolean))].sort();
+  const selSector = document.getElementById('ind-filter-sector');
+  sectors.forEach(s => {
+    const opt = document.createElement('option');
+    opt.value = s;
+    opt.textContent = s;
+    selSector.appendChild(opt);
+  });
+
+  function tipoBadge(tipo) {
+    const c = TIPO_CONFIG[tipo] || { label: tipo, color: '#64748b', bg: '#f1f5f9', emoji: '•' };
+    return `<span class="tipo-badge" style="background:${c.bg};color:${c.color}">${c.emoji} ${c.label}</span>`;
+  }
+  function enfoqueBadge(enfoque) {
+    const c = ENFOQUE_COLOR[enfoque] || { bg: '#f1f5f9', color: '#64748b' };
+    return `<span class="badge-small" style="background:${c.bg};color:${c.color}">${enfoque}</span>`;
+  }
+  function lbBadge(lb) {
+    const c = LB_COLOR[lb] || { bg: '#f1f5f9', color: '#64748b' };
+    return `<span class="badge-small" style="background:${c.bg};color:${c.color}">${LB_LABEL[lb] || lb}</span>`;
+  }
+  function metodoLabel(m) {
+    const MAP = {
+      encuesta_autorreporte: 'Encuesta', registro_administrativo: 'Registro admin.',
+      observacion_directa: 'Observación', participativo: 'Participativo',
+      entrevista: 'Entrevista', grupo_focal: 'Grupo focal',
+      revision_documental: 'Doc. revisión', datos_secundarios: 'Datos sec.',
+    };
+    return MAP[m] || m;
+  }
+
+  function renderTable() {
+    const tbody = document.getElementById('ind-tbody');
+    document.getElementById('ind-count').textContent = filtered.length;
+    if (!filtered.length) {
+      tbody.innerHTML = '<tr><td colspan="8" style="text-align:center;padding:2rem;color:#64748b">No hay indicadores con esos filtros.</td></tr>';
+      return;
+    }
+    tbody.innerHTML = filtered.map((r, i) => {
+      const nombre = r.nombre.length > 60 ? r.nombre.slice(0, 60) + '…' : r.nombre;
+      return `<tr>
+        <td>${tipoBadge(r.tipo)}</td>
+        <td class="col-nombre" title="${r.nombre}">${nombre}</td>
+        <td style="font-size:.75rem;color:#475569">${r.sector}<br><span style="color:#94a3b8">${r.subsector}</span></td>
+        <td>${enfoqueBadge(r.enfoque)}</td>
+        <td>${lbBadge(r.tipo_linea_base)}</td>
+        <td style="font-size:.72rem;color:#475569">${metodoLabel(r.metodo_recoleccion)}</td>
+        <td style="font-size:.72rem;color:#64748b">${r.ods_meta || '—'}</td>
+        <td><button class="btn-detail" onclick="openModal(${i})">Ver</button></td>
+      </tr>`;
+    }).join('');
+  }
+
+  function applyFilters() {
+    const q = document.getElementById('ind-search').value.toLowerCase();
+    const tipo = document.getElementById('ind-filter-tipo').value;
+    const enfoque = document.getElementById('ind-filter-enfoque').value;
+    const lb = document.getElementById('ind-filter-lb').value;
+    const sector = document.getElementById('ind-filter-sector').value;
+
+    filtered = INDICADORES_DATA.filter(r => {
+      const text = `${r.nombre} ${r.descripcion} ${r.sector} ${r.instrumento_sugerido} ${r.formula} ${r.fuente_referencia}`.toLowerCase();
+      if (q && !text.includes(q)) return false;
+      if (tipo && r.tipo !== tipo) return false;
+      if (enfoque && r.enfoque !== enfoque) return false;
+      if (lb && r.tipo_linea_base !== lb) return false;
+      if (sector && r.sector !== sector) return false;
+      return true;
+    });
+    renderTable();
+  }
+
+  window.openModal = function(idx) {
+    const r = filtered[idx];
+    if (!r) return;
+    const tc = TIPO_CONFIG[r.tipo] || {};
+    const content = document.getElementById('ind-modal-content');
+    content.innerHTML = `
+      <div class="modal-header">
+        ${tipoBadge(r.tipo)}
+        <span style="font-size:.75rem;color:#64748b;margin-left:.5rem">${r.id}</span>
+      </div>
+      <h2 class="modal-title">${r.nombre}</h2>
+      <p style="font-size:.8rem;color:#64748b;font-style:italic;margin-bottom:1rem">${r.nombre_en}</p>
+      <p class="modal-desc">${r.descripcion}</p>
+      <div class="modal-grid">
+        <div class="modal-field"><span class="mf-label">Sector</span><span class="mf-val">${r.sector} — ${r.subsector}</span></div>
+        <div class="modal-field"><span class="mf-label">Nivel de medición</span><span class="mf-val">${r.nivel_medicion}</span></div>
+        <div class="modal-field"><span class="mf-label">Enfoque</span><span class="mf-val">${enfoqueBadge(r.enfoque)}</span></div>
+        <div class="modal-field"><span class="mf-label">Unidad</span><span class="mf-val"><code>${r.unidad}</code></span></div>
+        <div class="modal-field modal-field--full"><span class="mf-label">Fórmula</span><span class="mf-val mf-formula">${r.formula || '—'}</span></div>
+        <div class="modal-field"><span class="mf-label">Método de recolección</span><span class="mf-val">${r.metodo_recoleccion}</span></div>
+        <div class="modal-field modal-field--full"><span class="mf-label">Instrumento sugerido</span><span class="mf-val">${r.instrumento_sugerido}</span></div>
+        <div class="modal-field"><span class="mf-label">Frecuencia</span><span class="mf-val">${r.frecuencia}</span></div>
+        <div class="modal-field"><span class="mf-label">Momento de medición</span><span class="mf-val">${r.momento_medicion}</span></div>
+        <div class="modal-field"><span class="mf-label">Tipo de línea base</span><span class="mf-val">${lbBadge(r.tipo_linea_base)}</span></div>
+        <div class="modal-field"><span class="mf-label">Diseño de comparación</span><span class="mf-val">${r.diseno_comparacion}</span></div>
+        <div class="modal-field modal-field--full"><span class="mf-label">Desagregación recomendada</span><span class="mf-val">${r.desagregacion_recomendada}</span></div>
+        <div class="modal-field"><span class="mf-label">ODS alineado</span><span class="mf-val"><strong>${r.ods_meta || '—'}</strong></span></div>
+        <div class="modal-field"><span class="mf-label">Fuente de referencia</span><span class="mf-val">${r.fuente_referencia}</span></div>
+        ${r.codigo_iris ? `<div class="modal-field"><span class="mf-label">Código IRIS+</span><span class="mf-val"><code>${r.codigo_iris}</code></span></div>` : ''}
+        ${r.valor_referencia ? `<div class="modal-field modal-field--full"><span class="mf-label">Valor de referencia / benchmark</span><span class="mf-val mf-ref">${r.valor_referencia}</span></div>` : ''}
+        ${r.ejemplo_programa ? `<div class="modal-field modal-field--full"><span class="mf-label">Ejemplo de programa</span><span class="mf-val">${r.ejemplo_programa}</span></div>` : ''}
+        <div class="modal-field modal-field--full modal-limitation"><span class="mf-label">⚠️ Limitaciones</span><span class="mf-val">${r.limitaciones}</span></div>
+      </div>`;
+    document.getElementById('ind-modal').style.display = 'flex';
+  };
+
+  window.closeModal = function(e) {
+    document.getElementById('ind-modal').style.display = 'none';
+  };
+
+  // Events
+  document.getElementById('ind-search').addEventListener('input', applyFilters);
+  document.getElementById('ind-filter-tipo').addEventListener('change', applyFilters);
+  document.getElementById('ind-filter-enfoque').addEventListener('change', applyFilters);
+  document.getElementById('ind-filter-lb').addEventListener('change', applyFilters);
+  document.getElementById('ind-filter-sector').addEventListener('change', applyFilters);
+
+  applyFilters();
+})();
+</script>
+
+<!-- ============================================================
+     STYLES
+     ============================================================ -->
+<style>
+/* KPI */
+.kpi-grid { display: grid; grid-template-columns: repeat(4,1fr); gap: 1.25rem; margin: 2rem 0; }
+@media (max-width:768px) { .kpi-grid { grid-template-columns: repeat(2,1fr); } }
+.kpi-card {
+  border-radius: 12px; padding: 1.5rem; text-align: center;
+  border: 1px solid #e2e8f0; box-shadow: 0 1px 3px rgba(0,0,0,.06);
+}
+.kpi-card--producto { background: #F5F3FF; border-color: #C4B5FD; }
+.kpi-card--resultado { background: #F0FDFA; border-color: #99F6E4; }
+.kpi-card--impacto { background: #FEF2F2; border-color: #FECACA; }
+.kpi-card--sectores { background: #F8FAFC; border-color: #CBD5E1; }
+.kpi-icon { font-size: 1.5rem; margin-bottom: .3rem; }
+.kpi-num { font-size: 2.5rem; font-weight: 800; line-height: 1; margin-bottom: .2rem; color: #0f172a; }
+.kpi-tag { font-size: .7rem; font-weight: 700; text-transform: uppercase; letter-spacing: .08em; margin-bottom: .4rem; }
+.kpi-card--producto .kpi-tag { color: #7C3AED; }
+.kpi-card--resultado .kpi-tag { color: #0D9488; }
+.kpi-card--impacto .kpi-tag { color: #DC2626; }
+.kpi-card--sectores .kpi-tag { color: #475569; }
+.kpi-label { font-size: .75rem; color: #64748b; line-height: 1.4; }
+
+/* PRI Chain */
+.pri-chain {
+  display: flex; align-items: stretch; gap: .5rem; margin: 2rem 0;
+}
+@media (max-width:768px) { .pri-chain { flex-direction: column; } }
+.pri-arrow { font-size: 1.5rem; color: #94a3b8; display: flex; align-items: center; padding: 0 .25rem; }
+.pri-box { flex: 1; border-radius: 10px; padding: 1.25rem; border-top: 3px solid; }
+.pri-box--p { background: #F5F3FF; border-color: #7C3AED; }
+.pri-box--r { background: #F0FDFA; border-color: #0D9488; }
+.pri-box--i { background: #FEF2F2; border-color: #DC2626; }
+.pri-header { display: flex; align-items: center; gap: .5rem; margin-bottom: .5rem; }
+.pri-code {
+  width: 28px; height: 28px; border-radius: 6px; font-weight: 800; font-size: .85rem;
+  display: flex; align-items: center; justify-content: center; flex-shrink: 0;
+}
+.pri-box--p .pri-code { background: #7C3AED; color: #fff; }
+.pri-box--r .pri-code { background: #0D9488; color: #fff; }
+.pri-box--i .pri-code { background: #DC2626; color: #fff; }
+.pri-name { font-weight: 700; font-size: .95rem; }
+.pri-pts { margin-left: auto; font-size: .65rem; font-weight: 600; color: #94a3b8; text-transform: uppercase; }
+.pri-def { font-size: .82rem; color: #334155; margin-bottom: .75rem; line-height: 1.5; }
+.pri-ejemplos { display: flex; flex-wrap: wrap; gap: .3rem; margin-bottom: .75rem; }
+.pri-ej { font-size: .7rem; background: #fff; border: 1px solid #e2e8f0; border-radius: 4px; padding: .15rem .4rem; color: #475569; }
+.pri-medicion { font-size: .75rem; color: #475569; margin-bottom: .4rem; background: rgba(255,255,255,.6); border-radius: 6px; padding: .4rem .6rem; }
+.pri-limitation { font-size: .73rem; color: #ef4444; background: rgba(255,255,255,.6); border-radius: 6px; padding: .4rem .6rem; }
+
+/* Línea base grid */
+.linea-base-grid { display: grid; grid-template-columns: repeat(4,1fr); gap: 1rem; margin-top: 2rem; }
+@media (max-width:768px) { .linea-base-grid { grid-template-columns: 1fr 1fr; } }
+.lb-box {
+  background: #fff; border: 1px solid #e2e8f0; border-radius: 10px;
+  padding: 1rem; border-top: 3px solid #2563EB;
+}
+.lb-box--na { border-top-color: #94a3b8; }
+.lb-title { font-size: .82rem; font-weight: 700; margin-bottom: .5rem; }
+.lb-desc { font-size: .75rem; color: #475569; margin-bottom: .5rem; line-height: 1.5; }
+.lb-cuando { font-size: .72rem; color: #0D9488; background: #f0fdf4; border-radius: 4px; padding: .3rem .5rem; }
+
+/* Métodos */
+.metodo-grid { display: grid; grid-template-columns: repeat(4,1fr); gap: 1rem; margin: 1.5rem 0; }
+@media (max-width:900px) { .metodo-grid { grid-template-columns: repeat(2,1fr); } }
+@media (max-width:500px) { .metodo-grid { grid-template-columns: 1fr; } }
+.metodo-card { background: #fff; border: 1px solid #e2e8f0; border-radius: 10px; padding: 1rem; }
+.metodo-icon { font-size: 1.25rem; margin-bottom: .4rem; }
+.metodo-name { font-size: .85rem; font-weight: 700; margin-bottom: .4rem; }
+.metodo-desc { font-size: .75rem; color: #475569; margin-bottom: .5rem; line-height: 1.5; }
+.metodo-usos { font-size: .7rem; color: #0D9488; font-weight: 500; }
+
+/* Filters */
+.ind-table-section { max-width: 100%; }
+.ind-filters { display: flex; flex-wrap: wrap; gap: .75rem; margin: 1.5rem 0; align-items: center; }
+.ind-search-input {
+  flex: 2; min-width: 220px; padding: .55rem .9rem;
+  border: 1px solid #cbd5e1; border-radius: 8px; font-size: .85rem; outline: none;
+}
+.ind-search-input:focus { border-color: #0D9488; box-shadow: 0 0 0 2px rgba(13,148,136,.15); }
+.ind-filter-select {
+  flex: 1; min-width: 140px; padding: .55rem .75rem;
+  border: 1px solid #cbd5e1; border-radius: 8px; font-size: .82rem; background: #fff; outline: none;
+}
+.ind-filter-count { font-size: .8rem; color: #64748b; font-weight: 500; white-space: nowrap; }
+.ind-filter-count span { font-weight: 700; color: #0D9488; }
+
+/* Table */
+.ind-table-wrap { overflow-x: auto; }
+.ind-table { width: 100%; border-collapse: collapse; font-size: .78rem; }
+.ind-table th {
+  background: #0f172a; color: #fff; padding: .6rem .75rem;
+  text-align: left; font-size: .68rem; text-transform: uppercase; letter-spacing: .05em; white-space: nowrap;
+}
+.ind-table td { padding: .5rem .75rem; border-bottom: 1px solid #f1f5f9; vertical-align: middle; }
+.ind-table tr:hover td { background: #f8fafc; }
+
+.tipo-badge {
+  display: inline-flex; align-items: center; gap: .3rem;
+  font-size: .7rem; font-weight: 700; padding: .2rem .5rem; border-radius: 6px; white-space: nowrap;
+}
+.badge-small { font-size: .68rem; font-weight: 600; padding: .15rem .4rem; border-radius: 4px; white-space: nowrap; }
+.col-nombre { max-width: 260px; font-weight: 500; color: #1e293b; }
+.col-tipo { width: 110px; }
+.col-enfoque { width: 90px; }
+.col-lb { width: 100px; }
+.col-metodo { width: 110px; }
+.col-ods { width: 80px; }
+.col-detail { width: 50px; text-align: center; }
+
+.btn-detail {
+  background: #0D9488; color: #fff; border: none; padding: .3rem .65rem;
+  border-radius: 6px; font-size: .72rem; font-weight: 600; cursor: pointer;
+}
+.btn-detail:hover { background: #0f766e; }
+
+/* Modal */
+.ind-modal {
+  position: fixed; top: 0; left: 0; width: 100%; height: 100%;
+  background: rgba(15,23,42,.6); z-index: 9999; display: flex;
+  align-items: center; justify-content: center; padding: 1rem;
+}
+.ind-modal-inner {
+  background: #fff; border-radius: 14px; max-width: 700px; width: 100%;
+  max-height: 90vh; overflow-y: auto; padding: 2rem; position: relative;
+  box-shadow: 0 20px 60px rgba(0,0,0,.25);
+}
+.ind-modal-close {
+  position: absolute; top: 1rem; right: 1rem;
+  background: #f1f5f9; border: none; border-radius: 6px;
+  padding: .3rem .6rem; cursor: pointer; font-size: .9rem; color: #64748b;
+}
+.ind-modal-close:hover { background: #e2e8f0; }
+.modal-header { margin-bottom: .5rem; }
+.modal-title { font-size: 1.1rem; font-weight: 700; margin: .5rem 0; color: #0f172a; }
+.modal-desc { font-size: .85rem; color: #334155; line-height: 1.6; margin-bottom: 1.5rem; background: #f8fafc; border-radius: 8px; padding: 1rem; }
+.modal-grid { display: grid; grid-template-columns: 1fr 1fr; gap: .75rem; }
+@media (max-width:500px) { .modal-grid { grid-template-columns: 1fr; } }
+.modal-field { display: flex; flex-direction: column; gap: .2rem; }
+.modal-field--full { grid-column: 1 / -1; }
+.modal-limitation { background: #FEF2F2; border-radius: 6px; padding: .75rem; }
+.mf-label { font-size: .65rem; font-weight: 700; text-transform: uppercase; letter-spacing: .06em; color: #94a3b8; }
+.mf-val { font-size: .82rem; color: #334155; }
+.mf-formula { font-family: 'JetBrains Mono', monospace; font-size: .78rem; background: #f1f5f9; padding: .5rem .75rem; border-radius: 6px; }
+.mf-ref { background: #f0fdf4; padding: .4rem .6rem; border-radius: 4px; color: #065f46; font-size: .78rem; }
+.mf-val code { font-family: 'JetBrains Mono', monospace; background: #f1f5f9; padding: .1rem .35rem; border-radius: 4px; font-size: .75rem; }
+
+/* Services */
+.ind-services { display: grid; grid-template-columns: repeat(3,1fr); gap: 1.25rem; margin: 2rem 0; }
+@media (max-width:768px) { .ind-services { grid-template-columns: 1fr; } }
+.ind-service-card { background: #fff; border: 1px solid #e2e8f0; border-radius: 12px; padding: 1.5rem; }
+.ind-service-num { font-size: .65rem; font-weight: 800; color: #0D9488; text-transform: uppercase; letter-spacing: .1em; margin-bottom: .5rem; }
+.ind-service-title { font-size: 1rem; font-weight: 700; margin-bottom: .75rem; }
+.ind-service-desc { font-size: .85rem; color: #475569; line-height: 1.6; }
+.ind-cta-contact { text-align: center; margin-top: 2.5rem; padding: 2rem; background: linear-gradient(135deg,#f0fdf4,#eff6ff); border-radius: 12px; }
+.ind-cta-contact p { color: #334155; margin-bottom: 1.25rem; }
+.btn-primary {
+  display: inline-block; background: #0D9488; color: #fff;
+  padding: .7rem 1.75rem; border-radius: 8px; font-weight: 600; font-size: .875rem;
+  text-decoration: none; transition: background .15s;
+}
+.btn-primary:hover { background: #0f766e; color: #fff; }
+</style>
+```

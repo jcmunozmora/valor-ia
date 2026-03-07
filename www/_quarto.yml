@@ -44,6 +44,10 @@ website:
           - text: "Teorías del Cambio"
           - text: "Repositorio IMToC — 200 ToC calificadas"
             href: toc.qmd
+          - text: "---"
+          - text: "Indicadores"
+          - text: "Banco de Indicadores — 105 indicadores P/R/I"
+            href: indicadores.qmd
       - href: aplicaciones.qmd
         text: Aplicaciones
       - href: equipo.qmd
