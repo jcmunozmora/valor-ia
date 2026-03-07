@@ -30,7 +30,7 @@ toc: false
 </p>
 
 <div class="hero-actions">
-  <a href="herramientas.html" class="btn-primary-custom">Diagnóstico gratuito (30 min) &rarr;</a>
+  <a href="diagnostico.html" class="btn-primary-custom">Diagnóstico gratuito (30 min) &rarr;</a>
   <a href="metodologia.html" class="btn-outline-custom">Cómo funciona iMEL<sup>®</sup></a>
 </div>
 
@@ -447,7 +447,7 @@ toc: false
     </p>
   </div>
   <div class="idx-cta-actions">
-    <a href="herramientas.html" class="cta-btn-big cta-btn-big--primary">Agendar diagnóstico gratuito &rarr;</a>
+    <a href="diagnostico.html" class="cta-btn-big cta-btn-big--primary">Agendar diagnóstico gratuito &rarr;</a>
     <a href="metodologia.html" class="cta-btn-big cta-btn-big--ghost">Ver cómo funciona iMEL®</a>
   </div>
 </div>

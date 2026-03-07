@@ -1,0 +1,1818 @@
+<!DOCTYPE html>
+<html xmlns="http://www.w3.org/1999/xhtml" lang="en" xml:lang="en"><head>
+
+<meta charset="utf-8">
+<meta name="generator" content="quarto-1.7.34">
+
+<meta name="viewport" content="width=device-width, initial-scale=1.0, user-scalable=yes">
+
+<meta name="description" content="Evalúe en 5 minutos el nivel de madurez del sistema de medición de impacto de su programa social.">
+
+<title>Diagnóstico de Madurez de Impacto – Valor·IA — CVP EAFIT</title>
+<style>
+code{white-space: pre-wrap;}
+span.smallcaps{font-variant: small-caps;}
+div.columns{display: flex; gap: min(4vw, 1.5em);}
+div.column{flex: auto; overflow-x: auto;}
+div.hanging-indent{margin-left: 1.5em; text-indent: -1.5em;}
+ul.task-list{list-style: none;}
+ul.task-list li input[type="checkbox"] {
+  width: 0.8em;
+  margin: 0 0.8em 0.2em -1em; /* quarto-specific, see https://github.com/quarto-dev/quarto-cli/issues/4556 */ 
+  vertical-align: middle;
+}
+</style>
+
+
+<script src="site_libs/quarto-nav/quarto-nav.js"></script>
+<script src="site_libs/clipboard/clipboard.min.js"></script>
+<script src="site_libs/quarto-search/autocomplete.umd.js"></script>
+<script src="site_libs/quarto-search/fuse.min.js"></script>
+<script src="site_libs/quarto-search/quarto-search.js"></script>
+<meta name="quarto:offset" content="./">
+<link href="./images/favicon.svg" rel="icon" type="image/svg+xml">
+<script src="site_libs/quarto-html/quarto.js" type="module"></script>
+<script src="site_libs/quarto-html/tabsets/tabsets.js" type="module"></script>
+<script src="site_libs/quarto-html/popper.min.js"></script>
+<script src="site_libs/quarto-html/tippy.umd.min.js"></script>
+<script src="site_libs/quarto-html/anchor.min.js"></script>
+<link href="site_libs/quarto-html/tippy.css" rel="stylesheet">
+<link href="site_libs/quarto-html/quarto-syntax-highlighting-48057c8318adb0cac17b2c26210119c4.css" rel="stylesheet" id="quarto-text-highlighting-styles">
+<script src="site_libs/bootstrap/bootstrap.min.js"></script>
+<link href="site_libs/bootstrap/bootstrap-icons.css" rel="stylesheet">
+<link href="site_libs/bootstrap/bootstrap-3fc971585eb44275fc4cbf61cf2c1055.min.css" rel="stylesheet" append-hash="true" id="quarto-bootstrap" data-mode="light">
+<script id="quarto-search-options" type="application/json">{
+  "location": "navbar",
+  "copy-button": false,
+  "collapse-after": 3,
+  "panel-placement": "end",
+  "type": "overlay",
+  "limit": 50,
+  "keyboard-shortcut": [
+    "f",
+    "/",
+    "s"
+  ],
+  "show-item-context": false,
+  "language": {
+    "search-no-results-text": "No results",
+    "search-matching-documents-text": "matching documents",
+    "search-copy-link-title": "Copy link to search",
+    "search-hide-matches-text": "Hide additional matches",
+    "search-more-match-text": "more match in this document",
+    "search-more-matches-text": "more matches in this document",
+    "search-clear-button-title": "Clear",
+    "search-text-placeholder": "",
+    "search-detached-cancel-button-title": "Cancel",
+    "search-submit-button-title": "Submit",
+    "search-label": "Search"
+  }
+}</script>
+<style>html{ scroll-behavior: smooth; }</style>
+<link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin="">
+<link href="https://fonts.googleapis.com/css2?family=Inter:wght@300;400;500;600;700;800;900&amp;family=JetBrains+Mono:wght@400;500&amp;display=swap" rel="stylesheet">
+
+
+<meta property="og:title" content="Valor·IA — CVP EAFIT">
+<meta property="og:description" content="Plataforma de inteligencia para la medicion de valor social — SROI, CBA, WELLBY">
+<meta property="og:image" content="images/og-image.png">
+<meta property="og:site_name" content="Valor·IA — CVP EAFIT">
+</head>
+
+<body class="nav-fixed quarto-light">
+
+<div id="quarto-search-results"></div>
+  <header id="quarto-header" class="headroom fixed-top">
+    <nav class="navbar navbar-expand-lg " data-bs-theme="dark">
+      <div class="navbar-container container-fluid">
+      <div class="navbar-brand-container mx-auto">
+    <a class="navbar-brand" href="./index.html">
+    <span class="navbar-title">Valor·IA — CVP EAFIT</span>
+    </a>
+  </div>
+            <div id="quarto-search" class="" title="Search"></div>
+          <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarCollapse" aria-controls="navbarCollapse" role="menu" aria-expanded="false" aria-label="Toggle navigation" onclick="if (window.quartoToggleHeadroom) { window.quartoToggleHeadroom(); }">
+  <span class="navbar-toggler-icon"></span>
+</button>
+          <div class="collapse navbar-collapse" id="navbarCollapse">
+            <ul class="navbar-nav navbar-nav-scroll me-auto">
+  <li class="nav-item">
+    <a class="nav-link" href="./index.html"> 
+<span class="menu-text">Inicio</span></a>
+  </li>  
+  <li class="nav-item">
+    <a class="nav-link" href="./metodologia.html"> 
+<span class="menu-text">Nuestra Aproximación</span></a>
+  </li>  
+  <li class="nav-item">
+    <a class="nav-link" href="./ciencia.html"> 
+<span class="menu-text">Ciencia del Impacto</span></a>
+  </li>  
+  <li class="nav-item">
+    <a class="nav-link" href="./herramientas.html"> 
+<span class="menu-text">Nuestros Servicios</span></a>
+  </li>  
+  <li class="nav-item dropdown ">
+    <a class="nav-link dropdown-toggle" href="#" id="nav-menu-herramientas" role="link" data-bs-toggle="dropdown" aria-expanded="false">
+ <span class="menu-text">Herramientas</span>
+    </a>
+    <ul class="dropdown-menu" aria-labelledby="nav-menu-herramientas">    
+        <li>
+    <a class="dropdown-item" href="./metodos/index.html">
+ <span class="dropdown-text">Caja de herramientas — Índice</span></a>
+  </li>  
+        <li><hr class="dropdown-divider"></li>
+        <li class="dropdown-header">Evaluación de impacto</li>
+        <li>
+    <a class="dropdown-item" href="./metodos/rct.html">
+ <span class="dropdown-text">RCT / cRCT — Ensayo aleatorizado</span></a>
+  </li>  
+        <li>
+    <a class="dropdown-item" href="./metodos/did.html">
+ <span class="dropdown-text">DiD — Diferencias en diferencias</span></a>
+  </li>  
+        <li><hr class="dropdown-divider"></li>
+        <li class="dropdown-header">Valoración monetaria</li>
+        <li>
+    <a class="dropdown-item" href="./metodos/sroi.html">
+ <span class="dropdown-text">SROI — Social Return on Investment</span></a>
+  </li>  
+        <li>
+    <a class="dropdown-item" href="./metodos/wellby.html">
+ <span class="dropdown-text">WELLBY — Well-Being Years</span></a>
+  </li>  
+        <li>
+    <a class="dropdown-item" href="./metodos/costos-unitarios.html">
+ <span class="dropdown-text">Costos unitarios (Unit Costs)</span></a>
+  </li>  
+        <li>
+    <a class="dropdown-item" href="./metodos/wtp.html">
+ <span class="dropdown-text">WTP / WTA — Valoración contingente</span></a>
+  </li>  
+        <li><hr class="dropdown-divider"></li>
+        <li class="dropdown-header">Teorías del Cambio</li>
+        <li>
+    <a class="dropdown-item" href="./toc.html">
+ <span class="dropdown-text">Repositorio IMToC — 200 ToC calificadas</span></a>
+  </li>  
+        <li><hr class="dropdown-divider"></li>
+        <li class="dropdown-header">Indicadores</li>
+        <li>
+    <a class="dropdown-item" href="./indicadores.html">
+ <span class="dropdown-text">Banco de Indicadores — 105 indicadores P/R/I</span></a>
+  </li>  
+    </ul>
+  </li>
+  <li class="nav-item">
+    <a class="nav-link active" href="./diagnostico.html" aria-current="page"> 
+<span class="menu-text">Diagnóstico</span></a>
+  </li>  
+  <li class="nav-item">
+    <a class="nav-link" href="./aplicaciones.html"> 
+<span class="menu-text">Aplicaciones</span></a>
+  </li>  
+  <li class="nav-item">
+    <a class="nav-link" href="./equipo.html"> 
+<span class="menu-text">Equipo</span></a>
+  </li>  
+</ul>
+            <ul class="navbar-nav navbar-nav-scroll ms-auto">
+  <li class="nav-item">
+    <a class="nav-link" href="https://www.eafit.edu.co"> 
+<span class="menu-text">CVP · EAFIT</span></a>
+  </li>  
+</ul>
+          </div> <!-- /navcollapse -->
+            <div class="quarto-navbar-tools">
+</div>
+      </div> <!-- /container-fluid -->
+    </nav>
+</header>
+<!-- content -->
+<div id="quarto-content" class="quarto-container page-columns page-rows-contents page-layout-full page-navbar">
+<!-- sidebar -->
+<!-- margin-sidebar -->
+    
+<!-- main -->
+<main class="content column-page" id="quarto-document-content">
+
+<header id="title-block-header" class="quarto-title-block default">
+<div class="quarto-title">
+<h1 class="title">Diagnóstico de Madurez de Impacto</h1>
+</div>
+
+<div>
+  <div class="description">
+    Evalúe en 5 minutos el nivel de madurez del sistema de medición de impacto de su programa social.
+  </div>
+</div>
+
+
+<div class="quarto-title-meta column-page">
+
+    
+  
+    
+  </div>
+  
+
+
+</header>
+
+
+<style>
+/* ============================================================
+   DIAGNÓSTICO — ESTILOS
+   ============================================================ */
+
+.diag-wrapper {
+  background: #0F172A;
+  min-height: calc(100vh - 60px);
+  padding: 0;
+  margin: 0;
+}
+
+/* HERO */
+.diag-hero {
+  background: linear-gradient(135deg, #0F172A 0%, #1E293B 60%, #0F2C2A 100%);
+  padding: 4rem 1.5rem 3rem;
+  text-align: center;
+  border-bottom: 1px solid rgba(13,148,136,0.2);
+}
+
+.diag-hero-badge {
+  display: inline-block;
+  background: rgba(13,148,136,0.15);
+  border: 1px solid rgba(13,148,136,0.4);
+  color: #5EEAD4;
+  font-size: 0.75rem;
+  font-weight: 600;
+  letter-spacing: 0.1em;
+  text-transform: uppercase;
+  padding: 0.35rem 1rem;
+  border-radius: 2rem;
+  margin-bottom: 1.5rem;
+}
+
+.diag-hero h1 {
+  font-size: clamp(1.8rem, 4vw, 2.8rem);
+  font-weight: 800;
+  color: #F8FAFC;
+  line-height: 1.2;
+  margin-bottom: 1rem;
+  letter-spacing: -0.03em;
+}
+
+.diag-hero h1 span {
+  color: #5EEAD4;
+}
+
+.diag-hero-sub {
+  font-size: 1.05rem;
+  color: #94A3B8;
+  max-width: 600px;
+  margin: 0 auto 2rem;
+  line-height: 1.7;
+}
+
+.diag-meta {
+  display: flex;
+  justify-content: center;
+  gap: 2rem;
+  flex-wrap: wrap;
+  margin-bottom: 2rem;
+}
+
+.diag-meta-item {
+  display: flex;
+  align-items: center;
+  gap: 0.5rem;
+  color: #94A3B8;
+  font-size: 0.9rem;
+}
+
+.diag-meta-icon {
+  color: #0D9488;
+  font-size: 1rem;
+}
+
+/* PROGRESS */
+.diag-progress-wrap {
+  background: #1E293B;
+  border-bottom: 1px solid rgba(255,255,255,0.06);
+  padding: 1rem 1.5rem;
+  position: sticky;
+  top: 60px;
+  z-index: 10;
+}
+
+.diag-progress-inner {
+  max-width: 700px;
+  margin: 0 auto;
+}
+
+.diag-progress-label {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  margin-bottom: 0.5rem;
+}
+
+.diag-progress-text {
+  color: #94A3B8;
+  font-size: 0.85rem;
+  font-weight: 500;
+}
+
+.diag-progress-pct {
+  color: #5EEAD4;
+  font-size: 0.85rem;
+  font-weight: 700;
+}
+
+.diag-progress-bar {
+  height: 4px;
+  background: rgba(255,255,255,0.08);
+  border-radius: 2px;
+  overflow: hidden;
+}
+
+.diag-progress-fill {
+  height: 100%;
+  background: linear-gradient(90deg, #0D9488, #5EEAD4);
+  border-radius: 2px;
+  transition: width 0.4s ease;
+}
+
+/* STEP DOTS */
+.diag-steps-dots {
+  display: flex;
+  justify-content: center;
+  gap: 0.5rem;
+  padding: 0.75rem 0 0;
+}
+
+.diag-dot {
+  width: 8px;
+  height: 8px;
+  border-radius: 50%;
+  background: rgba(255,255,255,0.12);
+  transition: all 0.3s;
+}
+
+.diag-dot.active {
+  background: #0D9488;
+  transform: scale(1.3);
+}
+
+.diag-dot.done {
+  background: #5EEAD4;
+}
+
+/* QUIZ AREA */
+.diag-quiz-area {
+  max-width: 700px;
+  margin: 0 auto;
+  padding: 2.5rem 1.5rem;
+}
+
+/* DIMENSION HEADER */
+.diag-dim-header {
+  margin-bottom: 2rem;
+}
+
+.diag-dim-tag {
+  display: inline-flex;
+  align-items: center;
+  gap: 0.5rem;
+  background: rgba(13,148,136,0.12);
+  border: 1px solid rgba(13,148,136,0.3);
+  color: #5EEAD4;
+  font-size: 0.75rem;
+  font-weight: 600;
+  letter-spacing: 0.08em;
+  text-transform: uppercase;
+  padding: 0.3rem 0.75rem;
+  border-radius: 1rem;
+  margin-bottom: 0.75rem;
+}
+
+.diag-dim-title {
+  font-size: 1.5rem;
+  font-weight: 700;
+  color: #F8FAFC;
+  margin-bottom: 0.5rem;
+  letter-spacing: -0.02em;
+}
+
+.diag-dim-desc {
+  color: #94A3B8;
+  font-size: 0.95rem;
+  line-height: 1.6;
+}
+
+/* QUESTION CARD */
+.diag-question {
+  background: #1E293B;
+  border: 1px solid rgba(255,255,255,0.08);
+  border-radius: 0.75rem;
+  padding: 1.5rem;
+  margin-bottom: 1rem;
+  transition: border-color 0.2s;
+}
+
+.diag-question.answered {
+  border-color: rgba(13,148,136,0.4);
+}
+
+.diag-q-text {
+  color: #E2E8F0;
+  font-size: 1rem;
+  font-weight: 500;
+  margin-bottom: 1.2rem;
+  line-height: 1.6;
+}
+
+.diag-q-num {
+  color: #475569;
+  font-size: 0.8rem;
+  font-weight: 600;
+  letter-spacing: 0.05em;
+  text-transform: uppercase;
+  margin-bottom: 0.5rem;
+}
+
+/* OPTIONS */
+.diag-options {
+  display: grid;
+  grid-template-columns: 1fr 1fr 1fr;
+  gap: 0.5rem;
+}
+
+.diag-option {
+  position: relative;
+}
+
+.diag-option input[type="radio"] {
+  position: absolute;
+  opacity: 0;
+  width: 0;
+  height: 0;
+}
+
+.diag-option label {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  gap: 0.25rem;
+  padding: 0.75rem 0.5rem;
+  border: 2px solid rgba(255,255,255,0.08);
+  border-radius: 0.5rem;
+  cursor: pointer;
+  transition: all 0.2s;
+  text-align: center;
+}
+
+.diag-option label:hover {
+  border-color: rgba(13,148,136,0.4);
+  background: rgba(13,148,136,0.06);
+}
+
+.diag-option input:checked + label {
+  border-color: #0D9488;
+  background: rgba(13,148,136,0.15);
+}
+
+.diag-opt-icon {
+  font-size: 1.2rem;
+  line-height: 1;
+}
+
+.diag-opt-text {
+  font-size: 0.8rem;
+  font-weight: 600;
+  color: #94A3B8;
+  line-height: 1.2;
+}
+
+.diag-option input:checked + label .diag-opt-text {
+  color: #5EEAD4;
+}
+
+.diag-opt-score {
+  font-size: 0.7rem;
+  color: #475569;
+}
+
+.diag-option input:checked + label .diag-opt-score {
+  color: #0D9488;
+}
+
+/* COLOR per option */
+.diag-option:nth-child(1) input:checked + label {
+  border-color: #DC2626;
+  background: rgba(220,38,38,0.1);
+}
+.diag-option:nth-child(1) input:checked + label .diag-opt-text {
+  color: #FCA5A5;
+}
+
+.diag-option:nth-child(2) input:checked + label {
+  border-color: #F59E0B;
+  background: rgba(245,158,11,0.1);
+}
+.diag-option:nth-child(2) input:checked + label .diag-opt-text {
+  color: #FDE68A;
+}
+
+.diag-option:nth-child(3) input:checked + label {
+  border-color: #059669;
+  background: rgba(5,150,105,0.1);
+}
+.diag-option:nth-child(3) input:checked + label .diag-opt-text {
+  color: #6EE7B7;
+}
+
+/* NAV BUTTONS */
+.diag-nav {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  margin-top: 2rem;
+  padding-top: 1.5rem;
+  border-top: 1px solid rgba(255,255,255,0.06);
+}
+
+.diag-btn-back {
+  background: transparent;
+  border: 1px solid rgba(255,255,255,0.15);
+  color: #94A3B8;
+  font-size: 0.9rem;
+  font-weight: 500;
+  padding: 0.65rem 1.5rem;
+  border-radius: 0.5rem;
+  cursor: pointer;
+  transition: all 0.2s;
+}
+
+.diag-btn-back:hover {
+  border-color: rgba(255,255,255,0.3);
+  color: #F8FAFC;
+}
+
+.diag-btn-next {
+  background: #0D9488;
+  border: none;
+  color: #fff;
+  font-size: 0.95rem;
+  font-weight: 600;
+  padding: 0.75rem 2rem;
+  border-radius: 0.5rem;
+  cursor: pointer;
+  transition: all 0.2s;
+  letter-spacing: 0.01em;
+}
+
+.diag-btn-next:hover:not(:disabled) {
+  background: #0F766E;
+  transform: translateY(-1px);
+  box-shadow: 0 4px 12px rgba(13,148,136,0.3);
+}
+
+.diag-btn-next:disabled {
+  background: #1E3A5F;
+  color: #475569;
+  cursor: not-allowed;
+}
+
+.diag-btn-next.finish {
+  background: linear-gradient(135deg, #0D9488, #0891B2);
+}
+
+/* VALIDATION */
+.diag-validation {
+  text-align: center;
+  color: #F59E0B;
+  font-size: 0.85rem;
+  margin-top: 1rem;
+  display: none;
+}
+
+/* ============================================================
+   RESULTS
+   ============================================================ */
+
+.diag-results {
+  display: none;
+  padding: 2.5rem 1.5rem;
+  max-width: 800px;
+  margin: 0 auto;
+}
+
+.diag-results-header {
+  text-align: center;
+  margin-bottom: 3rem;
+}
+
+.diag-results-badge {
+  display: inline-flex;
+  align-items: center;
+  gap: 0.75rem;
+  background: rgba(13,148,136,0.15);
+  border: 1px solid rgba(13,148,136,0.4);
+  color: #5EEAD4;
+  font-size: 0.8rem;
+  font-weight: 600;
+  letter-spacing: 0.08em;
+  text-transform: uppercase;
+  padding: 0.4rem 1rem;
+  border-radius: 2rem;
+  margin-bottom: 1.5rem;
+}
+
+.diag-results h2 {
+  font-size: clamp(1.6rem, 3.5vw, 2.2rem);
+  font-weight: 800;
+  color: #F8FAFC;
+  letter-spacing: -0.03em;
+  margin-bottom: 0.75rem;
+}
+
+.diag-results-sub {
+  color: #94A3B8;
+  font-size: 1rem;
+  max-width: 500px;
+  margin: 0 auto;
+}
+
+/* LEVEL CARD */
+.diag-level-card {
+  background: linear-gradient(135deg, #1E293B 0%, #1a3040 100%);
+  border: 1px solid rgba(13,148,136,0.3);
+  border-radius: 1rem;
+  padding: 2rem;
+  text-align: center;
+  margin-bottom: 2rem;
+  position: relative;
+  overflow: hidden;
+}
+
+.diag-level-card::before {
+  content: '';
+  position: absolute;
+  top: 0;
+  left: 0;
+  right: 0;
+  height: 3px;
+  background: linear-gradient(90deg, #0D9488, #5EEAD4);
+}
+
+.diag-level-num {
+  font-size: 5rem;
+  font-weight: 900;
+  line-height: 1;
+  margin-bottom: 0.25rem;
+}
+
+.diag-level-name {
+  font-size: 1.1rem;
+  font-weight: 700;
+  color: #F8FAFC;
+  margin-bottom: 0.5rem;
+}
+
+.diag-level-desc {
+  color: #94A3B8;
+  font-size: 0.9rem;
+  max-width: 400px;
+  margin: 0 auto;
+  line-height: 1.6;
+}
+
+.diag-score-total {
+  margin-top: 1rem;
+  font-size: 0.85rem;
+  color: #475569;
+}
+
+.diag-score-total strong {
+  color: #5EEAD4;
+}
+
+/* SEMÁFORO GRID */
+.diag-semaforo {
+  margin-bottom: 2rem;
+}
+
+.diag-semaforo h3 {
+  font-size: 0.8rem;
+  font-weight: 600;
+  letter-spacing: 0.1em;
+  text-transform: uppercase;
+  color: #475569;
+  margin-bottom: 1rem;
+  text-align: center;
+}
+
+.diag-sem-grid {
+  display: grid;
+  grid-template-columns: repeat(5, 1fr);
+  gap: 0.75rem;
+}
+
+@media (max-width: 600px) {
+  .diag-sem-grid {
+    grid-template-columns: 1fr;
+  }
+}
+
+.diag-sem-cell {
+  background: #1E293B;
+  border: 1px solid rgba(255,255,255,0.08);
+  border-radius: 0.75rem;
+  padding: 1rem 0.75rem;
+  text-align: center;
+}
+
+.diag-sem-cell.green {
+  border-color: rgba(5,150,105,0.5);
+  background: rgba(5,150,105,0.08);
+}
+
+.diag-sem-cell.yellow {
+  border-color: rgba(245,158,11,0.5);
+  background: rgba(245,158,11,0.06);
+}
+
+.diag-sem-cell.red {
+  border-color: rgba(220,38,38,0.5);
+  background: rgba(220,38,38,0.06);
+}
+
+.diag-sem-icon {
+  font-size: 1.5rem;
+  margin-bottom: 0.5rem;
+  display: block;
+}
+
+.diag-sem-cell.green .diag-sem-icon { color: #34D399; }
+.diag-sem-cell.yellow .diag-sem-icon { color: #FBBF24; }
+.diag-sem-cell.red .diag-sem-icon { color: #F87171; }
+
+.diag-sem-name {
+  font-size: 0.75rem;
+  font-weight: 600;
+  color: #CBD5E1;
+  margin-bottom: 0.35rem;
+  line-height: 1.3;
+}
+
+.diag-sem-score {
+  font-size: 1.1rem;
+  font-weight: 800;
+}
+
+.diag-sem-cell.green .diag-sem-score { color: #34D399; }
+.diag-sem-cell.yellow .diag-sem-score { color: #FBBF24; }
+.diag-sem-cell.red .diag-sem-score { color: #F87171; }
+
+.diag-sem-label {
+  font-size: 0.7rem;
+  color: #475569;
+  margin-top: 0.2rem;
+}
+
+/* RECOMMENDATION */
+.diag-rec {
+  background: #1E293B;
+  border: 1px solid rgba(13,148,136,0.25);
+  border-left: 4px solid #0D9488;
+  border-radius: 0.75rem;
+  padding: 1.75rem;
+  margin-bottom: 2rem;
+}
+
+.diag-rec-label {
+  font-size: 0.75rem;
+  font-weight: 600;
+  letter-spacing: 0.1em;
+  text-transform: uppercase;
+  color: #0D9488;
+  margin-bottom: 0.75rem;
+}
+
+.diag-rec-title {
+  font-size: 1.1rem;
+  font-weight: 700;
+  color: #F8FAFC;
+  margin-bottom: 0.5rem;
+}
+
+.diag-rec-desc {
+  color: #94A3B8;
+  font-size: 0.9rem;
+  line-height: 1.7;
+  margin-bottom: 1.25rem;
+}
+
+.diag-rec-services {
+  display: flex;
+  flex-wrap: wrap;
+  gap: 0.5rem;
+}
+
+.diag-rec-tag {
+  background: rgba(13,148,136,0.12);
+  border: 1px solid rgba(13,148,136,0.3);
+  color: #5EEAD4;
+  font-size: 0.78rem;
+  font-weight: 500;
+  padding: 0.3rem 0.75rem;
+  border-radius: 1rem;
+}
+
+/* CTA */
+.diag-cta-block {
+  background: linear-gradient(135deg, #0F2C2A 0%, #0F172A 100%);
+  border: 1px solid rgba(13,148,136,0.3);
+  border-radius: 1rem;
+  padding: 2rem;
+  text-align: center;
+}
+
+.diag-cta-title {
+  font-size: 1.3rem;
+  font-weight: 700;
+  color: #F8FAFC;
+  margin-bottom: 0.5rem;
+}
+
+.diag-cta-sub {
+  color: #94A3B8;
+  font-size: 0.9rem;
+  margin-bottom: 1.5rem;
+}
+
+.diag-cta-actions {
+  display: flex;
+  gap: 1rem;
+  justify-content: center;
+  flex-wrap: wrap;
+}
+
+.diag-cta-primary {
+  display: inline-block;
+  background: #0D9488;
+  color: #fff !important;
+  font-weight: 700;
+  font-size: 0.95rem;
+  padding: 0.8rem 2rem;
+  border-radius: 0.5rem;
+  text-decoration: none !important;
+  transition: all 0.2s;
+}
+
+.diag-cta-primary:hover {
+  background: #0F766E;
+  transform: translateY(-2px);
+  box-shadow: 0 6px 16px rgba(13,148,136,0.35);
+}
+
+.diag-cta-secondary {
+  display: inline-block;
+  background: transparent;
+  color: #94A3B8 !important;
+  font-weight: 500;
+  font-size: 0.9rem;
+  padding: 0.8rem 1.5rem;
+  border: 1px solid rgba(255,255,255,0.15);
+  border-radius: 0.5rem;
+  text-decoration: none !important;
+  transition: all 0.2s;
+}
+
+.diag-cta-secondary:hover {
+  border-color: rgba(255,255,255,0.3);
+  color: #F8FAFC !important;
+}
+
+/* START */
+.diag-start-section {
+  max-width: 700px;
+  margin: 0 auto;
+  padding: 2.5rem 1.5rem;
+}
+
+.diag-start-card {
+  background: #1E293B;
+  border: 1px solid rgba(255,255,255,0.08);
+  border-radius: 1rem;
+  padding: 2rem;
+  margin-bottom: 1.5rem;
+  display: grid;
+  grid-template-columns: 3rem 1fr;
+  gap: 1rem;
+  align-items: start;
+}
+
+.diag-start-icon {
+  font-size: 1.5rem;
+  color: #5EEAD4;
+}
+
+.diag-start-title {
+  font-size: 0.95rem;
+  font-weight: 700;
+  color: #F8FAFC;
+  margin-bottom: 0.35rem;
+}
+
+.diag-start-text {
+  color: #94A3B8;
+  font-size: 0.875rem;
+  line-height: 1.6;
+}
+
+.diag-start-btn {
+  width: 100%;
+  background: #0D9488;
+  border: none;
+  color: #fff;
+  font-size: 1.05rem;
+  font-weight: 700;
+  padding: 1rem 2rem;
+  border-radius: 0.75rem;
+  cursor: pointer;
+  transition: all 0.2s;
+  letter-spacing: 0.01em;
+}
+
+.diag-start-btn:hover {
+  background: #0F766E;
+  transform: translateY(-2px);
+  box-shadow: 0 6px 20px rgba(13,148,136,0.35);
+}
+
+/* Mobile */
+@media (max-width: 480px) {
+  .diag-options {
+    grid-template-columns: 1fr;
+  }
+  .diag-option label {
+    flex-direction: row;
+    justify-content: flex-start;
+    gap: 0.75rem;
+    padding: 0.6rem 1rem;
+  }
+  .diag-opt-icon { font-size: 1rem; }
+}
+</style>
+
+<div class="diag-wrapper">
+
+  <!-- HERO -->
+  <section class="diag-hero">
+    <div class="diag-hero-badge">iMEL® · Diagnóstico gratuito</div>
+    <h1>¿En qué nivel está<br><span>su programa?</span></h1>
+    <p class="diag-hero-sub">
+      Evalúe en 5 minutos la madurez del sistema de medición de impacto
+      de su organización y reciba un diagnóstico personalizado con
+      el camino a seguir.
+    </p>
+    <div class="diag-meta">
+      <div class="diag-meta-item">
+        <span class="diag-meta-icon">⏱</span>
+        <span>5 minutos</span>
+      </div>
+      <div class="diag-meta-item">
+        <span class="diag-meta-icon">📊</span>
+        <span>15 preguntas · 5 dimensiones</span>
+      </div>
+      <div class="diag-meta-item">
+        <span class="diag-meta-icon">🎯</span>
+        <span>Resultado inmediato</span>
+      </div>
+    </div>
+  </section>
+
+  <!-- PROGRESS (hidden initially) -->
+  <div class="diag-progress-wrap" id="diagProgress" style="display:none;">
+    <div class="diag-progress-inner">
+      <div class="diag-progress-label">
+        <span class="diag-progress-text" id="progressLabel">Dimensión 1 de 5</span>
+        <span class="diag-progress-pct" id="progressPct">0%</span>
+      </div>
+      <div class="diag-progress-bar">
+        <div class="diag-progress-fill" id="progressFill" style="width:0%"></div>
+      </div>
+      <div class="diag-steps-dots" id="stepsDots"></div>
+    </div>
+  </div>
+
+  <!-- START SECTION -->
+  <div id="diagStart" class="diag-start-section">
+    <div class="diag-start-card">
+      <div class="diag-start-icon">🗺</div>
+      <div>
+        <div class="diag-start-title">5 dimensiones clave</div>
+        <div class="diag-start-text">Coherencia programática · Eficacia · Eficiencia · Impacto social · Valoración monetaria</div>
+      </div>
+    </div>
+    <div class="diag-start-card">
+      <div class="diag-start-icon">📈</div>
+      <div>
+        <div class="diag-start-title">Semáforo de madurez (N1–N5)</div>
+        <div class="diag-start-text">Obtenga su nivel global y el estado de cada dimensión con recomendaciones concretas de siguiente paso.</div>
+      </div>
+    </div>
+    <div class="diag-start-card">
+      <div class="diag-start-icon">🔒</div>
+      <div>
+        <div class="diag-start-title">Sin registro requerido</div>
+        <div class="diag-start-text">El diagnóstico es 100% gratuito y anónimo. Los resultados se generan en su dispositivo.</div>
+      </div>
+    </div>
+    <button class="diag-start-btn" onclick="startDiag()">
+      Iniciar diagnóstico →
+    </button>
+  </div>
+
+  <!-- QUIZ AREA -->
+  <div id="diagQuiz" class="diag-quiz-area" style="display:none;"></div>
+
+  <!-- RESULTS -->
+  <div id="diagResults" class="diag-results"></div>
+
+</div>
+
+<script>
+// ============================================================
+// DATA
+// ============================================================
+
+const DIMENSIONS = [
+  {
+    id: "D1",
+    name: "Coherencia programática",
+    desc: "Claridad de la teoría del cambio y la cadena causal del programa.",
+    icon: "🗺",
+    questions: [
+      "¿Su programa tiene una Teoría del Cambio documentada con una cadena causal explícita?",
+      "¿Los resultados esperados (outcomes) están diferenciados de las actividades y productos (outputs)?",
+      "¿Los supuestos clave de la cadena causal están identificados y se monitorean?"
+    ]
+  },
+  {
+    id: "D2",
+    name: "Eficacia",
+    desc: "Capacidad de medir si el programa está logrando los resultados esperados.",
+    icon: "🎯",
+    questions: [
+      "¿Tiene indicadores de resultado (outcomes) definidos para cada grupo de participantes clave?",
+      "¿Recolecta datos de seguimiento de manera sistemática y periódica?",
+      "¿Compara los resultados con una línea de base o un grupo de comparación?"
+    ]
+  },
+  {
+    id: "D3",
+    name: "Eficiencia operativa",
+    desc: "Gestión de costos y recursos en relación con los resultados alcanzados.",
+    icon: "⚙️",
+    questions: [
+      "¿Tiene registros de costos desagregados por actividad o componente del programa?",
+      "¿Calcula el costo por beneficiario o el costo por unidad de resultado?",
+      "¿Compara la eficiencia de su programa con referentes o benchmarks del sector?"
+    ]
+  },
+  {
+    id: "D4",
+    name: "Impacto social",
+    desc: "Evidencia de cambio real atribuible a la intervención, más allá del contrafactual.",
+    icon: "🌱",
+    questions: [
+      "¿Ha identificado qué parte del cambio observado es atribuible a su programa (y no a otros factores)?",
+      "¿Analiza qué hubiera ocurrido con los beneficiarios sin la intervención de su programa (contrafactual)?",
+      "¿Evalúa si los cambios generados persisten en el tiempo después de que el programa termina?"
+    ]
+  },
+  {
+    id: "D5",
+    name: "Valoración monetaria",
+    desc: "Capacidad de traducir el impacto social en valor económico comparable.",
+    icon: "💰",
+    questions: [
+      "¿Traduce alguno de los resultados de su programa a valor económico o monetario?",
+      "¿Usa proxies financieros validados (como WELLBY, unit costs o WTP) para cuantificar el valor social?",
+      "¿Calcula un retorno social de la inversión (SROI) u otra métrica de costo-beneficio social?"
+    ]
+  }
+];
+
+const OPTIONS = [
+  { value: 0, text: "No / Todavía no", icon: "✗", score: "0 pts" },
+  { value: 1, text: "En proceso",      icon: "~", score: "1 pt"  },
+  { value: 2, text: "Sí, está hecho",  icon: "✓", score: "2 pts" }
+];
+
+const LEVELS = [
+  { level: "N1", name: "Exploración inicial",      color: "#F87171", min: 0,  max: 9,  desc: "El programa está en sus primeras etapas de sistematización. La prioridad es construir los fundamentos: Teoría del Cambio y un sistema básico de seguimiento." },
+  { level: "N2", name: "Sistematización básica",   color: "#FBBF24", min: 10, max: 15, desc: "Existen algunos elementos, pero de manera dispersa. Es el momento de integrarlos en un sistema coherente y comenzar a medir resultados con rigor." },
+  { level: "N3", name: "Medición estructurada",    color: "#FCD34D", min: 16, max: 21, desc: "El sistema de medición está activo. El siguiente paso es fortalecer la evidencia causal y comenzar a cuantificar el impacto más allá de los outputs." },
+  { level: "N4", name: "Impacto demostrado",       color: "#34D399", min: 22, max: 26, desc: "El programa puede demostrar impacto con evidencia sólida. El paso natural es la valoración monetaria y la comunicación sofisticada a financiadores." },
+  { level: "N5", name: "Excelencia evaluativa",    color: "#5EEAD4", min: 27, max: 30, desc: "El programa tiene un sistema de M&E de clase mundial. La frontera es la verificación externa, la publicación de evidencia y convertirse en referente del sector." }
+];
+
+const RECOMMENDATIONS = [
+  {
+    level: "N1",
+    title: "Diseño del sistema desde los cimientos",
+    desc: "Su programa necesita construir las bases: una Teoría del Cambio documentada, indicadores de resultado y un protocolo mínimo de seguimiento. Sin estos fundamentos, cualquier dato recolectado será difícil de interpretar.",
+    services: ["Taller de Teoría del Cambio", "Diseño del sistema de M&E", "Formación en iMEL®"]
+  },
+  {
+    level: "N2",
+    title: "Integración y fortalecimiento del seguimiento",
+    desc: "Tiene los ingredientes, pero no están conectados. El trabajo es integrar lo que existe en un sistema coherente, definir una línea de base y estructurar la recolección de datos de outcomes.",
+    services: ["Evaluación de proceso", "Línea de base", "Banco de indicadores", "Acompañamiento iMEL®"]
+  },
+  {
+    level: "N3",
+    title: "Evaluación de impacto con diseño robusto",
+    desc: "Es el momento de pasar de medir lo que hace el programa a demostrar lo que cambia. Un diseño cuasi-experimental o experimental le permitirá establecer causalidad con rigor.",
+    services: ["Diseño DiD o RCT", "Análisis de atribución", "Análisis costo-eficiencia", "Revisión de literatura"]
+  },
+  {
+    level: "N4",
+    title: "Valoración monetaria y comunicación de impacto",
+    desc: "Con la evidencia de impacto en la mano, el siguiente paso es traducirlo al lenguaje de los financiadores: SROI, WELLBY u otra métrica de retorno que haga visible el valor generado.",
+    services: ["SROI evaluativo", "Análisis WELLBY", "Informe SVI", "Presentación ejecutiva"]
+  },
+  {
+    level: "N5",
+    title: "Verificación, publicación y formación de pares",
+    desc: "Está en la frontera. El valor ahora está en la verificación externa (SVI Assurance), la diseminación del conocimiento y convertir su experiencia en referente para el sector.",
+    services: ["Verificación SVI Assurance", "Publicación de caso", "Formación de equipos", "Benchmarking internacional"]
+  }
+];
+
+// ============================================================
+// STATE
+// ============================================================
+
+let currentStep = 0;
+let answers = {}; // { "D1_0": 2, "D1_1": 1, ... }
+
+// ============================================================
+// RENDER
+// ============================================================
+
+function startDiag() {
+  document.getElementById('diagStart').style.display = 'none';
+  document.getElementById('diagProgress').style.display = 'block';
+  document.getElementById('diagQuiz').style.display = 'block';
+  currentStep = 0;
+  answers = {};
+  renderStep();
+}
+
+function renderStep() {
+  const dim = DIMENSIONS[currentStep];
+  const quiz = document.getElementById('diagQuiz');
+
+  // Build questions HTML
+  let questionsHtml = '';
+  dim.questions.forEach((q, qi) => {
+    const key = `${dim.id}_${qi}`;
+    const answered = answers[key] !== undefined;
+    questionsHtml += `
+      <div class="diag-question ${answered ? 'answered' : ''}" id="qcard_${dim.id}_${qi}">
+        <div class="diag-q-num">Pregunta ${qi + 1} de 3</div>
+        <div class="diag-q-text">${q}</div>
+        <div class="diag-options">
+          ${OPTIONS.map(opt => `
+            <div class="diag-option">
+              <input type="radio"
+                name="${key}"
+                id="${key}_${opt.value}"
+                value="${opt.value}"
+                ${answers[key] === opt.value ? 'checked' : ''}
+                onchange="handleAnswer('${dim.id}', ${qi}, ${opt.value})">
+              <label for="${key}_${opt.value}">
+                <span class="diag-opt-icon">${opt.icon}</span>
+                <span class="diag-opt-text">${opt.text}</span>
+                <span class="diag-opt-score">${opt.score}</span>
+              </label>
+            </div>
+          `).join('')}
+        </div>
+      </div>
+    `;
+  });
+
+  const isLast = currentStep === DIMENSIONS.length - 1;
+
+  quiz.innerHTML = `
+    <div class="diag-dim-header">
+      <div class="diag-dim-tag">${dim.icon} Dimensión ${currentStep + 1} — ${dim.id}</div>
+      <div class="diag-dim-title">${dim.name}</div>
+      <div class="diag-dim-desc">${dim.desc}</div>
+    </div>
+
+    ${questionsHtml}
+
+    <div class="diag-validation" id="diagValidation">
+      Por favor, responda todas las preguntas de esta dimensión para continuar.
+    </div>
+
+    <div class="diag-nav">
+      <button class="diag-btn-back" onclick="goBack()" ${currentStep === 0 ? 'style="visibility:hidden"' : ''}>
+        ← Anterior
+      </button>
+      <button class="diag-btn-next ${isLast ? 'finish' : ''}" id="btnNext" onclick="goNext()">
+        ${isLast ? 'Ver mi diagnóstico →' : 'Siguiente dimensión →'}
+      </button>
+    </div>
+  `;
+
+  updateProgress();
+}
+
+function handleAnswer(dimId, qi, value) {
+  const key = `${dimId}_${qi}`;
+  answers[key] = value;
+  // Mark card as answered
+  const card = document.getElementById(`qcard_${dimId}_${qi}`);
+  if (card) card.classList.add('answered');
+  // Hide validation
+  const v = document.getElementById('diagValidation');
+  if (v) v.style.display = 'none';
+}
+
+function goNext() {
+  const dim = DIMENSIONS[currentStep];
+  // Validate all answered
+  for (let qi = 0; qi < dim.questions.length; qi++) {
+    const key = `${dim.id}_${qi}`;
+    if (answers[key] === undefined) {
+      document.getElementById('diagValidation').style.display = 'block';
+      // Scroll to first unanswered
+      document.getElementById(`qcard_${dim.id}_${qi}`).scrollIntoView({ behavior: 'smooth', block: 'center' });
+      return;
+    }
+  }
+
+  if (currentStep < DIMENSIONS.length - 1) {
+    currentStep++;
+    renderStep();
+    window.scrollTo({ top: 0, behavior: 'smooth' });
+  } else {
+    showResults();
+  }
+}
+
+function goBack() {
+  if (currentStep > 0) {
+    currentStep--;
+    renderStep();
+    window.scrollTo({ top: 0, behavior: 'smooth' });
+  }
+}
+
+function updateProgress() {
+  const pct = Math.round((currentStep / DIMENSIONS.length) * 100);
+  document.getElementById('progressFill').style.width = pct + '%';
+  document.getElementById('progressPct').textContent = pct + '%';
+  document.getElementById('progressLabel').textContent = `Dimensión ${currentStep + 1} de ${DIMENSIONS.length}`;
+
+  // Dots
+  let dotsHtml = '';
+  DIMENSIONS.forEach((_, i) => {
+    let cls = '';
+    if (i < currentStep) cls = 'done';
+    else if (i === currentStep) cls = 'active';
+    dotsHtml += `<div class="diag-dot ${cls}" title="${DIMENSIONS[i].name}"></div>`;
+  });
+  document.getElementById('stepsDots').innerHTML = dotsHtml;
+}
+
+// ============================================================
+// RESULTS
+// ============================================================
+
+function showResults() {
+  document.getElementById('diagQuiz').style.display = 'none';
+  document.getElementById('diagProgress').style.display = 'none';
+
+  // Calculate scores
+  const dimScores = DIMENSIONS.map(dim => {
+    let score = 0;
+    dim.questions.forEach((_, qi) => {
+      const key = `${dim.id}_${qi}`;
+      score += (answers[key] || 0);
+    });
+    return { id: dim.id, name: dim.name, icon: dim.icon, score, max: dim.questions.length * 2 };
+  });
+
+  const totalScore = dimScores.reduce((s, d) => s + d.score, 0);
+  const level = LEVELS.find(l => totalScore >= l.min && totalScore <= l.max) || LEVELS[0];
+  const rec = RECOMMENDATIONS.find(r => r.level === level.level);
+
+  // Semáforo cells
+  const semHtml = dimScores.map(d => {
+    const ratio = d.score / d.max;
+    let cls = ratio >= 0.75 ? 'green' : ratio >= 0.5 ? 'yellow' : 'red';
+    let icon = cls === 'green' ? '●' : cls === 'yellow' ? '◐' : '○';
+    let label = cls === 'green' ? 'Consolidado' : cls === 'yellow' ? 'En progreso' : 'Prioritario';
+    return `
+      <div class="diag-sem-cell ${cls}">
+        <span class="diag-sem-icon">${icon}</span>
+        <div class="diag-sem-name">${d.icon} ${d.name}</div>
+        <div class="diag-sem-score">${d.score}/${d.max}</div>
+        <div class="diag-sem-label">${label}</div>
+      </div>
+    `;
+  }).join('');
+
+  const resultsEl = document.getElementById('diagResults');
+  resultsEl.style.display = 'block';
+  resultsEl.innerHTML = `
+    <div class="diag-results-header">
+      <div class="diag-results-badge">✓ Diagnóstico completado</div>
+      <h2>Su nivel de madurez de impacto</h2>
+      <p class="diag-results-sub">Basado en 15 preguntas en 5 dimensiones del sistema iMEL®</p>
+    </div>
+
+    <div class="diag-level-card">
+      <div class="diag-level-num" style="color:${level.color}">${level.level}</div>
+      <div class="diag-level-name">${level.name}</div>
+      <div class="diag-level-desc">${level.desc}</div>
+      <div class="diag-score-total">Puntaje total: <strong>${totalScore} / 30 pts</strong></div>
+    </div>
+
+    <div class="diag-semaforo">
+      <h3>Semáforo de madurez por dimensión</h3>
+      <div class="diag-sem-grid">${semHtml}</div>
+    </div>
+
+    <div class="diag-rec">
+      <div class="diag-rec-label">Recomendación para ${level.level}</div>
+      <div class="diag-rec-title">${rec.title}</div>
+      <div class="diag-rec-desc">${rec.desc}</div>
+      <div class="diag-rec-services">
+        ${rec.services.map(s => `<span class="diag-rec-tag">${s}</span>`).join('')}
+      </div>
+    </div>
+
+    <div class="diag-cta-block">
+      <div class="diag-cta-title">Convierta este diagnóstico en un plan concreto</div>
+      <div class="diag-cta-sub">Agende una sesión gratuita de 30 minutos para revisar sus resultados y diseñar el camino a seguir.</div>
+      <div class="diag-cta-actions">
+        <a href="herramientas.html" class="diag-cta-primary">Agendar sesión gratuita →</a>
+        <a href="metodologia.html" class="diag-cta-secondary">Conocer iMEL®</a>
+      </div>
+    </div>
+
+    <div style="text-align:center; margin-top:2rem; padding-bottom:2rem;">
+      <button onclick="restartDiag()" style="background:transparent; border:none; color:#475569; font-size:0.85rem; cursor:pointer; text-decoration:underline;">
+        Reiniciar diagnóstico
+      </button>
+    </div>
+  `;
+
+  window.scrollTo({ top: 0, behavior: 'smooth' });
+}
+
+function restartDiag() {
+  document.getElementById('diagResults').style.display = 'none';
+  document.getElementById('diagResults').innerHTML = '';
+  document.getElementById('diagStart').style.display = 'block';
+  answers = {};
+  currentStep = 0;
+  window.scrollTo({ top: 0, behavior: 'smooth' });
+}
+</script>
+
+
+
+</main> <!-- /main -->
+<script id="quarto-html-after-body" type="application/javascript">
+  window.document.addEventListener("DOMContentLoaded", function (event) {
+    const icon = "";
+    const anchorJS = new window.AnchorJS();
+    anchorJS.options = {
+      placement: 'right',
+      icon: icon
+    };
+    anchorJS.add('.anchored');
+    const isCodeAnnotation = (el) => {
+      for (const clz of el.classList) {
+        if (clz.startsWith('code-annotation-')) {                     
+          return true;
+        }
+      }
+      return false;
+    }
+    const onCopySuccess = function(e) {
+      // button target
+      const button = e.trigger;
+      // don't keep focus
+      button.blur();
+      // flash "checked"
+      button.classList.add('code-copy-button-checked');
+      var currentTitle = button.getAttribute("title");
+      button.setAttribute("title", "Copied!");
+      let tooltip;
+      if (window.bootstrap) {
+        button.setAttribute("data-bs-toggle", "tooltip");
+        button.setAttribute("data-bs-placement", "left");
+        button.setAttribute("data-bs-title", "Copied!");
+        tooltip = new bootstrap.Tooltip(button, 
+          { trigger: "manual", 
+            customClass: "code-copy-button-tooltip",
+            offset: [0, -8]});
+        tooltip.show();    
+      }
+      setTimeout(function() {
+        if (tooltip) {
+          tooltip.hide();
+          button.removeAttribute("data-bs-title");
+          button.removeAttribute("data-bs-toggle");
+          button.removeAttribute("data-bs-placement");
+        }
+        button.setAttribute("title", currentTitle);
+        button.classList.remove('code-copy-button-checked');
+      }, 1000);
+      // clear code selection
+      e.clearSelection();
+    }
+    const getTextToCopy = function(trigger) {
+        const codeEl = trigger.previousElementSibling.cloneNode(true);
+        for (const childEl of codeEl.children) {
+          if (isCodeAnnotation(childEl)) {
+            childEl.remove();
+          }
+        }
+        return codeEl.innerText;
+    }
+    const clipboard = new window.ClipboardJS('.code-copy-button:not([data-in-quarto-modal])', {
+      text: getTextToCopy
+    });
+    clipboard.on('success', onCopySuccess);
+    if (window.document.getElementById('quarto-embedded-source-code-modal')) {
+      const clipboardModal = new window.ClipboardJS('.code-copy-button[data-in-quarto-modal]', {
+        text: getTextToCopy,
+        container: window.document.getElementById('quarto-embedded-source-code-modal')
+      });
+      clipboardModal.on('success', onCopySuccess);
+    }
+      var localhostRegex = new RegExp(/^(?:http|https):\/\/localhost\:?[0-9]*\//);
+      var mailtoRegex = new RegExp(/^mailto:/);
+        var filterRegex = new RegExp('/' + window.location.host + '/');
+      var isInternal = (href) => {
+          return filterRegex.test(href) || localhostRegex.test(href) || mailtoRegex.test(href);
+      }
+      // Inspect non-navigation links and adorn them if external
+     var links = window.document.querySelectorAll('a[href]:not(.nav-link):not(.navbar-brand):not(.toc-action):not(.sidebar-link):not(.sidebar-item-toggle):not(.pagination-link):not(.no-external):not([aria-hidden]):not(.dropdown-item):not(.quarto-navigation-tool):not(.about-link)');
+      for (var i=0; i<links.length; i++) {
+        const link = links[i];
+        if (!isInternal(link.href)) {
+          // undo the damage that might have been done by quarto-nav.js in the case of
+          // links that we want to consider external
+          if (link.dataset.originalHref !== undefined) {
+            link.href = link.dataset.originalHref;
+          }
+        }
+      }
+    function tippyHover(el, contentFn, onTriggerFn, onUntriggerFn) {
+      const config = {
+        allowHTML: true,
+        maxWidth: 500,
+        delay: 100,
+        arrow: false,
+        appendTo: function(el) {
+            return el.parentElement;
+        },
+        interactive: true,
+        interactiveBorder: 10,
+        theme: 'quarto',
+        placement: 'bottom-start',
+      };
+      if (contentFn) {
+        config.content = contentFn;
+      }
+      if (onTriggerFn) {
+        config.onTrigger = onTriggerFn;
+      }
+      if (onUntriggerFn) {
+        config.onUntrigger = onUntriggerFn;
+      }
+      window.tippy(el, config); 
+    }
+    const noterefs = window.document.querySelectorAll('a[role="doc-noteref"]');
+    for (var i=0; i<noterefs.length; i++) {
+      const ref = noterefs[i];
+      tippyHover(ref, function() {
+        // use id or data attribute instead here
+        let href = ref.getAttribute('data-footnote-href') || ref.getAttribute('href');
+        try { href = new URL(href).hash; } catch {}
+        const id = href.replace(/^#\/?/, "");
+        const note = window.document.getElementById(id);
+        if (note) {
+          return note.innerHTML;
+        } else {
+          return "";
+        }
+      });
+    }
+    const xrefs = window.document.querySelectorAll('a.quarto-xref');
+    const processXRef = (id, note) => {
+      // Strip column container classes
+      const stripColumnClz = (el) => {
+        el.classList.remove("page-full", "page-columns");
+        if (el.children) {
+          for (const child of el.children) {
+            stripColumnClz(child);
+          }
+        }
+      }
+      stripColumnClz(note)
+      if (id === null || id.startsWith('sec-')) {
+        // Special case sections, only their first couple elements
+        const container = document.createElement("div");
+        if (note.children && note.children.length > 2) {
+          container.appendChild(note.children[0].cloneNode(true));
+          for (let i = 1; i < note.children.length; i++) {
+            const child = note.children[i];
+            if (child.tagName === "P" && child.innerText === "") {
+              continue;
+            } else {
+              container.appendChild(child.cloneNode(true));
+              break;
+            }
+          }
+          if (window.Quarto?.typesetMath) {
+            window.Quarto.typesetMath(container);
+          }
+          return container.innerHTML
+        } else {
+          if (window.Quarto?.typesetMath) {
+            window.Quarto.typesetMath(note);
+          }
+          return note.innerHTML;
+        }
+      } else {
+        // Remove any anchor links if they are present
+        const anchorLink = note.querySelector('a.anchorjs-link');
+        if (anchorLink) {
+          anchorLink.remove();
+        }
+        if (window.Quarto?.typesetMath) {
+          window.Quarto.typesetMath(note);
+        }
+        if (note.classList.contains("callout")) {
+          return note.outerHTML;
+        } else {
+          return note.innerHTML;
+        }
+      }
+    }
+    for (var i=0; i<xrefs.length; i++) {
+      const xref = xrefs[i];
+      tippyHover(xref, undefined, function(instance) {
+        instance.disable();
+        let url = xref.getAttribute('href');
+        let hash = undefined; 
+        if (url.startsWith('#')) {
+          hash = url;
+        } else {
+          try { hash = new URL(url).hash; } catch {}
+        }
+        if (hash) {
+          const id = hash.replace(/^#\/?/, "");
+          const note = window.document.getElementById(id);
+          if (note !== null) {
+            try {
+              const html = processXRef(id, note.cloneNode(true));
+              instance.setContent(html);
+            } finally {
+              instance.enable();
+              instance.show();
+            }
+          } else {
+            // See if we can fetch this
+            fetch(url.split('#')[0])
+            .then(res => res.text())
+            .then(html => {
+              const parser = new DOMParser();
+              const htmlDoc = parser.parseFromString(html, "text/html");
+              const note = htmlDoc.getElementById(id);
+              if (note !== null) {
+                const html = processXRef(id, note);
+                instance.setContent(html);
+              } 
+            }).finally(() => {
+              instance.enable();
+              instance.show();
+            });
+          }
+        } else {
+          // See if we can fetch a full url (with no hash to target)
+          // This is a special case and we should probably do some content thinning / targeting
+          fetch(url)
+          .then(res => res.text())
+          .then(html => {
+            const parser = new DOMParser();
+            const htmlDoc = parser.parseFromString(html, "text/html");
+            const note = htmlDoc.querySelector('main.content');
+            if (note !== null) {
+              // This should only happen for chapter cross references
+              // (since there is no id in the URL)
+              // remove the first header
+              if (note.children.length > 0 && note.children[0].tagName === "HEADER") {
+                note.children[0].remove();
+              }
+              const html = processXRef(null, note);
+              instance.setContent(html);
+            } 
+          }).finally(() => {
+            instance.enable();
+            instance.show();
+          });
+        }
+      }, function(instance) {
+      });
+    }
+        let selectedAnnoteEl;
+        const selectorForAnnotation = ( cell, annotation) => {
+          let cellAttr = 'data-code-cell="' + cell + '"';
+          let lineAttr = 'data-code-annotation="' +  annotation + '"';
+          const selector = 'span[' + cellAttr + '][' + lineAttr + ']';
+          return selector;
+        }
+        const selectCodeLines = (annoteEl) => {
+          const doc = window.document;
+          const targetCell = annoteEl.getAttribute("data-target-cell");
+          const targetAnnotation = annoteEl.getAttribute("data-target-annotation");
+          const annoteSpan = window.document.querySelector(selectorForAnnotation(targetCell, targetAnnotation));
+          const lines = annoteSpan.getAttribute("data-code-lines").split(",");
+          const lineIds = lines.map((line) => {
+            return targetCell + "-" + line;
+          })
+          let top = null;
+          let height = null;
+          let parent = null;
+          if (lineIds.length > 0) {
+              //compute the position of the single el (top and bottom and make a div)
+              const el = window.document.getElementById(lineIds[0]);
+              top = el.offsetTop;
+              height = el.offsetHeight;
+              parent = el.parentElement.parentElement;
+            if (lineIds.length > 1) {
+              const lastEl = window.document.getElementById(lineIds[lineIds.length - 1]);
+              const bottom = lastEl.offsetTop + lastEl.offsetHeight;
+              height = bottom - top;
+            }
+            if (top !== null && height !== null && parent !== null) {
+              // cook up a div (if necessary) and position it 
+              let div = window.document.getElementById("code-annotation-line-highlight");
+              if (div === null) {
+                div = window.document.createElement("div");
+                div.setAttribute("id", "code-annotation-line-highlight");
+                div.style.position = 'absolute';
+                parent.appendChild(div);
+              }
+              div.style.top = top - 2 + "px";
+              div.style.height = height + 4 + "px";
+              div.style.left = 0;
+              let gutterDiv = window.document.getElementById("code-annotation-line-highlight-gutter");
+              if (gutterDiv === null) {
+                gutterDiv = window.document.createElement("div");
+                gutterDiv.setAttribute("id", "code-annotation-line-highlight-gutter");
+                gutterDiv.style.position = 'absolute';
+                const codeCell = window.document.getElementById(targetCell);
+                const gutter = codeCell.querySelector('.code-annotation-gutter');
+                gutter.appendChild(gutterDiv);
+              }
+              gutterDiv.style.top = top - 2 + "px";
+              gutterDiv.style.height = height + 4 + "px";
+            }
+            selectedAnnoteEl = annoteEl;
+          }
+        };
+        const unselectCodeLines = () => {
+          const elementsIds = ["code-annotation-line-highlight", "code-annotation-line-highlight-gutter"];
+          elementsIds.forEach((elId) => {
+            const div = window.document.getElementById(elId);
+            if (div) {
+              div.remove();
+            }
+          });
+          selectedAnnoteEl = undefined;
+        };
+          // Handle positioning of the toggle
+      window.addEventListener(
+        "resize",
+        throttle(() => {
+          elRect = undefined;
+          if (selectedAnnoteEl) {
+            selectCodeLines(selectedAnnoteEl);
+          }
+        }, 10)
+      );
+      function throttle(fn, ms) {
+      let throttle = false;
+      let timer;
+        return (...args) => {
+          if(!throttle) { // first call gets through
+              fn.apply(this, args);
+              throttle = true;
+          } else { // all the others get throttled
+              if(timer) clearTimeout(timer); // cancel #2
+              timer = setTimeout(() => {
+                fn.apply(this, args);
+                timer = throttle = false;
+              }, ms);
+          }
+        };
+      }
+        // Attach click handler to the DT
+        const annoteDls = window.document.querySelectorAll('dt[data-target-cell]');
+        for (const annoteDlNode of annoteDls) {
+          annoteDlNode.addEventListener('click', (event) => {
+            const clickedEl = event.target;
+            if (clickedEl !== selectedAnnoteEl) {
+              unselectCodeLines();
+              const activeEl = window.document.querySelector('dt[data-target-cell].code-annotation-active');
+              if (activeEl) {
+                activeEl.classList.remove('code-annotation-active');
+              }
+              selectCodeLines(clickedEl);
+              clickedEl.classList.add('code-annotation-active');
+            } else {
+              // Unselect the line
+              unselectCodeLines();
+              clickedEl.classList.remove('code-annotation-active');
+            }
+          });
+        }
+    const findCites = (el) => {
+      const parentEl = el.parentElement;
+      if (parentEl) {
+        const cites = parentEl.dataset.cites;
+        if (cites) {
+          return {
+            el,
+            cites: cites.split(' ')
+          };
+        } else {
+          return findCites(el.parentElement)
+        }
+      } else {
+        return undefined;
+      }
+    };
+    var bibliorefs = window.document.querySelectorAll('a[role="doc-biblioref"]');
+    for (var i=0; i<bibliorefs.length; i++) {
+      const ref = bibliorefs[i];
+      const citeInfo = findCites(ref);
+      if (citeInfo) {
+        tippyHover(citeInfo.el, function() {
+          var popup = window.document.createElement('div');
+          citeInfo.cites.forEach(function(cite) {
+            var citeDiv = window.document.createElement('div');
+            citeDiv.classList.add('hanging-indent');
+            citeDiv.classList.add('csl-entry');
+            var biblioDiv = window.document.getElementById('ref-' + cite);
+            if (biblioDiv) {
+              citeDiv.innerHTML = biblioDiv.innerHTML;
+            }
+            popup.appendChild(citeDiv);
+          });
+          return popup.innerHTML;
+        });
+      }
+    }
+  });
+  </script>
+</div> <!-- /content -->
+<footer class="footer">
+  <div class="nav-footer">
+    <div class="nav-footer-left">
+<p>Centro Valor Público · Universidad EAFIT</p>
+</div>   
+    <div class="nav-footer-center">
+<p>Valor·IA — CVP EAFIT · Midiendo lo que importa</p>
+</div>
+    <div class="nav-footer-right">
+<p>© 2026</p>
+</div>
+  </div>
+</footer>
+
+
+
+
+<script src="site_libs/quarto-html/zenscroll-min.js"></script>
+</body></html>

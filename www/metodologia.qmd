@@ -66,7 +66,7 @@ toc: false
 <div class="madur-entry-note">
   <span>&#9654;</span>
   <span>¿No sabe en qué dimensión está su programa?
-  <a href="herramientas.html" style="color:#0D9488;font-weight:700;">Diagnóstico gratuito en 30 min →</a></span>
+  <a href="diagnostico.html" style="color:#0D9488;font-weight:700;">Diagnóstico gratuito en 30 min →</a></span>
 </div>
 
 <!-- Leyenda semáforo -->

@@ -48,6 +48,8 @@ website:
           - text: "Indicadores"
           - text: "Banco de Indicadores — 105 indicadores P/R/I"
             href: indicadores.qmd
+      - href: diagnostico.qmd
+        text: "Diagnóstico"
       - href: aplicaciones.qmd
         text: Aplicaciones
       - href: equipo.qmd
