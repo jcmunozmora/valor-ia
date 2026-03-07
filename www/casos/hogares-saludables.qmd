@@ -140,7 +140,91 @@ toc: false
 .conclusion-label { font-size: 0.65rem; font-weight: 700; text-transform: uppercase; letter-spacing: 0.1em; color: #5EEAD4; margin-bottom: 0.4rem; }
 .conclusion-value { font-size: 1.5rem; font-weight: 900; color: white; letter-spacing: -0.03em; }
 .conclusion-sub { font-size: 0.76rem; color: #94A3B8; margin-top: 0.2rem; }
+
+/* ── Reel / Testimonios ───────────────────────────── */
+.hs-reel-wrap {
+  display: grid;
+  grid-template-columns: auto 1fr;
+  gap: 2.5rem;
+  align-items: start;
+  margin-top: 1rem;
+}
+@media (max-width: 800px) {
+  .hs-reel-wrap { grid-template-columns: 1fr; }
+  .hs-reel-container { display: flex; justify-content: center; }
+}
+.hs-reel-container { flex-shrink: 0; }
+.hs-reel-badge {
+  display: inline-flex;
+  align-items: center;
+  gap: 0.4rem;
+  background: #F0FDF4;
+  border: 1px solid #BBF7D0;
+  color: #065F46;
+  font-size: 0.72rem;
+  font-weight: 700;
+  letter-spacing: 0.07em;
+  text-transform: uppercase;
+  padding: 0.25rem 0.75rem;
+  border-radius: 2rem;
+  margin-bottom: 0.85rem;
+}
+.hs-reel-title {
+  font-size: 1.15rem;
+  font-weight: 800;
+  color: #0F172A;
+  margin-bottom: 0.5rem;
+  letter-spacing: -0.02em;
+}
+.hs-reel-desc {
+  color: #475569;
+  font-size: 0.9rem;
+  line-height: 1.7;
+  margin-bottom: 1.5rem;
+}
+.hs-reel-stats {
+  display: flex;
+  gap: 1.5rem;
+  flex-wrap: wrap;
+  margin-bottom: 1.5rem;
+  padding: 1rem 1.25rem;
+  background: #F8FAFC;
+  border: 1px solid #E2E8F0;
+  border-radius: 0.65rem;
+}
+.hs-reel-stat { text-align: center; }
+.hs-reel-stat-num {
+  display: block;
+  font-size: 1.4rem;
+  font-weight: 900;
+  color: #0D9488;
+  line-height: 1;
+  margin-bottom: 0.25rem;
+}
+.hs-reel-stat-label {
+  font-size: 0.72rem;
+  color: #64748B;
+  font-weight: 500;
+}
+.hs-reel-link {
+  display: inline-block;
+  background: transparent;
+  border: 1.5px solid #0D9488;
+  color: #0D9488 !important;
+  font-size: 0.85rem;
+  font-weight: 600;
+  padding: 0.55rem 1.25rem;
+  border-radius: 0.5rem;
+  text-decoration: none !important;
+  transition: all 0.2s;
+}
+.hs-reel-link:hover {
+  background: #0D9488;
+  color: white !important;
+}
 </style>
+
+<script async src="//www.instagram.com/embed.js"></script>
 
 <!-- BACK NAV -->
 <div style="background: #0F172A; padding: 0.9rem 2rem; border-bottom: 1px solid rgba(255,255,255,0.07);">
@@ -667,6 +751,57 @@ toc: false
 </div>
 
 <!-- SECCION: CONCLUSIONES -->
+<!-- TESTIMONIOS -->
+<div class="content-section">
+<div class="content-inner">
+<span class="section-label">Voces del programa</span>
+<h2 class="section-heading">Los datos cuentan el impacto. Las familias lo viven.</h2>
+<p style="color:#475569;font-size:0.95rem;line-height:1.7;max-width:680px;margin-bottom:2rem;">
+  El RCT establece la causalidad con rigor estadístico. Pero detrás de cada punto porcentual
+  hay una familia real. Estos testimonios documentan el cambio desde adentro.
+</p>
+
+<div class="hs-reel-wrap">
+  <div class="hs-reel-container">
+    <blockquote
+      class="instagram-media"
+      data-instgrm-captioned
+      data-instgrm-permalink="https://www.instagram.com/reel/DOL8_xnjbQo/"
+      data-instgrm-version="14"
+      style="background:#FFF;border:0;border-radius:3px;box-shadow:0 0 1px 0 rgba(0,0,0,0.5),0 1px 10px 0 rgba(0,0,0,0.15);margin:0;max-width:540px;min-width:326px;padding:0;width:100%;">
+    </blockquote>
+  </div>
+  <div class="hs-reel-context">
+    <div class="hs-reel-badge">Testimonio verificado</div>
+    <div class="hs-reel-title">Hogares Saludables · Cementos Argos</div>
+    <p class="hs-reel-desc">
+      Familias participantes del programa en Barranquilla, Bogotá y Medellín describen
+      los cambios en su vida cotidiana — salud, seguridad, bienestar y autoestima —
+      tras la intervención de mejoramiento habitacional.
+    </p>
+    <div class="hs-reel-stats">
+      <div class="hs-reel-stat">
+        <span class="hs-reel-stat-num">1,163</span>
+        <span class="hs-reel-stat-label">hogares en el estudio</span>
+      </div>
+      <div class="hs-reel-stat">
+        <span class="hs-reel-stat-num">3</span>
+        <span class="hs-reel-stat-label">ciudades colombianas</span>
+      </div>
+      <div class="hs-reel-stat">
+        <span class="hs-reel-stat-num">6</span>
+        <span class="hs-reel-stat-label">efectos causales confirmados</span>
+      </div>
+    </div>
+    <a href="https://www.instagram.com/reel/DOL8_xnjbQo/" target="_blank" rel="noopener" class="hs-reel-link">
+      Ver en Instagram →
+    </a>
+  </div>
+</div>
+
+</div>
+</div>
+
 <div class="content-section dark">
 <div class="content-inner">
 <span class="section-label">Conclusion</span>
