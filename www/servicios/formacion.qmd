@@ -300,8 +300,74 @@ page-layout: full
 }
 .rf-cta-btn:hover { background: #0F766E !important; }
 
+/* ── Enfoque pedagógico ─────────────────────────────────────────── */
+.enf-grid {
+  display: grid; grid-template-columns: repeat(3, 1fr);
+  gap: 1.1rem; margin: 1.75rem 0;
+}
+.enf-card {
+  background: white; border: 1px solid #E2E8F0; border-radius: 1rem;
+  padding: 1.5rem; position: relative; overflow: hidden;
+  transition: box-shadow 0.2s;
+}
+.enf-card:hover { box-shadow: 0 6px 24px rgba(0,0,0,0.07); }
+.enf-card::before {
+  content: ''; position: absolute; top: 0; left: 0; right: 0;
+  height: 3px; border-radius: 3px 3px 0 0;
+}
+.enf-card:nth-child(1)::before { background: linear-gradient(to right, #0D9488, #3B82F6); }
+.enf-card:nth-child(2)::before { background: linear-gradient(to right, #3B82F6, #8B5CF6); }
+.enf-card:nth-child(3)::before { background: linear-gradient(to right, #8B5CF6, #EC4899); }
+.enf-card:nth-child(4)::before { background: linear-gradient(to right, #EC4899, #F59E0B); }
+.enf-card:nth-child(5)::before { background: linear-gradient(to right, #F59E0B, #0D9488); }
+.enf-card:nth-child(6)::before { background: linear-gradient(to right, #0D9488, #0D9488); }
+.enf-icon {
+  width: 2.75rem; height: 2.75rem; border-radius: 0.625rem;
+  display: flex; align-items: center; justify-content: center;
+  font-size: 1.1rem; margin-bottom: 0.85rem;
+}
+.enf-name {
+  font-size: 0.925rem; font-weight: 800; color: #0F172A;
+  margin-bottom: 0.4rem; line-height: 1.3;
+}
+.enf-desc {
+  font-size: 0.82rem; color: #475569; line-height: 1.65;
+}
+.enf-deliverable {
+  margin-top: 0.85rem; padding-top: 0.75rem;
+  border-top: 1px solid #F1F5F9;
+  font-size: 0.72rem; font-weight: 700; color: #0D9488;
+  display: flex; align-items: flex-start; gap: 0.4rem;
+}
+.enf-deliverable::before {
+  content: '↗'; font-size: 0.8rem; flex-shrink: 0; margin-top: 0.05rem;
+}
+
+/* Frase central del enfoque */
+.enf-quote {
+  background: #0F172A; border-radius: 1rem; padding: 2.25rem 2.5rem;
+  display: flex; align-items: flex-start; gap: 2rem; flex-wrap: wrap;
+  margin: 2rem 0 0;
+}
+.enf-quote-icon {
+  font-size: 3rem; line-height: 1; color: #5EEAD4; flex-shrink: 0;
+  opacity: 0.6; font-family: Georgia, serif;
+}
+.enf-quote-body { flex: 1; min-width: 240px; }
+.enf-quote-text {
+  font-size: 1.05rem; font-style: italic; color: rgba(255,255,255,0.88);
+  line-height: 1.65; margin-bottom: 0.6rem;
+}
+.enf-quote-text strong { color: #5EEAD4; font-style: normal; }
+.enf-quote-attr {
+  font-size: 0.75rem; color: #64748B; font-weight: 600;
+  text-transform: uppercase; letter-spacing: 0.08em;
+}
+
 /* ── Responsive ─────────────────────────────────────────────────── */
 @media (max-width: 800px) {
+  .enf-grid { grid-template-columns: 1fr 1fr; }
+}
   .modulo-body  { grid-template-columns: 1fr; }
   .modulo-col:first-child { border-right: none; border-bottom: 1px solid #F1F5F9; }
   .rf-hero-stats { gap: 0; }
@@ -428,9 +494,110 @@ page-layout: full
 </div>
 
 <!-- ================================================================
-     MÓDULOS DETALLE
+     ENFOQUE PEDAGÓGICO
      ================================================================ -->
 <div class="rf-section">
+<div class="rf-inner">
+
+<span class="rf-label">Nuestra pedagogía</span>
+<h2 class="rf-heading">Formación experiencial centrada en sus desafíos reales</h2>
+<p class="rf-subhead">
+  No enseñamos metodologías en abstracto. Construimos cada módulo sobre los problemas, programas
+  y datos de su organización. El resultado no es conocimiento teórico — son capacidades instaladas
+  y productos concretos que mejoran sus prácticas desde el primer día.
+</p>
+
+<div class="enf-grid">
+
+  <div class="enf-card">
+    <div class="enf-icon" style="background:#F0FDFA; color:#0D9488;">🎯</div>
+    <div class="enf-name">Aprendizaje basado en problemas reales</div>
+    <div class="enf-desc">
+      Cada módulo parte de un desafío concreto de su organización: "¿cómo demostramos que nuestro
+      programa de empleabilidad genera impacto?" Las metodologías son el medio, no el fin.
+      Los casos hipotéticos son el último recurso.
+    </div>
+    <div class="enf-deliverable">Entregable: diagnóstico metodológico de su programa al iniciar</div>
+  </div>
+
+  <div class="enf-card">
+    <div class="enf-icon" style="background:#EFF6FF; color:#3B82F6;">⚙️</div>
+    <div class="enf-name">Construcción activa, no recepción pasiva</div>
+    <div class="enf-desc">
+      El equipo construye durante la sesión — no observa. Teorías del Cambio, Value Maps,
+      diseños de evaluación, informes SROI. Cada herramienta se aprende usándola
+      con datos reales, con retroalimentación experta en tiempo real.
+    </div>
+    <div class="enf-deliverable">Entregable: producto funcional al cierre de cada módulo</div>
+  </div>
+
+  <div class="enf-card">
+    <div class="enf-icon" style="background:#F5F3FF; color:#8B5CF6;">🏗️</div>
+    <div class="enf-name">Transferencia de capacidades, no dependencia</div>
+    <div class="enf-desc">
+      El objetivo explícito es que al terminar, su equipo pueda ejecutar los análisis de forma
+      autónoma. No entrenamos para que vuelvan a contratarnos — entrenamos para que no necesiten
+      hacerlo. La autonomía metodológica es el indicador de éxito del programa.
+    </div>
+    <div class="enf-deliverable">Entregable: protocolo interno de medición documentado</div>
+  </div>
+
+  <div class="enf-card">
+    <div class="enf-icon" style="background:#FDF2F8; color:#EC4899;">🔄</div>
+    <div class="enf-name">Ciclos de retroalimentación y revisión entre pares</div>
+    <div class="enf-desc">
+      Los productos de cada participante son revisados por el grupo y por el instructor.
+      El error es parte del proceso — cada corrección sobre trabajo propio genera
+      aprendizaje más profundo que cualquier explicación teórica.
+      Usamos protocolos de crítica constructiva internacionales (Tuning Protocol, ATLAS).
+    </div>
+    <div class="enf-deliverable">Entregable: evaluación de pares documentada por módulo</div>
+  </div>
+
+  <div class="enf-card">
+    <div class="enf-icon" style="background:#FFFBEB; color:#D97706;">🤝</div>
+    <div class="enf-name">Co-diseño del programa con la organización</div>
+    <div class="enf-desc">
+      Antes de iniciar, mapeamos el portafolio de programas, el nivel de madurez metodológica
+      del equipo y los objetivos estratégicos de la organización. El programa se adapta —
+      el contenido, los casos, los entregables y el ritmo se diseñan para su contexto específico.
+    </div>
+    <div class="enf-deliverable">Entregable: mapa de madurez iMEL® al inicio del programa</div>
+  </div>
+
+  <div class="enf-card">
+    <div class="enf-icon" style="background:#F0FDF4; color:#059669;">📦</div>
+    <div class="enf-name">Productos que permanecen en la organización</div>
+    <div class="enf-desc">
+      Al terminar cada módulo, la organización tiene un producto real: una ToC revisada,
+      un Value Map funcional, un informe SROI borrador, un protocolo de indicadores.
+      No quedan solo presentaciones — quedan herramientas operativas que el equipo
+      utiliza en su trabajo cotidiano desde el día siguiente.
+    </div>
+    <div class="enf-deliverable">Entregable: portafolio de 7 productos al cierre de la ruta</div>
+  </div>
+
+</div>
+
+<div class="enf-quote">
+  <div class="enf-quote-icon">"</div>
+  <div class="enf-quote-body">
+    <div class="enf-quote-text">
+      El conocimiento que no se usa en la práctica no genera valor. Por eso cada sesión está diseñada
+      para que el equipo salga con <strong>algo que puede implementar mañana</strong> — no la semana que viene
+      cuando "procesen" lo aprendido. La velocidad de aplicación es parte del diseño pedagógico.
+    </div>
+    <div class="enf-quote-attr">Principio pedagógico del programa · Centro Valor Público EAFIT</div>
+  </div>
+</div>
+
+</div>
+</div>
+
+<!-- ================================================================
+     MÓDULOS DETALLE
+     ================================================================ -->
+<div class="rf-section alt">
 <div class="rf-inner">
 
 <span class="rf-label">Contenido detallado</span>
