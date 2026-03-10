@@ -18,8 +18,15 @@ website:
         text: "Metodología iMEL®"
       - href: ciencia.qmd
         text: "Evidencia"
-      - href: herramientas.qmd
-        text: "Servicios"
+      - text: "Servicios"
+        menu:
+          - text: "Todos los servicios"
+            href: herramientas.qmd
+          - text: "---"
+          - text: "Formación en Valor Social"
+            href: servicios/formacion.qmd
+          - text: "Medición y Valoración de Impacto"
+            href: servicios/medicion.qmd
       - text: "Herramientas"
         menu:
           - text: "Caja de herramientas — Índice"

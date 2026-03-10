@@ -1,0 +1,666 @@
+---
+title: "Medición y Valoración de Impacto"
+description: "Acompañamiento completo para convertir su programa social en evidencia verificable con ratio SROI — Centro Valor Público, EAFIT."
+toc: false
+---
+
+```{=html}
+<!-- ============================================================
+     HERO
+     ============================================================ -->
+<div class="med-hero">
+  <div class="med-hero-content">
+    <div class="med-hero-label">Servicio 02 &middot; Centro Valor Público EAFIT</div>
+    <div class="med-hero-badges">
+      <span class="med-badge med-badge--svi">&#10003; SVI Certified</span>
+      <span class="med-badge med-badge--method">6 Etapas SVI &middot; 8 Principios</span>
+    </div>
+    <h1 class="med-hero-title">
+      Medición y Valoración<br>
+      <span class="med-hero-hl">de Impacto Social</span>
+    </h1>
+    <p class="med-hero-lead">
+      Diseñamos e implementamos el análisis correcto para su programa — desde el Impact Map hasta el ratio SROI verificable.
+      Seleccionamos el método según sus datos, su audiencia y el uso que dará al resultado.
+    </p>
+    <div class="med-hero-stats">
+      <div class="med-stat"><div class="med-stat-num">383</div><div class="med-stat-label">Reportes SVI<br>de referencia</div></div>
+      <div class="med-stat-div"></div>
+      <div class="med-stat"><div class="med-stat-num">4.35×</div><div class="med-stat-label">Ratio SROI<br>mediano global</div></div>
+      <div class="med-stat-div"></div>
+      <div class="med-stat"><div class="med-stat-num">6</div><div class="med-stat-label">Métodos de<br>valoración</div></div>
+      <div class="med-stat-div"></div>
+      <div class="med-stat"><div class="med-stat-num">48</div><div class="med-stat-label">Criterios SVI<br>de aseguramiento</div></div>
+    </div>
+    <div class="med-hero-actions">
+      <a href="../diagnostico.html" class="med-btn med-btn--primary">Diagnóstico gratuito &rarr;</a>
+      <a href="../herramientas.html" class="med-btn med-btn--ghost">Ver todos los servicios</a>
+    </div>
+  </div>
+</div>
+
+<!-- ============================================================
+     POR QUÉ MEDIR
+     ============================================================ -->
+<div class="med-section med-section--alt">
+<div class="med-inner">
+
+<span class="med-label">El argumento</span>
+<h2 class="med-heading">Su programa genera valor. La pregunta es si puede demostrarlo.</h2>
+
+<div class="med-why-grid">
+  <div class="med-why-card med-why-card--problem">
+    <div class="med-why-icon">⚠</div>
+    <div class="med-why-title">Sin evidencia verificable</div>
+    <div class="med-why-desc">Los financiadores deciden basándose en confianza, no en datos. El siguiente ciclo de presupuesto es incierto. El impacto real queda invisible.</div>
+  </div>
+  <div class="med-why-arrow">→</div>
+  <div class="med-why-card med-why-card--solution">
+    <div class="med-why-icon">✓</div>
+    <div class="med-why-title">Con ratio SROI verificable</div>
+    <div class="med-why-desc">Cada COP invertido genera X COP en valor social. La junta directiva puede defender el programa. Los aliados multilaterales tienen la evidencia que exigen.</div>
+  </div>
+</div>
+
+<div class="med-quote">
+  <div class="med-quote-text">"Un ratio SROI bien construido no es solo un número — es la narrativa de qué cambió, en quién, por cuánto tiempo y gracias a qué."</div>
+  <div class="med-quote-attr">— Principio 3, Social Value International: <em>Valorar las cosas que importan</em></div>
+</div>
+
+</div>
+</div>
+
+<!-- ============================================================
+     6 ETAPAS DEL PROCESO
+     ============================================================ -->
+<div class="med-section">
+<div class="med-inner">
+
+<span class="med-label">El proceso</span>
+<h2 class="med-heading">Seis etapas SVI — del diagnóstico al informe verificable</h2>
+<p class="med-subhead">Seguimos las 6 etapas del proceso SROI definidas por Social Value International, adaptadas al contexto latinoamericano con proxies locales y benchmarking de los 383 reportes del corpus global.</p>
+
+<div class="med-stages">
+
+  <div class="med-stage">
+    <div class="med-stage-num">1</div>
+    <div class="med-stage-body">
+      <div class="med-stage-title">Alcance y stakeholders</div>
+      <div class="med-stage-desc">Definimos el propósito del análisis, los límites del programa y los grupos de interés materiales. Aplicamos el criterio de materialidad SVI para decidir qué outcomes incluir.</div>
+      <div class="med-stage-output">Entregable: Mapa de stakeholders &middot; Alcance documentado</div>
+    </div>
+  </div>
+
+  <div class="med-stage">
+    <div class="med-stage-num">2</div>
+    <div class="med-stage-body">
+      <div class="med-stage-title">Impact Map — Teoría del Cambio</div>
+      <div class="med-stage-desc">Construimos el mapa de impacto con su equipo: inputs, actividades, outputs, outcomes e impactos. Identificamos la cadena causal verificable que vincula la inversión con el cambio real.</div>
+      <div class="med-stage-output">Entregable: Impact Map completo &middot; Indicadores por outcome</div>
+    </div>
+  </div>
+
+  <div class="med-stage">
+    <div class="med-stage-num">3</div>
+    <div class="med-stage-body">
+      <div class="med-stage-title">Evidenciar outcomes y asignar valor</div>
+      <div class="med-stage-desc">Recolectamos o analizamos la evidencia disponible. Seleccionamos el proxy financiero apropiado para cada outcome usando la jerarquía SVI: valor de mercado → preferencias reveladas → WTP → WELLBY.</div>
+      <div class="med-stage-output">Entregable: Proxies validados &middot; Value Map con monetización</div>
+    </div>
+  </div>
+
+  <div class="med-stage">
+    <div class="med-stage-num">4</div>
+    <div class="med-stage-body">
+      <div class="med-stage-title">Establecer el impacto atribuible</div>
+      <div class="med-stage-desc">Ajustamos el valor bruto por los cuatro factores SVI: peso muerto (deadweight), atribución, desplazamiento y decaimiento (drop-off). Este paso garantiza que no reclamamos más valor del que realmente generamos.</div>
+      <div class="med-stage-output">Entregable: Factores de ajuste documentados &middot; Valor neto por outcome</div>
+    </div>
+  </div>
+
+  <div class="med-stage">
+    <div class="med-stage-num">5</div>
+    <div class="med-stage-body">
+      <div class="med-stage-title">Calcular el ratio SROI</div>
+      <div class="med-stage-desc">Calculamos el Valor Presente Neto de todos los outcomes y lo dividimos entre la inversión total. Incluimos análisis de sensibilidad y Monte Carlo para establecer el rango de confianza. Benchmarking automático contra el corpus de 383 reportes.</div>
+      <div class="med-stage-output">Entregable: Ratio SROI con rango &middot; Análisis de sensibilidad &middot; Benchmark global</div>
+    </div>
+  </div>
+
+  <div class="med-stage">
+    <div class="med-stage-num">6</div>
+    <div class="med-stage-body">
+      <div class="med-stage-title">Informe, uso y ciclo de mejora</div>
+      <div class="med-stage-desc">Entregamos el informe adaptado a su audiencia — junta directiva, financiadores, organismos multilaterales o publicación SVI. Incluimos recomendaciones concretas para mejorar el ratio en la siguiente versión del programa.</div>
+      <div class="med-stage-output">Entregable: Informe SVI &middot; Presentación ejecutiva &middot; Plan de mejora</div>
+    </div>
+  </div>
+
+</div>
+
+</div>
+</div>
+
+<!-- ============================================================
+     MÉTODOS DE VALORACIÓN
+     ============================================================ -->
+<div class="med-section med-section--alt">
+<div class="med-inner">
+
+<span class="med-label">Herramientas</span>
+<h2 class="med-heading">El método correcto para cada pregunta</h2>
+<p class="med-subhead">No existe un método único. Seleccionamos el enfoque según el tipo de outcome, los datos disponibles y la audiencia que recibirá el resultado.</p>
+
+<div class="med-methods-grid">
+
+  <div class="med-method med-method--star">
+    <div class="med-method-tag">Método estrella</div>
+    <div class="med-method-name">SROI — Social Return on Investment</div>
+    <div class="med-method-desc">Análisis completo de valor social con monetización de outcomes, factores de ajuste SVI y ratio costo-beneficio. El estándar internacional de referencia.</div>
+    <div class="med-method-when">Ideal para: rendición de cuentas a financiadores, reporte ESG, aseguramiento SVI</div>
+  </div>
+
+  <div class="med-method">
+    <div class="med-method-name">WELLBY — Wellbeing Years</div>
+    <div class="med-method-desc">Valoración de outcomes de bienestar subjetivo usando la escala de vida (Cantril Ladder). £13,000 por punto de satisfacción vital / año (UK 2019, ajustado por PPP).</div>
+    <div class="med-method-when">Ideal para: salud mental, calidad de vida, programas de inclusión social</div>
+  </div>
+
+  <div class="med-method">
+    <div class="med-method-name">Análisis Costo-Beneficio Social (CBA)</div>
+    <div class="med-method-desc">Comparación sistemática de costos y beneficios sociales con descuento intertemporal. Permite comparar programas alternativos y justificar la inversión pública.</div>
+    <div class="med-method-when">Ideal para: entidades públicas, evaluaciones de política, proyectos de larga duración</div>
+  </div>
+
+  <div class="med-method">
+    <div class="med-method-name">WTP / Valoración contingente</div>
+    <div class="med-method-desc">Estimación de la disponibilidad a pagar por outcomes sin mercado. Formato de elección dicotómica (el más robusto según la literatura). Aplicable a bienes públicos y servicios ambientales.</div>
+    <div class="med-method-when">Ideal para: outcomes sin precio de mercado, servicios ecosistémicos, acceso a servicios</div>
+  </div>
+
+  <div class="med-method">
+    <div class="med-method-name">Costos unitarios (Unit Costs)</div>
+    <div class="med-method-desc">Uso de precios administrativos de servicios equivalentes como proxy de valor. Fuentes: ADRES (salud Colombia), SENA (formación), tarifas municipales, NHS/PSSRU para comparaciones internacionales.</div>
+    <div class="med-method-when">Ideal para: salud, educación, programas de empleo, programas con servicios paralelos públicos</div>
+  </div>
+
+  <div class="med-method">
+    <div class="med-method-name">Precios hedónicos y preferencias reveladas</div>
+    <div class="med-method-desc">Estimación del valor implícito a partir de comportamientos observables: diferencias salariales, precios inmobiliarios, costos de viaje. Más robusto que WTP pero requiere datos de mercado.</div>
+    <div class="med-method-when">Ideal para: mejoras habitacionales, acceso a empleo, reducción de crimen, proyectos territoriales</div>
+  </div>
+
+</div>
+
+</div>
+</div>
+
+<!-- ============================================================
+     ENTREGABLES CONCRETOS
+     ============================================================ -->
+<div class="med-section">
+<div class="med-inner">
+
+<span class="med-label">Entregables</span>
+<h2 class="med-heading">¿Qué recibe al final del proceso?</h2>
+
+<div class="med-deliverables">
+
+  <div class="med-deliv">
+    <div class="med-deliv-num">01</div>
+    <div class="med-deliv-content">
+      <div class="med-deliv-name">Value Map SROI completo</div>
+      <div class="med-deliv-desc">Hoja de cálculo estructurada según el estándar SVI: inputs, outputs, outcomes, proxies, factores de ajuste y cálculo final. Reproducible y auditable por terceros.</div>
+    </div>
+  </div>
+
+  <div class="med-deliv">
+    <div class="med-deliv-num">02</div>
+    <div class="med-deliv-content">
+      <div class="med-deliv-name">Ratio SROI con rango de confianza</div>
+      <div class="med-deliv-desc">Estimación central + análisis de sensibilidad con las variables más críticas. Posicionamiento automático en el benchmark de los 383 reportes del corpus global SVI.</div>
+    </div>
+  </div>
+
+  <div class="med-deliv">
+    <div class="med-deliv-num">03</div>
+    <div class="med-deliv-content">
+      <div class="med-deliv-name">Informe narrativo SVI</div>
+      <div class="med-deliv-desc">Documento estructurado según las 6 etapas y los 8 principios. Incluye disclosure de supuestos, limitaciones y recomendaciones. Listo para aseguramiento externo SVI si se requiere.</div>
+    </div>
+  </div>
+
+  <div class="med-deliv">
+    <div class="med-deliv-num">04</div>
+    <div class="med-deliv-content">
+      <div class="med-deliv-name">Presentación ejecutiva</div>
+      <div class="med-deliv-desc">Presentación adaptada a la audiencia (junta directiva, financiadores, entidades públicas, multilaterales). Incluye visualizaciones: waterfall, tornado, benchmark comparado.</div>
+    </div>
+  </div>
+
+  <div class="med-deliv">
+    <div class="med-deliv-num">05</div>
+    <div class="med-deliv-content">
+      <div class="med-deliv-name">Recomendaciones estratégicas</div>
+      <div class="med-deliv-desc">Plan concreto para mejorar el ratio en el siguiente ciclo: palancas de valor, outcomes subestimados, ajustes operativos de alto impacto. El análisis no termina con el número — termina con decisiones accionables.</div>
+    </div>
+  </div>
+
+</div>
+
+</div>
+</div>
+
+<!-- ============================================================
+     PARA QUIÉN
+     ============================================================ -->
+<div class="med-section med-section--alt">
+<div class="med-inner">
+
+<span class="med-label">Audiencias</span>
+<h2 class="med-heading">¿Quién necesita un SROI verificable?</h2>
+
+<div class="med-audiences">
+
+  <div class="med-aud">
+    <div class="med-aud-icon" style="background:rgba(124,58,237,0.1); color:#7C3AED;">&#127970;</div>
+    <div class="med-aud-name">Empresas con programas RSE</div>
+    <div class="med-aud-desc">Demuestran el valor social de su inversión ante el consejo directivo y en sus reportes ESG / GRI. El SROI es la métrica que conecta la inversión social con el valor de reputación e impacto real.</div>
+    <div class="med-aud-entry">Punto de entrada: N3 Evaluación de outcomes</div>
+  </div>
+
+  <div class="med-aud">
+    <div class="med-aud-icon" style="background:rgba(13,148,136,0.1); color:#0D9488;">&#127968;</div>
+    <div class="med-aud-name">Fundaciones privadas y corporativas</div>
+    <div class="med-aud-desc">Justifican ante sus patronatos la renovación de programas, comparan portafolios de inversión social y posicionan su trabajo en el benchmarking internacional de Social Value International.</div>
+    <div class="med-aud-entry">Punto de entrada: N2 Monitoreo de outputs o N3</div>
+  </div>
+
+  <div class="med-aud">
+    <div class="med-aud-icon" style="background:rgba(14,165,233,0.1); color:#0EA5E9;">&#127963;</div>
+    <div class="med-aud-name">Cajas de compensación familiar</div>
+    <div class="med-aud-desc">Responden a la Superintendencia con evidencia de impacto, no solo cobertura. El SROI convierte los datos de sus programas en argumentos para expandir el portafolio social.</div>
+    <div class="med-aud-entry">Punto de entrada: N3 o N4 según disponibilidad de datos</div>
+  </div>
+
+  <div class="med-aud">
+    <div class="med-aud-icon" style="background:rgba(239,68,68,0.1); color:#DC2626;">&#127757;</div>
+    <div class="med-aud-name">Entidades públicas y multilaterales</div>
+    <div class="med-aud-desc">Demuestran el impacto de programas con fondos públicos o cooperación internacional. BID, PNUD y Banco Mundial exigen cada vez más evidencia de valor por dinero (VfM) como condición de renovación.</div>
+    <div class="med-aud-entry">Punto de entrada: N4 o N5 (diseño cuasi-experimental o RCT)</div>
+  </div>
+
+</div>
+
+</div>
+</div>
+
+<!-- ============================================================
+     CTA
+     ============================================================ -->
+<div class="med-cta">
+<div class="med-cta-inner">
+  <div class="med-cta-text">
+    <h2>¿Su programa está listo para el análisis?</h2>
+    <p>El primer paso es un diagnóstico de 30 minutos: revisamos sus datos disponibles, su Teoría del Cambio y decidimos juntos el método apropiado. Sin costo, sin compromiso.</p>
+  </div>
+  <div class="med-cta-actions">
+    <a href="../diagnostico.html" class="med-cta-btn med-cta-btn--primary">Diagnóstico gratuito &rarr;</a>
+    <a href="mailto:jmunozm1@eafit.edu.co?subject=Medición de impacto social — consulta" class="med-cta-btn med-cta-btn--ghost">Escribir al equipo</a>
+  </div>
+</div>
+</div>
+```
+
+```{=html}
+<style>
+/* ============================================================
+   HERO
+   ============================================================ */
+.med-hero {
+  background: linear-gradient(135deg, #0F172A 0%, #064E3B 55%, #0D9488 100%);
+  padding: 4rem 2rem 3.5rem;
+}
+.med-hero-content {
+  max-width: 860px;
+  margin: 0 auto;
+}
+.med-hero-label {
+  font-size: 0.68rem;
+  font-weight: 700;
+  letter-spacing: 0.12em;
+  text-transform: uppercase;
+  color: rgba(255,255,255,0.5);
+  margin-bottom: 0.85rem;
+  display: block;
+}
+.med-hero-badges {
+  display: flex;
+  flex-wrap: wrap;
+  gap: 0.5rem;
+  margin-bottom: 1rem;
+}
+.med-badge {
+  font-size: 0.68rem;
+  font-weight: 700;
+  letter-spacing: 0.07em;
+  text-transform: uppercase;
+  padding: 0.25rem 0.75rem;
+  border-radius: 999px;
+}
+.med-badge--svi {
+  background: rgba(29,78,216,0.15);
+  border: 1px solid rgba(96,165,250,0.35);
+  color: #93C5FD;
+}
+.med-badge--method {
+  background: rgba(94,234,212,0.1);
+  border: 1px solid rgba(94,234,212,0.3);
+  color: #5EEAD4;
+}
+.med-hero-title {
+  font-size: clamp(1.75rem, 4.5vw, 3rem);
+  font-weight: 900;
+  color: white !important;
+  line-height: 1.15;
+  margin: 0 0 1rem;
+  letter-spacing: -0.03em;
+}
+.med-hero-hl { color: #5EEAD4; }
+.med-hero-lead {
+  font-size: 1rem;
+  color: rgba(255,255,255,0.75);
+  line-height: 1.65;
+  max-width: 680px;
+  margin-bottom: 1.75rem;
+}
+.med-hero-stats {
+  display: flex;
+  align-items: center;
+  gap: 0;
+  background: rgba(255,255,255,0.05);
+  border: 1px solid rgba(255,255,255,0.1);
+  border-radius: 0.75rem;
+  padding: 1rem 1.5rem;
+  margin-bottom: 1.75rem;
+  flex-wrap: wrap;
+}
+.med-stat { text-align: center; padding: 0.25rem 1.5rem; }
+.med-stat-num { font-size: 1.75rem; font-weight: 900; color: #5EEAD4; line-height: 1; margin-bottom: 0.3rem; }
+.med-stat-label { font-size: 0.68rem; color: rgba(255,255,255,0.55); line-height: 1.35; font-weight: 500; text-transform: uppercase; letter-spacing: 0.04em; }
+.med-stat-div { width: 1px; height: 2.5rem; background: rgba(255,255,255,0.1); }
+.med-hero-actions { display: flex; gap: 0.75rem; flex-wrap: wrap; }
+.med-btn {
+  display: inline-block;
+  font-size: 0.88rem;
+  font-weight: 700;
+  padding: 0.7rem 1.5rem;
+  border-radius: 0.5rem;
+  text-decoration: none !important;
+  transition: all 0.2s;
+}
+.med-btn--primary { background: #0D9488; color: white !important; }
+.med-btn--primary:hover { background: #0F766E; }
+.med-btn--ghost { background: transparent; color: rgba(255,255,255,0.8) !important; border: 1.5px solid rgba(255,255,255,0.3); }
+.med-btn--ghost:hover { background: rgba(255,255,255,0.08); }
+
+/* ============================================================
+   LAYOUT BASE
+   ============================================================ */
+.med-section { padding: 3rem 2rem; }
+.med-section--alt { background: #F8FAFC; }
+.med-inner { max-width: 900px; margin: 0 auto; }
+.med-label {
+  font-size: 0.68rem;
+  font-weight: 700;
+  text-transform: uppercase;
+  letter-spacing: 0.1em;
+  color: #0D9488;
+  display: block;
+  margin-bottom: 0.5rem;
+}
+.med-heading {
+  font-size: clamp(1.3rem, 3vw, 1.9rem);
+  font-weight: 800;
+  color: #0F172A;
+  line-height: 1.2;
+  margin: 0 0 0.75rem;
+}
+.med-subhead {
+  font-size: 0.92rem;
+  color: #475569;
+  line-height: 1.65;
+  max-width: 720px;
+  margin-bottom: 2rem;
+}
+
+/* ============================================================
+   WHY GRID
+   ============================================================ */
+.med-why-grid {
+  display: flex;
+  align-items: center;
+  gap: 1rem;
+  margin: 1.75rem 0;
+  flex-wrap: wrap;
+}
+.med-why-card {
+  flex: 1;
+  min-width: 220px;
+  padding: 1.5rem;
+  border-radius: 0.85rem;
+}
+.med-why-card--problem { background: #FFF1F2; border: 1px solid #FECDD3; }
+.med-why-card--solution { background: #F0FDFA; border: 1px solid #CCFBF1; }
+.med-why-icon { font-size: 1.5rem; margin-bottom: 0.5rem; }
+.med-why-title { font-size: 0.95rem; font-weight: 800; color: #0F172A; margin-bottom: 0.5rem; }
+.med-why-desc { font-size: 0.83rem; color: #475569; line-height: 1.6; }
+.med-why-arrow { font-size: 1.5rem; color: #CBD5E1; flex-shrink: 0; }
+.med-quote {
+  background: #0F172A;
+  border-left: 4px solid #0D9488;
+  border-radius: 0 0.75rem 0.75rem 0;
+  padding: 1.25rem 1.5rem;
+  margin-top: 1.25rem;
+}
+.med-quote-text { font-size: 0.95rem; color: rgba(255,255,255,0.85); font-style: italic; line-height: 1.65; margin-bottom: 0.5rem; }
+.med-quote-attr { font-size: 0.75rem; color: #5EEAD4; font-weight: 600; }
+
+/* ============================================================
+   6 ETAPAS
+   ============================================================ */
+.med-stages {
+  display: flex;
+  flex-direction: column;
+  gap: 0;
+  margin-top: 1.75rem;
+  border: 1px solid #E2E8F0;
+  border-radius: 1rem;
+  overflow: hidden;
+}
+.med-stage {
+  display: flex;
+  gap: 1.5rem;
+  align-items: flex-start;
+  padding: 1.5rem 2rem;
+  border-bottom: 1px solid #F1F5F9;
+  background: white;
+  transition: background 0.15s;
+}
+.med-stage:last-child { border-bottom: none; }
+.med-stage:hover { background: #FAFBFF; }
+.med-stage-num {
+  width: 2.25rem;
+  height: 2.25rem;
+  border-radius: 50%;
+  background: #0D9488;
+  color: white;
+  font-size: 0.8rem;
+  font-weight: 800;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  flex-shrink: 0;
+}
+.med-stage-title { font-size: 0.975rem; font-weight: 800; color: #0F172A; margin-bottom: 0.35rem; }
+.med-stage-desc { font-size: 0.845rem; color: #475569; line-height: 1.65; margin-bottom: 0.5rem; }
+.med-stage-output {
+  font-size: 0.72rem;
+  font-weight: 700;
+  color: #0D9488;
+  background: #F0FDFA;
+  border: 1px solid #CCFBF1;
+  border-radius: 999px;
+  padding: 0.2rem 0.65rem;
+  display: inline-block;
+}
+
+/* ============================================================
+   MÉTODOS
+   ============================================================ */
+.med-methods-grid {
+  display: grid;
+  grid-template-columns: repeat(3, 1fr);
+  gap: 1rem;
+  margin-top: 1.75rem;
+}
+.med-method {
+  background: white;
+  border: 1px solid #E2E8F0;
+  border-radius: 0.85rem;
+  padding: 1.25rem;
+  position: relative;
+}
+.med-method--star {
+  border-color: rgba(13,148,136,0.35);
+  border-width: 2px;
+  background: linear-gradient(135deg, #F0FDFA, #FFFFFF);
+}
+.med-method-tag {
+  font-size: 0.6rem;
+  font-weight: 800;
+  text-transform: uppercase;
+  letter-spacing: 0.1em;
+  color: #0D9488;
+  background: rgba(13,148,136,0.1);
+  border-radius: 999px;
+  padding: 0.15rem 0.55rem;
+  display: inline-block;
+  margin-bottom: 0.5rem;
+}
+.med-method-name { font-size: 0.875rem; font-weight: 800; color: #0F172A; margin-bottom: 0.4rem; line-height: 1.3; }
+.med-method-desc { font-size: 0.79rem; color: #475569; line-height: 1.6; margin-bottom: 0.5rem; }
+.med-method-when { font-size: 0.72rem; color: #64748B; font-style: italic; line-height: 1.45; }
+
+/* ============================================================
+   ENTREGABLES
+   ============================================================ */
+.med-deliverables {
+  display: flex;
+  flex-direction: column;
+  gap: 0.85rem;
+  margin-top: 1.75rem;
+}
+.med-deliv {
+  display: flex;
+  gap: 1.25rem;
+  align-items: flex-start;
+  background: white;
+  border: 1px solid #E2E8F0;
+  border-radius: 0.75rem;
+  padding: 1.25rem 1.5rem;
+}
+.med-deliv-num {
+  font-size: 1.5rem;
+  font-weight: 900;
+  color: #E2E8F0;
+  line-height: 1;
+  flex-shrink: 0;
+  min-width: 2rem;
+}
+.med-deliv-name { font-size: 0.925rem; font-weight: 800; color: #0F172A; margin-bottom: 0.3rem; }
+.med-deliv-desc { font-size: 0.83rem; color: #475569; line-height: 1.6; }
+
+/* ============================================================
+   AUDIENCIAS
+   ============================================================ */
+.med-audiences {
+  display: grid;
+  grid-template-columns: repeat(2, 1fr);
+  gap: 1.1rem;
+  margin-top: 1.75rem;
+}
+.med-aud {
+  background: white;
+  border: 1px solid #E2E8F0;
+  border-radius: 0.85rem;
+  padding: 1.5rem;
+}
+.med-aud-icon {
+  width: 2.5rem;
+  height: 2.5rem;
+  border-radius: 50%;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  font-size: 1.1rem;
+  margin-bottom: 0.75rem;
+}
+.med-aud-name { font-size: 0.925rem; font-weight: 800; color: #0F172A; margin-bottom: 0.4rem; }
+.med-aud-desc { font-size: 0.82rem; color: #475569; line-height: 1.6; margin-bottom: 0.65rem; }
+.med-aud-entry { font-size: 0.72rem; font-weight: 700; color: #0D9488; }
+
+/* ============================================================
+   CTA
+   ============================================================ */
+.med-cta {
+  background: linear-gradient(135deg, #0F172A 0%, #064E3B 50%, #0D9488 100%);
+  padding: 4rem 2rem;
+}
+.med-cta-inner {
+  max-width: 900px;
+  margin: 0 auto;
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  gap: 2.5rem;
+  flex-wrap: wrap;
+}
+.med-cta-text h2 { font-size: 1.6rem; font-weight: 800; color: white !important; margin: 0 0 0.75rem; line-height: 1.2; }
+.med-cta-text p { font-size: 0.92rem; color: rgba(255,255,255,0.72); line-height: 1.65; margin: 0; max-width: 480px; }
+.med-cta-actions { display: flex; flex-direction: column; gap: 0.75rem; flex-shrink: 0; }
+.med-cta-btn {
+  display: inline-block;
+  font-size: 0.9rem;
+  font-weight: 700;
+  padding: 0.75rem 1.75rem;
+  border-radius: 0.5rem;
+  text-decoration: none !important;
+  text-align: center;
+  transition: all 0.2s;
+  white-space: nowrap;
+}
+.med-cta-btn--primary { background: #0D9488; color: white !important; }
+.med-cta-btn--primary:hover { background: #0F766E; }
+.med-cta-btn--ghost { background: transparent; color: rgba(255,255,255,0.8) !important; border: 1.5px solid rgba(255,255,255,0.3); }
+.med-cta-btn--ghost:hover { background: rgba(255,255,255,0.08); }
+
+/* ============================================================
+   RESPONSIVE
+   ============================================================ */
+@media (max-width: 860px) {
+  .med-methods-grid { grid-template-columns: 1fr; }
+  .med-audiences { grid-template-columns: 1fr; }
+  .med-why-grid { flex-direction: column; }
+  .med-why-arrow { transform: rotate(90deg); }
+  .med-hero-stats { justify-content: center; }
+  .med-stat-div { display: none; }
+}
+@media (max-width: 600px) {
+  .med-stage { flex-direction: column; gap: 0.75rem; padding: 1.25rem; }
+  .med-cta-inner { flex-direction: column; }
+  .med-cta-actions { width: 100%; }
+  .med-cta-btn { width: 100%; }
+}
+</style>
+```

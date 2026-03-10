@@ -126,10 +126,26 @@ ul.task-list li input[type="checkbox"] {
     <a class="nav-link" href="./ciencia.html"> 
 <span class="menu-text">Evidencia</span></a>
   </li>  
-  <li class="nav-item">
-    <a class="nav-link" href="./herramientas.html"> 
-<span class="menu-text">Servicios</span></a>
+  <li class="nav-item dropdown ">
+    <a class="nav-link dropdown-toggle" href="#" id="nav-menu-servicios" role="link" data-bs-toggle="dropdown" aria-expanded="false">
+ <span class="menu-text">Servicios</span>
+    </a>
+    <ul class="dropdown-menu" aria-labelledby="nav-menu-servicios">    
+        <li>
+    <a class="dropdown-item" href="./herramientas.html">
+ <span class="dropdown-text">Todos los servicios</span></a>
   </li>  
+        <li><hr class="dropdown-divider"></li>
+        <li>
+    <a class="dropdown-item" href="./servicios/formacion.html">
+ <span class="dropdown-text">Formación en Valor Social</span></a>
+  </li>  
+        <li>
+    <a class="dropdown-item" href="./servicios/medicion.html">
+ <span class="dropdown-text">Medición y Valoración de Impacto</span></a>
+  </li>  
+    </ul>
+  </li>
   <li class="nav-item dropdown ">
     <a class="nav-link dropdown-toggle" href="#" id="nav-menu-herramientas" role="link" data-bs-toggle="dropdown" aria-expanded="false">
  <span class="menu-text">Herramientas</span>
@@ -258,6 +274,18 @@ ul.task-list li input[type="checkbox"] {
   y organismos de control exigen.<br>
   <span class="hero-imel-inline"><strong>iMEL®</strong> — Integrated Monitoring, Evaluation &amp; Learning.</span>
   <em style="color:rgba(255,255,255,0.65);font-size:0.9em;display:block;margin-top:0.35rem;">Evaluamos para aprender. Aprendemos para mejorar. Mejoramos para aplicar.</em>
+</p>
+
+<div class="hero-audience-row">
+  <span class="ha-label">Para</span>
+  <span class="ha-chip">Fundaciones corporativas</span>
+  <span class="ha-chip">Áreas de sostenibilidad</span>
+  <span class="ha-chip">Entidades públicas</span>
+  <span class="ha-chip ha-chip--accent">Inversionistas de impacto</span>
+</div>
+
+<p class="hero-monetize">
+  Convertimos su impacto social en evidencia que <strong>moviliza capital</strong> — no solo rinde cuentas.
 </p>
 
 <div class="hero-actions">
@@ -760,6 +788,44 @@ ul.task-list li input[type="checkbox"] {
 .hero-imel-inline {
   color: #5EEAD4;
   font-size: 0.92em;
+}
+.hero-audience-row {
+  display: flex;
+  flex-wrap: wrap;
+  align-items: center;
+  gap: 0.4rem;
+  margin: 1rem 0 0.5rem;
+}
+.ha-label {
+  font-size: 0.68rem;
+  font-weight: 700;
+  letter-spacing: 0.1em;
+  text-transform: uppercase;
+  color: rgba(255,255,255,0.45);
+  margin-right: 0.2rem;
+}
+.ha-chip {
+  font-size: 0.72rem;
+  font-weight: 600;
+  color: rgba(255,255,255,0.75);
+  background: rgba(255,255,255,0.08);
+  border: 1px solid rgba(255,255,255,0.15);
+  padding: 0.22rem 0.65rem;
+  border-radius: 999px;
+}
+.ha-chip--accent {
+  color: #FCD34D;
+  background: rgba(252,211,77,0.1);
+  border-color: rgba(252,211,77,0.3);
+}
+.hero-monetize {
+  font-size: 0.88rem;
+  color: rgba(255,255,255,0.6);
+  margin: 0.5rem 0 0;
+  line-height: 1.5;
+}
+.hero-monetize strong {
+  color: #5EEAD4;
 }
 
 /* ============================================================

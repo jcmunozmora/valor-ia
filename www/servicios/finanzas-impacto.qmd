@@ -1,0 +1,624 @@
+---
+title: "Finanzas de Impacto"
+description: "Convertimos su evidencia SROI en instrumentos de financiación vinculados a resultados — SIBs, RBF, Blended Finance y más. Centro Valor Público, EAFIT."
+toc: false
+---
+
+```{=html}
+<!-- ============================================================
+     HERO
+     ============================================================ -->
+<div class="fi-hero">
+  <div class="fi-hero-content">
+    <div class="fi-hero-label">Servicio 04 &middot; Centro Valor Público EAFIT</div>
+    <div class="fi-hero-badges">
+      <span class="fi-badge">IMoIC &middot; Impact Multiple on Invested Capital</span>
+      <span class="fi-badge fi-badge--accent">SROI como palanca de capital</span>
+    </div>
+    <h1 class="fi-hero-title">
+      Finanzas de Impacto:<br>
+      <span class="fi-hero-hl">Su evidencia SROI<br>moviliza capital</span>
+    </h1>
+    <p class="fi-hero-lead">
+      El SROI no es solo un número para rendir cuentas — es la base de evidencia que los inversionistas de impacto, fondos multilaterales y estructuradores de Blended Finance necesitan para comprometer capital. Le ayudamos a cerrar ese puente.
+    </p>
+    <div class="fi-hero-actions">
+      <a href="../diagnostico.html" class="fi-btn fi-btn--primary">Evaluar elegibilidad — gratis &rarr;</a>
+      <a href="../herramientas.html" class="fi-btn fi-btn--ghost">Ver todos los servicios</a>
+    </div>
+  </div>
+</div>
+
+<!-- ============================================================
+     EL ARGUMENTO CENTRAL
+     ============================================================ -->
+<div class="fi-section fi-section--dark">
+<div class="fi-inner">
+
+<div class="fi-big-claim">
+  <div class="fi-big-claim-text">
+    <span class="fi-big-claim-label">La diferencia que hace la evidencia</span>
+    <h2>Un programa con SROI verificable<br>no solo rinde cuentas — <span style="color:#FCD34D;">atrae capital.</span></h2>
+    <p>Los mercados de finanzas de impacto — SIBs, RBF, fondos ESG, Blended Finance multilateral — tienen un denominador común: todos exigen evidencia de resultados verificables antes de comprometer capital. El SROI es exactamente eso.</p>
+    <p>Sin evidencia robusta, el acceso a estos instrumentos depende de contactos y reputación. <strong>Con evidencia SROI verificada, la conversación cambia de "confíen en nosotros" a "vean los datos."</strong></p>
+  </div>
+  <div class="fi-big-claim-stat">
+    <div class="fi-claim-num">$500B+</div>
+    <div class="fi-claim-label">Capital global en mercados de finanzas de impacto (GIIN, 2024)</div>
+    <div class="fi-claim-sub">Buscando organizaciones con evidencia verificable de resultados</div>
+  </div>
+</div>
+
+</div>
+</div>
+
+<!-- ============================================================
+     INSTRUMENTOS
+     ============================================================ -->
+<div class="fi-section">
+<div class="fi-inner">
+
+<span class="fi-label">Instrumentos</span>
+<h2 class="fi-heading">¿Con qué instrumentos trabajamos?</h2>
+<p class="fi-subhead">El portafolio de finanzas de impacto ha crecido significativamente. Diseñamos el caso según el instrumento más adecuado para su organización y contexto.</p>
+
+<div class="fi-instruments">
+
+  <div class="fi-instr fi-instr--featured">
+    <div class="fi-instr-tag">Más utilizado</div>
+    <div class="fi-instr-icon">📊</div>
+    <div class="fi-instr-name">Bonos de Impacto Social (SIBs)</div>
+    <div class="fi-instr-desc">
+      Estructuras de pago por resultados donde el inversor privado adelanta el capital y el pagador público o fundación reembolsa con retorno si los resultados acordados se cumplen. El SROI define los outcomes y sus métricas de verificación.
+    </div>
+    <div class="fi-instr-roles">
+      <span>Organización ejecutora</span>
+      <span>Intermediario técnico</span>
+      <span>Verificador independiente</span>
+    </div>
+  </div>
+
+  <div class="fi-instr">
+    <div class="fi-instr-icon">💱</div>
+    <div class="fi-instr-name">Results-Based Financing (RBF)</div>
+    <div class="fi-instr-desc">
+      Modalidad de financiación de cooperación internacional donde los desembolsos están condicionados al cumplimiento de indicadores de resultado verificados. BID, Banco Mundial y USAID son los principales estructuradores en LatAm.
+    </div>
+    <div class="fi-instr-roles">
+      <span>BID / PNUD</span>
+      <span>Banco Mundial</span>
+      <span>GIZ / DFID</span>
+    </div>
+  </div>
+
+  <div class="fi-instr">
+    <div class="fi-instr-icon">🔗</div>
+    <div class="fi-instr-name">Blended Finance</div>
+    <div class="fi-instr-desc">
+      Combinación de capital concesional (donaciones, capital paciente) con capital comercial para financiar proyectos de impacto social o ambiental que de otro modo serían inviables. El SROI justifica el riesgo para el capital concesional.
+    </div>
+    <div class="fi-instr-roles">
+      <span>Fondos de impacto</span>
+      <span>Family offices</span>
+      <span>Swiss Philanthropy</span>
+    </div>
+  </div>
+
+  <div class="fi-instr">
+    <div class="fi-instr-icon">🏛</div>
+    <div class="fi-instr-name">Fideicomisos de impacto</div>
+    <div class="fi-instr-desc">
+      Estructuras fiduciarias que canalizan capital hacia programas con métricas de impacto predefinidas. Utilizados por empresas para gestionar inversiones sociales a largo plazo con gobernanza independiente y verificación periódica.
+    </div>
+    <div class="fi-instr-roles">
+      <span>Inversión social corporativa</span>
+      <span>ESG estructurado</span>
+    </div>
+  </div>
+
+  <div class="fi-instr">
+    <div class="fi-instr-icon">📈</div>
+    <div class="fi-instr-name">IMoIC — Impact Multiple on Invested Capital</div>
+    <div class="fi-instr-desc">
+      Análogo financiero del SROI para audiencias de inversión: ¿cuántas veces se multiplica el capital en valor social? Lenguaje directo para fondos de impacto, family offices y equipos de inversión ESG que usan métricas similares al ROI financiero.
+    </div>
+    <div class="fi-instr-roles">
+      <span>Fondos ESG</span>
+      <span>Family offices</span>
+      <span>Inversionistas impacto</span>
+    </div>
+  </div>
+
+  <div class="fi-instr">
+    <div class="fi-instr-icon">🌐</div>
+    <div class="fi-instr-name">Financiación multilateral por resultados</div>
+    <div class="fi-instr-desc">
+      Apoyo técnico para acceder a líneas de BID Lab, PNUD Impact Finance, GEF y mecanismos similares que requieren evidencia de impacto como condición de elegibilidad. Incluimos el posicionamiento en benchmarks internacionales SVI.
+    </div>
+    <div class="fi-instr-roles">
+      <span>BID Lab</span>
+      <span>PNUD</span>
+      <span>Banco Mundial / GEF</span>
+    </div>
+  </div>
+
+</div>
+
+</div>
+</div>
+
+<!-- ============================================================
+     PROCESO DE TRABAJO
+     ============================================================ -->
+<div class="fi-section fi-section--alt">
+<div class="fi-inner">
+
+<span class="fi-label">El proceso</span>
+<h2 class="fi-heading">Del SROI al instrumento financiero — cuatro pasos</h2>
+
+<div class="fi-process">
+
+  <div class="fi-proc-step">
+    <div class="fi-proc-num">1</div>
+    <div class="fi-proc-body">
+      <div class="fi-proc-title">Diagnóstico de elegibilidad</div>
+      <div class="fi-proc-desc">
+        Evaluamos si su programa tiene el perfil adecuado para estructurar un instrumento de finanzas de impacto: madurez de la evidencia, tipo de outcomes, existencia de pagador público o inversionista potencial, escala mínima requerida y contexto regulatorio.
+      </div>
+      <div class="fi-proc-output">Entregable: Reporte de elegibilidad &middot; Instrumento recomendado</div>
+    </div>
+  </div>
+
+  <div class="fi-proc-step">
+    <div class="fi-proc-num">2</div>
+    <div class="fi-proc-body">
+      <div class="fi-proc-title">Construir (o fortalecer) la base de evidencia</div>
+      <div class="fi-proc-desc">
+        Si el SROI no está disponible o no está al nivel requerido, lo diseñamos o fortalecemos. Para instrumentos de financiación, el análisis debe incluir: ratio SROI con rango de confianza, análisis de sensibilidad, benchmarking y — idealmente — aseguramiento SVI.
+      </div>
+      <div class="fi-proc-output">Entregable: SROI verificable &middot; Value Map &middot; Informe SVI-ready</div>
+    </div>
+  </div>
+
+  <div class="fi-proc-step">
+    <div class="fi-proc-num">3</div>
+    <div class="fi-proc-body">
+      <div class="fi-proc-title">Estructurar el caso de inversión</div>
+      <div class="fi-proc-desc">
+        Traducimos el SROI al lenguaje financiero del instrumento: definimos los outcomes pagables (en SIBs), los indicadores de verificación (en RBF), la tesis de inversión de impacto (en Blended Finance) o el IMoIC para fondos ESG. Diseñamos la narrativa de inversión completa.
+      </div>
+      <div class="fi-proc-output">Entregable: Caso de inversión &middot; Term sheet de impacto &middot; Presentación ejecutiva</div>
+    </div>
+  </div>
+
+  <div class="fi-proc-step">
+    <div class="fi-proc-num">4</div>
+    <div class="fi-proc-body">
+      <div class="fi-proc-title">Articulación con financiadores</div>
+      <div class="fi-proc-desc">
+        Le acompañamos en el proceso de aproximación a financiadores: multilaterales, fondos de impacto, inversionistas ángel de impacto, empresas interesadas en invertir vía RSE estructurada. Preparamos la presentación, el pitch deck y el due diligence técnico de impacto.
+      </div>
+      <div class="fi-proc-output">Entregable: Pitch deck &middot; Due diligence de impacto &middot; Acompañamiento en negociación</div>
+    </div>
+  </div>
+
+</div>
+
+</div>
+</div>
+
+<!-- ============================================================
+     REQUISITOS DE ELEGIBILIDAD
+     ============================================================ -->
+<div class="fi-section">
+<div class="fi-inner">
+
+<span class="fi-label">¿Está listo?</span>
+<h2 class="fi-heading">Requisitos para estructurar un instrumento de finanzas de impacto</h2>
+<p class="fi-subhead">No todos los programas están listos para finanzas de impacto. Estos son los criterios básicos de elegibilidad que revisamos en el diagnóstico inicial.</p>
+
+<div class="fi-criteria">
+
+  <div class="fi-criterion fi-criterion--must">
+    <div class="fi-crit-tag">Indispensable</div>
+    <div class="fi-crit-items">
+      <div class="fi-crit-item">
+        <span class="fi-crit-check">✓</span>
+        <div>
+          <div class="fi-crit-name">Evidencia de outcomes verificables</div>
+          <div class="fi-crit-desc">El programa tiene al menos 2-3 años de operación y datos de resultados. Idealmente ya existe un análisis SROI o evaluación de impacto.</div>
+        </div>
+      </div>
+      <div class="fi-crit-item">
+        <span class="fi-crit-check">✓</span>
+        <div>
+          <div class="fi-crit-name">Outcomes medibles con indicadores definidos</div>
+          <div class="fi-crit-desc">Los cambios en beneficiarios son cuantificables: reducción de hospitalizaciones, aumento salarial, mejora en puntaje escolar, etc. No solo outputs de actividad.</div>
+        </div>
+      </div>
+      <div class="fi-crit-item">
+        <span class="fi-crit-check">✓</span>
+        <div>
+          <div class="fi-crit-name">Escala suficiente y potencial de replicación</div>
+          <div class="fi-crit-desc">El programa beneficia a un número mínimo de personas que justifica el costo de estructurar el instrumento. Varía según el tipo: SIBs requieren >$1M en impacto verificable.</div>
+        </div>
+      </div>
+    </div>
+  </div>
+
+  <div class="fi-criterion fi-criterion--helps">
+    <div class="fi-crit-tag fi-crit-tag--helps">Fortalece la elegibilidad</div>
+    <div class="fi-crit-items">
+      <div class="fi-crit-item">
+        <span class="fi-crit-check fi-crit-check--plus">+</span>
+        <div>
+          <div class="fi-crit-name">SROI con aseguramiento SVI</div>
+          <div class="fi-crit-desc">Un análisis verificado independientemente aumenta significativamente la credibilidad ante inversionistas y pagadores públicos.</div>
+        </div>
+      </div>
+      <div class="fi-crit-item">
+        <span class="fi-crit-check fi-crit-check--plus">+</span>
+        <div>
+          <div class="fi-crit-name">Diseño cuasi-experimental o RCT</div>
+          <div class="fi-crit-desc">Evidencia de impacto causal (DiD, PSM, RCT) prácticamente elimina la discusión sobre el deadweight y aumenta el ratio SROI aceptado por financiadores.</div>
+        </div>
+      </div>
+      <div class="fi-crit-item">
+        <span class="fi-crit-check fi-crit-check--plus">+</span>
+        <div>
+          <div class="fi-crit-name">Pagador público identificado</div>
+          <div class="fi-crit-desc">Para SIBs: una entidad gubernamental comprometida con el pago si se cumplen los resultados (Ministerio, alcaldía, empresa pública) es esencial para la estructura.</div>
+        </div>
+      </div>
+    </div>
+  </div>
+
+</div>
+
+<div class="fi-eligibility-cta">
+  <div class="fi-elig-text">
+    <strong>¿No está seguro si su programa cumple?</strong> El diagnóstico de elegibilidad es gratuito y sin compromiso. En 30 minutos determinamos el potencial y el camino más realista.
+  </div>
+  <a href="mailto:jmunozm1@eafit.edu.co?subject=Diagnóstico Finanzas de Impacto" class="fi-elig-btn">Solicitar diagnóstico de elegibilidad &rarr;</a>
+</div>
+
+</div>
+</div>
+
+<!-- ============================================================
+     CASOS DE REFERENCIA
+     ============================================================ -->
+<div class="fi-section fi-section--alt">
+<div class="fi-inner">
+
+<span class="fi-label">Referentes</span>
+<h2 class="fi-heading">El estado del arte en LatAm</h2>
+<p class="fi-subhead">La región tiene casos pioneros. Aquí el contexto donde se sitúa nuestra propuesta.</p>
+
+<div class="fi-ref-grid">
+
+  <div class="fi-ref">
+    <div class="fi-ref-country">🇨🇴 Colombia</div>
+    <div class="fi-ref-name">Bono de Impacto Social — Empleabilidad Cali</div>
+    <div class="fi-ref-desc">Primer SIB de Colombia (2017), financiado por el BID. Formación y empleo para jóvenes vulnerables. Resultados verificados por Econometría Consultores. Pagador: Gobierno Nacional.</div>
+  </div>
+
+  <div class="fi-ref">
+    <div class="fi-ref-country">🇲🇽 México</div>
+    <div class="fi-ref-name">FAIS RBF — Fondos municipales por resultados</div>
+    <div class="fi-ref-desc">Experiencias de desembolso del Fondo de Aportaciones para Infraestructura Social condicionado a indicadores de resultado en comunidades indígenas. Modelo transferible a programas sociales corporativos.</div>
+  </div>
+
+  <div class="fi-ref">
+    <div class="fi-ref-country">🌍 Global</div>
+    <div class="fi-ref-name">Swiss Philanthropy — Blended Finance</div>
+    <div class="fi-ref-desc">Mecanismo de capital filantrópico suizo que co-financia proyectos de impacto en países emergentes con evidencia verificable. Activo en LatAm para programas de salud, educación y desarrollo rural.</div>
+  </div>
+
+</div>
+
+</div>
+</div>
+
+<!-- ============================================================
+     POR QUÉ VALOR·IA
+     ============================================================ -->
+<div class="fi-section">
+<div class="fi-inner">
+
+<span class="fi-label">Nuestra ventaja</span>
+<h2 class="fi-heading">Por qué VALOR·IA para estructurar su caso de finanzas de impacto</h2>
+
+<div class="fi-advantages">
+
+  <div class="fi-adv">
+    <div class="fi-adv-icon" style="background:#F0FDFA; color:#0D9488;">&#10003;</div>
+    <div class="fi-adv-body">
+      <div class="fi-adv-name">El único equipo SVI Certified en Colombia</div>
+      <div class="fi-adv-desc">La certificación SVI no es decorativa — es la credencial que valida que el análisis sigue los estándares internacionales que los financiadores exigen. Nuestro SROI no necesita "traducción" para audiencias multilaterales.</div>
+    </div>
+  </div>
+
+  <div class="fi-adv">
+    <div class="fi-adv-icon" style="background:#FFFBEB; color:#D97706;">&#128200;</div>
+    <div class="fi-adv-body">
+      <div class="fi-adv-name">383 reportes de referencia para benchmarking</div>
+      <div class="fi-adv-desc">Su ratio SROI se posiciona automáticamente en el corpus global de Social Value International. Un inversor que compara su propuesta con el mercado tiene los datos en la misma presentación.</div>
+    </div>
+  </div>
+
+  <div class="fi-adv">
+    <div class="fi-adv-icon" style="background:#EFF6FF; color:#1D4ED8;">&#127775;</div>
+    <div class="fi-adv-body">
+      <div class="fi-adv-name">Caso de referencia con RCT real (N5 global)</div>
+      <div class="fi-adv-desc">El programa Hogares Saludables de Cementos Argos es uno de los primeros casos en LatAm con SROI basado en un ensayo controlado aleatorizado (cRCT) verificado internacionalmente. Ratio: 3.74×, deadweight: 0%.</div>
+    </div>
+  </div>
+
+  <div class="fi-adv">
+    <div class="fi-adv-icon" style="background:#F5F3FF; color:#7C3AED;">&#127968;</div>
+    <div class="fi-adv-body">
+      <div class="fi-adv-name">Afiliación EAFIT — credencial académica e institucional</div>
+      <div class="fi-adv-desc">El Centro Valor Público de EAFIT es la entidad académica que respalda el análisis. Para organismos multilaterales y entidades públicas, la afiliación institucional es un filtro de credibilidad que importa.</div>
+    </div>
+  </div>
+
+</div>
+
+</div>
+</div>
+
+<!-- ============================================================
+     CTA FINAL
+     ============================================================ -->
+<div class="fi-cta">
+<div class="fi-cta-inner">
+  <div class="fi-cta-text">
+    <h2>¿Tiene la evidencia. Ahora necesita el capital.</h2>
+    <p>Conversemos. El diagnóstico de elegibilidad es gratuito: revisamos su programa, su evidencia disponible y determinamos qué instrumento de financiación tiene más sentido para usted hoy.</p>
+  </div>
+  <div class="fi-cta-actions">
+    <a href="mailto:jmunozm1@eafit.edu.co?subject=Finanzas de Impacto — diagnóstico" class="fi-cta-btn fi-cta-btn--primary">Solicitar diagnóstico de elegibilidad &rarr;</a>
+    <a href="../casos/hogares-saludables.html" class="fi-cta-btn fi-cta-btn--ghost">Ver caso N5 — Hogares Saludables</a>
+  </div>
+</div>
+</div>
+```
+
+```{=html}
+<style>
+/* ============================================================
+   HERO
+   ============================================================ */
+.fi-hero {
+  background: linear-gradient(135deg, #0F172A 0%, #451A03 50%, #D97706 100%);
+  padding: 4rem 2rem 3.5rem;
+}
+.fi-hero-content { max-width: 860px; margin: 0 auto; }
+.fi-hero-label {
+  font-size: 0.68rem; font-weight: 700; letter-spacing: 0.12em;
+  text-transform: uppercase; color: rgba(255,255,255,0.5); margin-bottom: 0.85rem; display: block;
+}
+.fi-hero-badges { display: flex; flex-wrap: wrap; gap: 0.5rem; margin-bottom: 1rem; }
+.fi-badge {
+  font-size: 0.68rem; font-weight: 700; letter-spacing: 0.07em; text-transform: uppercase;
+  padding: 0.25rem 0.75rem; border-radius: 999px;
+  background: rgba(252,211,77,0.12); border: 1px solid rgba(252,211,77,0.3); color: #FCD34D;
+}
+.fi-badge--accent {
+  background: rgba(255,255,255,0.08); border-color: rgba(255,255,255,0.2); color: rgba(255,255,255,0.75);
+}
+.fi-hero-title {
+  font-size: clamp(1.75rem, 4.5vw, 3rem); font-weight: 900; color: white !important;
+  line-height: 1.15; margin: 0 0 1rem; letter-spacing: -0.03em;
+}
+.fi-hero-hl { color: #FCD34D; }
+.fi-hero-lead { font-size: 1rem; color: rgba(255,255,255,0.75); line-height: 1.65; max-width: 680px; margin-bottom: 1.75rem; }
+.fi-hero-actions { display: flex; gap: 0.75rem; flex-wrap: wrap; }
+.fi-btn {
+  display: inline-block; font-size: 0.88rem; font-weight: 700;
+  padding: 0.7rem 1.5rem; border-radius: 0.5rem; text-decoration: none !important; transition: all 0.2s;
+}
+.fi-btn--primary { background: #D97706; color: white !important; }
+.fi-btn--primary:hover { background: #B45309; }
+.fi-btn--ghost { background: transparent; color: rgba(255,255,255,0.8) !important; border: 1.5px solid rgba(255,255,255,0.3); }
+.fi-btn--ghost:hover { background: rgba(255,255,255,0.08); }
+
+/* ============================================================
+   LAYOUT BASE
+   ============================================================ */
+.fi-section { padding: 3rem 2rem; }
+.fi-section--alt { background: #F8FAFC; }
+.fi-section--dark { background: #0F172A; }
+.fi-inner { max-width: 920px; margin: 0 auto; }
+.fi-label {
+  font-size: 0.68rem; font-weight: 700; text-transform: uppercase; letter-spacing: 0.1em;
+  color: #D97706; display: block; margin-bottom: 0.5rem;
+}
+.fi-heading {
+  font-size: clamp(1.3rem, 3vw, 1.9rem); font-weight: 800; color: #0F172A;
+  line-height: 1.2; margin: 0 0 0.75rem;
+}
+.fi-section--dark .fi-heading { color: white !important; }
+.fi-subhead { font-size: 0.92rem; color: #475569; line-height: 1.65; max-width: 720px; margin-bottom: 2rem; }
+
+/* ============================================================
+   BIG CLAIM
+   ============================================================ */
+.fi-big-claim {
+  display: flex; align-items: center; gap: 3rem; flex-wrap: wrap;
+}
+.fi-big-claim-text { flex: 1; min-width: 300px; }
+.fi-big-claim-label {
+  font-size: 0.68rem; font-weight: 700; text-transform: uppercase; letter-spacing: 0.1em;
+  color: #FCD34D; display: block; margin-bottom: 0.75rem;
+}
+.fi-big-claim-text h2 {
+  font-size: clamp(1.4rem, 3vw, 2rem); font-weight: 800; color: white !important;
+  line-height: 1.2; margin: 0 0 1rem;
+}
+.fi-big-claim-text p { font-size: 0.88rem; color: rgba(255,255,255,0.65); line-height: 1.7; margin-bottom: 0.75rem; }
+.fi-big-claim-text strong { color: rgba(255,255,255,0.9); }
+.fi-big-claim-stat {
+  background: rgba(255,255,255,0.05); border: 1px solid rgba(252,211,77,0.25);
+  border-radius: 1rem; padding: 2rem 1.75rem; text-align: center; flex-shrink: 0; min-width: 200px;
+}
+.fi-claim-num { font-size: 2.5rem; font-weight: 900; color: #FCD34D; line-height: 1; margin-bottom: 0.5rem; }
+.fi-claim-label { font-size: 0.78rem; color: rgba(255,255,255,0.7); line-height: 1.5; margin-bottom: 0.5rem; }
+.fi-claim-sub { font-size: 0.68rem; color: rgba(255,255,255,0.45); font-style: italic; }
+
+/* ============================================================
+   INSTRUMENTOS
+   ============================================================ */
+.fi-instruments {
+  display: grid; grid-template-columns: repeat(3, 1fr); gap: 1rem; margin-top: 1.75rem;
+}
+.fi-instr {
+  background: white; border: 1px solid #E2E8F0; border-radius: 0.85rem; padding: 1.25rem;
+  position: relative;
+}
+.fi-instr--featured {
+  border-color: rgba(217,119,6,0.4); border-width: 2px;
+  background: linear-gradient(135deg, #FFFBEB, #FFFFFF);
+}
+.fi-instr-tag {
+  font-size: 0.6rem; font-weight: 800; text-transform: uppercase; letter-spacing: 0.1em;
+  color: #D97706; background: rgba(217,119,6,0.1); border-radius: 999px;
+  padding: 0.15rem 0.55rem; display: inline-block; margin-bottom: 0.5rem;
+}
+.fi-instr-icon { font-size: 1.5rem; margin-bottom: 0.6rem; display: block; }
+.fi-instr-name { font-size: 0.9rem; font-weight: 800; color: #0F172A; margin-bottom: 0.4rem; line-height: 1.3; }
+.fi-instr-desc { font-size: 0.79rem; color: #475569; line-height: 1.6; margin-bottom: 0.65rem; }
+.fi-instr-roles { display: flex; flex-wrap: wrap; gap: 0.3rem; }
+.fi-instr-roles span {
+  font-size: 0.65rem; font-weight: 600; background: #F8FAFC; border: 1px solid #E2E8F0;
+  color: #475569; padding: 0.15rem 0.5rem; border-radius: 999px;
+}
+
+/* ============================================================
+   PROCESO
+   ============================================================ */
+.fi-process { display: flex; flex-direction: column; gap: 0; margin-top: 1.75rem; }
+.fi-proc-step {
+  display: flex; gap: 1.5rem; align-items: flex-start;
+  padding: 1.5rem 1.75rem;
+  background: white; border: 1px solid #E2E8F0; border-radius: 0.85rem;
+  margin-bottom: 0.75rem;
+}
+.fi-proc-num {
+  width: 2.5rem; height: 2.5rem; border-radius: 50%; background: #D97706; color: white;
+  font-size: 0.85rem; font-weight: 800; display: flex; align-items: center; justify-content: center; flex-shrink: 0;
+}
+.fi-proc-title { font-size: 0.975rem; font-weight: 800; color: #0F172A; margin-bottom: 0.35rem; }
+.fi-proc-desc { font-size: 0.845rem; color: #475569; line-height: 1.65; margin-bottom: 0.5rem; }
+.fi-proc-output {
+  font-size: 0.72rem; font-weight: 700; color: #D97706; background: #FFFBEB;
+  border: 1px solid rgba(217,119,6,0.2); border-radius: 999px;
+  padding: 0.2rem 0.65rem; display: inline-block;
+}
+
+/* ============================================================
+   CRITERIOS
+   ============================================================ */
+.fi-criteria { display: flex; flex-direction: column; gap: 1.25rem; margin-top: 1.75rem; }
+.fi-criterion {
+  background: white; border: 1px solid #E2E8F0; border-radius: 0.875rem; padding: 1.5rem;
+}
+.fi-criterion--must { border-left: 4px solid #0D9488; }
+.fi-criterion--helps { border-left: 4px solid #D97706; }
+.fi-crit-tag {
+  font-size: 0.65rem; font-weight: 800; text-transform: uppercase; letter-spacing: 0.1em;
+  color: #0D9488; margin-bottom: 1rem; display: block;
+}
+.fi-crit-tag--helps { color: #D97706; }
+.fi-crit-items { display: flex; flex-direction: column; gap: 0.85rem; }
+.fi-crit-item { display: flex; gap: 0.85rem; align-items: flex-start; }
+.fi-crit-check {
+  width: 1.5rem; height: 1.5rem; border-radius: 50%; background: #0D9488; color: white;
+  font-size: 0.7rem; font-weight: 800; display: flex; align-items: center; justify-content: center; flex-shrink: 0;
+}
+.fi-crit-check--plus { background: #D97706; }
+.fi-crit-name { font-size: 0.875rem; font-weight: 700; color: #0F172A; margin-bottom: 0.25rem; }
+.fi-crit-desc { font-size: 0.8rem; color: #475569; line-height: 1.6; }
+.fi-eligibility-cta {
+  display: flex; align-items: center; justify-content: space-between; gap: 1.5rem; flex-wrap: wrap;
+  background: #0F172A; border-radius: 0.875rem; padding: 1.25rem 1.75rem; margin-top: 1.5rem;
+}
+.fi-elig-text { font-size: 0.85rem; color: rgba(255,255,255,0.75); line-height: 1.55; }
+.fi-elig-text strong { color: #FCD34D; }
+.fi-elig-btn {
+  font-size: 0.82rem; font-weight: 700; background: #D97706; color: white !important;
+  padding: 0.65rem 1.25rem; border-radius: 0.5rem; text-decoration: none !important;
+  white-space: nowrap; flex-shrink: 0; transition: background 0.2s;
+}
+.fi-elig-btn:hover { background: #B45309; }
+
+/* ============================================================
+   REFERENCIAS
+   ============================================================ */
+.fi-ref-grid {
+  display: grid; grid-template-columns: repeat(3, 1fr); gap: 1rem; margin-top: 1.75rem;
+}
+.fi-ref {
+  background: white; border: 1px solid #E2E8F0; border-radius: 0.85rem; padding: 1.25rem;
+}
+.fi-ref-country { font-size: 0.875rem; font-weight: 700; color: #0F172A; margin-bottom: 0.35rem; }
+.fi-ref-name { font-size: 0.82rem; font-weight: 800; color: #334155; margin-bottom: 0.4rem; line-height: 1.3; }
+.fi-ref-desc { font-size: 0.78rem; color: #64748B; line-height: 1.6; }
+
+/* ============================================================
+   VENTAJAS
+   ============================================================ */
+.fi-advantages { display: flex; flex-direction: column; gap: 0.85rem; margin-top: 1.75rem; }
+.fi-adv {
+  display: flex; gap: 1.1rem; align-items: flex-start;
+  background: white; border: 1px solid #E2E8F0; border-radius: 0.75rem; padding: 1.25rem 1.5rem;
+}
+.fi-adv-icon {
+  width: 2.5rem; height: 2.5rem; border-radius: 0.5rem;
+  display: flex; align-items: center; justify-content: center; font-size: 1.1rem; flex-shrink: 0;
+}
+.fi-adv-name { font-size: 0.925rem; font-weight: 800; color: #0F172A; margin-bottom: 0.3rem; }
+.fi-adv-desc { font-size: 0.82rem; color: #475569; line-height: 1.6; }
+
+/* ============================================================
+   CTA
+   ============================================================ */
+.fi-cta {
+  background: linear-gradient(135deg, #0F172A 0%, #451A03 50%, #D97706 100%);
+  padding: 4rem 2rem;
+}
+.fi-cta-inner {
+  max-width: 900px; margin: 0 auto;
+  display: flex; align-items: center; justify-content: space-between; gap: 2.5rem; flex-wrap: wrap;
+}
+.fi-cta-text h2 { font-size: 1.6rem; font-weight: 800; color: white !important; margin: 0 0 0.75rem; line-height: 1.2; }
+.fi-cta-text p { font-size: 0.92rem; color: rgba(255,255,255,0.72); line-height: 1.65; margin: 0; max-width: 480px; }
+.fi-cta-actions { display: flex; flex-direction: column; gap: 0.75rem; flex-shrink: 0; }
+.fi-cta-btn {
+  display: inline-block; font-size: 0.9rem; font-weight: 700;
+  padding: 0.75rem 1.75rem; border-radius: 0.5rem;
+  text-decoration: none !important; text-align: center; transition: all 0.2s; white-space: nowrap;
+}
+.fi-cta-btn--primary { background: #D97706; color: white !important; }
+.fi-cta-btn--primary:hover { background: #B45309; }
+.fi-cta-btn--ghost { background: transparent; color: rgba(255,255,255,0.8) !important; border: 1.5px solid rgba(255,255,255,0.3); }
+.fi-cta-btn--ghost:hover { background: rgba(255,255,255,0.08); }
+
+/* ============================================================
+   RESPONSIVE
+   ============================================================ */
+@media (max-width: 860px) {
+  .fi-instruments { grid-template-columns: 1fr; }
+  .fi-ref-grid { grid-template-columns: 1fr; }
+  .fi-big-claim { flex-direction: column; }
+}
+@media (max-width: 600px) {
+  .fi-proc-step { flex-direction: column; gap: 0.75rem; }
+  .fi-cta-inner { flex-direction: column; }
+  .fi-cta-actions { width: 100%; }
+  .fi-cta-btn { width: 100%; }
+  .fi-eligibility-cta { flex-direction: column; }
+}
+</style>
+```

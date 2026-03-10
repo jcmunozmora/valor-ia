@@ -199,6 +199,14 @@ toc: false
         <span class="sr-label">Resultado</span>
         <span class="sr-val">Equipo capaz de diseñar y ejecutar análisis propios &middot; Autonomía metodológica real</span>
       </div>
+
+      <div style="margin-top:1rem;">
+        <a href="servicios/formacion.html"
+           style="display:inline-flex; align-items:center; gap:0.4rem; color:#7C3AED; font-size:0.83rem; font-weight:700; text-decoration:none; border-bottom:1px solid rgba(124,58,237,0.25); padding-bottom:0.1rem; transition:border-color 0.2s;"
+           onmouseover="this.style.borderColor='#7C3AED'" onmouseout="this.style.borderColor='rgba(124,58,237,0.25)'">
+          Ver ruta formativa completa — 5 niveles, del concepto a la financiación &rarr;
+        </a>
+      </div>
     </div>
   </div>
 
@@ -310,6 +318,7 @@ toc: false
       </div>
     </div>
   </div>
+
 
 </div>
 </div>
@@ -644,9 +653,12 @@ toc: false
 }
 .sr-val { color: #334155; line-height: 1.45; }
 
-.service-card--measure { border-left: 4px solid #0D9488; }
-.service-card--train   { border-left: 4px solid #7C3AED; }
-.service-card--audit   { border-left: 4px solid #0EA5E9; }
+.service-card--measure  { border-left: 4px solid #0D9488; }
+.service-card--train    { border-left: 4px solid #7C3AED; }
+.service-card--audit    { border-left: 4px solid #0EA5E9; }
+.service-card--finance  { border-left: 4px solid #D97706; background: linear-gradient(135deg, #FFFBEB 0%, #FFFFFF 40%); }
+.nivel-badge--finance   { background: rgba(217,119,6,0.1); color: #92400E; border: 1px solid rgba(217,119,6,0.25); }
+.ruta-step--finance     { border: 1.5px solid rgba(217,119,6,0.25); background: linear-gradient(135deg, #FFFBEB, #FFFFFF); }
 
 /* ============================================================
    RUTA FLOW — CÓMO FUNCIONA EL ACOMPAÑAMIENTO

@@ -1,0 +1,1335 @@
+<!DOCTYPE html>
+<html xmlns="http://www.w3.org/1999/xhtml" lang="en" xml:lang="en"><head>
+
+<meta charset="utf-8">
+<meta name="generator" content="quarto-1.7.34">
+
+<meta name="viewport" content="width=device-width, initial-scale=1.0, user-scalable=yes">
+
+<meta name="description" content="Acompañamiento completo para convertir su programa social en evidencia verificable con ratio SROI — Centro Valor Público, EAFIT.">
+
+<title>Medición y Valoración de Impacto – Valor·IA — CVP EAFIT</title>
+<style>
+code{white-space: pre-wrap;}
+span.smallcaps{font-variant: small-caps;}
+div.columns{display: flex; gap: min(4vw, 1.5em);}
+div.column{flex: auto; overflow-x: auto;}
+div.hanging-indent{margin-left: 1.5em; text-indent: -1.5em;}
+ul.task-list{list-style: none;}
+ul.task-list li input[type="checkbox"] {
+  width: 0.8em;
+  margin: 0 0.8em 0.2em -1em; /* quarto-specific, see https://github.com/quarto-dev/quarto-cli/issues/4556 */ 
+  vertical-align: middle;
+}
+</style>
+
+
+<script src="../site_libs/quarto-nav/quarto-nav.js"></script>
+<script src="../site_libs/clipboard/clipboard.min.js"></script>
+<script src="../site_libs/quarto-search/autocomplete.umd.js"></script>
+<script src="../site_libs/quarto-search/fuse.min.js"></script>
+<script src="../site_libs/quarto-search/quarto-search.js"></script>
+<meta name="quarto:offset" content="../">
+<link href="../images/favicon.svg" rel="icon" type="image/svg+xml">
+<script src="../site_libs/quarto-html/quarto.js" type="module"></script>
+<script src="../site_libs/quarto-html/tabsets/tabsets.js" type="module"></script>
+<script src="../site_libs/quarto-html/popper.min.js"></script>
+<script src="../site_libs/quarto-html/tippy.umd.min.js"></script>
+<script src="../site_libs/quarto-html/anchor.min.js"></script>
+<link href="../site_libs/quarto-html/tippy.css" rel="stylesheet">
+<link href="../site_libs/quarto-html/quarto-syntax-highlighting-48057c8318adb0cac17b2c26210119c4.css" rel="stylesheet" id="quarto-text-highlighting-styles">
+<script src="../site_libs/bootstrap/bootstrap.min.js"></script>
+<link href="../site_libs/bootstrap/bootstrap-icons.css" rel="stylesheet">
+<link href="../site_libs/bootstrap/bootstrap-3fc971585eb44275fc4cbf61cf2c1055.min.css" rel="stylesheet" append-hash="true" id="quarto-bootstrap" data-mode="light">
+<script id="quarto-search-options" type="application/json">{
+  "location": "navbar",
+  "copy-button": false,
+  "collapse-after": 3,
+  "panel-placement": "end",
+  "type": "overlay",
+  "limit": 50,
+  "keyboard-shortcut": [
+    "f",
+    "/",
+    "s"
+  ],
+  "show-item-context": false,
+  "language": {
+    "search-no-results-text": "No results",
+    "search-matching-documents-text": "matching documents",
+    "search-copy-link-title": "Copy link to search",
+    "search-hide-matches-text": "Hide additional matches",
+    "search-more-match-text": "more match in this document",
+    "search-more-matches-text": "more matches in this document",
+    "search-clear-button-title": "Clear",
+    "search-text-placeholder": "",
+    "search-detached-cancel-button-title": "Cancel",
+    "search-submit-button-title": "Submit",
+    "search-label": "Search"
+  }
+}</script>
+<style>html{ scroll-behavior: smooth; }</style>
+<link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin="">
+<link href="https://fonts.googleapis.com/css2?family=Inter:wght@300;400;500;600;700;800;900&amp;family=JetBrains+Mono:wght@400;500&amp;display=swap" rel="stylesheet">
+<script type="application/ld+json">
+{
+  "@context": "https://schema.org",
+  "@type": "Organization",
+  "name": "Valor·IA — Centro Valor Público EAFIT",
+  "description": "Especialistas en medición de impacto social para América Latina. SROI, evaluación de impacto, Teorías del Cambio y metodología iMEL®.",
+  "url": "https://jcmunozmora.github.io/valor-ia/",
+  "logo": "https://jcmunozmora.github.io/valor-ia/images/favicon.svg",
+  "parentOrganization": {
+    "@type": "EducationalOrganization",
+    "name": "Universidad EAFIT",
+    "url": "https://www.eafit.edu.co"
+  },
+  "areaServed": ["Colombia", "México", "Argentina", "Chile", "América Latina"],
+  "knowsAbout": ["SROI", "Social Return on Investment", "Evaluación de impacto social", "Teoría del Cambio", "WELLBY", "iMEL"],
+  "foundingDate": "2020"
+}
+</script>
+
+
+<meta property="og:title" content="Valor·IA — CVP EAFIT">
+<meta property="og:description" content="Especialistas en medición de impacto social para América Latina. SROI, evaluación de impacto, Teorías del Cambio y metodología iMEL® — Centro Valor Público, Universidad EAFIT.">
+<meta property="og:image" content="images/og-image.png">
+<meta property="og:site_name" content="Valor·IA — CVP EAFIT">
+</head>
+
+<body class="nav-fixed fullcontent quarto-light">
+
+<div id="quarto-search-results"></div>
+  <header id="quarto-header" class="headroom fixed-top">
+    <nav class="navbar navbar-expand-lg " data-bs-theme="dark">
+      <div class="navbar-container container-fluid">
+      <div class="navbar-brand-container mx-auto">
+    <a class="navbar-brand" href="../index.html">
+    <span class="navbar-title">Valor·IA — CVP EAFIT</span>
+    </a>
+  </div>
+            <div id="quarto-search" class="" title="Search"></div>
+          <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarCollapse" aria-controls="navbarCollapse" role="menu" aria-expanded="false" aria-label="Toggle navigation" onclick="if (window.quartoToggleHeadroom) { window.quartoToggleHeadroom(); }">
+  <span class="navbar-toggler-icon"></span>
+</button>
+          <div class="collapse navbar-collapse" id="navbarCollapse">
+            <ul class="navbar-nav navbar-nav-scroll me-auto">
+  <li class="nav-item">
+    <a class="nav-link" href="../index.html"> 
+<span class="menu-text">Inicio</span></a>
+  </li>  
+  <li class="nav-item">
+    <a class="nav-link" href="../metodologia.html"> 
+<span class="menu-text">Metodología iMEL®</span></a>
+  </li>  
+  <li class="nav-item">
+    <a class="nav-link" href="../ciencia.html"> 
+<span class="menu-text">Evidencia</span></a>
+  </li>  
+  <li class="nav-item dropdown ">
+    <a class="nav-link dropdown-toggle" href="#" id="nav-menu-servicios" role="link" data-bs-toggle="dropdown" aria-expanded="false">
+ <span class="menu-text">Servicios</span>
+    </a>
+    <ul class="dropdown-menu" aria-labelledby="nav-menu-servicios">    
+        <li>
+    <a class="dropdown-item" href="../herramientas.html">
+ <span class="dropdown-text">Todos los servicios</span></a>
+  </li>  
+        <li><hr class="dropdown-divider"></li>
+        <li>
+    <a class="dropdown-item" href="../servicios/formacion.html">
+ <span class="dropdown-text">Formación en Valor Social</span></a>
+  </li>  
+        <li>
+    <a class="dropdown-item" href="../servicios/medicion.html">
+ <span class="dropdown-text">Medición y Valoración de Impacto</span></a>
+  </li>  
+    </ul>
+  </li>
+  <li class="nav-item dropdown ">
+    <a class="nav-link dropdown-toggle" href="#" id="nav-menu-herramientas" role="link" data-bs-toggle="dropdown" aria-expanded="false">
+ <span class="menu-text">Herramientas</span>
+    </a>
+    <ul class="dropdown-menu" aria-labelledby="nav-menu-herramientas">    
+        <li>
+    <a class="dropdown-item" href="../metodos/index.html">
+ <span class="dropdown-text">Caja de herramientas — Índice</span></a>
+  </li>  
+        <li><hr class="dropdown-divider"></li>
+        <li class="dropdown-header">Evaluación de impacto</li>
+        <li>
+    <a class="dropdown-item" href="../metodos/rct.html">
+ <span class="dropdown-text">RCT / cRCT — Ensayo aleatorizado</span></a>
+  </li>  
+        <li>
+    <a class="dropdown-item" href="../metodos/did.html">
+ <span class="dropdown-text">DiD — Diferencias en diferencias</span></a>
+  </li>  
+        <li><hr class="dropdown-divider"></li>
+        <li class="dropdown-header">Valoración monetaria</li>
+        <li>
+    <a class="dropdown-item" href="../metodos/sroi.html">
+ <span class="dropdown-text">SROI — Social Return on Investment</span></a>
+  </li>  
+        <li>
+    <a class="dropdown-item" href="../metodos/wellby.html">
+ <span class="dropdown-text">WELLBY — Well-Being Years</span></a>
+  </li>  
+        <li>
+    <a class="dropdown-item" href="../metodos/costos-unitarios.html">
+ <span class="dropdown-text">Costos unitarios (Unit Costs)</span></a>
+  </li>  
+        <li>
+    <a class="dropdown-item" href="../metodos/wtp.html">
+ <span class="dropdown-text">WTP / WTA — Valoración contingente</span></a>
+  </li>  
+        <li><hr class="dropdown-divider"></li>
+        <li class="dropdown-header">Teorías del Cambio</li>
+        <li>
+    <a class="dropdown-item" href="../toc.html">
+ <span class="dropdown-text">Repositorio IMToC — 200 ToC calificadas</span></a>
+  </li>  
+        <li><hr class="dropdown-divider"></li>
+        <li class="dropdown-header">Indicadores</li>
+        <li>
+    <a class="dropdown-item" href="../indicadores.html">
+ <span class="dropdown-text">Banco de Indicadores — 105 indicadores P/R/I</span></a>
+  </li>  
+    </ul>
+  </li>
+  <li class="nav-item">
+    <a class="nav-link" href="../diagnostico.html"> 
+<span class="menu-text">Diagnóstico</span></a>
+  </li>  
+  <li class="nav-item">
+    <a class="nav-link" href="../aplicaciones.html"> 
+<span class="menu-text">Casos reales</span></a>
+  </li>  
+  <li class="nav-item">
+    <a class="nav-link" href="../equipo.html"> 
+<span class="menu-text">Equipo</span></a>
+  </li>  
+</ul>
+            <ul class="navbar-nav navbar-nav-scroll ms-auto">
+  <li class="nav-item">
+    <a class="nav-link" href="https://www.eafit.edu.co"> 
+<span class="menu-text">iMEL® · EAFIT</span></a>
+  </li>  
+</ul>
+          </div> <!-- /navcollapse -->
+            <div class="quarto-navbar-tools">
+</div>
+      </div> <!-- /container-fluid -->
+    </nav>
+</header>
+<!-- content -->
+<div id="quarto-content" class="quarto-container page-columns page-rows-contents page-layout-article page-navbar">
+<!-- sidebar -->
+<!-- margin-sidebar -->
+    
+<!-- main -->
+<main class="content" id="quarto-document-content">
+
+<header id="title-block-header" class="quarto-title-block default">
+<div class="quarto-title">
+<h1 class="title">Medición y Valoración de Impacto</h1>
+</div>
+
+<div>
+  <div class="description">
+    Acompañamiento completo para convertir su programa social en evidencia verificable con ratio SROI — Centro Valor Público, EAFIT.
+  </div>
+</div>
+
+
+<div class="quarto-title-meta">
+
+    
+  
+    
+  </div>
+  
+
+
+</header>
+
+
+<!-- ============================================================
+     HERO
+     ============================================================ -->
+<div class="med-hero">
+  <div class="med-hero-content">
+    <div class="med-hero-label">Servicio 02 · Centro Valor Público EAFIT</div>
+    <div class="med-hero-badges">
+      <span class="med-badge med-badge--svi">✓ SVI Certified</span>
+      <span class="med-badge med-badge--method">6 Etapas SVI · 8 Principios</span>
+    </div>
+    <h1 class="med-hero-title">
+      Medición y Valoración<br>
+      <span class="med-hero-hl">de Impacto Social</span>
+    </h1>
+    <p class="med-hero-lead">
+      Diseñamos e implementamos el análisis correcto para su programa — desde el Impact Map hasta el ratio SROI verificable.
+      Seleccionamos el método según sus datos, su audiencia y el uso que dará al resultado.
+    </p>
+    <div class="med-hero-stats">
+      <div class="med-stat"><div class="med-stat-num">383</div><div class="med-stat-label">Reportes SVI<br>de referencia</div></div>
+      <div class="med-stat-div"></div>
+      <div class="med-stat"><div class="med-stat-num">4.35×</div><div class="med-stat-label">Ratio SROI<br>mediano global</div></div>
+      <div class="med-stat-div"></div>
+      <div class="med-stat"><div class="med-stat-num">6</div><div class="med-stat-label">Métodos de<br>valoración</div></div>
+      <div class="med-stat-div"></div>
+      <div class="med-stat"><div class="med-stat-num">48</div><div class="med-stat-label">Criterios SVI<br>de aseguramiento</div></div>
+    </div>
+    <div class="med-hero-actions">
+      <a href="../diagnostico.html" class="med-btn med-btn--primary">Diagnóstico gratuito →</a>
+      <a href="../herramientas.html" class="med-btn med-btn--ghost">Ver todos los servicios</a>
+    </div>
+  </div>
+</div>
+
+<!-- ============================================================
+     POR QUÉ MEDIR
+     ============================================================ -->
+<div class="med-section med-section--alt">
+<div class="med-inner">
+
+<span class="med-label">El argumento</span>
+<h2 class="med-heading anchored">Su programa genera valor. La pregunta es si puede demostrarlo.</h2>
+
+<div class="med-why-grid">
+  <div class="med-why-card med-why-card--problem">
+    <div class="med-why-icon">⚠</div>
+    <div class="med-why-title">Sin evidencia verificable</div>
+    <div class="med-why-desc">Los financiadores deciden basándose en confianza, no en datos. El siguiente ciclo de presupuesto es incierto. El impacto real queda invisible.</div>
+  </div>
+  <div class="med-why-arrow">→</div>
+  <div class="med-why-card med-why-card--solution">
+    <div class="med-why-icon">✓</div>
+    <div class="med-why-title">Con ratio SROI verificable</div>
+    <div class="med-why-desc">Cada COP invertido genera X COP en valor social. La junta directiva puede defender el programa. Los aliados multilaterales tienen la evidencia que exigen.</div>
+  </div>
+</div>
+
+<div class="med-quote">
+  <div class="med-quote-text">"Un ratio SROI bien construido no es solo un número — es la narrativa de qué cambió, en quién, por cuánto tiempo y gracias a qué."</div>
+  <div class="med-quote-attr">— Principio 3, Social Value International: <em>Valorar las cosas que importan</em></div>
+</div>
+
+</div>
+</div>
+
+<!-- ============================================================
+     6 ETAPAS DEL PROCESO
+     ============================================================ -->
+<div class="med-section">
+<div class="med-inner">
+
+<span class="med-label">El proceso</span>
+<h2 class="med-heading anchored">Seis etapas SVI — del diagnóstico al informe verificable</h2>
+<p class="med-subhead">Seguimos las 6 etapas del proceso SROI definidas por Social Value International, adaptadas al contexto latinoamericano con proxies locales y benchmarking de los 383 reportes del corpus global.</p>
+
+<div class="med-stages">
+
+  <div class="med-stage">
+    <div class="med-stage-num">1</div>
+    <div class="med-stage-body">
+      <div class="med-stage-title">Alcance y stakeholders</div>
+      <div class="med-stage-desc">Definimos el propósito del análisis, los límites del programa y los grupos de interés materiales. Aplicamos el criterio de materialidad SVI para decidir qué outcomes incluir.</div>
+      <div class="med-stage-output">Entregable: Mapa de stakeholders · Alcance documentado</div>
+    </div>
+  </div>
+
+  <div class="med-stage">
+    <div class="med-stage-num">2</div>
+    <div class="med-stage-body">
+      <div class="med-stage-title">Impact Map — Teoría del Cambio</div>
+      <div class="med-stage-desc">Construimos el mapa de impacto con su equipo: inputs, actividades, outputs, outcomes e impactos. Identificamos la cadena causal verificable que vincula la inversión con el cambio real.</div>
+      <div class="med-stage-output">Entregable: Impact Map completo · Indicadores por outcome</div>
+    </div>
+  </div>
+
+  <div class="med-stage">
+    <div class="med-stage-num">3</div>
+    <div class="med-stage-body">
+      <div class="med-stage-title">Evidenciar outcomes y asignar valor</div>
+      <div class="med-stage-desc">Recolectamos o analizamos la evidencia disponible. Seleccionamos el proxy financiero apropiado para cada outcome usando la jerarquía SVI: valor de mercado → preferencias reveladas → WTP → WELLBY.</div>
+      <div class="med-stage-output">Entregable: Proxies validados · Value Map con monetización</div>
+    </div>
+  </div>
+
+  <div class="med-stage">
+    <div class="med-stage-num">4</div>
+    <div class="med-stage-body">
+      <div class="med-stage-title">Establecer el impacto atribuible</div>
+      <div class="med-stage-desc">Ajustamos el valor bruto por los cuatro factores SVI: peso muerto (deadweight), atribución, desplazamiento y decaimiento (drop-off). Este paso garantiza que no reclamamos más valor del que realmente generamos.</div>
+      <div class="med-stage-output">Entregable: Factores de ajuste documentados · Valor neto por outcome</div>
+    </div>
+  </div>
+
+  <div class="med-stage">
+    <div class="med-stage-num">5</div>
+    <div class="med-stage-body">
+      <div class="med-stage-title">Calcular el ratio SROI</div>
+      <div class="med-stage-desc">Calculamos el Valor Presente Neto de todos los outcomes y lo dividimos entre la inversión total. Incluimos análisis de sensibilidad y Monte Carlo para establecer el rango de confianza. Benchmarking automático contra el corpus de 383 reportes.</div>
+      <div class="med-stage-output">Entregable: Ratio SROI con rango · Análisis de sensibilidad · Benchmark global</div>
+    </div>
+  </div>
+
+  <div class="med-stage">
+    <div class="med-stage-num">6</div>
+    <div class="med-stage-body">
+      <div class="med-stage-title">Informe, uso y ciclo de mejora</div>
+      <div class="med-stage-desc">Entregamos el informe adaptado a su audiencia — junta directiva, financiadores, organismos multilaterales o publicación SVI. Incluimos recomendaciones concretas para mejorar el ratio en la siguiente versión del programa.</div>
+      <div class="med-stage-output">Entregable: Informe SVI · Presentación ejecutiva · Plan de mejora</div>
+    </div>
+  </div>
+
+</div>
+
+</div>
+</div>
+
+<!-- ============================================================
+     MÉTODOS DE VALORACIÓN
+     ============================================================ -->
+<div class="med-section med-section--alt">
+<div class="med-inner">
+
+<span class="med-label">Herramientas</span>
+<h2 class="med-heading anchored">El método correcto para cada pregunta</h2>
+<p class="med-subhead">No existe un método único. Seleccionamos el enfoque según el tipo de outcome, los datos disponibles y la audiencia que recibirá el resultado.</p>
+
+<div class="med-methods-grid">
+
+  <div class="med-method med-method--star">
+    <div class="med-method-tag">Método estrella</div>
+    <div class="med-method-name">SROI — Social Return on Investment</div>
+    <div class="med-method-desc">Análisis completo de valor social con monetización de outcomes, factores de ajuste SVI y ratio costo-beneficio. El estándar internacional de referencia.</div>
+    <div class="med-method-when">Ideal para: rendición de cuentas a financiadores, reporte ESG, aseguramiento SVI</div>
+  </div>
+
+  <div class="med-method">
+    <div class="med-method-name">WELLBY — Wellbeing Years</div>
+    <div class="med-method-desc">Valoración de outcomes de bienestar subjetivo usando la escala de vida (Cantril Ladder). £13,000 por punto de satisfacción vital / año (UK 2019, ajustado por PPP).</div>
+    <div class="med-method-when">Ideal para: salud mental, calidad de vida, programas de inclusión social</div>
+  </div>
+
+  <div class="med-method">
+    <div class="med-method-name">Análisis Costo-Beneficio Social (CBA)</div>
+    <div class="med-method-desc">Comparación sistemática de costos y beneficios sociales con descuento intertemporal. Permite comparar programas alternativos y justificar la inversión pública.</div>
+    <div class="med-method-when">Ideal para: entidades públicas, evaluaciones de política, proyectos de larga duración</div>
+  </div>
+
+  <div class="med-method">
+    <div class="med-method-name">WTP / Valoración contingente</div>
+    <div class="med-method-desc">Estimación de la disponibilidad a pagar por outcomes sin mercado. Formato de elección dicotómica (el más robusto según la literatura). Aplicable a bienes públicos y servicios ambientales.</div>
+    <div class="med-method-when">Ideal para: outcomes sin precio de mercado, servicios ecosistémicos, acceso a servicios</div>
+  </div>
+
+  <div class="med-method">
+    <div class="med-method-name">Costos unitarios (Unit Costs)</div>
+    <div class="med-method-desc">Uso de precios administrativos de servicios equivalentes como proxy de valor. Fuentes: ADRES (salud Colombia), SENA (formación), tarifas municipales, NHS/PSSRU para comparaciones internacionales.</div>
+    <div class="med-method-when">Ideal para: salud, educación, programas de empleo, programas con servicios paralelos públicos</div>
+  </div>
+
+  <div class="med-method">
+    <div class="med-method-name">Precios hedónicos y preferencias reveladas</div>
+    <div class="med-method-desc">Estimación del valor implícito a partir de comportamientos observables: diferencias salariales, precios inmobiliarios, costos de viaje. Más robusto que WTP pero requiere datos de mercado.</div>
+    <div class="med-method-when">Ideal para: mejoras habitacionales, acceso a empleo, reducción de crimen, proyectos territoriales</div>
+  </div>
+
+</div>
+
+</div>
+</div>
+
+<!-- ============================================================
+     ENTREGABLES CONCRETOS
+     ============================================================ -->
+<div class="med-section">
+<div class="med-inner">
+
+<span class="med-label">Entregables</span>
+<h2 class="med-heading anchored">¿Qué recibe al final del proceso?</h2>
+
+<div class="med-deliverables">
+
+  <div class="med-deliv">
+    <div class="med-deliv-num">01</div>
+    <div class="med-deliv-content">
+      <div class="med-deliv-name">Value Map SROI completo</div>
+      <div class="med-deliv-desc">Hoja de cálculo estructurada según el estándar SVI: inputs, outputs, outcomes, proxies, factores de ajuste y cálculo final. Reproducible y auditable por terceros.</div>
+    </div>
+  </div>
+
+  <div class="med-deliv">
+    <div class="med-deliv-num">02</div>
+    <div class="med-deliv-content">
+      <div class="med-deliv-name">Ratio SROI con rango de confianza</div>
+      <div class="med-deliv-desc">Estimación central + análisis de sensibilidad con las variables más críticas. Posicionamiento automático en el benchmark de los 383 reportes del corpus global SVI.</div>
+    </div>
+  </div>
+
+  <div class="med-deliv">
+    <div class="med-deliv-num">03</div>
+    <div class="med-deliv-content">
+      <div class="med-deliv-name">Informe narrativo SVI</div>
+      <div class="med-deliv-desc">Documento estructurado según las 6 etapas y los 8 principios. Incluye disclosure de supuestos, limitaciones y recomendaciones. Listo para aseguramiento externo SVI si se requiere.</div>
+    </div>
+  </div>
+
+  <div class="med-deliv">
+    <div class="med-deliv-num">04</div>
+    <div class="med-deliv-content">
+      <div class="med-deliv-name">Presentación ejecutiva</div>
+      <div class="med-deliv-desc">Presentación adaptada a la audiencia (junta directiva, financiadores, entidades públicas, multilaterales). Incluye visualizaciones: waterfall, tornado, benchmark comparado.</div>
+    </div>
+  </div>
+
+  <div class="med-deliv">
+    <div class="med-deliv-num">05</div>
+    <div class="med-deliv-content">
+      <div class="med-deliv-name">Recomendaciones estratégicas</div>
+      <div class="med-deliv-desc">Plan concreto para mejorar el ratio en el siguiente ciclo: palancas de valor, outcomes subestimados, ajustes operativos de alto impacto. El análisis no termina con el número — termina con decisiones accionables.</div>
+    </div>
+  </div>
+
+</div>
+
+</div>
+</div>
+
+<!-- ============================================================
+     PARA QUIÉN
+     ============================================================ -->
+<div class="med-section med-section--alt">
+<div class="med-inner">
+
+<span class="med-label">Audiencias</span>
+<h2 class="med-heading anchored">¿Quién necesita un SROI verificable?</h2>
+
+<div class="med-audiences">
+
+  <div class="med-aud">
+    <div class="med-aud-icon" style="background:rgba(124,58,237,0.1); color:#7C3AED;">🏢</div>
+    <div class="med-aud-name">Empresas con programas RSE</div>
+    <div class="med-aud-desc">Demuestran el valor social de su inversión ante el consejo directivo y en sus reportes ESG / GRI. El SROI es la métrica que conecta la inversión social con el valor de reputación e impacto real.</div>
+    <div class="med-aud-entry">Punto de entrada: N3 Evaluación de outcomes</div>
+  </div>
+
+  <div class="med-aud">
+    <div class="med-aud-icon" style="background:rgba(13,148,136,0.1); color:#0D9488;">🏠</div>
+    <div class="med-aud-name">Fundaciones privadas y corporativas</div>
+    <div class="med-aud-desc">Justifican ante sus patronatos la renovación de programas, comparan portafolios de inversión social y posicionan su trabajo en el benchmarking internacional de Social Value International.</div>
+    <div class="med-aud-entry">Punto de entrada: N2 Monitoreo de outputs o N3</div>
+  </div>
+
+  <div class="med-aud">
+    <div class="med-aud-icon" style="background:rgba(14,165,233,0.1); color:#0EA5E9;">🏛</div>
+    <div class="med-aud-name">Cajas de compensación familiar</div>
+    <div class="med-aud-desc">Responden a la Superintendencia con evidencia de impacto, no solo cobertura. El SROI convierte los datos de sus programas en argumentos para expandir el portafolio social.</div>
+    <div class="med-aud-entry">Punto de entrada: N3 o N4 según disponibilidad de datos</div>
+  </div>
+
+  <div class="med-aud">
+    <div class="med-aud-icon" style="background:rgba(239,68,68,0.1); color:#DC2626;">🌍</div>
+    <div class="med-aud-name">Entidades públicas y multilaterales</div>
+    <div class="med-aud-desc">Demuestran el impacto de programas con fondos públicos o cooperación internacional. BID, PNUD y Banco Mundial exigen cada vez más evidencia de valor por dinero (VfM) como condición de renovación.</div>
+    <div class="med-aud-entry">Punto de entrada: N4 o N5 (diseño cuasi-experimental o RCT)</div>
+  </div>
+
+</div>
+
+</div>
+</div>
+
+<!-- ============================================================
+     CTA
+     ============================================================ -->
+<div class="med-cta">
+<div class="med-cta-inner">
+  <div class="med-cta-text">
+    <h2 class="anchored">¿Su programa está listo para el análisis?</h2>
+    <p>El primer paso es un diagnóstico de 30 minutos: revisamos sus datos disponibles, su Teoría del Cambio y decidimos juntos el método apropiado. Sin costo, sin compromiso.</p>
+  </div>
+  <div class="med-cta-actions">
+    <a href="../diagnostico.html" class="med-cta-btn med-cta-btn--primary">Diagnóstico gratuito →</a>
+    <a href="mailto:jmunozm1@eafit.edu.co?subject=Medición de impacto social — consulta" class="med-cta-btn med-cta-btn--ghost">Escribir al equipo</a>
+  </div>
+</div>
+</div>
+<style>
+/* ============================================================
+   HERO
+   ============================================================ */
+.med-hero {
+  background: linear-gradient(135deg, #0F172A 0%, #064E3B 55%, #0D9488 100%);
+  padding: 4rem 2rem 3.5rem;
+}
+.med-hero-content {
+  max-width: 860px;
+  margin: 0 auto;
+}
+.med-hero-label {
+  font-size: 0.68rem;
+  font-weight: 700;
+  letter-spacing: 0.12em;
+  text-transform: uppercase;
+  color: rgba(255,255,255,0.5);
+  margin-bottom: 0.85rem;
+  display: block;
+}
+.med-hero-badges {
+  display: flex;
+  flex-wrap: wrap;
+  gap: 0.5rem;
+  margin-bottom: 1rem;
+}
+.med-badge {
+  font-size: 0.68rem;
+  font-weight: 700;
+  letter-spacing: 0.07em;
+  text-transform: uppercase;
+  padding: 0.25rem 0.75rem;
+  border-radius: 999px;
+}
+.med-badge--svi {
+  background: rgba(29,78,216,0.15);
+  border: 1px solid rgba(96,165,250,0.35);
+  color: #93C5FD;
+}
+.med-badge--method {
+  background: rgba(94,234,212,0.1);
+  border: 1px solid rgba(94,234,212,0.3);
+  color: #5EEAD4;
+}
+.med-hero-title {
+  font-size: clamp(1.75rem, 4.5vw, 3rem);
+  font-weight: 900;
+  color: white !important;
+  line-height: 1.15;
+  margin: 0 0 1rem;
+  letter-spacing: -0.03em;
+}
+.med-hero-hl { color: #5EEAD4; }
+.med-hero-lead {
+  font-size: 1rem;
+  color: rgba(255,255,255,0.75);
+  line-height: 1.65;
+  max-width: 680px;
+  margin-bottom: 1.75rem;
+}
+.med-hero-stats {
+  display: flex;
+  align-items: center;
+  gap: 0;
+  background: rgba(255,255,255,0.05);
+  border: 1px solid rgba(255,255,255,0.1);
+  border-radius: 0.75rem;
+  padding: 1rem 1.5rem;
+  margin-bottom: 1.75rem;
+  flex-wrap: wrap;
+}
+.med-stat { text-align: center; padding: 0.25rem 1.5rem; }
+.med-stat-num { font-size: 1.75rem; font-weight: 900; color: #5EEAD4; line-height: 1; margin-bottom: 0.3rem; }
+.med-stat-label { font-size: 0.68rem; color: rgba(255,255,255,0.55); line-height: 1.35; font-weight: 500; text-transform: uppercase; letter-spacing: 0.04em; }
+.med-stat-div { width: 1px; height: 2.5rem; background: rgba(255,255,255,0.1); }
+.med-hero-actions { display: flex; gap: 0.75rem; flex-wrap: wrap; }
+.med-btn {
+  display: inline-block;
+  font-size: 0.88rem;
+  font-weight: 700;
+  padding: 0.7rem 1.5rem;
+  border-radius: 0.5rem;
+  text-decoration: none !important;
+  transition: all 0.2s;
+}
+.med-btn--primary { background: #0D9488; color: white !important; }
+.med-btn--primary:hover { background: #0F766E; }
+.med-btn--ghost { background: transparent; color: rgba(255,255,255,0.8) !important; border: 1.5px solid rgba(255,255,255,0.3); }
+.med-btn--ghost:hover { background: rgba(255,255,255,0.08); }
+
+/* ============================================================
+   LAYOUT BASE
+   ============================================================ */
+.med-section { padding: 3rem 2rem; }
+.med-section--alt { background: #F8FAFC; }
+.med-inner { max-width: 900px; margin: 0 auto; }
+.med-label {
+  font-size: 0.68rem;
+  font-weight: 700;
+  text-transform: uppercase;
+  letter-spacing: 0.1em;
+  color: #0D9488;
+  display: block;
+  margin-bottom: 0.5rem;
+}
+.med-heading {
+  font-size: clamp(1.3rem, 3vw, 1.9rem);
+  font-weight: 800;
+  color: #0F172A;
+  line-height: 1.2;
+  margin: 0 0 0.75rem;
+}
+.med-subhead {
+  font-size: 0.92rem;
+  color: #475569;
+  line-height: 1.65;
+  max-width: 720px;
+  margin-bottom: 2rem;
+}
+
+/* ============================================================
+   WHY GRID
+   ============================================================ */
+.med-why-grid {
+  display: flex;
+  align-items: center;
+  gap: 1rem;
+  margin: 1.75rem 0;
+  flex-wrap: wrap;
+}
+.med-why-card {
+  flex: 1;
+  min-width: 220px;
+  padding: 1.5rem;
+  border-radius: 0.85rem;
+}
+.med-why-card--problem { background: #FFF1F2; border: 1px solid #FECDD3; }
+.med-why-card--solution { background: #F0FDFA; border: 1px solid #CCFBF1; }
+.med-why-icon { font-size: 1.5rem; margin-bottom: 0.5rem; }
+.med-why-title { font-size: 0.95rem; font-weight: 800; color: #0F172A; margin-bottom: 0.5rem; }
+.med-why-desc { font-size: 0.83rem; color: #475569; line-height: 1.6; }
+.med-why-arrow { font-size: 1.5rem; color: #CBD5E1; flex-shrink: 0; }
+.med-quote {
+  background: #0F172A;
+  border-left: 4px solid #0D9488;
+  border-radius: 0 0.75rem 0.75rem 0;
+  padding: 1.25rem 1.5rem;
+  margin-top: 1.25rem;
+}
+.med-quote-text { font-size: 0.95rem; color: rgba(255,255,255,0.85); font-style: italic; line-height: 1.65; margin-bottom: 0.5rem; }
+.med-quote-attr { font-size: 0.75rem; color: #5EEAD4; font-weight: 600; }
+
+/* ============================================================
+   6 ETAPAS
+   ============================================================ */
+.med-stages {
+  display: flex;
+  flex-direction: column;
+  gap: 0;
+  margin-top: 1.75rem;
+  border: 1px solid #E2E8F0;
+  border-radius: 1rem;
+  overflow: hidden;
+}
+.med-stage {
+  display: flex;
+  gap: 1.5rem;
+  align-items: flex-start;
+  padding: 1.5rem 2rem;
+  border-bottom: 1px solid #F1F5F9;
+  background: white;
+  transition: background 0.15s;
+}
+.med-stage:last-child { border-bottom: none; }
+.med-stage:hover { background: #FAFBFF; }
+.med-stage-num {
+  width: 2.25rem;
+  height: 2.25rem;
+  border-radius: 50%;
+  background: #0D9488;
+  color: white;
+  font-size: 0.8rem;
+  font-weight: 800;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  flex-shrink: 0;
+}
+.med-stage-title { font-size: 0.975rem; font-weight: 800; color: #0F172A; margin-bottom: 0.35rem; }
+.med-stage-desc { font-size: 0.845rem; color: #475569; line-height: 1.65; margin-bottom: 0.5rem; }
+.med-stage-output {
+  font-size: 0.72rem;
+  font-weight: 700;
+  color: #0D9488;
+  background: #F0FDFA;
+  border: 1px solid #CCFBF1;
+  border-radius: 999px;
+  padding: 0.2rem 0.65rem;
+  display: inline-block;
+}
+
+/* ============================================================
+   MÉTODOS
+   ============================================================ */
+.med-methods-grid {
+  display: grid;
+  grid-template-columns: repeat(3, 1fr);
+  gap: 1rem;
+  margin-top: 1.75rem;
+}
+.med-method {
+  background: white;
+  border: 1px solid #E2E8F0;
+  border-radius: 0.85rem;
+  padding: 1.25rem;
+  position: relative;
+}
+.med-method--star {
+  border-color: rgba(13,148,136,0.35);
+  border-width: 2px;
+  background: linear-gradient(135deg, #F0FDFA, #FFFFFF);
+}
+.med-method-tag {
+  font-size: 0.6rem;
+  font-weight: 800;
+  text-transform: uppercase;
+  letter-spacing: 0.1em;
+  color: #0D9488;
+  background: rgba(13,148,136,0.1);
+  border-radius: 999px;
+  padding: 0.15rem 0.55rem;
+  display: inline-block;
+  margin-bottom: 0.5rem;
+}
+.med-method-name { font-size: 0.875rem; font-weight: 800; color: #0F172A; margin-bottom: 0.4rem; line-height: 1.3; }
+.med-method-desc { font-size: 0.79rem; color: #475569; line-height: 1.6; margin-bottom: 0.5rem; }
+.med-method-when { font-size: 0.72rem; color: #64748B; font-style: italic; line-height: 1.45; }
+
+/* ============================================================
+   ENTREGABLES
+   ============================================================ */
+.med-deliverables {
+  display: flex;
+  flex-direction: column;
+  gap: 0.85rem;
+  margin-top: 1.75rem;
+}
+.med-deliv {
+  display: flex;
+  gap: 1.25rem;
+  align-items: flex-start;
+  background: white;
+  border: 1px solid #E2E8F0;
+  border-radius: 0.75rem;
+  padding: 1.25rem 1.5rem;
+}
+.med-deliv-num {
+  font-size: 1.5rem;
+  font-weight: 900;
+  color: #E2E8F0;
+  line-height: 1;
+  flex-shrink: 0;
+  min-width: 2rem;
+}
+.med-deliv-name { font-size: 0.925rem; font-weight: 800; color: #0F172A; margin-bottom: 0.3rem; }
+.med-deliv-desc { font-size: 0.83rem; color: #475569; line-height: 1.6; }
+
+/* ============================================================
+   AUDIENCIAS
+   ============================================================ */
+.med-audiences {
+  display: grid;
+  grid-template-columns: repeat(2, 1fr);
+  gap: 1.1rem;
+  margin-top: 1.75rem;
+}
+.med-aud {
+  background: white;
+  border: 1px solid #E2E8F0;
+  border-radius: 0.85rem;
+  padding: 1.5rem;
+}
+.med-aud-icon {
+  width: 2.5rem;
+  height: 2.5rem;
+  border-radius: 50%;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  font-size: 1.1rem;
+  margin-bottom: 0.75rem;
+}
+.med-aud-name { font-size: 0.925rem; font-weight: 800; color: #0F172A; margin-bottom: 0.4rem; }
+.med-aud-desc { font-size: 0.82rem; color: #475569; line-height: 1.6; margin-bottom: 0.65rem; }
+.med-aud-entry { font-size: 0.72rem; font-weight: 700; color: #0D9488; }
+
+/* ============================================================
+   CTA
+   ============================================================ */
+.med-cta {
+  background: linear-gradient(135deg, #0F172A 0%, #064E3B 50%, #0D9488 100%);
+  padding: 4rem 2rem;
+}
+.med-cta-inner {
+  max-width: 900px;
+  margin: 0 auto;
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  gap: 2.5rem;
+  flex-wrap: wrap;
+}
+.med-cta-text h2 { font-size: 1.6rem; font-weight: 800; color: white !important; margin: 0 0 0.75rem; line-height: 1.2; }
+.med-cta-text p { font-size: 0.92rem; color: rgba(255,255,255,0.72); line-height: 1.65; margin: 0; max-width: 480px; }
+.med-cta-actions { display: flex; flex-direction: column; gap: 0.75rem; flex-shrink: 0; }
+.med-cta-btn {
+  display: inline-block;
+  font-size: 0.9rem;
+  font-weight: 700;
+  padding: 0.75rem 1.75rem;
+  border-radius: 0.5rem;
+  text-decoration: none !important;
+  text-align: center;
+  transition: all 0.2s;
+  white-space: nowrap;
+}
+.med-cta-btn--primary { background: #0D9488; color: white !important; }
+.med-cta-btn--primary:hover { background: #0F766E; }
+.med-cta-btn--ghost { background: transparent; color: rgba(255,255,255,0.8) !important; border: 1.5px solid rgba(255,255,255,0.3); }
+.med-cta-btn--ghost:hover { background: rgba(255,255,255,0.08); }
+
+/* ============================================================
+   RESPONSIVE
+   ============================================================ */
+@media (max-width: 860px) {
+  .med-methods-grid { grid-template-columns: 1fr; }
+  .med-audiences { grid-template-columns: 1fr; }
+  .med-why-grid { flex-direction: column; }
+  .med-why-arrow { transform: rotate(90deg); }
+  .med-hero-stats { justify-content: center; }
+  .med-stat-div { display: none; }
+}
+@media (max-width: 600px) {
+  .med-stage { flex-direction: column; gap: 0.75rem; padding: 1.25rem; }
+  .med-cta-inner { flex-direction: column; }
+  .med-cta-actions { width: 100%; }
+  .med-cta-btn { width: 100%; }
+}
+</style>
+
+
+
+</main> <!-- /main -->
+<script id="quarto-html-after-body" type="application/javascript">
+  window.document.addEventListener("DOMContentLoaded", function (event) {
+    const icon = "";
+    const anchorJS = new window.AnchorJS();
+    anchorJS.options = {
+      placement: 'right',
+      icon: icon
+    };
+    anchorJS.add('.anchored');
+    const isCodeAnnotation = (el) => {
+      for (const clz of el.classList) {
+        if (clz.startsWith('code-annotation-')) {                     
+          return true;
+        }
+      }
+      return false;
+    }
+    const onCopySuccess = function(e) {
+      // button target
+      const button = e.trigger;
+      // don't keep focus
+      button.blur();
+      // flash "checked"
+      button.classList.add('code-copy-button-checked');
+      var currentTitle = button.getAttribute("title");
+      button.setAttribute("title", "Copied!");
+      let tooltip;
+      if (window.bootstrap) {
+        button.setAttribute("data-bs-toggle", "tooltip");
+        button.setAttribute("data-bs-placement", "left");
+        button.setAttribute("data-bs-title", "Copied!");
+        tooltip = new bootstrap.Tooltip(button, 
+          { trigger: "manual", 
+            customClass: "code-copy-button-tooltip",
+            offset: [0, -8]});
+        tooltip.show();    
+      }
+      setTimeout(function() {
+        if (tooltip) {
+          tooltip.hide();
+          button.removeAttribute("data-bs-title");
+          button.removeAttribute("data-bs-toggle");
+          button.removeAttribute("data-bs-placement");
+        }
+        button.setAttribute("title", currentTitle);
+        button.classList.remove('code-copy-button-checked');
+      }, 1000);
+      // clear code selection
+      e.clearSelection();
+    }
+    const getTextToCopy = function(trigger) {
+        const codeEl = trigger.previousElementSibling.cloneNode(true);
+        for (const childEl of codeEl.children) {
+          if (isCodeAnnotation(childEl)) {
+            childEl.remove();
+          }
+        }
+        return codeEl.innerText;
+    }
+    const clipboard = new window.ClipboardJS('.code-copy-button:not([data-in-quarto-modal])', {
+      text: getTextToCopy
+    });
+    clipboard.on('success', onCopySuccess);
+    if (window.document.getElementById('quarto-embedded-source-code-modal')) {
+      const clipboardModal = new window.ClipboardJS('.code-copy-button[data-in-quarto-modal]', {
+        text: getTextToCopy,
+        container: window.document.getElementById('quarto-embedded-source-code-modal')
+      });
+      clipboardModal.on('success', onCopySuccess);
+    }
+      var localhostRegex = new RegExp(/^(?:http|https):\/\/localhost\:?[0-9]*\//);
+      var mailtoRegex = new RegExp(/^mailto:/);
+        var filterRegex = new RegExp('/' + window.location.host + '/');
+      var isInternal = (href) => {
+          return filterRegex.test(href) || localhostRegex.test(href) || mailtoRegex.test(href);
+      }
+      // Inspect non-navigation links and adorn them if external
+     var links = window.document.querySelectorAll('a[href]:not(.nav-link):not(.navbar-brand):not(.toc-action):not(.sidebar-link):not(.sidebar-item-toggle):not(.pagination-link):not(.no-external):not([aria-hidden]):not(.dropdown-item):not(.quarto-navigation-tool):not(.about-link)');
+      for (var i=0; i<links.length; i++) {
+        const link = links[i];
+        if (!isInternal(link.href)) {
+          // undo the damage that might have been done by quarto-nav.js in the case of
+          // links that we want to consider external
+          if (link.dataset.originalHref !== undefined) {
+            link.href = link.dataset.originalHref;
+          }
+        }
+      }
+    function tippyHover(el, contentFn, onTriggerFn, onUntriggerFn) {
+      const config = {
+        allowHTML: true,
+        maxWidth: 500,
+        delay: 100,
+        arrow: false,
+        appendTo: function(el) {
+            return el.parentElement;
+        },
+        interactive: true,
+        interactiveBorder: 10,
+        theme: 'quarto',
+        placement: 'bottom-start',
+      };
+      if (contentFn) {
+        config.content = contentFn;
+      }
+      if (onTriggerFn) {
+        config.onTrigger = onTriggerFn;
+      }
+      if (onUntriggerFn) {
+        config.onUntrigger = onUntriggerFn;
+      }
+      window.tippy(el, config); 
+    }
+    const noterefs = window.document.querySelectorAll('a[role="doc-noteref"]');
+    for (var i=0; i<noterefs.length; i++) {
+      const ref = noterefs[i];
+      tippyHover(ref, function() {
+        // use id or data attribute instead here
+        let href = ref.getAttribute('data-footnote-href') || ref.getAttribute('href');
+        try { href = new URL(href).hash; } catch {}
+        const id = href.replace(/^#\/?/, "");
+        const note = window.document.getElementById(id);
+        if (note) {
+          return note.innerHTML;
+        } else {
+          return "";
+        }
+      });
+    }
+    const xrefs = window.document.querySelectorAll('a.quarto-xref');
+    const processXRef = (id, note) => {
+      // Strip column container classes
+      const stripColumnClz = (el) => {
+        el.classList.remove("page-full", "page-columns");
+        if (el.children) {
+          for (const child of el.children) {
+            stripColumnClz(child);
+          }
+        }
+      }
+      stripColumnClz(note)
+      if (id === null || id.startsWith('sec-')) {
+        // Special case sections, only their first couple elements
+        const container = document.createElement("div");
+        if (note.children && note.children.length > 2) {
+          container.appendChild(note.children[0].cloneNode(true));
+          for (let i = 1; i < note.children.length; i++) {
+            const child = note.children[i];
+            if (child.tagName === "P" && child.innerText === "") {
+              continue;
+            } else {
+              container.appendChild(child.cloneNode(true));
+              break;
+            }
+          }
+          if (window.Quarto?.typesetMath) {
+            window.Quarto.typesetMath(container);
+          }
+          return container.innerHTML
+        } else {
+          if (window.Quarto?.typesetMath) {
+            window.Quarto.typesetMath(note);
+          }
+          return note.innerHTML;
+        }
+      } else {
+        // Remove any anchor links if they are present
+        const anchorLink = note.querySelector('a.anchorjs-link');
+        if (anchorLink) {
+          anchorLink.remove();
+        }
+        if (window.Quarto?.typesetMath) {
+          window.Quarto.typesetMath(note);
+        }
+        if (note.classList.contains("callout")) {
+          return note.outerHTML;
+        } else {
+          return note.innerHTML;
+        }
+      }
+    }
+    for (var i=0; i<xrefs.length; i++) {
+      const xref = xrefs[i];
+      tippyHover(xref, undefined, function(instance) {
+        instance.disable();
+        let url = xref.getAttribute('href');
+        let hash = undefined; 
+        if (url.startsWith('#')) {
+          hash = url;
+        } else {
+          try { hash = new URL(url).hash; } catch {}
+        }
+        if (hash) {
+          const id = hash.replace(/^#\/?/, "");
+          const note = window.document.getElementById(id);
+          if (note !== null) {
+            try {
+              const html = processXRef(id, note.cloneNode(true));
+              instance.setContent(html);
+            } finally {
+              instance.enable();
+              instance.show();
+            }
+          } else {
+            // See if we can fetch this
+            fetch(url.split('#')[0])
+            .then(res => res.text())
+            .then(html => {
+              const parser = new DOMParser();
+              const htmlDoc = parser.parseFromString(html, "text/html");
+              const note = htmlDoc.getElementById(id);
+              if (note !== null) {
+                const html = processXRef(id, note);
+                instance.setContent(html);
+              } 
+            }).finally(() => {
+              instance.enable();
+              instance.show();
+            });
+          }
+        } else {
+          // See if we can fetch a full url (with no hash to target)
+          // This is a special case and we should probably do some content thinning / targeting
+          fetch(url)
+          .then(res => res.text())
+          .then(html => {
+            const parser = new DOMParser();
+            const htmlDoc = parser.parseFromString(html, "text/html");
+            const note = htmlDoc.querySelector('main.content');
+            if (note !== null) {
+              // This should only happen for chapter cross references
+              // (since there is no id in the URL)
+              // remove the first header
+              if (note.children.length > 0 && note.children[0].tagName === "HEADER") {
+                note.children[0].remove();
+              }
+              const html = processXRef(null, note);
+              instance.setContent(html);
+            } 
+          }).finally(() => {
+            instance.enable();
+            instance.show();
+          });
+        }
+      }, function(instance) {
+      });
+    }
+        let selectedAnnoteEl;
+        const selectorForAnnotation = ( cell, annotation) => {
+          let cellAttr = 'data-code-cell="' + cell + '"';
+          let lineAttr = 'data-code-annotation="' +  annotation + '"';
+          const selector = 'span[' + cellAttr + '][' + lineAttr + ']';
+          return selector;
+        }
+        const selectCodeLines = (annoteEl) => {
+          const doc = window.document;
+          const targetCell = annoteEl.getAttribute("data-target-cell");
+          const targetAnnotation = annoteEl.getAttribute("data-target-annotation");
+          const annoteSpan = window.document.querySelector(selectorForAnnotation(targetCell, targetAnnotation));
+          const lines = annoteSpan.getAttribute("data-code-lines").split(",");
+          const lineIds = lines.map((line) => {
+            return targetCell + "-" + line;
+          })
+          let top = null;
+          let height = null;
+          let parent = null;
+          if (lineIds.length > 0) {
+              //compute the position of the single el (top and bottom and make a div)
+              const el = window.document.getElementById(lineIds[0]);
+              top = el.offsetTop;
+              height = el.offsetHeight;
+              parent = el.parentElement.parentElement;
+            if (lineIds.length > 1) {
+              const lastEl = window.document.getElementById(lineIds[lineIds.length - 1]);
+              const bottom = lastEl.offsetTop + lastEl.offsetHeight;
+              height = bottom - top;
+            }
+            if (top !== null && height !== null && parent !== null) {
+              // cook up a div (if necessary) and position it 
+              let div = window.document.getElementById("code-annotation-line-highlight");
+              if (div === null) {
+                div = window.document.createElement("div");
+                div.setAttribute("id", "code-annotation-line-highlight");
+                div.style.position = 'absolute';
+                parent.appendChild(div);
+              }
+              div.style.top = top - 2 + "px";
+              div.style.height = height + 4 + "px";
+              div.style.left = 0;
+              let gutterDiv = window.document.getElementById("code-annotation-line-highlight-gutter");
+              if (gutterDiv === null) {
+                gutterDiv = window.document.createElement("div");
+                gutterDiv.setAttribute("id", "code-annotation-line-highlight-gutter");
+                gutterDiv.style.position = 'absolute';
+                const codeCell = window.document.getElementById(targetCell);
+                const gutter = codeCell.querySelector('.code-annotation-gutter');
+                gutter.appendChild(gutterDiv);
+              }
+              gutterDiv.style.top = top - 2 + "px";
+              gutterDiv.style.height = height + 4 + "px";
+            }
+            selectedAnnoteEl = annoteEl;
+          }
+        };
+        const unselectCodeLines = () => {
+          const elementsIds = ["code-annotation-line-highlight", "code-annotation-line-highlight-gutter"];
+          elementsIds.forEach((elId) => {
+            const div = window.document.getElementById(elId);
+            if (div) {
+              div.remove();
+            }
+          });
+          selectedAnnoteEl = undefined;
+        };
+          // Handle positioning of the toggle
+      window.addEventListener(
+        "resize",
+        throttle(() => {
+          elRect = undefined;
+          if (selectedAnnoteEl) {
+            selectCodeLines(selectedAnnoteEl);
+          }
+        }, 10)
+      );
+      function throttle(fn, ms) {
+      let throttle = false;
+      let timer;
+        return (...args) => {
+          if(!throttle) { // first call gets through
+              fn.apply(this, args);
+              throttle = true;
+          } else { // all the others get throttled
+              if(timer) clearTimeout(timer); // cancel #2
+              timer = setTimeout(() => {
+                fn.apply(this, args);
+                timer = throttle = false;
+              }, ms);
+          }
+        };
+      }
+        // Attach click handler to the DT
+        const annoteDls = window.document.querySelectorAll('dt[data-target-cell]');
+        for (const annoteDlNode of annoteDls) {
+          annoteDlNode.addEventListener('click', (event) => {
+            const clickedEl = event.target;
+            if (clickedEl !== selectedAnnoteEl) {
+              unselectCodeLines();
+              const activeEl = window.document.querySelector('dt[data-target-cell].code-annotation-active');
+              if (activeEl) {
+                activeEl.classList.remove('code-annotation-active');
+              }
+              selectCodeLines(clickedEl);
+              clickedEl.classList.add('code-annotation-active');
+            } else {
+              // Unselect the line
+              unselectCodeLines();
+              clickedEl.classList.remove('code-annotation-active');
+            }
+          });
+        }
+    const findCites = (el) => {
+      const parentEl = el.parentElement;
+      if (parentEl) {
+        const cites = parentEl.dataset.cites;
+        if (cites) {
+          return {
+            el,
+            cites: cites.split(' ')
+          };
+        } else {
+          return findCites(el.parentElement)
+        }
+      } else {
+        return undefined;
+      }
+    };
+    var bibliorefs = window.document.querySelectorAll('a[role="doc-biblioref"]');
+    for (var i=0; i<bibliorefs.length; i++) {
+      const ref = bibliorefs[i];
+      const citeInfo = findCites(ref);
+      if (citeInfo) {
+        tippyHover(citeInfo.el, function() {
+          var popup = window.document.createElement('div');
+          citeInfo.cites.forEach(function(cite) {
+            var citeDiv = window.document.createElement('div');
+            citeDiv.classList.add('hanging-indent');
+            citeDiv.classList.add('csl-entry');
+            var biblioDiv = window.document.getElementById('ref-' + cite);
+            if (biblioDiv) {
+              citeDiv.innerHTML = biblioDiv.innerHTML;
+            }
+            popup.appendChild(citeDiv);
+          });
+          return popup.innerHTML;
+        });
+      }
+    }
+  });
+  </script>
+</div> <!-- /content -->
+<footer class="footer">
+  <div class="nav-footer">
+    <div class="nav-footer-left">
+<p>Centro Valor Público · Universidad EAFIT</p>
+</div>   
+    <div class="nav-footer-center">
+<p>Valor·IA — CVP EAFIT · El rigor que su impacto merece.</p>
+</div>
+    <div class="nav-footer-right">
+<p>© 2026</p>
+</div>
+  </div>
+</footer>
+
+
+
+
+<script src="../site_libs/quarto-html/zenscroll-min.js"></script>
+</body></html>
