@@ -204,7 +204,7 @@ toc: false
         <a href="servicios/formacion.html"
            style="display:inline-flex; align-items:center; gap:0.4rem; color:#7C3AED; font-size:0.83rem; font-weight:700; text-decoration:none; border-bottom:1px solid rgba(124,58,237,0.25); padding-bottom:0.1rem; transition:border-color 0.2s;"
            onmouseover="this.style.borderColor='#7C3AED'" onmouseout="this.style.borderColor='rgba(124,58,237,0.25)'">
-          Ver ruta formativa completa — 5 niveles, del concepto a la financiación &rarr;
+          Ver ruta formativa completa — 7 módulos, de la Teoría del Cambio a la financiación basada en impacto &rarr;
         </a>
       </div>
     </div>

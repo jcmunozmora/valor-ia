@@ -6,9 +6,9 @@
 
 <meta name="viewport" content="width=device-width, initial-scale=1.0, user-scalable=yes">
 
-<meta name="description" content="Cinco niveles de formación — del concepto de impacto a las nuevas formas de financiación basada en evidencia. Centro Valor Público · EAFIT.">
+<meta name="description" content="Siete módulos de alto nivel — de la teoría del cambio a la financiación basada en impacto. Formación con estándares internacionales SVI, 3ie y J-PAL. Centro Valor Público · EAFIT.">
 
-<title>Formación en Valor Social — Ruta Formativa Completa – Valor·IA — CVP EAFIT</title>
+<title>Ruta Formativa en Evaluación y Valor Social – Valor·IA — CVP EAFIT</title>
 <style>
 code{white-space: pre-wrap;}
 span.smallcaps{font-variant: small-caps;}
@@ -233,12 +233,12 @@ ul.task-list li input[type="checkbox"] {
 
 <header id="title-block-header" class="quarto-title-block default">
 <div class="quarto-title">
-<h1 class="title">Formación en Valor Social — Ruta Formativa Completa</h1>
+<h1 class="title">Ruta Formativa en Evaluación y Valor Social</h1>
 </div>
 
 <div>
   <div class="description">
-    Cinco niveles de formación — del concepto de impacto a las nuevas formas de financiación basada en evidencia. Centro Valor Público · EAFIT.
+    Siete módulos de alto nivel — de la teoría del cambio a la financiación basada en impacto. Formación con estándares internacionales SVI, 3ie y J-PAL. Centro Valor Público · EAFIT.
   </div>
 </div>
 
@@ -257,243 +257,264 @@ ul.task-list li input[type="checkbox"] {
 
 <style>
 /* ── Base ───────────────────────────────────────────────────────── */
-.content-section        { padding: 3.5rem 2rem; }
-.content-section.alt    { background: #F8FAFC; }
-.content-section.dark   { background: #0F172A; color: #E2E8F0; }
-.content-inner          { max-width: 960px;  margin: 0 auto; }
-.content-wide           { max-width: 1160px; margin: 0 auto; }
+*, *::before, *::after { box-sizing: border-box; }
+.rf-section        { padding: 3.5rem 2rem; }
+.rf-section.alt    { background: #F8FAFC; }
+.rf-section.dark   { background: #0F172A; }
+.rf-inner          { max-width: 960px;  margin: 0 auto; }
+.rf-wide           { max-width: 1200px; margin: 0 auto; }
 
-.section-label {
+.rf-label {
   font-size: 0.65rem; font-weight: 700; letter-spacing: 0.15em;
   text-transform: uppercase; color: #0D9488;
   background: rgba(13,148,136,0.08); border: 1px solid rgba(13,148,136,0.2);
   padding: 0.2rem 0.65rem; border-radius: 2rem;
   display: inline-block; margin-bottom: 0.75rem;
 }
-.section-heading {
-  font-size: 1.75rem; font-weight: 800; color: #0F172A;
-  letter-spacing: -0.03em; margin: 0.25rem 0 1rem;
-  line-height: 1.2;
+.rf-heading {
+  font-size: clamp(1.5rem, 3.5vw, 2rem); font-weight: 800; color: #0F172A;
+  letter-spacing: -0.03em; margin: 0.25rem 0 0.75rem; line-height: 1.2;
 }
-.dark .section-label   { color: #5EEAD4; background: rgba(94,234,212,0.08); border-color: rgba(94,234,212,0.2); }
-.dark .section-heading { color: #FFFFFF; }
+.rf-subhead {
+  font-size: 0.92rem; color: #475569; line-height: 1.65;
+  max-width: 720px; margin-bottom: 2rem;
+}
 
 /* ── Hero ───────────────────────────────────────────────────────── */
 .rf-hero {
-  background: linear-gradient(135deg, #0F172A 0%, #0D3D3A 60%, #0F172A 100%);
+  background: linear-gradient(135deg, #0F172A 0%, #0D3D3A 55%, #1A3A5C 100%);
   padding: 5rem 2rem 4rem;
   text-align: center;
-  position: relative;
-  overflow: hidden;
+  position: relative; overflow: hidden;
 }
 .rf-hero::before {
   content: '';
   position: absolute; inset: 0;
-  background: radial-gradient(ellipse at 60% 40%, rgba(13,148,136,0.15) 0%, transparent 60%);
+  background: radial-gradient(ellipse at 60% 40%, rgba(13,148,136,0.18) 0%, transparent 60%);
   pointer-events: none;
 }
-.rf-hero-badge {
-  display: inline-block;
-  background: rgba(13,148,136,0.15); border: 1px solid rgba(13,148,136,0.35);
-  color: #5EEAD4; font-size: 0.7rem; font-weight: 700; letter-spacing: 0.12em;
+.rf-hero-eyebrow {
+  display: inline-flex; align-items: center; gap: 0.6rem;
+  background: rgba(13,148,136,0.12); border: 1px solid rgba(13,148,136,0.3);
+  color: #5EEAD4; font-size: 0.68rem; font-weight: 700; letter-spacing: 0.12em;
   text-transform: uppercase; padding: 0.3rem 1rem; border-radius: 2rem;
-  margin-bottom: 1.5rem;
+  margin-bottom: 1.5rem; position: relative; z-index: 1;
 }
 .rf-hero h1 {
-  color: #FFFFFF; font-size: clamp(1.9rem, 4vw, 2.8rem);
-  font-weight: 800; letter-spacing: -0.04em; margin: 0 auto 1rem;
-  max-width: 780px; line-height: 1.15;
+  color: #FFFFFF; font-size: clamp(2rem, 5vw, 3rem);
+  font-weight: 900; letter-spacing: -0.04em; margin: 0 auto 1.1rem;
+  max-width: 800px; line-height: 1.12; position: relative; z-index: 1;
 }
-.rf-hero p {
-  color: #94A3B8; font-size: 1.05rem; max-width: 620px;
-  margin: 0 auto 2.5rem; line-height: 1.6;
+.rf-hero h1 span { color: #5EEAD4; }
+.rf-hero-sub {
+  color: #94A3B8; font-size: 1rem; max-width: 640px;
+  margin: 0 auto 2.5rem; line-height: 1.65; position: relative; z-index: 1;
 }
+.rf-hero-badges {
+  display: flex; justify-content: center; flex-wrap: wrap; gap: 0.6rem;
+  margin-bottom: 2.5rem; position: relative; z-index: 1;
+}
+.rf-badge {
+  font-size: 0.68rem; font-weight: 700; letter-spacing: 0.07em; text-transform: uppercase;
+  padding: 0.3rem 0.85rem; border-radius: 999px;
+}
+.rf-badge--svi  { background: rgba(29,78,216,0.15); border: 1px solid rgba(96,165,250,0.3); color: #93C5FD; }
+.rf-badge--3ie  { background: rgba(139,92,246,0.12); border: 1px solid rgba(139,92,246,0.3); color: #C4B5FD; }
+.rf-badge--jpal { background: rgba(245,158,11,0.12); border: 1px solid rgba(245,158,11,0.3); color: #FCD34D; }
+.rf-badge--ib   { background: rgba(16,185,129,0.12); border: 1px solid rgba(16,185,129,0.3); color: #6EE7B7; }
 .rf-hero-stats {
-  display: flex; justify-content: center; gap: 2.5rem;
-  flex-wrap: wrap; margin-top: 2rem;
+  display: flex; justify-content: center; gap: 0;
+  background: rgba(255,255,255,0.05); border: 1px solid rgba(255,255,255,0.08);
+  border-radius: 1rem; padding: 1.25rem 2rem;
+  max-width: 700px; margin: 0 auto; flex-wrap: wrap;
+  position: relative; z-index: 1;
 }
-.rf-stat { text-align: center; }
+.rf-stat { text-align: center; padding: 0.25rem 1.75rem; }
 .rf-stat-n  { font-size: 2rem; font-weight: 900; color: #5EEAD4; line-height: 1; }
-.rf-stat-l  { font-size: 0.72rem; font-weight: 600; letter-spacing: 0.07em;
-              text-transform: uppercase; color: #64748B; margin-top: 0.3rem; }
+.rf-stat-l  { font-size: 0.68rem; font-weight: 600; letter-spacing: 0.06em;
+              text-transform: uppercase; color: #64748B; margin-top: 0.35rem; line-height: 1.35; }
+.rf-stat-div { width: 1px; background: rgba(255,255,255,0.1); align-self: stretch; margin: 0.25rem 0; }
 
-/* ── Ruta visual ────────────────────────────────────────────────── */
-.ruta-wrap {
-  position: relative; padding: 2rem 0;
+/* ── Visual roadmap — 7 módulos ─────────────────────────────────── */
+.roadmap-wrap {
+  position: relative; padding: 1rem 0 1.5rem;
+  overflow-x: auto;
 }
-/* Línea conectora de fondo */
-.ruta-line {
-  position: absolute; top: 72px; left: 5%; right: 5%;
+.roadmap-track {
+  display: flex; align-items: flex-start; gap: 0;
+  min-width: 700px;
+}
+.roadmap-node {
+  flex: 1; display: flex; flex-direction: column; align-items: center;
+  text-align: center; padding: 0 0.35rem;
+  position: relative;
+}
+/* Connector lines between nodes */
+.roadmap-node:not(:last-child)::after {
+  content: '';
+  position: absolute; top: 32px; left: calc(50% + 26px);
+  right: calc(-50% + 26px);
   height: 3px;
-  background: linear-gradient(to right,
-    #64748B 0%, #0D9488 25%, #3B82F6 50%, #8B5CF6 75%, #F59E0B 100%);
   border-radius: 2px;
   z-index: 0;
 }
-.ruta-grid {
-  display: grid;
-  grid-template-columns: repeat(5, 1fr);
-  gap: 1rem;
-  position: relative; z-index: 1;
-}
-.ruta-node {
-  display: flex; flex-direction: column; align-items: center;
-  text-align: center; cursor: pointer;
-  transition: transform 0.2s;
-}
-.ruta-node:hover { transform: translateY(-4px); }
-.ruta-circle {
+.roadmap-node:nth-child(1)::after { background: linear-gradient(to right, #475569, #0D9488); }
+.roadmap-node:nth-child(2)::after { background: linear-gradient(to right, #0D9488, #3B82F6); }
+.roadmap-node:nth-child(3)::after { background: linear-gradient(to right, #3B82F6, #8B5CF6); }
+.roadmap-node:nth-child(4)::after { background: linear-gradient(to right, #8B5CF6, #EC4899); }
+.roadmap-node:nth-child(5)::after { background: linear-gradient(to right, #EC4899, #F59E0B); }
+.roadmap-node:nth-child(6)::after { background: linear-gradient(to right, #F59E0B, #D97706); }
+
+.roadmap-circle {
   width: 64px; height: 64px; border-radius: 50%;
   display: flex; align-items: center; justify-content: center;
-  font-size: 1.3rem; font-weight: 900; color: white;
-  box-shadow: 0 4px 20px rgba(0,0,0,0.15);
-  border: 3px solid white;
-  margin-bottom: 0.75rem;
-  transition: box-shadow 0.2s;
+  font-size: 1rem; font-weight: 900; color: white;
+  box-shadow: 0 4px 16px rgba(0,0,0,0.15); border: 3px solid white;
+  margin-bottom: 0.75rem; position: relative; z-index: 1;
+  transition: transform 0.2s, box-shadow 0.2s;
 }
-.ruta-node:hover .ruta-circle {
-  box-shadow: 0 8px 30px rgba(0,0,0,0.2);
+.roadmap-node:hover .roadmap-circle {
+  transform: translateY(-3px); box-shadow: 0 8px 24px rgba(0,0,0,0.2);
 }
-.ruta-node-label {
-  font-size: 0.78rem; font-weight: 700; color: #0F172A;
-  margin-bottom: 0.25rem; line-height: 1.3;
+.roadmap-node:nth-child(1) .roadmap-circle { background: #475569; }
+.roadmap-node:nth-child(2) .roadmap-circle { background: #0D9488; }
+.roadmap-node:nth-child(3) .roadmap-circle { background: #3B82F6; }
+.roadmap-node:nth-child(4) .roadmap-circle { background: #8B5CF6; }
+.roadmap-node:nth-child(5) .roadmap-circle { background: #EC4899; }
+.roadmap-node:nth-child(6) .roadmap-circle { background: #F59E0B; }
+.roadmap-node:nth-child(7) .roadmap-circle { background: #D97706; }
+
+.roadmap-label {
+  font-size: 0.73rem; font-weight: 700; color: #0F172A;
+  line-height: 1.3; margin-bottom: 0.2rem;
 }
-.ruta-node-dur {
-  font-size: 0.68rem; color: #94A3B8; font-weight: 500;
+.roadmap-dur {
+  font-size: 0.65rem; color: #94A3B8; font-weight: 500;
 }
-.ruta-node-tag {
-  margin-top: 0.4rem; font-size: 0.62rem; font-weight: 700;
+.roadmap-tag {
+  margin-top: 0.4rem; font-size: 0.58rem; font-weight: 700;
   letter-spacing: 0.06em; text-transform: uppercase;
-  padding: 0.15rem 0.55rem; border-radius: 2rem; display: inline-block;
+  padding: 0.12rem 0.5rem; border-radius: 2rem; display: inline-block;
 }
+.roadmap-node:nth-child(1) .roadmap-tag { background: #F1F5F9; color: #475569; border: 1px solid #CBD5E1; }
+.roadmap-node:nth-child(2) .roadmap-tag { background: #F0FDFA; color: #0D9488; border: 1px solid #99F6E4; }
+.roadmap-node:nth-child(3) .roadmap-tag { background: #EFF6FF; color: #3B82F6; border: 1px solid #BFDBFE; }
+.roadmap-node:nth-child(4) .roadmap-tag { background: #F5F3FF; color: #8B5CF6; border: 1px solid #DDD6FE; }
+.roadmap-node:nth-child(5) .roadmap-tag { background: #FDF2F8; color: #EC4899; border: 1px solid #FBCFE8; }
+.roadmap-node:nth-child(6) .roadmap-tag { background: #FFFBEB; color: #D97706; border: 1px solid #FDE68A; }
+.roadmap-node:nth-child(7) .roadmap-tag { background: #FFF7ED; color: #C2410C; border: 1px solid #FED7AA; }
 
-/* Colores por nivel */
-.n1 .ruta-circle { background: #475569; }
-.n1 .ruta-node-tag { background: #F1F5F9; color: #475569; border: 1px solid #CBD5E1; }
-.n2 .ruta-circle { background: #0D9488; }
-.n2 .ruta-node-tag { background: #F0FDFA; color: #0D9488; border: 1px solid #99F6E4; }
-.n3 .ruta-circle { background: #3B82F6; }
-.n3 .ruta-node-tag { background: #EFF6FF; color: #3B82F6; border: 1px solid #BFDBFE; }
-.n4 .ruta-circle { background: #8B5CF6; }
-.n4 .ruta-node-tag { background: #F5F3FF; color: #8B5CF6; border: 1px solid #DDD6FE; }
-.n5 .ruta-circle { background: #D97706; }
-.n5 .ruta-node-tag { background: #FFFBEB; color: #D97706; border: 1px solid #FDE68A; }
-
-/* ── Nivel cards (detalle) ──────────────────────────────────────── */
-.nivel-card {
+/* ── Módulo cards ───────────────────────────────────────────────── */
+.modulo-card {
   border: 1px solid #E2E8F0; border-radius: 1.25rem;
-  overflow: hidden; margin-bottom: 1.5rem;
+  overflow: hidden; margin-bottom: 1.75rem;
   transition: box-shadow 0.2s;
+  background: white;
 }
-.nivel-card:hover { box-shadow: 0 8px 30px rgba(0,0,0,0.07); }
+.modulo-card:hover { box-shadow: 0 8px 32px rgba(0,0,0,0.07); }
 
-.nivel-header {
-  display: flex; align-items: center; gap: 1.25rem;
+.modulo-header {
+  display: flex; align-items: flex-start; gap: 1.25rem;
   padding: 1.5rem 1.75rem;
   border-bottom: 1px solid #F1F5F9;
 }
-.nivel-badge {
-  flex: 0 0 auto; width: 52px; height: 52px; border-radius: 50%;
+.modulo-num-badge {
+  flex: 0 0 auto; width: 56px; height: 56px; border-radius: 50%;
   display: flex; align-items: center; justify-content: center;
   font-size: 1.1rem; font-weight: 900; color: white;
+  box-shadow: 0 3px 12px rgba(0,0,0,0.15);
 }
-.nivel-meta { flex: 1; }
-.nivel-titulo  { font-size: 1.05rem; font-weight: 800; color: #0F172A; margin-bottom: 0.2rem; }
-.nivel-tagline { font-size: 0.82rem; color: #64748B; line-height: 1.4; }
-.nivel-chips   { display: flex; gap: 0.5rem; flex-wrap: wrap; margin-top: 0.5rem; }
+.modulo-meta { flex: 1; }
+.modulo-titulo  { font-size: 1.05rem; font-weight: 800; color: #0F172A; margin-bottom: 0.15rem; line-height: 1.25; }
+.modulo-tagline { font-size: 0.84rem; color: #64748B; line-height: 1.45; margin-bottom: 0.5rem; }
+.modulo-chips   { display: flex; gap: 0.4rem; flex-wrap: wrap; }
 .chip {
-  font-size: 0.65rem; font-weight: 700; letter-spacing: 0.06em; text-transform: uppercase;
-  padding: 0.2rem 0.6rem; border-radius: 2rem; white-space: nowrap;
+  font-size: 0.63rem; font-weight: 700; letter-spacing: 0.05em; text-transform: uppercase;
+  padding: 0.18rem 0.55rem; border-radius: 2rem; white-space: nowrap;
 }
-.chip-dur  { background: #F8FAFC; color: #475569; border: 1px solid #E2E8F0; }
-.chip-aud  { background: #F0FDF4; color: #166534; border: 1px solid #BBF7D0; }
-.chip-cert { background: #FFF7ED; color: #92400E; border: 1px solid #FDE68A; }
+.chip-dur   { background: #F8FAFC; color: #475569; border: 1px solid #E2E8F0; }
+.chip-nivel { background: #F0FDF4; color: #166534; border: 1px solid #BBF7D0; }
+.chip-ref   { background: #EFF6FF; color: #1D4ED8; border: 1px solid #BFDBFE; }
 
-.nivel-body {
+.modulo-body {
   display: grid; grid-template-columns: 1fr 1fr;
-  gap: 0; padding: 0;
+  padding: 0;
 }
-.nivel-col { padding: 1.5rem 1.75rem; }
-.nivel-col:first-child { border-right: 1px solid #F1F5F9; }
-.nivel-col-title {
-  font-size: 0.65rem; font-weight: 700; letter-spacing: 0.1em; text-transform: uppercase;
+.modulo-col { padding: 1.5rem 1.75rem; }
+.modulo-col:first-child { border-right: 1px solid #F1F5F9; }
+.modulo-col-title {
+  font-size: 0.62rem; font-weight: 700; letter-spacing: 0.1em; text-transform: uppercase;
   color: #94A3B8; margin-bottom: 0.75rem;
 }
-.nivel-col ul {
+.modulo-col ul {
   list-style: none; margin: 0; padding: 0;
 }
-.nivel-col ul li {
-  font-size: 0.85rem; color: #475569; padding: 0.3rem 0;
-  padding-left: 1.2rem; position: relative; line-height: 1.4;
+.modulo-col ul li {
+  font-size: 0.84rem; color: #475569; padding: 0.28rem 0 0.28rem 1.3rem;
+  position: relative; line-height: 1.45; border-bottom: 1px solid #F8FAFC;
 }
-.nivel-col ul li::before {
+.modulo-col ul li:last-child { border-bottom: none; }
+.modulo-col ul li::before {
   content: '—'; position: absolute; left: 0;
-  color: #CBD5E1; font-weight: 400;
+  color: #CBD5E1; font-weight: 400; font-size: 0.8rem;
+}
+.modulo-col ul li strong { color: #0F172A; font-weight: 700; }
+
+.modulo-refs {
+  padding: 0.85rem 1.75rem;
+  background: #FAFBFC;
+  border-top: 1px solid #F1F5F9;
+}
+.modulo-refs-title {
+  font-size: 0.6rem; font-weight: 700; letter-spacing: 0.1em; text-transform: uppercase;
+  color: #94A3B8; margin-bottom: 0.4rem; display: block;
+}
+.modulo-ref-pills { display: flex; flex-wrap: wrap; gap: 0.35rem; }
+.ref-pill {
+  font-size: 0.67rem; font-weight: 600; color: #475569;
+  background: white; border: 1px solid #E2E8F0;
+  padding: 0.2rem 0.6rem; border-radius: 999px;
 }
 
-.nivel-footer {
+.modulo-footer {
   background: #F8FAFC; border-top: 1px solid #F1F5F9;
   padding: 1rem 1.75rem;
   display: flex; justify-content: space-between; align-items: center;
   flex-wrap: wrap; gap: 0.75rem;
 }
-.nivel-prereq {
-  font-size: 0.78rem; color: #64748B;
+.modulo-outcome {
+  font-size: 0.8rem; color: #475569; line-height: 1.5; flex: 1;
 }
-.nivel-prereq strong { color: #0F172A; }
-.nivel-cta {
+.modulo-outcome strong { color: #0F172A; font-weight: 700; }
+.modulo-cta {
   display: inline-flex; align-items: center; gap: 0.4rem;
   background: #0F172A; color: white !important;
   padding: 0.5rem 1.1rem; border-radius: 0.5rem;
   text-decoration: none !important; font-weight: 600; font-size: 0.8rem;
-  transition: background 0.2s; white-space: nowrap;
+  transition: background 0.2s; white-space: nowrap; flex-shrink: 0;
 }
-.nivel-cta:hover { background: #0D9488 !important; }
+.modulo-cta:hover { background: #0D9488 !important; }
 
-/* Colores de badge por nivel */
-.nivel-card.n1 .nivel-badge { background: #475569; }
-.nivel-card.n2 .nivel-badge { background: #0D9488; }
-.nivel-card.n3 .nivel-badge { background: #3B82F6; }
-.nivel-card.n4 .nivel-badge { background: #8B5CF6; }
-.nivel-card.n5 .nivel-badge { background: #D97706; }
+/* Acentos de color por módulo */
+.m1 .modulo-num-badge { background: #475569; }
+.m1 .modulo-header { border-left: 4px solid #475569; }
+.m2 .modulo-num-badge { background: #0D9488; }
+.m2 .modulo-header { border-left: 4px solid #0D9488; background: #F0FDFA; }
+.m2.modulo-card { border-color: #0D9488; box-shadow: 0 0 0 2px rgba(13,148,136,0.1); }
+.m3 .modulo-num-badge { background: #3B82F6; }
+.m3 .modulo-header { border-left: 4px solid #3B82F6; }
+.m4 .modulo-num-badge { background: #8B5CF6; }
+.m4 .modulo-header { border-left: 4px solid #8B5CF6; }
+.m5 .modulo-num-badge { background: #EC4899; }
+.m5 .modulo-header { border-left: 4px solid #EC4899; }
+.m6 .modulo-num-badge { background: #F59E0B; }
+.m6 .modulo-header { border-left: 4px solid #F59E0B; }
+.m7 .modulo-num-badge { background: #D97706; }
+.m7 .modulo-header { border-left: 4px solid #D97706; background: #FFFBEB; }
 
-/* N2 accent — destacado como core */
-.nivel-card.n2 {
-  border-color: #0D9488;
-  box-shadow: 0 0 0 2px rgba(13,148,136,0.12);
-}
-.nivel-card.n2 .nivel-header { background: #F0FDFA; }
-
-/* ── Sesiones del N2 ────────────────────────────────────────────── */
-.sesiones-grid {
-  display: grid; grid-template-columns: repeat(auto-fill, minmax(200px, 1fr));
-  gap: 0.6rem; padding: 0 1.75rem 1.5rem;
-}
-.sesion-pill {
-  background: #F8FAFC; border: 1px solid #E2E8F0; border-radius: 0.6rem;
-  padding: 0.65rem 0.9rem; display: flex; gap: 0.6rem; align-items: flex-start;
-  transition: border-color 0.2s, background 0.2s;
-  text-decoration: none !important; color: inherit !important;
-}
-.sesion-pill:hover {
-  border-color: #0D9488; background: #F0FDFA;
-}
-.sesion-num {
-  flex: 0 0 auto; width: 26px; height: 26px;
-  background: #0F172A; color: #5EEAD4;
-  border-radius: 0.35rem; font-size: 0.7rem; font-weight: 800;
-  display: flex; align-items: center; justify-content: center;
-  letter-spacing: 0.02em;
-}
-.sesion-info { flex: 1; }
-.sesion-title { font-size: 0.78rem; font-weight: 700; color: #0F172A; line-height: 1.3; }
-.sesion-tag   { font-size: 0.65rem; color: #94A3B8; margin-top: 0.2rem; }
-.sesion-pill.has-link .sesion-num { background: #0D9488; }
-.sesion-pill.has-link .sesion-tag { color: #0D9488; font-weight: 600; }
-
-/* ── Audiencias ─────────────────────────────────────────────────── */
+/* ── Audiences ─────────────────────────────────────────────────── */
 .aud-grid {
-  display: grid; grid-template-columns: repeat(auto-fill, minmax(220px, 1fr));
+  display: grid; grid-template-columns: repeat(auto-fill, minmax(210px, 1fr));
   gap: 1rem; margin: 1.5rem 0;
 }
 .aud-card {
@@ -501,56 +522,44 @@ ul.task-list li input[type="checkbox"] {
   padding: 1.25rem; transition: border-color 0.2s, box-shadow 0.2s;
 }
 .aud-card:hover { border-color: #0D9488; box-shadow: 0 4px 16px rgba(13,148,136,0.07); }
-.aud-icon  { font-size: 1.6rem; margin-bottom: 0.5rem; }
-.aud-role  { font-size: 0.88rem; font-weight: 700; color: #0F172A; margin-bottom: 0.25rem; }
+.aud-icon  { font-size: 1.5rem; margin-bottom: 0.4rem; }
+.aud-role  { font-size: 0.88rem; font-weight: 700; color: #0F172A; margin-bottom: 0.2rem; }
 .aud-desc  { font-size: 0.78rem; color: #64748B; line-height: 1.5; }
 .aud-entry {
-  margin-top: 0.6rem; font-size: 0.68rem; font-weight: 700;
-  text-transform: uppercase; letter-spacing: 0.07em;
-  color: #0D9488;
+  margin-top: 0.5rem; font-size: 0.66rem; font-weight: 700;
+  text-transform: uppercase; letter-spacing: 0.07em; color: #0D9488;
 }
 
-/* ── Modalidades ────────────────────────────────────────────────── */
-.mod-grid {
-  display: grid; grid-template-columns: repeat(auto-fill, minmax(260px, 1fr));
-  gap: 1.25rem; margin: 1.5rem 0;
-}
-.mod-card {
-  background: #F8FAFC; border: 1px solid #E2E8F0; border-radius: 0.875rem; padding: 1.5rem;
-}
-.mod-icon  { font-size: 1.6rem; margin-bottom: 0.5rem; }
-.mod-title { font-weight: 700; color: #0F172A; margin-bottom: 0.35rem; font-size: 0.95rem; }
-.mod-desc  { font-size: 0.82rem; color: #64748B; line-height: 1.55; }
-
-/* ── CTA final ──────────────────────────────────────────────────── */
+/* ── CTA ────────────────────────────────────────────────────────── */
 .rf-cta {
   background: linear-gradient(135deg, #0F172A 0%, #0D4D4A 100%);
   border-radius: 1rem; padding: 2.5rem;
   display: flex; justify-content: space-between; align-items: center;
-  gap: 1.5rem; flex-wrap: wrap;
+  gap: 1.5rem; flex-wrap: wrap; margin-top: 2rem;
 }
 .rf-cta-text .label { color: #5EEAD4; font-size: 0.72rem; font-weight: 700;
-  letter-spacing: 0.1em; text-transform: uppercase; margin-bottom: 0.4rem; }
-.rf-cta-text .title { color: white; font-size: 1.2rem; font-weight: 700; margin-bottom: 0.25rem; }
+  letter-spacing: 0.1em; text-transform: uppercase; margin-bottom: 0.35rem; }
+.rf-cta-text .title { color: white; font-size: 1.2rem; font-weight: 800; margin-bottom: 0.25rem; line-height: 1.2; }
 .rf-cta-text .sub   { color: #94A3B8; font-size: 0.88rem; }
 .rf-cta-btn {
   display: inline-block; background: #0D9488; color: white !important;
   padding: 0.85rem 2rem; border-radius: 0.625rem;
   text-decoration: none !important; font-weight: 700; font-size: 0.92rem;
-  white-space: nowrap; transition: background 0.2s;
+  white-space: nowrap; transition: background 0.2s; flex-shrink: 0;
 }
 .rf-cta-btn:hover { background: #0F766E !important; }
 
 /* ── Responsive ─────────────────────────────────────────────────── */
-@media (max-width: 760px) {
-  .ruta-grid   { grid-template-columns: 1fr 1fr; }
-  .ruta-line   { display: none; }
-  .nivel-body  { grid-template-columns: 1fr; }
-  .nivel-col:first-child { border-right: none; border-bottom: 1px solid #F1F5F9; }
-  .rf-hero-stats { gap: 1.5rem; }
+@media (max-width: 800px) {
+  .modulo-body  { grid-template-columns: 1fr; }
+  .modulo-col:first-child { border-right: none; border-bottom: 1px solid #F1F5F9; }
+  .rf-hero-stats { gap: 0; }
+  .rf-stat-div { display: none; }
 }
-@media (max-width: 480px) {
-  .ruta-grid { grid-template-columns: 1fr; }
+@media (max-width: 560px) {
+  .roadmap-track { gap: 0; }
+  .roadmap-circle { width: 48px; height: 48px; font-size: 0.85rem; }
+  .rf-cta { flex-direction: column; }
 }
 </style>
 
@@ -558,86 +567,554 @@ ul.task-list li input[type="checkbox"] {
      HERO
      ================================================================ -->
 <div class="rf-hero">
-  <div class="rf-hero-badge">Centro Valor Público · Universidad EAFIT</div>
-  <h1>Del concepto de impacto<br>al capital que lo financia</h1>
-  <p>
-    Una ruta formativa de cinco niveles diseñada para llevar a su equipo
-    desde los fundamentos del valor social hasta las nuevas formas de
-    financiación basadas en evidencia de impacto.
+  <div class="rf-hero-eyebrow">Centro Valor Público · Universidad EAFIT</div>
+  <h1>Ruta formativa en<br><span>evaluación y valor social</span></h1>
+  <p class="rf-hero-sub">
+    Siete módulos de alto nivel — del diseño de la teoría del cambio a la estructuración
+    de instrumentos de financiación basados en evidencia de impacto.
+    Alineado con estándares de Social Value International, 3ie, J-PAL y OECD DAC.
   </p>
+
+  <div class="rf-hero-badges">
+    <span class="rf-badge rf-badge--svi">✓ SVI Certified</span>
+    <span class="rf-badge rf-badge--3ie">3ie Standards</span>
+    <span class="rf-badge rf-badge--jpal">J-PAL Methods</span>
+    <span class="rf-badge rf-badge--ib">OECD DAC Criteria</span>
+  </div>
 
   <div class="rf-hero-stats">
     <div class="rf-stat">
-      <div class="rf-stat-n">5</div>
-      <div class="rf-stat-l">Niveles formativos</div>
+      <div class="rf-stat-n">7</div>
+      <div class="rf-stat-l">Módulos<br>formativos</div>
     </div>
+    <div class="rf-stat-div"></div>
     <div class="rf-stat">
-      <div class="rf-stat-n">56h</div>
-      <div class="rf-stat-l">Horas de formación</div>
+      <div class="rf-stat-n">~80h</div>
+      <div class="rf-stat-l">Horas de<br>formación</div>
     </div>
+    <div class="rf-stat-div"></div>
     <div class="rf-stat">
       <div class="rf-stat-n">383</div>
-      <div class="rf-stat-l">Reportes SVI de referencia</div>
+      <div class="rf-stat-l">Reportes SVI<br>de referencia</div>
     </div>
+    <div class="rf-stat-div"></div>
     <div class="rf-stat">
-      <div class="rf-stat-n">SVI</div>
-      <div class="rf-stat-l">Metodología certificada</div>
+      <div class="rf-stat-n">N1→N7</div>
+      <div class="rf-stat-l">Ruta desde<br>conceptos a capital</div>
     </div>
   </div>
 </div>
 
 <!-- ================================================================
-     LA RUTA — VISUAL OVERVIEW
+     VISUAL ROADMAP
      ================================================================ -->
-<div class="content-section alt">
-<div class="content-wide">
+<div class="rf-section alt">
+<div class="rf-wide">
 
-<span class="section-label">La ruta formativa</span>
-<h2 class="section-heading anchored">Cinco niveles — un solo camino</h2>
-<p style="color:#475569; max-width:680px; margin-bottom:2.5rem;">
-  Cada nivel está diseñado para construir sobre el anterior. Puede iniciar desde cualquier punto
-  según el estado actual de su equipo — no es necesario comenzar por el principio.
+<span class="rf-label">La ruta formativa</span>
+<h2 class="rf-heading anchored">Siete módulos — un solo camino</h2>
+<p class="rf-subhead">
+  Cada módulo construye sobre el anterior. Puede iniciar desde cualquier punto según la madurez
+  metodológica de su equipo — y avanzar hasta el nivel que necesita su organización.
 </p>
 
-<div class="ruta-wrap">
-  <div class="ruta-line"></div>
-  <div class="ruta-grid">
+<div class="roadmap-wrap">
+<div class="roadmap-track">
 
-    <div class="ruta-node n1">
-      <div class="ruta-circle">01</div>
-      <div class="ruta-node-label">Fundamentos<br>del Impacto</div>
-      <div class="ruta-node-dur">4 horas</div>
-      <span class="ruta-node-tag">Introductorio</span>
+  <div class="roadmap-node">
+    <div class="roadmap-circle">M1</div>
+    <div class="roadmap-label">De la intención<br>al impacto</div>
+    <div class="roadmap-dur">12 h</div>
+    <span class="roadmap-tag">Fundamentos</span>
+  </div>
+
+  <div class="roadmap-node">
+    <div class="roadmap-circle">M2</div>
+    <div class="roadmap-label">MEL: de la teoría<br>a la práctica</div>
+    <div class="roadmap-dur">12 h</div>
+    <span class="roadmap-tag">Monitoreo</span>
+  </div>
+
+  <div class="roadmap-node">
+    <div class="roadmap-circle">M3</div>
+    <div class="roadmap-label">Valoración y<br>gestión del impacto</div>
+    <div class="roadmap-dur">20 h</div>
+    <span class="roadmap-tag">SROI · Core</span>
+  </div>
+
+  <div class="roadmap-node">
+    <div class="roadmap-circle">M4</div>
+    <div class="roadmap-label">Métodos empíricos<br>de evaluación</div>
+    <div class="roadmap-dur">16 h</div>
+    <span class="roadmap-tag">RCT · DiD</span>
+  </div>
+
+  <div class="roadmap-node">
+    <div class="roadmap-circle">M5</div>
+    <div class="roadmap-label">Evaluación<br>avanzada</div>
+    <div class="roadmap-dur">8 h</div>
+    <span class="roadmap-tag">Meta-análisis</span>
+  </div>
+
+  <div class="roadmap-node">
+    <div class="roadmap-circle">M6</div>
+    <div class="roadmap-label">Comunicación<br>de impacto</div>
+    <div class="roadmap-dur">8 h</div>
+    <span class="roadmap-tag">ESG · GRI</span>
+  </div>
+
+  <div class="roadmap-node">
+    <div class="roadmap-circle">M7</div>
+    <div class="roadmap-label">Financiación<br>basada en impacto</div>
+    <div class="roadmap-dur">8 h</div>
+    <span class="roadmap-tag">SIBs · Blended</span>
+  </div>
+
+</div>
+</div>
+
+</div>
+</div>
+
+<!-- ================================================================
+     MÓDULOS DETALLE
+     ================================================================ -->
+<div class="rf-section">
+<div class="rf-inner">
+
+<span class="rf-label">Contenido detallado</span>
+<h2 class="rf-heading anchored">Contenido de cada módulo</h2>
+
+<!-- ── M1 ─────────────────────────────────────────────────────── -->
+<div class="modulo-card m1">
+  <div class="modulo-header">
+    <div class="modulo-num-badge">M1</div>
+    <div class="modulo-meta">
+      <div class="modulo-titulo">De la intención al impacto</div>
+      <div class="modulo-tagline">Marcos conceptuales para pensar, teorizar y diseñar el cambio social</div>
+      <div class="modulo-chips">
+        <span class="chip chip-dur">12 horas</span>
+        <span class="chip chip-nivel">Nivel: Introductorio</span>
+        <span class="chip chip-ref">OECD DAC · BetterEvaluation · 3ie</span>
+      </div>
     </div>
-
-    <div class="ruta-node n2">
-      <div class="ruta-circle">02</div>
-      <div class="ruta-node-label">Medición SROI<br>Curso Básico</div>
-      <div class="ruta-node-dur">24 horas</div>
-      <span class="ruta-node-tag">Core</span>
+  </div>
+  <div class="modulo-body">
+    <div class="modulo-col">
+      <div class="modulo-col-title">Temas y contenidos</div>
+      <ul>
+        <li><strong>¿Qué es impacto?</strong> Distinción conceptual: outputs, outcomes, impacto, atribución causal</li>
+        <li><strong>Teoría de programas</strong> — Chen (1990), Weiss (1997): mecanismos, contexto, outcomes</li>
+        <li><strong>Logic models y logframes</strong> — USAID, EU, DFID: columna de verificación, supuestos, riesgos</li>
+        <li><strong>Teoría del Cambio (ToC)</strong> — orígenes, escuelas de pensamiento, construcción participativa</li>
+        <li><strong>Contribution analysis</strong> — Mayne (2012): demostrar contribución sin causalidad plena</li>
+        <li><strong>Evaluación realista</strong> — Pawson &amp; Tilley: mecanismo–contexto–resultado</li>
+        <li><strong>Sistemas complejos</strong> — Meadows, Kania: límites de las ToC lineales, teoría de sistemas</li>
+        <li><strong>Criterios OECD DAC</strong> — relevancia, coherencia, eficacia, eficiencia, impacto, sostenibilidad</li>
+        <li><strong>Análisis de stakeholders</strong> — matriz poder-interés, materialidad, involucrar para aprender</li>
+        <li><strong>Developmental Evaluation</strong> — Patton: evaluación en contextos de innovación y emergencia</li>
+      </ul>
     </div>
-
-    <div class="ruta-node n3">
-      <div class="ruta-circle">03</div>
-      <div class="ruta-node-label">Valoración<br>Avanzada</div>
-      <div class="ruta-node-dur">12 horas</div>
-      <span class="ruta-node-tag">Técnico</span>
+    <div class="modulo-col">
+      <div class="modulo-col-title">Herramientas y aplicaciones prácticas</div>
+      <ul>
+        <li>Construcción participativa de ToC con su equipo (taller)</li>
+        <li>Lectura crítica de logframes reales de proyectos BID/Banco Mundial</li>
+        <li>Calibración de la ToC con IMToC — Índice de Madurez (corpus 200 ToC)</li>
+        <li>Identificación de supuestos críticos y puntos de riesgo en la cadena causal</li>
+        <li>Diagnóstico rápido de ToC con herramienta VALOR·IA</li>
+        <li>Estudio de caso: de logframe a ToC dinámica en un programa de educación</li>
+        <li>Análisis de displacement y efectos sistémicos no anticipados</li>
+        <li>Mapa de actores y análisis de poder: ¿quién es stakeholder material?</li>
+      </ul>
     </div>
-
-    <div class="ruta-node n4">
-      <div class="ruta-circle">04</div>
-      <div class="ruta-node-label">Comunicación<br>de Impacto</div>
-      <div class="ruta-node-dur">8 horas</div>
-      <span class="ruta-node-tag">Estratégico</span>
+  </div>
+  <div class="modulo-refs">
+    <span class="modulo-refs-title">Referencias internacionales clave</span>
+    <div class="modulo-ref-pills">
+      <span class="ref-pill">Chen (1990) — Theory-Driven Evaluations</span>
+      <span class="ref-pill">Mayne (2012) — Contribution Analysis</span>
+      <span class="ref-pill">Pawson &amp; Tilley (1997) — Realistic Evaluation</span>
+      <span class="ref-pill">OECD DAC Criteria (2019)</span>
+      <span class="ref-pill">BetterEvaluation Rainbow Framework</span>
+      <span class="ref-pill">Kania et al. (2018) — The Water of Systems Change</span>
+      <span class="ref-pill">Rogers (2014) — ToC for UNICEF</span>
     </div>
+  </div>
+  <div class="modulo-footer">
+    <div class="modulo-outcome"><strong>Al terminar este módulo:</strong> el equipo diseña una Teoría del Cambio verificable, identifica los supuestos críticos y sabe distinguir qué puede afirmar sobre impacto y qué requiere más evidencia.</div>
+    <a href="mailto:jmunozm1@eafit.edu.co?subject=Formación — M1 De la intención al impacto" class="modulo-cta">Consultar este módulo →</a>
+  </div>
+</div>
 
-    <div class="ruta-node n5">
-      <div class="ruta-circle">05</div>
-      <div class="ruta-node-label">Financiación<br>Basada en Impacto</div>
-      <div class="ruta-node-dur">8 horas</div>
-      <span class="ruta-node-tag">Avanzado</span>
+<!-- ── M2 ─────────────────────────────────────────────────────── -->
+<div class="modulo-card m2">
+  <div class="modulo-header">
+    <div class="modulo-num-badge">M2</div>
+    <div class="modulo-meta">
+      <div class="modulo-titulo">De la teoría a la práctica — MEL: Monitoreo, Evaluación y Aprendizaje</div>
+      <div class="modulo-tagline">Diseño de sistemas de medición que generan aprendizaje real, no solo reportes de cumplimiento</div>
+      <div class="modulo-chips">
+        <span class="chip chip-dur">12 horas</span>
+        <span class="chip chip-nivel">Nivel: Básico–Intermedio</span>
+        <span class="chip chip-ref">DCED Standard · USAID CLA · MasterCard Foundation</span>
+      </div>
     </div>
+  </div>
+  <div class="modulo-body">
+    <div class="modulo-col">
+      <div class="modulo-col-title">Temas y contenidos</div>
+      <ul>
+        <li><strong>Del ToC al Marco de Resultados</strong> — cómo operacionalizar la teoría en indicadores medibles</li>
+        <li><strong>Diseño de indicadores SMART</strong> — DCED Standard: indicadores de impacto vs. output vs. proceso</li>
+        <li><strong>Outcome harvesting</strong> — Ricardo Wilson-Grau: cosecha de resultados emergentes no anticipados</li>
+        <li><strong>Most Significant Change (MSC)</strong> — Davies &amp; Dart: historias de cambio más significativo</li>
+        <li><strong>Mapeo de alcances (Outcome Mapping)</strong> — IDRC: actores, señales de progreso, estrategias</li>
+        <li><strong>Métodos participativos de monitoreo</strong> — PRA, REFLECT, CLTS, grupos focales estructurados</li>
+        <li><strong>Gestión adaptativa</strong> — USAID CLA: ciclos de aprendizaje, iteración, pivot informado</li>
+        <li><strong>Calidad y triangulación de datos</strong> — fuentes mixtas, sesgos, validación cruzada</li>
+        <li><strong>Sistemas de información M&amp;E</strong> — DHIS2, KoboToolbox, ODK, dashboards en tiempo real</li>
+        <li><strong>MEL para sostenibilidad e inclusión</strong> — GESI (género e inclusión social), datos desagregados</li>
+      </ul>
+    </div>
+    <div class="modulo-col">
+      <div class="modulo-col-title">Herramientas y aplicaciones prácticas</div>
+      <ul>
+        <li>Construcción del Marco de Resultados desde una ToC existente</li>
+        <li>Diseño de fichas de indicadores: definición, fuente, frecuencia, responsable</li>
+        <li>Ejercicio de Outcome Harvesting en un programa real</li>
+        <li>Entrevista MSC: selección de historia y criterios de significatividad</li>
+        <li>Diagnóstico del sistema MEL de su organización contra el DCED Standard</li>
+        <li>Diseño de encuesta de bienestar con escala Likert y Cantril Ladder</li>
+        <li>Dashboard de seguimiento en Google Sheets / Power BI (template)</li>
+        <li>Plan de aprendizaje anual: preguntas prioritarias, método, momento de uso</li>
+      </ul>
+    </div>
+  </div>
+  <div class="modulo-refs">
+    <span class="modulo-refs-title">Referencias internacionales clave</span>
+    <div class="modulo-ref-pills">
+      <span class="ref-pill">DCED Standard for Results Measurement (2016)</span>
+      <span class="ref-pill">Davies &amp; Dart (2005) — MSC Technique</span>
+      <span class="ref-pill">Wilson-Grau (2015) — Outcome Harvesting</span>
+      <span class="ref-pill">Earl et al. (2001) — Outcome Mapping (IDRC)</span>
+      <span class="ref-pill">USAID CLA Framework (2019)</span>
+      <span class="ref-pill">Chambers (2007) — Participatory Methodologies</span>
+    </div>
+  </div>
+  <div class="modulo-footer">
+    <div class="modulo-outcome"><strong>Al terminar este módulo:</strong> el equipo opera un sistema MEL completo — desde indicadores hasta ciclos de aprendizaje — y sabe distinguir monitoreo de cumplimiento del aprendizaje para mejora.</div>
+    <a href="mailto:jmunozm1@eafit.edu.co?subject=Formación — M2 MEL" class="modulo-cta">Consultar este módulo →</a>
+  </div>
+</div>
 
+<!-- ── M3 ─────────────────────────────────────────────────────── -->
+<div class="modulo-card m3">
+  <div class="modulo-header">
+    <div class="modulo-num-badge">M3</div>
+    <div class="modulo-meta">
+      <div class="modulo-titulo">Valoración y gestión del impacto social</div>
+      <div class="modulo-tagline">Métodos para traducir el cambio social en valor monetizable — con rigor, sin reclamar en exceso</div>
+      <div class="modulo-chips">
+        <span class="chip chip-dur">20 horas</span>
+        <span class="chip chip-nivel">Nivel: Intermedio — Módulo estrella</span>
+        <span class="chip chip-ref">SVI 8 Principios · 48 Criterios Aseguramiento</span>
+      </div>
+    </div>
+  </div>
+  <div class="modulo-body">
+    <div class="modulo-col">
+      <div class="modulo-col-title">Temas y contenidos</div>
+      <ul>
+        <li><strong>¿Por qué monetizar el impacto?</strong> — decisión bajo incertidumbre, comparabilidad entre programas</li>
+        <li><strong>Economía del bienestar</strong> — valor social, externalidades, bienes públicos, excedente del consumidor</li>
+        <li><strong>SROI — las 6 etapas SVI</strong> — alcance, Impact Map, evidencia, impacto, ratio, informe</li>
+        <li><strong>Los 8 principios de Social Value International</strong> — involucrar, entender, valorar, incluir lo material, no reclamar en exceso, ser transparente, verificar, ser receptivo</li>
+        <li><strong>Jerarquía de proxies</strong> — precios de mercado → preferencias reveladas → WTP → WELLBY</li>
+        <li><strong>WELLBY / Wellbeing Valuation</strong> — £13,000/punto LS/año; Cantril Ladder; SWEMWBS; Rosenberg</li>
+        <li><strong>Value Game</strong> — método participativo de valoración con mazo de cartas (SVI)</li>
+        <li><strong>WTP / Valoración contingente</strong> — elección dicotómica, diseño de encuesta, estimación econométrica</li>
+        <li><strong>Choice experiments</strong> — modelos de elección discreta para valorar atributos múltiples</li>
+        <li><strong>Costos unitarios</strong> — ADRES, SENA, PSSRU/NHS; proxies administrativos como valor social</li>
+        <li><strong>Factores de ajuste SVI</strong> — deadweight, attribution, displacement, drop-off</li>
+        <li><strong>VPN, tasa de descuento, análisis de sensibilidad</strong> — Monte Carlo, tornado, rango de confianza</li>
+        <li><strong>SVI Report Assurance Standard</strong> — 48 criterios, Principios 1-7, preparación para verificación</li>
+      </ul>
+    </div>
+    <div class="modulo-col">
+      <div class="modulo-col-title">Herramientas y aplicaciones prácticas</div>
+      <ul>
+        <li>Construcción del Value Map SROI completo (Excel template alineado SVI)</li>
+        <li>Selección y justificación de proxies para 5 outcomes prototipo</li>
+        <li>Value Game: ejercicio de valoración participativa con equipo propio</li>
+        <li>Estimación de deadweight con datos de benchmarking 383 reportes</li>
+        <li>Análisis de sensibilidad: variables críticas del ratio SROI</li>
+        <li>Benchmarking: ¿cómo se ubica su ratio en el corpus global SVI?</li>
+        <li>Diagnóstico de un informe SROI contra los 48 criterios del estándar SVI</li>
+        <li>Uso de agentes VALOR·IA: /sroi-analisis, /sroi-monetizacion, /sroi-sensibilidad</li>
+        <li>Caso completo: SROI del programa Hogares Saludables (cRCT, SROI 3.74×)</li>
+      </ul>
+    </div>
+  </div>
+  <div class="modulo-refs">
+    <span class="modulo-refs-title">Referencias internacionales clave</span>
+    <div class="modulo-ref-pills">
+      <span class="ref-pill">SVI — The SROI Guide (2012)</span>
+      <span class="ref-pill">SVI — 8 Principles of Social Value</span>
+      <span class="ref-pill">SVI Report Assurance Standard (48 criterios)</span>
+      <span class="ref-pill">Fujiwara &amp; Campbell (2011) — WELLBY Approach (HM Treasury)</span>
+      <span class="ref-pill">Tufts PIA Guide (2014) — Participatory Impact Assessment</span>
+      <span class="ref-pill">NEF — A Guide to Social Return on Investment</span>
+      <span class="ref-pill">Boardman et al. — Cost-Benefit Analysis (4th ed.)</span>
+    </div>
+  </div>
+  <div class="modulo-footer">
+    <div class="modulo-outcome"><strong>Al terminar este módulo:</strong> el equipo construye un SROI completo con Value Map, ratio, análisis de sensibilidad y benchmarking — listo para presentación ejecutiva o proceso de aseguramiento SVI.</div>
+    <a href="mailto:jmunozm1@eafit.edu.co?subject=Formación — M3 Valoración de impacto" class="modulo-cta">Consultar este módulo →</a>
+  </div>
+</div>
+
+<!-- ── M4 ─────────────────────────────────────────────────────── -->
+<div class="modulo-card m4">
+  <div class="modulo-header">
+    <div class="modulo-num-badge">M4</div>
+    <div class="modulo-meta">
+      <div class="modulo-titulo">Métodos empíricos de evaluación de impacto</div>
+      <div class="modulo-tagline">Diseños para establecer causalidad — del contrafactual a los ensayos controlados aleatorizados</div>
+      <div class="modulo-chips">
+        <span class="chip chip-dur">16 horas</span>
+        <span class="chip chip-nivel">Nivel: Avanzado</span>
+        <span class="chip chip-ref">3ie · J-PAL · IPA · World Bank</span>
+      </div>
+    </div>
+  </div>
+  <div class="modulo-body">
+    <div class="modulo-col">
+      <div class="modulo-col-title">Temas y contenidos</div>
+      <ul>
+        <li><strong>Pensamiento contrafactual</strong> — ¿qué hubiera pasado sin la intervención? sesgo de selección</li>
+        <li><strong>La escalera de evidencia</strong> — 3ie y DFID: del correlacional al experimental</li>
+        <li><strong>RCT — Ensayo Controlado Aleatorizado</strong> — diseño, poder estadístico, ética, CONSORT</li>
+        <li><strong>cRCT — RCT por conglomerados</strong> — unidad de aleatorización, ICC, diseño factorial</li>
+        <li><strong>Diferencias en diferencias (DiD)</strong> — supuesto de tendencias paralelas, DiD con covariables</li>
+        <li><strong>Diseño de regresión discontinua (RDD)</strong> — sharp vs. fuzzy, validez interna y externa</li>
+        <li><strong>Variables instrumentales (IV)</strong> — relevanciay exclusión; aplicaciones en programas sociales</li>
+        <li><strong>Propensity Score Matching (PSM)</strong> — supuesto de ignorabilidad; estimación en R/Stata/Python</li>
+        <li><strong>Control sintético</strong> — Abadie et al.; evaluación cuando hay una sola unidad tratada</li>
+        <li><strong>Evaluación de proceso (process tracing)</strong> — mecanismos causales cualitativos (Beach &amp; Pedersen)</li>
+        <li><strong>Métodos mixtos</strong> — integración cuantitativa-cualitativa; QUAL-driven mixed methods</li>
+        <li><strong>Ética en evaluación</strong> — comités IRB, consentimiento informado, equidad en aleatorización</li>
+      </ul>
+    </div>
+    <div class="modulo-col">
+      <div class="modulo-col-title">Herramientas y aplicaciones prácticas</div>
+      <ul>
+        <li>Lectura crítica de diseños de evaluación de programas sociales reales (BID, 3ie)</li>
+        <li>Ejercicio de poder estadístico: cálculo de tamaño de muestra con G*Power</li>
+        <li>Implementación de DiD básico en R: evento.estudio, prueba de tendencias paralelas</li>
+        <li>Estimación de RDD: McCrary test, visualización del punto de corte</li>
+        <li>PSM en R: MatchIt package, balance de covariables, caliper matching</li>
+        <li>Presentación del caso Hogares Saludables: cRCT con 1,163 hogares, diseño y resultados</li>
+        <li>Diagnóstico de un diseño de evaluación existente con checklist 3ie/J-PAL</li>
+        <li>Integración de resultados empíricos al Value Map SROI (deadweight = 0%)</li>
+      </ul>
+    </div>
+  </div>
+  <div class="modulo-refs">
+    <span class="modulo-refs-title">Referencias internacionales clave</span>
+    <div class="modulo-ref-pills">
+      <span class="ref-pill">Gertler et al. — Impact Evaluation in Practice (World Bank, 2016)</span>
+      <span class="ref-pill">3ie — Experimental and Quasi-Experimental Designs</span>
+      <span class="ref-pill">Duflo, Glennerster &amp; Kremer (2007) — J-PAL RCT Methods</span>
+      <span class="ref-pill">Imbens &amp; Rubin (2015) — Causal Inference (Cambridge)</span>
+      <span class="ref-pill">Angrist &amp; Pischke — Mostly Harmless Econometrics</span>
+      <span class="ref-pill">Beach &amp; Pedersen (2013) — Process Tracing</span>
+      <span class="ref-pill">White (2013) — Combining Quantitative and Qualitative (3ie)</span>
+    </div>
+  </div>
+  <div class="modulo-footer">
+    <div class="modulo-outcome"><strong>Al terminar este módulo:</strong> el equipo diseña y evalúa críticamente estrategias de identificación causal, selecciona el método apropiado para su contexto y sabe integrar evidencia empírica con el análisis SROI.</div>
+    <a href="mailto:jmunozm1@eafit.edu.co?subject=Formación — M4 Métodos empíricos" class="modulo-cta">Consultar este módulo →</a>
+  </div>
+</div>
+
+<!-- ── M5 ─────────────────────────────────────────────────────── -->
+<div class="modulo-card m5">
+  <div class="modulo-header">
+    <div class="modulo-num-badge">M5</div>
+    <div class="modulo-meta">
+      <div class="modulo-titulo">Evaluación avanzada y síntesis de evidencia</div>
+      <div class="modulo-tagline">Meta-análisis, evaluación de sistemas complejos y uso estratégico de la inteligencia artificial</div>
+      <div class="modulo-chips">
+        <span class="chip chip-dur">8 horas</span>
+        <span class="chip chip-nivel">Nivel: Avanzado</span>
+        <span class="chip chip-ref">Campbell · Cochrane · UNEG · OECD</span>
+      </div>
+    </div>
+  </div>
+  <div class="modulo-body">
+    <div class="modulo-col">
+      <div class="modulo-col-title">Temas y contenidos</div>
+      <ul>
+        <li><strong>Meta-análisis</strong> — efecto combinado, heterogeneidad, forest plots, funnel plots para sesgo</li>
+        <li><strong>Revisiones sistemáticas</strong> — protocolo PRISMA, Campbell Collaboration, 3ie systematic reviews</li>
+        <li><strong>Síntesis realista</strong> — Pawson (2006): mecanismo-contexto-resultado a nivel de portafolio</li>
+        <li><strong>Evaluación de portafolios</strong> — múltiples programas, aprendizaje cruzado, eficiencia de cartera</li>
+        <li><strong>Evaluación orientada a equidad</strong> — UNICEF EEAF; desagregación por género, edad, etnia</li>
+        <li><strong>Evaluación de organizaciones multilaterales</strong> — MOPAN, OECD DAC, UNEG norms</li>
+        <li><strong>Evaluación en sistemas complejos</strong> — Developmental Evaluation (Patton); Complex Adaptive Systems</li>
+        <li><strong>IA aplicada a la evaluación</strong> — LLM para extracción de evidencia, NLP en encuestas, detección de sesgos</li>
+      </ul>
+    </div>
+    <div class="modulo-col">
+      <div class="modulo-col-title">Herramientas y aplicaciones prácticas</div>
+      <ul>
+        <li>Lectura e interpretación de un forest plot de meta-análisis (RevMan / R metafor)</li>
+        <li>Evaluación rápida con protocolo PRISMA: selección, extracción, síntesis</li>
+        <li>Uso del corpus CVP: 383 reportes SVI + 54 estudios como base de síntesis</li>
+        <li>Diagnóstico de evaluabilidad de un portafolio de programas</li>
+        <li>Aplicación de la lente GESI a un Marco de Resultados existente</li>
+        <li>Exploración de herramientas IA para automatizar extracción de evidencia</li>
+        <li>Agente VALOR·IA /sroi-referencias: benchmarking automático del corpus</li>
+      </ul>
+    </div>
+  </div>
+  <div class="modulo-refs">
+    <span class="modulo-refs-title">Referencias internacionales clave</span>
+    <div class="modulo-ref-pills">
+      <span class="ref-pill">Higgins &amp; Thomas — Cochrane Handbook (2022)</span>
+      <span class="ref-pill">Campbell Collaboration — Systematic Review Guidelines</span>
+      <span class="ref-pill">Pawson (2006) — Evidence-Based Policy: A Realist Perspective</span>
+      <span class="ref-pill">Patton (2010) — Developmental Evaluation</span>
+      <span class="ref-pill">UNICEF (2014) — Equity-Focused and Gender-Responsive Evaluation</span>
+      <span class="ref-pill">MOPAN 3.0 Methodology (2019)</span>
+      <span class="ref-pill">UNEG Norms and Standards (2016)</span>
+    </div>
+  </div>
+  <div class="modulo-footer">
+    <div class="modulo-outcome"><strong>Al terminar este módulo:</strong> el equipo sintetiza evidencia de múltiples fuentes, evalúa portafolios completos e incorpora herramientas de IA para amplificar la capacidad analítica de la organización.</div>
+    <a href="mailto:jmunozm1@eafit.edu.co?subject=Formación — M5 Evaluación avanzada" class="modulo-cta">Consultar este módulo →</a>
+  </div>
+</div>
+
+<!-- ── M6 ─────────────────────────────────────────────────────── -->
+<div class="modulo-card m6">
+  <div class="modulo-header">
+    <div class="modulo-num-badge">M6</div>
+    <div class="modulo-meta">
+      <div class="modulo-titulo">Comunicación de impacto</div>
+      <div class="modulo-tagline">Marcos de reporte, visualización de datos y narrativa de evidencia para audiencias diversas</div>
+      <div class="modulo-chips">
+        <span class="chip chip-dur">8 horas</span>
+        <span class="chip chip-nivel">Nivel: Intermedio</span>
+        <span class="chip chip-ref">GRI · SASB · IRIS+ · IIRC · SVI</span>
+      </div>
+    </div>
+  </div>
+  <div class="modulo-body">
+    <div class="modulo-col">
+      <div class="modulo-col-title">Temas y contenidos</div>
+      <ul>
+        <li><strong>Marcos de reporte de impacto</strong> — GRI (Global Reporting Initiative), SASB, IIRC, B Impact Assessment</li>
+        <li><strong>IRIS+ y GIIN</strong> — métricas estándar del sector, alineación con ODS, taxonomía de impacto</li>
+        <li><strong>Reporte SROI estándar SVI</strong> — estructura del informe, disclosure de supuestos, verificabilidad</li>
+        <li><strong>ESG e integrado reporting</strong> — &lt;IR&gt; Framework, materialidad doble, doble materialidad CSRD (EU)</li>
+        <li><strong>Alineación ODS</strong> — contribution claims vs. causality claims; cómo reportar contribución sin sobreafirmar</li>
+        <li><strong>Visualización de datos de impacto</strong> — waterfall charts, tornado, sankey, benchmarks comparados</li>
+        <li><strong>Impact storytelling</strong> — estructura narrativa (antes-después-porque), testimonios verificables, humanizar el dato</li>
+        <li><strong>Comunicación por audiencia</strong> — junta directiva, financiadores, gobierno, académicos, medios de comunicación</li>
+        <li><strong>Comunicación digital de evidencia</strong> — sitios de impacto, interactivos, infografías técnicas</li>
+      </ul>
+    </div>
+    <div class="modulo-col">
+      <div class="modulo-col-title">Herramientas y aplicaciones prácticas</div>
+      <ul>
+        <li>Diseño de un reporte ejecutivo de SROI de 2 páginas (template profesional)</li>
+        <li>Mapeo de los indicadores propios contra el estándar IRIS+ del sector</li>
+        <li>Construcción de waterfall chart de valor social en R / Flourish</li>
+        <li>Revisión de un informe GRI real: ¿dónde hay sobreafirmación?</li>
+        <li>Adaptación de la misma evidencia para 3 audiencias distintas (ejercicio)</li>
+        <li>Presentación ejecutiva con agente /sroi-presentacion (RevealJS, IV Hub)</li>
+        <li>Diagnóstico de comunicación digital de impacto: checklist de 12 criterios</li>
+      </ul>
+    </div>
+  </div>
+  <div class="modulo-refs">
+    <span class="modulo-refs-title">Referencias internacionales clave</span>
+    <div class="modulo-ref-pills">
+      <span class="ref-pill">GRI Standards (2021)</span>
+      <span class="ref-pill">IRIS+ Core Metrics (GIIN, 2022)</span>
+      <span class="ref-pill">IIRC — International &lt;IR&gt; Framework (2021)</span>
+      <span class="ref-pill">SVI Report Assurance Standard</span>
+      <span class="ref-pill">EU CSRD — Corporate Sustainability Reporting Directive (2023)</span>
+      <span class="ref-pill">Schwartz (2017) — Impact Storytelling</span>
+      <span class="ref-pill">Few (2009) — Now You See It: Data Visualization</span>
+    </div>
+  </div>
+  <div class="modulo-footer">
+    <div class="modulo-outcome"><strong>Al terminar este módulo:</strong> el equipo traduce resultados complejos en comunicaciones claras y verificables para cada audiencia — y sabe qué marcos de reporte aplican según el tipo de organización y financiador.</div>
+    <a href="mailto:jmunozm1@eafit.edu.co?subject=Formación — M6 Comunicación de impacto" class="modulo-cta">Consultar este módulo →</a>
+  </div>
+</div>
+
+<!-- ── M7 ─────────────────────────────────────────────────────── -->
+<div class="modulo-card m7">
+  <div class="modulo-header">
+    <div class="modulo-num-badge">M7</div>
+    <div class="modulo-meta">
+      <div class="modulo-titulo">Financiación basada en impacto</div>
+      <div class="modulo-tagline">De la evidencia SROI a los instrumentos de capital que premian los resultados verificables</div>
+      <div class="modulo-chips">
+        <span class="chip chip-dur">8 horas</span>
+        <span class="chip chip-nivel">Nivel: Avanzado</span>
+        <span class="chip chip-ref">GIIN · Convergence · Social Finance UK · BID Lab</span>
+      </div>
+    </div>
+  </div>
+  <div class="modulo-body">
+    <div class="modulo-col">
+      <div class="modulo-col-title">Temas y contenidos</div>
+      <ul>
+        <li><strong>El ecosistema de inversión de impacto</strong> — GIIN: tamaño, actores, instrumentos, tendencias 2025</li>
+        <li><strong>Bonos de Impacto Social (SIBs)</strong> — estructura pago por resultados, roles (ejecutor, inversor, pagador), casos LatAm</li>
+        <li><strong>Development Impact Bonds (DIBs)</strong> — variante con financiamiento de donantes; ejemplos educación y salud</li>
+        <li><strong>Results-Based Financing (RBF)</strong> — BID, Banco Mundial, GIZ: desembolso condicionado a indicadores</li>
+        <li><strong>Blended Finance</strong> — Convergence: capital concesional + comercial; taxonomía de estructuras</li>
+        <li><strong>IMoIC — Impact Multiple on Invested Capital</strong> — lenguaje de retorno para inversionistas ESG y family offices</li>
+        <li><strong>Bonos sociales y verdes</strong> — ICMA Social Bond Principles, Green Bond Framework, taxonomías</li>
+        <li><strong>Due diligence de impacto</strong> — IMP (Impact Management Project): qué, quién, cuánto, contribución, riesgo</li>
+        <li><strong>Capital catalítico</strong> — Omidyar Network: cuando aceptar retornos debajo del mercado tiene sentido estratégico</li>
+        <li><strong>Elegibilidad para finanzas de impacto</strong> — criterios: evidencia, escala, pagador, outcomes medibles</li>
+      </ul>
+    </div>
+    <div class="modulo-col">
+      <div class="modulo-col-title">Herramientas y aplicaciones prácticas</div>
+      <ul>
+        <li>Caso SIB Colombia (Cali, 2017): diseño, resultados, lecciones aprendidas</li>
+        <li>Diagnóstico de elegibilidad para SIB/RBF: checklist de 10 criterios</li>
+        <li>Estructura de un term sheet de impacto: outcomes pagables, métricas de verificación, disparadores de pago</li>
+        <li>Conversión de SROI a IMoIC: traducción al lenguaje de fondos de inversión</li>
+        <li>Mapeo de financiadores de impacto para su sector y tipo de programa en LatAm</li>
+        <li>Evaluación de BID Lab y Swiss Philanthropy como posibles estructuradores</li>
+        <li>Diseño del pitch de impacto: evidencia SROI como argumento de inversión</li>
+      </ul>
+    </div>
+  </div>
+  <div class="modulo-refs">
+    <span class="modulo-refs-title">Referencias internacionales clave</span>
+    <div class="modulo-ref-pills">
+      <span class="ref-pill">GIIN — Annual Impact Investor Survey (2024)</span>
+      <span class="ref-pill">Convergence — Blended Finance Structures Guide</span>
+      <span class="ref-pill">Social Finance UK — SIB Design Guide</span>
+      <span class="ref-pill">IMP — Impact Management Norms (2021)</span>
+      <span class="ref-pill">ICMA — Social Bond Principles (2023)</span>
+      <span class="ref-pill">BID Lab — Finanzas de Impacto en LatAm (2023)</span>
+      <span class="ref-pill">Omidyar Network — Catalytic Capital Guide</span>
+    </div>
+  </div>
+  <div class="modulo-footer">
+    <div class="modulo-outcome"><strong>Al terminar este módulo:</strong> el equipo entiende el ecosistema de finanzas de impacto, sabe evaluar la elegibilidad de su programa para distintos instrumentos y puede estructurar el caso de inversión usando evidencia SROI como argumento central.</div>
+    <a href="mailto:jmunozm1@eafit.edu.co?subject=Formación — M7 Financiación basada en impacto" class="modulo-cta">Consultar este módulo →</a>
   </div>
 </div>
 
@@ -645,386 +1122,54 @@ ul.task-list li input[type="checkbox"] {
 </div>
 
 <!-- ================================================================
-     NIVELES EN DETALLE
+     AUDIENCIAS
      ================================================================ -->
-<div class="content-section">
-<div class="content-wide">
+<div class="rf-section alt">
+<div class="rf-inner">
 
-<span class="section-label">Contenido por nivel</span>
-<h2 class="section-heading anchored">Qué aprende en cada etapa</h2>
-<p style="color:#475569; max-width:680px; margin-bottom:2.5rem;">
-  Cada nivel tiene un propósito específico, una audiencia objetivo y produce un resultado
-  concreto que puede usar inmediatamente en su organización.
-</p>
-
-<!-- ── NIVEL 1 ─────────────────────────────────────────────── -->
-<div class="nivel-card n1">
-  <div class="nivel-header">
-    <div class="nivel-badge">01</div>
-    <div class="nivel-meta">
-      <div class="nivel-titulo">Fundamentos del Impacto Social</div>
-      <div class="nivel-tagline">El punto de partida — por qué el impacto importa y cómo pensarlo con rigor</div>
-      <div class="nivel-chips">
-        <span class="chip chip-dur">4 horas</span>
-        <span class="chip chip-aud">Sin requisitos previos</span>
-      </div>
-    </div>
-  </div>
-  <div class="nivel-body">
-    <div class="nivel-col">
-      <div class="nivel-col-title">Contenidos</div>
-      <ul>
-        <li>¿Qué es el valor social? Definición y por qué la medición importa</li>
-        <li>La diferencia entre outputs, outcomes e impacto</li>
-        <li>Modelos lógicos y Teorías del Cambio — del programa a la evidencia</li>
-        <li>Por qué los programas sociales fallan — y cómo detectarlo</li>
-        <li>Introducción al ecosistema de marcos internacionales (SVI, OCDE, ODS)</li>
-      </ul>
-    </div>
-    <div class="nivel-col">
-      <div class="nivel-col-title">Al terminar podrá</div>
-      <ul>
-        <li>Distinguir correlación de causalidad en programas sociales</li>
-        <li>Construir una Teoría del Cambio básica para su programa</li>
-        <li>Identificar los outcomes materiales de su intervención</li>
-        <li>Reconocer en qué nivel de madurez se encuentra su organización</li>
-        <li>Formular la pregunta correcta de evaluación</li>
-      </ul>
-    </div>
-  </div>
-  <div class="nivel-footer">
-    <div class="nivel-prereq"><strong>Requisito previo:</strong> Ninguno — nivel de entrada para cualquier equipo</div>
-    <a href="mailto:jmunozm1@eafit.edu.co?subject=Nivel 1 — Fundamentos del Impacto" class="nivel-cta">Solicitar este nivel →</a>
-  </div>
-</div>
-
-<!-- ── NIVEL 2 ─────────────────────────────────────────────── -->
-<div class="nivel-card n2">
-  <div class="nivel-header">
-    <div class="nivel-badge">02</div>
-    <div class="nivel-meta">
-      <div class="nivel-titulo">Medición SROI — Curso Básico Completo</div>
-      <div class="nivel-tagline">Las seis etapas del estándar SVI — del Impact Map al ratio verificable</div>
-      <div class="nivel-chips">
-        <span class="chip chip-dur">24 horas · 8 sesiones</span>
-        <span class="chip chip-aud">Nivel 1 o experiencia equivalente</span>
-        <span class="chip chip-cert">Certificación de participación</span>
-      </div>
-    </div>
-  </div>
-
-  <div style="padding: 1.25rem 1.75rem 0.5rem; border-bottom: 1px solid #F1F5F9;">
-    <div class="nivel-col-title" style="color:#94A3B8; font-size:0.65rem; font-weight:700; letter-spacing:0.1em; text-transform:uppercase; margin-bottom:0.75rem;">Las 8 sesiones del programa</div>
-  </div>
-
-  <div class="sesiones-grid">
-    <a href="../slides/sesion1.html" target="_blank" class="sesion-pill has-link">
-      <div class="sesion-num">01</div>
-      <div class="sesion-info">
-        <div class="sesion-title">Fundamentos y Evaluación de Programas</div>
-        <div class="sesion-tag">Ver slides disponibles</div>
-      </div>
-    </a>
-    <div class="sesion-pill">
-      <div class="sesion-num">02</div>
-      <div class="sesion-info">
-        <div class="sesion-title">Introducción al SROI y Marco SVI</div>
-        <div class="sesion-tag">8 principios · 48 criterios</div>
-      </div>
-    </div>
-    <div class="sesion-pill">
-      <div class="sesion-num">03</div>
-      <div class="sesion-info">
-        <div class="sesion-title">Alcance, Stakeholders y Mapa de Outcomes</div>
-        <div class="sesion-tag">Etapas 1 y 2 SVI</div>
-      </div>
-    </div>
-    <div class="sesion-pill">
-      <div class="sesion-num">04</div>
-      <div class="sesion-info">
-        <div class="sesion-title">Evidencia de Outcomes</div>
-        <div class="sesion-tag">Etapa 3 SVI</div>
-      </div>
-    </div>
-    <div class="sesion-pill">
-      <div class="sesion-num">05</div>
-      <div class="sesion-info">
-        <div class="sesion-title">Impacto Neto — Deadweight y Atribución</div>
-        <div class="sesion-tag">Etapa 4 SVI</div>
-      </div>
-    </div>
-    <a href="../slides/sesion6.html" target="_blank" class="sesion-pill has-link">
-      <div class="sesion-num">06</div>
-      <div class="sesion-info">
-        <div class="sesion-title">Valoración de Impactos y Monetización</div>
-        <div class="sesion-tag">Ver slides disponibles</div>
-      </div>
-    </a>
-    <div class="sesion-pill">
-      <div class="sesion-num">07</div>
-      <div class="sesion-info">
-        <div class="sesion-title">Cálculo del SROI y Sensibilidad</div>
-        <div class="sesion-tag">Etapa 5 SVI</div>
-      </div>
-    </div>
-    <div class="sesion-pill">
-      <div class="sesion-num">08</div>
-      <div class="sesion-info">
-        <div class="sesion-title">Informe, Comunicación y Aseguramiento</div>
-        <div class="sesion-tag">Etapa 6 SVI</div>
-      </div>
-    </div>
-  </div>
-
-  <div class="nivel-body" style="border-top: 1px solid #F1F5F9;">
-    <div class="nivel-col">
-      <div class="nivel-col-title">Contenidos clave</div>
-      <ul>
-        <li>Las 6 etapas del SROI según Social Value International</li>
-        <li>Construcción del Impact Map con stakeholders</li>
-        <li>Selección de proxies financieros con fuentes documentadas</li>
-        <li>Factores de ajuste: deadweight, attribution, displacement, drop-off</li>
-        <li>Value Map completo y cálculo del ratio SROI</li>
-        <li>Análisis de sensibilidad básico: escenarios pesimista/base/optimista</li>
-        <li>Estructura del informe SVI y checklist de 48 criterios</li>
-      </ul>
-    </div>
-    <div class="nivel-col">
-      <div class="nivel-col-title">Al terminar podrá</div>
-      <ul>
-        <li>Ejecutar un análisis SROI completo de principio a fin</li>
-        <li>Completar el Value Map oficial de SVI (Excel / Google Sheets)</li>
-        <li>Calcular el ratio SROI con justificación metodológica</li>
-        <li>Producir un informe SROI alineado con los 8 principios SVI</li>
-        <li>Comparar sus resultados con 383 reportes verificados internacionalmente</li>
-        <li>Identificar el nivel de verificación requerido para su contexto</li>
-        <li>Usar la plataforma VALOR·IA y sus agentes especializados</li>
-      </ul>
-    </div>
-  </div>
-  <div class="nivel-footer">
-    <div class="nivel-prereq"><strong>Requisito previo:</strong> Nivel 1 o experiencia básica con ToC e indicadores</div>
-    <a href="mailto:jmunozm1@eafit.edu.co?subject=Nivel 2 — Curso Básico SROI" class="nivel-cta">Solicitar el curso completo →</a>
-  </div>
-</div>
-
-<!-- ── NIVEL 3 ─────────────────────────────────────────────── -->
-<div class="nivel-card n3">
-  <div class="nivel-header">
-    <div class="nivel-badge">03</div>
-    <div class="nivel-meta">
-      <div class="nivel-titulo">Valoración Avanzada de Impacto</div>
-      <div class="nivel-tagline">Métodos cuantitativos sofisticados — cuando el rigor técnico marca la diferencia</div>
-      <div class="nivel-chips">
-        <span class="chip chip-dur">12 horas · 4 sesiones</span>
-        <span class="chip chip-aud">Nivel 2 completado</span>
-      </div>
-    </div>
-  </div>
-  <div class="nivel-body">
-    <div class="nivel-col">
-      <div class="nivel-col-title">Contenidos</div>
-      <ul>
-        <li>Valoración del bienestar: WELLBY, eQALY y DALYs para programas de salud</li>
-        <li>Diseño de estudios de valoración contingente (WTP/WTA dichotomous choice)</li>
-        <li>Experimentos de elección discreta para valorar múltiples atributos</li>
-        <li>El marco de Tres Capitales: humano, natural y social (Capitals Coalition)</li>
-        <li>Monte Carlo, TIR Social y SROI en Riesgo — análisis probabilístico</li>
-        <li>Benchmarking avanzado con la base de 383 reportes SVI</li>
-      </ul>
-    </div>
-    <div class="nivel-col">
-      <div class="nivel-col-title">Al terminar podrá</div>
-      <ul>
-        <li>Seleccionar el método de valoración más apropiado para cada outcome</li>
-        <li>Calcular el SROI bajo distribuciones de probabilidad (Monte Carlo)</li>
-        <li>Comunicar rangos de incertidumbre con rigor estadístico</li>
-        <li>Valorar impactos en salud, bienestar subjetivo y capital natural</li>
-        <li>Usar VALOR·IA para análisis de sensibilidad avanzado y visualización profesional</li>
-        <li>Defender sus supuestos metodológicos ante audiencias técnicas</li>
-      </ul>
-    </div>
-  </div>
-  <div class="nivel-footer">
-    <div class="nivel-prereq"><strong>Requisito previo:</strong> Nivel 2 — dominio del cálculo SROI básico</div>
-    <a href="mailto:jmunozm1@eafit.edu.co?subject=Nivel 3 — Valoración Avanzada" class="nivel-cta">Solicitar este nivel →</a>
-  </div>
-</div>
-
-<!-- ── NIVEL 4 ─────────────────────────────────────────────── -->
-<div class="nivel-card n4">
-  <div class="nivel-header">
-    <div class="nivel-badge">04</div>
-    <div class="nivel-meta">
-      <div class="nivel-titulo">Comunicación y Posicionamiento de Impacto</div>
-      <div class="nivel-tagline">Del análisis a la decisión — cómo presentar evidencia de impacto a audiencias de alto nivel</div>
-      <div class="nivel-chips">
-        <span class="chip chip-dur">8 horas · 2 sesiones</span>
-        <span class="chip chip-aud">Directivos · Equipos de fundraising</span>
-      </div>
-    </div>
-  </div>
-  <div class="nivel-body">
-    <div class="nivel-col">
-      <div class="nivel-col-title">Contenidos</div>
-      <ul>
-        <li>Presentaciones ejecutivas SROI: diseño para salas de junta y comités</li>
-        <li>Narrativa de impacto: StoryBrand, PAS y comunicación basada en evidencia</li>
-        <li>El estándar de verificación SVI: los 48 criterios del Assurance Standard</li>
-        <li>Cómo posicionar un análisis SROI ante multilaterales (BID, PNUD, Banco Mundial)</li>
-        <li>Diferenciación por audiencia: inversionistas, gobierno, filantropía internacional</li>
-        <li>Comunicación de incertidumbre sin perder credibilidad</li>
-      </ul>
-    </div>
-    <div class="nivel-col">
-      <div class="nivel-col-title">Al terminar podrá</div>
-      <ul>
-        <li>Generar una presentación ejecutiva profesional con Quarto RevealJS</li>
-        <li>Adaptar la narrativa del SROI según la audiencia y el propósito</li>
-        <li>Preparar la documentación necesaria para una verificación SVI formal</li>
-        <li>Posicionarse como referente de evidencia ante organizaciones multilaterales</li>
-        <li>Convertir un informe técnico en un instrumento de negociación estratégica</li>
-      </ul>
-    </div>
-  </div>
-  <div class="nivel-footer">
-    <div class="nivel-prereq"><strong>Requisito previo:</strong> Haber completado un análisis SROI (Nivel 2 o experiencia equivalente)</div>
-    <a href="mailto:jmunozm1@eafit.edu.co?subject=Nivel 4 — Comunicación de Impacto" class="nivel-cta">Solicitar este nivel →</a>
-  </div>
-</div>
-
-<!-- ── NIVEL 5 ─────────────────────────────────────────────── -->
-<div class="nivel-card n5">
-  <div class="nivel-header">
-    <div class="nivel-badge">05</div>
-    <div class="nivel-meta">
-      <div class="nivel-titulo">Financiación Basada en Impacto</div>
-      <div class="nivel-tagline">Cómo convertir la evidencia de impacto en acceso a capital — instrumentos, actores y estrategias</div>
-      <div class="nivel-chips">
-        <span class="chip chip-dur">8 horas · 2 sesiones</span>
-        <span class="chip chip-aud">Directivos · CFOs · Gestores de fondos</span>
-      </div>
-    </div>
-  </div>
-  <div class="nivel-body">
-    <div class="nivel-col">
-      <div class="nivel-col-title">Contenidos</div>
-      <ul>
-        <li>El ecosistema del impact investing: ESG, blended finance y capital de impacto</li>
-        <li>IMoIC — Impact Multiple on Invested Capital: la métrica del inversionista</li>
-        <li>Social Impact Bonds (SIBs) y Results-Based Financing (RBF): cómo funcionan</li>
-        <li>Instrumentos de la banca multilateral: BID Lab, GCF, GIZ, IFC, FOMIN</li>
-        <li>Cómo preparar una organización para recibir capital de impacto internacional</li>
-        <li>Due diligence de impacto: qué piden los fondos y cómo presentarlo</li>
-        <li>El IV Hub Playbook 2025: estándares para inversionistas globales</li>
-      </ul>
-    </div>
-    <div class="nivel-col">
-      <div class="nivel-col-title">Al terminar podrá</div>
-      <ul>
-        <li>Calcular el IMoIC de su programa y comunicarlo a inversionistas</li>
-        <li>Diseñar la estructura básica de un SIB o instrumento RBF</li>
-        <li>Identificar los fondos de impacto más relevantes para su sector y región</li>
-        <li>Preparar el dossier de evidencia que requiere un due diligence de impacto</li>
-        <li>Comprender qué nivel de verificación SVI se requiere para acceder a capital formal</li>
-        <li>Usar el SROI como argumento de negociación para reducir el costo de capital</li>
-      </ul>
-    </div>
-  </div>
-  <div class="nivel-footer">
-    <div class="nivel-prereq"><strong>Requisito previo:</strong> Niveles 2 y 4 — análisis SROI consolidado y comunicación desarrollada</div>
-    <a href="mailto:jmunozm1@eafit.edu.co?subject=Nivel 5 — Financiación Basada en Impacto" class="nivel-cta">Solicitar este nivel →</a>
-  </div>
-</div>
-
-</div>
-</div>
-
-<!-- ================================================================
-     A QUIÉN VA DIRIGIDO
-     ================================================================ -->
-<div class="content-section alt">
-<div class="content-wide">
-
-<span class="section-label">Audiencias</span>
-<h2 class="section-heading anchored">¿Desde qué punto empieza su equipo?</h2>
-<p style="color:#475569; max-width:680px; margin-bottom:1rem;">
-  La ruta no es lineal para todos. Su punto de entrada depende de dónde está hoy su organización.
+<span class="rf-label">Para quién</span>
+<h2 class="rf-heading anchored">¿Quién participa y desde qué módulo?</h2>
+<p class="rf-subhead">
+  La ruta es flexible. Cada perfil tiene un punto de entrada recomendado — y puede avanzar hasta donde
+  su organización necesite llegar.
 </p>
 
 <div class="aud-grid">
-
   <div class="aud-card">
-    <div class="aud-icon">🏠</div>
-    <div class="aud-role">ONG y Fundaciones</div>
-    <div class="aud-desc">Equipos que quieren demostrar impacto a donantes y fortalecer la rendición de cuentas.</div>
-    <div class="aud-entry">Entrar en Nivel 1 o 2</div>
+    <div class="aud-icon">🏗️</div>
+    <div class="aud-role">Coordinadores y diseñadores de programas</div>
+    <div class="aud-desc">Necesitan construir su ToC, diseñar los indicadores correctos y saber qué pueden afirmar sobre sus resultados.</div>
+    <div class="aud-entry">Ingresa por M1 → M2</div>
   </div>
-
   <div class="aud-card">
-    <div class="aud-icon">🏢</div>
-    <div class="aud-role">Empresas con inversión social</div>
-    <div class="aud-desc">Áreas de sostenibilidad, RSE o fundaciones corporativas que necesitan monetizar su impacto.</div>
-    <div class="aud-entry">Entrar en Nivel 2 o 3</div>
+    <div class="aud-icon">📊</div>
+    <div class="aud-role">Equipos de M&amp;E y datos</div>
+    <div class="aud-desc">Ya monitorean, pero quieren elevar la calidad de la evidencia y conectar sus datos con valor monetizable.</div>
+    <div class="aud-entry">Ingresa por M2 → M3</div>
   </div>
-
   <div class="aud-card">
-    <div class="aud-icon">🏛</div>
-    <div class="aud-role">Entidades públicas</div>
-    <div class="aud-desc">Programas de gobierno que deben demostrar eficiencia del gasto y evidencia para política pública.</div>
-    <div class="aud-entry">Entrar en Nivel 2</div>
+    <div class="aud-icon">🌿</div>
+    <div class="aud-role">Áreas de sostenibilidad / RSE</div>
+    <div class="aud-desc">Necesitan el SROI y el lenguaje de reporte ESG para comunicar ante juntas directivas y financiadores.</div>
+    <div class="aud-entry">Ingresa por M3 → M6</div>
   </div>
-
   <div class="aud-card">
-    <div class="aud-icon">📈</div>
-    <div class="aud-role">Consultores e independientes</div>
-    <div class="aud-desc">Profesionales que ofrecen servicios de evaluación y medición de impacto a múltiples clientes.</div>
-    <div class="aud-entry">Ruta completa N1 a N4</div>
+    <div class="aud-icon">🔬</div>
+    <div class="aud-role">Investigadores y evaluadores independientes</div>
+    <div class="aud-desc">Quieren dominar los métodos empíricos y la síntesis de evidencia para elevar el rigor de sus evaluaciones.</div>
+    <div class="aud-entry">Ingresa por M3 → M4 → M5</div>
   </div>
-
   <div class="aud-card">
-    <div class="aud-icon">🌎</div>
-    <div class="aud-role">Fondos e inversionistas</div>
-    <div class="aud-desc">Gestores de fondos de impacto, family offices o DFIs que necesitan valorar el impacto de su portafolio.</div>
-    <div class="aud-entry">Entrar en Nivel 3 o 5</div>
+    <div class="aud-icon">🏦</div>
+    <div class="aud-role">Inversionistas de impacto y filántropos</div>
+    <div class="aud-desc">Necesitan entender la base de evidencia para tomar decisiones de inversión informadas por resultados verificables.</div>
+    <div class="aud-entry">Ingresa por M3 → M7</div>
   </div>
-
   <div class="aud-card">
-    <div class="aud-icon">🏫</div>
-    <div class="aud-role">Equipos académicos</div>
-    <div class="aud-desc">Investigadores y estudiantes de posgrado que trabajan en evaluación de programas y política pública.</div>
-    <div class="aud-entry">Ruta completa N1 a N3</div>
-  </div>
-
-</div>
-
-</div>
-</div>
-
-<!-- ================================================================
-     MODALIDADES
-     ================================================================ -->
-<div class="content-section">
-<div class="content-inner">
-
-<span class="section-label">Cómo lo ofrecemos</span>
-<h2 class="section-heading anchored">Tres modalidades de entrega</h2>
-
-<div class="mod-grid">
-  <div class="mod-card">
-    <div class="mod-icon">🏫</div>
-    <div class="mod-title">Formación inhouse</div>
-    <div class="mod-desc">Adaptada a los programas reales de su organización. Incluye un caso de estudio propio como proyecto integrador. Certificación de participación para cada asistente.</div>
-  </div>
-  <div class="mod-card">
-    <div class="mod-icon">🌐</div>
-    <div class="mod-title">Virtual sincrónico</div>
-    <div class="mod-desc">Sesiones en vivo con grupos de hasta 20 participantes. Ejercicios prácticos, retroalimentación en tiempo real y acceso a la plataforma VALOR·IA con sus agentes especializados.</div>
-  </div>
-  <div class="mod-card">
-    <div class="mod-icon">🎓</div>
-    <div class="mod-title">Acompañamiento aplicado</div>
-    <div class="mod-desc">Su equipo aprende mientras ejecuta un análisis SROI real. El resultado final no es un ejercicio simulado — es un informe verificable. Modalidad recomendada para Niveles 3 a 5.</div>
+    <div class="aud-icon">🏛️</div>
+    <div class="aud-role">Entidades públicas y multilaterales</div>
+    <div class="aud-desc">Deben demostrar valor por dinero ante organismos de control, parlamentos o donantes internacionales.</div>
+    <div class="aud-entry">Ruta completa M1 → M7</div>
   </div>
 </div>
 
@@ -1032,53 +1177,41 @@ ul.task-list li input[type="checkbox"] {
 </div>
 
 <!-- ================================================================
-     INSTRUCTOR
+     MODALIDADES Y CTA
      ================================================================ -->
-<div class="content-section alt">
-<div class="content-inner">
+<div class="rf-section">
+<div class="rf-inner">
 
-<span class="section-label">Instructor</span>
-<h2 class="section-heading anchored">Juan Carlos Muñoz-Mora, PhD</h2>
+<span class="rf-label">Modalidades</span>
+<h2 class="rf-heading anchored">Cómo ofrecemos la formación</h2>
 
-<div style="display:flex; gap:2rem; align-items:flex-start; flex-wrap:wrap; margin-top:1.5rem;">
-  <div style="flex:0 0 auto;">
-    <div style="width:110px; height:110px; border-radius:50%;
-      background:linear-gradient(135deg,#0D9488,#0F172A);
-      display:flex; align-items:center; justify-content:center;
-      font-size:2.2rem; font-weight:800; color:white; font-family:'Inter',sans-serif;">JC</div>
+<div style="display:grid; grid-template-columns: repeat(auto-fill, minmax(260px,1fr)); gap:1.1rem; margin: 1.5rem 0 2.5rem;">
+  <div style="background:#F8FAFC; border:1px solid #E2E8F0; border-radius:0.875rem; padding:1.5rem;">
+    <div style="font-size:1.5rem; margin-bottom:0.5rem;">🏢</div>
+    <div style="font-weight:700; color:#0F172A; margin-bottom:0.35rem; font-size:0.95rem;">In-company · In-house</div>
+    <div style="font-size:0.82rem; color:#64748B; line-height:1.55;">Programa adaptado al portafolio y datos reales de su organización. El equipo trabaja con sus propios programas durante la formación — el aprendizaje es inmediatamente aplicable.</div>
   </div>
-  <div style="flex:1; min-width:280px;">
-    <p style="color:#475569; font-size:0.93rem; margin-bottom:1rem; line-height:1.6;">
-      Economista con Ph.D. en Ciencias Económicas de la <strong>Universidad Libre de Bruselas (ULB)</strong>
-      e Investigador Asociado del <strong>Institute of Development Studies (IDS)</strong>, Sussex, UK.
-      Especialista en medición de impacto social, evaluación de programas y metodología SROI.
-      Ha formado equipos de fundaciones, empresas, entidades públicas y consultoras en Colombia y América Latina.
-    </p>
-    <div style="display:flex; gap:0.5rem; flex-wrap:wrap;">
-      <span style="background:#F0FDF4; color:#166534; border:1px solid #BBF7D0; padding:0.2rem 0.7rem; border-radius:2rem; font-size:0.72rem; font-weight:700;">SVI Certified</span>
-      <span style="background:#EFF6FF; color:#1E40AF; border:1px solid #BFDBFE; padding:0.2rem 0.7rem; border-radius:2rem; font-size:0.72rem; font-weight:700;">Ph.D. ULB Bruselas</span>
-      <span style="background:#FFF7ED; color:#9A3412; border:1px solid #FED7AA; padding:0.2rem 0.7rem; border-radius:2rem; font-size:0.72rem; font-weight:700;">IDS · Sussex UK</span>
-      <span style="background:#F5F3FF; color:#5B21B6; border:1px solid #DDD6FE; padding:0.2rem 0.7rem; border-radius:2rem; font-size:0.72rem; font-weight:700;">Universidad EAFIT</span>
-    </div>
+  <div style="background:#F8FAFC; border:1px solid #E2E8F0; border-radius:0.875rem; padding:1.5rem;">
+    <div style="font-size:1.5rem; margin-bottom:0.5rem;">💻</div>
+    <div style="font-weight:700; color:#0F172A; margin-bottom:0.35rem; font-size:0.95rem;">Online sincrónico</div>
+    <div style="font-size:0.82rem; color:#64748B; line-height:1.55;">Sesiones en vivo por Zoom/Teams con casos prácticos en tiempo real. Permite equipos distribuidos en distintas ciudades o países. Acceso a la plataforma VALOR·IA durante todo el programa.</div>
+  </div>
+  <div style="background:#F8FAFC; border:1px solid #E2E8F0; border-radius:0.875rem; padding:1.5rem;">
+    <div style="font-size:1.5rem; margin-bottom:0.5rem;">🎓</div>
+    <div style="font-weight:700; color:#0F172A; margin-bottom:0.35rem; font-size:0.95rem;">Módulos independientes</div>
+    <div style="font-size:0.82rem; color:#64748B; line-height:1.55;">Contratación de módulos específicos según la necesidad. Ideal cuando el equipo ya tiene bases sólidas en algunos temas y necesita profundizar en uno o dos módulos concretos.</div>
   </div>
 </div>
 
-</div>
-</div>
-
-<!-- ================================================================
-     CTA FINAL
-     ================================================================ -->
-<div class="content-section">
-<div class="content-inner">
 <div class="rf-cta">
   <div class="rf-cta-text">
-    <div class="label">Siguiente paso</div>
-    <div class="title">Diseñemos su ruta formativa a medida</div>
-    <div class="sub">Cuéntenos desde qué nivel parte su equipo y qué decisiones necesita tomar con evidencia de impacto.</div>
+    <div class="label">Diseñemos su ruta juntos</div>
+    <div class="title">¿Qué módulos necesita su organización?</div>
+    <div class="sub">Conversación de 30 minutos para mapear el estado actual del equipo y recomendar el punto de entrada correcto en la ruta. Sin costo, sin compromiso.</div>
   </div>
-  <a href="mailto:jmunozm1@eafit.edu.co?subject=Ruta Formativa Valor·IA — Consulta" class="rf-cta-btn">Contactar al equipo →</a>
+  <a href="mailto:jmunozm1@eafit.edu.co?subject=Ruta formativa — propuesta de formación" class="rf-cta-btn">Diseñar mi ruta formativa →</a>
 </div>
+
 </div>
 </div>
 
