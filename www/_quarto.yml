@@ -27,6 +27,8 @@ website:
             href: servicios/formacion.qmd
           - text: "Medición y Valoración de Impacto"
             href: servicios/medicion.qmd
+          - text: "Auditoría Académica de Impacto"
+            href: servicios/auditoria.qmd
       - text: "Herramientas"
         menu:
           - text: "Caja de herramientas — Índice"

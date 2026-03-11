@@ -316,6 +316,10 @@ toc: false
         <span class="sr-label">Resultado</span>
         <span class="sr-val">Informe listo para aseguramiento SVI &middot; Brechas identificadas &middot; Posición en ranking global</span>
       </div>
+
+      <div style="margin-top:1.25rem;">
+        <a href="servicios/auditoria.html" style="display:inline-block; font-size:.85rem; font-weight:700; color:#0EA5E9; text-decoration:none; border-bottom:1px solid rgba(14,165,233,0.3); padding-bottom:1px;">Ver servicio completo &rarr;</a>
+      </div>
     </div>
   </div>
 

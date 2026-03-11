@@ -1,0 +1,547 @@
+---
+title: "Auditoría Académica de Impacto"
+description: "Revisamos, validamos y mejoramos sus informes de impacto social con rigor académico y estándares internacionales — siempre al servicio del aprendizaje y la madurez organizacional. Centro Valor Público, EAFIT."
+toc: false
+---
+
+```{=html}
+<!-- ============================================================
+     HERO
+     ============================================================ -->
+<div class="aud-hero">
+  <div class="aud-hero-content">
+    <div class="aud-hero-label">Servicio 03 &middot; Centro Valor Público EAFIT</div>
+    <div class="aud-hero-badges">
+      <span class="aud-badge aud-badge--svi">SVI 48 Criterios</span>
+      <span class="aud-badge aud-badge--imtoc">IMToC N1–N5</span>
+      <span class="aud-badge aud-badge--bench">383 Reportes referencia</span>
+      <span class="aud-badge aud-badge--learn">Orientado al aprendizaje</span>
+    </div>
+    <h1 class="aud-hero-title">
+      Auditoría Académica<br>
+      <span class="aud-hero-hl">de Impacto Social</span>
+    </h1>
+    <p class="aud-hero-lead">
+      Sus informes de impacto merecen el mismo rigor que sus inversiones. Revisamos en profundidad
+      sus reportes SROI, Teorías del Cambio, marcos de M&amp;E y estrategias de evaluación —
+      validamos con estándares internacionales, benchmarkeamos contra 383 reportes globales
+      y entregamos un plan de mejora accionable. No auditamos para calificar: auditamos para aprender.
+    </p>
+    <div class="aud-hero-stats">
+      <div class="aud-stat"><div class="aud-stat-num">48</div><div class="aud-stat-label">Criterios SVI<br>de aseguramiento</div></div>
+      <div class="aud-stat-div"></div>
+      <div class="aud-stat"><div class="aud-stat-num">10</div><div class="aud-stat-label">Dimensiones<br>IMToC evaluadas</div></div>
+      <div class="aud-stat-div"></div>
+      <div class="aud-stat"><div class="aud-stat-num">383</div><div class="aud-stat-label">Reportes globales<br>de referencia</div></div>
+      <div class="aud-stat-div"></div>
+      <div class="aud-stat"><div class="aud-stat-num">N1→N5</div><div class="aud-stat-label">Escala de madurez<br>del impacto</div></div>
+    </div>
+    <div class="aud-hero-actions">
+      <a href="../diagnostico.html" class="aud-btn aud-btn--primary">Diagnóstico gratuito &rarr;</a>
+      <a href="../herramientas.html" class="aud-btn aud-btn--ghost">Ver todos los servicios</a>
+    </div>
+  </div>
+</div>
+
+<!-- ============================================================
+     LA PREGUNTA CENTRAL
+     ============================================================ -->
+<div class="aud-section">
+<div class="aud-inner">
+
+<span class="aud-label">Nuestra premisa</span>
+<h2 class="aud-heading">¿Su informe de impacto está a la altura de su inversión social?</h2>
+<p class="aud-subhead">
+  Muchas organizaciones invierten años generando impacto real. Pero sus reportes no capturan ese
+  valor con rigor suficiente para convencer a financiadores, defensores o juntas directivas.
+  La brecha no es de impacto — es de calidad metodológica. Ahí es donde entramos.
+</p>
+
+<div class="premisa-grid">
+  <div class="premisa-card">
+    <div class="premisa-icon">📋</div>
+    <div class="premisa-title">Informes SROI</div>
+    <div class="premisa-text">Verificamos los 48 criterios del SVI Report Assurance Standard: desde el alcance y la cadena de valor hasta la monetización y el análisis de sensibilidad.</div>
+  </div>
+  <div class="premisa-card">
+    <div class="premisa-icon">🗺️</div>
+    <div class="premisa-title">Teorías del Cambio</div>
+    <div class="premisa-text">Aplicamos el IMToC (Índice de Madurez) en 10 dimensiones: cadena causal, supuestos explícitos, evidencia de base, indicadores, contrafactual y más.</div>
+  </div>
+  <div class="premisa-card">
+    <div class="premisa-icon">📊</div>
+    <div class="premisa-title">Marcos de M&amp;E</div>
+    <div class="premisa-text">Evaluamos si su sistema de monitoreo y evaluación está alineado con el ciclo del proyecto, si mide lo que importa y si genera aprendizaje real.</div>
+  </div>
+  <div class="premisa-card">
+    <div class="premisa-icon">🔬</div>
+    <div class="premisa-title">Estrategias de evaluación</div>
+    <div class="premisa-text">Auditamos el diseño evaluativo: selección del método, validez interna y externa, manejo del contrafactual y calidad de la evidencia generada.</div>
+  </div>
+</div>
+
+</div>
+</div>
+
+<!-- ============================================================
+     CÓMO AUDITAMOS — PROCESO EN 3 FASES
+     ============================================================ -->
+<div class="aud-section aud-section--dark">
+<div class="aud-inner">
+
+<span class="aud-label aud-label--light">El proceso</span>
+<h2 class="aud-heading aud-heading--light">Tres fases. Rigor académico al servicio de la mejora.</h2>
+<p class="aud-subhead aud-subhead--light">
+  No es solo revisión documental. Es un proceso estructurado de co-construcción donde la teoría
+  y la práctica se encuentran — siempre con el foco en lo que su organización puede mejorar.
+</p>
+
+<div class="fase-grid">
+
+  <div class="fase-card">
+    <div class="fase-num">01</div>
+    <div class="fase-title">Revisión profunda</div>
+    <div class="fase-subtitle">Diagnóstico con estándares internacionales</div>
+    <ul class="fase-list">
+      <li>Lectura analítica del documento con rúbrica SVI / IMToC</li>
+      <li>Verificación de los 48 criterios de aseguramiento SVI</li>
+      <li>Calificación IMToC en 10 dimensiones (0–100 pts, N1–N5)</li>
+      <li>Identificación de fortalezas, brechas y riesgos de credibilidad</li>
+      <li>Benchmarking posicional contra corpus de 383 reportes globales</li>
+    </ul>
+    <div class="fase-output">Entregable: Scorecard completo con puntaje y posición relativa</div>
+  </div>
+
+  <div class="fase-card fase-card--center">
+    <div class="fase-num">02</div>
+    <div class="fase-title">Validación académica</div>
+    <div class="fase-subtitle">Dictamen fundamentado en la literatura</div>
+    <ul class="fase-list">
+      <li>Sesión de revisión con el equipo responsable del informe</li>
+      <li>Contraste metodológico con literatura empírica reciente</li>
+      <li>Evaluación de la cadena lógica: supuestos, evidencia, conclusiones</li>
+      <li>Validación de proxies monetarios y factores de ajuste (deadweight, atribución)</li>
+      <li>Carta de validación académica con firma institucional EAFIT</li>
+    </ul>
+    <div class="fase-output">Entregable: Dictamen académico + carta de validación institucional</div>
+  </div>
+
+  <div class="fase-card">
+    <div class="fase-num">03</div>
+    <div class="fase-title">Plan de mejora</div>
+    <div class="fase-subtitle">Ruta hacia la madurez — accionable y priorizada</div>
+    <ul class="fase-list">
+      <li>Priorización de brechas por impacto en credibilidad y mejora futura</li>
+      <li>Recomendaciones concretas organizadas en H1/H2/H3 (quick wins → largo plazo)</li>
+      <li>Hoja de ruta para alcanzar el nivel de madurez objetivo (N3 → N4 → N5)</li>
+      <li>Sesión de devolución participativa con el equipo</li>
+      <li>Protocolo interno para la próxima edición del reporte</li>
+    </ul>
+    <div class="fase-output">Entregable: Roadmap de mejora + protocolo para próxima edición</div>
+  </div>
+
+</div>
+
+</div>
+</div>
+
+<!-- ============================================================
+     QUÉ EVALUAMOS — 3 DOMINIOS
+     ============================================================ -->
+<div class="aud-section">
+<div class="aud-inner">
+
+<span class="aud-label">Marco de evaluación</span>
+<h2 class="aud-heading">Tres dominios. Diez dimensiones. Un solo objetivo: que su impacto sea creíble.</h2>
+
+<div class="dom-grid">
+
+  <div class="dom-col">
+    <div class="dom-header dom-header--a">
+      <div class="dom-letter">A</div>
+      <div>
+        <div class="dom-domain">Dominio Causal</div>
+        <div class="dom-pts">30 puntos</div>
+      </div>
+    </div>
+    <div class="dom-dims">
+      <div class="dom-dim">
+        <span class="dom-dim-num">A1</span>
+        <span class="dom-dim-name">Cadena causal</span>
+        <span class="dom-dim-q">¿El camino de actividades → outcomes → impacto es lógico y explícito?</span>
+      </div>
+      <div class="dom-dim">
+        <span class="dom-dim-num">A2</span>
+        <span class="dom-dim-name">Supuestos</span>
+        <span class="dom-dim-q">¿Están documentados los supuestos críticos y cómo se gestionan?</span>
+      </div>
+      <div class="dom-dim">
+        <span class="dom-dim-num">A3</span>
+        <span class="dom-dim-name">Contrafactual</span>
+        <span class="dom-dim-q">¿Se aisla el efecto del programa de lo que hubiera ocurrido sin él?</span>
+      </div>
+    </div>
+  </div>
+
+  <div class="dom-col">
+    <div class="dom-header dom-header--b">
+      <div class="dom-letter">B</div>
+      <div>
+        <div class="dom-domain">Dominio Epistémico</div>
+        <div class="dom-pts">40 puntos</div>
+      </div>
+    </div>
+    <div class="dom-dims">
+      <div class="dom-dim">
+        <span class="dom-dim-num">B1</span>
+        <span class="dom-dim-name">Evidencia de base</span>
+        <span class="dom-dim-q">¿Los outcomes están respaldados por evidencia empírica o datos primarios?</span>
+      </div>
+      <div class="dom-dim">
+        <span class="dom-dim-num">B2</span>
+        <span class="dom-dim-name">Métodos de valoración</span>
+        <span class="dom-dim-q">¿Los proxies monetarios son apropiados, transparentes y auditables?</span>
+      </div>
+      <div class="dom-dim">
+        <span class="dom-dim-num">B3</span>
+        <span class="dom-dim-name">Rigor cuantitativo</span>
+        <span class="dom-dim-q">¿El análisis numérico (VPN, sensibilidad, factores SROI) es correcto?</span>
+      </div>
+      <div class="dom-dim">
+        <span class="dom-dim-num">B4</span>
+        <span class="dom-dim-name">Métodos mixtos</span>
+        <span class="dom-dim-q">¿La evidencia cualitativa complementa y triangula la cuantitativa?</span>
+      </div>
+    </div>
+  </div>
+
+  <div class="dom-col">
+    <div class="dom-header dom-header--c">
+      <div class="dom-letter">C</div>
+      <div>
+        <div class="dom-domain">Dominio Completitud</div>
+        <div class="dom-pts">30 puntos</div>
+      </div>
+    </div>
+    <div class="dom-dims">
+      <div class="dom-dim">
+        <span class="dom-dim-num">C1</span>
+        <span class="dom-dim-name">Stakeholders</span>
+        <span class="dom-dim-q">¿Están identificados y consultados todos los grupos afectados?</span>
+      </div>
+      <div class="dom-dim">
+        <span class="dom-dim-num">C2</span>
+        <span class="dom-dim-name">Materialidad</span>
+        <span class="dom-dim-q">¿El alcance del análisis es apropiado y los outcomes relevantes están incluidos?</span>
+      </div>
+      <div class="dom-dim">
+        <span class="dom-dim-num">C3</span>
+        <span class="dom-dim-name">Transparencia</span>
+        <span class="dom-dim-q">¿Las limitaciones, exclusiones y decisiones metodológicas están declaradas?</span>
+      </div>
+    </div>
+  </div>
+
+</div>
+
+<div class="dom-note">
+  Marco basado en el <strong>SVI Report Assurance Standard</strong> (48 criterios, Principios 1–7)
+  y el <strong>Índice de Madurez de la Teoría del Cambio IMToC</strong> (10 dimensiones, N1–N5).
+  Benchmarking posicional contra corpus de 383 reportes de Social Value International.
+</div>
+
+</div>
+</div>
+
+<!-- ============================================================
+     FILOSOFÍA DE APRENDIZAJE
+     ============================================================ -->
+<div class="aud-section aud-section--teal">
+<div class="aud-inner">
+
+<span class="aud-label aud-label--light">Nuestra filosofía</span>
+<h2 class="aud-heading aud-heading--light">La teoría al servicio de la calidad. La calidad al servicio del aprendizaje.</h2>
+
+<div class="fil-grid">
+  <div class="fil-card">
+    <div class="fil-icon">🎯</div>
+    <div class="fil-title">Auditamos para mejorar, no para aprobar</div>
+    <div class="fil-text">Una auditoría que solo emite un juicio es una oportunidad perdida. Cada hallazgo que identificamos viene acompañado de una recomendación concreta. El objetivo es siempre que la siguiente versión sea mejor.</div>
+  </div>
+  <div class="fil-card">
+    <div class="fil-icon">🤝</div>
+    <div class="fil-title">Proceso colaborativo con su equipo</div>
+    <div class="fil-text">No trabajamos solos sobre el documento. Involucramos al equipo responsable en la revisión, para que las recomendaciones sean comprensibles, apropiables y replicables internamente sin depender de nosotros.</div>
+  </div>
+  <div class="fil-card">
+    <div class="fil-icon">📈</div>
+    <div class="fil-title">Madurez como trayectoria, no como destino</div>
+    <div class="fil-text">No existe el informe de impacto perfecto. Sí existen organizaciones que aprenden sistemáticamente y mejoran su calidad año a año. Acompañamos esa trayectoria de N1 a N5 con pasos concretos y alcanzables.</div>
+  </div>
+  <div class="fil-card">
+    <div class="fil-icon">🔗</div>
+    <div class="fil-title">Teoría internacional, contexto local</div>
+    <div class="fil-text">Usamos los mejores estándares globales (SVI, OECD DAC, 3ie) pero los interpretamos en contexto colombiano y latinoamericano. Benchmarks ajustados, proxies regionales, lenguaje que sus audiencias entienden.</div>
+  </div>
+</div>
+
+<blockquote class="fil-quote">
+  "El objetivo no es que su informe pase una auditoría. Es que su organización aprenda
+  a generar evidencia de impacto que sea, al mismo tiempo, rigurosa, creíble y útil
+  para las decisiones que importan."
+</blockquote>
+
+</div>
+</div>
+
+<!-- ============================================================
+     ENTREGABLES
+     ============================================================ -->
+<div class="aud-section">
+<div class="aud-inner">
+
+<span class="aud-label">Entregables concretos</span>
+<h2 class="aud-heading">Lo que recibe al final del acompañamiento</h2>
+
+<div class="deliv-grid">
+  <div class="deliv-item">
+    <div class="deliv-num">01</div>
+    <div class="deliv-name">Scorecard de calidad</div>
+    <div class="deliv-desc">Puntaje en los 48 criterios SVI y 10 dimensiones IMToC, con fortalezas y brechas identificadas y calificadas por severidad.</div>
+  </div>
+  <div class="deliv-item">
+    <div class="deliv-num">02</div>
+    <div class="deliv-name">Posición de benchmark</div>
+    <div class="deliv-desc">¿Dónde está su informe respecto a los 383 reportes internacionales de referencia? Percentil, sector comparable, gap con el promedio.</div>
+  </div>
+  <div class="deliv-item">
+    <div class="deliv-num">03</div>
+    <div class="deliv-name">Dictamen académico</div>
+    <div class="deliv-desc">Documento formal con el análisis metodológico, referencias bibliográficas y el juicio fundamentado sobre la calidad del informe.</div>
+  </div>
+  <div class="deliv-item">
+    <div class="deliv-num">04</div>
+    <div class="deliv-name">Carta de validación EAFIT</div>
+    <div class="deliv-desc">Validación institucional emitida por el Centro Valor Público — útil para financiadores, juntas directivas y procesos de accountability.</div>
+  </div>
+  <div class="deliv-item">
+    <div class="deliv-num">05</div>
+    <div class="deliv-name">Roadmap de mejora H1/H2/H3</div>
+    <div class="deliv-desc">Plan priorizado de mejoras: cambios inmediatos (quick wins), ajustes de mediano plazo y transformaciones estructurales de largo plazo.</div>
+  </div>
+  <div class="deliv-item">
+    <div class="deliv-num">06</div>
+    <div class="deliv-name">Protocolo para la próxima edición</div>
+    <div class="deliv-desc">Guía interna para que su equipo produzca la siguiente versión del informe de forma más autónoma, con listas de chequeo y referencias clave.</div>
+  </div>
+</div>
+
+</div>
+</div>
+
+<!-- ============================================================
+     PARA QUIÉN
+     ============================================================ -->
+<div class="aud-section aud-section--soft">
+<div class="aud-inner">
+
+<span class="aud-label">¿Para quién es este servicio?</span>
+<h2 class="aud-heading">Organizaciones que quieren que su evidencia llegue más lejos</h2>
+
+<div class="quien-grid">
+  <div class="quien-card">
+    <div class="quien-icon">🏢</div>
+    <div class="quien-title">Áreas de sostenibilidad corporativa</div>
+    <div class="quien-text">Que publican informes de impacto y quieren asegurarse de que resisten el escrutinio de analistas ESG, financiadores y juntas directivas.</div>
+  </div>
+  <div class="quien-card">
+    <div class="quien-icon">🏛️</div>
+    <div class="quien-title">Fundaciones y organizaciones sociales</div>
+    <div class="quien-text">Que han producido evaluaciones o SROI propios y buscan una revisión externa independiente para fortalecer su credibilidad ante donantes.</div>
+  </div>
+  <div class="quien-card">
+    <div class="quien-icon">🌐</div>
+    <div class="quien-title">Entidades públicas y cooperación internacional</div>
+    <div class="quien-text">Que necesitan validar metodológicamente sus informes de resultados para procesos de rendición de cuentas, auditorías o informes a organismos multilaterales.</div>
+  </div>
+  <div class="quien-card">
+    <div class="quien-icon">📐</div>
+    <div class="quien-title">Consultoras e intermediarios</div>
+    <div class="quien-text">Que han producido análisis de impacto para clientes y quieren una revisión de pares académica antes de la publicación o entrega final.</div>
+  </div>
+  <div class="quien-card">
+    <div class="quien-icon">💼</div>
+    <div class="quien-title">Inversionistas de impacto</div>
+    <div class="quien-text">Que evalúan reportes de las organizaciones que financian y necesitan criterios técnicos sólidos para comparar calidad metodológica entre portafolios.</div>
+  </div>
+  <div class="quien-card">
+    <div class="quien-icon">🎓</div>
+    <div class="quien-title">Equipos que quieren capacitarse</div>
+    <div class="quien-text">Para quienes la auditoría es también una instancia de aprendizaje: entienden por qué sus decisiones metodológicas afectan la credibilidad del análisis.</div>
+  </div>
+</div>
+
+</div>
+</div>
+
+<!-- ============================================================
+     CTA FINAL
+     ============================================================ -->
+<div class="aud-cta">
+<div class="aud-inner aud-cta-inner">
+  <div class="aud-cta-text">
+    <h2 class="aud-cta-title">¿Cuán sólido es su informe de impacto?</h2>
+    <p class="aud-cta-sub">
+      Comience con un diagnóstico gratuito. En 15 minutos identificamos las principales brechas
+      de su reporte actual y le proponemos un plan de acompañamiento ajustado a sus necesidades.
+    </p>
+  </div>
+  <div class="aud-cta-actions">
+    <a href="../diagnostico.html" class="aud-btn aud-btn--cta">Solicitar diagnóstico gratuito &rarr;</a>
+    <a href="mailto:jmunozm1@eafit.edu.co" class="aud-btn aud-btn--ghost-light">Escribir directamente</a>
+  </div>
+</div>
+</div>
+
+<!-- ============================================================
+     ESTILOS
+     ============================================================ -->
+<style>
+/* ── TOKENS ────────────────────────────────────────────────────── */
+:root {
+  --teal:   #0D9488;
+  --teal-d: #0B7A70;
+  --navy:   #0F172A;
+  --purple: #7C3AED;
+  --amber:  #D97706;
+  --slate:  #475569;
+  --light:  #F8FAFC;
+  --border: #E2E8F0;
+}
+
+/* ── LAYOUT BASE ────────────────────────────────────────────────── */
+.aud-section   { padding: 5rem 1.5rem; }
+.aud-section--dark  { background: var(--navy); }
+.aud-section--teal  { background: var(--teal-d); }
+.aud-section--soft  { background: #F1F5F9; }
+.aud-inner     { max-width: 1100px; margin: 0 auto; }
+.aud-label     { display: inline-block; font-size: .75rem; font-weight: 700; letter-spacing: .12em; text-transform: uppercase; color: var(--teal); margin-bottom: 1rem; }
+.aud-label--light { color: rgba(255,255,255,.7); }
+.aud-heading   { font-size: clamp(1.6rem,3vw,2.4rem); font-weight: 800; color: var(--navy); margin: 0 0 1rem; line-height: 1.2; }
+.aud-heading--light { color: #fff; }
+.aud-subhead   { font-size: 1.05rem; color: var(--slate); max-width: 780px; line-height: 1.7; margin-bottom: 3rem; }
+.aud-subhead--light { color: rgba(255,255,255,.8); }
+
+/* ── HERO ───────────────────────────────────────────────────────── */
+.aud-hero {
+  background: linear-gradient(135deg, var(--navy) 0%, #1e293b 60%, #134e4a 100%);
+  padding: 6rem 1.5rem 5rem;
+  color: #fff;
+}
+.aud-hero-content { max-width: 860px; margin: 0 auto; }
+.aud-hero-label { font-size: .8rem; font-weight: 600; letter-spacing: .12em; text-transform: uppercase; color: rgba(255,255,255,.55); margin-bottom: 1.2rem; }
+.aud-hero-badges { display: flex; flex-wrap: wrap; gap: .5rem; margin-bottom: 1.6rem; }
+.aud-badge { font-size: .72rem; font-weight: 700; padding: .3rem .75rem; border-radius: 999px; letter-spacing: .06em; }
+.aud-badge--svi   { background: rgba(13,148,136,.25); color: #5eead4; border: 1px solid rgba(94,234,212,.3); }
+.aud-badge--imtoc { background: rgba(124,58,237,.25); color: #c4b5fd; border: 1px solid rgba(196,181,253,.3); }
+.aud-badge--bench { background: rgba(217,119,6,.25);  color: #fcd34d; border: 1px solid rgba(252,211,77,.3); }
+.aud-badge--learn { background: rgba(255,255,255,.1);  color: rgba(255,255,255,.8); border: 1px solid rgba(255,255,255,.2); }
+.aud-hero-title { font-size: clamp(2rem,5vw,3.4rem); font-weight: 900; line-height: 1.1; margin: 0 0 1.4rem; }
+.aud-hero-hl { color: #5eead4; }
+.aud-hero-lead { font-size: 1.1rem; color: rgba(255,255,255,.82); line-height: 1.75; max-width: 760px; margin-bottom: 2.5rem; }
+.aud-hero-stats { display: flex; flex-wrap: wrap; gap: 1rem 0; margin-bottom: 2.5rem; }
+.aud-stat { text-align: center; padding: 0 2rem; }
+.aud-stat-num { font-size: 2.2rem; font-weight: 900; color: #5eead4; line-height: 1; }
+.aud-stat-label { font-size: .7rem; color: rgba(255,255,255,.6); line-height: 1.4; margin-top: .3rem; }
+.aud-stat-div { width: 1px; background: rgba(255,255,255,.15); align-self: stretch; }
+.aud-hero-actions { display: flex; flex-wrap: wrap; gap: 1rem; }
+.aud-btn { display: inline-block; padding: .8rem 1.8rem; border-radius: .5rem; font-weight: 700; font-size: .95rem; text-decoration: none; transition: all .2s; }
+.aud-btn--primary { background: var(--teal); color: #fff; }
+.aud-btn--primary:hover { background: var(--teal-d); color: #fff; }
+.aud-btn--ghost { background: transparent; color: rgba(255,255,255,.8); border: 1px solid rgba(255,255,255,.3); }
+.aud-btn--ghost:hover { background: rgba(255,255,255,.1); color: #fff; }
+.aud-btn--cta { background: #fff; color: var(--navy); }
+.aud-btn--cta:hover { background: #e2e8f0; color: var(--navy); }
+.aud-btn--ghost-light { background: transparent; color: rgba(255,255,255,.85); border: 1px solid rgba(255,255,255,.35); }
+.aud-btn--ghost-light:hover { background: rgba(255,255,255,.1); color: #fff; }
+
+/* ── PREMISA GRID ─────────────────────────────────────────────── */
+.premisa-grid { display: grid; grid-template-columns: repeat(auto-fit, minmax(240px, 1fr)); gap: 1.5rem; margin-top: 2.5rem; }
+.premisa-card { background: #fff; border: 1px solid var(--border); border-radius: 1rem; padding: 1.8rem; transition: box-shadow .2s; }
+.premisa-card:hover { box-shadow: 0 8px 30px rgba(0,0,0,.08); }
+.premisa-icon { font-size: 2rem; margin-bottom: 1rem; }
+.premisa-title { font-size: 1rem; font-weight: 700; color: var(--navy); margin-bottom: .6rem; }
+.premisa-text { font-size: .9rem; color: var(--slate); line-height: 1.65; }
+
+/* ── FASES ─────────────────────────────────────────────────────── */
+.fase-grid { display: grid; grid-template-columns: repeat(auto-fit, minmax(300px, 1fr)); gap: 1.5rem; margin-top: 2.5rem; }
+.fase-card { background: rgba(255,255,255,.06); border: 1px solid rgba(255,255,255,.12); border-radius: 1rem; padding: 2rem; }
+.fase-card--center { border-color: rgba(94,234,212,.4); background: rgba(13,148,136,.15); }
+.fase-num { font-size: 2.5rem; font-weight: 900; color: rgba(94,234,212,.4); line-height: 1; margin-bottom: .8rem; }
+.fase-title { font-size: 1.15rem; font-weight: 800; color: #fff; margin-bottom: .25rem; }
+.fase-subtitle { font-size: .82rem; color: rgba(255,255,255,.55); margin-bottom: 1.2rem; }
+.fase-list { list-style: none; padding: 0; margin: 0 0 1.5rem; }
+.fase-list li { font-size: .88rem; color: rgba(255,255,255,.78); padding: .4rem 0; padding-left: 1.2rem; position: relative; line-height: 1.5; border-bottom: 1px solid rgba(255,255,255,.06); }
+.fase-list li:last-child { border-bottom: none; }
+.fase-list li::before { content: "→"; position: absolute; left: 0; color: #5eead4; font-weight: 700; }
+.fase-output { font-size: .78rem; font-weight: 600; color: #5eead4; background: rgba(94,234,212,.1); border: 1px solid rgba(94,234,212,.2); border-radius: .4rem; padding: .5rem .8rem; }
+
+/* ── DOMINIOS ──────────────────────────────────────────────────── */
+.dom-grid { display: grid; grid-template-columns: repeat(auto-fit, minmax(300px, 1fr)); gap: 1.5rem; margin-top: 2.5rem; }
+.dom-col { border: 1px solid var(--border); border-radius: 1rem; overflow: hidden; }
+.dom-header { display: flex; align-items: center; gap: 1rem; padding: 1.2rem 1.5rem; }
+.dom-header--a { background: linear-gradient(135deg, #0D9488, #0B7A70); color: #fff; }
+.dom-header--b { background: linear-gradient(135deg, #7C3AED, #6D28D9); color: #fff; }
+.dom-header--c { background: linear-gradient(135deg, #D97706, #B45309); color: #fff; }
+.dom-letter { font-size: 2rem; font-weight: 900; opacity: .9; }
+.dom-domain { font-size: 1rem; font-weight: 800; }
+.dom-pts { font-size: .78rem; opacity: .8; }
+.dom-dims { padding: 1rem 1.5rem; }
+.dom-dim { display: grid; grid-template-columns: 2rem 1fr; row-gap: .1rem; column-gap: .6rem; padding: .75rem 0; border-bottom: 1px solid var(--border); }
+.dom-dim:last-child { border-bottom: none; }
+.dom-dim-num { grid-row: 1/3; font-size: .75rem; font-weight: 800; color: var(--teal); padding-top: .1rem; }
+.dom-dim-name { font-size: .88rem; font-weight: 700; color: var(--navy); }
+.dom-dim-q { grid-column: 2; font-size: .78rem; color: var(--slate); line-height: 1.4; }
+.dom-note { margin-top: 2rem; padding: 1rem 1.5rem; background: #F1F5F9; border-left: 3px solid var(--teal); border-radius: 0 .5rem .5rem 0; font-size: .85rem; color: var(--slate); line-height: 1.6; }
+
+/* ── FILOSOFÍA ─────────────────────────────────────────────────── */
+.fil-grid { display: grid; grid-template-columns: repeat(auto-fit, minmax(240px, 1fr)); gap: 1.5rem; margin-top: 2.5rem; }
+.fil-card { background: rgba(255,255,255,.1); border: 1px solid rgba(255,255,255,.15); border-radius: 1rem; padding: 1.8rem; }
+.fil-icon { font-size: 1.8rem; margin-bottom: 1rem; }
+.fil-title { font-size: .95rem; font-weight: 700; color: #fff; margin-bottom: .6rem; }
+.fil-text { font-size: .86rem; color: rgba(255,255,255,.75); line-height: 1.65; }
+.fil-quote { margin: 3rem 0 0; border-left: 4px solid rgba(255,255,255,.4); padding: 1rem 1.5rem; font-size: 1.05rem; font-style: italic; color: rgba(255,255,255,.85); line-height: 1.7; }
+
+/* ── ENTREGABLES ───────────────────────────────────────────────── */
+.deliv-grid { display: grid; grid-template-columns: repeat(auto-fit, minmax(300px, 1fr)); gap: 1.5rem; margin-top: 2.5rem; }
+.deliv-item { background: #fff; border: 1px solid var(--border); border-radius: 1rem; padding: 1.8rem; }
+.deliv-num { font-size: 2rem; font-weight: 900; color: var(--border); line-height: 1; margin-bottom: .8rem; }
+.deliv-name { font-size: 1rem; font-weight: 700; color: var(--navy); margin-bottom: .5rem; }
+.deliv-desc { font-size: .88rem; color: var(--slate); line-height: 1.65; }
+
+/* ── PARA QUIÉN ────────────────────────────────────────────────── */
+.quien-grid { display: grid; grid-template-columns: repeat(auto-fit, minmax(280px, 1fr)); gap: 1.5rem; margin-top: 2.5rem; }
+.quien-card { background: #fff; border: 1px solid var(--border); border-radius: 1rem; padding: 1.8rem; transition: box-shadow .2s; }
+.quien-card:hover { box-shadow: 0 8px 30px rgba(0,0,0,.08); }
+.quien-icon { font-size: 1.8rem; margin-bottom: 1rem; }
+.quien-title { font-size: .95rem; font-weight: 700; color: var(--navy); margin-bottom: .5rem; }
+.quien-text { font-size: .87rem; color: var(--slate); line-height: 1.65; }
+
+/* ── CTA FINAL ─────────────────────────────────────────────────── */
+.aud-cta { background: var(--navy); padding: 5rem 1.5rem; }
+.aud-cta-inner { display: flex; flex-wrap: wrap; align-items: center; justify-content: space-between; gap: 2rem; }
+.aud-cta-title { font-size: clamp(1.5rem,3vw,2.2rem); font-weight: 800; color: #fff; margin: 0 0 .75rem; }
+.aud-cta-sub { font-size: .95rem; color: rgba(255,255,255,.7); line-height: 1.7; max-width: 560px; margin: 0; }
+.aud-cta-actions { display: flex; flex-direction: column; gap: 1rem; flex-shrink: 0; }
+
+/* ── RESPONSIVE ────────────────────────────────────────────────── */
+@media (max-width: 768px) {
+  .aud-hero { padding: 4rem 1.2rem 3.5rem; }
+  .aud-stat { padding: 0 1rem; }
+  .aud-stat-num { font-size: 1.8rem; }
+  .dom-grid, .fase-grid { grid-template-columns: 1fr; }
+  .aud-cta-inner { flex-direction: column; text-align: center; }
+  .aud-cta-actions { align-items: center; }
+}
+</style>
+```
