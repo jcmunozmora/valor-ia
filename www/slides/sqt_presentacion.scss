@@ -1,0 +1,394 @@
+/*-- scss:defaults --*/
+@import url('https://fonts.googleapis.com/css2?family=Inter:wght@300;400;500;600;700;800;900&family=JetBrains+Mono:wght@400;500&family=Playfair+Display:wght@700&display=swap');
+
+$font-family-sans-serif: 'Inter', 'Helvetica Neue', sans-serif !default;
+$presentation-font-size-root: 28px !default;
+$presentation-h1-font-size: 2.1em !default;
+$presentation-h2-font-size: 1.45em !default;
+$presentation-h3-font-size: 1.05em !default;
+
+// Paleta Valor·IA
+$navy:    #0F172A;
+$teal:    #0D9488;
+$teal-lt: #5EEAD4;
+$slate:   #1E3A5F;
+$silver:  #94A3B8;
+$white:   #FFFFFF;
+$amber:   #F59E0B;
+$emerald: #10B981;
+$cyan:    #0891B2;
+$purple:  #7C3AED;
+$red:     #DC2626;
+
+$body-bg:    $navy    !default;
+$body-color: #E2E8F0 !default;
+$link-color: $teal-lt !default;
+$selection-bg: $teal !default;
+
+/*-- scss:rules --*/
+
+// ── Base ────────────────────────────────────────────────────────────────────
+.reveal .slides { color: #CBD5E1; }
+.reveal h1, .reveal h2 { font-weight: 800; letter-spacing: -0.03em; color: $white; }
+.reveal h3 { font-weight: 700; color: $teal-lt; font-size: 0.95em; letter-spacing: 0.02em; }
+
+// ── Portada ─────────────────────────────────────────────────────────────────
+.portada-wrap { text-align: left; }
+.portada-eyebrow {
+  display: inline-block; font-size: 0.52em; font-weight: 700;
+  letter-spacing: 0.18em; text-transform: uppercase; color: $teal-lt;
+  background: rgba(13,148,136,0.15); border: 1px solid rgba(13,148,136,0.35);
+  padding: 0.25em 0.8em; border-radius: 2em; margin-bottom: 0.8em;
+}
+.portada-titulo {
+  font-size: 2.6em; font-weight: 900; color: white;
+  letter-spacing: -0.04em; line-height: 1.05; margin-bottom: 0.2em;
+}
+.portada-sub { font-size: 1.05em; color: $silver; font-weight: 400; margin-bottom: 1em; }
+.portada-badges { margin-bottom: 1.2em; }
+.portada-instructor {
+  margin-top: 1.5em; border-top: 1px solid rgba(255,255,255,0.1);
+  padding-top: 0.8em; font-size: 0.72em; color: $silver;
+  strong { color: white; }
+}
+
+// ── SROI badge en esquina ───────────────────────────────────────────────────
+.sroi-badge-corner {
+  position: absolute; top: 2.5rem; right: 2.5rem;
+  font-family: 'Playfair Display', serif;
+  font-size: 2.8em; font-weight: 700; color: $amber;
+  text-shadow: 0 4px 20px rgba(0,0,0,0.4);
+  line-height: 1;
+}
+
+// ── Pills ───────────────────────────────────────────────────────────────────
+.pill {
+  display: inline-block; font-size: 0.52em; font-weight: 700;
+  letter-spacing: 0.1em; text-transform: uppercase;
+  padding: 0.3em 0.8em; border-radius: 2em; margin: 0.1em;
+}
+.pill-teal  { background: rgba(13,148,136,0.2); color: $teal-lt; border: 1px solid rgba(13,148,136,0.4); }
+.pill-amber { background: rgba(245,158,11,0.15); color: #FCD34D; border: 1px solid rgba(245,158,11,0.3); }
+.pill-slate { background: rgba(100,116,139,0.2); color: #CBD5E1; border: 1px solid rgba(100,116,139,0.3); }
+
+// ── Layouts de columnas ─────────────────────────────────────────────────────
+.col-2 {
+  display: grid; grid-template-columns: 1fr 1fr; gap: 1.8rem; align-items: start;
+}
+.col-6040 {
+  display: grid; grid-template-columns: 58fr 42fr; gap: 2rem; align-items: center;
+}
+
+// ── KPI Stack ───────────────────────────────────────────────────────────────
+.kpi-stack { display: flex; flex-direction: column; gap: 0.55rem; }
+.kpi-box {
+  padding: 0.6rem 0.9rem; border-radius: 8px; font-size: 0.78em; font-weight: 600;
+  border-left: 3px solid;
+  &.kpi-teal    { background: rgba(13,148,136,0.12); color: $teal-lt; border-color: $teal; }
+  &.kpi-amber   { background: rgba(245,158,11,0.12); color: #FCD34D; border-color: $amber; }
+  &.kpi-emerald { background: rgba(16,185,129,0.12); color: #6EE7B7; border-color: $emerald; }
+  &.kpi-blue    { background: rgba(30,58,95,0.5); color: #93C5FD; border-color: #3B82F6; }
+}
+
+// ── Seccion label ───────────────────────────────────────────────────────────
+.seccion-label {
+  display: inline-block; font-size: 0.52em; font-weight: 700;
+  letter-spacing: 0.12em; text-transform: uppercase; color: $teal-lt;
+  border-left: 3px solid $teal; padding-left: 0.8em; margin-bottom: 0.5em;
+}
+
+// ── Impact grid (5 items) ───────────────────────────────────────────────────
+.impact-grid-5 {
+  display: grid; grid-template-columns: repeat(5, 1fr);
+  gap: 0.55rem; margin: 0.8em 0; font-size: 0.68em;
+}
+.impact-card {
+  border-radius: 8px; padding: 0.75rem 0.65rem;
+  border-top: 3px solid; text-align: center;
+  background: rgba(255,255,255,0.04); border-color: rgba(255,255,255,0.1);
+  &.ic-teal    { border-color: $teal;    background: rgba(13,148,136,0.1); }
+  &.ic-emerald { border-color: $emerald; background: rgba(16,185,129,0.08); }
+  &.ic-amber   { border-color: $amber;   background: rgba(245,158,11,0.08); }
+}
+.impact-code {
+  font-size: 0.75em; font-weight: 800; text-transform: uppercase;
+  letter-spacing: 0.1em; color: $silver; margin-bottom: 0.2em;
+}
+.impact-name {
+  font-weight: 800; color: white; font-size: 0.95em;
+  margin-bottom: 0.3em; line-height: 1.2;
+}
+
+// ── Etapas grid ─────────────────────────────────────────────────────────────
+.etapas-grid {
+  display: grid; grid-template-columns: repeat(3, 1fr);
+  gap: 0.6rem; font-size: 0.68em; margin: 0.6em 0;
+}
+.etapa-card {
+  background: rgba(255,255,255,0.04); border: 1px solid rgba(255,255,255,0.08);
+  border-radius: 8px; padding: 0.7rem 0.8rem; position: relative;
+}
+.etapa-num {
+  font-size: 1.4em; font-weight: 900; color: rgba(13,148,136,0.4);
+  position: absolute; top: 0.3rem; right: 0.5rem;
+}
+.etapa-titulo {
+  font-weight: 800; color: $teal-lt; font-size: 0.9em;
+  margin-bottom: 0.3em;
+}
+
+// ── Proxy cards ─────────────────────────────────────────────────────────────
+.proxy-card {
+  border-radius: 8px; padding: 0.7rem 0.9rem; margin-bottom: 0.5rem;
+  font-size: 0.78em; border-left: 3px solid;
+  &.proxy-teal   { background: rgba(13,148,136,0.1); border-color: $teal; color: #A7F3D0; }
+  &.proxy-cyan   { background: rgba(8,145,178,0.1); border-color: $cyan; color: #A5F3FC; }
+  &.proxy-purple { background: rgba(124,58,237,0.1); border-color: $purple; color: #C4B5FD; }
+}
+
+// ── Ratio central ───────────────────────────────────────────────────────────
+.ratio-center {
+  text-align: center; color: white;
+  display: flex; flex-direction: column; align-items: center; justify-content: center;
+  height: 100%; gap: 0.4rem; font-size: 1.1em; font-weight: 300; opacity: 0.9;
+}
+.ratio-number {
+  font-family: 'Playfair Display', serif;
+  font-size: 7em; font-weight: 700; color: $amber;
+  line-height: 0.95; text-shadow: 0 6px 30px rgba(0,0,0,0.35);
+}
+.ratio-range { font-size: 0.72em; margin-top: 0.8em; opacity: 0.8; line-height: 1.6; }
+.ratio-bench { font-size: 0.62em; opacity: 0.55; margin-top: 0.3em; }
+
+// ── Benchmark stats ─────────────────────────────────────────────────────────
+.bench-stats {
+  display: grid; grid-template-columns: repeat(4, 1fr);
+  gap: 1rem; margin-bottom: 0.8em;
+}
+.bench-stat {
+  text-align: center; font-size: 0.62em; color: $silver;
+}
+.bench-stat-num {
+  display: block; font-size: 2.4em; font-weight: 900;
+  color: $teal-lt; letter-spacing: -0.04em; line-height: 1.1;
+}
+
+// ── Callout bench ───────────────────────────────────────────────────────────
+.callout-bench {
+  background: rgba(5,150,105,0.1); border: 1px solid rgba(5,150,105,0.3);
+  border-radius: 8px; padding: 0.7rem 1rem;
+  font-size: 0.68em; color: #A7F3D0; margin-top: 0.5em;
+}
+
+// ── Semáforo de madurez (5 cards) ───────────────────────────────────────────
+.semafor-grid-5 {
+  display: grid; grid-template-columns: repeat(5, 1fr);
+  gap: 0.45rem; font-size: 0.58em; margin: 0.6em 0;
+}
+.semafor-card {
+  border-radius: 8px; padding: 0.65rem 0.6rem;
+  border: 1px solid; border-left-width: 3px;
+  &.verde {
+    background: rgba(16,185,129,0.08); border-color: rgba(16,185,129,0.25);
+    border-left-color: $emerald;
+    .semafor-nivel { color: #34D399; }
+  }
+  &.amarillo {
+    background: rgba(245,158,11,0.08); border-color: rgba(245,158,11,0.25);
+    border-left-color: $amber;
+    .semafor-nivel { color: #FCD34D; }
+  }
+}
+.semafor-nivel {
+  font-size: 0.72em; font-weight: 800; text-transform: uppercase;
+  letter-spacing: 0.08em; margin-bottom: 0.35em;
+}
+.semafor-titulo {
+  font-weight: 800; color: white; margin-bottom: 0.3em;
+  font-size: 0.92em; line-height: 1.2;
+}
+
+// ── Principios grid ─────────────────────────────────────────────────────────
+.principios-grid {
+  display: grid; grid-template-columns: repeat(4, 1fr);
+  gap: 0.5rem; margin: 0.8em 0;
+}
+.principio {
+  padding: 0.6rem 0.7rem; border-radius: 7px;
+  font-size: 0.72em; font-weight: 600; text-align: center;
+  &.p-green  { background: rgba(16,185,129,0.12); color: #34D399; border: 1px solid rgba(16,185,129,0.3); }
+  &.p-yellow { background: rgba(245,158,11,0.12); color: #FCD34D; border: 1px solid rgba(245,158,11,0.3); }
+}
+
+// ── Roadmap ─────────────────────────────────────────────────────────────────
+.roadmap-grid {
+  display: grid; grid-template-columns: repeat(4, 1fr);
+  gap: 0.55rem; font-size: 0.68em; margin: 0.5em 0;
+}
+.roadmap-card {
+  border-radius: 8px; padding: 0.75rem 0.8rem;
+  border-top: 3px solid; background: rgba(255,255,255,0.04);
+  border-color: rgba(255,255,255,0.1);
+  &.rm-now    { border-color: $amber; background: rgba(245,158,11,0.08); }
+  &.rm-next   { border-color: $teal; background: rgba(13,148,136,0.08); }
+  &.rm-future { border-color: $cyan; background: rgba(8,145,178,0.08); }
+  &.rm-final  { border-color: $purple; background: rgba(124,58,237,0.08); }
+}
+.rm-label {
+  font-size: 0.72em; font-weight: 800; text-transform: uppercase;
+  letter-spacing: 0.08em; color: $silver; margin-bottom: 0.3em;
+}
+
+// ── Críticas grid ───────────────────────────────────────────────────────────
+.criticas-grid {
+  display: flex; flex-direction: column; gap: 0.6rem;
+  font-size: 0.72em; margin: 0.5em 0;
+}
+.critica-item {
+  background: rgba(255,255,255,0.04); border: 1px solid rgba(255,255,255,0.08);
+  border-radius: 8px; padding: 0.8rem 1rem;
+}
+.critica-q {
+  font-weight: 700; color: #FCD34D; font-size: 0.95em;
+  margin-bottom: 0.4em; font-style: italic;
+}
+.critica-r { color: #CBD5E1; line-height: 1.55; }
+
+// ── Decision grid ───────────────────────────────────────────────────────────
+.decision-grid {
+  display: grid; grid-template-columns: 1fr 1fr; gap: 1.5rem; margin-bottom: 1rem;
+  h3 { font-size: 0.85em; color: $white; margin-bottom: 0.4em; }
+  li, p { font-size: 0.75em; color: rgba(255,255,255,0.85); line-height: 1.6; }
+}
+.decision-col {
+  background: rgba(255,255,255,0.06); border-radius: 10px; padding: 1rem 1.1rem;
+}
+.decision-cta {
+  background: $amber; color: $navy; padding: 0.7rem 1.2rem;
+  border-radius: 8px; font-size: 0.78em; font-weight: 700; text-align: center;
+}
+
+// ── SROI proyección strip ───────────────────────────────────────────────────
+.sroi-proyeccion {
+  display: grid; grid-template-columns: repeat(3, 1fr);
+  gap: 1rem; margin-top: 1rem;
+}
+.proy-item {
+  text-align: center; padding: 0.6rem; border-radius: 8px;
+  background: rgba(255,255,255,0.06); border: 1px solid rgba(255,255,255,0.1);
+  font-size: 0.72em; color: #CBD5E1; font-weight: 600;
+}
+
+// ── Cierre ──────────────────────────────────────────────────────────────────
+.cierre-content {
+  text-align: center; color: white;
+  display: flex; flex-direction: column;
+  align-items: center; justify-content: center;
+  height: 100%; gap: 1rem;
+  blockquote {
+    font-size: 1.05em; font-style: italic; opacity: 0.88;
+    border: none; background: none; max-width: 750px;
+    line-height: 1.6; color: white;
+  }
+  hr { border: none; border-top: 1px solid rgba(255,255,255,0.25); width: 60%; }
+  p { font-size: 0.78em; opacity: 0.75; }
+}
+.cierre-link {
+  font-size: 0.65em; opacity: 0.6; margin-top: 0.3em;
+  a { color: $teal-lt; }
+}
+
+// ── Tablas ──────────────────────────────────────────────────────────────────
+.reveal table {
+  font-size: 0.65em; border-collapse: collapse; width: 100%;
+}
+.reveal table th {
+  background: $teal; color: white; padding: 0.35em 0.6em;
+  font-weight: 700; font-size: 0.9em;
+}
+.reveal table td {
+  padding: 0.3em 0.6em; border-bottom: 1px solid rgba(255,255,255,0.07);
+}
+.reveal table tr:nth-child(even) td { background: rgba(255,255,255,0.03); }
+
+// ── Listas ──────────────────────────────────────────────────────────────────
+.reveal ul { list-style: none; padding-left: 0; }
+.reveal ul li {
+  padding: 0.2em 0 0.2em 1.3em; position: relative; color: #CBD5E1;
+}
+.reveal ul li::before {
+  content: "\203A"; position: absolute; left: 0.2em;
+  color: $teal-lt; font-weight: 700; font-size: 1.1em;
+}
+
+// ── Note small ──────────────────────────────────────────────────────────────
+.note-small {
+  font-size: 0.55em; color: #64748B; margin-top: 0.4em;
+  font-style: italic; text-align: center;
+}
+
+// ── Escala de madurez de impacto ─────────────────────────────────────────────
+.escala-grid {
+  display: grid; grid-template-columns: repeat(5, 1fr);
+  gap: 0.5rem; margin: 0.6em 0; font-size: 0.65em;
+}
+.escala-card {
+  border-radius: 8px; padding: 0.7rem 0.6rem; text-align: center;
+  background: rgba(255,255,255,0.04); border: 1px solid rgba(255,255,255,0.08);
+  border-top: 3px solid; transition: transform 0.2s;
+  &.escala-n1 { border-top-color: #F87171; }
+  &.escala-n2 { border-top-color: #FBBF24; }
+  &.escala-n3 { border-top-color: #FCD34D; }
+  &.escala-n4 { border-top-color: #34D399; }
+  &.escala-n5 { border-top-color: $teal-lt; }
+  &.escala-activo {
+    background: rgba(252,211,77,0.12); border-color: rgba(252,211,77,0.4);
+    transform: scale(1.05);
+    box-shadow: 0 0 20px rgba(252,211,77,0.15);
+    .escala-nivel { color: #FCD34D; font-size: 1.8em; }
+    .escala-nombre { color: white; }
+  }
+}
+.escala-nivel {
+  font-size: 1.5em; font-weight: 900;
+  color: rgba(255,255,255,0.3); margin-bottom: 0.2em;
+}
+.escala-nombre {
+  font-weight: 800; color: $silver; font-size: 0.9em;
+  margin-bottom: 0.3em; line-height: 1.2;
+}
+.escala-card.escala-n1 .escala-nivel { color: rgba(248,113,113,0.5); }
+.escala-card.escala-n2 .escala-nivel { color: rgba(251,191,36,0.5); }
+.escala-card.escala-n3 .escala-nivel { color: rgba(252,211,77,0.5); }
+.escala-card.escala-n4 .escala-nivel { color: rgba(52,211,153,0.5); }
+.escala-card.escala-n5 .escala-nivel { color: rgba(94,234,212,0.5); }
+
+// ── Nivel destacado (slide N3) ──────────────────────────────────────────────
+.nivel-destacado {
+  display: flex; align-items: center; gap: 1rem;
+  margin-bottom: 1.2em;
+}
+.nivel-destacado-badge {
+  font-size: 2.5em; font-weight: 900; color: #FCD34D;
+  background: rgba(252,211,77,0.12); border: 2px solid rgba(252,211,77,0.4);
+  border-radius: 12px; padding: 0.15em 0.4em; line-height: 1;
+}
+.nivel-destacado-nombre {
+  font-size: 1.1em; font-weight: 800; color: white;
+}
+.nivel-comparativa {
+  font-size: 0.85em;
+}
+.nivel-nota {
+  background: rgba(13,148,136,0.1); border: 1px solid rgba(13,148,136,0.3);
+  border-radius: 8px; padding: 0.7rem 0.9rem; margin-top: 0.8em;
+  font-size: 0.85em; color: #A7F3D0;
+}
+
+// ── Images ──────────────────────────────────────────────────────────────────
+.reveal img { border-radius: 8px; }
+
+// ── Footer & progress ───────────────────────────────────────────────────────
+.reveal .slide-number { font-size: 0.55em; }
+.reveal .footer { font-size: 0.5em; opacity: 0.5; }
+.reveal .progress { background: rgba(255,255,255,0.1); color: $teal; height: 3px; }

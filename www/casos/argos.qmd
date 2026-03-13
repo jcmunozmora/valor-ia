@@ -112,9 +112,9 @@ toc: false
   <div class="pres-icon">▶</div>
   <div class="pres-text">
     <div class="pres-titulo">Presentación ejecutiva disponible</div>
-    <div class="pres-desc">15 diapositivas para junta directiva, inversionistas y aliados — versión RevealJS</div>
+    <div class="pres-desc">20 diapositivas para junta directiva, inversionistas y aliados — versión RevealJS</div>
   </div>
-  <a href="../../02_Aplicaciones/2026_Argos_STC/04_outputs/presentacion_sroi.html" class="pres-cta">Ver presentación →</a>
+  <a href="../slides/sqt_presentacion.html" class="pres-cta">Ver presentación →</a>
 </div>
 
 <div class="pres-banner" style="background: rgba(30,58,95,0.85); border-color: rgba(94,234,212,0.15); margin-top: 0.75rem;">

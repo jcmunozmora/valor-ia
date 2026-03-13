@@ -1,0 +1,798 @@
+---
+title: "Sueños que Transforman"
+subtitle: "Retorno Social de la Inversión — Teatro Talita Cumi"
+author: "Centro Valor Público · Universidad EAFIT"
+date: "Marzo 2026"
+lang: es
+format:
+  revealjs:
+    theme: [dark, sqt_presentacion.scss]
+    transition: slide
+    transition-speed: fast
+    slide-number: "c/t"
+    show-slide-number: all
+    footer: "Fundación Grupo Argos · Sueños que Transforman · SROI 2,35:1 · CVP EAFIT · Marzo 2026"
+    chalkboard: false
+    scrollable: false
+    fig-align: center
+    echo: false
+    warning: false
+    self-contained: true
+    width: 1280
+    height: 720
+    margin: 0.07
+execute:
+  echo: false
+  warning: false
+---
+
+## {.portada background-color="#0F172A"}
+
+::: portada-wrap
+::: portada-eyebrow
+Fundación Grupo Argos · Centro Valor Público EAFIT
+:::
+
+::: portada-titulo
+Sueños que Transforman
+:::
+
+::: portada-sub
+Retorno Social de la Inversión<br>
+Teatro Talita Cumi · Barrio Manrique, Medellín
+:::
+
+::: {.portada-badges}
+[SROI Evaluativo]{.pill .pill-teal}
+[Ciclo 2024–2025]{.pill .pill-slate}
+[Metodología SVI]{.pill .pill-slate}
+:::
+
+::: portada-instructor
+**Juan Carlos Muñoz-Mora, PhD** · Economista · Universidad EAFIT<br>
+Centro Valor Público · Metodología iMEL®
+:::
+:::
+
+::: {.sroi-badge-corner}
+**2,35×**
+:::
+
+---
+
+## La escala de madurez de impacto {background-color="#0F172A"}
+
+::: {.seccion-label}
+¿Qué puede afirmar un programa sobre su impacto? Depende del nivel de evidencia
+:::
+
+::: {.escala-grid}
+
+::: {.escala-card .escala-n1}
+::: escala-nivel
+N1
+:::
+::: escala-nombre
+Exploración inicial
+:::
+Primeras etapas de sistematización. Prioridad: construir Teoría del Cambio y seguimiento básico.
+:::
+
+::: {.escala-card .escala-n2}
+::: escala-nivel
+N2
+:::
+::: escala-nombre
+Sistematización básica
+:::
+Elementos dispersos. Momento de integrar en un sistema coherente y comenzar a medir resultados.
+:::
+
+::: {.escala-card .escala-n3 .escala-activo}
+::: escala-nivel
+N3
+:::
+::: escala-nombre
+Medición estructurada
+:::
+Sistema de medición activo. Fortalecer evidencia causal y cuantificar impacto más allá de outputs.
+:::
+
+::: {.escala-card .escala-n4}
+::: escala-nivel
+N4
+:::
+::: escala-nombre
+Impacto demostrado
+:::
+Evidencia sólida de impacto. Paso natural: valoración monetaria y comunicación a financiadores.
+:::
+
+::: {.escala-card .escala-n5}
+::: escala-nivel
+N5
+:::
+::: escala-nombre
+Excelencia evaluativa
+:::
+Sistema M&E de clase mundial. Verificación externa, publicación y referente del sector.
+:::
+
+:::
+
+::: note-small
+La sofisticación metodológica que tiene sentido es la que responde a la pregunta más importante que el programa puede hacerse hoy.
+:::
+
+---
+
+## SQT está en Nivel N3 — y eso es exactamente correcto {background-color="#0F172A"}
+
+::: col-6040
+::: {}
+
+::: {.nivel-destacado}
+::: nivel-destacado-badge
+N3
+:::
+::: nivel-destacado-nombre
+Medición estructurada
+:::
+:::
+
+**Sueños que Transforman** tiene un sistema de medición activo con datos pareados pre-post, Teoría del Cambio validada con stakeholders y un SROI calculado con metodología SVI.
+
+**¿Por qué N3 y no N4 o N5?**
+
+- Sin grupo de comparación formal (no hay contrafactual experimental)
+- Deadweight estimado con juicio informado, no con datos observacionales
+- Muestra de 20 líderes — no representativa del universo de beneficiarios
+
+**La hoja de ruta del programa apunta a N4** con la ampliación de la base de datos y la escala Cantril de bienestar.
+:::
+::: {}
+
+::: {.nivel-comparativa}
+
+| Nivel | Qué puede afirmar | Ejemplo |
+|:-----:|:-------------------|:--------|
+| N1 | "Hicimos actividades" | Registro de asistencia |
+| N2 | "Cumplimos metas de producto" | Indicadores de output |
+| **N3** | **"Medimos cambios reales"** | **SROI con pre-post** |
+| N4 | "Demostramos causalidad" | DiD o grupo control |
+| N5 | "Verificamos con experimento" | RCT + aseguramiento SVI |
+
+::: {.nivel-nota}
+**Hogares Saludables** (otro caso CVP EAFIT) alcanzó **N5** con un cRCT de 1.163 hogares y SROI de 5,27×. Es el referente del portafolio para lo que SQT puede llegar a ser.
+:::
+
+:::
+:::
+:::
+
+---
+
+## Un espacio que una comunidad esperó 25 años {background-color="#0F172A"}
+
+::: col-6040
+::: {}
+El **Teatro Talita Cumi** en el barrio Manrique llevaba **25 años en deterioro**.
+
+La comunidad lo intentó. Nunca pudo recuperarlo sola.
+
+**Sueños que Transforman** — alianza entre Fundación Grupo Argos y la comunidad, con metodología del Centro Valor Público EAFIT — logró en un ciclo lo que 25 años no habían conseguido.
+
+Este análisis responde: **¿cuánto valor social real generó esa inversión?**
+:::
+::: {.kpi-stack}
+::: {.kpi-box .kpi-teal}
+**$203M COP**
+invertidos en la obra
+:::
+::: {.kpi-box .kpi-amber}
+**25 años**
+de deterioro revertidos
+:::
+::: {.kpi-box .kpi-emerald}
+**60 beneficiarios**
+comunidad movilizada
+:::
+::: {.kpi-box .kpi-blue}
+**P38 global**
+primer ciclo evaluativo
+:::
+:::
+:::
+
+---
+
+## Panel de resultados del programa {background-color="#0F172A"}
+
+::: {.seccion-label}
+Indicadores clave · Evaluación pareada pre-post · N = 20 líderes
+:::
+
+![](../images/argos/fig6_dashboard.png){width="92%" fig-align="center"}
+
+---
+
+## ¿Qué cambió? Cinco impactos identificados {background-color="#0F172A"}
+
+::: {.impact-grid-5}
+
+::: {.impact-card .ic-teal}
+::: impact-code
+I4
+:::
+::: impact-name
+Infraestructura accesible
+:::
+Espacio físico para toda la comunidad. 25 años de deterioro revertidos.
+:::
+
+::: {.impact-card .ic-emerald}
+::: impact-code
+I2
+:::
+::: impact-name
+Liderazgo comunitario
+:::
+Iniciativas activas: **+41%** por líder (dato pre-post pareado).
+:::
+
+::: {.impact-card .ic-emerald}
+::: impact-code
+R6
+:::
+::: impact-name
+Seguridad
+:::
+Percepción: de **83% a 100%** (+17 puntos porcentuales).
+:::
+
+::: {.impact-card .ic-amber}
+::: impact-code
+I1
+:::
+::: impact-name
+Bienestar subjetivo
+:::
+Sentido de pertenencia, identidad y resiliencia. *Próximo ciclo.*
+:::
+
+::: {.impact-card .ic-amber}
+::: impact-code
+I3
+:::
+::: impact-name
+Economía local
+:::
+Emprendimientos y ferias activas en el espacio. *Próximo ciclo.*
+:::
+
+:::
+
+::: note-small
+Tres outcomes monetizados (I4, I2, R6). Dos outcomes con valor real sin capturar aún (I1, I3) — representan potencial adicional.
+:::
+
+---
+
+## Cómo medimos: las 6 etapas del SROI {background-color="#0F172A"}
+
+::: {.etapas-grid}
+
+::: {.etapa-card}
+::: etapa-num
+1
+:::
+::: etapa-titulo
+Alcance y stakeholders
+:::
+Fundación Argos (pagador), 20 líderes encuestados, comunidad amplia, territorio Manrique
+:::
+
+::: {.etapa-card}
+::: etapa-num
+2
+:::
+::: etapa-titulo
+Mapa de impacto
+:::
+Teoría del Cambio participativa: $203M → recuperación del teatro → 5 tipos de cambio medibles
+:::
+
+::: {.etapa-card}
+::: etapa-num
+3
+:::
+::: etapa-titulo
+Evidencia de outcomes
+:::
+Encuesta pre-post a 20 líderes, grupos focales, registro administrativo. Datos pareados
+:::
+
+::: {.etapa-card}
+::: etapa-num
+4
+:::
+::: etapa-titulo
+Establecer el valor
+:::
+WTP directa (mediana), costo de servicio equivalente, costo social evitado
+:::
+
+::: {.etapa-card}
+::: etapa-num
+5
+:::
+::: etapa-titulo
+Calcular impacto neto
+:::
+Deadweight 25%, atribución 26.25%, desplazamiento 0%, decaimiento 5%/año
+:::
+
+::: {.etapa-card}
+::: etapa-num
+6
+:::
+::: etapa-titulo
+Reportar y actuar
+:::
+Informe completo, revisión por pares CVP EAFIT. Verificación SVI proyectada 2027
+:::
+
+:::
+
+---
+
+## Proxies y factores de ajuste {background-color="#0F172A"}
+
+::: col-2
+
+::: {}
+### Métodos de valoración
+
+::: {.proxy-card .proxy-teal}
+**WTP — Encuesta directa**
+Infraestructura accesible (I4)
+
+Mediana: **$6.245.400** COP/persona/año · N = 20
+:::
+
+::: {.proxy-card .proxy-cyan}
+**Costo del servicio equivalente**
+Liderazgo comunitario (I2)
+
+Proxy: **$1.500.000** COP/diplomado · +41% iniciativas
+:::
+
+::: {.proxy-card .proxy-purple}
+**Costo social evitado**
+Seguridad y prevención (R6)
+
+Proxy: **$650.000** COP/pp-mejora/persona · +17pp
+:::
+:::
+
+::: {}
+### Factores de descuento
+
+| Factor | Valor | Justificación |
+|--------|------:|:-------------|
+| **Peso muerto** | 25% | 25 años sin recuperación — evidencia histórica irrefutable |
+| **Atribución** | 26.25% | Otros actores: comunidad, Minuto de Dios, municipio |
+| **Desplazamiento** | 0% | No compite con otro espacio comunitario en Manrique |
+| **Decaimiento** | 5%/año | Conservador — infraestructura física degrada lento |
+| **Tasa descuento** | 7% | Referencia Banco de la República |
+
+:::
+:::
+
+---
+
+## {background-color="#0F172A"}
+
+::: ratio-center
+
+Por cada peso invertido en el Teatro Talita Cumi
+
+::: ratio-number
+2,35
+:::
+
+pesos en valor social neto generado para la comunidad
+
+::: ratio-range
+Rango de confianza: **1,59** (conservador) — **4,91** (optimista)<br>
+A cinco años, reconociendo la vida útil de la obra: **3,37**
+:::
+
+::: ratio-bench
+Mediana internacional SVI (383 reportes): 4,35 · SQT está en el **Percentil 38** — primer ciclo evaluativo
+:::
+
+:::
+
+---
+
+## De la inversión al valor social neto {background-color="#0F172A"}
+
+::: col-2
+::: {}
+![](../images/argos/fig1_waterfall_original.png){width="100%"}
+
+::: note-small
+Tres descuentos (DW 25%, atribución 26.25%, desplazamiento 0%) garantizan que el resultado no sobreatribuye el impacto.
+:::
+:::
+
+::: {}
+![](../images/argos/fig5_desglose_outcomes.png){width="100%"}
+
+::: note-small
+Infraestructura (I4) = 83% del valor bruto. Liderazgo (14%) y seguridad (3%) ampliarán su peso al escalar la base de beneficiarios.
+:::
+:::
+:::
+
+---
+
+## El espacio completo de resultados plausibles {background-color="#0F172A"}
+
+::: col-6040
+::: {}
+
+| Escenario | DW | Benef. | Outcomes | 3 años |
+|:----------|---:|-------:|:---------|-------:|
+| Original base | 46.7% | 20 | I4 | **0.52** |
+| Corr. DW (25%) | 25.0% | 20 | I4 | 0.73 |
+| Corr. 60 benef. | 46.7% | 60 | I4 | 1.56 |
+| Comb. conservador | 25.0% | 40 | I4+I2 | **1.59** |
+| **Comb. central** | **25.0%** | **60** | **I4+I2+R6** | **2.35** |
+| Central 5 años | 25.0% | 60 | I4+I2+R6 | **3.37** |
+| Optimista | 15.0% | 100 | I4+I2+R6 | **4.91** |
+
+:::
+::: {}
+
+![](../images/argos/fig2_escenarios.png){width="100%"}
+
+::: note-small
+11 escenarios SROI. Línea verde = punto de equilibrio (SROI = 1). El resultado supera el break-even en todos los escenarios plausibles.
+:::
+
+:::
+:::
+
+---
+
+## ¿El resultado es robusto? {background-color="#0F172A"}
+
+::: col-2
+::: {}
+![](../images/argos/fig3_heatmap_sensibilidad.png){width="100%"}
+
+::: note-small
+SROI a 3 años para cada combinación de DW y N beneficiarios. Supera el break-even en prácticamente toda la superficie del mapa.
+:::
+:::
+
+::: {}
+![](../images/argos/fig4_tornado.png){width="100%"}
+
+::: note-small
+Impacto individual de cada variable sobre el SROI. El número de beneficiarios domina — los parámetros financieros son secundarios.
+:::
+:::
+:::
+
+---
+
+## VPN acumulado a 10 años {background-color="#0F172A"}
+
+![](../images/argos/fig8_vpn_acumulado.png){width="85%" fig-align="center"}
+
+::: note-small
+La inversión de $203M se recupera socialmente antes del año 2 en el escenario central. La infraestructura continúa generando valor durante toda su vida útil estimada (15–20 años).
+:::
+
+---
+
+## SQT en el contexto global {background-color="#0F172A"}
+
+::: {.bench-stats}
+::: {.bench-stat}
+::: bench-stat-num
+383
+:::
+reportes SVI en la base global
+:::
+::: {.bench-stat}
+::: bench-stat-num
+4,35
+:::
+mediana internacional
+:::
+::: {.bench-stat}
+::: bench-stat-num
+P38
+:::
+percentil SQT hoy
+:::
+::: {.bench-stat}
+::: bench-stat-num
+P50+
+:::
+proyectado con datos completos
+:::
+:::
+
+![](../images/argos/fig9_benchmark_distribucion.png){width="92%" fig-align="center"}
+
+::: note-small
+Izquierda: distribución global de 64 ratios verificados. Derecha: curva percentil — conservador en P22, central en P38, a 5 años en P50.
+:::
+
+---
+
+## Programas comparables a nivel mundial {background-color="#0F172A"}
+
+![](../images/argos/fig10_benchmark_comparables.png){width="92%" fig-align="center"}
+
+::: note-small
+SQT en relación a los 17 programas más comparables de la base SVI. North Ayrshire Fab Pad (8,38) y Carmichael Centre (7,10) representan el potencial del programa con datos más completos — mismo tipo de intervención, misma lógica de impacto.
+:::
+
+---
+
+## Rangos SROI por sector {background-color="#0F172A"}
+
+![](../images/argos/fig11_benchmark_sectores.png){width="92%" fig-align="center"}
+
+::: {.callout-bench}
+**Lo que dicen los comparables internacionales:** Ningún programa de espacio comunitario o placemaking comparable tiene SROI bajo cuando usa correctamente su universo de beneficiarios. La diferencia hoy es exclusivamente de datos, no de impacto real.
+:::
+
+---
+
+## Semáforo de madurez: un diagnóstico honesto {background-color="#0F172A"}
+
+::: {.semafor-grid-5}
+
+::: {.semafor-card .verde}
+::: semafor-nivel
+Consolidado
+:::
+::: semafor-titulo
+Coherencia programática
+:::
+ToC documentada, 5 impactos validados con stakeholders, lógica causal revisada
+:::
+
+::: {.semafor-card .verde}
+::: semafor-nivel
+Consolidado
+:::
+::: semafor-titulo
+Eficacia
+:::
+Teatro rehabilitado y en operación. 60+ familias. 3 outcomes con evidencia cuantitativa
+:::
+
+::: {.semafor-card .verde}
+::: semafor-nivel
+Consolidado
+:::
+::: semafor-titulo
+Eficiencia operativa
+:::
+$203M ejecutados con transparencia. Factores de ajuste calculados empíricamente
+:::
+
+::: {.semafor-card .amarillo}
+::: semafor-nivel
+En consolidación
+:::
+::: semafor-titulo
+Impacto social
+:::
+20 de 60+ beneficiarios encuestados. SROI en P38 — brecha de datos, no de impacto
+:::
+
+::: {.semafor-card .amarillo}
+::: semafor-nivel
+En consolidación
+:::
+::: semafor-titulo
+Valoración monetaria
+:::
+1 de 5 outcomes monetizado con proxy primario. Bienestar y economía local pendientes
+:::
+
+:::
+
+::: note-small
+Verde = consolidado y sostenible · Amarillo = valor real demostrado, evidencia requiere ampliación · No hay rojo — el programa tiene base sólida.
+:::
+
+---
+
+## Principios SVI aplicados {background-color="#0F172A"}
+
+::: {.principios-grid}
+::: {.principio .p-green}
+**P1** Involucrar stakeholders ✓
+:::
+::: {.principio .p-green}
+**P2** Entender qué cambia ✓
+:::
+::: {.principio .p-yellow}
+**P3** Valorar lo que importa ⚠
+:::
+::: {.principio .p-green}
+**P4** Solo lo material ✓
+:::
+::: {.principio .p-green}
+**P5** No sobreatribuir ✓
+:::
+::: {.principio .p-green}
+**P6** Ser transparente ✓
+:::
+::: {.principio .p-yellow}
+**P7** Verificar el resultado ⚠
+:::
+::: {.principio .p-green}
+**P8** Ser responsivo ✓
+:::
+:::
+
+::: note-small
+6 de 8 principios plenamente aplicados · P3: bienestar (I1) y economía (I3) pendientes de datos · P7: verificación SVI formal en hoja de ruta 2027
+:::
+
+---
+
+## Hoja de ruta hacia el aseguramiento SVI {background-color="#0F172A"}
+
+::: {.roadmap-grid}
+
+::: {.roadmap-card .rm-now}
+::: rm-label
+Fase 1 · Inmediato
+:::
+**Documentar y publicar**
+
+- Documentar outlier WTP
+- Cuantificar inversión total (obra + acompañamiento)
+- Incluir I2 en el Value Map oficial
+- Justificar codificación de la atribución
+:::
+
+::: {.roadmap-card .rm-next}
+::: rm-label
+Fase 2 · 3–6 meses
+:::
+**Ampliar la base de datos**
+
+- Instalar contador de acceso mensual
+- Encuesta ampliada a 60–80 usuarios
+- Registro de emprendimientos y ferias
+:::
+
+::: {.roadmap-card .rm-future}
+::: rm-label
+Fase 3 · Ciclo 2026
+:::
+**Habilitar nuevos outcomes**
+
+- Escala Cantril para bienestar subjetivo
+- Seguimiento de liderazgo a 2 años
+- Datos económicos de emprendimientos
+:::
+
+::: {.roadmap-card .rm-final}
+::: rm-label
+Fase 4 · Ciclo 2027
+:::
+**Aseguramiento SVI**
+
+- Verificación formal Social Value International
+- Publicación en base de datos global
+- SROI proyectado: 4,5–6,0
+:::
+
+:::
+
+---
+
+## Las preguntas difíciles — y nuestras respuestas {background-color="#0F172A"}
+
+::: {.criticas-grid}
+
+::: {.critica-item}
+::: critica-q
+¿El deadweight del 47% no es simplemente una opinión de los beneficiarios?
+:::
+::: critica-r
+**La crítica más sólida — la aceptamos parcialmente.** Por eso no usamos el 47% empírico: lo corregimos a 25% basado en evidencia histórica irrefutable — 25 años sin recuperación posible. El análisis de sensibilidad muestra que el SROI supera el break-even para todos los valores de DW entre 15% y 50%.
+:::
+:::
+
+::: {.critica-item}
+::: critica-q
+¿Solo participaron 20 personas? ¿Es suficiente?
+:::
+::: critica-r
+**Es la limitación central de este ciclo, y la reconocemos sin reservas.** Los 20 líderes son los más comprometidos — no son representativos del universo. La hoja de ruta pone como Prioridad 1 el contador de acceso y la encuesta ampliada a 60–80 usuarios. Los escenarios ya incorporan esta incertidumbre.
+:::
+:::
+
+::: {.critica-item}
+::: critica-q
+¿El SROI va a cambiar alguna decisión real?
+:::
+::: critica-r
+**Respondemos con compromisos concretos.** (1) Se instalará un contador de acceso antes del próximo ciclo. (2) El outcome de liderazgo (I2) se incorpora al Value Map oficial. (3) El deadweight se revisará de forma diferenciada. (4) El próximo informe incluirá "¿Qué cambió a partir de esta evaluación?"
+:::
+:::
+
+:::
+
+---
+
+## La decisión de inversión {background-color="#1E3A5F"}
+
+::: {.decision-grid}
+
+::: {.decision-col}
+### Qué sabemos
+- El programa genera **$2,35 por cada peso** invertido — robusto y verificable
+- Supera el break-even en **todos** los escenarios plausibles
+- Los comparables internacionales apuntan a que el impacto real es **mayor** al capturado
+:::
+
+::: {.decision-col}
+### Qué puede mejorar
+- Un **contador de acceso** transforma la incertidumbre de beneficiarios en dato duro
+- La **escala Cantril** habilitará el outcome de mayor valor potencial (bienestar I1)
+- El **aseguramiento SVI** proyecta a SQT como referente latinoamericano
+:::
+
+:::
+
+::: {.decision-cta}
+La pregunta no es si el programa genera valor — lo genera. La pregunta es: **¿qué inversión en medición necesitamos para demostrarlo a escala?**
+:::
+
+::: {.sroi-proyeccion}
+::: {.proy-item}
+**Hoy** · 2,35× · P38
+:::
+::: {.proy-item}
+**Con datos completos** · ~3,5× · P50
+:::
+::: {.proy-item}
+**Con WELLBY** · ~5,0× · P65
+:::
+:::
+
+---
+
+## {.cierre background-color="#0F172A"}
+
+::: cierre-content
+
+> *"El Teatro Talita Cumi dejó de ser un espacio físico recuperado para convertirse en un territorio de posibilidades. Hoy, 25 años después de que la comunidad empezó a soñar, SQT hizo posible lo que parecía imposible."*
+
+---
+
+**Fundación Grupo Argos** · **Centro Valor Público EAFIT**
+
+SROI **2,35:1** · Ciclo 2024–2025 · Metodología Social Value International
+
+::: cierre-link
+Informe completo: [reporte_sroi.html](../reportes/argos_sroi.html) · Página del caso: [Teatro Talita Cumi](../casos/argos.html)
+:::
+
+:::
