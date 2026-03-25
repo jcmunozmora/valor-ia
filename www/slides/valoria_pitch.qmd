@@ -124,41 +124,26 @@ Evidencia empírica — IMToC corpus · 78 Teorías del Cambio calificadas
 
 <br>
 
-::: corpus-strip
-
-::: corpus-stat
-[38.8]{.corpus-num}
-::: corpus-label
-Promedio IMToC /100
-(N2 alto — N3 bajo)
-:::
-:::
-
-::: corpus-stat
-[0]{.corpus-num}
-::: corpus-label
-Programas en N5
-(excelencia evaluativa)
-:::
-:::
-
-::: corpus-stat
-[1.63]{.corpus-num}
-::: corpus-label
-/10 en Supuestos
-(dimensión más débil)
-:::
-:::
-
-::: corpus-stat
-[200+]{.corpus-num}
-::: corpus-label
-ToC en base de datos
-(29 sectores, ES+EN)
-:::
-:::
-
-:::
+```{=html}
+<div class="corpus-strip">
+  <div class="corpus-stat">
+    <span class="corpus-num">38.8</span>
+    <div class="corpus-label">Promedio IMToC /100<br>(N2 alto — N3 bajo)</div>
+  </div>
+  <div class="corpus-stat">
+    <span class="corpus-num">0</span>
+    <div class="corpus-label">Programas en N5<br>(excelencia evaluativa)</div>
+  </div>
+  <div class="corpus-stat">
+    <span class="corpus-num">1.63</span>
+    <div class="corpus-label">/10 en Supuestos<br>(dimensión más débil)</div>
+  </div>
+  <div class="corpus-stat">
+    <span class="corpus-num">200+</span>
+    <div class="corpus-label">ToC en base de datos<br>(29 sectores, ES+EN)</div>
+  </div>
+</div>
+```
 
 ::: col-2
 
@@ -1041,37 +1026,26 @@ Avanzado
 
 <br>
 
-::: corpus-strip
-
-::: corpus-stat
-[84h]{.corpus-num}
-::: corpus-label
-Horas de formación total (ruta completa)
-:::
-:::
-
-::: corpus-stat
-[7]{.corpus-num}
-::: corpus-label
-Entregables concretos, uno por módulo
-:::
-:::
-
-::: corpus-stat
-[6]{.corpus-num}
-::: corpus-label
-Rutas de entrada por perfil profesional
-:::
-:::
-
-::: corpus-stat
-[3]{.corpus-num}
-::: corpus-label
-Certificaciones alineadas: SVI · J-PAL · 3ie
-:::
-:::
-
-:::
+```{=html}
+<div class="corpus-strip">
+  <div class="corpus-stat">
+    <span class="corpus-num">84h</span>
+    <div class="corpus-label">Horas de formación total<br>(ruta completa)</div>
+  </div>
+  <div class="corpus-stat">
+    <span class="corpus-num">7</span>
+    <div class="corpus-label">Entregables concretos,<br>uno por módulo</div>
+  </div>
+  <div class="corpus-stat">
+    <span class="corpus-num">6</span>
+    <div class="corpus-label">Rutas de entrada<br>por perfil profesional</div>
+  </div>
+  <div class="corpus-stat">
+    <span class="corpus-num">3</span>
+    <div class="corpus-label">Certificaciones alineadas:<br>SVI · J-PAL · 3ie</div>
+  </div>
+</div>
+```
 
 ::: note-small
 Módulos independientes o ruta completa · Inhouse o virtual sincrónico · Co-diseño con la organización · Casos reales del portafolio del participante
@@ -1395,99 +1369,92 @@ De esta conversación a resultados verificables — tres pasos concretos
 
 <br>
 
-::: pasos-grid
+```{=html}
+<div class="pasos-grid">
 
-::: {.paso-card .paso-1}
-::: paso-num
-01
-:::
-::: paso-titulo
-Diagnóstico gratuito
-:::
-::: paso-desc
-30 minutos de conversación. Quiz iMEL® de 5 dimensiones. Resultado: su programa en N1–N5 y la siguiente inversión metodológica que más sentido tiene.
+  <div class="paso-card paso-1">
+    <div class="paso-num">01</div>
+    <div class="paso-titulo">Diagnóstico gratuito</div>
+    <div class="paso-desc">
+      30 minutos de conversación. Quiz iMEL® de 5 dimensiones.
+      Resultado: su programa en N1–N5 y la siguiente inversión metodológica que más sentido tiene.
+      <br><br><strong>Sin costo. Sin compromiso.</strong>
+    </div>
+  </div>
 
-**Sin costo. Sin compromiso.**
-:::
-:::
+  <div class="paso-card paso-2">
+    <div class="paso-num">02</div>
+    <div class="paso-titulo">Propuesta a medida</div>
+    <div class="paso-desc">
+      Basada en su nivel de madurez, su portafolio de programas y sus objetivos con financiadores.
+      Formación, consultoría, SROI completo o combinación.
+      <br><br><strong>Co-diseñada con su equipo.</strong>
+    </div>
+  </div>
 
-::: {.paso-card .paso-2}
-::: paso-num
-02
-:::
-::: paso-titulo
-Propuesta a medida
-:::
-::: paso-desc
-Basada en su nivel de madurez, su portafolio de programas y sus objetivos con financiadores. Formación, consultoría, SROI completo o combinación.
+  <div class="paso-card paso-3">
+    <div class="paso-num">03</div>
+    <div class="paso-titulo">Piloto con un caso real</div>
+    <div class="paso-desc">
+      Tomamos un programa real de su organización y ejecutamos el ciclo iMEL® completo.
+      Al finalizar: evidencia verificable, equipo formado y metodología instalada.
+      <br><br><strong>De la promesa a la prueba.</strong>
+    </div>
+  </div>
 
-**Co-diseñada con su equipo.**
-:::
-:::
-
-::: {.paso-card .paso-3}
-::: paso-num
-03
-:::
-::: paso-titulo
-Piloto con un caso real
-:::
-::: paso-desc
-Tomamos un programa real de su organización y ejecutamos el ciclo iMEL® completo. Al finalizar: evidencia verificable, equipo formado y metodología instalada.
-
-**De la promesa a la prueba.**
-:::
-:::
-
-:::
+</div>
+```
 
 <br>
 
-::: {style="text-align:center;margin-top:0.5rem;"}
-
-::: {style="display:inline-flex;gap:1.5rem;flex-wrap:wrap;justify-content:center;font-size:0.72em;"}
-[Diagnóstico gratuito →]{.pill .pill-teal}
-[jcmunozm@eafit.edu.co]{.pill .pill-slate}
-[jcmunozmora.github.io/valor-ia/]{.pill .pill-slate}
-:::
-
-:::
+```{=html}
+<div style="text-align:center;margin-top:0.5rem;">
+  <div style="display:inline-flex;gap:1.5rem;flex-wrap:wrap;justify-content:center;font-size:0.72em;">
+    <span class="pill pill-teal">Diagnóstico gratuito &rarr;</span>
+    <span class="pill pill-slate">jcmunozm@eafit.edu.co</span>
+    <span class="pill pill-slate">jcmunozmora.github.io/valor-ia/</span>
+  </div>
+</div>
+```
 
 ---
 
 ## {background-color="#0F172A"}
 
-::: cierre-content
+```{=html}
+<div class="cierre-content">
+  <div style="font-size:0.55em;font-weight:700;letter-spacing:0.2em;text-transform:uppercase;color:#5EEAD4;">
+    Centro Valor Público &middot; Universidad EAFIT
+  </div>
 
-::: {style="font-size:0.55em;font-weight:700;letter-spacing:0.2em;text-transform:uppercase;color:#5EEAD4;"}
-Centro Valor Público · Universidad EAFIT
-:::
+  <br>
 
-<br>
+  <blockquote>
+    <em>
+      "Evaluamos para aprender.<br>
+      Aprendemos para mejorar.<br>
+      Mejoramos para aplicar."
+    </em>
+  </blockquote>
 
-> *"Evaluamos para aprender.
-> Aprendemos para mejorar.
-> Mejoramos para aplicar."*
+  <hr>
 
-<hr>
+  <div style="font-size:1.8em;font-weight:900;color:white;letter-spacing:-0.03em;">
+    ValorIA
+  </div>
+  <div style="font-size:0.8em;color:#94A3B8;margin-top:0.2em;">
+    El rigor que su impacto merece.
+  </div>
 
-::: {style="font-size:1.8em;font-weight:900;color:white;letter-spacing:-0.03em;"}
-ValorIA
-:::
+  <br>
 
-::: {style="font-size:0.8em;color:#94A3B8;margin-top:0.2em;"}
-El rigor que su impacto merece.
-:::
-
-<br>
-
-::: {style="font-size:0.68em;color:#475569;"}
-**Juan Carlos Muñoz-Mora, PhD**
-jcmunozm@eafit.edu.co · jcmunozmora.github.io/valor-ia/
-Centro Valor Público · Universidad EAFIT · Medellín, Colombia
-:::
-
-:::
+  <div style="font-size:0.68em;color:#475569;">
+    <strong>Juan Carlos Muñoz-Mora, PhD</strong><br>
+    jcmunozm@eafit.edu.co &middot; jcmunozmora.github.io/valor-ia/<br>
+    Centro Valor Público &middot; Universidad EAFIT &middot; Medellín, Colombia
+  </div>
+</div>
+```
 
 ::: notes
 Gracias. Les dejo con la invitación concreta: hagan el diagnóstico. 30 minutos. Sin costo. El resultado les dirá exactamente dónde están y cuál es el siguiente paso que tiene más sentido. De ahí construimos juntos.
