@@ -294,28 +294,26 @@ La solución — iMEL® · Integrated Monitoring, Evaluation & Learning
 ```
 
 :::
-::: {}
 
-::: {style="text-align:center;padding:1.5rem;background:rgba(13,148,136,0.08);border:1px solid rgba(13,148,136,0.25);border-radius:12px;"}
+```{=html}
+<div>
+  <div style="text-align:center;padding:1.5rem;background:rgba(13,148,136,0.08);border:1px solid rgba(13,148,136,0.25);border-radius:12px;">
+    <div style="font-size:0.62em;font-weight:700;letter-spacing:0.12em;text-transform:uppercase;color:#5EEAD4;margin-bottom:0.5em;">
+      Nuestro principio
+    </div>
+    <div style="font-size:1em;color:white;font-style:italic;line-height:1.6;">
+      &ldquo;Evaluamos para aprender.<br>
+      Aprendemos para mejorar.<br>
+      Mejoramos para aplicar.&rdquo;
+    </div>
+  </div>
+  <div style="margin-top:1.2rem;font-size:0.68em;color:#94A3B8;">
+    <strong>Alineado internacionalmente con:</strong><br>
+    Social Value International (SVI) &middot; DCED &middot; Value for Money (VfM) &middot; ODS &middot; GRI/SASB &middot; IRIS+ &middot; J-PAL &middot; 3ie
+  </div>
+</div>
+```
 
-::: {style="font-size:0.62em;font-weight:700;letter-spacing:0.12em;text-transform:uppercase;color:#5EEAD4;margin-bottom:0.5em;"}
-Nuestro principio
-:::
-
-::: {style="font-size:1em;color:white;font-style:italic;line-height:1.6;"}
-"Evaluamos para aprender.
-Aprendemos para mejorar.
-Mejoramos para aplicar."
-:::
-
-:::
-
-::: {style="margin-top:1.2rem;font-size:0.68em;color:#94A3B8;"}
-**Alineado internacionalmente con:**
-Social Value International (SVI) · DCED · Value for Money (VfM) · ODS · GRI/SASB · IRIS+ · J-PAL · 3ie
-:::
-
-:::
 :::
 
 ::: notes
