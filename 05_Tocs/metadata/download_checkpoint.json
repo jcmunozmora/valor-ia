@@ -1,0 +1,1602 @@
+{
+  "13": {
+    "id": "13",
+    "titulo": "UNDP Portfolio Theory of Change",
+    "url": "",
+    "file": "",
+    "status": "sin_url",
+    "msg": "URL de PDF no disponible"
+  },
+  "16": {
+    "id": "16",
+    "titulo": "UNICEF Global Programme Phase II Theory of Change",
+    "url": "",
+    "file": "",
+    "status": "sin_url",
+    "msg": "URL de PDF no disponible"
+  },
+  "25": {
+    "id": "25",
+    "titulo": "IFAD — Theory of Change for Gender Transformative Programmin",
+    "url": "",
+    "file": "",
+    "status": "sin_url",
+    "msg": "URL de PDF no disponible"
+  },
+  "32": {
+    "id": "32",
+    "titulo": "Theory of Change for Community Wellbeing",
+    "url": "",
+    "file": "",
+    "status": "sin_url",
+    "msg": "URL de PDF no disponible"
+  },
+  "34": {
+    "id": "34",
+    "titulo": "Theory of Change for Complex Mental Health Interventions — 1",
+    "url": "",
+    "file": "",
+    "status": "sin_url",
+    "msg": "URL de PDF no disponible"
+  },
+  "37": {
+    "id": "37",
+    "titulo": "ACF — Building and Sustaining the Child Care and Early Educa",
+    "url": "",
+    "file": "",
+    "status": "sin_url",
+    "msg": "URL de PDF no disponible"
+  },
+  "42": {
+    "id": "42",
+    "titulo": "SROI Guide with Impact Map — Worked Example",
+    "url": "",
+    "file": "",
+    "status": "sin_url",
+    "msg": "URL de PDF no disponible"
+  },
+  "46": {
+    "id": "46",
+    "titulo": "Interrogating the Theory of Change: Evaluating Impact Invest",
+    "url": "",
+    "file": "",
+    "status": "sin_url",
+    "msg": "URL de PDF no disponible"
+  },
+  "47": {
+    "id": "47",
+    "titulo": "Theory of Change for Anti-Corruption Portfolio (2016-21)",
+    "url": "",
+    "file": "",
+    "status": "sin_url",
+    "msg": "URL de PDF no disponible"
+  },
+  "48": {
+    "id": "48",
+    "titulo": "Teoría del Programa y Teoría del Cambio en Evaluación para e",
+    "url": "",
+    "file": "",
+    "status": "sin_url",
+    "msg": "URL de PDF no disponible"
+  },
+  "51": {
+    "id": "51",
+    "titulo": "Oxfam — Theory of Change (Organizational)",
+    "url": "",
+    "file": "",
+    "status": "sin_url",
+    "msg": "URL de PDF no disponible"
+  },
+  "52": {
+    "id": "52",
+    "titulo": "Save the Children — Theory of Change",
+    "url": "",
+    "file": "",
+    "status": "sin_url",
+    "msg": "URL de PDF no disponible"
+  },
+  "53": {
+    "id": "53",
+    "titulo": "Comic Relief — Theory of Change",
+    "url": "",
+    "file": "",
+    "status": "sin_url",
+    "msg": "URL de PDF no disponible"
+  },
+  "54": {
+    "id": "54",
+    "titulo": "Big Lottery Fund (National Lottery Community Fund) — Theory ",
+    "url": "",
+    "file": "",
+    "status": "sin_url",
+    "msg": "URL de PDF no disponible"
+  },
+  "55": {
+    "id": "55",
+    "titulo": "Nesta — Standards of Evidence",
+    "url": "",
+    "file": "",
+    "status": "sin_url",
+    "msg": "URL de PDF no disponible"
+  },
+  "56": {
+    "id": "56",
+    "titulo": "Programa PRIME — Improving Mental Healthcare in 5 LMIC Count",
+    "url": "",
+    "file": "",
+    "status": "sin_url",
+    "msg": "URL de PDF no disponible"
+  },
+  "60": {
+    "id": "60",
+    "titulo": "Open Society Foundations — Latin America Theory of Change",
+    "url": "",
+    "file": "",
+    "status": "sin_url",
+    "msg": "URL de PDF no disponible"
+  },
+  "1": {
+    "id": "1",
+    "titulo": "UNICEF Methodological Brief: Theory of Change",
+    "url": "https://www.entwicklung.at/fileadmin/user_upload/Dokumente/Evaluierung/Theory_of_Change/UNICEF_Theory_of_change.pdf",
+    "file": "001_2014_UNICEF_-_UNICEF_Office_of_Rese.pdf",
+    "status": "ok",
+    "msg": "OK (897 KB)"
+  },
+  "2": {
+    "id": "2",
+    "titulo": "UNDAF Companion Guidance: Theory of Change",
+    "url": "https://unsdg.un.org/sites/default/files/UNDG-UNDAF-Companion-Pieces-7-Theory-of-Change.pdf",
+    "file": "",
+    "status": "error",
+    "msg": "HTTP 403"
+  },
+  "3": {
+    "id": "3",
+    "titulo": "Understanding Theory of Change in International Development",
+    "url": "https://www.theoryofchange.org/wp-content/uploads/toco_library/pdf/UNDERSTANDINGTHEORYOFChangeSteinValtersPN.pdf",
+    "file": "003_2012_ODI_-_IDRC_—_Stein_&_Valters.pdf",
+    "status": "ok",
+    "msg": "OK (1418 KB)"
+  },
+  "4": {
+    "id": "4",
+    "titulo": "The Community Builder's Approach to Theory of Change",
+    "url": "https://www.theoryofchange.org/pdf/TOC_fac_guide.pdf",
+    "file": "004_2004_AECF_Annie_E._Casey_Foundatio.pdf",
+    "status": "ok",
+    "msg": "OK (532 KB)"
+  },
+  "5": {
+    "id": "5",
+    "titulo": "Theory of Change: A Practical Tool for Action Results and Le",
+    "url": "https://www.focusintl.com/RBM020-aecf_theory_of_change_manual.pdf",
+    "file": "005_2004_AECF_Annie_E._Casey_Foundatio.pdf",
+    "status": "ok",
+    "msg": "OK (819 KB)"
+  },
+  "6": {
+    "id": "6",
+    "titulo": "Theory of Change: The Beginning of Making a Difference",
+    "url": "https://www.thinknpc.org/wp-content/uploads/2018/07/Theory-of-change2.pdf",
+    "file": "006_2012_NPC_New_Philanthropy_Capital.pdf",
+    "status": "ok",
+    "msg": "OK (362 KB)"
+  },
+  "7": {
+    "id": "7",
+    "titulo": "Creating Your Theory of Change",
+    "url": "https://www.thinknpc.org/wp-content/uploads/2018/07/Creating-your-theory-of-change1.pdf",
+    "file": "007_2014_NPC_New_Philanthropy_Capital.pdf",
+    "status": "ok",
+    "msg": "OK (756 KB)"
+  },
+  "8": {
+    "id": "8",
+    "titulo": "How to Develop Your Intended Impact and Theory of Change",
+    "url": "https://www.bridgespan.org/getmedia/3e68b560-09d3-4540-a07a-b5a3fba0088f/intended-impact-theory-of-change-templates_1.pdf",
+    "file": "008_2017_Bridgespan_Group.pdf",
+    "status": "ok",
+    "msg": "OK (345 KB)"
+  },
+  "9": {
+    "id": "9",
+    "titulo": "The Theory of Change: How Non-profits Can Scale Up",
+    "url": "https://web-assets.bcg.com/ab/64/7094dc3847498c3a07d069cd310c/the-theory-of-change-how-non-profits-can-scale-up.pdf",
+    "file": "009_2017_BCG_Boston_Consulting_Group.pdf",
+    "status": "ok",
+    "msg": "OK (23429 KB)"
+  },
+  "10": {
+    "id": "10",
+    "titulo": "Theory of Change, Monitoring, and Evaluation",
+    "url": "https://www.ncfp.org/wp-content/uploads/2020/10/06-Theory-of-Change-Stanford-PACS-2020.pdf",
+    "file": "010_2020_Stanford_PACS_-_NCFP.pdf",
+    "status": "ok",
+    "msg": "OK (581 KB)"
+  },
+  "11": {
+    "id": "11",
+    "titulo": "Developing a Theory of Change",
+    "url": "https://www.planaadvisors.com/static/PlanA-TheoryofChange2023.pdf",
+    "file": "011_2023_Plan_A_Advisors.pdf",
+    "status": "ok",
+    "msg": "OK (389 KB)"
+  },
+  "12": {
+    "id": "12",
+    "titulo": "Theory of Change Tool: Manual (Full Version)",
+    "url": "https://www.issuelab.org/resources/16171/16171.pdf",
+    "file": "012_2010_Issuelab_-_ActKnowledge.pdf",
+    "status": "ok",
+    "msg": "OK (538 KB)"
+  },
+  "14": {
+    "id": "14",
+    "titulo": "UNICEF Theory of Change — Strategic Plan 2022-2025",
+    "url": "https://www.unicef.org/media/107936/file/Theory_of_Change,_UNICEF_Strategic_Plan,_2022%E2%80%932025.pdf",
+    "file": "",
+    "status": "error",
+    "msg": "HTTP 403"
+  },
+  "15": {
+    "id": "15",
+    "titulo": "UNICEF Theory of Change — Strategic Plan 2026-2029",
+    "url": "https://www.unicef.org/executiveboard/media/33126/file/2025-EB10-Strategic-Plan-2026-2029-Theory-of-change-EN-2025-08-15.pdf",
+    "file": "",
+    "status": "error",
+    "msg": "HTTP 403"
+  },
+  "17": {
+    "id": "17",
+    "titulo": "Gates Foundation Strategy Lifecycle Guide",
+    "url": "https://docs.gatesfoundation.org/documents/the%20strategy%20lifecycle.pdf",
+    "file": "017_2011_Bill_&_Melinda_Gates_Foundatio.pdf",
+    "status": "ok",
+    "msg": "OK (852 KB)"
+  },
+  "18": {
+    "id": "18",
+    "titulo": "Gates Foundation FSP (Financial Services for the Poor) Strat",
+    "url": "https://docs.gatesfoundation.org/Documents/fsp-strategy-overview.pdf",
+    "file": "018_2012_Bill_&_Melinda_Gates_Foundatio.pdf",
+    "status": "ok",
+    "msg": "OK (1235 KB)"
+  },
+  "19": {
+    "id": "19",
+    "titulo": "Theory of Change para Teoría del Programa — Evaluación para ",
+    "url": "https://www.odaid.org/wp-content/uploads/2021/02/TeoriadelCambio.pdf",
+    "file": "019_2021_ODAID.pdf",
+    "status": "ok",
+    "msg": "OK (1205 KB)"
+  },
+  "20": {
+    "id": "20",
+    "titulo": "Teoría de Cambio — Guía para pensamiento-acción",
+    "url": "https://dhls.hegoa.ehu.eus/uploads/resources/5020/resource_files/Guia_Teoria_de_Cambio__Retolaza__2009_.pdf",
+    "file": "020_2009_Hivos_-_Retolaza_Ospina.pdf",
+    "status": "ok",
+    "msg": "OK (1800 KB)"
+  },
+  "21": {
+    "id": "21",
+    "titulo": "Teoría de Cambio — Una brújula 2.0",
+    "url": "http://ateneucoopbll.cat/wp-content/uploads/2018/04/Teoría-de-Cambio-una-brujula-2.0.pdf",
+    "file": "",
+    "status": "error",
+    "msg": "HTTP 404"
+  },
+  "22": {
+    "id": "22",
+    "titulo": "Teoría del Cambio: 10 Pasos para Diseñar Proyectos de Innova",
+    "url": "https://www.up.edu.pe/egp/programas-especializacion_copy(1)/SiteAssets/Lists/Observatorio/AllItems/Teori%CC%81a%20del%20Cambio%2010%20Pasos%20Disen%CC%83o%20de%20proyectos%20de%20innovacio%CC%81n%20social%20de%20alto%20impacto%20-%20Escuela%20de%20Gesti%C3%B3n%20P%C3%BAblica%20de%20la%20UP.pdf",
+    "file": "022_2019_Escuela_de_Gestión_Pública_—_U.pdf",
+    "status": "ok",
+    "msg": "OK (2614 KB)"
+  },
+  "23": {
+    "id": "23",
+    "titulo": "Teoría de Cambio — Guía PNUD LAC 2016",
+    "url": "https://unsdg.un.org/sites/default/files/16.-2016-10-18-Guidance-on-ToC-PSG-LAC.pdf",
+    "file": "",
+    "status": "error",
+    "msg": "HTTP 403"
+  },
+  "24": {
+    "id": "24",
+    "titulo": "A4NH CGIAR — Reference Document Phase II Theories of Change",
+    "url": "https://a4nh.cgiar.org/files/2019/02/Reference-document-for-A4NH-Theories-of-Change_2019-update.pdf",
+    "file": "",
+    "status": "error",
+    "msg": "HTTP 403"
+  },
+  "26": {
+    "id": "26",
+    "titulo": "World Vision — Food and Livelihood Security Theory of Change",
+    "url": "https://www.wvi.org/sites/default/files/Food%20and%20Livelihood%20Security%20Theory%20of%20Change_0.pdf",
+    "file": "026_2015_World_Vision_International.pdf",
+    "status": "ok",
+    "msg": "OK (80 KB)"
+  },
+  "27": {
+    "id": "27",
+    "titulo": "Mercy Corps — Food Security Approach: Resilient Solutions",
+    "url": "https://www.mercycorps.org/sites/default/files/2019-11/FoodSecurityApproach.pdf",
+    "file": "027_2019_Mercy_Corps.pdf",
+    "status": "ok",
+    "msg": "OK (653 KB)"
+  },
+  "28": {
+    "id": "28",
+    "titulo": "Using Theory of Change in Agricultural Research for Food and",
+    "url": "https://www.a4nh.cgiar.org/files/2014/03/Mayne-and-Johnson-2015-for-Website.pdf",
+    "file": "",
+    "status": "error",
+    "msg": "HTTP 403"
+  },
+  "29": {
+    "id": "29",
+    "titulo": "Theory of Change for Community-Initiated Mental Health Care ",
+    "url": "https://www.cambridge.org/core/services/aop-cambridge-core/content/view/BCE803CB8D1AC4E6AEA823BA0D0C1084/S2054425123000493a.pdf/theory_of_change_for_communityinitiated_mental_health_care_in_the_united_states.pdf",
+    "file": "029_2023_Cambridge_Core_-_Global_Mental.pdf",
+    "status": "ok",
+    "msg": "OK (464 KB)"
+  },
+  "30": {
+    "id": "30",
+    "titulo": "Mental Health and Psychosocial Support — Approach and Theory",
+    "url": "https://assets.publishing.service.gov.uk/media/5f3d0672e90e0732dbca7b82/Mental-Health-Psychosocial-Support.pdf",
+    "file": "030_2020_DFID_-_UK_Government.pdf",
+    "status": "ok",
+    "msg": "OK (530 KB)"
+  },
+  "31": {
+    "id": "31",
+    "titulo": "Wheel of Wellbeing (WoW) Theory of Change — SLaM",
+    "url": "https://mcpin.org/wp-content/uploads/2023/02/Resource-Project-report-SLaM-WoW-ToC.pdf",
+    "file": "031_2023_McPin_Foundation_-_South_Londo.pdf",
+    "status": "ok",
+    "msg": "OK (936 KB)"
+  },
+  "33": {
+    "id": "33",
+    "titulo": "Using Theory of Change in Mental Health Innovation",
+    "url": "https://www.mhinnovation.net/sites/default/files/content/document/MHIN%20ToC%20guidelines_May_2015_0.pdf",
+    "file": "",
+    "status": "error",
+    "msg": "HTTP 403"
+  },
+  "35": {
+    "id": "35",
+    "titulo": "UNICEF — Transitions from School to Work: Theory of Change",
+    "url": "https://www.unicef.org/media/60366/file/Transitions-from-school-to-work-2019.pdf",
+    "file": "",
+    "status": "error",
+    "msg": "HTTP 403"
+  },
+  "36": {
+    "id": "36",
+    "titulo": "US Department of Education — Theory of Change",
+    "url": "https://www.ed.gov/sites/ed/files/2019/03/02-04-TheoryofChange.pdf",
+    "file": "036_2019_US_Department_of_Education.pdf",
+    "status": "ok",
+    "msg": "OK (257 KB)"
+  },
+  "38": {
+    "id": "38",
+    "titulo": "Urban Institute — Changing Workforce Systems to Improve Outc",
+    "url": "https://www.urban.org/sites/default/files/publication/88296/changing_workforce_systems.pdf",
+    "file": "038_2018_Urban_Institute.pdf",
+    "status": "ok",
+    "msg": "OK (1852 KB)"
+  },
+  "39": {
+    "id": "39",
+    "titulo": "YouthBuild — Work-Based Learning: Connecting Opportunity You",
+    "url": "https://youthbuild.org/wp-content/uploads/2020/11/Work-based-Learning_YouthBuild-USA-Nov-2020.pdf",
+    "file": "039_2020_YouthBuild_USA.pdf",
+    "status": "ok",
+    "msg": "OK (715 KB)"
+  },
+  "40": {
+    "id": "40",
+    "titulo": "Habitat for Humanity — Climate Adaptation Through Housing",
+    "url": "https://www.habitat.org/sites/default/files/documents/climate-adaptation-through-housing-report.pdf",
+    "file": "040_2023_Habitat_for_Humanity_Internati.pdf",
+    "status": "ok",
+    "msg": "OK (633 KB)"
+  },
+  "41": {
+    "id": "41",
+    "titulo": "Urban Institute — Climate-Resilient Affordable Housing",
+    "url": "https://www.urban.org/sites/default/files/2024-01/Preserving_Protecting_and_Building_Climate-Resilient_Affordable_Housing.pdf",
+    "file": "041_2024_Urban_Institute.pdf",
+    "status": "ok",
+    "msg": "OK (1008 KB)"
+  },
+  "43": {
+    "id": "43",
+    "titulo": "A Guide to Social Return on Investment",
+    "url": "https://new-economicsf.files.svdcdn.com/production/files/aff3779953c5b88d53_cpm6v3v71.pdf",
+    "file": "043_2012_NEF_-_SROI_Network.pdf",
+    "status": "ok",
+    "msg": "OK (2373 KB)"
+  },
+  "44": {
+    "id": "44",
+    "titulo": "UNDP SROI Methodology — EECA Region",
+    "url": "https://www.undp.org/sites/g/files/zskgke326/files/migration/eurasia/Appendix-SROI-methodology_ENG.pdf",
+    "file": "044_2014_UNDP_Eurasia.pdf",
+    "status": "ok",
+    "msg": "OK (424 KB)"
+  },
+  "45": {
+    "id": "45",
+    "titulo": "Using Theory of Change for Impact Evaluation — Patricia Roge",
+    "url": "https://www.betterevaluation.org/sites/default/files/2022-03/3.%20UNICEF%20Impact%20Webinar%20-%20Theory%20of%20Change%20-%20Rogers%202015.pdf",
+    "file": "045_2015_BetterEvaluation_-_UNICEF_-_3i.pdf",
+    "status": "ok",
+    "msg": "OK (1000 KB)"
+  },
+  "49": {
+    "id": "49",
+    "titulo": "Teoría de Cambio — Marco para abordar el cambio social",
+    "url": "https://www.colibri.udelar.edu.uy/jspui/bitstream/20.500.12008/23300/1/TCP_GalvalisiDiego.pdf",
+    "file": "049_2019_Galvalisi_-_UDELAR.pdf",
+    "status": "ok",
+    "msg": "OK (654 KB)"
+  },
+  "50": {
+    "id": "50",
+    "titulo": "CLACSO — Teoría y cambio social en América Latina (Boletín G",
+    "url": "https://www.clacso.org/wp-content/uploads/2020/12/V2_Teoria-y-cambio-social_N3.pdf",
+    "file": "050_2020_CLACSO.pdf",
+    "status": "ok",
+    "msg": "OK (1900 KB)"
+  },
+  "57": {
+    "id": "57",
+    "titulo": "FAO — Livestock Production Theory of Change",
+    "url": "https://www.fao.org/4/aq554e/aq554e.pdf",
+    "file": "057_2014_FAO.pdf",
+    "status": "ok",
+    "msg": "OK (269 KB)"
+  },
+  "58": {
+    "id": "58",
+    "titulo": "Global Food Security Journal — Theory of Change in Food Syst",
+    "url": "https://www.theoryofchange.org/wp-content/uploads/2021/09/1-s2.0-S2211912420301280-main.pdf",
+    "file": "058_2021_Global_Food_Security_Journal_-.pdf",
+    "status": "ok",
+    "msg": "OK (852 KB)"
+  },
+  "59": {
+    "id": "59",
+    "titulo": "Measuring Value: A Guide to SROI (IFCSIA)",
+    "url": "https://ifcsia.org/wp-content/uploads/pdf/publications/Measuring-Value-A-Guide-to-Social-Return-on-Investment.pdf",
+    "file": "059_2013_International_Federation_of_CS.pdf",
+    "status": "ok",
+    "msg": "OK (575 KB)"
+  },
+  "61": {
+    "id": "61",
+    "titulo": "DFID Review of the use of Theory of Change in International ",
+    "url": "https://www.theoryofchange.org/pdf/DFID_ToC_Review_VogelV7.pdf",
+    "file": "061_2012_DFID_UK_Department_for_Intern.pdf",
+    "status": "ok",
+    "msg": "OK (8491 KB)"
+  },
+  "62": {
+    "id": "62",
+    "titulo": "DFID Appendix 3: Examples of Theories of Change",
+    "url": "https://assets.publishing.service.gov.uk/media/57a08a66ed915d622c000703/Appendix_3_ToC_Examples.pdf",
+    "file": "062_2012_DFID_UK_Department_for_Intern.pdf",
+    "status": "ok",
+    "msg": "OK (7601 KB)"
+  },
+  "63": {
+    "id": "63",
+    "titulo": "BOND — Theory of Change for Organisations",
+    "url": "https://www.bond.org.uk/wp-content/uploads/2022/03/organisational_theory_of_change_bond_10.pdf",
+    "file": "063_2022_BOND_British_Overseas_NGOs_fo.pdf",
+    "status": "ok",
+    "msg": "OK (313 KB)"
+  },
+  "64": {
+    "id": "64",
+    "titulo": "BOND — Theory of Change for Advocacy and Campaigns",
+    "url": "",
+    "file": "",
+    "status": "sin_url",
+    "msg": "URL de PDF no disponible"
+  },
+  "65": {
+    "id": "65",
+    "titulo": "3ie — Theory-Based Impact Evaluation: Principles and Practic",
+    "url": "https://www.3ieimpact.org/sites/default/files/2017-11/Working_Paper_3.pdf",
+    "file": "065_2012_3ie_International_Initiative_.pdf",
+    "status": "ok",
+    "msg": "OK (918 KB)"
+  },
+  "66": {
+    "id": "66",
+    "titulo": "IPA Goldilocks Deep Dive — Guiding Your Program to Build a T",
+    "url": "https://poverty-action.org/sites/default/files/publications/Goldilocks-Deep-Dive-Guiding-Your-Program-to-Build-Theory-of-Change_1.pdf",
+    "file": "066_2019_IPA_Innovations_for_Poverty_A.pdf",
+    "status": "ok",
+    "msg": "OK (143 KB)"
+  },
+  "67": {
+    "id": "67",
+    "titulo": "World Bank IEG — Theory of Change (Independent Evaluation Gr",
+    "url": "https://ieg.worldbankgroup.org/sites/default/files/Data/More-on-IEG/IEG_Theory_of_Change.pdf",
+    "file": "067_2021_World_Bank_-_IEG.pdf",
+    "status": "ok",
+    "msg": "OK (19 KB)"
+  },
+  "68": {
+    "id": "68",
+    "titulo": "GEF STAP — Theory of Change: A Short Literature Review",
+    "url": "https://www.thegef.org/sites/default/files/council-meeting-documents/EN_GEF_STAP_C.57_Inf.05_Theory%20of%20Change_%20A%20Short%20Literature%20Review%20and%20Annotated%20Bibliography.pdf",
+    "file": "068_2019_GEF_STAP_Global_Environment_F.pdf",
+    "status": "ok",
+    "msg": "OK (613 KB)"
+  },
+  "69": {
+    "id": "69",
+    "titulo": "ADB — Impact Evaluation of Development Interventions: A Prac",
+    "url": "https://www.adb.org/sites/default/files/publication/392376/impact-evaluation-development-interventions-guide.pdf",
+    "file": "",
+    "status": "error",
+    "msg": "HTTP 403"
+  },
+  "70": {
+    "id": "70",
+    "titulo": "As You Sow — Theory of Change: Corporate Responsibility",
+    "url": "",
+    "file": "",
+    "status": "sin_url",
+    "msg": "URL de PDF no disponible"
+  },
+  "71": {
+    "id": "71",
+    "titulo": "3ie — Programme Theory and Theory of Change Analysis (Educat",
+    "url": "https://www.3ieimpact.org/sites/default/files/2018-08/4_developing_program_theories_for_education_and_social_development_interventions.pdf",
+    "file": "071_2018_3ie_International_Initiative_.pdf",
+    "status": "ok",
+    "msg": "OK (864 KB)"
+  },
+  "72": {
+    "id": "72",
+    "titulo": "Theory of Change Tool for Strategic Planning: Report on Earl",
+    "url": "https://wallacefoundation.org/sites/default/files/2023-10/theory-of-change-tool-for-strategic-planning-report-on-early-experiences.pdf",
+    "file": "072_2023_The_Wallace_Foundation.pdf",
+    "status": "ok",
+    "msg": "OK (226 KB)"
+  },
+  "73": {
+    "id": "73",
+    "titulo": "Theory of Change (2024 Guide)",
+    "url": "https://www.intrac.org/app/uploads/2025/06/Theory-of-Change.pdf",
+    "file": "073_2024_INTRAC.pdf",
+    "status": "ok",
+    "msg": "OK (574 KB)"
+  },
+  "74": {
+    "id": "74",
+    "titulo": "Theory of Change Narrative 2023",
+    "url": "https://globalfundforchildren.org/wp-content/uploads/2023/11/Theory-of-Change-Narrative-2023.pdf",
+    "file": "074_2023_Global_Fund_for_Children.pdf",
+    "status": "ok",
+    "msg": "OK (195 KB)"
+  },
+  "75": {
+    "id": "75",
+    "titulo": "Theory of Change — Explanation and Application",
+    "url": "https://globalschoolsforum.org/sites/default/files/2023-12/theory_of_change_-_explanation.pdf",
+    "file": "075_2023_Global_Schools_Forum.pdf",
+    "status": "ok",
+    "msg": "OK (810 KB)"
+  },
+  "76": {
+    "id": "76",
+    "titulo": "Theory of Change: A Practical Tool For Action, Results and L",
+    "url": "https://www.theoryofchange.org/wp-content/uploads/toco_library/pdf/ToCBasics.pdf",
+    "file": "076_2004_ActKnowledge_-_AECF.pdf",
+    "status": "ok",
+    "msg": "OK (1102 KB)"
+  },
+  "77": {
+    "id": "77",
+    "titulo": "UNICEF India WASH Programme — Theory of Change 2017",
+    "url": "https://open.unicef.org/sites/transparency/files/documents/2017%20India%20PSN%20WASH%20TOC.pdf",
+    "file": "",
+    "status": "error",
+    "msg": "HTTP 403"
+  },
+  "78": {
+    "id": "78",
+    "titulo": "UNICEF Burundi WASH Programme — Theory of Change 2018",
+    "url": "https://open.unicef.org/sites/transparency/files/documents/2018%20Burundi%20PSN%20WASH%20TOC.pdf",
+    "file": "",
+    "status": "error",
+    "msg": "HTTP 403"
+  },
+  "79": {
+    "id": "79",
+    "titulo": "UN Women Theory of Change for the Strategic Plan 2022-2025",
+    "url": "https://www.unwomen.org/sites/default/files/Headquarters/Attachments/Sections/Executive%20Board/2017/Annual%20Session%202017/AAA%20Theory%20of%20Change%20%20UN%20Women%20Strategic%20Plan%20final%20draft.pdf",
+    "file": "079_2021_UN_Women.pdf",
+    "status": "ok",
+    "msg": "OK (1258 KB)"
+  },
+  "80": {
+    "id": "80",
+    "titulo": "Capturing Change in Women's Realities",
+    "url": "https://www.awid.org/sites/default/files/atoms/files/capturing_change_in_womens_realities.pdf",
+    "file": "080_2012_AWID_Association_for_Women's_.pdf",
+    "status": "ok",
+    "msg": "OK (1239 KB)"
+  },
+  "81": {
+    "id": "81",
+    "titulo": "Applying a Theory of Change Approach to the Evaluation of Co",
+    "url": "https://cnxus.org/wp-content/uploads/2022/04/08071320ApplyingTheoryofChangeApproach.pdf",
+    "file": "081_2004_Aspen_Institute_-_ActKnowledge.pdf",
+    "status": "ok",
+    "msg": "OK (87 KB)"
+  },
+  "82": {
+    "id": "82",
+    "titulo": "IPA Goldilocks Guide — Theory of Change Deep Dive (v2)",
+    "url": "https://poverty-action.org/sites/default/files/publications/Goldilocks-Deep-Dive-Guiding-Your-Program-to-Build-Theory-of-Change_2.pdf",
+    "file": "082_2019_IPA_Innovations_for_Poverty_A.pdf",
+    "status": "ok",
+    "msg": "OK (255 KB)"
+  },
+  "83": {
+    "id": "83",
+    "titulo": "CGAP Graduation Approach Guide",
+    "url": "https://www.cgap.org/sites/default/files/graduation_guide_final.pdf",
+    "file": "083_2015_CGAP_Consultative_Group_to_As.pdf",
+    "status": "ok",
+    "msg": "OK (4097 KB)"
+  },
+  "84": {
+    "id": "84",
+    "titulo": "Better Evaluation — Theory of Change (Framework Guide)",
+    "url": "https://www.betterevaluation.org/sites/default/files/Theory_of_Change_Framework.pdf",
+    "file": "",
+    "status": "error",
+    "msg": "HTTP 404"
+  },
+  "85": {
+    "id": "85",
+    "titulo": "Oxfam Theory of Change — Influencing for Impact",
+    "url": "https://policy-practice.oxfam.org/resources/theory-of-change-228537/",
+    "file": "",
+    "status": "error",
+    "msg": "HTTP 404"
+  },
+  "86": {
+    "id": "86",
+    "titulo": "Comic Relief Theory of Change Guide",
+    "url": "https://www.comicrelief.com/sites/default/files/2021-01/toc_guide_comic_relief.pdf",
+    "file": "",
+    "status": "error",
+    "msg": "HTTP 404"
+  },
+  "87": {
+    "id": "87",
+    "titulo": "Camfed Theory of Change — Girls Education Africa",
+    "url": "https://camfed.org/media/3014/camfed-theory-of-change.pdf",
+    "file": "",
+    "status": "error",
+    "msg": "HTTP 404"
+  },
+  "88": {
+    "id": "88",
+    "titulo": "Pathways to Change — ToC for Health Systems Strengthening",
+    "url": "https://www.path.org/resources/pathways-to-change-theory-of-change/",
+    "file": "",
+    "status": "error",
+    "msg": "HTTP 404"
+  },
+  "89": {
+    "id": "89",
+    "titulo": "Homeless Link — Theory of Change for Housing and Support Ser",
+    "url": "https://www.homeless.org.uk/sites/default/files/site-attachments/Theory%20of%20Change%20guide.pdf",
+    "file": "",
+    "status": "error",
+    "msg": "HTTP 404"
+  },
+  "90": {
+    "id": "90",
+    "titulo": "Harambee Youth Employment Accelerator — Theory of Change 202",
+    "url": "https://www.harambee.co.za/wp-content/uploads/2021/09/Harambee-Overview-2021-202650.pdf",
+    "file": "090_2021_Harambee_Youth_Employment_Acce.pdf",
+    "status": "ok",
+    "msg": "OK (2081 KB)"
+  },
+  "91": {
+    "id": "91",
+    "titulo": "Theory of Change — Rainforest Alliance Sustainable Agricultu",
+    "url": "https://www.rainforest-alliance.org/wp-content/uploads/2020/06/rainforest-alliance-theory-of-change.pdf",
+    "file": "",
+    "status": "error",
+    "msg": "HTTP 404"
+  },
+  "92": {
+    "id": "92",
+    "titulo": "Making All Voices Count — Theory of Change",
+    "url": "https://opendocs.ids.ac.uk/opendocs/bitstream/handle/20.500.12413/4411/MAVC%20Theory%20of%20Change.pdf",
+    "file": "",
+    "status": "error",
+    "msg": "Archivo demasiado pequeño (0 bytes), probablemente error"
+  },
+  "93": {
+    "id": "93",
+    "titulo": "Education Outcomes Fund — Theory of Change for Results-Based",
+    "url": "https://educationoutcomesfund.org/wp-content/uploads/2020/06/EOF-Theory-of-Change.pdf",
+    "file": "",
+    "status": "error",
+    "msg": "HTTP 404"
+  },
+  "94": {
+    "id": "94",
+    "titulo": "Acumen Theory of Change — Patient Capital for Social Enterpr",
+    "url": "https://acumen.org/wp-content/uploads/2019/10/Acumen-Theory-of-Change.pdf",
+    "file": "",
+    "status": "error",
+    "msg": "HTTP 404"
+  },
+  "95": {
+    "id": "95",
+    "titulo": "Teach For All — Theory of Change Global Network",
+    "url": "https://teachforall.org/sites/default/files/Teach-For-All-Theory-of-Change.pdf",
+    "file": "",
+    "status": "error",
+    "msg": "HTTP 404"
+  },
+  "96": {
+    "id": "96",
+    "titulo": "IRC Theory of Change — Humanitarian Response and Recovery",
+    "url": "https://www.rescue.org/sites/default/files/document/2019/irc-theory-of-change.pdf",
+    "file": "",
+    "status": "error",
+    "msg": "HTTP 404"
+  },
+  "97": {
+    "id": "97",
+    "titulo": "Climate Policy Initiative — Theory of Change for Climate Fin",
+    "url": "https://climatepolicyinitiative.org/wp-content/uploads/2020/10/CPI-Theory-of-Change.pdf",
+    "file": "",
+    "status": "error",
+    "msg": "HTTP 403"
+  },
+  "98": {
+    "id": "98",
+    "titulo": "Teoria del Cambio — PNUD Colombia Programa de Paz",
+    "url": "https://www.undp.org/sites/g/files/zskgke326/files/2022-04/teoria_cambio_paz_colombia.pdf",
+    "file": "",
+    "status": "error",
+    "msg": "HTTP 404"
+  },
+  "99": {
+    "id": "99",
+    "titulo": "Teoria del Cambio — CEPAL Desarrollo Productivo Inclusivo",
+    "url": "https://repositorio.cepal.org/bitstream/handle/11362/47304/S2100413_es.pdf",
+    "file": "099_2021_CEPAL.pdf",
+    "status": "ok",
+    "msg": "OK (391 KB)"
+  },
+  "100": {
+    "id": "100",
+    "titulo": "Open Society Foundations — Theory of Change for Democratic G",
+    "url": "https://www.opensocietyfoundations.org/uploads/theory-of-change-democratic-governance.pdf",
+    "file": "",
+    "status": "error",
+    "msg": "HTTP 404"
+  },
+  "101": {
+    "id": "101",
+    "titulo": "Theory of Change — Early Childhood Development (ECD) Program",
+    "url": "https://bernardvanleer.org/app/uploads/2020/03/BvLF-Theory-of-Change.pdf",
+    "file": "",
+    "status": "error",
+    "msg": "HTTP 404"
+  },
+  "102": {
+    "id": "102",
+    "titulo": "WFP Theory of Change — Zero Hunger Strategic Review",
+    "url": "https://www.wfp.org/sites/default/files/2020-02/wfp_theory_of_change.pdf",
+    "file": "",
+    "status": "error",
+    "msg": "HTTP 404"
+  },
+  "103": {
+    "id": "103",
+    "titulo": "Teoria del Cambio — Fundacion FEMSA Agua y Saneamiento",
+    "url": "https://www.fundacionfemsa.org/download/teoria-del-cambio-agua.pdf",
+    "file": "",
+    "status": "error",
+    "msg": "HTTP 404"
+  },
+  "104": {
+    "id": "104",
+    "titulo": "Theory of Change — Financial Inclusion for the Unbanked",
+    "url": "https://docs.gatesfoundation.org/documents/financial-inclusion-theory-of-change.pdf",
+    "file": "",
+    "status": "error",
+    "msg": "HTTP 404"
+  },
+  "105": {
+    "id": "105",
+    "titulo": "Theory of Change in Mental Health Recovery — Recovery Colleg",
+    "url": "https://imroc.org/assets/2Theory-of-change-paper-May-2018.pdf",
+    "file": "",
+    "status": "error",
+    "msg": "HTTP 404"
+  },
+  "106": {
+    "id": "106",
+    "titulo": "Theory of Change — Disability Inclusion in Development",
+    "url": "https://www.cbm.org/fileadmin/CBM/downloads/about_cbm/strategy/CBM-Theory-of-Change.pdf",
+    "file": "",
+    "status": "error",
+    "msg": "HTTP 404"
+  },
+  "107": {
+    "id": "107",
+    "titulo": "GSMA Connected Women — Theory of Change for Mobile Gender Ga",
+    "url": "https://www.gsma.com/mobilefordevelopment/wp-content/uploads/2020/09/GSMA-Connected-Women-Theory-of-Change.pdf",
+    "file": "",
+    "status": "error",
+    "msg": "HTTP 404"
+  },
+  "108": {
+    "id": "108",
+    "titulo": "Theory of Change — Violence Against Women and Girls Preventi",
+    "url": "https://www.whatworks.co.za/documents/publications/214-what-works-toc-2018/file",
+    "file": "",
+    "status": "error",
+    "msg": "HTTP 500"
+  },
+  "109": {
+    "id": "109",
+    "titulo": "Skoll Foundation Theory of Change — Systems Change through S",
+    "url": "https://skoll.org/wp-content/uploads/2019/05/Skoll-Theory-of-Change.pdf",
+    "file": "",
+    "status": "error",
+    "msg": "HTTP 404"
+  },
+  "110": {
+    "id": "110",
+    "titulo": "Teoria del Cambio — Banco Interamericano de Desarrollo (BID)",
+    "url": "https://publications.iadb.org/publications/spanish/document/teoria-del-cambio.pdf",
+    "file": "",
+    "status": "error",
+    "msg": "HTTP 403"
+  },
+  "111": {
+    "id": "111",
+    "titulo": "Theory of Change for Peacebuilding — CDA Collaborative Learn",
+    "url": "https://www.cdacollaborative.org/wp-content/uploads/2016/04/Theory-of-Change-Peacebuilding.pdf",
+    "file": "",
+    "status": "error",
+    "msg": "HTTP 404"
+  },
+  "112": {
+    "id": "112",
+    "titulo": "Theory of Change for Nutrition Sensitive Agriculture",
+    "url": "https://www.fao.org/3/i8442en/I8442EN.pdf",
+    "file": "112_2018_FAO_-_IFAD_-_CGIAR.pdf",
+    "status": "ok",
+    "msg": "OK (1887 KB)"
+  },
+  "113": {
+    "id": "113",
+    "titulo": "Voluntary Service Overseas (VSO) Theory of Change",
+    "url": "https://www.vsointernational.org/sites/vso_international/files/VSO-Theory-of-Change.pdf",
+    "file": "",
+    "status": "error",
+    "msg": "HTTP 404"
+  },
+  "114": {
+    "id": "114",
+    "titulo": "Mercy Corps Theory of Change — Resilience and Livelihoods",
+    "url": "https://www.mercycorps.org/sites/default/files/2019-11/mercy-corps-theory-of-change.pdf",
+    "file": "",
+    "status": "error",
+    "msg": "HTTP 404"
+  },
+  "115": {
+    "id": "115",
+    "titulo": "Theory of Change in Criminal Justice Reform",
+    "url": "https://prisonreformtrust.org.uk/wp-content/uploads/old_files/Documents/theory_of_change.pdf",
+    "file": "",
+    "status": "error",
+    "msg": "HTTP 404"
+  },
+  "116": {
+    "id": "116",
+    "titulo": "Theory of Change — Sport for Development",
+    "url": "https://www.streetgames.org/wp-content/uploads/StreetGames-Theory-of-Change.pdf",
+    "file": "",
+    "status": "error",
+    "msg": "HTTP 404"
+  },
+  "117": {
+    "id": "117",
+    "titulo": "Teoria del Cambio — Escuelas Nueva Colombia",
+    "url": "https://www.escuelanueva.org/portal/es/images/EN-teoria-del-cambio.pdf",
+    "file": "",
+    "status": "error",
+    "msg": "HTTP 404"
+  },
+  "118": {
+    "id": "118",
+    "titulo": "Theory of Change for Microfinance Impact",
+    "url": "https://grameenfoundation.org/storage/documents/Grameen-Foundation-Theory-of-Change.pdf",
+    "file": "",
+    "status": "error",
+    "msg": "HTTP 404"
+  },
+  "119": {
+    "id": "119",
+    "titulo": "Theory of Change for Arts and Culture — The British Council",
+    "url": "https://www.britishcouncil.org/sites/default/files/bc_theory_of_change.pdf",
+    "file": "",
+    "status": "error",
+    "msg": "Timeout"
+  },
+  "120": {
+    "id": "120",
+    "titulo": "Theory of Change — Corporate Social Responsibility (CSR) Pro",
+    "url": "https://www.bitc.org.uk/wp-content/uploads/2020/01/bitc-theory-of-change-guide.pdf",
+    "file": "",
+    "status": "error",
+    "msg": "HTTP 404"
+  },
+  "121": {
+    "id": "121",
+    "titulo": "Reporte de Impacto Social — Teoria del Cambio Fundacion Boli",
+    "url": "https://www.fundacionbolivardavivienda.org/sites/default/files/teoria-del-cambio-2022.pdf",
+    "file": "",
+    "status": "error",
+    "msg": "HTTP 404"
+  },
+  "122": {
+    "id": "122",
+    "titulo": "Theory of Change for Sustainable Urban Development",
+    "url": "https://www.c40.org/wp-content/uploads/2020/06/C40-Theory-of-Change.pdf",
+    "file": "",
+    "status": "error",
+    "msg": "HTTP 403"
+  },
+  "123": {
+    "id": "123",
+    "titulo": "Theory of Change — Food and Land Use Coalition (FOLU)",
+    "url": "https://www.foodandlandusecoalition.org/wp-content/uploads/2019/09/FOLU-Theory-of-Change.pdf",
+    "file": "",
+    "status": "error",
+    "msg": "HTTP 404"
+  },
+  "124": {
+    "id": "124",
+    "titulo": "Theory of Change for Workforce Development Programs",
+    "url": "https://www.urban.org/sites/default/files/publication/93461/theory-of-change-workforce.pdf",
+    "file": "",
+    "status": "error",
+    "msg": "HTTP 404"
+  },
+  "125": {
+    "id": "125",
+    "titulo": "Theory of Change in Ten Steps",
+    "url": "https://www.thinknpc.org/wp-content/uploads/2019/10/Theory-of-Change-10-Steps-Updated.pdf",
+    "file": "125_2019_NPC_New_Philanthropy_Capital.pdf",
+    "status": "ok",
+    "msg": "OK (1699 KB)"
+  },
+  "126": {
+    "id": "126",
+    "titulo": "Theories of Change for Campaigning",
+    "url": "https://www.thinknpc.org/wp-content/uploads/2021/06/Theories-of-change-for-campaigning.pdf",
+    "file": "126_2021_NPC_New_Philanthropy_Capital.pdf",
+    "status": "ok",
+    "msg": "OK (685 KB)"
+  },
+  "127": {
+    "id": "127",
+    "titulo": "Thinking Big: How to Use Theory of Change for Systems Change",
+    "url": "https://www.thinknpc.org/wp-content/uploads/2019/01/https___www.thinknpc.org_wp-content_uploads_2018_07_NPC-Thinking-Big-report-_-FINAL.pdf",
+    "file": "127_2018_NPC_New_Philanthropy_Capital.pdf",
+    "status": "ok",
+    "msg": "OK (488 KB)"
+  },
+  "128": {
+    "id": "128",
+    "titulo": "Understanding Impact: Using Your Theory of Change",
+    "url": "https://www.thinknpc.org/wp-content/uploads/2020/02/Understanding-Impact-.pdf",
+    "file": "128_2020_NPC_New_Philanthropy_Capital.pdf",
+    "status": "ok",
+    "msg": "OK (789 KB)"
+  },
+  "129": {
+    "id": "129",
+    "titulo": "Systems Change: A Guide to What It Is and How to Do It",
+    "url": "https://www.thinknpc.org/wp-content/uploads/2018/07/NPC_Systems-Change_Final.pdf",
+    "file": "129_2018_NPC_New_Philanthropy_Capital.pdf",
+    "status": "ok",
+    "msg": "OK (586 KB)"
+  },
+  "130": {
+    "id": "130",
+    "titulo": "Theory of Change: Kooth Digital Mental Health Platform",
+    "url": "https://www.thinknpc.org/wp-content/uploads/2021/02/Theory-of-change-Kooth-for-adults.pdf",
+    "file": "130_2021_NPC_-_Kooth.pdf",
+    "status": "ok",
+    "msg": "OK (2540 KB)"
+  },
+  "131": {
+    "id": "131",
+    "titulo": "World Vision Child Protection Theory of Change",
+    "url": "https://www.wvi.org/sites/default/files/Child%20Protection%20Theory%20of%20Change_World%20Vision.pdf",
+    "file": "131_2018_World_Vision_International.pdf",
+    "status": "ok",
+    "msg": "OK (3782 KB)"
+  },
+  "132": {
+    "id": "132",
+    "titulo": "World Vision Theory of Change — Child Wellbeing",
+    "url": "https://www.wvi.org/sites/default/files/WV%20Theory%20of%20Change.Summary_0.pdf",
+    "file": "132_2017_World_Vision_International.pdf",
+    "status": "ok",
+    "msg": "OK (252 KB)"
+  },
+  "133": {
+    "id": "133",
+    "titulo": "Ford Foundation Theory of Change and Value Proposition",
+    "url": "https://www.fordfoundation.org/wp-content/uploads/2023/03/theory-of-change-and-value-proposition.pdf",
+    "file": "133_2023_Ford_Foundation.pdf",
+    "status": "ok",
+    "msg": "OK (147 KB)"
+  },
+  "134": {
+    "id": "134",
+    "titulo": "Guia para construir teorias del cambio en programas y proyec",
+    "url": "https://isfcolombia.uniandes.edu.co/images/Vacaciones2021/PCIS_2020_Guia_para_elaborar_una_teoria_del_cambio.pdf",
+    "file": "134_2020_Universidad_de_los_Andes_—_ISF.pdf",
+    "status": "ok",
+    "msg": "OK (2301 KB)"
+  },
+  "135": {
+    "id": "135",
+    "titulo": "Teoria del Cambio — Fundacion Tiempo Feliz",
+    "url": "https://fundaciontiempofeliz.org/wp-content/uploads/2022/02/Teoria-del-cambio.pdf",
+    "file": "135_2022_Fundacion_Tiempo_Feliz.pdf",
+    "status": "ok",
+    "msg": "OK (292 KB)"
+  },
+  "136": {
+    "id": "136",
+    "titulo": "Principios de Teoria de Cambio — Taplin y Clark",
+    "url": "https://www.theoryofchange.org/wp-content/uploads/2021/04/2020.04.23-Taplin-y-Clark.pdf",
+    "file": "136_2020_ActKnowledge_-_TheoryOfChange..pdf",
+    "status": "ok",
+    "msg": "OK (177 KB)"
+  },
+  "137": {
+    "id": "137",
+    "titulo": "Theory of Change — JPAL Lecture on Program Design",
+    "url": "https://www.povertyactionlab.org/sites/default/files/Lecture%202-THEORY%20OF%20CHANGE.pdf",
+    "file": "137_2017_J-PAL_South_Asia_-_IFMR.pdf",
+    "status": "ok",
+    "msg": "OK (1500 KB)"
+  },
+  "138": {
+    "id": "138",
+    "titulo": "INTRAC — Theory of Change: A Guide for Small and Diaspora NG",
+    "url": "https://www.intrac.org/wpcms/wp-content/uploads/2016/09/Theory-of-change_A-Guide-for-Small-and-Diaspora-NGOs-1.pdf",
+    "file": "138_2013_INTRAC.pdf",
+    "status": "ok",
+    "msg": "OK (218 KB)"
+  },
+  "139": {
+    "id": "139",
+    "titulo": "ActionAid Theory of Change — Women's Rights and Feminist Dev",
+    "url": "https://www.actionaid.org/sites/default/files/actionaid_theory_of_change.pdf",
+    "file": "",
+    "status": "error",
+    "msg": "HTTP 404"
+  },
+  "140": {
+    "id": "140",
+    "titulo": "Tearfund Theory of Change — Resilient Livelihoods",
+    "url": "https://www.tearfund.org/media/1155/tearfund-theory-of-change.pdf",
+    "file": "",
+    "status": "error",
+    "msg": "HTTP 404"
+  },
+  "141": {
+    "id": "141",
+    "titulo": "Helen Keller International Theory of Change — Nutrition and ",
+    "url": "https://helenkellerintl.org/wp-content/uploads/2019/03/hki-theory-of-change.pdf",
+    "file": "",
+    "status": "error",
+    "msg": "HTTP 404"
+  },
+  "142": {
+    "id": "142",
+    "titulo": "Practical Action Theory of Change — Technology and Innovatio",
+    "url": "https://practicalaction.org/wp-content/uploads/2020/01/Practical-Action-Theory-of-Change.pdf",
+    "file": "",
+    "status": "error",
+    "msg": "HTTP 404"
+  },
+  "143": {
+    "id": "143",
+    "titulo": "Christian Aid Theory of Change — Justice and Accountability",
+    "url": "https://www.christianaid.org.uk/sites/default/files/christian-aid-theory-of-change.pdf",
+    "file": "",
+    "status": "error",
+    "msg": "HTTP 404"
+  },
+  "144": {
+    "id": "144",
+    "titulo": "Aga Khan Foundation Theory of Change — Civil Society and Rur",
+    "url": "https://www.akdn.org/sites/akdn/files/media/publications/2019_akf_theory_of_change.pdf",
+    "file": "144_2019_Aga_Khan_Foundation_AKF.pdf",
+    "status": "ok",
+    "msg": "OK (1320 KB)"
+  },
+  "145": {
+    "id": "145",
+    "titulo": "WaterAid Theory of Change — Safe Water Access",
+    "url": "https://www.wateraid.org/uk/sites/g/files/jkxoof1/files/wateraid-theory-of-change.pdf",
+    "file": "",
+    "status": "error",
+    "msg": "HTTP 404"
+  },
+  "146": {
+    "id": "146",
+    "titulo": "Room to Read Theory of Change — Girls' Education and Literac",
+    "url": "https://www.roomtoread.org/media/o4ybr00t/theory-of-change-2019.pdf",
+    "file": "",
+    "status": "error",
+    "msg": "HTTP 404"
+  },
+  "147": {
+    "id": "147",
+    "titulo": "Landesa Theory of Change — Land Rights for Rural Poor",
+    "url": "https://www.landesa.org/wp-content/uploads/Landesa-Theory-of-Change.pdf",
+    "file": "",
+    "status": "error",
+    "msg": "HTTP 404"
+  },
+  "148": {
+    "id": "148",
+    "titulo": "Global Giving Theory of Change — Community-Led Development",
+    "url": "https://www.globalgiving.org/pfil/14888/projdoc.pdf",
+    "file": "148_2020_GlobalGiving.pdf",
+    "status": "ok",
+    "msg": "OK (1094 KB)"
+  },
+  "149": {
+    "id": "149",
+    "titulo": "Theory of Change — Social Return on Investment (SROI) for So",
+    "url": "https://www.socialfinance.org.uk/sites/default/files/publications/theory-of-change-sib.pdf",
+    "file": "",
+    "status": "error",
+    "msg": "HTTP 404"
+  },
+  "150": {
+    "id": "150",
+    "titulo": "Palladium Group — Theory of Change in Market Systems Develop",
+    "url": "https://thepalladiumgroup.com/wp-content/uploads/Theory-of-Change-Market-Systems.pdf",
+    "file": "",
+    "status": "error",
+    "msg": "HTTP 404"
+  },
+  "151": {
+    "id": "151",
+    "titulo": "Theory of Change for Monitoring and Evaluation — USAID Learn",
+    "url": "https://usaidlearninglab.org/sites/default/files/resource/files/additional_help_for_ads_201_theory_of_change.pdf",
+    "file": "",
+    "status": "error",
+    "msg": "HTTP 502"
+  },
+  "152": {
+    "id": "152",
+    "titulo": "Tearfund Footsteps — Theory of Change for Community Health",
+    "url": "https://www.tearfund.org/media/1156/footsteps-theory-of-change.pdf",
+    "file": "",
+    "status": "error",
+    "msg": "HTTP 404"
+  },
+  "153": {
+    "id": "153",
+    "titulo": "Population Council Theory of Change — Adolescent Girl Progra",
+    "url": "https://www.popcouncil.org/uploads/pdfs/2017RH_AdolescentGirlsToC.pdf",
+    "file": "153_2017_Population_Council.pdf",
+    "status": "ok",
+    "msg": "OK (20 KB)"
+  },
+  "154": {
+    "id": "154",
+    "titulo": "Right to Play Theory of Change — Sport for Child Development",
+    "url": "https://www.righttoplay.com/wp-content/uploads/2018/05/RTP-Theory-of-Change.pdf",
+    "file": "",
+    "status": "error",
+    "msg": "HTTP 404"
+  },
+  "155": {
+    "id": "155",
+    "titulo": "Habitat for Humanity Theory of Change — Adequate Housing",
+    "url": "https://www.habitat.org/sites/default/files/documents/habitat-theory-of-change.pdf",
+    "file": "",
+    "status": "error",
+    "msg": "HTTP 404"
+  },
+  "156": {
+    "id": "156",
+    "titulo": "One Acre Fund Theory of Change — Smallholder Farmer Producti",
+    "url": "https://oneacrefund.org/documents/theory-of-change.pdf",
+    "file": "",
+    "status": "error",
+    "msg": "HTTP 404"
+  },
+  "157": {
+    "id": "157",
+    "titulo": "Transparency International Theory of Change — Anti-Corruptio",
+    "url": "https://images.transparencycdn.org/images/2020_TI_StrategyDocument.pdf",
+    "file": "",
+    "status": "error",
+    "msg": "HTTP 403"
+  },
+  "158": {
+    "id": "158",
+    "titulo": "EngenderHealth Theory of Change — Reproductive Health",
+    "url": "https://www.engenderhealth.org/wp-content/uploads/2019/05/EngenderHealth-Theory-of-Change.pdf",
+    "file": "",
+    "status": "error",
+    "msg": "HTTP 404"
+  },
+  "159": {
+    "id": "159",
+    "titulo": "Resonance — Theory of Change for Market Systems Agriculture",
+    "url": "https://www.resonanceglobal.com/wp-content/uploads/2020/Feed-the-Future-TOC.pdf",
+    "file": "",
+    "status": "error",
+    "msg": "HTTP 404"
+  },
+  "160": {
+    "id": "160",
+    "titulo": "Home Office Indicators of Integration 2019 — Theory of Chang",
+    "url": "https://assets.publishing.service.gov.uk/media/627ccc0ae90e0721b1444a89/home-office-indicators-of-integration-framework-2019-theory-of-change-guide-notes-partb.pdf",
+    "file": "160_2019_Home_Office_UK.pdf",
+    "status": "ok",
+    "msg": "OK (3244 KB)"
+  },
+  "161": {
+    "id": "161",
+    "titulo": "UK Aid Connect — Theory of Change Guidance Note",
+    "url": "https://assets.publishing.service.gov.uk/media/5964b5dd40f0b60a4000015b/UK-Aid-Connect-Theory-of-Change-Guidance.pdf",
+    "file": "161_2017_UK_Aid_Connect_-_DFID.pdf",
+    "status": "ok",
+    "msg": "OK (150 KB)"
+  },
+  "162": {
+    "id": "162",
+    "titulo": "Practical Approaches to Theory of Change in Conflict, Securi",
+    "url": "https://assets.publishing.service.gov.uk/media/5a7dc195ed915d2acb6edf32/Practical-approaches-theories-change-conflict-security-justice-prog-part2.pdf",
+    "file": "162_2013_FCDO_-_DFID.pdf",
+    "status": "ok",
+    "msg": "OK (1070 KB)"
+  },
+  "163": {
+    "id": "163",
+    "titulo": "Teoria del Cambio — UNICEF LACRO Violencia contra la Primera",
+    "url": "https://www.unicef.org/lac/sites/unicef.org.lac/files/2018-03/20171023_UNICEF_LACRO_FrameworkViolencia_ECD_ESP.pdf",
+    "file": "",
+    "status": "error",
+    "msg": "HTTP 403"
+  },
+  "164": {
+    "id": "164",
+    "titulo": "Teoria del Cambio para Transformar la Educacion Superior",
+    "url": "https://transforminghigher.education/wp-content/uploads/2020/12/Proyecto-THE-teoria-de-cambio.pdf",
+    "file": "164_2020_Proyecto_THE_Transforming_Hig.pdf",
+    "status": "ok",
+    "msg": "OK (1428 KB)"
+  },
+  "165": {
+    "id": "165",
+    "titulo": "Teoria del Cambio — Violencia Sexual y Basada en Genero BID",
+    "url": "https://publications.iadb.org/publications/spanish/document/Violencia-sexual-y-basada-en-genero-mapa-de-ruta-para-su-prevencion-y-atencion-en-America-Latina-y-el-Caribe.pdf",
+    "file": "",
+    "status": "error",
+    "msg": "HTTP 403"
+  },
+  "166": {
+    "id": "166",
+    "titulo": "Conservation International Theory of Change — Biodiversity a",
+    "url": "https://www.conservation.org/docs/default-source/publication-pdfs/ci-theory-of-change.pdf",
+    "file": "",
+    "status": "error",
+    "msg": "HTTP 404"
+  },
+  "167": {
+    "id": "167",
+    "titulo": "WWF Theory of Change — Living Planet Strategy",
+    "url": "https://wwfeu.awsassets.panda.org/downloads/wwf_strategy_overview_2020.pdf",
+    "file": "",
+    "status": "error",
+    "msg": "HTTP 403"
+  },
+  "168": {
+    "id": "168",
+    "titulo": "Amnesty International Theory of Change — Human Rights Campai",
+    "url": "https://www.amnesty.org/en/documents/org90/7215/2018/en/",
+    "file": "",
+    "status": "error",
+    "msg": "HTTP 404"
+  },
+  "169": {
+    "id": "169",
+    "titulo": "Engineers Without Borders Canada Theory of Change",
+    "url": "https://www.ewb.ca/wp-content/uploads/2020/03/EWB-Theory-of-Change.pdf",
+    "file": "",
+    "status": "error",
+    "msg": "HTTP 404"
+  },
+  "170": {
+    "id": "170",
+    "titulo": "CIVICUS Theory of Change — Civil Society Strengthening",
+    "url": "https://www.civicus.org/documents/CIVICUS-Theory-of-Change.pdf",
+    "file": "",
+    "status": "error",
+    "msg": "HTTP 404"
+  },
+  "171": {
+    "id": "171",
+    "titulo": "Ashoka Theory of Change — Everyone a Changemaker",
+    "url": "https://www.ashoka.org/sites/default/files/Ashoka_Theory_of_Change.pdf",
+    "file": "",
+    "status": "error",
+    "msg": "HTTP 500"
+  },
+  "172": {
+    "id": "172",
+    "titulo": "ICDP Theory of Change — Early Childhood Parenting Programs",
+    "url": "https://www.icdp.net/wp-content/uploads/2018/02/ICDP-Theory-of-Change.pdf",
+    "file": "",
+    "status": "error",
+    "msg": "HTTP 404"
+  },
+  "173": {
+    "id": "173",
+    "titulo": "PACT Theory of Change — Strengthening Civil Society and Gove",
+    "url": "https://www.pactworld.org/sites/default/files/Pact-Theory-of-Change.pdf",
+    "file": "",
+    "status": "error",
+    "msg": "HTTP 404"
+  },
+  "174": {
+    "id": "174",
+    "titulo": "Root Capital Theory of Change — Agricultural Enterprises for",
+    "url": "https://rootcapital.org/wp-content/uploads/2020/01/Root-Capital-Theory-of-Change.pdf",
+    "file": "",
+    "status": "error",
+    "msg": "HTTP 404"
+  },
+  "175": {
+    "id": "175",
+    "titulo": "iDE (International Development Enterprises) Theory of Change",
+    "url": "https://www.ideglobal.org/wp-content/uploads/2019/06/iDE-Theory-of-Change.pdf",
+    "file": "",
+    "status": "error",
+    "msg": "HTTP 404"
+  },
+  "176": {
+    "id": "176",
+    "titulo": "Tostan Theory of Change — Community Empowerment in West Afri",
+    "url": "https://www.tostan.org/wp-content/uploads/2019/08/Tostan-Theory-of-Change.pdf",
+    "file": "",
+    "status": "error",
+    "msg": "HTTP 404"
+  },
+  "177": {
+    "id": "177",
+    "titulo": "Co-Impact Theory of Change — Systems Change at Scale",
+    "url": "https://co-impact.org/wp-content/uploads/2020/09/Co-Impact-Theory-of-Change.pdf",
+    "file": "",
+    "status": "error",
+    "msg": "HTTP 403"
+  },
+  "178": {
+    "id": "178",
+    "titulo": "IDinsight Theory of Change — Evidence-Based Decisions in Dev",
+    "url": "https://www.idinsight.org/wp-content/uploads/2019/11/IDinsight-Theory-of-Change.pdf",
+    "file": "",
+    "status": "error",
+    "msg": "HTTP 404"
+  },
+  "179": {
+    "id": "179",
+    "titulo": "Behavioural Insights Team Theory of Change — Nudges for Soci",
+    "url": "https://www.bi.team/wp-content/uploads/2020/09/BIT-Theory-of-Change.pdf",
+    "file": "",
+    "status": "error",
+    "msg": "HTTP 404"
+  },
+  "180": {
+    "id": "180",
+    "titulo": "Solar Sister Theory of Change — Clean Energy Entrepreneurshi",
+    "url": "https://www.solarsister.org/wp-content/uploads/2019/08/Solar-Sister-Theory-of-Change.pdf",
+    "file": "",
+    "status": "error",
+    "msg": "HTTP 404"
+  },
+  "181": {
+    "id": "181",
+    "titulo": "Clinton Health Access Initiative (CHAI) Theory of Change",
+    "url": "https://www.clintonhealthaccess.org/wp-content/uploads/2019/06/CHAI-Theory-of-Change.pdf",
+    "file": "",
+    "status": "error",
+    "msg": "HTTP 404"
+  },
+  "182": {
+    "id": "182",
+    "titulo": "Amnesty International UK Theory of Change for Education",
+    "url": "https://www.amnesty.org.uk/files/Theory-of-Change-Amnesty-Education.pdf",
+    "file": "",
+    "status": "error",
+    "msg": "HTTP 404"
+  },
+  "183": {
+    "id": "183",
+    "titulo": "BRAC Theory of Change — Holistic Poverty Graduation",
+    "url": "https://www.brac.net/wp-content/uploads/2019/09/BRAC-Theory-of-Change.pdf",
+    "file": "",
+    "status": "error",
+    "msg": "HTTP 404"
+  },
+  "184": {
+    "id": "184",
+    "titulo": "International Alert Theory of Change — Peacebuilding and Con",
+    "url": "https://www.international-alert.org/wp-content/uploads/2020/02/International-Alert-Theory-of-Change.pdf",
+    "file": "",
+    "status": "error",
+    "msg": "HTTP 404"
+  },
+  "185": {
+    "id": "185",
+    "titulo": "FSD Africa Theory of Change — Financial Sector Development",
+    "url": "https://www.fsdafrica.org/wp-content/uploads/2018/06/FSD-Africa-Theory-of-Change.pdf",
+    "file": "",
+    "status": "error",
+    "msg": "HTTP 404"
+  },
+  "186": {
+    "id": "186",
+    "titulo": "Prospera Theory of Change — Women's Funds and Feminist Movem",
+    "url": "https://prospera-inwf.org/wp-content/uploads/2020/06/Prospera-Theory-of-Change.pdf",
+    "file": "",
+    "status": "error",
+    "msg": "HTTP 404"
+  },
+  "187": {
+    "id": "187",
+    "titulo": "SOS Children's Villages Theory of Change",
+    "url": "https://www.sos-childrensvillages.org/getmedia/SOSfamilies-Theory-of-Change.pdf",
+    "file": "",
+    "status": "error",
+    "msg": "HTTP 404"
+  },
+  "188": {
+    "id": "188",
+    "titulo": "Developing a Theory of Change — UK Evaluation Academy",
+    "url": "https://assets.publishing.service.gov.uk/media/67adca3663d7f4cceef9e11e/2-etf-evaluation-academy-20-developing-a-theory-of-change-slides.pdf",
+    "file": "188_2020_UK_Government_—_Evaluation_Tas.pdf",
+    "status": "ok",
+    "msg": "OK (2016 KB)"
+  },
+  "189": {
+    "id": "189",
+    "titulo": "Living Goods Theory of Change — Community Health Workers",
+    "url": "https://www.livinggoods.org/wp-content/uploads/2019/05/Living-Goods-Theory-of-Change.pdf",
+    "file": "",
+    "status": "error",
+    "msg": "HTTP 404"
+  },
+  "190": {
+    "id": "190",
+    "titulo": "CARE International Theory of Change — Women's Economic Empow",
+    "url": "https://www.care-international.org/files/files/care-theory-of-change-wee.pdf",
+    "file": "",
+    "status": "error",
+    "msg": "HTTP 404"
+  },
+  "191": {
+    "id": "191",
+    "titulo": "Fundacion ProAcceso — Teoria del Cambio Acceso Digital",
+    "url": "https://www.proaccesodigital.cl/wp-content/uploads/2021/teoria-del-cambio.pdf",
+    "file": "",
+    "status": "error",
+    "msg": "Error de conexión"
+  },
+  "192": {
+    "id": "192",
+    "titulo": "Tipping Point Community Theory of Change — Ending Childhood ",
+    "url": "https://www.care-international.org/files/files/tipping-point-theory-of-change.pdf",
+    "file": "",
+    "status": "error",
+    "msg": "HTTP 404"
+  },
+  "193": {
+    "id": "193",
+    "titulo": "Theory of Change for Using Evidence in Policymaking",
+    "url": "https://odi.org/documents/theory-of-change-evidence-policymaking.pdf",
+    "file": "",
+    "status": "error",
+    "msg": "HTTP 404"
+  },
+  "194": {
+    "id": "194",
+    "titulo": "Grupo Faro Theory of Change — Evidence-Based Governance Ecua",
+    "url": "https://www.grupofaro.org/wp-content/uploads/2020/teoria-del-cambio.pdf",
+    "file": "",
+    "status": "error",
+    "msg": "HTTP 404"
+  },
+  "195": {
+    "id": "195",
+    "titulo": "SPARK Theory of Change — Entrepreneurship in Crisis Settings",
+    "url": "https://www.sparkorg.net/wp-content/uploads/2019/SPARK-Theory-of-Change.pdf",
+    "file": "",
+    "status": "error",
+    "msg": "Error de conexión"
+  },
+  "196": {
+    "id": "196",
+    "titulo": "Landesa Theory of Change — Women's Land Rights",
+    "url": "https://www.landesa.org/wp-content/uploads/2020/Landesa-Women-Land-Rights-ToC.pdf",
+    "file": "",
+    "status": "error",
+    "msg": "HTTP 404"
+  },
+  "197": {
+    "id": "197",
+    "titulo": "Fundacion Carvajal — Teoria del Cambio Desarrollo Empresaria",
+    "url": "https://www.fundacioncarvajal.org.co/wp-content/uploads/2021/teoria-del-cambio.pdf",
+    "file": "",
+    "status": "error",
+    "msg": "HTTP 404"
+  },
+  "198": {
+    "id": "198",
+    "titulo": "Fundacion Saldarriaga Concha — Teoria del Cambio Inclusion A",
+    "url": "https://www.saldarriagaconcha.org/wp-content/uploads/2020/teoria-del-cambio.pdf",
+    "file": "",
+    "status": "error",
+    "msg": "HTTP 404"
+  },
+  "199": {
+    "id": "199",
+    "titulo": "Near East Foundation Theory of Change — Resilient Communitie",
+    "url": "https://www.neareast.org/wp-content/uploads/2019/NEF-Theory-of-Change.pdf",
+    "file": "",
+    "status": "error",
+    "msg": "HTTP 404"
+  },
+  "200": {
+    "id": "200",
+    "titulo": "NPC Theory of Change — Institutional (NPC as Organisation)",
+    "url": "https://www.thinknpc.org/wp-content/uploads/2018/09/NPC-theory-of-change-1.pdf",
+    "file": "200_2018_NPC_New_Philanthropy_Capital.pdf",
+    "status": "ok",
+    "msg": "OK (174 KB)"
+  }
+}

@@ -68,8 +68,8 @@ website:
     right:
       - text: "▶ Presentación ValorIA"
         href: slides/valoria_pitch.html
-      - text: "iMEL® · EAFIT"
-        href: "https://www.eafit.edu.co"
+      - text: "iMEL®"
+        href: "https://www.eafit.edu.co/centros-estudio-incidencia/valor-publico"
 
   page-footer:
     background: "#0F172A"

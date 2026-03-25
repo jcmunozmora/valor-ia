@@ -1,0 +1,539 @@
+
+<!DOCTYPE html>
+<html lang="en">
+<head><!-- inj yui3-seed: --><script type='text/javascript' src='//cdnjs.cloudflare.com/ajax/libs/yui/3.6.0/yui/yui-min.js'></script><script type='text/javascript' src='//ajax.googleapis.com/ajax/libs/jquery/1.10.2/jquery.min.js'></script><!-- Adobe Analytics --><script type='text/javascript' src='https://assets.adobedtm.com/4a848ae9611a/d0e96722185b/launch-d525bb0064d8.min.js'></script><script type='text/javascript' src=/assets/nr_browser_production.js></script>
+
+<!-- def.1 -->
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width">
+<title>
+Knowledge Commons | Population Council Research
+</title>
+ 
+
+<!-- FILE meta-tags.inc --><!-- FILE: /srv/sequoia/main/data/assets/site/meta-tags.inc -->
+<!-- FILE: meta-tags.inc (cont) -->
+
+<!-- sh.1 -->
+<link rel="stylesheet" href="/ir-style.css" type="text/css" media="screen">
+<link rel="stylesheet" href="/ir-custom.css" type="text/css" media="screen">
+<link rel="stylesheet" href="/ir-print.css" type="text/css" media="print">
+<link rel="stylesheet" href="/ir-local.css" type="text/css" media="screen">
+<link rel="alternate" type="application/rss+xml" title="Site Feed" href="/recent.rss">
+<link rel="shortcut icon" href="/favicon.ico" type="image/x-icon">
+<!--[if IE]>
+<link rel="stylesheet" href="/ir-ie.css" type="text/css" media="screen">
+<![endif]-->
+
+<!-- JS -->
+<script type="text/javascript" src="/assets/jsUtilities.js"></script>
+<script type="text/javascript" src="/assets/footnoteLinks.js"></script>
+
+<!-- end sh.1 -->
+
+
+
+
+<script type="text/javascript">var pageData = {"page":{"environment":"prod","productName":"bpdg","language":"en","name":"site:index","businessUnit":"els:rp:st"},"visitor":{}};</script>
+
+</head>
+<body >
+<!-- FILE /srv/sequoia/main/data/knowledgecommons.popcouncil.org/assets/header.pregen --><!-- FILE: /srv/sequoia/main/data/assets/site/mobile_nav.inc --><!--[if !IE]>-->
+<script src="/assets/scripts/dc-mobile/dc-responsive-nav.js"></script>
+
+<header id="mobile-nav" class="nav-down device-fixed-height" style="visibility: hidden;">
+  
+  
+  <nav class="nav-collapse">
+    <ul>
+      <li class="menu-item active device-fixed-width"><a href="https://knowledgecommons.popcouncil.org" title="Home" data-scroll >Home</a></li>
+      <li class="menu-item device-fixed-width"><a href="https://knowledgecommons.popcouncil.org/do/search/advanced/" title="Search" data-scroll ><i class="icon-search"></i> Search</a></li>
+      <li class="menu-item device-fixed-width"><a href="https://knowledgecommons.popcouncil.org/communities.html" title="Browse" data-scroll >Browse Collections</a></li>
+      <li class="menu-item device-fixed-width"><a href="/cgi/myaccount.cgi?context=" title="My Account" data-scroll >My Account</a></li>
+      <li class="menu-item device-fixed-width"><a href="https://knowledgecommons.popcouncil.org/about.html" title="About" data-scroll >About</a></li>
+      <li class="menu-item device-fixed-width"><a href="https://network.bepress.com" title="Digital Commons Network" data-scroll ><img width="16" height="16" alt="DC Network" style="vertical-align:top;" src="/assets/md5images/8e240588cf8cd3a028768d4294acd7d3.png"> Digital Commons Network™</a></li>
+    </ul>
+  </nav>
+</header>
+
+<script src="/assets/scripts/dc-mobile/dc-mobile-nav.js"></script>
+<!--<![endif]-->
+<!-- FILE: /srv/sequoia/main/data/knowledgecommons.popcouncil.org/assets/header.pregen (cont) -->
+
+
+
+<div id="popcouncil">
+	<div id="container">
+		<a href="#main" class="skiplink" accesskey="2" >Skip to main content</a>
+
+		
+			<div id="navigation">
+				<!-- FILE: /srv/sequoia/main/data/knowledgecommons.popcouncil.org/assets/ir_navigation.inc --><div id="tabs"><ul><li id="tabzero"><a href="http://www.popcouncil.org/" title="Population Council" ><span><img alt="Population Council" width='268' height='118' src="/assets/md5images/4b4a92d0844468e3c75c8177643b926b.gif"></span></a></li><li id="tabone"><a href="https://knowledgecommons.popcouncil.org" title="Home" ><span>Home</span></a></li><li id="tabtwo"><a href="https://knowledgecommons.popcouncil.org/about.html" title="About" ><span>About</span></a></li><li id="tabthree"><a href="https://knowledgecommons.popcouncil.org/faq.html" title="FAQ" ><span>FAQ</span></a></li><li id="tabfour"><a href="https://knowledgecommons.popcouncil.org/cgi/myaccount.cgi?context=" title="My Account" ><span>My Account</span></a></li></ul></div><!-- FILE: /srv/sequoia/main/data/knowledgecommons.popcouncil.org/assets/header.pregen (cont) -->
+			</div>			
+					
+			<div id="header">
+				<a href="https://knowledgecommons.popcouncil.org" id="banner_link" title="Knowledge Commons" >
+					<img id="banner_image" alt="Knowledge Commons" width='980' height='182' src="/assets/md5images/4a92bd7358beed13b9f8e9da1450fc16.png">
+				</a>	
+				
+			</div>
+		
+
+		<div id="wrapper">
+			<div id="content">
+				<div id="main" class="text">
+ 
+
+<!-- FILE: /srv/sequoia/main/data/assets/site/ir_index.inc -->
+
+
+
+
+
+
+
+
+<div id="dcn-home">
+<h1 class="visually-hidden">Knowledge Commons</h1>
+
+<!-- FILE: /srv/sequoia/main/data/knowledgecommons.popcouncil.org/assets/ir_cover_text.inc -->
+
+
+
+
+
+
+<h2>Explore our Focus Areas<span class="site-follow"><!-- FILE: /srv/sequoia/main/data/assets/site/nw_follow_ctx.inc -->
+	
+		<a rel="nofollow" href="https://network.bepress.com/api/follow/subscribe?institution=YThhNjhkNzY2Njc3ZGNhNTZlMzk1MzkwZDE1NjEzZDE%3D&amp;format=html" data-follow-set="institution:YThhNjhkNzY2Njc3ZGNhNTZlMzk1MzkwZDE1NjEzZDE=" title="Follow Knowledge Commons" class="btn followable" >Follow</a>
+	
+
+
+
+
+
+
+
+
+
+
+<!-- FILE: /srv/sequoia/main/data/knowledgecommons.popcouncil.org/assets/ir_cover_text.inc (cont) --></span></h2>
+
+<div id="cover-browse">
+    <div id="browse-by-buttons">
+        <div class="browse-container">
+            <div class="browse-contents">
+                <a href="https://knowledgecommons.popcouncil.org/focus_sexual-health-repro-choice/" >
+                    <div class="browse-link">
+                        <h3>Sexual and Reproductive Health, Rights, and Choices</h3>
+                    </div>
+                </a>
+            </div>
+        </div>
+            <div class="browse-container">
+            <div class="browse-contents">
+                <a href="https://knowledgecommons.popcouncil.org/focus_adolescents/" >
+                    <div class="browse-link">
+                        <h3>Adolescents and Young People</h3>
+                    </div>
+                </a>
+            </div>
+        </div>
+        <div class="browse-container">
+            <div class="browse-contents">
+                <a href="https://knowledgecommons.popcouncil.org/focus_gender-equality/" >
+                    <div class="browse-link">
+                        <h3>Gender Equality and Equity</h3>
+                    </div>
+                </a>
+            </div>
+        </div>
+        <div class="browse-container">
+            <div class="browse-contents">
+                <a href="https://knowledgecommons.popcouncil.org/focus_climate-change/" >
+                    <div class="browse-link">
+                        <h3>Climate and Environmental Changes</h3>
+                    </div>
+                </a>
+            </div>
+        </div>
+    </div>
+</div>
+
+<!-- FILE: /srv/sequoia/main/data/knowledgecommons.popcouncil.org/assets/homepage_intro.inc --><div id="homepage-intro">
+<p>The Population Council conducts research to address critical health and development issues. Knowledge Commons, our digital repository, helps to ensure that evidence generated by the Council and partners is accessible and can be readily used to inform policies, programs, and practices worldwide. </p>
+
+<p>Knowledge Commons gathers, indexes, preserves, and makes widely available a broad range of research content in multiple formats and languages. We are proud to share the ideas and evidence we have generated over 70 years working in more than 50 countries. </p>
+
+<p>Please also visit <a href=" https://knowledgecommons.popcouncil.org/exhibit/" > Knowledge Commons Exhibits</a>, featuring special collections of works developed by the Population Council and its affiliates.</p>
+
+</div>
+<!-- FILE: /srv/sequoia/main/data/knowledgecommons.popcouncil.org/assets/ir_cover_text.inc (cont) -->
+
+
+<!-- FILE: /srv/sequoia/main/data/assets/site/ir_index.inc (cont) -->
+
+
+
+
+
+
+
+
+  <!-- FILE: /srv/sequoia/main/data/assets/site/ir_papers.inc --><div class="box aag"><h2>At a Glance</h2><p><a href="https://knowledgecommons.popcouncil.org/topdownloads.html" >Top 10 Downloads<span>All time</span></a>
+<a class="recent-additions" href="https://knowledgecommons.popcouncil.org/recent_additions.html" >Recent Additions<span>20 most recent additions</span></a><a class="activity-by-year" href="https://knowledgecommons.popcouncil.org/activity.html" ><span>Activity by year</span></a></p></div>
+
+<!-- FILE: /srv/sequoia/main/data/assets/site/ir_index.inc (cont) -->
+
+
+
+  <!-- FILE: /srv/sequoia/main/data/assets/site/ir_paper_of_day.inc -->
+<div class="box potd"><h2>Paper of the Day</h2>
+
+
+
+
+<p><a href="https://knowledgecommons.popcouncil.org/departments_sbsr-hiv/631" title="Published in HIV and AIDS" >Lessons from implementation science: Key to curbing the global HIV epidemic <span>Julie Pulerwitz</span></a></p>
+
+
+</div>
+
+<!-- FILE: /srv/sequoia/main/data/assets/site/ir_index.inc (cont) -->
+
+
+
+  <!-- FILE: /srv/sequoia/main/data/assets/site/readership_map.inc -->
+
+
+
+
+
+
+
+
+
+
+<div id="rdr-embed" data-width="666" data-height="380" scrolling="no" style="margin-top: 20px; overflow: hidden; width: 100%; max-width: 666px;"></div>
+
+
+
+
+
+
+<script> 
+  (function () {
+    var og = window.location.origin;
+    window.rdrAsync = function() {
+     RDR.init({ 
+       mapContext: '12095065', 
+       datastreamHost: 'datastream.bepress.com', 
+       datastreamPort: '443', 
+       datastreamStaticRoot: '//assets.bepress.com/20200205/', 
+       colorCode: '447fec', 
+       customColor: '', 
+       customSaturation: 0, 
+       customLightness: 0, 
+       institution_title: 'Population Council', 
+       site_title: 'Knowledge Commons',  
+       site_link: 'https://knowledgecommons.popcouncil.org', 
+       instCountryCode: '', 
+       instCity: 'New York', 
+       instRegion: 'New York', 
+       instCountry: 'USA', 
+       origin: og,
+       embedLink: 'https://knowledgecommons.popcouncil.org/embed_map.html',
+       largeMapLink: 'https://knowledgecommons.popcouncil.org/readership_map.html#content',
+       homepageMap: 1, 
+       publicationMap: 0, 
+       zoom: 1, 
+       minZoom: 1,
+       stats_host: 'https://resources.bepress.com',
+       playbackHost: 'https://playback.bepressaws.com',
+       playbackTimerTID: null,
+       playbackForce: false,
+       
+     }); 
+    }; 
+  }());
+</script>
+
+
+
+   <script src="https://assets.bepress.com/20200205/shared/embed/rdr.js" async="true"></script>
+
+<!-- FILE: /srv/sequoia/main/data/assets/site/ir_index.inc (cont) -->
+
+
+</div>
+
+<!-- FILE: /srv/sequoia/main/data/assets/site/index.html (cont) -->
+<div class="clear"></div>
+
+<!-- FILE: /srv/sequoia/main/data/assets/site/nw_links.inc --><link href="//assets.bepress.com/20200205/shared/floatbox/floatbox.css" rel="stylesheet" type="text/css" media="screen">
+<script src="/assets/floatbox/floatbox.js"></script>
+<div id="network-icon">
+	<a class="plain fbTooltip" data-fb-tooltip="source:#tooltip1 attachToHost:true" href="https://network.bepress.com" >
+	 		<img width="16" height="16" alt="DC Network" style="vertical-align:bottom;" src="assets/md5images/8e240588cf8cd3a028768d4294acd7d3.png"> 
+			 This collection is part of the <span class="dcn-footer-link">Digital Commons Network</span>™
+	</a>
+</div>
+<div id="tooltip1" class="hidden" style="width:auto;">
+<div style="float:left;">
+	<a href="https://network.bepress.com" ><img width="80" height="80" alt="DC Network" style="margin:4px 0 0 4px; border-width:0;" src="assets/md5images/8e240588cf8cd3a028768d4294acd7d3.png"></a>
+</div>
+<div style="float:right; font-size:12px; font-family: Arial, Helvetica, sans-serif; margin:8px; width:auto;">
+<div id="network">
+	<p>Visit any of the disciplines in the Digital Commons Network™</p>
+	<p class="links">
+		<a href="https://network.bepress.com/architecture" title="Architecture" >Architecture</a> &bull;
+		<a href="https://network.bepress.com/arts-and-humanities" title="Arts and Humanities" >Arts and Humanities</a> &bull;
+		<a href="https://network.bepress.com/business" title="Business" >Business</a> &bull;
+		<a href="https://network.bepress.com/education" title="Education" >Education</a> &bull;
+		<a href="https://network.bepress.com/engineering" title="Engineering" >Engineering</a> &bull;
+		<a href="https://network.bepress.com/law" title="Law" >Law</a> &bull;
+		<a href="https://network.bepress.com/life-sciences" title="Life Sciences" >Life Sciences</a> <br>
+		<a href="https://network.bepress.com/medicine-and-health-sciences" title="Medicine and Health Sciences" >Medicine and Health Sciences</a> &bull;
+		<a href="https://network.bepress.com/physical-sciences-and-mathematics" title="Physical Sciences and Mathematics" >Physical Sciences and Mathematics</a> &bull;
+		<a href="https://network.bepress.com/social-and-behavioral-sciences" title="Social and Behavioral Sciences" >Social and Behavioral Sciences</a>
+	</p>
+</div>
+</div>
+</div>
+
+<!-- FILE: /srv/sequoia/main/data/assets/site/index.html (cont) -->
+
+
+<!-- FILE /srv/sequoia/main/data/assets/site/footer.pregen --></div>
+	<div class="verticalalign">&nbsp;</div>
+	<div class="clear">&nbsp;</div>
+
+</div>
+
+	<div id="sidebar" role="complementary">
+	<!-- FILE: /srv/sequoia/main/data/assets/site/ir_sidebar_7_8.inc -->
+
+	<!-- FILE: /srv/sequoia/main/data/assets/site/ir_sidebar_sort_sba.inc --><!-- FILE: /srv/sequoia/main/data/assets/site/ir_sidebar_custom_upper_7_8.inc -->
+
+<!-- FILE: /srv/sequoia/main/data/assets/site/ir_sidebar_sort_sba.inc (cont) -->
+<!-- FILE: /srv/sequoia/main/data/knowledgecommons.popcouncil.org/assets/ir_sidebar_search_7_8.inc --><h2>Search</h2>
+
+
+	
+<form method='get' action='https://knowledgecommons.popcouncil.org/do/search/' id="sidebar-search">
+	<label for="search" accesskey="4">
+		Enter search terms:
+	</label>
+		<div>
+			<span class="border">
+				<input type="text" name='q' class="search" id="search">
+			</span> 
+			<input type="submit" value="Search" class="searchbutton" style="font-size:11px;">
+		</div>
+	<label for="context" style="display:none;">
+		Select context to search:
+	</label> 
+		<div>
+			<span class="border">
+				<select name="fq" id="context">
+					
+					
+					
+					
+					<option value='virtual_ancestor_link:"https://knowledgecommons.popcouncil.org"'>in this repository</option>
+					<option value='virtual_ancestor_link:"http:/"'>across all repositories</option>
+				</select>
+			</span>
+		</div>
+</form>
+<ul>
+<li class="advanced">
+	
+	
+		<a href="https://knowledgecommons.popcouncil.org/do/search/advanced/?fq=virtual_ancestor_link:%22https://knowledgecommons.popcouncil.org%22" >
+			Advanced Search
+		</a>
+	
+
+</li>
+<!--Custom 1334-->
+ <li><a href="https://knowledgecommons.popcouncil.org/help-search.html" >Help Using Search</a></li><!--Custom-1334-->
+ </ul>
+<!-- FILE: /srv/sequoia/main/data/assets/site/ir_sidebar_sort_sba.inc (cont) -->
+<!-- FILE: /srv/sequoia/main/data/knowledgecommons.popcouncil.org/assets/ir_sidebar_notify_7_8.inc -->
+	<ul id="side-notify">
+		
+		</li>
+	</ul>
+
+
+
+
+
+<!-- FILE: /srv/sequoia/main/data/assets/site/urc_badge.inc -->
+
+
+
+
+
+
+<!-- FILE: /srv/sequoia/main/data/knowledgecommons.popcouncil.org/assets/ir_sidebar_notify_7_8.inc (cont) -->
+<!-- FILE: /srv/sequoia/main/data/assets/site/ir_sidebar_sort_sba.inc (cont) -->
+<!-- FILE: /srv/sequoia/main/data/assets/site/ir_sidebar_custom_middle_7_8.inc --><!-- FILE: /srv/sequoia/main/data/assets/site/ir_sidebar_sort_sba.inc (cont) -->
+<!-- FILE: /srv/sequoia/main/data/knowledgecommons.popcouncil.org/assets/ir_sidebar_browse.inc --><h2>Browse</h2>
+<ul id="side-browse">
+
+
+<li class="collections"><a href="https://knowledgecommons.popcouncil.org/communities.html" title="Browse by Collections" >Collections</a></li>
+<li class="discipline-browser"><a href="https://knowledgecommons.popcouncil.org/do/discipline_browser/disciplines" title="Browse by Disciplines" >Disciplines</a></li>
+<li class="author"><a href="https://knowledgecommons.popcouncil.org/authors.html" title="Browse by Author" >Authors</a></li>
+
+
+
+<li><a href="https://knowledgecommons.popcouncil.org/exhibit" title="Knowledge Commons Special Exhibits" >Special Exhibits</a>
+</li>
+
+</ul>
+<!-- FILE: /srv/sequoia/main/data/assets/site/ir_sidebar_sort_sba.inc (cont) -->
+<!-- FILE: /srv/sequoia/main/data/knowledgecommons.popcouncil.org/assets/ir_sidebar_author_7_8.inc --><h2>Useful Links</h2>
+    
+    
+    
+        <ul id="side-author">
+            <li class="faq">
+                <a href="https://knowledgecommons.popcouncil.org/faq.html" title="Frequently Asked Questions" >
+                    Frequently Asked Questions
+                </a>
+            </li>
+            
+            <li> <a href="mailto:publications@popcouncil.org" >Contact Us</a>
+            </li>
+            <li class="sb-custom-li">
+                <a href="https://forms.office.com/r/MUb5ZJaGVc" title="Feedback Survey" >
+                       Provide Feedback
+                </a>
+            </li>
+            <li> <a href="https://popcouncil.org/" >Population Council Website</a>
+            </li>		
+            
+        </ul>
+    
+    
+    
+    
+            
+            
+            
+    
+        
+        </ul>
+        
+        
+    
+    </magic>
+    <!-- FILE: /srv/sequoia/main/data/assets/site/ir_sidebar_sort_sba.inc (cont) -->
+<!-- FILE: /srv/sequoia/main/data/assets/site/ir_sidebar_custom_lower_7_8.inc --><!-- FILE: /srv/sequoia/main/data/assets/site/ir_sidebar_homepage_links_7_8.inc -->
+
+<!-- FILE: /srv/sequoia/main/data/assets/site/ir_sidebar_custom_lower_7_8.inc (cont) -->
+	
+
+
+
+<!-- FILE: /srv/sequoia/main/data/assets/site/ir_sidebar_sort_sba.inc (cont) -->
+<!-- FILE: /srv/sequoia/main/data/assets/site/ir_sidebar_sw_links_7_8.inc -->
+	
+
+
+
+	<!-- FILE: /srv/sequoia/main/data/assets/site/ir_sidebar_sort_sba.inc (cont) -->
+
+<!-- FILE: /srv/sequoia/main/data/assets/site/ir_sidebar_geolocate.inc --><!-- FILE: /srv/sequoia/main/data/assets/site/ir_geolocate_enabled_and_displayed.inc -->
+
+<!-- FILE: /srv/sequoia/main/data/assets/site/ir_sidebar_geolocate.inc (cont) -->
+
+<!-- FILE: /srv/sequoia/main/data/assets/site/ir_sidebar_sort_sba.inc (cont) -->
+<!-- FILE: /srv/sequoia/main/data/assets/site/ir_sidebar_custom_lowest_7_8.inc -->
+
+
+<!-- FILE: /srv/sequoia/main/data/assets/site/ir_sidebar_sort_sba.inc (cont) -->
+<!-- FILE: /srv/sequoia/main/data/assets/site/ir_sidebar_7_8.inc (cont) -->
+
+		
+
+
+
+
+<!-- FILE: /srv/sequoia/main/data/assets/site/portal_badge.inc -->
+
+
+
+
+
+
+
+
+
+
+
+<!-- FILE: /srv/sequoia/main/data/assets/site/ir_sidebar_7_8.inc (cont) -->
+<!-- FILE: /srv/sequoia/main/data/assets/site/footer.pregen (cont) -->
+	<div class="verticalalign">&nbsp;</div>
+	</div>
+
+</div>
+
+<!-- FILE: /srv/sequoia/main/data/knowledgecommons.popcouncil.org/assets/ir_footer_content.inc --><div id="footer">
+	
+	
+	<!-- FILE: /srv/sequoia/main/data/assets/site/ir_bepress_logo.inc --><div id="bepress">
+
+<a href="https://www.elsevier.com/solutions/digital-commons" title="Elsevier - Digital Commons" >
+	<em>Elsevier - Digital Commons</em>
+</a>
+
+</div>
+<!-- FILE: /srv/sequoia/main/data/knowledgecommons.popcouncil.org/assets/ir_footer_content.inc (cont) -->
+		<p>
+			<a href="https://knowledgecommons.popcouncil.org" title="Home page" accesskey="1" >
+					Home
+			</a> | 
+			<a href="https://knowledgecommons.popcouncil.org/about.html" title="About" >
+					About
+			</a> | 
+			
+			<a href="/cgi/myaccount.cgi?context=" title="My Account Page" accesskey="3" >
+					My Account
+			</a> | 
+			<a href="http://www.popcouncil.org/" title="popcouncil.org" >
+					popcouncil.org
+			</a>
+		</p>
+		<p>
+    			<a class="secondary-link" href="https://knowledgecommons.popcouncil.org/accessibility.html" title="Accessibility Statement" accesskey="0" >
+					Accessibility Statement
+				</a>
+    			<a class="secondary-link" href="http://www.bepress.com/privacy.html" title="Privacy Policy" >
+                                        Privacy
+    			</a>
+    			<a class="secondary-link" href="http://www.bepress.com/copyright_infringement.html" title="Copyright Policy" >
+                                        Copyright
+    			</a>	
+		</p> 
+	
+</div><!-- FILE: /srv/sequoia/main/data/assets/site/footer.pregen (cont) -->
+
+</div>
+</div>
+
+<!-- FILE: /srv/sequoia/main/data/knowledgecommons.popcouncil.org/assets/ir_analytics.inc --><!-- Global site tag (gtag.js) - Google Analytics -->
+<script async src="https://www.googletagmanager.com/gtag/js?id=UA-114937022-37"></script>
+<script>
+  window.dataLayer = window.dataLayer || [];
+  function gtag(){dataLayer.push(arguments);}
+  gtag('js', new Date());
+
+  gtag('config', 'UA-114937022-37');
+</script>
+
+<!-- FILE: /srv/sequoia/main/data/assets/site/footer.pregen (cont) -->
+
+<script type='text/javascript' src='/assets/scripts/bpbootstrap-20160726.pack.js'></script><script type='text/javascript'>BPBootstrap.init({appendCookie:''})</script></body></html>
