@@ -1,0 +1,493 @@
+---
+title: "Agentes de IA especializados"
+description: "Ecosistema de agentes de inteligencia artificial para la medición, valoración y gestión del impacto social. Metodología SVI incorporada. Centro Valor Público EAFIT."
+toc: false
+---
+
+```{=html}
+<!-- ============================================================
+     HERO
+     ============================================================ -->
+<div class="page-header" style="background: linear-gradient(135deg, #0F172A 0%, #0D1F2D 100%);">
+  <div class="page-header-content">
+    <div class="page-badge" style="background:rgba(13,148,136,0.15);border-color:rgba(13,148,136,0.3);color:#5EEAD4;">Inteligencia Artificial · iMEL®</div>
+    <h1 class="page-title" style="color:white;">Ecosistema de agentes de IA</h1>
+    <p class="page-subtitle" style="color:#CBD5E1;">
+      No son asistentes genéricos. Son agentes especializados con la metodología
+      <strong style="color:#5EEAD4;">Social Value International (SVI)</strong>,
+      el marco <strong style="color:#5EEAD4;">iMEL®</strong> y el corpus de
+      <strong style="color:#5EEAD4;">383 reportes SROI verificados</strong> incorporados.
+      Cada agente conoce su rol, sus herramientas y cuándo derivar al siguiente.
+    </p>
+    <div style="display:flex;gap:0.5rem;flex-wrap:wrap;margin-top:1rem;">
+      <span style="background:rgba(13,148,136,0.2);color:#5EEAD4;border:1px solid rgba(13,148,136,0.4);padding:0.2rem 0.8rem;border-radius:2rem;font-size:0.8rem;font-weight:700;">23+ agentes especializados</span>
+      <span style="background:rgba(245,158,11,0.15);color:#FCD34D;border:1px solid rgba(245,158,11,0.3);padding:0.2rem 0.8rem;border-radius:2rem;font-size:0.8rem;font-weight:700;">3 ecosistemas independientes</span>
+      <span style="background:rgba(59,130,246,0.15);color:#93C5FD;border:1px solid rgba(59,130,246,0.3);padding:0.2rem 0.8rem;border-radius:2rem;font-size:0.8rem;font-weight:700;">Ciclo iMEL® completo</span>
+      <span style="background:rgba(124,58,237,0.15);color:#C4B5FD;border:1px solid rgba(124,58,237,0.3);padding:0.2rem 0.8rem;border-radius:2rem;font-size:0.8rem;font-weight:700;">SVI · IMToC · SMART</span>
+    </div>
+  </div>
+</div>
+
+<!-- ============================================================
+     INTRO — qué son los agentes
+     ============================================================ -->
+<div class="content-section">
+<div class="content-inner">
+
+<span class="section-label">¿Qué son?</span>
+<h2 class="section-heading">Agentes IA vs asistentes genéricos</h2>
+
+<div style="display:grid;grid-template-columns:1fr 1fr;gap:1.5rem;margin:1.5rem 0;">
+
+  <div style="background:#FEF2F2;border:1px solid #FECACA;border-left:4px solid #DC2626;border-radius:0.875rem;padding:1.5rem;">
+    <div style="font-size:0.7rem;font-weight:700;letter-spacing:0.1em;text-transform:uppercase;color:#DC2626;margin-bottom:0.75rem;">Un asistente genérico (ChatGPT, etc.)</div>
+    <ul style="list-style:none;padding:0;margin:0;">
+      <li style="padding:0.3rem 0;font-size:0.88rem;color:#7F1D1D;">✗ Conoce el SROI de forma superficial y puede cometer errores metodológicos</li>
+      <li style="padding:0.3rem 0;font-size:0.88rem;color:#7F1D1D;">✗ No tiene acceso a los 383 reportes SVI ni al corpus IMToC</li>
+      <li style="padding:0.3rem 0;font-size:0.88rem;color:#7F1D1D;">✗ Responde en general — no sabe cuándo derivar al especialista correcto</li>
+      <li style="padding:0.3rem 0;font-size:0.88rem;color:#7F1D1D;">✗ Sin memoria del proyecto ni coherencia entre sesiones</li>
+      <li style="padding:0.3rem 0;font-size:0.88rem;color:#7F1D1D;">✗ Los 48 criterios SVI no están en su entrenamiento</li>
+    </ul>
+  </div>
+
+  <div style="background:#F0FDF4;border:1px solid #BBF7D0;border-left:4px solid #10B981;border-radius:0.875rem;padding:1.5rem;">
+    <div style="font-size:0.7rem;font-weight:700;letter-spacing:0.1em;text-transform:uppercase;color:#059669;margin-bottom:0.75rem;">Un agente especializado ValorIA</div>
+    <ul style="list-style:none;padding:0;margin:0;">
+      <li style="padding:0.3rem 0;font-size:0.88rem;color:#14532D;">✓ Metodología SVI completa incorporada — 8 principios, 48 criterios, 6 etapas</li>
+      <li style="padding:0.3rem 0;font-size:0.88rem;color:#14532D;">✓ Acceso al corpus de 383 reportes para benchmarking instantáneo</li>
+      <li style="padding:0.3rem 0;font-size:0.88rem;color:#14532D;">✓ Sabe exactamente cuándo derivar al siguiente agente del ecosistema</li>
+      <li style="padding:0.3rem 0;font-size:0.88rem;color:#14532D;">✓ Memoria del proyecto — contexto acumulado entre análisis</li>
+      <li style="padding:0.3rem 0;font-size:0.88rem;color:#14532D;">✓ Auditado y firmado por el equipo CVP EAFIT</li>
+    </ul>
+  </div>
+
+</div>
+
+</div>
+</div>
+
+<!-- ============================================================
+     ECOSISTEMA SROI — 13 agentes
+     ============================================================ -->
+<div class="content-section alt">
+<div class="content-wide">
+
+<span class="section-label">Ecosistema 1 de 3</span>
+<h2 class="section-heading">Ecosistema SROI — 13 agentes especializados</h2>
+<p style="font-size:1.05rem;color:#475569;margin-bottom:1.5rem;">
+  Cubre las 6 etapas de la metodología SVI de extremo a extremo.
+  El agente orquestador <strong>sroi-agent</strong> diagnostica el estado del análisis
+  y enruta al especialista correcto en cada momento del ciclo.
+</p>
+
+<div class="ag-sroi-grid">
+
+  <!-- Orquestador -->
+  <div class="ag-card ag-card--orch">
+    <div class="ag-card-badge">Orquestador · Punto de entrada</div>
+    <div class="ag-card-name">sroi-agent</div>
+    <p class="ag-card-desc">Diagnostica el estado del análisis SROI, identifica brechas, enruta al agente especialista correcto y sintetiza resultados del ecosistema. Punto de entrada único para cualquier consulta SROI.</p>
+    <div class="ag-card-tags">
+      <span class="ag-tag ag-tag--teal">Diagnóstico</span>
+      <span class="ag-tag ag-tag--teal">Enrutamiento</span>
+      <span class="ag-tag ag-tag--teal">Síntesis</span>
+    </div>
+  </div>
+
+  <!-- Etapa 1 -->
+  <div class="ag-card">
+    <div class="ag-card-badge">Etapa 1–2 · Fundamentos</div>
+    <div class="ag-card-name">sroi-principios</div>
+    <p class="ag-card-desc">Garante conceptual de los 8 principios SVI. Audita cualquier análisis contra los 48 criterios del SVI Report Assurance Standard y genera checklists de cumplimiento.</p>
+    <div class="ag-card-tags">
+      <span class="ag-tag">8 principios SVI</span>
+      <span class="ag-tag">48 criterios</span>
+      <span class="ag-tag">Auditoría</span>
+    </div>
+  </div>
+
+  <div class="ag-card">
+    <div class="ag-card-badge">Etapa 1–2 · Arquitectura</div>
+    <div class="ag-card-name">sroi-metodologia</div>
+    <p class="ag-card-desc">Guía el diseño de las 6 etapas del SROI. Construye el Impact Map desde la Teoría del Cambio, define el alcance y mapea stakeholders materiales con criterios de materialidad.</p>
+    <div class="ag-card-tags">
+      <span class="ag-tag">6 etapas</span>
+      <span class="ag-tag">Impact Map</span>
+      <span class="ag-tag">Stakeholders</span>
+    </div>
+  </div>
+
+  <!-- Etapa 4–5 -->
+  <div class="ag-card">
+    <div class="ag-card-badge">Etapa 4 · Valoración</div>
+    <div class="ag-card-name">sroi-monetizacion</div>
+    <p class="ag-card-desc">Especialista en proxies financieros. Domina WTP, WELLBY (£13,000/pt LS), costos unitarios, precios hedónicos y Value Game. Selecciona el método de valoración óptimo para cada outcome.</p>
+    <div class="ag-card-tags">
+      <span class="ag-tag">WTP · WTA</span>
+      <span class="ag-tag">WELLBY</span>
+      <span class="ag-tag">Unit Costs</span>
+      <span class="ag-tag">Hedonic</span>
+    </div>
+  </div>
+
+  <div class="ag-card">
+    <div class="ag-card-badge">Etapa 4–5 · Cálculo</div>
+    <div class="ag-card-name">sroi-analisis</div>
+    <p class="ag-card-desc">Motor cuantitativo. Calcula deadweight, attribution, displacement y drop-off. Construye el VPN de beneficios, aplica la tasa de descuento y genera el ratio SROI con escenarios conservador/central/optimista.</p>
+    <div class="ag-card-tags">
+      <span class="ag-tag">DW · Attr · Disp</span>
+      <span class="ag-tag">VPN</span>
+      <span class="ag-tag">Ratio SROI</span>
+    </div>
+  </div>
+
+  <div class="ag-card">
+    <div class="ag-card-badge">Etapa 5 · Riesgo</div>
+    <div class="ag-card-name">sroi-sensibilidad</div>
+    <p class="ag-card-desc">Análisis de riesgo financiero avanzado. Implementa Monte Carlo, análisis de tornado, TIR Social, break-even y payback. Identifica los drivers de riesgo dominantes y cuantifica la robustez del ratio.</p>
+    <div class="ag-card-tags">
+      <span class="ag-tag">Monte Carlo</span>
+      <span class="ag-tag">Tornado</span>
+      <span class="ag-tag">TIR Social</span>
+    </div>
+  </div>
+
+  <div class="ag-card">
+    <div class="ag-card-badge">Etapa 5 · Hoja de cálculo</div>
+    <div class="ag-card-name">sroi-valuemap</div>
+    <p class="ag-card-desc">Construye el Value Map completo en Excel/Google Sheets con fórmulas SVI exactas. Soporta múltiples stakeholders, proxies por outcome y ajuste automático de todos los factores de impacto.</p>
+    <div class="ag-card-tags">
+      <span class="ag-tag">Excel · Sheets</span>
+      <span class="ag-tag">Bilingüe ES/EN</span>
+      <span class="ag-tag">Fórmulas SVI</span>
+    </div>
+  </div>
+
+  <div class="ag-card">
+    <div class="ag-card-badge">Etapa 5–6 · Visualización</div>
+    <div class="ag-card-name">sroi-visualizacion</div>
+    <p class="ag-card-desc">Genera visualizaciones profesionales en R/ggplot2: waterfall SROI, benchmarks vs BD SVI, tornado de sensibilidad, diagrama Sankey de flujos de valor y dashboards ejecutivos.</p>
+    <div class="ag-card-tags">
+      <span class="ag-tag">R · ggplot2</span>
+      <span class="ag-tag">Waterfall</span>
+      <span class="ag-tag">Sankey</span>
+    </div>
+  </div>
+
+  <div class="ag-card">
+    <div class="ag-card-badge">Etapa 6 · Comunicación</div>
+    <div class="ag-card-name">sroi-presentacion</div>
+    <p class="ag-card-desc">Diseña presentaciones ejecutivas RevealJS para tres audiencias: junta directiva, inversionistas y gobierno. Estructura el discurso con el framework IV Hub y adapta el nivel técnico al público.</p>
+    <div class="ag-card-tags">
+      <span class="ag-tag">RevealJS</span>
+      <span class="ag-tag">IV Hub</span>
+      <span class="ag-tag">ES · EN</span>
+    </div>
+  </div>
+
+  <div class="ag-card">
+    <div class="ag-card-badge">Etapa 6 · Reporte</div>
+    <div class="ag-card-name">sroi-informe</div>
+    <p class="ag-card-desc">Constructor de informes SROI estructurados según la guía SVI 2012. Adapta el nivel de detalle técnico a la audiencia (ejecutivo, técnico, financiador) y verifica coherencia interna.</p>
+    <div class="ag-card-tags">
+      <span class="ag-tag">Estructura SVI</span>
+      <span class="ag-tag">Multi-audiencia</span>
+    </div>
+  </div>
+
+  <div class="ag-card">
+    <div class="ag-card-badge">Etapa 6 · Template</div>
+    <div class="ag-card-name">sroi-report-quarto</div>
+    <p class="ag-card-desc">Genera templates Quarto (.qmd) alineados con los 48 criterios del SVI Report Assurance Standard. Produce documentos reproducibles listos para aseguramiento externo SVI.</p>
+    <div class="ag-card-tags">
+      <span class="ag-tag">Quarto</span>
+      <span class="ag-tag">48 criterios SVI</span>
+      <span class="ag-tag">Reproducible</span>
+    </div>
+  </div>
+
+  <div class="ag-card ag-card--critica">
+    <div class="ag-card-badge">Revisión · Adversarial</div>
+    <div class="ag-card-name">sroi-critica</div>
+    <p class="ag-card-desc">El contradictor académico del ecosistema. Aplica las 8 críticas más frecuentes de la literatura académica al análisis SROI — doble conteo, cherry picking, monetización especulativa — y genera protocolo de defensa.</p>
+    <div class="ag-card-tags">
+      <span class="ag-tag ag-tag--red">Adversarial</span>
+      <span class="ag-tag">8 críticas</span>
+      <span class="ag-tag">Protocolo defensa</span>
+    </div>
+  </div>
+
+  <div class="ag-card">
+    <div class="ag-card-badge">Evidencia · Base de datos</div>
+    <div class="ag-card-name">sroi-referencias</div>
+    <p class="ag-card-desc">Curador de evidencia empírica internacional. Accede a los 383 reportes SVI para benchmarking de ratios, selección de proxies verificados y contextualización del análisis en el sector.</p>
+    <div class="ag-card-tags">
+      <span class="ag-tag">383 reportes SVI</span>
+      <span class="ag-tag">Benchmarking</span>
+      <span class="ag-tag">Proxies</span>
+    </div>
+  </div>
+
+</div>
+
+</div>
+</div>
+
+<!-- ============================================================
+     ECOSISTEMA TOC — 5 agentes
+     ============================================================ -->
+<div class="content-section">
+<div class="content-wide">
+
+<span class="section-label">Ecosistema 2 de 3</span>
+<h2 class="section-heading">Ecosistema ToC — 5 agentes para Teorías del Cambio</h2>
+<p style="font-size:1.05rem;color:#475569;margin-bottom:1.5rem;">
+  Diseña, analiza, califica y mejora Teorías del Cambio con el <strong>IMToC</strong>
+  (Índice de Madurez de la Teoría del Cambio). Base de datos de 200+ ToC en 29 sectores
+  disponible como referencia en cada análisis.
+</p>
+
+<div class="ag-toc-grid">
+
+  <div class="ag-card ag-card--orch ag-card--amber">
+    <div class="ag-card-badge">Orquestador · Punto de entrada</div>
+    <div class="ag-card-name">toc-agent</div>
+    <p class="ag-card-desc">Orquestador del ecosistema ToC. Diagnostica la necesidad (¿construir, analizar o mejorar?), benchmarka la ToC contra el corpus de 200+ documentos y enruta al agente especialista.</p>
+    <div class="ag-card-tags">
+      <span class="ag-tag ag-tag--amber">Diagnóstico</span>
+      <span class="ag-tag ag-tag--amber">Benchmarking IMToC</span>
+    </div>
+  </div>
+
+  <div class="ag-card">
+    <div class="ag-card-badge">Análisis · Disección</div>
+    <div class="ag-card-name">toc-analizar</div>
+    <p class="ag-card-desc">Disección estructural de una ToC existente. Extrae la cadena causal, identifica supuestos implícitos y explícitos, mapea indicadores por nivel de la cadena y evalúa coherencia lógica.</p>
+    <div class="ag-card-tags">
+      <span class="ag-tag">Cadena causal</span>
+      <span class="ag-tag">Supuestos</span>
+      <span class="ag-tag">Indicadores</span>
+    </div>
+  </div>
+
+  <div class="ag-card ag-card--featured">
+    <div class="ag-card-badge">Calificación · IMToC</div>
+    <div class="ag-card-name">toc-calificar</div>
+    <p class="ag-card-desc">Aplica el <strong>IMToC</strong> (10 dimensiones, 3 dominios, 0–100 pts, N1–N5). Genera score con desglose por dimensión, percentil en el corpus y hoja de ruta de mejora priorizada H1/H2/H3. Único en LATAM.</p>
+    <div class="ag-card-tags">
+      <span class="ag-tag">10 dimensiones</span>
+      <span class="ag-tag">0–100 pts</span>
+      <span class="ag-tag">N1–N5</span>
+      <span class="ag-tag">H1/H2/H3</span>
+    </div>
+  </div>
+
+  <div class="ag-card">
+    <div class="ag-card-badge">Construcción · Desde cero</div>
+    <div class="ag-card-name">toc-construir</div>
+    <p class="ag-card-desc">Construye una Teoría del Cambio desde cero en 8 etapas con backwards mapping. Parte del cambio final deseado y trabaja hacia atrás para identificar los pasos causales necesarios.</p>
+    <div class="ag-card-tags">
+      <span class="ag-tag">8 etapas</span>
+      <span class="ag-tag">Backwards mapping</span>
+    </div>
+  </div>
+
+  <div class="ag-card">
+    <div class="ag-card-badge">Mejora · Brechas</div>
+    <div class="ag-card-name">toc-mejorar</div>
+    <p class="ag-card-desc">Diagnóstico de brechas y plan de mejora priorizado. Analiza las 10 dimensiones del IMToC, identifica las intervenciones de mayor retorno metodológico y genera un plan H1/H2/H3 con criterios de avance.</p>
+    <div class="ag-card-tags">
+      <span class="ag-tag">Brechas IMToC</span>
+      <span class="ag-tag">Priorización</span>
+      <span class="ag-tag">Plan H1/H2/H3</span>
+    </div>
+  </div>
+
+</div>
+
+</div>
+</div>
+
+<!-- ============================================================
+     ECOSISTEMA INDICADORES — 5 agentes
+     ============================================================ -->
+<div class="content-section alt">
+<div class="content-wide">
+
+<span class="section-label">Ecosistema 3 de 3</span>
+<h2 class="section-heading">Ecosistema Indicadores — 5 agentes para sistemas M&E</h2>
+<p style="font-size:1.05rem;color:#475569;margin-bottom:1.5rem;">
+  Diseña, clasifica, selecciona y audita sistemas completos de indicadores.
+  Alineado con SMART, GRI, IRIS+, SVI y los estándares OCDE-CAD.
+  Banco de 105 indicadores P/R/I verificados disponible como referencia.
+</p>
+
+<div class="ag-ind-grid">
+
+  <div class="ag-card ag-card--orch ag-card--blue">
+    <div class="ag-card-badge">Orquestador · Punto de entrada</div>
+    <div class="ag-card-name">indicator-agent</div>
+    <p class="ag-card-desc">Orquestador del ecosistema de indicadores. Evalúa el sistema M&E actual, identifica gaps y enruta al agente especialista: clasificador, selector, auditor o arquitecto del framework.</p>
+    <div class="ag-card-tags">
+      <span class="ag-tag ag-tag--blue">Diagnóstico M&E</span>
+      <span class="ag-tag ag-tag--blue">Enrutamiento</span>
+    </div>
+  </div>
+
+  <div class="ag-card">
+    <div class="ag-card-badge">Clasificación · Conceptual</div>
+    <div class="ag-card-name">indicator-classifier</div>
+    <p class="ag-card-desc">Clasifica indicadores en la cadena P→R→I (Proceso, Resultado, Impacto). Distingue outputs de outcomes, identifica el nivel causal al que pertenece cada indicador y detecta duplicidades o redundancias.</p>
+    <div class="ag-card-tags">
+      <span class="ag-tag">P→R→I</span>
+      <span class="ag-tag">Cadena causal</span>
+      <span class="ag-tag">Outputs vs outcomes</span>
+    </div>
+  </div>
+
+  <div class="ag-card">
+    <div class="ag-card-badge">Arquitectura · Sistema M&E</div>
+    <div class="ag-card-name">indicator-framework</div>
+    <p class="ag-card-desc">Arquitecto del sistema completo de M&E. Diseña la estructura de indicadores alineada con la ToC, define frecuencias de medición, fuentes, responsables y ciclo de retroalimentación al programa.</p>
+    <div class="ag-card-tags">
+      <span class="ag-tag">Sistema M&E</span>
+      <span class="ag-tag">Ciclo de aprendizaje</span>
+    </div>
+  </div>
+
+  <div class="ag-card">
+    <div class="ag-card-badge">Auditoría · Calidad</div>
+    <div class="ag-card-name">indicator-quality</div>
+    <p class="ag-card-desc">Audita la calidad técnica de cada indicador contra estándares SMART, GRI, IRIS+ y SVI. Genera un scorecard de calidad con recomendaciones específicas de mejora por indicador.</p>
+    <div class="ag-card-tags">
+      <span class="ag-tag">SMART</span>
+      <span class="ag-tag">GRI · IRIS+</span>
+      <span class="ag-tag">Scorecard</span>
+    </div>
+  </div>
+
+  <div class="ag-card">
+    <div class="ag-card-badge">Selección · Estratégica</div>
+    <div class="ag-card-name">indicator-selector</div>
+    <p class="ag-card-desc">Selecciona el conjunto mínimo suficiente de indicadores con máximo poder informativo. Pondera costo de recolección, sensibilidad al cambio y alineación con exigencias de financiadores.</p>
+    <div class="ag-card-tags">
+      <span class="ag-tag">Mínimo suficiente</span>
+      <span class="ag-tag">Costo-efectividad</span>
+    </div>
+  </div>
+
+</div>
+
+</div>
+</div>
+
+<!-- ============================================================
+     CTA
+     ============================================================ -->
+<div class="content-section">
+<div class="content-inner">
+
+<div style="background: linear-gradient(135deg, #0F172A 0%, #0D4D4A 100%); border-radius: 1rem; padding: 2.5rem; text-align: center;">
+  <div style="color: #5EEAD4; font-size: 0.8rem; font-weight: 700; letter-spacing: 0.1em; text-transform: uppercase; margin-bottom: 0.8rem;">Punto de entrada</div>
+  <h3 style="color: white; font-size: 1.4rem; font-weight: 800; margin-bottom: 0.5rem;">¿Por dónde empezar?</h3>
+  <p style="color: #94A3B8; font-size: 0.95rem; max-width: 540px; margin: 0 auto 1.5rem;">
+    Los tres ecosistemas convergen cuando su análisis lo requiere.
+    El punto de entrada recomendado depende de en qué etapa del ciclo iMEL® está su programa.
+  </p>
+  <div style="display:flex;gap:1rem;justify-content:center;flex-wrap:wrap;">
+    <a href="../diagnostico.html"
+       style="display:inline-block;background:#0D9488;color:white;padding:0.75rem 1.8rem;border-radius:0.625rem;text-decoration:none;font-weight:700;font-size:0.9rem;">
+      Hacer el diagnóstico →
+    </a>
+    <a href="mailto:jcmunozm@eafit.edu.co"
+       style="display:inline-block;background:rgba(255,255,255,0.08);color:white;border:1px solid rgba(255,255,255,0.2);padding:0.75rem 1.8rem;border-radius:0.625rem;text-decoration:none;font-weight:700;font-size:0.9rem;">
+      Contactar al equipo
+    </a>
+  </div>
+</div>
+
+</div>
+</div>
+```
+
+```{=html}
+<style>
+/* ── Grids de agentes ──────────────────────────────────────────── */
+.ag-sroi-grid,
+.ag-toc-grid,
+.ag-ind-grid {
+  display: grid;
+  gap: 1rem;
+  margin-top: 1.5rem;
+}
+.ag-sroi-grid { grid-template-columns: repeat(auto-fill, minmax(280px, 1fr)); }
+.ag-toc-grid  { grid-template-columns: repeat(auto-fill, minmax(260px, 1fr)); }
+.ag-ind-grid  { grid-template-columns: repeat(auto-fill, minmax(260px, 1fr)); }
+
+/* ── Tarjeta de agente ─────────────────────────────────────────── */
+.ag-card {
+  background: #FFFFFF;
+  border: 1px solid #E2E8F0;
+  border-radius: 0.875rem;
+  padding: 1.25rem 1.4rem;
+  transition: box-shadow 0.2s, border-color 0.2s;
+}
+.ag-card:hover {
+  box-shadow: 0 4px 20px rgba(13,148,136,0.1);
+  border-color: #0D9488;
+}
+.ag-card--orch {
+  background: #F0FDFA;
+  border-color: #0D9488;
+  border-left: 4px solid #0D9488;
+}
+.ag-card--amber { background: #FFFBEB; border-color: #F59E0B; border-left-color: #F59E0B; }
+.ag-card--blue  { background: #EFF6FF; border-color: #3B82F6; border-left-color: #3B82F6; }
+.ag-card--critica {
+  background: #FFF7ED;
+  border-color: #F97316;
+  border-left: 4px solid #F97316;
+}
+.ag-card--featured {
+  background: linear-gradient(135deg, #F0FDFA 0%, #EFF6FF 100%);
+  border-color: #0D9488;
+  border-left: 4px solid #0D9488;
+}
+
+.ag-card-badge {
+  font-size: 0.67rem;
+  font-weight: 700;
+  letter-spacing: 0.08em;
+  text-transform: uppercase;
+  color: #94A3B8;
+  margin-bottom: 0.35rem;
+}
+.ag-card-name {
+  font-family: 'JetBrains Mono', monospace;
+  font-size: 1rem;
+  font-weight: 700;
+  color: #0F172A;
+  margin-bottom: 0.5rem;
+}
+.ag-card-desc {
+  font-size: 0.85rem;
+  color: #475569;
+  line-height: 1.55;
+  margin: 0 0 0.75rem;
+}
+.ag-card-tags { display: flex; flex-wrap: wrap; gap: 0.35rem; }
+.ag-tag {
+  background: #F1F5F9;
+  color: #475569;
+  border: 1px solid #E2E8F0;
+  border-radius: 2rem;
+  padding: 0.15rem 0.6rem;
+  font-size: 0.72rem;
+  font-weight: 600;
+}
+.ag-tag--teal   { background: #F0FDFA; color: #0D9488; border-color: #99F6E4; }
+.ag-tag--amber  { background: #FFFBEB; color: #D97706; border-color: #FDE68A; }
+.ag-tag--blue   { background: #EFF6FF; color: #1D4ED8; border-color: #BFDBFE; }
+.ag-tag--red    { background: #FEF2F2; color: #DC2626; border-color: #FECACA; }
+</style>
+```

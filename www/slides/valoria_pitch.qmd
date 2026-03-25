@@ -1,0 +1,1494 @@
+---
+title: "ValorIA — Centro Valor Público EAFIT"
+subtitle: "El rigor que su impacto merece"
+author: "Centro Valor Público · Universidad EAFIT"
+date: "2026"
+lang: es
+format:
+  revealjs:
+    theme: [dark, valoria_pitch.scss]
+    transition: slide
+    transition-speed: fast
+    slide-number: "c/t"
+    show-slide-number: all
+    footer: "Valor·IA · Centro Valor Público EAFIT · iMEL® · SVI Certified · jcmunozm@eafit.edu.co"
+    chalkboard: false
+    scrollable: false
+    fig-align: center
+    echo: false
+    warning: false
+    self-contained: true
+    width: 1280
+    height: 720
+    margin: 0.07
+execute:
+  echo: false
+  warning: false
+---
+
+## {.portada background-color="#0F172A"}
+
+::: portada-wrap
+::: portada-eyebrow
+Centro Valor Público · Universidad EAFIT
+:::
+
+::: portada-titulo
+ValorIA
+:::
+
+::: portada-sub
+El rigor que su impacto merece.<br>
+Medición, valoración y gestión del valor social para América Latina.
+:::
+
+::: {.portada-badges}
+[iMEL® Metodología propia]{.pill .pill-teal}
+[SVI Certified]{.pill .pill-green}
+[Universidad EAFIT]{.pill .pill-slate}
+[América Latina]{.pill .pill-slate}
+:::
+
+::: portada-instructor
+**Juan Carlos Muñoz-Mora, PhD** · Economista · Universidad EAFIT
+Centro Valor Público · Investigador Asociado IDS Sussex, UK
+:::
+:::
+
+::: notes
+Bienvenidos. Hoy quiero presentarles ValorIA — la propuesta del Centro Valor Público de EAFIT para transformar la forma en que las organizaciones miden, demuestran y gestionan su impacto social. No es una consultoría más. Es un ecosistema completo construido sobre evidencia académica, metodología verificada internacionalmente y herramientas de inteligencia artificial.
+:::
+
+---
+
+## La pregunta que todo programa evita {background-color="#0F172A"}
+
+::: col-6040
+::: {}
+
+::: seccion-label
+El punto de partida incómodo
+:::
+
+<br>
+
+> "Todo programa social **ya se está evaluando.**"
+
+<br>
+
+Sus financiadores lo están haciendo — cuando deciden renovar o no.
+
+Sus beneficiarios lo están haciendo — cuando regresan o no regresan.
+
+El contexto político lo está haciendo — cuando exige rendición de cuentas.
+
+<br>
+
+**La pregunta no es si se evalúa.**
+
+**La pregunta es con qué rigor.**
+
+:::
+::: {}
+
+::: kpi-stack
+
+::: {.kpi-box .kpi-amber}
+Sin evidencia verificable, el próximo ciclo de financiamiento se decide con intuición.
+:::
+
+::: {.kpi-box .kpi-red}
+Los inversionistas de impacto no pueden entrar sin datos auditables.
+:::
+
+::: {.kpi-box .kpi-teal}
+Con rigor metodológico, el impacto se convierte en capital que moviliza más capital.
+:::
+
+:::
+
+:::
+:::
+
+::: notes
+El problema no es la falta de intención — es la falta de rigor. Casi todas las organizaciones recopilan datos. Muy pocas tienen evidencia. La diferencia entre datos y evidencia determina quién recibe financiamiento, quién aprende de sus errores y quién puede escalar.
+:::
+
+---
+
+## Nuestro diagnóstico: lo que encontramos en el sector {background-color="#0F172A"}
+
+::: seccion-label
+Evidencia empírica — IMToC corpus · 78 Teorías del Cambio calificadas
+:::
+
+<br>
+
+::: corpus-strip
+
+::: corpus-stat
+[38.8]{.corpus-num}
+::: corpus-label
+Promedio IMToC /100
+(N2 alto — N3 bajo)
+:::
+:::
+
+::: corpus-stat
+[0]{.corpus-num}
+::: corpus-label
+Programas en N5
+(excelencia evaluativa)
+:::
+:::
+
+::: corpus-stat
+[1.63]{.corpus-num}
+::: corpus-label
+/10 en Supuestos
+(dimensión más débil)
+:::
+:::
+
+::: corpus-stat
+[200+]{.corpus-num}
+::: corpus-label
+ToC en base de datos
+(29 sectores, ES+EN)
+:::
+:::
+
+:::
+
+::: col-2
+
+::: {}
+**Distribución por nivel de madurez:**
+
+```{=html}
+<div class="imtoc-dist">
+  <div style="display:flex;flex-direction:column;align-items:center;flex:1;">
+    <div class="imtoc-bar bar-n1" style="height:30%;">14</div>
+    <div class="imtoc-bar-label">N1<br>Exploración</div>
+  </div>
+  <div style="display:flex;flex-direction:column;align-items:center;flex:1;">
+    <div class="imtoc-bar bar-n2" style="height:55%;">26</div>
+    <div class="imtoc-bar-label">N2<br>Básico</div>
+  </div>
+  <div style="display:flex;flex-direction:column;align-items:center;flex:1;">
+    <div class="imtoc-bar bar-n3" style="height:95%;">36</div>
+    <div class="imtoc-bar-label">N3<br>Estructurado</div>
+  </div>
+  <div style="display:flex;flex-direction:column;align-items:center;flex:1;">
+    <div class="imtoc-bar bar-n4" style="height:10%;">2</div>
+    <div class="imtoc-bar-label">N4<br>Demostrado</div>
+  </div>
+  <div style="display:flex;flex-direction:column;align-items:center;flex:1;">
+    <div class="imtoc-bar bar-n5" style="height:4%;">0</div>
+    <div class="imtoc-bar-label">N5<br>Excelencia</div>
+  </div>
+</div>
+```
+
+:::
+::: {}
+
+::: callout-amber
+**Hallazgo clave:** La cadena causal se documenta (8.41/10) pero los supuestos casi nunca se cuestionan (1.63/10). Los programas saben qué hacen — pero no saben *por qué* funciona.
+:::
+
+::: {style="margin-top:0.8em;font-size:0.72em;color:#94A3B8;"}
+Corpus: 78 Teorías del Cambio calificadas con IMToC (Índice de Madurez de la Teoría del Cambio) · 29 sectores · Social Value International · 3ie · BID · ONU · USAID
+:::
+
+:::
+:::
+
+::: notes
+Analizamos 78 Teorías del Cambio de organizaciones en LATAM y el mundo usando nuestro IMToC. El resultado es claro: la mayoría de programas documenta sus actividades pero no construye la evidencia que sus financiadores y partes interesadas necesitan para confiar en sus afirmaciones de impacto.
+:::
+
+---
+
+## Las consecuencias de no poder demostrar {background-color="#0F172A"}
+
+::: seccion-label
+Lo que está en juego — el costo real de la invisibilidad del impacto
+:::
+
+<br>
+
+::: col-2
+::: {}
+
+::: kpi-stack
+
+::: {.kpi-box .kpi-red}
+**Ciclos de financiamiento por intuición**
+Sin evidencia, quien decide renueva con base en relaciones personales — no en resultados. El programa excelente pierde ante el programa mejor comunicado.
+:::
+
+::: {.kpi-box .kpi-red}
+**Aprendizaje organizacional atrapado en personas**
+Sin sistema, el conocimiento se va cuando se va el coordinador. El próximo ciclo repite los mismos errores.
+:::
+
+::: {.kpi-box .kpi-red}
+**Mercado de impacto cerrado**
+Los inversionistas de impacto, bonos sociales y blended finance necesitan datos verificables. Sin ellos, el programa queda fuera.
+:::
+
+:::
+
+:::
+::: {}
+
+::: callout-teal
+### La pregunta que un financiador siempre hace:
+
+*"¿Cómo sé que este resultado se debe a lo que usted hizo — y no habría ocurrido de todas formas?"*
+
+Si no tiene respuesta verificable, no está midiendo impacto.
+Está midiendo actividad.
+:::
+
+::: {style="margin-top:1rem;font-size:0.72em;color:#94A3B8;text-align:center;font-style:italic;"}
+"El programa puede ser excelente.
+Y nadie puede demostrarlo."
+:::
+
+:::
+:::
+
+::: notes
+El costo real de no medir con rigor no es solo una cuestión académica. Es financiamiento que no llega, aprendizajes que no escalan, y organizaciones que podrían hacer más bien — pero no pueden probarlo. Aquí es donde entra ValorIA.
+:::
+
+---
+
+## ValorIA: el ecosistema completo {background-color="#0F172A"}
+
+::: seccion-label
+La solución — iMEL® · Integrated Monitoring, Evaluation & Learning
+:::
+
+<br>
+
+::: col-6040
+::: {}
+
+**Un ciclo completo: de la pregunta al aprendizaje**
+
+```{=html}
+<div style="display:flex;flex-direction:column;gap:0.5rem;margin:0.8em 0;font-size:0.7em;">
+  <div style="display:flex;align-items:center;gap:0.8rem;background:rgba(13,148,136,0.1);border:1px solid rgba(13,148,136,0.3);border-radius:8px;padding:0.6rem 0.9rem;">
+    <span style="font-size:1.2em;flex:0 0 auto;">🔍</span>
+    <div><strong style="color:#5EEAD4;">1. Diagnóstico</strong><br><span style="color:#94A3B8;">Madurez metodológica — 5 dimensiones, N1→N5</span></div>
+  </div>
+  <div style="display:flex;align-items:center;gap:0.8rem;background:rgba(59,130,246,0.08);border:1px solid rgba(59,130,246,0.2);border-radius:8px;padding:0.6rem 0.9rem;">
+    <span style="font-size:1.2em;flex:0 0 auto;">🗺</span>
+    <div><strong style="color:#93C5FD;">2. Diseño MEL</strong><br><span style="color:#94A3B8;">Teoría del cambio, Impact Map, sistema de indicadores</span></div>
+  </div>
+  <div style="display:flex;align-items:center;gap:0.8rem;background:rgba(245,158,11,0.08);border:1px solid rgba(245,158,11,0.2);border-radius:8px;padding:0.6rem 0.9rem;">
+    <span style="font-size:1.2em;flex:0 0 auto;">📊</span>
+    <div><strong style="color:#FCD34D;">3. Implementación</strong><br><span style="color:#94A3B8;">Recolección de datos, monitoreo, ciclos de aprendizaje</span></div>
+  </div>
+  <div style="display:flex;align-items:center;gap:0.8rem;background:rgba(16,185,129,0.08);border:1px solid rgba(16,185,129,0.2);border-radius:8px;padding:0.6rem 0.9rem;">
+    <span style="font-size:1.2em;flex:0 0 auto;">💰</span>
+    <div><strong style="color:#6EE7B7;">4. Valoración SROI</strong><br><span style="color:#94A3B8;">Monetización de outcomes, ratio, análisis de sensibilidad</span></div>
+  </div>
+  <div style="display:flex;align-items:center;gap:0.8rem;background:rgba(124,58,237,0.08);border:1px solid rgba(124,58,237,0.2);border-radius:8px;padding:0.6rem 0.9rem;">
+    <span style="font-size:1.2em;flex:0 0 auto;">📄</span>
+    <div><strong style="color:#C4B5FD;">5. Reporte SVI</strong><br><span style="color:#94A3B8;">Informe verificado · 48 criterios de aseguramiento</span></div>
+  </div>
+  <div style="display:flex;align-items:center;gap:0.8rem;background:rgba(8,145,178,0.08);border:1px solid rgba(8,145,178,0.2);border-radius:8px;padding:0.6rem 0.9rem;">
+    <span style="font-size:1.2em;flex:0 0 auto;">🔄</span>
+    <div><strong style="color:#A5F3FC;">6. Aprendizaje</strong><br><span style="color:#94A3B8;">Gestión adaptativa — mejoramos para aplicar</span></div>
+  </div>
+</div>
+```
+
+:::
+::: {}
+
+::: {style="text-align:center;padding:1.5rem;background:rgba(13,148,136,0.08);border:1px solid rgba(13,148,136,0.25);border-radius:12px;"}
+
+::: {style="font-size:0.62em;font-weight:700;letter-spacing:0.12em;text-transform:uppercase;color:#5EEAD4;margin-bottom:0.5em;"}
+Nuestro principio
+:::
+
+::: {style="font-size:1em;color:white;font-style:italic;line-height:1.6;"}
+"Evaluamos para aprender.
+Aprendemos para mejorar.
+Mejoramos para aplicar."
+:::
+
+:::
+
+::: {style="margin-top:1.2rem;font-size:0.68em;color:#94A3B8;"}
+**Alineado internacionalmente con:**
+Social Value International (SVI) · DCED · Value for Money (VfM) · ODS · GRI/SASB · IRIS+ · J-PAL · 3ie
+:::
+
+:::
+:::
+
+::: notes
+iMEL es nuestra metodología propia registrada. No es un marco teórico — es un sistema operativo para la gestión del impacto. Comenzamos siempre con un diagnóstico de madurez para saber dónde está el programa hoy, y desde ahí diseñamos la ruta metodológica correcta.
+:::
+
+---
+
+## La escala de madurez iMEL® {background-color="#0F172A"}
+
+::: seccion-label
+¿Dónde está su programa hoy? — 5 niveles · 5 dimensiones · 10 indicadores IMToC
+:::
+
+<br>
+
+::: escala-grid
+
+::: {.escala-card .escala-n1}
+::: escala-nivel
+N1
+:::
+::: escala-nombre
+Exploración inicial
+:::
+Primeras sistematizaciones. Prioridad: construir ToC y sistema de seguimiento básico.
+:::
+
+::: {.escala-card .escala-n2}
+::: escala-nivel
+N2
+:::
+::: escala-nombre
+Sistematización básica
+:::
+Elementos dispersos. Momento de integrar en sistema coherente y medir resultados.
+:::
+
+::: {.escala-card .escala-n3 .escala-activo}
+::: escala-nivel
+N3
+:::
+::: escala-nombre
+Medición estructurada
+:::
+Sistema activo. Fortalecer evidencia causal y cuantificar impacto más allá de outputs.
+:::
+
+::: {.escala-card .escala-n4}
+::: escala-nivel
+N4
+:::
+::: escala-nombre
+Impacto demostrado
+:::
+Evidencia sólida. Valoración monetaria y comunicación robusta a financiadores.
+:::
+
+::: {.escala-card .escala-n5}
+::: escala-nivel
+N5
+:::
+::: escala-nombre
+Excelencia evaluativa
+:::
+Sistema M&E de clase mundial. Verificación SVI, publicación y referente del sector.
+:::
+
+:::
+
+<br>
+
+::: dim-grid
+
+::: dim-card
+::: dim-num
+1
+:::
+::: dim-name
+Coherencia programática
+:::
+::: dim-desc
+ToC documentada + indicadores alineados
+:::
+:::
+
+::: dim-card
+::: dim-num
+2
+:::
+::: dim-name
+Eficacia
+:::
+::: dim-desc
+Objetivos cumplidos, metas de beneficiarios
+:::
+:::
+
+::: dim-card
+::: dim-num
+3
+:::
+::: dim-name
+Eficiencia operativa
+:::
+::: dim-desc
+Trazabilidad de recursos + factores de ajuste
+:::
+:::
+
+::: dim-card
+::: dim-num
+4
+:::
+::: dim-name
+Impacto social
+:::
+::: dim-desc
+Cambio real con contrafactual documentado
+:::
+:::
+
+::: dim-card
+::: dim-num
+5
+:::
+::: dim-name
+Valoración monetaria
+:::
+::: dim-desc
+SROI, WELLBY, WTP, costos unitarios
+:::
+:::
+
+:::
+
+::: note-small
+La sofisticación metodológica que tiene sentido es la que responde a la pregunta más importante que el programa puede hacerse hoy.
+:::
+
+---
+
+## SROI: la metodología de Social Value International {background-color="#0F172A"}
+
+::: seccion-label
+Metodología — 6 etapas · 8 principios · 48 criterios de aseguramiento
+:::
+
+<br>
+
+::: etapas-grid
+
+::: etapa-card
+::: etapa-num
+01
+:::
+::: etapa-titulo
+Alcance y stakeholders
+:::
+Definir propósito del análisis. Identificar y priorizar stakeholders materiales. Período de evaluación.
+:::
+
+::: etapa-card
+::: etapa-num
+02
+:::
+::: etapa-titulo
+Impact Map
+:::
+Mapear inputs → actividades → outputs → outcomes para cada grupo de stakeholders. Indicadores y fuentes.
+:::
+
+::: etapa-card
+::: etapa-num
+03
+:::
+::: etapa-titulo
+Evidencia de outcomes
+:::
+Recolectar datos sobre cambios observados. Encuestas, entrevistas, datos administrativos y triangulación.
+:::
+
+::: etapa-card
+::: etapa-num
+04
+:::
+::: etapa-titulo
+Impacto neto
+:::
+Aplicar cuatro factores: **Deadweight** · **Atribución** · **Desplazamiento** · **Decaimiento**. Impacto real.
+:::
+
+::: etapa-card
+::: etapa-num
+05
+:::
+::: etapa-titulo
+Cálculo del ratio
+:::
+Monetizar outcomes con proxies verificados. Value Map, VPN, tasa de descuento, análisis de sensibilidad.
+:::
+
+::: etapa-card
+::: etapa-num
+06
+:::
+::: etapa-titulo
+Informe y verificación
+:::
+Reporte alineado con los 48 criterios SVI. Transparencia de supuestos, sensibilidad y hoja de ruta.
+:::
+
+:::
+
+::: callout-teal
+**Por cada $1 COP invertido con rigor metodológico documentado, el ratio SROI muestra cuántos pesos de valor social se generan.** En nuestro corpus de 383 reportes SVI: mediana 4.35× · promedio 5.87×.
+:::
+
+::: notes
+El SROI no es solo un número. Es el resultado de un proceso disciplinado de documentación, análisis y transparencia que permite a cualquier stakeholder entender de dónde vienen las afirmaciones de valor y qué tan conservadoras o agresivas son las estimaciones.
+:::
+
+---
+
+## Caso real: Hogares Saludables (N5) {background-color="#0F172A"}
+
+::: seccion-label
+Nivel N5 — cRCT · Evaluación aleatoria por conglomerados · Fundación Grupo Argos · Comfama
+:::
+
+<br>
+
+::: col-6040
+::: {}
+
+### El programa
+
+**1,163 hogares** en la periferia de Medellín. Intervención en nutrición, habitabilidad y bienestar en el hogar. Diseño experimental con grupo de control.
+
+**Metodología aplicada:** Ensayo controlado aleatorizado por conglomerados (cRCT) — el estándar de oro de la evaluación de impacto.
+
+### Por qué es N5
+
+- Contrafactual experimental riguroso
+- **0% deadweight** — el cambio no habría ocurrido sin el programa
+- Ratio SROI calculado con metodología SVI completa
+- Publicable en revista académica indexada
+
+:::
+::: {}
+
+::: ratio-center
+
+::: ratio-number
+3.74×
+:::
+
+SROI Central
+
+::: {style="font-size:0.6em;color:#94A3B8;margin-top:0.8em;line-height:1.6;"}
+Por cada $1 invertido:
+**$3.74 de valor social generado**
+:::
+
+::: {style="font-size:0.55em;color:#64748B;margin-top:0.5em;"}
+Nivel N5 · cRCT · 1,163 hogares · 0% deadweight
+SVI Methodology · CVP EAFIT
+:::
+
+:::
+
+:::
+:::
+
+::: notes
+Hogares Saludables es el referente más sólido de nuestro portafolio. No solo por el ratio SROI — sino porque la calidad del diseño experimental nos permite afirmar con certeza que el programa causó el cambio. Eso es lo que distingue N5 de los demás niveles.
+:::
+
+---
+
+## Caso real: Sueños que Transforman (N3→N4) {background-color="#0F172A"}
+
+::: seccion-label
+Nivel N3 · Ruta hacia N4 · Teatro Talita Cumi · Barrio Manrique, Medellín · Fundación Grupo Argos
+:::
+
+<br>
+
+::: col-6040
+::: {}
+
+### El contexto
+
+**Teatro Talita Cumi** — 25 años en deterioro en el Barrio Manrique. La intervención de Fundación Grupo Argos restauró el espacio y construyó un programa de liderazgo cultural con 60 beneficiarios directos.
+
+### Lo que encontramos
+
+- Datos pre-post con líderes del programa
+- Teoría del cambio documentada con stakeholders
+- SROI calculado con 3 proxies: WTP (infraestructura), costo evitado (seguridad), valoración de liderazgo
+
+### La ruta hacia N4
+
+Escala Cantril de bienestar · Grupo de comparación · Aseguramiento SVI 2027
+
+:::
+::: {}
+
+::: {style="text-align:center;padding:1.5rem;"}
+
+::: ratio-number
+2.35×
+:::
+
+::: {style="font-size:0.65em;color:#94A3B8;margin-top:0.5em;line-height:1.6;"}
+SROI Central
+Escenario conservador: 1.59×
+Proyección 5 años: 3.37×
+:::
+
+::: {style="margin-top:1rem;background:rgba(13,148,136,0.1);border:1px solid rgba(13,148,136,0.3);border-radius:8px;padding:0.6rem;font-size:0.6em;color:#A7F3D0;"}
+**Percentil 38** en corpus global SVI
+383 reportes comparados
+Mediana global: 4.35×
+:::
+
+:::
+
+:::
+:::
+
+---
+
+## Benchmarking: 383 reportes SVI internacionales {background-color="#0F172A"}
+
+::: seccion-label
+Evidencia global — Base de datos Social Value International · Análisis CVP EAFIT
+:::
+
+<br>
+
+::: bench-stats
+
+::: bench-stat
+[383]{.bench-stat-num}
+Reportes SVI verificados
+:::
+
+::: bench-stat
+[4.35×]{.bench-stat-num}
+Mediana global SROI
+:::
+
+::: bench-stat
+[5.87×]{.bench-stat-num}
+Promedio global SROI
+:::
+
+::: bench-stat
+[8]{.bench-stat-num}
+Asegurados SVI (máx. estándar)
+:::
+
+:::
+
+::: col-2
+::: {}
+
+**Ratios SROI por rango:**
+
+| Rango | % de reportes | Descripción |
+|:------|:-------------:|:------------|
+| < 1.5× | 8% | Valor marginal — revisar supuestos |
+| 1.5–3× | 22% | Valor sólido conservador |
+| **3–6×** | **45%** | **Rango típico verificable** |
+| 6–10× | 18% | Valor alto — requiere sensibilidad |
+| > 10× | 7% | Revisar metodología |
+
+:::
+::: {}
+
+::: callout-teal
+**¿Qué significa para su organización?**
+
+Contar con esta base de datos significa que podemos posicionar su SROI en el contexto global — y explicar a sus financiadores si están por encima o por debajo de la mediana del sector. No es un número aislado. Es evidencia comparada.
+:::
+
+::: {style="margin-top:0.8rem;font-size:0.65em;color:#64748B;"}
+Fuente: Social Value International (SVI) · socialvalueuk.org · Scraping y análisis CVP EAFIT 2025. 98% con texto PDF extraído · 16% con ratio explícito.
+:::
+
+:::
+:::
+
+---
+
+## Herramientas digitales de la plataforma {background-color="#0F172A"}
+
+::: seccion-label
+La plataforma ValorIA — recursos abiertos para cualquier organización
+:::
+
+<br>
+
+::: tools-grid
+
+::: tool-card
+::: tool-icon
+🎯
+:::
+::: tool-name
+Diagnóstico de Madurez iMEL®
+:::
+::: tool-desc
+Quiz interactivo de 15 preguntas × 5 dimensiones. Clasifica su programa en N1–N5 y genera un reporte personalizado con la siguiente inversión metodológica recomendada.
+:::
+[15 preguntas · 5 dimensiones · Gratuito]{.tool-tag}
+:::
+
+::: tool-card
+::: tool-icon
+🗺
+:::
+::: tool-name
+Repositorio IMToC — 200+ ToC
+:::
+::: tool-desc
+Base de datos de 200 Teorías del Cambio calificadas con IMToC. 29 sectores, idiomas EN y ES. Benchmarking automático: compare su ToC con las mejores del sector.
+:::
+[200+ ToC · 29 sectores · N1–N5]{.tool-tag}
+:::
+
+::: tool-card
+::: tool-icon
+💹
+:::
+::: tool-name
+Value Map SROI / Calculadora
+:::
+::: tool-desc
+Hoja de cálculo con las 6 etapas SVI. Proxies verificados, factores de ajuste automáticos, ratio SROI y análisis de sensibilidad Monte Carlo. Excel y Google Sheets.
+:::
+[SVI · Excel / Sheets · Monte Carlo]{.tool-tag}
+:::
+
+::: tool-card
+::: tool-icon
+📊
+:::
+::: tool-name
+BD SVI — 383 Reportes Internacionales
+:::
+::: tool-desc
+Base de datos de 383 reportes SROI verificados. Mediana global 4.35×. Benchmarking automático por sector, país y tamaño. Fuente: Social Value International.
+:::
+[383 reportes · 98% texto · Benchmarking]{.tool-tag}
+:::
+
+:::
+
+::: note-small
+Plataforma disponible en: jcmunozmora.github.io/valor-ia/ · Diagnóstico gratuito · Sin registro requerido
+:::
+
+---
+
+## Ecosistema de agentes de IA especializados {background-color="#0F172A"}
+
+::: seccion-label
+Inteligencia artificial aplicada al ciclo iMEL® — no ChatGPT genérico: agentes con metodología SVI incorporada
+:::
+
+::: agentes-wrap
+
+::: {.agente-grupo .ag-sroi}
+::: ag-header
+::: ag-icon
+💰
+:::
+::: ag-titulo
+Ecosistema SROI
+:::
+::: ag-count
+13 agentes
+:::
+:::
+
+::: ag-chips
+[sroi-agent · orquestador]{.ag-chip .chip-orch}
+[sroi-principios]{.ag-chip}
+[sroi-metodologia]{.ag-chip}
+[sroi-monetizacion]{.ag-chip}
+[sroi-analisis]{.ag-chip}
+[sroi-sensibilidad]{.ag-chip}
+[sroi-valuemap]{.ag-chip}
+[sroi-visualizacion]{.ag-chip}
+[sroi-presentacion]{.ag-chip}
+[sroi-informe]{.ag-chip}
+[sroi-report-quarto]{.ag-chip}
+[sroi-critica]{.ag-chip}
+[sroi-referencias]{.ag-chip}
+:::
+
+::: ag-desc
+Cubre las 6 etapas SVI. Desde los 8 principios hasta el Value Map, análisis Monte Carlo, visualizaciones y presentaciones ejecutivas. El **sroi-critica** actúa como contradictor académico para blindar el análisis ante revisores externos.
+:::
+:::
+
+::: {.agente-grupo .ag-toc}
+::: ag-header
+::: ag-icon
+🗺
+:::
+::: ag-titulo
+Ecosistema ToC
+:::
+::: ag-count
+5 agentes
+:::
+:::
+
+::: ag-chips
+[toc-agent · orquestador]{.ag-chip .chip-orch}
+[toc-analizar]{.ag-chip}
+[toc-calificar]{.ag-chip}
+[toc-construir]{.ag-chip}
+[toc-mejorar]{.ag-chip}
+:::
+
+::: ag-desc
+Construye, analiza y califica Teorías del Cambio con el **IMToC** (10 dimensiones, N1–N5). El agente **toc-calificar** genera un score con diagnóstico de brechas y hoja de ruta de mejora priorizada H1/H2/H3.
+:::
+:::
+
+::: {.agente-grupo .ag-ind}
+::: ag-header
+::: ag-icon
+📐
+:::
+::: ag-titulo
+Ecosistema Indicadores
+:::
+::: ag-count
+5 agentes
+:::
+:::
+
+::: ag-chips
+[indicator-agent · orquestador]{.ag-chip .chip-orch}
+[indicator-classifier]{.ag-chip}
+[indicator-framework]{.ag-chip}
+[indicator-quality]{.ag-chip}
+[indicator-selector]{.ag-chip}
+:::
+
+::: ag-desc
+Diseña sistemas completos de M&E. El **indicator-classifier** categoriza indicadores en P/R/I (proceso, resultado, impacto). El **indicator-quality** audita contra estándares SMART, GRI, IRIS+ y SVI.
+:::
+:::
+
+:::
+
+::: {style="margin-top:0.7rem;"}
+
+::: vs-grid
+
+::: vs-col-left
+::: {.vs-header .vs-left}
+Consultoría tradicional
+:::
+::: vs-item
+– Analista humano tarda días en procesar datos
+:::
+::: vs-item
+– Metodología variable según el consultor
+:::
+::: vs-item
+– Sin memoria entre proyectos — cada cliente parte de cero
+:::
+::: vs-item
+– Cobertura limitada de literatura y benchmarks
+:::
+:::
+
+::: vs-col-right
+::: {.vs-header .vs-right}
+Agentes IA especializados ValorIA
+:::
+::: vs-item
++ Corpus de 383 reportes SVI disponible en segundos
+:::
+::: vs-item
++ Metodología SVI estandarizada en cada agente
+:::
+::: vs-item
++ Memoria y coherencia entre análisis del mismo cliente
+:::
+::: vs-item
++ Benchmark automático contra 200+ ToC y sector global
+:::
+:::
+
+:::
+
+:::
+
+::: note-small
+Los agentes no reemplazan el juicio experto — lo amplifican. Cada análisis es revisado y firmado por el equipo CVP EAFIT.
+:::
+
+---
+
+## Formación en Valor Social {background-color="#0F172A"}
+
+::: seccion-label
+Ruta Formativa en Evaluación y Valor Social — 7 módulos · 84 horas · Universidad EAFIT
+:::
+
+<br>
+
+::: mod-grid-pitch
+
+::: {.mod-card-pitch .m-intro}
+::: mod-num-pitch
+M1 · 12h
+:::
+::: mod-name-pitch
+De la Intención al Impacto
+:::
+::: mod-hours-pitch
+Introductorio
+:::
+:::
+
+::: {.mod-card-pitch .m-basico}
+::: mod-num-pitch
+M2 · 12h
+:::
+::: mod-name-pitch
+MEL: De la Teoría a la Práctica
+:::
+::: mod-hours-pitch
+Básico–Intermedio
+:::
+:::
+
+::: {.mod-card-pitch .m-inter}
+::: mod-num-pitch
+M3 · 20h
+:::
+::: mod-name-pitch
+Valoración y Gestión del Impacto
+:::
+::: mod-hours-pitch
+Intermedio
+:::
+:::
+
+::: {.mod-card-pitch .m-avanz}
+::: mod-num-pitch
+M4 · 16h
+:::
+::: mod-name-pitch
+Métodos de Evaluación Empírica
+:::
+::: mod-hours-pitch
+Avanzado
+:::
+:::
+
+::: {.mod-card-pitch .m-avanz}
+::: mod-num-pitch
+M5 · 8h
+:::
+::: mod-name-pitch
+Evaluación Avanzada y Síntesis
+:::
+::: mod-hours-pitch
+Avanzado
+:::
+:::
+
+::: {.mod-card-pitch .m-inter}
+::: mod-num-pitch
+M6 · 8h
+:::
+::: mod-name-pitch
+Comunicación de Impacto
+:::
+::: mod-hours-pitch
+Intermedio
+:::
+:::
+
+::: {.mod-card-pitch .m-avanz}
+::: mod-num-pitch
+M7 · 8h
+:::
+::: mod-name-pitch
+Financiamiento Basado en Resultados
+:::
+::: mod-hours-pitch
+Avanzado
+:::
+:::
+
+:::
+
+<br>
+
+::: corpus-strip
+
+::: corpus-stat
+[84h]{.corpus-num}
+::: corpus-label
+Horas de formación total (ruta completa)
+:::
+:::
+
+::: corpus-stat
+[7]{.corpus-num}
+::: corpus-label
+Entregables concretos, uno por módulo
+:::
+:::
+
+::: corpus-stat
+[6]{.corpus-num}
+::: corpus-label
+Rutas de entrada por perfil profesional
+:::
+:::
+
+::: corpus-stat
+[3]{.corpus-num}
+::: corpus-label
+Certificaciones alineadas: SVI · J-PAL · 3ie
+:::
+:::
+
+:::
+
+::: note-small
+Módulos independientes o ruta completa · Inhouse o virtual sincrónico · Co-diseño con la organización · Casos reales del portafolio del participante
+:::
+
+---
+
+## Los 7 entregables: no ejercicios, productos organizacionales {background-color="#0F172A"}
+
+::: seccion-label
+Filosofía pedagógica — aprendemos haciendo con los programas reales de su organización
+:::
+
+<br>
+
+::: entregables-grid
+
+::: entregable-card
+::: entregable-num
+M1 — Introductorio
+:::
+::: entregable-name
+Teoría de Cambio validada con supuestos críticos identificados
+:::
+:::
+
+::: entregable-card
+::: entregable-num
+M2 — MEL
+:::
+::: entregable-name
+Sistema MEL operativo con indicadores SMART y ciclo de aprendizaje
+:::
+:::
+
+::: entregable-card
+::: entregable-num
+M3 — Valoración
+:::
+::: entregable-name
+SROI completo con Value Map, ratio y análisis de sensibilidad
+:::
+:::
+
+::: entregable-card
+::: entregable-num
+M4 — Evaluación
+:::
+::: entregable-name
+Diseño de evaluación de impacto con estrategia de identificación causal
+:::
+:::
+
+::: entregable-card
+::: entregable-num
+M5 — Avanzado
+:::
+::: entregable-name
+Síntesis de evidencia del sector con protocolo PRISMA
+:::
+:::
+
+::: entregable-card
+::: entregable-num
+M6 — Comunicación
+:::
+::: entregable-name
+Reporte de impacto alineado con GRI / SASB / SVI
+:::
+:::
+
+::: entregable-card
+::: entregable-num
+M7 — Financiamiento
+:::
+::: entregable-name
+Caso de inversión estructurado con SROI y eligibility checklist
+:::
+:::
+
+:::
+
+::: callout-teal
+**La diferencia clave:** Al finalizar, los equipos **no necesitan contratar externamente** lo que aprendieron a hacer internamente. El objetivo no es la dependencia — es la autonomía metodológica.
+:::
+
+---
+
+## Rutas de entrada según su perfil {background-color="#0F172A"}
+
+::: seccion-label
+6 trayectorias — desde coordinadores de programa hasta inversionistas de impacto
+:::
+
+<br>
+
+::: perfiles-grid
+
+::: {.perfil-card .p1}
+::: perfil-icon
+📋
+:::
+::: perfil-name
+Coordinador de Programa
+:::
+::: perfil-desc
+Necesita documentar, medir y comunicar resultados a financiadores y juntas.
+:::
+::: perfil-modulos
+Ruta: M1 → M2 → M6
+:::
+:::
+
+::: {.perfil-card .p2}
+::: perfil-icon
+📊
+:::
+::: perfil-name
+Equipo MEL / Monitoreo
+:::
+::: perfil-desc
+Quiere fortalecer la rigurosidad metodológica y conectar MEL con decisiones.
+:::
+::: perfil-modulos
+Ruta: M2 → M3 → M4
+:::
+:::
+
+::: {.perfil-card .p3}
+::: perfil-icon
+🌿
+:::
+::: perfil-name
+Área de Sostenibilidad / RSE
+:::
+::: perfil-desc
+Necesita demostrar valor compartido con estándares internacionales (GRI, SROI).
+:::
+::: perfil-modulos
+Ruta: M1 → M3 → M6
+:::
+:::
+
+::: {.perfil-card .p4}
+::: perfil-icon
+🔬
+:::
+::: perfil-name
+Investigador / Académico
+:::
+::: perfil-desc
+Quiere conectar la investigación con la práctica y publicar resultados de impacto.
+:::
+::: perfil-modulos
+Ruta: M4 → M5 → M3
+:::
+:::
+
+::: {.perfil-card .p5}
+::: perfil-icon
+💼
+:::
+::: perfil-name
+Inversionista de Impacto
+:::
+::: perfil-desc
+Evalúa portafolios sociales y necesita métricas verificables para decisiones de inversión.
+:::
+::: perfil-modulos
+Ruta: M3 → M7 → M5
+:::
+:::
+
+::: {.perfil-card .p6}
+::: perfil-icon
+🏛
+:::
+::: perfil-name
+Sector Público
+:::
+::: perfil-desc
+Necesita evidencia para política pública, rendición de cuentas y optimización de gasto.
+:::
+::: perfil-modulos
+Ruta: M1 → M4 → M6 → M7
+:::
+:::
+
+:::
+
+---
+
+## El equipo {background-color="#0F172A"}
+
+::: seccion-label
+Quién está detrás de ValorIA — rigor académico + práctica aplicada
+:::
+
+<br>
+
+::: col-2
+::: {}
+
+::: equipo-card
+::: equipo-avatar
+JC
+:::
+::: equipo-nombre
+Juan Carlos Muñoz-Mora, PhD
+:::
+::: equipo-cargo
+Economista · Investigador · Consultor de Impacto · Centro Valor Público EAFIT
+:::
+::: equipo-bio
+Economista con Ph.D. en Ciencias Económicas de la **Universidad Libre de Bruselas (ULB)**. Investigador Asociado del **Institute of Development Studies (IDS)**, Sussex, UK. Certificado por **Social Value International (SVI)**. Especialista en medición de impacto social, economía del desarrollo y evaluación de programas sociales en América Latina.
+
+Ha liderado evaluaciones de impacto para Fundación Grupo Argos, Comfama, CORNARE, BID y organizaciones del sector público colombiano.
+:::
+::: equipo-badges
+[SVI Certified]{.pill .pill-green}
+[Ph.D. ULB · Bruselas]{.pill .pill-blue}
+[IDS · Sussex UK]{.pill .pill-amber}
+[Universidad EAFIT]{.pill .pill-teal}
+[iMEL® Fundador]{.pill .pill-purple}
+:::
+:::
+
+:::
+::: {}
+
+::: {style="margin-top:1.5rem;"}
+
+**Portafolio aplicado:**
+
+::: kpi-stack
+
+::: {.kpi-box .kpi-teal}
+**Hogares Saludables (Argos · Comfama)** — cRCT 1,163 hogares · SROI 3.74× · N5
+:::
+
+::: {.kpi-box .kpi-amber}
+**Sueños que Transforman (Argos)** — Teatro Talita Cumi · SROI 2.35× · P38 global
+:::
+
+::: {.kpi-box .kpi-blue}
+**Corpus IMToC** — 200+ Teorías del Cambio calificadas · 29 sectores
+:::
+
+::: {.kpi-box .kpi-emerald}
+**BD SVI** — 383 reportes SROI analizados · 98% cobertura PDF
+:::
+
+:::
+
+:::
+
+:::
+:::
+
+::: notes
+El equipo combina rigor académico internacional con aplicación práctica en el contexto latinoamericano. No somos solo teóricos — tenemos casos reales verificados con los estándares más exigentes del sector.
+:::
+
+---
+
+## ¿Por qué Centro Valor Público EAFIT? {background-color="#0F172A"}
+
+::: seccion-label
+Nuestra ventaja diferencial — lo que nadie más puede ofrecerle en América Latina
+:::
+
+<br>
+
+::: razones-grid
+
+::: razon-card
+::: razon-titulo
+Único en LATAM con corpus SVI verificado
+:::
+::: razon-desc
+383 reportes SROI analizados. No solo conocemos la metodología — tenemos la evidencia global para contextualizarla. Sabemos cuál es la mediana del sector y cómo se posiciona su programa.
+:::
+:::
+
+::: razon-card
+::: razon-titulo
+Académico y aplicado — no uno o el otro
+:::
+::: razon-desc
+Ph.D. ULB + IDS Sussex + SVI Certified + casos reales verificados. La metodología tiene validez académica publicable y utilidad práctica ejecutable. No sacrificamos rigor por simplidad — ni simplidad por rigor.
+:::
+:::
+
+::: razon-card
+::: razon-titulo
+Transferencia real de capacidades
+:::
+::: razon-desc
+El objetivo no es que nos contraten indefinidamente. Es que su equipo sea autónomo. Al final del proceso, tienen las herramientas, el protocolo y la confianza para ejecutar internamente.
+:::
+:::
+
+::: razon-card
+::: razon-titulo
+Metodología registrada + herramientas digitales
+:::
+::: razon-desc
+iMEL® es una metodología registrada, no una promesa. Las herramientas digitales (diagnóstico, calculadora, repositorio IMToC, agentes IA) están construidas y disponibles — no en desarrollo.
+:::
+:::
+
+:::
+
+---
+
+## Próximos pasos {background-color="#0F172A"}
+
+::: seccion-label
+De esta conversación a resultados verificables — tres pasos concretos
+:::
+
+<br>
+
+::: pasos-grid
+
+::: {.paso-card .paso-1}
+::: paso-num
+01
+:::
+::: paso-titulo
+Diagnóstico gratuito
+:::
+::: paso-desc
+30 minutos de conversación. Quiz iMEL® de 5 dimensiones. Resultado: su programa en N1–N5 y la siguiente inversión metodológica que más sentido tiene.
+
+**Sin costo. Sin compromiso.**
+:::
+:::
+
+::: {.paso-card .paso-2}
+::: paso-num
+02
+:::
+::: paso-titulo
+Propuesta a medida
+:::
+::: paso-desc
+Basada en su nivel de madurez, su portafolio de programas y sus objetivos con financiadores. Formación, consultoría, SROI completo o combinación.
+
+**Co-diseñada con su equipo.**
+:::
+:::
+
+::: {.paso-card .paso-3}
+::: paso-num
+03
+:::
+::: paso-titulo
+Piloto con un caso real
+:::
+::: paso-desc
+Tomamos un programa real de su organización y ejecutamos el ciclo iMEL® completo. Al finalizar: evidencia verificable, equipo formado y metodología instalada.
+
+**De la promesa a la prueba.**
+:::
+:::
+
+:::
+
+<br>
+
+::: {style="text-align:center;margin-top:0.5rem;"}
+
+::: {style="display:inline-flex;gap:1.5rem;flex-wrap:wrap;justify-content:center;font-size:0.72em;"}
+[Diagnóstico gratuito →]{.pill .pill-teal}
+[jcmunozm@eafit.edu.co]{.pill .pill-slate}
+[jcmunozmora.github.io/valor-ia/]{.pill .pill-slate}
+:::
+
+:::
+
+---
+
+## {background-color="#0F172A"}
+
+::: cierre-content
+
+::: {style="font-size:0.55em;font-weight:700;letter-spacing:0.2em;text-transform:uppercase;color:#5EEAD4;"}
+Centro Valor Público · Universidad EAFIT
+:::
+
+<br>
+
+> *"Evaluamos para aprender.
+> Aprendemos para mejorar.
+> Mejoramos para aplicar."*
+
+<hr>
+
+::: {style="font-size:1.8em;font-weight:900;color:white;letter-spacing:-0.03em;"}
+ValorIA
+:::
+
+::: {style="font-size:0.8em;color:#94A3B8;margin-top:0.2em;"}
+El rigor que su impacto merece.
+:::
+
+<br>
+
+::: {style="font-size:0.68em;color:#475569;"}
+**Juan Carlos Muñoz-Mora, PhD**
+jcmunozm@eafit.edu.co · jcmunozmora.github.io/valor-ia/
+Centro Valor Público · Universidad EAFIT · Medellín, Colombia
+:::
+
+:::
+
+::: notes
+Gracias. Les dejo con la invitación concreta: hagan el diagnóstico. 30 minutos. Sin costo. El resultado les dirá exactamente dónde están y cuál es el siguiente paso que tiene más sentido. De ahí construimos juntos.
+:::

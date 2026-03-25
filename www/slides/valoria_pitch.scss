@@ -1,0 +1,462 @@
+/*-- scss:defaults --*/
+@import url('https://fonts.googleapis.com/css2?family=Inter:wght@300;400;500;600;700;800;900&family=JetBrains+Mono:wght@400;500&family=Playfair+Display:ital,wght@0,700;1,700&display=swap');
+
+$font-family-sans-serif: 'Inter', 'Helvetica Neue', sans-serif !default;
+$presentation-font-size-root: 27px !default;
+$presentation-h1-font-size: 2.1em !default;
+$presentation-h2-font-size: 1.45em !default;
+$presentation-h3-font-size: 1.05em !default;
+
+// Paleta Valor·IA
+$navy:    #0F172A;
+$teal:    #0D9488;
+$teal-lt: #5EEAD4;
+$slate:   #1E3A5F;
+$silver:  #94A3B8;
+$white:   #FFFFFF;
+$amber:   #F59E0B;
+$emerald: #10B981;
+$cyan:    #0891B2;
+$purple:  #7C3AED;
+$red:     #DC2626;
+$blue:    #3B82F6;
+
+$body-bg:    $navy    !default;
+$body-color: #E2E8F0 !default;
+$link-color: $teal-lt !default;
+$selection-bg: $teal !default;
+
+/*-- scss:rules --*/
+
+// ── Base ────────────────────────────────────────────────────────────────────
+.reveal .slides { color: #CBD5E1; }
+.reveal h1, .reveal h2 { font-weight: 800; letter-spacing: -0.03em; color: $white; }
+.reveal h3 { font-weight: 700; color: $teal-lt; font-size: 0.95em; letter-spacing: 0.02em; }
+
+// ── Portada ─────────────────────────────────────────────────────────────────
+.portada-wrap { text-align: left; }
+.portada-eyebrow {
+  display: inline-block; font-size: 0.52em; font-weight: 700;
+  letter-spacing: 0.18em; text-transform: uppercase; color: $teal-lt;
+  background: rgba(13,148,136,0.15); border: 1px solid rgba(13,148,136,0.35);
+  padding: 0.25em 0.8em; border-radius: 2em; margin-bottom: 0.8em;
+}
+.portada-titulo {
+  font-size: 2.6em; font-weight: 900; color: white;
+  letter-spacing: -0.04em; line-height: 1.05; margin-bottom: 0.2em;
+}
+.portada-sub { font-size: 1.05em; color: $silver; font-weight: 400; margin-bottom: 1em; }
+.portada-badges { margin-bottom: 1.2em; }
+.portada-instructor {
+  margin-top: 1.5em; border-top: 1px solid rgba(255,255,255,0.1);
+  padding-top: 0.8em; font-size: 0.72em; color: $silver;
+  strong { color: white; }
+}
+
+// ── Pills ───────────────────────────────────────────────────────────────────
+.pill {
+  display: inline-block; font-size: 0.52em; font-weight: 700;
+  letter-spacing: 0.1em; text-transform: uppercase;
+  padding: 0.3em 0.8em; border-radius: 2em; margin: 0.1em;
+}
+.pill-teal   { background: rgba(13,148,136,0.2); color: $teal-lt; border: 1px solid rgba(13,148,136,0.4); }
+.pill-amber  { background: rgba(245,158,11,0.15); color: #FCD34D; border: 1px solid rgba(245,158,11,0.3); }
+.pill-slate  { background: rgba(100,116,139,0.2); color: #CBD5E1; border: 1px solid rgba(100,116,139,0.3); }
+.pill-blue   { background: rgba(59,130,246,0.15); color: #93C5FD; border: 1px solid rgba(59,130,246,0.3); }
+.pill-green  { background: rgba(16,185,129,0.15); color: #6EE7B7; border: 1px solid rgba(16,185,129,0.3); }
+.pill-purple { background: rgba(124,58,237,0.15); color: #C4B5FD; border: 1px solid rgba(124,58,237,0.3); }
+
+// ── Layouts de columnas ─────────────────────────────────────────────────────
+.col-2 {
+  display: grid; grid-template-columns: 1fr 1fr; gap: 1.8rem; align-items: start;
+}
+.col-6040 {
+  display: grid; grid-template-columns: 58fr 42fr; gap: 2rem; align-items: center;
+}
+.col-4060 {
+  display: grid; grid-template-columns: 42fr 58fr; gap: 2rem; align-items: center;
+}
+
+// ── Sección label ───────────────────────────────────────────────────────────
+.seccion-label {
+  display: inline-block; font-size: 0.52em; font-weight: 700;
+  letter-spacing: 0.12em; text-transform: uppercase; color: $teal-lt;
+  border-left: 3px solid $teal; padding-left: 0.8em; margin-bottom: 0.5em;
+}
+
+// ── KPI Stack ───────────────────────────────────────────────────────────────
+.kpi-stack { display: flex; flex-direction: column; gap: 0.55rem; }
+.kpi-box {
+  padding: 0.6rem 0.9rem; border-radius: 8px; font-size: 0.78em; font-weight: 600;
+  border-left: 3px solid;
+  &.kpi-teal    { background: rgba(13,148,136,0.12); color: $teal-lt; border-color: $teal; }
+  &.kpi-amber   { background: rgba(245,158,11,0.12); color: #FCD34D; border-color: $amber; }
+  &.kpi-emerald { background: rgba(16,185,129,0.12); color: #6EE7B7; border-color: $emerald; }
+  &.kpi-blue    { background: rgba(30,58,95,0.5); color: #93C5FD; border-color: $blue; }
+  &.kpi-red     { background: rgba(220,38,38,0.1); color: #FCA5A5; border-color: $red; }
+  &.kpi-purple  { background: rgba(124,58,237,0.1); color: #C4B5FD; border-color: $purple; }
+}
+
+// ── Big number ──────────────────────────────────────────────────────────────
+.big-number {
+  font-family: 'Playfair Display', serif;
+  font-size: 5em; font-weight: 700; color: $amber;
+  line-height: 0.95; text-shadow: 0 4px 20px rgba(0,0,0,0.35);
+  display: block; margin-bottom: 0.1em;
+}
+.big-label { font-size: 0.75em; color: $silver; letter-spacing: 0.03em; }
+
+// ── Escala de madurez (5 cards) ──────────────────────────────────────────────
+.escala-grid {
+  display: grid; grid-template-columns: repeat(5, 1fr);
+  gap: 0.5rem; margin: 0.6em 0; font-size: 0.65em;
+}
+.escala-card {
+  border-radius: 8px; padding: 0.7rem 0.6rem; text-align: center;
+  background: rgba(255,255,255,0.04); border: 1px solid rgba(255,255,255,0.08);
+  border-top: 3px solid; transition: transform 0.2s;
+  &.escala-n1 { border-top-color: #F87171; }
+  &.escala-n2 { border-top-color: #FBBF24; }
+  &.escala-n3 { border-top-color: #FCD34D; }
+  &.escala-n4 { border-top-color: #34D399; }
+  &.escala-n5 { border-top-color: $teal-lt; }
+  &.escala-activo {
+    background: rgba(13,148,136,0.12); border-color: rgba(13,148,136,0.4);
+    transform: scale(1.05);
+    box-shadow: 0 0 20px rgba(13,148,136,0.15);
+    .escala-nivel { color: $teal-lt !important; font-size: 1.8em; }
+    .escala-nombre { color: white; }
+  }
+}
+.escala-nivel {
+  font-size: 1.5em; font-weight: 900; color: rgba(255,255,255,0.3); margin-bottom: 0.2em;
+}
+.escala-nombre {
+  font-weight: 800; color: $silver; font-size: 0.9em; margin-bottom: 0.3em; line-height: 1.2;
+}
+.escala-card.escala-n1 .escala-nivel { color: rgba(248,113,113,0.5); }
+.escala-card.escala-n2 .escala-nivel { color: rgba(251,191,36,0.5); }
+.escala-card.escala-n3 .escala-nivel { color: rgba(252,211,77,0.5); }
+.escala-card.escala-n4 .escala-nivel { color: rgba(52,211,153,0.5); }
+.escala-card.escala-n5 .escala-nivel { color: rgba(94,234,212,0.5); }
+
+// ── Escala dim (dimensiones iMEL) ────────────────────────────────────────────
+.dim-grid {
+  display: grid; grid-template-columns: repeat(5, 1fr);
+  gap: 0.45rem; font-size: 0.6em; margin: 0.4em 0;
+}
+.dim-card {
+  border-radius: 7px; padding: 0.6rem 0.5rem; text-align: center;
+  background: rgba(255,255,255,0.04); border: 1px solid rgba(255,255,255,0.07);
+}
+.dim-num {
+  font-size: 1.3em; font-weight: 900; color: $teal; margin-bottom: 0.2em;
+}
+.dim-name { font-weight: 700; color: white; font-size: 0.88em; line-height: 1.2; }
+.dim-desc { font-size: 0.85em; color: $silver; margin-top: 0.25em; line-height: 1.4; }
+
+// ── Corpus stats strip ──────────────────────────────────────────────────────
+.corpus-strip {
+  display: grid; grid-template-columns: repeat(4, 1fr);
+  gap: 0.8rem; margin: 0.8em 0; font-size: 0.68em;
+}
+.corpus-stat {
+  text-align: center; padding: 0.75rem 0.5rem;
+  background: rgba(255,255,255,0.04); border: 1px solid rgba(255,255,255,0.08);
+  border-radius: 8px;
+}
+.corpus-num {
+  display: block; font-size: 2.2em; font-weight: 900; color: $teal-lt;
+  letter-spacing: -0.04em; line-height: 1.1;
+}
+.corpus-label { color: $silver; font-size: 0.88em; line-height: 1.35; margin-top: 0.2em; }
+
+// ── IMToC distribución ──────────────────────────────────────────────────────
+.imtoc-dist {
+  display: flex; gap: 0.5rem; align-items: flex-end; margin: 0.8em 0; height: 6em;
+}
+.imtoc-bar {
+  flex: 1; border-radius: 5px 5px 0 0; display: flex; flex-direction: column;
+  align-items: center; justify-content: flex-end; font-size: 0.6em; font-weight: 800;
+  padding-bottom: 0.4em; color: white;
+  &.bar-n1 { background: rgba(248,113,113,0.5); border: 1px solid rgba(248,113,113,0.4); }
+  &.bar-n2 { background: rgba(251,191,36,0.5); border: 1px solid rgba(251,191,36,0.4); }
+  &.bar-n3 { background: rgba(52,211,153,0.5); border: 1px solid rgba(52,211,153,0.4); }
+  &.bar-n4 { background: rgba(94,234,212,0.5); border: 1px solid rgba(94,234,212,0.4); }
+  &.bar-n5 { background: rgba(124,58,237,0.3); border: 1px solid rgba(124,58,237,0.3); }
+}
+.imtoc-bar-label { font-size: 0.6em; color: $silver; text-align: center; margin-top: 0.3em; }
+
+// ── Etapas SROI ─────────────────────────────────────────────────────────────
+.etapas-grid {
+  display: grid; grid-template-columns: repeat(3, 1fr);
+  gap: 0.6rem; font-size: 0.68em; margin: 0.6em 0;
+}
+.etapa-card {
+  background: rgba(255,255,255,0.04); border: 1px solid rgba(255,255,255,0.08);
+  border-radius: 8px; padding: 0.7rem 0.8rem; position: relative;
+}
+.etapa-num {
+  font-size: 1.4em; font-weight: 900; color: rgba(13,148,136,0.4);
+  position: absolute; top: 0.3rem; right: 0.5rem;
+}
+.etapa-titulo { font-weight: 800; color: $teal-lt; font-size: 0.9em; margin-bottom: 0.3em; }
+
+// ── Bench stats ─────────────────────────────────────────────────────────────
+.bench-stats {
+  display: grid; grid-template-columns: repeat(4, 1fr);
+  gap: 1rem; margin-bottom: 0.8em;
+}
+.bench-stat { text-align: center; font-size: 0.62em; color: $silver; }
+.bench-stat-num {
+  display: block; font-size: 2.4em; font-weight: 900;
+  color: $teal-lt; letter-spacing: -0.04em; line-height: 1.1;
+}
+
+// ── Ratio central ───────────────────────────────────────────────────────────
+.ratio-center {
+  text-align: center; color: white;
+  display: flex; flex-direction: column; align-items: center; justify-content: center;
+  height: 100%; gap: 0.4rem; font-size: 1.1em; font-weight: 300; opacity: 0.9;
+}
+.ratio-number {
+  font-family: 'Playfair Display', serif;
+  font-size: 7em; font-weight: 700; color: $amber;
+  line-height: 0.95; text-shadow: 0 6px 30px rgba(0,0,0,0.35);
+}
+
+// ── Callout boxes ───────────────────────────────────────────────────────────
+.callout-teal {
+  background: rgba(13,148,136,0.1); border: 1px solid rgba(13,148,136,0.3);
+  border-radius: 8px; padding: 0.7rem 1rem; font-size: 0.7em; color: #A7F3D0; margin-top: 0.5em;
+}
+.callout-amber {
+  background: rgba(245,158,11,0.1); border: 1px solid rgba(245,158,11,0.3);
+  border-radius: 8px; padding: 0.7rem 1rem; font-size: 0.7em; color: #FCD34D; margin-top: 0.5em;
+}
+.callout-red {
+  background: rgba(220,38,38,0.1); border: 1px solid rgba(220,38,38,0.3);
+  border-radius: 8px; padding: 0.7rem 1rem; font-size: 0.7em; color: #FCA5A5; margin-top: 0.5em;
+}
+
+// ── Herramientas / Tools grid ────────────────────────────────────────────────
+.tools-grid {
+  display: grid; grid-template-columns: repeat(2, 1fr);
+  gap: 0.9rem; margin: 0.7em 0; font-size: 0.7em;
+}
+.tool-card {
+  border-radius: 10px; padding: 1rem 1.1rem;
+  background: rgba(255,255,255,0.04); border: 1px solid rgba(255,255,255,0.08);
+  border-left: 3px solid $teal;
+}
+.tool-icon { font-size: 1.5em; margin-bottom: 0.4em; }
+.tool-name { font-weight: 800; color: white; font-size: 1em; margin-bottom: 0.3em; }
+.tool-desc { color: $silver; line-height: 1.5; font-size: 0.88em; }
+.tool-tag {
+  display: inline-block; margin-top: 0.5em;
+  background: rgba(13,148,136,0.15); color: $teal-lt;
+  border: 1px solid rgba(13,148,136,0.3); border-radius: 2em;
+  padding: 0.15em 0.7em; font-size: 0.8em; font-weight: 700;
+}
+
+// ── Módulos de formación ────────────────────────────────────────────────────
+.mod-grid-pitch {
+  display: grid; grid-template-columns: repeat(7, 1fr);
+  gap: 0.45rem; margin: 0.5em 0; font-size: 0.6em;
+}
+.mod-card-pitch {
+  border-radius: 8px; padding: 0.6rem 0.5rem; text-align: center;
+  background: rgba(255,255,255,0.04); border: 1px solid rgba(255,255,255,0.07);
+  border-top: 3px solid;
+  &.m-intro  { border-top-color: #34D399; }
+  &.m-basico { border-top-color: $blue; }
+  &.m-inter  { border-top-color: $amber; }
+  &.m-avanz  { border-top-color: $purple; }
+}
+.mod-num-pitch {
+  font-size: 0.8em; font-weight: 800; color: $silver;
+  text-transform: uppercase; letter-spacing: 0.06em; margin-bottom: 0.25em;
+}
+.mod-name-pitch { font-weight: 800; color: white; font-size: 0.88em; line-height: 1.2; margin-bottom: 0.25em; }
+.mod-hours-pitch { font-size: 0.75em; color: $teal-lt; font-weight: 700; }
+
+// ── Entregables table ───────────────────────────────────────────────────────
+.entregables-grid {
+  display: grid; grid-template-columns: repeat(4, 1fr);
+  gap: 0.5rem; margin: 0.6em 0; font-size: 0.62em;
+}
+.entregable-card {
+  border-radius: 8px; padding: 0.65rem 0.7rem;
+  background: rgba(255,255,255,0.04); border: 1px solid rgba(255,255,255,0.07);
+}
+.entregable-num { font-size: 0.75em; font-weight: 700; color: $teal; margin-bottom: 0.25em; }
+.entregable-name { font-weight: 800; color: white; font-size: 0.92em; line-height: 1.25; }
+
+// ── Perfiles grid ───────────────────────────────────────────────────────────
+.perfiles-grid {
+  display: grid; grid-template-columns: repeat(3, 1fr);
+  gap: 0.7rem; margin: 0.7em 0; font-size: 0.68em;
+}
+.perfil-card {
+  border-radius: 9px; padding: 0.8rem 0.9rem;
+  background: rgba(255,255,255,0.04); border: 1px solid rgba(255,255,255,0.08);
+  &.p1 { border-left: 3px solid $teal; }
+  &.p2 { border-left: 3px solid $blue; }
+  &.p3 { border-left: 3px solid $emerald; }
+  &.p4 { border-left: 3px solid $amber; }
+  &.p5 { border-left: 3px solid $purple; }
+  &.p6 { border-left: 3px solid $cyan; }
+}
+.perfil-icon { font-size: 1.2em; margin-bottom: 0.3em; }
+.perfil-name { font-weight: 800; color: white; margin-bottom: 0.25em; }
+.perfil-desc { color: $silver; font-size: 0.88em; line-height: 1.45; }
+.perfil-modulos { margin-top: 0.4em; font-size: 0.82em; color: $teal-lt; font-weight: 600; }
+
+// ── Por qué nosotros ────────────────────────────────────────────────────────
+.razones-grid {
+  display: grid; grid-template-columns: repeat(2, 1fr);
+  gap: 0.8rem; margin: 0.7em 0; font-size: 0.7em;
+}
+.razon-card {
+  border-radius: 9px; padding: 0.9rem 1rem;
+  background: rgba(255,255,255,0.04); border: 1px solid rgba(255,255,255,0.08);
+  border-left: 3px solid $teal-lt;
+}
+.razon-titulo { font-weight: 800; color: white; margin-bottom: 0.3em; font-size: 1em; }
+.razon-desc { color: $silver; line-height: 1.5; font-size: 0.9em; }
+
+// ── Roadmap pasos ───────────────────────────────────────────────────────────
+.pasos-grid {
+  display: grid; grid-template-columns: repeat(3, 1fr);
+  gap: 1rem; margin: 0.8em 0; font-size: 0.72em;
+}
+.paso-card {
+  border-radius: 10px; padding: 1rem 1.1rem; text-align: center;
+  background: rgba(255,255,255,0.04); border: 1px solid rgba(255,255,255,0.08);
+  border-top: 3px solid;
+  &.paso-1 { border-top-color: $teal-lt; background: rgba(13,148,136,0.08); }
+  &.paso-2 { border-top-color: $amber; background: rgba(245,158,11,0.08); }
+  &.paso-3 { border-top-color: $purple; background: rgba(124,58,237,0.08); }
+}
+.paso-num { font-size: 2em; font-weight: 900; color: rgba(255,255,255,0.15); margin-bottom: 0.2em; }
+.paso-titulo { font-weight: 800; color: white; margin-bottom: 0.3em; }
+.paso-desc { color: $silver; line-height: 1.5; font-size: 0.9em; }
+
+// ── Equipo card ─────────────────────────────────────────────────────────────
+.equipo-card {
+  background: rgba(255,255,255,0.04); border: 1px solid rgba(255,255,255,0.1);
+  border-radius: 12px; padding: 1.2rem 1.4rem; margin-top: 0.8em;
+}
+.equipo-avatar {
+  width: 64px; height: 64px; border-radius: 50%;
+  background: linear-gradient(135deg, $teal 0%, $navy 100%);
+  display: flex; align-items: center; justify-content: center;
+  font-size: 1.5em; font-weight: 900; color: white; margin-bottom: 0.8em;
+}
+.equipo-nombre { font-size: 1.05em; font-weight: 800; color: white; margin-bottom: 0.2em; }
+.equipo-cargo { font-size: 0.72em; color: $teal-lt; font-weight: 600; margin-bottom: 0.6em; }
+.equipo-bio { font-size: 0.7em; color: $silver; line-height: 1.6; }
+.equipo-badges { display: flex; gap: 0.4rem; flex-wrap: wrap; margin-top: 0.7em; }
+
+// ── Ecosistema de agentes IA ────────────────────────────────────────────────
+.agentes-wrap {
+  display: grid; grid-template-columns: repeat(3, 1fr);
+  gap: 0.8rem; margin: 0.5em 0; font-size: 0.65em;
+}
+.agente-grupo {
+  border-radius: 10px; padding: 0.85rem 0.9rem;
+  background: rgba(255,255,255,0.04); border: 1px solid rgba(255,255,255,0.08);
+  &.ag-sroi   { border-top: 3px solid $teal; }
+  &.ag-toc    { border-top: 3px solid $amber; }
+  &.ag-ind    { border-top: 3px solid $blue; }
+  &.ag-mel    { border-top: 3px solid $purple; }
+}
+.ag-header {
+  display: flex; align-items: center; gap: 0.5rem; margin-bottom: 0.55rem;
+}
+.ag-icon { font-size: 1.1em; }
+.ag-titulo { font-weight: 800; color: white; font-size: 0.95em; line-height: 1.2; }
+.ag-count {
+  font-size: 0.75em; font-weight: 700; color: $silver; margin-left: auto;
+  background: rgba(255,255,255,0.07); border-radius: 2em;
+  padding: 0.1em 0.55em;
+}
+.ag-chips { display: flex; flex-wrap: wrap; gap: 0.3rem; margin-bottom: 0.5rem; }
+.ag-chip {
+  background: rgba(255,255,255,0.06); border: 1px solid rgba(255,255,255,0.1);
+  border-radius: 2em; padding: 0.15em 0.55em;
+  font-size: 0.8em; font-weight: 600; color: #CBD5E1;
+  &.chip-orch {
+    background: rgba(13,148,136,0.2); color: $teal-lt;
+    border-color: rgba(13,148,136,0.4); font-weight: 800;
+  }
+}
+.ag-desc { font-size: 0.82em; color: $silver; line-height: 1.45; margin-top: 0.4em; }
+
+// ── Comparador (IA vs tradicional) ──────────────────────────────────────────
+.vs-grid {
+  display: grid; grid-template-columns: 1fr 1fr;
+  gap: 0.8rem; margin: 0.7em 0; font-size: 0.68em;
+}
+.vs-col {
+  border-radius: 9px; padding: 0.9rem 1rem;
+}
+.vs-col-left {
+  background: rgba(220,38,38,0.07); border: 1px solid rgba(220,38,38,0.2);
+}
+.vs-col-right {
+  background: rgba(13,148,136,0.08); border: 1px solid rgba(13,148,136,0.25);
+}
+.vs-header {
+  font-weight: 800; margin-bottom: 0.4em; font-size: 0.95em;
+  &.vs-left  { color: #FCA5A5; }
+  &.vs-right { color: $teal-lt; }
+}
+.vs-item { padding: 0.2em 0; color: #CBD5E1; line-height: 1.5; }
+
+// ── Cierre ──────────────────────────────────────────────────────────────────
+.cierre-content {
+  text-align: center; color: white;
+  display: flex; flex-direction: column;
+  align-items: center; justify-content: center;
+  height: 100%; gap: 1rem;
+  blockquote {
+    font-size: 1.1em; font-style: italic; opacity: 0.9;
+    border: none; background: none; max-width: 780px;
+    line-height: 1.65; color: white;
+  }
+  hr { border: none; border-top: 1px solid rgba(255,255,255,0.25); width: 60%; }
+  p { font-size: 0.78em; opacity: 0.75; }
+}
+.cierre-link { font-size: 0.62em; opacity: 0.55; margin-top: 0.3em; a { color: $teal-lt; } }
+
+// ── Tablas ──────────────────────────────────────────────────────────────────
+.reveal table { font-size: 0.65em; border-collapse: collapse; width: 100%; }
+.reveal table th {
+  background: $teal; color: white; padding: 0.35em 0.6em;
+  font-weight: 700; font-size: 0.9em;
+}
+.reveal table td { padding: 0.3em 0.6em; border-bottom: 1px solid rgba(255,255,255,0.07); }
+.reveal table tr:nth-child(even) td { background: rgba(255,255,255,0.03); }
+
+// ── Listas ──────────────────────────────────────────────────────────────────
+.reveal ul { list-style: none; padding-left: 0; }
+.reveal ul li {
+  padding: 0.2em 0 0.2em 1.3em; position: relative; color: #CBD5E1;
+}
+.reveal ul li::before {
+  content: "\203A"; position: absolute; left: 0.2em;
+  color: $teal-lt; font-weight: 700; font-size: 1.1em;
+}
+
+// ── Note small ──────────────────────────────────────────────────────────────
+.note-small {
+  font-size: 0.52em; color: #64748B; margin-top: 0.5em;
+  font-style: italic; text-align: center;
+}
+
+// ── Footer & progress ───────────────────────────────────────────────────────
+.reveal .slide-number { font-size: 0.55em; }
+.reveal .footer { font-size: 0.5em; opacity: 0.5; }
+.reveal .progress { background: rgba(255,255,255,0.1); color: $teal; height: 3px; }
+.reveal img { border-radius: 8px; }
