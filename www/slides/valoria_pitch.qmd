@@ -228,14 +228,13 @@ Los inversionistas de impacto, bonos sociales y blended finance necesitan datos 
 :::
 ::: {}
 
-::: callout-teal
-### La pregunta que un financiador siempre hace:
-
-*"¿Cómo sé que este resultado se debe a lo que usted hizo — y no habría ocurrido de todas formas?"*
-
-Si no tiene respuesta verificable, no está midiendo impacto.
-Está midiendo actividad.
-:::
+```{=html}
+<div class="callout-teal">
+  <p style="font-weight:700;margin-bottom:0.5rem;">La pregunta que un financiador siempre hace:</p>
+  <p><em>"¿Cómo sé que este resultado se debe a lo que usted hizo — y no habría ocurrido de todas formas?"</em></p>
+  <p>Si no tiene respuesta verificable, no está midiendo impacto.<br>Está midiendo actividad.</p>
+</div>
+```
 
 ::: {style="margin-top:1rem;font-size:0.72em;color:#94A3B8;text-align:center;font-style:italic;"}
 "El programa puede ser excelente.
