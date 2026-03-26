@@ -16,8 +16,6 @@ website:
         text: Inicio
       - href: metodologia.qmd
         text: "Metodología iMEL®"
-      - href: ciencia.qmd
-        text: "Evidencia"
       - text: "Servicios"
         menu:
           - text: "Todos los servicios"
@@ -35,6 +33,8 @@ website:
             href: metodos/index.qmd
           - text: "Agentes IA — Ecosistema iMEL®"
             href: agentes.qmd
+          - text: "SROI Benchmark — 383 reportes SVI"
+            href: ciencia.qmd
           - text: "---"
           - text: "Evaluación de impacto"
           - text: "RCT / cRCT — Ensayo aleatorizado"
@@ -68,7 +68,7 @@ website:
     right:
       - text: "▶ Presentación ValorIA"
         href: slides/valoria_pitch.html
-      - text: "ValorIA por Valor Público EAFIT"
+      - text: "VP EAFIT"
         href: "https://www.eafit.edu.co/centros-estudio-incidencia/valor-publico"
 
   page-footer:

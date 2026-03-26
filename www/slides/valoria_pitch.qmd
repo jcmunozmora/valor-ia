@@ -1439,7 +1439,10 @@ De esta conversación a resultados verificables — tres pasos concretos
   <div style="font-size:1.8em;font-weight:900;color:white;letter-spacing:-0.03em;">
     ValorIA
   </div>
-  <div style="font-size:0.8em;color:#94A3B8;margin-top:0.2em;">
+  <div style="font-size:0.85em;color:#5EEAD4;font-weight:600;margin-top:0.15em;">
+    por <a href="https://www.eafit.edu.co/centros-estudio-incidencia/valor-publico" target="_blank" style="color:#5EEAD4;text-decoration:underline;text-underline-offset:3px;">Valor Público EAFIT</a>
+  </div>
+  <div style="font-size:0.75em;color:#94A3B8;margin-top:0.2em;">
     El rigor que su impacto merece.
   </div>
 
