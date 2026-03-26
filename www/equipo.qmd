@@ -232,8 +232,109 @@ toc: false
 </div>
 </div>
 
-<!-- TABLA RESUMEN -->
+<!-- ============================================================
+     RED DE INVESTIGADORES EAFIT
+     ============================================================ -->
 <div class="content-section">
+<div class="content-inner">
+
+<span class="section-label">Red academica institucional</span>
+<h2 class="section-heading">Investigadores EAFIT — Escuela de Finanzas, Economia y Gobierno</h2>
+<p style="font-size:0.95rem;color:#475569;line-height:1.75;max-width:780px;margin-bottom:2rem;">
+  Valor·IA opera dentro del ecosistema academico del Centro Valor Publico y la Escuela de Finanzas,
+  Economia y Gobierno. Esta red de investigadores aporta profundidad tematica especializada — desde
+  evaluacion causal y economia del bienestar hasta gobernanza, finanzas sostenibles y paz territorial.
+</p>
+
+<div class="inv-grid">
+
+  <div class="inv-card">
+    <div class="inv-header">
+      <div class="inv-name">Santiago Tobon</div>
+      <div class="inv-badge inv-badge--teal">Director CVP</div>
+    </div>
+    <div class="inv-phd">Ph.D. Economia &middot; Universidad de los Andes</div>
+    <div class="inv-area">Evaluacion experimental y cuasi-experimental &middot; Crimen, violencia y politica publica &middot; Metodos causales (RCT, DiD, PSM)</div>
+    <div class="inv-link">Vinculacion iMEL: diseno evaluativo, validacion metodologica, seguridad y justicia</div>
+  </div>
+
+  <div class="inv-card">
+    <div class="inv-header">
+      <div class="inv-name">Monica Hernandez Florez</div>
+      <div class="inv-badge inv-badge--blue">Equidad Social</div>
+    </div>
+    <div class="inv-phd">Ph.D. Economics and Public Policy &middot; University of Michigan</div>
+    <div class="inv-area">Evaluacion de impacto en educacion &middot; Politicas publicas basadas en evidencia &middot; Microeconomia aplicada</div>
+    <div class="inv-link">Vinculacion iMEL: auditoria metodologica de politicas sociales, diseno de indicadores educativos</div>
+  </div>
+
+  <div class="inv-card">
+    <div class="inv-header">
+      <div class="inv-name">Alejandro Torres Garcia</div>
+      <div class="inv-badge inv-badge--green">Desarrollo</div>
+    </div>
+    <div class="inv-phd">Ph.D. Economia &middot; Universidad del Rosario</div>
+    <div class="inv-area">Economia del desarrollo &middot; Crecimiento territorial &middot; Analisis de pobreza y desigualdad</div>
+    <div class="inv-link">Vinculacion iMEL: valoracion de outcomes en programas de desarrollo economico local</div>
+  </div>
+
+  <div class="inv-card">
+    <div class="inv-header">
+      <div class="inv-name">Santiago Leyva</div>
+      <div class="inv-badge inv-badge--purple">Gobierno</div>
+    </div>
+    <div class="inv-phd">Ph.D. Administracion Publica &middot; Especializacion en Gobernanza</div>
+    <div class="inv-area">Gobierno y democracia &middot; Gestion publica &middot; Capacidades estatales y reforma institucional</div>
+    <div class="inv-link">Vinculacion iMEL: marcos de valor publico, evaluacion de capacidades gubernamentales</div>
+  </div>
+
+  <div class="inv-card">
+    <div class="inv-header">
+      <div class="inv-name">Eleonora Davalos</div>
+      <div class="inv-badge inv-badge--amber">Paz y DDHH</div>
+    </div>
+    <div class="inv-phd">Ph.D. Public Policy &middot; University of North Carolina at Charlotte</div>
+    <div class="inv-area">Politicas de paz &middot; Violaciones de DDHH &middot; Evaluacion de acuerdos de paz en Colombia</div>
+    <div class="inv-link">Vinculacion iMEL: evaluacion de programas de consolidacion territorial y reconciliacion</div>
+  </div>
+
+  <div class="inv-card">
+    <div class="inv-header">
+      <div class="inv-name">Catalina Gomez Toro</div>
+      <div class="inv-badge inv-badge--teal">Genero</div>
+    </div>
+    <div class="inv-phd">Ph.D. Economia &middot; Economia aplicada e inclusion</div>
+    <div class="inv-area">Economia de genero &middot; Inclusion y diversidad &middot; Evaluacion de programas sociales</div>
+    <div class="inv-link">Vinculacion iMEL: indicadores de genero en Impact Maps, auditoria de proxies</div>
+  </div>
+
+  <div class="inv-card">
+    <div class="inv-header">
+      <div class="inv-name">Adolfo Eslava Gomez</div>
+      <div class="inv-badge inv-badge--purple">Innovacion Social</div>
+    </div>
+    <div class="inv-phd">Ph.D. &middot; Politica publica y gobernanza · Director EAFIT Social</div>
+    <div class="inv-area">Innovacion social &middot; Gobernanza publica &middot; Co-produccion de politicas con ciudadanos</div>
+    <div class="inv-link">Vinculacion iMEL: enfoques participativos, sistematizacion de experiencias sociales</div>
+  </div>
+
+  <div class="inv-card">
+    <div class="inv-header">
+      <div class="inv-name">Lina Marcela Cortes Duran</div>
+      <div class="inv-badge inv-badge--blue">Finanzas &amp; ESG</div>
+    </div>
+    <div class="inv-phd">Ph.D. Economia &middot; Universidad de Salamanca &mdash; <em>Cum Laude</em></div>
+    <div class="inv-area">Finanzas corporativas &middot; Gobierno corporativo &middot; Econometria aplicada &middot; Analisis ESG</div>
+    <div class="inv-link">Vinculacion iMEL: valoracion financiera del impacto social, analisis de riesgo ESG</div>
+  </div>
+
+</div>
+
+</div>
+</div>
+
+<!-- TABLA RESUMEN -->
+<div class="content-section alt">
 <div class="content-inner">
 
 <span class="section-label">Resumen del equipo</span>
@@ -495,12 +596,78 @@ toc: false
   white-space: nowrap;
 }
 
+/* ── RED DE INVESTIGADORES ─────────────────────────────────────── */
+.inv-grid {
+  display: grid;
+  grid-template-columns: repeat(auto-fill, minmax(300px, 1fr));
+  gap: 1.2rem;
+}
+.inv-card {
+  background: #fff;
+  border: 1px solid #E2E8F0;
+  border-radius: 0.85rem;
+  padding: 1.3rem 1.4rem;
+  transition: box-shadow .2s, transform .15s;
+}
+.inv-card:hover {
+  box-shadow: 0 6px 24px rgba(0,0,0,0.08);
+  transform: translateY(-2px);
+}
+.inv-header {
+  display: flex;
+  align-items: flex-start;
+  justify-content: space-between;
+  gap: .6rem;
+  margin-bottom: .35rem;
+}
+.inv-name {
+  font-size: .95rem;
+  font-weight: 800;
+  color: #0F172A;
+  line-height: 1.3;
+}
+.inv-badge {
+  font-size: .62rem;
+  font-weight: 700;
+  padding: .18rem .6rem;
+  border-radius: 999px;
+  white-space: nowrap;
+  flex-shrink: 0;
+}
+.inv-badge--teal   { background: #F0FDFA; color: #0D9488; border: 1px solid #CCFBF1; }
+.inv-badge--blue   { background: #EFF6FF; color: #1D4ED8; border: 1px solid #BFDBFE; }
+.inv-badge--purple { background: #F5F3FF; color: #7C3AED; border: 1px solid #DDD6FE; }
+.inv-badge--amber  { background: #FFFBEB; color: #D97706; border: 1px solid #FDE68A; }
+.inv-badge--green  { background: #F0FDF4; color: #15803D; border: 1px solid #BBF7D0; }
+.inv-phd {
+  font-size: .76rem;
+  color: #64748B;
+  margin-bottom: .55rem;
+  font-style: italic;
+}
+.inv-area {
+  font-size: .82rem;
+  color: #334155;
+  line-height: 1.55;
+  margin-bottom: .6rem;
+}
+.inv-link {
+  font-size: .75rem;
+  color: #0D9488;
+  background: #F0FDFA;
+  border-left: 2px solid #0D9488;
+  padding: .35rem .65rem;
+  border-radius: 0 .35rem .35rem 0;
+  line-height: 1.45;
+}
+
 /* RESPONSIVE */
 @media (max-width: 700px) {
   .eq-profile { flex-direction: column; align-items: center; text-align: center; }
   .eq-tags-row { justify-content: center; }
   .eq-port-items { justify-content: center; }
   .eq-creds-strip { grid-template-columns: repeat(2, 1fr); }
+  .inv-grid { grid-template-columns: 1fr; }
 }
 </style>
 ```
