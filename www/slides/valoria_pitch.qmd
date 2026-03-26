@@ -546,22 +546,21 @@ Nivel N5 — cRCT · Evaluación aleatoria por conglomerados · Fundación Grupo
 <br>
 
 ::: col-6040
-::: {}
+```{=html}
+<div>
+  <p style="font-weight:700;color:#5EEAD4;margin-bottom:0.3em;font-size:0.85em;text-transform:uppercase;letter-spacing:0.05em;">El programa</p>
+  <p><strong>1,163 hogares</strong> en la periferia de Medellín. Intervención en nutrición, habitabilidad y bienestar en el hogar. Diseño experimental con grupo de control.</p>
+  <p><strong>Metodología aplicada:</strong> Ensayo controlado aleatorizado por conglomerados (cRCT) — el estándar de oro de la evaluación de impacto.</p>
 
-### El programa
-
-**1,163 hogares** en la periferia de Medellín. Intervención en nutrición, habitabilidad y bienestar en el hogar. Diseño experimental con grupo de control.
-
-**Metodología aplicada:** Ensayo controlado aleatorizado por conglomerados (cRCT) — el estándar de oro de la evaluación de impacto.
-
-### Por qué es N5
-
-- Contrafactual experimental riguroso
-- **0% deadweight** — el cambio no habría ocurrido sin el programa
-- Ratio SROI calculado con metodología SVI completa
-- Publicable en revista académica indexada
-
-:::
+  <p style="font-weight:700;color:#5EEAD4;margin-top:1em;margin-bottom:0.3em;font-size:0.85em;text-transform:uppercase;letter-spacing:0.05em;">Por qué es N5</p>
+  <ul>
+    <li>Contrafactual experimental riguroso</li>
+    <li><strong>0% deadweight</strong> — el cambio no habría ocurrido sin el programa</li>
+    <li>Ratio SROI calculado con metodología SVI completa</li>
+    <li>Publicable en revista académica indexada</li>
+  </ul>
+</div>
+```
 ::: {}
 
 ::: ratio-center
@@ -602,23 +601,22 @@ Nivel N3 · Ruta hacia N4 · Teatro Talita Cumi · Barrio Manrique, Medellín ·
 <br>
 
 ::: col-6040
-::: {}
+```{=html}
+<div>
+  <p style="font-weight:700;color:#5EEAD4;margin-bottom:0.3em;font-size:0.85em;text-transform:uppercase;letter-spacing:0.05em;">El contexto</p>
+  <p><strong>Teatro Talita Cumi</strong> — 25 años en deterioro en el Barrio Manrique. La intervención de Fundación Grupo Argos restauró el espacio y construyó un programa de liderazgo cultural con 60 beneficiarios directos.</p>
 
-### El contexto
+  <p style="font-weight:700;color:#5EEAD4;margin-top:1em;margin-bottom:0.3em;font-size:0.85em;text-transform:uppercase;letter-spacing:0.05em;">Lo que encontramos</p>
+  <ul>
+    <li>Datos pre-post con líderes del programa</li>
+    <li>Teoría del cambio documentada con stakeholders</li>
+    <li>SROI calculado con 3 proxies: WTP (infraestructura), costo evitado (seguridad), valoración de liderazgo</li>
+  </ul>
 
-**Teatro Talita Cumi** — 25 años en deterioro en el Barrio Manrique. La intervención de Fundación Grupo Argos restauró el espacio y construyó un programa de liderazgo cultural con 60 beneficiarios directos.
-
-### Lo que encontramos
-
-- Datos pre-post con líderes del programa
-- Teoría del cambio documentada con stakeholders
-- SROI calculado con 3 proxies: WTP (infraestructura), costo evitado (seguridad), valoración de liderazgo
-
-### La ruta hacia N4
-
-Escala Cantril de bienestar · Grupo de comparación · Aseguramiento SVI 2027
-
-:::
+  <p style="font-weight:700;color:#5EEAD4;margin-top:1em;margin-bottom:0.3em;font-size:0.85em;text-transform:uppercase;letter-spacing:0.05em;">La ruta hacia N4</p>
+  <p>Escala Cantril de bienestar · Grupo de comparación · Aseguramiento SVI 2027</p>
+</div>
+```
 ::: {}
 
 ::: {style="text-align:center;padding:1.5rem;"}
