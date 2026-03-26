@@ -250,289 +250,148 @@ El costo real de no medir con rigor no es solo una cuestión académica. Es fina
 
 ---
 
-## ValorIA: el ecosistema completo {background-color="#0F172A"}
+## ValorIA: tres líneas de servicio {background-color="#0F172A"}
 
 ::: seccion-label
-La solución — iMEL® · Integrated Monitoring, Evaluation & Learning
+Una plataforma de valor social — diagnóstico · medición · valoración · formación
 :::
 
-<br>
-
-::: col-6040
-::: {}
-
-**Un ciclo completo: de la pregunta al aprendizaje**
-
 ```{=html}
-<div style="display:flex;flex-direction:column;gap:0.5rem;margin:0.8em 0;font-size:0.7em;">
-  <div style="display:flex;align-items:center;gap:0.8rem;background:rgba(13,148,136,0.1);border:1px solid rgba(13,148,136,0.3);border-radius:8px;padding:0.6rem 0.9rem;">
-    <span style="font-size:1.2em;flex:0 0 auto;">🔍</span>
-    <div><strong style="color:#5EEAD4;">1. Diagnóstico</strong><br><span style="color:#94A3B8;">Madurez metodológica — 5 dimensiones, N1→N5</span></div>
+<div style="display:grid;grid-template-columns:1fr 1fr 1fr;gap:1.2rem;margin-top:1.2rem;">
+
+  <div style="background:rgba(13,148,136,0.08);border:1px solid rgba(13,148,136,0.35);border-radius:12px;padding:1.2rem;">
+    <div style="font-size:0.58em;font-weight:700;letter-spacing:0.15em;text-transform:uppercase;color:#5EEAD4;margin-bottom:0.5em;">Línea 1</div>
+    <div style="font-size:1.05em;font-weight:800;color:white;margin-bottom:0.6em;line-height:1.3;">Diagnóstico y<br>Diseño de ToC</div>
+    <div style="font-size:0.68em;color:#94A3B8;line-height:1.7;margin-bottom:0.8em;">
+      ✦ Diagnóstico de madurez iMEL® (N1–N5)<br>
+      ✦ Construcción y calificación de Teoría del Cambio<br>
+      ✦ Banco de indicadores P/R/I (105+)<br>
+      ✦ Impact Map y cadena causal
+    </div>
+    <div style="font-size:0.6em;background:rgba(13,148,136,0.15);border-radius:6px;padding:0.4rem 0.6rem;color:#A7F3D0;display:inline-block;">IMToC · 200+ ToC calificadas</div>
   </div>
-  <div style="display:flex;align-items:center;gap:0.8rem;background:rgba(59,130,246,0.08);border:1px solid rgba(59,130,246,0.2);border-radius:8px;padding:0.6rem 0.9rem;">
-    <span style="font-size:1.2em;flex:0 0 auto;">🗺</span>
-    <div><strong style="color:#93C5FD;">2. Diseño MEL</strong><br><span style="color:#94A3B8;">Teoría del cambio, Impact Map, sistema de indicadores</span></div>
+
+  <div style="background:rgba(59,130,246,0.08);border:1px solid rgba(59,130,246,0.35);border-radius:12px;padding:1.2rem;">
+    <div style="font-size:0.58em;font-weight:700;letter-spacing:0.15em;text-transform:uppercase;color:#93C5FD;margin-bottom:0.5em;">Línea 2</div>
+    <div style="font-size:1.05em;font-weight:800;color:white;margin-bottom:0.6em;line-height:1.3;">Medición de<br>Impacto Causal</div>
+    <div style="font-size:0.68em;color:#94A3B8;line-height:1.7;margin-bottom:0.8em;">
+      ✦ Diseño experimental: RCT / cRCT<br>
+      ✦ Cuasi-experimental: DiD, PSM, RD<br>
+      ✦ Métodos mixtos y participativos<br>
+      ✦ Auditoría académica de impacto (SVI 48 criterios)
+    </div>
+    <div style="font-size:0.6em;background:rgba(59,130,246,0.15);border-radius:6px;padding:0.4rem 0.6rem;color:#BFDBFE;display:inline-block;">Estándar J-PAL · 3ie · DCED</div>
   </div>
-  <div style="display:flex;align-items:center;gap:0.8rem;background:rgba(245,158,11,0.08);border:1px solid rgba(245,158,11,0.2);border-radius:8px;padding:0.6rem 0.9rem;">
-    <span style="font-size:1.2em;flex:0 0 auto;">📊</span>
-    <div><strong style="color:#FCD34D;">3. Implementación</strong><br><span style="color:#94A3B8;">Recolección de datos, monitoreo, ciclos de aprendizaje</span></div>
+
+  <div style="background:rgba(124,58,237,0.08);border:1px solid rgba(124,58,237,0.35);border-radius:12px;padding:1.2rem;">
+    <div style="font-size:0.58em;font-weight:700;letter-spacing:0.15em;text-transform:uppercase;color:#C4B5FD;margin-bottom:0.5em;">Línea 3</div>
+    <div style="font-size:1.05em;font-weight:800;color:white;margin-bottom:0.6em;line-height:1.3;">Valoración<br>Monetaria</div>
+    <div style="font-size:0.68em;color:#94A3B8;line-height:1.7;margin-bottom:0.8em;">
+      ✦ SROI — Social Return on Investment (SVI)<br>
+      ✦ WELLBY — Well-Being Years<br>
+      ✦ WTP / WTA — Valoración contingente<br>
+      ✦ Costos unitarios · Benchmarking 383 reportes
+    </div>
+    <div style="font-size:0.6em;background:rgba(124,58,237,0.15);border-radius:6px;padding:0.4rem 0.6rem;color:#DDD6FE;display:inline-block;">SVI Certified · Mediana global 4.35×</div>
   </div>
-  <div style="display:flex;align-items:center;gap:0.8rem;background:rgba(16,185,129,0.08);border:1px solid rgba(16,185,129,0.2);border-radius:8px;padding:0.6rem 0.9rem;">
-    <span style="font-size:1.2em;flex:0 0 auto;">💰</span>
-    <div><strong style="color:#6EE7B7;">4. Valoración SROI</strong><br><span style="color:#94A3B8;">Monetización de outcomes, ratio, análisis de sensibilidad</span></div>
+
+</div>
+<div style="margin-top:1rem;display:grid;grid-template-columns:1fr 1fr;gap:0.8rem;">
+  <div style="background:rgba(245,158,11,0.07);border:1px solid rgba(245,158,11,0.25);border-radius:8px;padding:0.7rem 1rem;font-size:0.65em;color:#FCD34D;">
+    <strong>+ Formación en Valor Social</strong> <span style="color:#94A3B8;">— 7 módulos · 84h · inhouse / virtual · certificación iMEL®</span>
   </div>
-  <div style="display:flex;align-items:center;gap:0.8rem;background:rgba(124,58,237,0.08);border:1px solid rgba(124,58,237,0.2);border-radius:8px;padding:0.6rem 0.9rem;">
-    <span style="font-size:1.2em;flex:0 0 auto;">📄</span>
-    <div><strong style="color:#C4B5FD;">5. Reporte SVI</strong><br><span style="color:#94A3B8;">Informe verificado · 48 criterios de aseguramiento</span></div>
-  </div>
-  <div style="display:flex;align-items:center;gap:0.8rem;background:rgba(8,145,178,0.08);border:1px solid rgba(8,145,178,0.2);border-radius:8px;padding:0.6rem 0.9rem;">
-    <span style="font-size:1.2em;flex:0 0 auto;">🔄</span>
-    <div><strong style="color:#A5F3FC;">6. Aprendizaje</strong><br><span style="color:#94A3B8;">Gestión adaptativa — mejoramos para aplicar</span></div>
+  <div style="background:rgba(8,145,178,0.07);border:1px solid rgba(8,145,178,0.25);border-radius:8px;padding:0.7rem 1rem;font-size:0.65em;color:#A5F3FC;">
+    <strong>+ Ecosistema de 23 Agentes IA</strong> <span style="color:#94A3B8;">— especializados por metodología, no asistentes genéricos</span>
   </div>
 </div>
 ```
 
+::: notes
+ValorIA no es solo SROI. Es una plataforma de tres líneas complementarias: diagnóstico y diseño de ToC, medición causal de impacto, y valoración monetaria. Dependiendo del nivel de madurez del programa y las preguntas que quieren responder, activamos la combinación correcta de servicios.
+:::
+
+---
+
+## Caja de herramientas: 12+ instrumentos {background-color="#0F172A"}
+
+::: seccion-label
+De la pregunta al dato — instrumentos verificados por línea de servicio
 :::
 
 ```{=html}
-<div>
-  <div style="text-align:center;padding:1.5rem;background:rgba(13,148,136,0.08);border:1px solid rgba(13,148,136,0.25);border-radius:12px;">
-    <div style="font-size:0.62em;font-weight:700;letter-spacing:0.12em;text-transform:uppercase;color:#5EEAD4;margin-bottom:0.5em;">
-      Nuestro principio
-    </div>
-    <div style="font-size:1em;color:white;font-style:italic;line-height:1.6;">
-      &ldquo;Evaluamos para aprender.<br>
-      Aprendemos para mejorar.<br>
-      Mejoramos para aplicar.&rdquo;
+<div style="display:grid;grid-template-columns:1fr 1fr 1fr;gap:1rem;margin-top:0.8rem;font-size:0.68em;">
+
+  <div>
+    <div style="font-weight:700;color:#5EEAD4;font-size:0.85em;text-transform:uppercase;letter-spacing:0.1em;margin-bottom:0.6rem;padding-bottom:0.4rem;border-bottom:1px solid rgba(13,148,136,0.4);">Diagnóstico y ToC</div>
+    <div style="display:flex;flex-direction:column;gap:0.45rem;">
+      <div style="background:rgba(15,23,42,0.7);border:1px solid rgba(13,148,136,0.2);border-radius:7px;padding:0.5rem 0.7rem;">
+        <div style="font-weight:600;color:#E2E8F0;">Diagnóstico iMEL®</div>
+        <div style="color:#64748B;font-size:0.9em;">Quiz 15 preguntas · N1–N5 · reporte personalizado</div>
+      </div>
+      <div style="background:rgba(15,23,42,0.7);border:1px solid rgba(13,148,136,0.2);border-radius:7px;padding:0.5rem 0.7rem;">
+        <div style="font-weight:600;color:#E2E8F0;">Repositorio IMToC</div>
+        <div style="color:#64748B;font-size:0.9em;">200+ ToC · 29 sectores · ES + EN · calificadas</div>
+      </div>
+      <div style="background:rgba(15,23,42,0.7);border:1px solid rgba(13,148,136,0.2);border-radius:7px;padding:0.5rem 0.7rem;">
+        <div style="font-weight:600;color:#E2E8F0;">Banco de Indicadores</div>
+        <div style="color:#64748B;font-size:0.9em;">105 indicadores P/R/I · por sector y nivel</div>
+      </div>
+      <div style="background:rgba(15,23,42,0.7);border:1px solid rgba(13,148,136,0.2);border-radius:7px;padding:0.5rem 0.7rem;">
+        <div style="font-weight:600;color:#E2E8F0;">Constructor de ToC</div>
+        <div style="color:#64748B;font-size:0.9em;">Backwards mapping · cadena causal · supuestos</div>
+      </div>
     </div>
   </div>
-  <div style="margin-top:1.2rem;font-size:0.68em;color:#94A3B8;">
-    <strong>Alineado internacionalmente con:</strong><br>
-    Social Value International (SVI) &middot; DCED &middot; Value for Money (VfM) &middot; ODS &middot; GRI/SASB &middot; IRIS+ &middot; J-PAL &middot; 3ie
+
+  <div>
+    <div style="font-weight:700;color:#93C5FD;font-size:0.85em;text-transform:uppercase;letter-spacing:0.1em;margin-bottom:0.6rem;padding-bottom:0.4rem;border-bottom:1px solid rgba(59,130,246,0.4);">Medición de Impacto</div>
+    <div style="display:flex;flex-direction:column;gap:0.45rem;">
+      <div style="background:rgba(15,23,42,0.7);border:1px solid rgba(59,130,246,0.2);border-radius:7px;padding:0.5rem 0.7rem;">
+        <div style="font-weight:600;color:#E2E8F0;">Diseño experimental</div>
+        <div style="color:#64748B;font-size:0.9em;">RCT / cRCT · power analysis · aleatorización</div>
+      </div>
+      <div style="background:rgba(15,23,42,0.7);border:1px solid rgba(59,130,246,0.2);border-radius:7px;padding:0.5rem 0.7rem;">
+        <div style="font-weight:600;color:#E2E8F0;">Cuasi-experimental</div>
+        <div style="color:#64748B;font-size:0.9em;">DiD · PSM · Regresión discontinua · IV</div>
+      </div>
+      <div style="background:rgba(15,23,42,0.7);border:1px solid rgba(59,130,246,0.2);border-radius:7px;padding:0.5rem 0.7rem;">
+        <div style="font-weight:600;color:#E2E8F0;">Auditoría de impacto</div>
+        <div style="color:#64748B;font-size:0.9em;">48 criterios SVI · SVI 48-point assurance</div>
+      </div>
+      <div style="background:rgba(15,23,42,0.7);border:1px solid rgba(59,130,246,0.2);border-radius:7px;padding:0.5rem 0.7rem;">
+        <div style="font-weight:600;color:#E2E8F0;">Métodos participativos</div>
+        <div style="color:#64748B;font-size:0.9em;">PIA (Tufts) · scoring · piling · focus groups</div>
+      </div>
+    </div>
   </div>
+
+  <div>
+    <div style="font-weight:700;color:#C4B5FD;font-size:0.85em;text-transform:uppercase;letter-spacing:0.1em;margin-bottom:0.6rem;padding-bottom:0.4rem;border-bottom:1px solid rgba(124,58,237,0.4);">Valoración Monetaria</div>
+    <div style="display:flex;flex-direction:column;gap:0.45rem;">
+      <div style="background:rgba(15,23,42,0.7);border:1px solid rgba(124,58,237,0.2);border-radius:7px;padding:0.5rem 0.7rem;">
+        <div style="font-weight:600;color:#E2E8F0;">Value Map SROI</div>
+        <div style="color:#64748B;font-size:0.9em;">6 etapas SVI · Excel/Sheets · Monte Carlo</div>
+      </div>
+      <div style="background:rgba(15,23,42,0.7);border:1px solid rgba(124,58,237,0.2);border-radius:7px;padding:0.5rem 0.7rem;">
+        <div style="font-weight:600;color:#E2E8F0;">WELLBY · WTP · Unit Costs</div>
+        <div style="color:#64748B;font-size:0.9em;">£13k/punto bienestar · choice experiments · ADRES</div>
+      </div>
+      <div style="background:rgba(15,23,42,0.7);border:1px solid rgba(124,58,237,0.2);border-radius:7px;padding:0.5rem 0.7rem;">
+        <div style="font-weight:600;color:#E2E8F0;">SROI Benchmark APP</div>
+        <div style="color:#64748B;font-size:0.9em;">383 reportes SVI · mediana 4.35× · por sector</div>
+      </div>
+      <div style="background:rgba(15,23,42,0.7);border:1px solid rgba(124,58,237,0.2);border-radius:7px;padding:0.5rem 0.7rem;">
+        <div style="font-weight:600;color:#E2E8F0;">Sensibilidad y riesgo</div>
+        <div style="color:#64748B;font-size:0.9em;">Tornado · payback · TIR social · break-even</div>
+      </div>
+    </div>
+  </div>
+
 </div>
 ```
 
-:::
-
 ::: notes
-iMEL es nuestra metodología propia registrada. No es un marco teórico — es un sistema operativo para la gestión del impacto. Comenzamos siempre con un diagnóstico de madurez para saber dónde está el programa hoy, y desde ahí diseñamos la ruta metodológica correcta.
-:::
-
----
-
-## La escala de madurez iMEL® {background-color="#0F172A"}
-
-::: seccion-label
-¿Dónde está su programa hoy? — 5 niveles · 5 dimensiones · 10 indicadores IMToC
-:::
-
-<br>
-
-::: escala-grid
-
-::: {.escala-card .escala-n1}
-::: escala-nivel
-N1
-:::
-::: escala-nombre
-Exploración inicial
-:::
-Primeras sistematizaciones. Prioridad: construir ToC y sistema de seguimiento básico.
-:::
-
-::: {.escala-card .escala-n2}
-::: escala-nivel
-N2
-:::
-::: escala-nombre
-Sistematización básica
-:::
-Elementos dispersos. Momento de integrar en sistema coherente y medir resultados.
-:::
-
-::: {.escala-card .escala-n3 .escala-activo}
-::: escala-nivel
-N3
-:::
-::: escala-nombre
-Medición estructurada
-:::
-Sistema activo. Fortalecer evidencia causal y cuantificar impacto más allá de outputs.
-:::
-
-::: {.escala-card .escala-n4}
-::: escala-nivel
-N4
-:::
-::: escala-nombre
-Impacto demostrado
-:::
-Evidencia sólida. Valoración monetaria y comunicación robusta a financiadores.
-:::
-
-::: {.escala-card .escala-n5}
-::: escala-nivel
-N5
-:::
-::: escala-nombre
-Excelencia evaluativa
-:::
-Sistema M&E de clase mundial. Verificación SVI, publicación y referente del sector.
-:::
-
-:::
-
-<br>
-
-::: dim-grid
-
-::: dim-card
-::: dim-num
-1
-:::
-::: dim-name
-Coherencia programática
-:::
-::: dim-desc
-ToC documentada + indicadores alineados
-:::
-:::
-
-::: dim-card
-::: dim-num
-2
-:::
-::: dim-name
-Eficacia
-:::
-::: dim-desc
-Objetivos cumplidos, metas de beneficiarios
-:::
-:::
-
-::: dim-card
-::: dim-num
-3
-:::
-::: dim-name
-Eficiencia operativa
-:::
-::: dim-desc
-Trazabilidad de recursos + factores de ajuste
-:::
-:::
-
-::: dim-card
-::: dim-num
-4
-:::
-::: dim-name
-Impacto social
-:::
-::: dim-desc
-Cambio real con contrafactual documentado
-:::
-:::
-
-::: dim-card
-::: dim-num
-5
-:::
-::: dim-name
-Valoración monetaria
-:::
-::: dim-desc
-SROI, WELLBY, WTP, costos unitarios
-:::
-:::
-
-:::
-
-::: note-small
-La sofisticación metodológica que tiene sentido es la que responde a la pregunta más importante que el programa puede hacerse hoy.
-:::
-
----
-
-## SROI: la metodología de Social Value International {background-color="#0F172A"}
-
-::: seccion-label
-Metodología — 6 etapas · 8 principios · 48 criterios de aseguramiento
-:::
-
-<br>
-
-::: etapas-grid
-
-::: etapa-card
-::: etapa-num
-01
-:::
-::: etapa-titulo
-Alcance y stakeholders
-:::
-Definir propósito del análisis. Identificar y priorizar stakeholders materiales. Período de evaluación.
-:::
-
-::: etapa-card
-::: etapa-num
-02
-:::
-::: etapa-titulo
-Impact Map
-:::
-Mapear inputs → actividades → outputs → outcomes para cada grupo de stakeholders. Indicadores y fuentes.
-:::
-
-::: etapa-card
-::: etapa-num
-03
-:::
-::: etapa-titulo
-Evidencia de outcomes
-:::
-Recolectar datos sobre cambios observados. Encuestas, entrevistas, datos administrativos y triangulación.
-:::
-
-::: etapa-card
-::: etapa-num
-04
-:::
-::: etapa-titulo
-Impacto neto
-:::
-Aplicar cuatro factores: **Deadweight** · **Atribución** · **Desplazamiento** · **Decaimiento**. Impacto real.
-:::
-
-::: etapa-card
-::: etapa-num
-05
-:::
-::: etapa-titulo
-Cálculo del ratio
-:::
-Monetizar outcomes con proxies verificados. Value Map, VPN, tasa de descuento, análisis de sensibilidad.
-:::
-
-::: etapa-card
-::: etapa-num
-06
-:::
-::: etapa-titulo
-Informe y verificación
-:::
-Reporte alineado con los 48 criterios SVI. Transparencia de supuestos, sensibilidad y hoja de ruta.
-:::
-
-:::
-
-::: callout-teal
-**Por cada $1 COP invertido con rigor metodológico documentado, el ratio SROI muestra cuántos pesos de valor social se generan.** En nuestro corpus de 383 reportes SVI: mediana 4.35× · promedio 5.87×.
-:::
-
-::: notes
-El SROI no es solo un número. Es el resultado de un proceso disciplinado de documentación, análisis y transparencia que permite a cualquier stakeholder entender de dónde vienen las afirmaciones de valor y qué tan conservadoras o agresivas son las estimaciones.
+Cada herramienta está conectada con las demás. El diagnóstico informa el diseño metodológico. La medición alimenta la valoración. La valoración se benchmarkea contra 383 reportes internacionales. No es una caja dispersa de técnicas — es un sistema integrado.
 :::
 
 ---
@@ -707,72 +566,65 @@ Fuente: Social Value International (SVI) · socialvalueuk.org · Scraping y aná
 
 ---
 
-## Herramientas digitales de la plataforma {background-color="#0F172A"}
+## Plataforma digital ValorIA {background-color="#0F172A"}
 
 ::: seccion-label
-La plataforma ValorIA — recursos abiertos para cualquier organización
+Herramientas abiertas y aplicaciones — acceso libre · sin registro
 :::
 
-<br>
+```{=html}
+<div style="display:grid;grid-template-columns:repeat(3,1fr);gap:0.9rem;margin-top:0.9rem;font-size:0.67em;">
 
-::: tools-grid
+  <div style="background:rgba(13,148,136,0.07);border:1px solid rgba(13,148,136,0.3);border-radius:10px;padding:0.9rem;">
+    <div style="font-size:1.6em;margin-bottom:0.3em;">🎯</div>
+    <div style="font-weight:700;color:#5EEAD4;margin-bottom:0.3em;">Diagnóstico iMEL®</div>
+    <div style="color:#94A3B8;line-height:1.55;">Quiz de 15 preguntas × 5 dimensiones. Clasifica su programa en N1–N5 con reporte personalizado y ruta metodológica recomendada.</div>
+    <div style="margin-top:0.5em;font-size:0.88em;color:#5EEAD4;">Gratuito · Sin registro</div>
+  </div>
 
-::: tool-card
-::: tool-icon
-🎯
-:::
-::: tool-name
-Diagnóstico de Madurez iMEL®
-:::
-::: tool-desc
-Quiz interactivo de 15 preguntas × 5 dimensiones. Clasifica su programa en N1–N5 y genera un reporte personalizado con la siguiente inversión metodológica recomendada.
-:::
-[15 preguntas · 5 dimensiones · Gratuito]{.tool-tag}
-:::
+  <div style="background:rgba(13,148,136,0.07);border:1px solid rgba(13,148,136,0.3);border-radius:10px;padding:0.9rem;">
+    <div style="font-size:1.6em;margin-bottom:0.3em;">🗺</div>
+    <div style="font-weight:700;color:#5EEAD4;margin-bottom:0.3em;">Repositorio IMToC</div>
+    <div style="color:#94A3B8;line-height:1.55;">200+ Teorías del Cambio calificadas. 29 sectores, EN + ES. Benchmarking automático: compare su ToC con las mejores del mundo.</div>
+    <div style="margin-top:0.5em;font-size:0.88em;color:#5EEAD4;">200+ ToC · N1–N5</div>
+  </div>
 
-::: tool-card
-::: tool-icon
-🗺
-:::
-::: tool-name
-Repositorio IMToC — 200+ ToC
-:::
-::: tool-desc
-Base de datos de 200 Teorías del Cambio calificadas con IMToC. 29 sectores, idiomas EN y ES. Benchmarking automático: compare su ToC con las mejores del sector.
-:::
-[200+ ToC · 29 sectores · N1–N5]{.tool-tag}
-:::
+  <div style="background:rgba(59,130,246,0.07);border:1px solid rgba(59,130,246,0.3);border-radius:10px;padding:0.9rem;">
+    <div style="font-size:1.6em;margin-bottom:0.3em;">📏</div>
+    <div style="font-weight:700;color:#93C5FD;margin-bottom:0.3em;">Banco de Indicadores</div>
+    <div style="color:#94A3B8;line-height:1.55;">105 indicadores clasificados P/R/I por sector y nivel de madurez. Con descripción, fuente de datos y ejemplo de uso.</div>
+    <div style="margin-top:0.5em;font-size:0.88em;color:#93C5FD;">105 indicadores · P/R/I</div>
+  </div>
 
-::: tool-card
-::: tool-icon
-💹
-:::
-::: tool-name
-Value Map SROI / Calculadora
-:::
-::: tool-desc
-Hoja de cálculo con las 6 etapas SVI. Proxies verificados, factores de ajuste automáticos, ratio SROI y análisis de sensibilidad Monte Carlo. Excel y Google Sheets.
-:::
-[SVI · Excel / Sheets · Monte Carlo]{.tool-tag}
-:::
+  <div style="background:rgba(124,58,237,0.07);border:1px solid rgba(124,58,237,0.3);border-radius:10px;padding:0.9rem;">
+    <div style="font-size:1.6em;margin-bottom:0.3em;">💹</div>
+    <div style="font-weight:700;color:#C4B5FD;margin-bottom:0.3em;">Value Map SROI</div>
+    <div style="color:#94A3B8;line-height:1.55;">Calculadora con las 6 etapas SVI. Proxies verificados, factores de ajuste automáticos, ratio y análisis Monte Carlo.</div>
+    <div style="margin-top:0.5em;font-size:0.88em;color:#C4B5FD;">Excel / Sheets · SVI</div>
+  </div>
 
-::: tool-card
-::: tool-icon
-📊
-:::
-::: tool-name
-BD SVI — 383 Reportes Internacionales
-:::
-::: tool-desc
-Base de datos de 383 reportes SROI verificados. Mediana global 4.35×. Benchmarking automático por sector, país y tamaño. Fuente: Social Value International.
-:::
-[383 reportes · 98% texto · Benchmarking]{.tool-tag}
-:::
+  <div style="background:rgba(124,58,237,0.07);border:1px solid rgba(124,58,237,0.3);border-radius:10px;padding:0.9rem;">
+    <div style="font-size:1.6em;margin-bottom:0.3em;">📊</div>
+    <div style="font-weight:700;color:#C4B5FD;margin-bottom:0.3em;">SROI Benchmark APP</div>
+    <div style="color:#94A3B8;line-height:1.55;">383 reportes SVI internacionales. Mediana global 4.35×. Benchmarking por sector, país y tamaño de inversión.</div>
+    <div style="margin-top:0.5em;font-size:0.88em;color:#C4B5FD;">apps.jcmunozmora.co/shiny/sroi-benchmark/</div>
+  </div>
 
-:::
+  <div style="background:rgba(245,158,11,0.07);border:1px solid rgba(245,158,11,0.3);border-radius:10px;padding:0.9rem;">
+    <div style="font-size:1.6em;margin-bottom:0.3em;">🤖</div>
+    <div style="font-weight:700;color:#FCD34D;margin-bottom:0.3em;">23 Agentes IA iMEL®</div>
+    <div style="color:#94A3B8;line-height:1.55;">Ecosistemas especializados: SROI (13), ToC (5), Indicadores (5). Metodología SVI incorporada — no asistentes genéricos.</div>
+    <div style="margin-top:0.5em;font-size:0.88em;color:#FCD34D;">SROI · ToC · Indicadores</div>
+  </div>
 
-::: note-small
-Plataforma disponible en: jcmunozmora.github.io/valor-ia/ · Diagnóstico gratuito · Sin registro requerido
+</div>
+<div style="margin-top:0.7rem;text-align:center;font-size:0.6em;color:#475569;">
+  jcmunozmora.github.io/valor-ia/ · Diagnóstico gratuito · Sin registro requerido
+</div>
+```
+
+::: notes
+Toda la plataforma es de acceso libre. No porque regalemos el servicio — sino porque las herramientas generan confianza y demuestran la profundidad de la metodología antes de cualquier conversación comercial.
 :::
 
 ---
