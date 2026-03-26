@@ -250,139 +250,111 @@ El costo real de no medir con rigor no es solo una cuestión académica. Es fina
 
 ---
 
-## ValorIA: tres líneas de servicio {background-color="#0F172A"}
+## ValorIA: tres servicios definidos {background-color="#0F172A"}
 
 ::: seccion-label
-Una plataforma de valor social — diagnóstico · medición · valoración · formación
+Centro Valor Público EAFIT · iMEL® · SVI Certified
 :::
 
 ```{=html}
-<div style="display:grid;grid-template-columns:1fr 1fr 1fr;gap:1.2rem;margin-top:1.2rem;">
+<div style="display:grid;grid-template-columns:1fr 1fr 1fr;gap:1.4rem;margin-top:1.4rem;">
 
-  <div style="background:rgba(13,148,136,0.08);border:1px solid rgba(13,148,136,0.35);border-radius:12px;padding:1.2rem;">
-    <div style="font-size:0.58em;font-weight:700;letter-spacing:0.15em;text-transform:uppercase;color:#5EEAD4;margin-bottom:0.5em;">Línea 1</div>
-    <div style="font-size:1.05em;font-weight:800;color:white;margin-bottom:0.6em;line-height:1.3;">Diagnóstico y<br>Diseño de ToC</div>
-    <div style="font-size:0.68em;color:#94A3B8;line-height:1.7;margin-bottom:0.8em;">
-      ✦ Diagnóstico de madurez iMEL® (N1–N5)<br>
-      ✦ Construcción y calificación de Teoría del Cambio<br>
-      ✦ Banco de indicadores P/R/I (105+)<br>
-      ✦ Impact Map y cadena causal
+  <div style="background:rgba(245,158,11,0.07);border:2px solid rgba(245,158,11,0.4);border-radius:14px;padding:1.4rem;display:flex;flex-direction:column;">
+    <div style="font-size:0.55em;font-weight:700;letter-spacing:0.2em;text-transform:uppercase;color:#FCD34D;margin-bottom:0.5em;">Servicio 01</div>
+    <div style="font-size:1.1em;font-weight:800;color:white;line-height:1.3;margin-bottom:0.7em;">Formación en<br>Valor Social</div>
+    <div style="font-size:0.7em;color:#94A3B8;line-height:1.7;flex:1;">
+      Ruta de capacitación en medición y gestión del impacto social. 7 módulos, 84h, certificación iMEL®. Diseñada para equipos de programas, fundaciones, gobierno y academia.
     </div>
-    <div style="font-size:0.6em;background:rgba(13,148,136,0.15);border-radius:6px;padding:0.4rem 0.6rem;color:#A7F3D0;display:inline-block;">IMToC · 200+ ToC calificadas</div>
+    <div style="margin-top:0.8em;font-size:0.6em;background:rgba(245,158,11,0.15);border-radius:6px;padding:0.4rem 0.7rem;color:#FDE68A;display:inline-block;">7 módulos · 84h · 6 rutas de entrada</div>
   </div>
 
-  <div style="background:rgba(59,130,246,0.08);border:1px solid rgba(59,130,246,0.35);border-radius:12px;padding:1.2rem;">
-    <div style="font-size:0.58em;font-weight:700;letter-spacing:0.15em;text-transform:uppercase;color:#93C5FD;margin-bottom:0.5em;">Línea 2</div>
-    <div style="font-size:1.05em;font-weight:800;color:white;margin-bottom:0.6em;line-height:1.3;">Medición de<br>Impacto Causal</div>
-    <div style="font-size:0.68em;color:#94A3B8;line-height:1.7;margin-bottom:0.8em;">
-      ✦ Diseño experimental: RCT / cRCT<br>
-      ✦ Cuasi-experimental: DiD, PSM, RD<br>
-      ✦ Métodos mixtos y participativos<br>
-      ✦ Auditoría académica de impacto (SVI 48 criterios)
+  <div style="background:rgba(13,148,136,0.07);border:2px solid rgba(13,148,136,0.4);border-radius:14px;padding:1.4rem;display:flex;flex-direction:column;">
+    <div style="font-size:0.55em;font-weight:700;letter-spacing:0.2em;text-transform:uppercase;color:#5EEAD4;margin-bottom:0.5em;">Servicio 02</div>
+    <div style="font-size:1.1em;font-weight:800;color:white;line-height:1.3;margin-bottom:0.7em;">Medición y Valoración<br>de Impacto</div>
+    <div style="font-size:0.7em;color:#94A3B8;line-height:1.7;flex:1;">
+      Acompañamiento completo en el diseño, implementación y valoración del impacto social. Herramientas de ToC, evaluación causal (RCT/DiD), valoración monetaria (SROI, WELLBY, WTP) y 23 agentes IA especializados.
     </div>
-    <div style="font-size:0.6em;background:rgba(59,130,246,0.15);border-radius:6px;padding:0.4rem 0.6rem;color:#BFDBFE;display:inline-block;">Estándar J-PAL · 3ie · DCED</div>
+    <div style="margin-top:0.8em;font-size:0.6em;background:rgba(13,148,136,0.15);border-radius:6px;padding:0.4rem 0.7rem;color:#A7F3D0;display:inline-block;">IMToC · RCT · SROI · 23 Agentes IA</div>
   </div>
 
-  <div style="background:rgba(124,58,237,0.08);border:1px solid rgba(124,58,237,0.35);border-radius:12px;padding:1.2rem;">
-    <div style="font-size:0.58em;font-weight:700;letter-spacing:0.15em;text-transform:uppercase;color:#C4B5FD;margin-bottom:0.5em;">Línea 3</div>
-    <div style="font-size:1.05em;font-weight:800;color:white;margin-bottom:0.6em;line-height:1.3;">Valoración<br>Monetaria</div>
-    <div style="font-size:0.68em;color:#94A3B8;line-height:1.7;margin-bottom:0.8em;">
-      ✦ SROI — Social Return on Investment (SVI)<br>
-      ✦ WELLBY — Well-Being Years<br>
-      ✦ WTP / WTA — Valoración contingente<br>
-      ✦ Costos unitarios · Benchmarking 383 reportes
+  <div style="background:rgba(124,58,237,0.07);border:2px solid rgba(124,58,237,0.4);border-radius:14px;padding:1.4rem;display:flex;flex-direction:column;">
+    <div style="font-size:0.55em;font-weight:700;letter-spacing:0.2em;text-transform:uppercase;color:#C4B5FD;margin-bottom:0.5em;">Servicio 03</div>
+    <div style="font-size:1.1em;font-weight:800;color:white;line-height:1.3;margin-bottom:0.7em;">Auditoría Académica<br>de Impacto</div>
+    <div style="font-size:0.7em;color:#94A3B8;line-height:1.7;flex:1;">
+      Revisamos, verificamos, mejoramos y validamos las prácticas de medición de impacto de su organización. Acompañamos en la consecución de validación internacional y académica de sus estimaciones.
     </div>
-    <div style="font-size:0.6em;background:rgba(124,58,237,0.15);border-radius:6px;padding:0.4rem 0.6rem;color:#DDD6FE;display:inline-block;">SVI Certified · Mediana global 4.35×</div>
+    <div style="margin-top:0.8em;font-size:0.6em;background:rgba(124,58,237,0.15);border-radius:6px;padding:0.4rem 0.7rem;color:#DDD6FE;display:inline-block;">48 criterios SVI · J-PAL · 3ie · IDS Sussex</div>
   </div>
 
-</div>
-<div style="margin-top:1rem;display:grid;grid-template-columns:1fr 1fr;gap:0.8rem;">
-  <div style="background:rgba(245,158,11,0.07);border:1px solid rgba(245,158,11,0.25);border-radius:8px;padding:0.7rem 1rem;font-size:0.65em;color:#FCD34D;">
-    <strong>+ Formación en Valor Social</strong> <span style="color:#94A3B8;">— 7 módulos · 84h · inhouse / virtual · certificación iMEL®</span>
-  </div>
-  <div style="background:rgba(8,145,178,0.07);border:1px solid rgba(8,145,178,0.25);border-radius:8px;padding:0.7rem 1rem;font-size:0.65em;color:#A5F3FC;">
-    <strong>+ Ecosistema de 23 Agentes IA</strong> <span style="color:#94A3B8;">— especializados por metodología, no asistentes genéricos</span>
-  </div>
 </div>
 ```
 
 ::: notes
-ValorIA no es solo SROI. Es una plataforma de tres líneas complementarias: diagnóstico y diseño de ToC, medición causal de impacto, y valoración monetaria. Dependiendo del nivel de madurez del programa y las preguntas que quieren responder, activamos la combinación correcta de servicios.
+Estos son los tres servicios de ValorIA. No son líneas abstractas — son productos definidos con entregables concretos. Primero hablo de Formación, luego de Medición y Valoración con todo el ecosistema de herramientas, y finalmente de Auditoría. Cada uno puede contratarse de forma independiente o combinada según la madurez y necesidad de la organización.
 :::
 
 ---
 
-## Caja de herramientas: 12+ instrumentos {background-color="#0F172A"}
+## Servicio 01 — Formación en Valor Social {background-color="#0F172A"}
 
 ::: seccion-label
-De la pregunta al dato — instrumentos verificados por línea de servicio
+Capacidad instalada en su organización — certificación iMEL® · 7 módulos · 84 horas
 :::
 
 ```{=html}
-<div style="display:grid;grid-template-columns:1fr 1fr 1fr;gap:1rem;margin-top:0.8rem;font-size:0.68em;">
+<div style="display:grid;grid-template-columns:1.1fr 0.9fr;gap:1.5rem;margin-top:0.8rem;font-size:0.7em;">
 
   <div>
-    <div style="font-weight:700;color:#5EEAD4;font-size:0.85em;text-transform:uppercase;letter-spacing:0.1em;margin-bottom:0.6rem;padding-bottom:0.4rem;border-bottom:1px solid rgba(13,148,136,0.4);">Diagnóstico y ToC</div>
-    <div style="display:flex;flex-direction:column;gap:0.45rem;">
-      <div style="background:rgba(15,23,42,0.7);border:1px solid rgba(13,148,136,0.2);border-radius:7px;padding:0.5rem 0.7rem;">
-        <div style="font-weight:600;color:#E2E8F0;">Diagnóstico iMEL®</div>
-        <div style="color:#64748B;font-size:0.9em;">Quiz 15 preguntas · N1–N5 · reporte personalizado</div>
+    <div style="font-weight:700;color:#FCD34D;margin-bottom:0.7rem;font-size:0.85em;text-transform:uppercase;letter-spacing:0.08em;">6 rutas de entrada según su perfil</div>
+    <div style="display:flex;flex-direction:column;gap:0.4rem;">
+      <div style="background:rgba(245,158,11,0.08);border:1px solid rgba(245,158,11,0.25);border-radius:8px;padding:0.5rem 0.8rem;display:flex;align-items:center;gap:0.7rem;">
+        <span style="color:#FCD34D;font-weight:700;flex:0 0 auto;">A</span>
+        <span style="color:#E2E8F0;">Coordinadores de programas sociales — de outputs a outcomes</span>
       </div>
-      <div style="background:rgba(15,23,42,0.7);border:1px solid rgba(13,148,136,0.2);border-radius:7px;padding:0.5rem 0.7rem;">
-        <div style="font-weight:600;color:#E2E8F0;">Repositorio IMToC</div>
-        <div style="color:#64748B;font-size:0.9em;">200+ ToC · 29 sectores · ES + EN · calificadas</div>
+      <div style="background:rgba(245,158,11,0.08);border:1px solid rgba(245,158,11,0.25);border-radius:8px;padding:0.5rem 0.8rem;display:flex;align-items:center;gap:0.7rem;">
+        <span style="color:#FCD34D;font-weight:700;flex:0 0 auto;">B</span>
+        <span style="color:#E2E8F0;">Directivos de fundaciones e inversión social — comunicar valor a financiadores</span>
       </div>
-      <div style="background:rgba(15,23,42,0.7);border:1px solid rgba(13,148,136,0.2);border-radius:7px;padding:0.5rem 0.7rem;">
-        <div style="font-weight:600;color:#E2E8F0;">Banco de Indicadores</div>
-        <div style="color:#64748B;font-size:0.9em;">105 indicadores P/R/I · por sector y nivel</div>
+      <div style="background:rgba(245,158,11,0.08);border:1px solid rgba(245,158,11,0.25);border-radius:8px;padding:0.5rem 0.8rem;display:flex;align-items:center;gap:0.7rem;">
+        <span style="color:#FCD34D;font-weight:700;flex:0 0 auto;">C</span>
+        <span style="color:#E2E8F0;">Equipos de gobierno — formulación y evaluación de política pública</span>
       </div>
-      <div style="background:rgba(15,23,42,0.7);border:1px solid rgba(13,148,136,0.2);border-radius:7px;padding:0.5rem 0.7rem;">
-        <div style="font-weight:600;color:#E2E8F0;">Constructor de ToC</div>
-        <div style="color:#64748B;font-size:0.9em;">Backwards mapping · cadena causal · supuestos</div>
+      <div style="background:rgba(245,158,11,0.08);border:1px solid rgba(245,158,11,0.25);border-radius:8px;padding:0.5rem 0.8rem;display:flex;align-items:center;gap:0.7rem;">
+        <span style="color:#FCD34D;font-weight:700;flex:0 0 auto;">D</span>
+        <span style="color:#E2E8F0;">Consultores y evaluadores independientes — ampliar portafolio metodológico</span>
+      </div>
+      <div style="background:rgba(245,158,11,0.08);border:1px solid rgba(245,158,11,0.25);border-radius:8px;padding:0.5rem 0.8rem;display:flex;align-items:center;gap:0.7rem;">
+        <span style="color:#FCD34D;font-weight:700;flex:0 0 auto;">E</span>
+        <span style="color:#E2E8F0;">Equipos de M&E — fortalecer práctica con metodología verificada</span>
+      </div>
+      <div style="background:rgba(245,158,11,0.08);border:1px solid rgba(245,158,11,0.25);border-radius:8px;padding:0.5rem 0.8rem;display:flex;align-items:center;gap:0.7rem;">
+        <span style="color:#FCD34D;font-weight:700;flex:0 0 auto;">F</span>
+        <span style="color:#E2E8F0;">Estudiantes e investigadores — base metodológica en valor social</span>
       </div>
     </div>
   </div>
 
-  <div>
-    <div style="font-weight:700;color:#93C5FD;font-size:0.85em;text-transform:uppercase;letter-spacing:0.1em;margin-bottom:0.6rem;padding-bottom:0.4rem;border-bottom:1px solid rgba(59,130,246,0.4);">Medición de Impacto</div>
-    <div style="display:flex;flex-direction:column;gap:0.45rem;">
-      <div style="background:rgba(15,23,42,0.7);border:1px solid rgba(59,130,246,0.2);border-radius:7px;padding:0.5rem 0.7rem;">
-        <div style="font-weight:600;color:#E2E8F0;">Diseño experimental</div>
-        <div style="color:#64748B;font-size:0.9em;">RCT / cRCT · power analysis · aleatorización</div>
-      </div>
-      <div style="background:rgba(15,23,42,0.7);border:1px solid rgba(59,130,246,0.2);border-radius:7px;padding:0.5rem 0.7rem;">
-        <div style="font-weight:600;color:#E2E8F0;">Cuasi-experimental</div>
-        <div style="color:#64748B;font-size:0.9em;">DiD · PSM · Regresión discontinua · IV</div>
-      </div>
-      <div style="background:rgba(15,23,42,0.7);border:1px solid rgba(59,130,246,0.2);border-radius:7px;padding:0.5rem 0.7rem;">
-        <div style="font-weight:600;color:#E2E8F0;">Auditoría de impacto</div>
-        <div style="color:#64748B;font-size:0.9em;">48 criterios SVI · SVI 48-point assurance</div>
-      </div>
-      <div style="background:rgba(15,23,42,0.7);border:1px solid rgba(59,130,246,0.2);border-radius:7px;padding:0.5rem 0.7rem;">
-        <div style="font-weight:600;color:#E2E8F0;">Métodos participativos</div>
-        <div style="color:#64748B;font-size:0.9em;">PIA (Tufts) · scoring · piling · focus groups</div>
+  <div style="display:flex;flex-direction:column;gap:0.7rem;">
+    <div style="background:rgba(15,23,42,0.8);border:1px solid rgba(245,158,11,0.2);border-radius:10px;padding:1rem;">
+      <div style="font-weight:700;color:#FCD34D;margin-bottom:0.4em;">7 módulos · 84 horas</div>
+      <div style="color:#94A3B8;line-height:1.6;">
+        M1 Fundamentos del Valor Social<br>
+        M2 Teoría del Cambio<br>
+        M3 Sistemas de Indicadores<br>
+        M4 Métodos de Monetización<br>
+        M5 Evaluación Causal<br>
+        M6 Informe y Comunicación<br>
+        M7 Gestión Adaptativa
       </div>
     </div>
-  </div>
-
-  <div>
-    <div style="font-weight:700;color:#C4B5FD;font-size:0.85em;text-transform:uppercase;letter-spacing:0.1em;margin-bottom:0.6rem;padding-bottom:0.4rem;border-bottom:1px solid rgba(124,58,237,0.4);">Valoración Monetaria</div>
-    <div style="display:flex;flex-direction:column;gap:0.45rem;">
-      <div style="background:rgba(15,23,42,0.7);border:1px solid rgba(124,58,237,0.2);border-radius:7px;padding:0.5rem 0.7rem;">
-        <div style="font-weight:600;color:#E2E8F0;">Value Map SROI</div>
-        <div style="color:#64748B;font-size:0.9em;">6 etapas SVI · Excel/Sheets · Monte Carlo</div>
+    <div style="display:grid;grid-template-columns:1fr 1fr;gap:0.5rem;">
+      <div style="background:rgba(245,158,11,0.08);border:1px solid rgba(245,158,11,0.2);border-radius:8px;padding:0.5rem;text-align:center;">
+        <div style="color:#FCD34D;font-weight:700;">Inhouse</div>
+        <div style="color:#64748B;font-size:0.9em;">para su equipo</div>
       </div>
-      <div style="background:rgba(15,23,42,0.7);border:1px solid rgba(124,58,237,0.2);border-radius:7px;padding:0.5rem 0.7rem;">
-        <div style="font-weight:600;color:#E2E8F0;">WELLBY · WTP · Unit Costs</div>
-        <div style="color:#64748B;font-size:0.9em;">£13k/punto bienestar · choice experiments · ADRES</div>
-      </div>
-      <div style="background:rgba(15,23,42,0.7);border:1px solid rgba(124,58,237,0.2);border-radius:7px;padding:0.5rem 0.7rem;">
-        <div style="font-weight:600;color:#E2E8F0;">SROI Benchmark APP</div>
-        <div style="color:#64748B;font-size:0.9em;">383 reportes SVI · mediana 4.35× · por sector</div>
-      </div>
-      <div style="background:rgba(15,23,42,0.7);border:1px solid rgba(124,58,237,0.2);border-radius:7px;padding:0.5rem 0.7rem;">
-        <div style="font-weight:600;color:#E2E8F0;">Sensibilidad y riesgo</div>
-        <div style="color:#64748B;font-size:0.9em;">Tornado · payback · TIR social · break-even</div>
+      <div style="background:rgba(245,158,11,0.08);border:1px solid rgba(245,158,11,0.2);border-radius:8px;padding:0.5rem;text-align:center;">
+        <div style="color:#FCD34D;font-weight:700;">Virtual</div>
+        <div style="color:#64748B;font-size:0.9em;">abierto / acompañado</div>
       </div>
     </div>
   </div>
@@ -391,7 +363,56 @@ De la pregunta al dato — instrumentos verificados por línea de servicio
 ```
 
 ::: notes
-Cada herramienta está conectada con las demás. El diagnóstico informa el diseño metodológico. La medición alimenta la valoración. La valoración se benchmarkea contra 383 reportes internacionales. No es una caja dispersa de técnicas — es un sistema integrado.
+La formación no es un curso teórico. Cada módulo termina en un entregable aplicado al programa real del participante. Al finalizar, el equipo tiene capacidad instalada — no solo conocimiento, sino un sistema de medición funcionando.
+:::
+
+---
+
+## Servicio 02 — Medición y Valoración de Impacto {background-color="#0F172A"}
+
+::: seccion-label
+Herramientas · Agentes IA · Una definición de éxito clara
+:::
+
+```{=html}
+<div style="display:grid;grid-template-columns:1fr 1fr;gap:1.2rem;margin-top:0.9rem;font-size:0.69em;">
+
+  <div>
+    <div style="font-weight:700;color:#5EEAD4;margin-bottom:0.6rem;font-size:0.82em;text-transform:uppercase;letter-spacing:0.08em;">Herramientas de diagnóstico y ToC</div>
+    <div style="display:flex;flex-direction:column;gap:0.35rem;margin-bottom:0.9rem;">
+      <div style="background:rgba(13,148,136,0.08);border:1px solid rgba(13,148,136,0.25);border-radius:7px;padding:0.45rem 0.7rem;color:#E2E8F0;">🗺 Repositorio IMToC — 200+ ToC calificadas · 29 sectores</div>
+      <div style="background:rgba(13,148,136,0.08);border:1px solid rgba(13,148,136,0.25);border-radius:7px;padding:0.45rem 0.7rem;color:#E2E8F0;">🎯 Diagnóstico de Madurez iMEL® — N1 a N5</div>
+      <div style="background:rgba(13,148,136,0.08);border:1px solid rgba(13,148,136,0.25);border-radius:7px;padding:0.45rem 0.7rem;color:#E2E8F0;">📏 Banco de Indicadores — 105 indicadores P/R/I</div>
+    </div>
+    <div style="font-weight:700;color:#5EEAD4;margin-bottom:0.6rem;font-size:0.82em;text-transform:uppercase;letter-spacing:0.08em;">Medición y Valoración</div>
+    <div style="display:flex;flex-direction:column;gap:0.35rem;">
+      <div style="background:rgba(13,148,136,0.08);border:1px solid rgba(13,148,136,0.25);border-radius:7px;padding:0.45rem 0.7rem;color:#E2E8F0;">🔬 Evaluación causal: RCT · cRCT · DiD · PSM</div>
+      <div style="background:rgba(13,148,136,0.08);border:1px solid rgba(13,148,136,0.25);border-radius:7px;padding:0.45rem 0.7rem;color:#E2E8F0;">💹 Valoración monetaria: SROI · WELLBY · WTP · Unit Costs</div>
+      <div style="background:rgba(13,148,136,0.08);border:1px solid rgba(13,148,136,0.25);border-radius:7px;padding:0.45rem 0.7rem;color:#E2E8F0;">🤖 23 Agentes IA especializados en metodología SVI</div>
+    </div>
+  </div>
+
+  <div style="display:flex;flex-direction:column;gap:0.8rem;">
+    <div style="background:rgba(13,148,136,0.12);border:2px solid rgba(13,148,136,0.5);border-radius:12px;padding:1.1rem;flex:1;">
+      <div style="font-size:0.78em;font-weight:700;color:#5EEAD4;text-transform:uppercase;letter-spacing:0.1em;margin-bottom:0.5em;">Nuestra definición de éxito</div>
+      <div style="font-size:1.05em;color:white;line-height:1.55;font-style:italic;">
+        &ldquo;Que nuestros aliados sean capaces de incorporar la noción de impacto de manera <strong style="color:#5EEAD4;">autónoma y escalable</strong>.&rdquo;
+      </div>
+      <div style="margin-top:0.8em;font-size:0.82em;color:#94A3B8;line-height:1.5;">
+        No generamos dependencia. Construimos capacidad. Las herramientas y los agentes están diseñados para que el equipo de su organización pueda operar sin nosotros.
+      </div>
+    </div>
+    <div style="background:rgba(15,23,42,0.8);border:1px solid rgba(13,148,136,0.2);border-radius:10px;padding:0.8rem;">
+      <div style="font-size:0.78em;font-weight:700;color:#A7F3D0;margin-bottom:0.4em;">Dos ejemplos a continuación →</div>
+      <div style="font-size:0.82em;color:#94A3B8;">Hogares Saludables (N5 · cRCT · SROI 3.74×) y Sueños que Transforman (N3→N4 · SROI 2.35×)</div>
+    </div>
+  </div>
+
+</div>
+```
+
+::: notes
+El servicio de Medición y Valoración no comienza con el cálculo del ratio SROI. Comienza con el diagnóstico de la Teoría del Cambio y el sistema de indicadores. Solo cuando tenemos claridad sobre qué cambios estamos midiendo y por qué ocurren, pasamos a la valoración monetaria. Los agentes IA aceleran cada etapa sin reemplazar el juicio del equipo.
 :::
 
 ---
@@ -566,65 +587,87 @@ Fuente: Social Value International (SVI) · socialvalueuk.org · Scraping y aná
 
 ---
 
-## Plataforma digital ValorIA {background-color="#0F172A"}
+## Servicio 03 — Auditoría Académica de Impacto {background-color="#0F172A"}
 
 ::: seccion-label
-Herramientas abiertas y aplicaciones — acceso libre · sin registro
+Revisamos · Verificamos · Mejoramos · Validamos — con estándar internacional
 :::
 
 ```{=html}
-<div style="display:grid;grid-template-columns:repeat(3,1fr);gap:0.9rem;margin-top:0.9rem;font-size:0.67em;">
+<div style="display:grid;grid-template-columns:1fr 1fr;gap:1.3rem;margin-top:1rem;font-size:0.69em;">
 
-  <div style="background:rgba(13,148,136,0.07);border:1px solid rgba(13,148,136,0.3);border-radius:10px;padding:0.9rem;">
-    <div style="font-size:1.6em;margin-bottom:0.3em;">🎯</div>
-    <div style="font-weight:700;color:#5EEAD4;margin-bottom:0.3em;">Diagnóstico iMEL®</div>
-    <div style="color:#94A3B8;line-height:1.55;">Quiz de 15 preguntas × 5 dimensiones. Clasifica su programa en N1–N5 con reporte personalizado y ruta metodológica recomendada.</div>
-    <div style="margin-top:0.5em;font-size:0.88em;color:#5EEAD4;">Gratuito · Sin registro</div>
+  <div style="display:flex;flex-direction:column;gap:0.6rem;">
+
+    <div style="background:rgba(124,58,237,0.08);border:1px solid rgba(124,58,237,0.3);border-radius:10px;padding:0.8rem 1rem;display:flex;gap:0.8rem;align-items:flex-start;">
+      <div style="font-size:1.3em;flex:0 0 auto;margin-top:0.1em;">🔍</div>
+      <div>
+        <div style="font-weight:700;color:#C4B5FD;margin-bottom:0.2em;">Revisamos</div>
+        <div style="color:#94A3B8;line-height:1.5;">Análisis estructural de sus prácticas actuales de medición: Teoría del Cambio, indicadores, recolección de datos y metodología de atribución.</div>
+      </div>
+    </div>
+
+    <div style="background:rgba(124,58,237,0.08);border:1px solid rgba(124,58,237,0.3);border-radius:10px;padding:0.8rem 1rem;display:flex;gap:0.8rem;align-items:flex-start;">
+      <div style="font-size:1.3em;flex:0 0 auto;margin-top:0.1em;">✅</div>
+      <div>
+        <div style="font-weight:700;color:#C4B5FD;margin-bottom:0.2em;">Verificamos</div>
+        <div style="color:#94A3B8;line-height:1.5;">Aplicamos los 48 criterios del SVI Report Assurance Standard. Identificamos qué cumple, qué falta y qué distorsiona los resultados reportados.</div>
+      </div>
+    </div>
+
+    <div style="background:rgba(124,58,237,0.08);border:1px solid rgba(124,58,237,0.3);border-radius:10px;padding:0.8rem 1rem;display:flex;gap:0.8rem;align-items:flex-start;">
+      <div style="font-size:1.3em;flex:0 0 auto;margin-top:0.1em;">📈</div>
+      <div>
+        <div style="font-weight:700;color:#C4B5FD;margin-bottom:0.2em;">Mejoramos</div>
+        <div style="color:#94A3B8;line-height:1.5;">Entregamos una hoja de ruta priorizada: qué cambiar primero, qué inversión metodológica tiene mayor retorno y cuál es el camino hacia N4/N5.</div>
+      </div>
+    </div>
+
+    <div style="background:rgba(124,58,237,0.08);border:1px solid rgba(124,58,237,0.3);border-radius:10px;padding:0.8rem 1rem;display:flex;gap:0.8rem;align-items:flex-start;">
+      <div style="font-size:1.3em;flex:0 0 auto;margin-top:0.1em;">🏅</div>
+      <div>
+        <div style="font-weight:700;color:#C4B5FD;margin-bottom:0.2em;">Validamos</div>
+        <div style="color:#94A3B8;line-height:1.5;">Acompañamos en la consecución de aseguramiento SVI, validación académica (IDS Sussex, 3ie, J-PAL) y publicación de resultados en medios verificables.</div>
+      </div>
+    </div>
+
   </div>
 
-  <div style="background:rgba(13,148,136,0.07);border:1px solid rgba(13,148,136,0.3);border-radius:10px;padding:0.9rem;">
-    <div style="font-size:1.6em;margin-bottom:0.3em;">🗺</div>
-    <div style="font-weight:700;color:#5EEAD4;margin-bottom:0.3em;">Repositorio IMToC</div>
-    <div style="color:#94A3B8;line-height:1.55;">200+ Teorías del Cambio calificadas. 29 sectores, EN + ES. Benchmarking automático: compare su ToC con las mejores del mundo.</div>
-    <div style="margin-top:0.5em;font-size:0.88em;color:#5EEAD4;">200+ ToC · N1–N5</div>
+  <div style="display:flex;flex-direction:column;gap:0.7rem;">
+
+    <div style="background:rgba(15,23,42,0.9);border:1px solid rgba(124,58,237,0.35);border-radius:12px;padding:1.1rem;">
+      <div style="font-size:0.78em;font-weight:700;color:#C4B5FD;text-transform:uppercase;letter-spacing:0.1em;margin-bottom:0.6em;">El estándar que aplicamos</div>
+      <div style="display:flex;flex-direction:column;gap:0.4rem;font-size:0.88em;">
+        <div style="display:flex;justify-content:space-between;color:#E2E8F0;padding:0.3rem 0;border-bottom:1px solid rgba(255,255,255,0.06);">
+          <span>SVI Report Assurance Standard</span><span style="color:#C4B5FD;font-weight:700;">48 criterios</span>
+        </div>
+        <div style="display:flex;justify-content:space-between;color:#E2E8F0;padding:0.3rem 0;border-bottom:1px solid rgba(255,255,255,0.06);">
+          <span>Principios de Social Value International</span><span style="color:#C4B5FD;font-weight:700;">8 principios</span>
+        </div>
+        <div style="display:flex;justify-content:space-between;color:#E2E8F0;padding:0.3rem 0;border-bottom:1px solid rgba(255,255,255,0.06);">
+          <span>Corpus de referencia global SVI</span><span style="color:#C4B5FD;font-weight:700;">383 reportes</span>
+        </div>
+        <div style="display:flex;justify-content:space-between;color:#E2E8F0;padding:0.3rem 0;">
+          <span>Red académica: IDS Sussex · 3ie · J-PAL</span><span style="color:#C4B5FD;font-weight:700;">internacional</span>
+        </div>
+      </div>
+    </div>
+
+    <div style="background:rgba(124,58,237,0.1);border:1px solid rgba(124,58,237,0.4);border-radius:10px;padding:0.9rem;">
+      <div style="font-size:0.78em;font-weight:700;color:#DDD6FE;margin-bottom:0.4em;">¿Para quién es este servicio?</div>
+      <div style="font-size:0.85em;color:#94A3B8;line-height:1.6;">
+        Organizaciones con mediciones existentes que necesitan robustez.<br>
+        Programas que buscan financiamiento de impacto o bonos sociales.<br>
+        Equipos que quieren publicar o certificar sus resultados.
+      </div>
+    </div>
+
   </div>
 
-  <div style="background:rgba(59,130,246,0.07);border:1px solid rgba(59,130,246,0.3);border-radius:10px;padding:0.9rem;">
-    <div style="font-size:1.6em;margin-bottom:0.3em;">📏</div>
-    <div style="font-weight:700;color:#93C5FD;margin-bottom:0.3em;">Banco de Indicadores</div>
-    <div style="color:#94A3B8;line-height:1.55;">105 indicadores clasificados P/R/I por sector y nivel de madurez. Con descripción, fuente de datos y ejemplo de uso.</div>
-    <div style="margin-top:0.5em;font-size:0.88em;color:#93C5FD;">105 indicadores · P/R/I</div>
-  </div>
-
-  <div style="background:rgba(124,58,237,0.07);border:1px solid rgba(124,58,237,0.3);border-radius:10px;padding:0.9rem;">
-    <div style="font-size:1.6em;margin-bottom:0.3em;">💹</div>
-    <div style="font-weight:700;color:#C4B5FD;margin-bottom:0.3em;">Value Map SROI</div>
-    <div style="color:#94A3B8;line-height:1.55;">Calculadora con las 6 etapas SVI. Proxies verificados, factores de ajuste automáticos, ratio y análisis Monte Carlo.</div>
-    <div style="margin-top:0.5em;font-size:0.88em;color:#C4B5FD;">Excel / Sheets · SVI</div>
-  </div>
-
-  <div style="background:rgba(124,58,237,0.07);border:1px solid rgba(124,58,237,0.3);border-radius:10px;padding:0.9rem;">
-    <div style="font-size:1.6em;margin-bottom:0.3em;">📊</div>
-    <div style="font-weight:700;color:#C4B5FD;margin-bottom:0.3em;">SROI Benchmark APP</div>
-    <div style="color:#94A3B8;line-height:1.55;">383 reportes SVI internacionales. Mediana global 4.35×. Benchmarking por sector, país y tamaño de inversión.</div>
-    <div style="margin-top:0.5em;font-size:0.88em;color:#C4B5FD;">apps.jcmunozmora.co/shiny/sroi-benchmark/</div>
-  </div>
-
-  <div style="background:rgba(245,158,11,0.07);border:1px solid rgba(245,158,11,0.3);border-radius:10px;padding:0.9rem;">
-    <div style="font-size:1.6em;margin-bottom:0.3em;">🤖</div>
-    <div style="font-weight:700;color:#FCD34D;margin-bottom:0.3em;">23 Agentes IA iMEL®</div>
-    <div style="color:#94A3B8;line-height:1.55;">Ecosistemas especializados: SROI (13), ToC (5), Indicadores (5). Metodología SVI incorporada — no asistentes genéricos.</div>
-    <div style="margin-top:0.5em;font-size:0.88em;color:#FCD34D;">SROI · ToC · Indicadores</div>
-  </div>
-
-</div>
-<div style="margin-top:0.7rem;text-align:center;font-size:0.6em;color:#475569;">
-  jcmunozmora.github.io/valor-ia/ · Diagnóstico gratuito · Sin registro requerido
 </div>
 ```
 
 ::: notes
-Toda la plataforma es de acceso libre. No porque regalemos el servicio — sino porque las herramientas generan confianza y demuestran la profundidad de la metodología antes de cualquier conversación comercial.
+La Auditoría no es una evaluación punitiva. Es un acompañamiento técnico. Muchas organizaciones tienen datos — lo que no tienen es el marco metodológico para transformarlos en evidencia verificable. Eso es exactamente lo que hacemos: convertir datos en evidencia con estándar internacional.
 :::
 
 ---
@@ -771,131 +814,6 @@ Agentes IA especializados ValorIA
 
 ::: note-small
 Los agentes no reemplazan el juicio experto — lo amplifican. Cada análisis es revisado y firmado por el equipo CVP EAFIT.
-:::
-
----
-
-## Formación en Valor Social {background-color="#0F172A"}
-
-::: seccion-label
-Ruta Formativa en Evaluación y Valor Social — 7 módulos · 84 horas · Universidad EAFIT
-:::
-
-<br>
-
-::: mod-grid-pitch
-
-::: {.mod-card-pitch .m-intro}
-::: mod-num-pitch
-M1 · 12h
-:::
-::: mod-name-pitch
-De la Intención al Impacto
-:::
-::: mod-hours-pitch
-Introductorio
-:::
-:::
-
-::: {.mod-card-pitch .m-basico}
-::: mod-num-pitch
-M2 · 12h
-:::
-::: mod-name-pitch
-MEL: De la Teoría a la Práctica
-:::
-::: mod-hours-pitch
-Básico–Intermedio
-:::
-:::
-
-::: {.mod-card-pitch .m-inter}
-::: mod-num-pitch
-M3 · 20h
-:::
-::: mod-name-pitch
-Valoración y Gestión del Impacto
-:::
-::: mod-hours-pitch
-Intermedio
-:::
-:::
-
-::: {.mod-card-pitch .m-avanz}
-::: mod-num-pitch
-M4 · 16h
-:::
-::: mod-name-pitch
-Métodos de Evaluación Empírica
-:::
-::: mod-hours-pitch
-Avanzado
-:::
-:::
-
-::: {.mod-card-pitch .m-avanz}
-::: mod-num-pitch
-M5 · 8h
-:::
-::: mod-name-pitch
-Evaluación Avanzada y Síntesis
-:::
-::: mod-hours-pitch
-Avanzado
-:::
-:::
-
-::: {.mod-card-pitch .m-inter}
-::: mod-num-pitch
-M6 · 8h
-:::
-::: mod-name-pitch
-Comunicación de Impacto
-:::
-::: mod-hours-pitch
-Intermedio
-:::
-:::
-
-::: {.mod-card-pitch .m-avanz}
-::: mod-num-pitch
-M7 · 8h
-:::
-::: mod-name-pitch
-Financiamiento Basado en Resultados
-:::
-::: mod-hours-pitch
-Avanzado
-:::
-:::
-
-:::
-
-<br>
-
-```{=html}
-<div class="corpus-strip">
-  <div class="corpus-stat">
-    <span class="corpus-num">84h</span>
-    <div class="corpus-label">Horas de formación total<br>(ruta completa)</div>
-  </div>
-  <div class="corpus-stat">
-    <span class="corpus-num">7</span>
-    <div class="corpus-label">Entregables concretos,<br>uno por módulo</div>
-  </div>
-  <div class="corpus-stat">
-    <span class="corpus-num">6</span>
-    <div class="corpus-label">Rutas de entrada<br>por perfil profesional</div>
-  </div>
-  <div class="corpus-stat">
-    <span class="corpus-num">3</span>
-    <div class="corpus-label">Certificaciones alineadas:<br>SVI · J-PAL · 3ie</div>
-  </div>
-</div>
-```
-
-::: note-small
-Módulos independientes o ruta completa · Inhouse o virtual sincrónico · Co-diseño con la organización · Casos reales del portafolio del participante
 :::
 
 ---
