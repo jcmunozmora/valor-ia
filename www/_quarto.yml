@@ -33,8 +33,6 @@ website:
             href: metodos/index.qmd
           - text: "Agentes IA — Ecosistema iMEL®"
             href: agentes.qmd
-          - text: "SROI Benchmark — 383 reportes SVI"
-            href: ciencia.qmd
           - text: "---"
           - text: "Evaluación de impacto"
           - text: "RCT / cRCT — Ensayo aleatorizado"
@@ -45,6 +43,10 @@ website:
           - text: "Valoración monetaria"
           - text: "SROI — Social Return on Investment"
             href: metodos/sroi.qmd
+          - text: "SROI Benchmark — 383 reportes SVI"
+            href: ciencia.qmd
+          - text: "SROI Benchmark (APP)"
+            href: "https://apps.jcmunozmora.co/shiny/sroi-benchmark/"
           - text: "WELLBY — Well-Being Years"
             href: metodos/wellby.qmd
           - text: "Costos unitarios (Unit Costs)"
