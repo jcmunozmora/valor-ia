@@ -300,20 +300,10 @@ toc: false
 
   <div class="inv-card">
     <div class="inv-header">
-      <div class="inv-name">Catalina Gomez Toro</div>
-      <div class="inv-badge inv-badge--teal">Genero</div>
-    </div>
-    <div class="inv-phd">Ph.D. Economia &middot; Economia aplicada e inclusion</div>
-    <div class="inv-area">Economia de genero &middot; Inclusion y diversidad &middot; Evaluacion de programas sociales</div>
-    <div class="inv-link">Vinculacion iMEL: indicadores de genero en Impact Maps, auditoria de proxies</div>
-  </div>
-
-  <div class="inv-card">
-    <div class="inv-header">
       <div class="inv-name">Adolfo Eslava Gomez</div>
       <div class="inv-badge inv-badge--purple">Innovacion Social</div>
     </div>
-    <div class="inv-phd">Ph.D. &middot; Politica publica y gobernanza · Director EAFIT Social</div>
+    <div class="inv-phd">Ph.D. &middot; Politica publica y gobernanza &middot; Director EAFIT Social</div>
     <div class="inv-area">Innovacion social &middot; Gobernanza publica &middot; Co-produccion de politicas con ciudadanos</div>
     <div class="inv-link">Vinculacion iMEL: enfoques participativos, sistematizacion de experiencias sociales</div>
   </div>
@@ -323,9 +313,39 @@ toc: false
       <div class="inv-name">Lina Marcela Cortes Duran</div>
       <div class="inv-badge inv-badge--blue">Finanzas &amp; ESG</div>
     </div>
-    <div class="inv-phd">Ph.D. Economia &middot; Universidad de Salamanca &mdash; <em>Cum Laude</em></div>
+    <div class="inv-phd">Ph.D. Economia &middot; Universidad de Salamanca &mdash; <em>Cum Laude</em> &middot; Subdecana Academica FEG</div>
     <div class="inv-area">Finanzas corporativas &middot; Gobierno corporativo &middot; Econometria aplicada &middot; Analisis ESG</div>
     <div class="inv-link">Vinculacion iMEL: valoracion financiera del impacto social, analisis de riesgo ESG</div>
+  </div>
+
+  <div class="inv-card">
+    <div class="inv-header">
+      <div class="inv-name">Diego Restrepo-Tobon</div>
+      <div class="inv-badge inv-badge--blue">Finanzas</div>
+    </div>
+    <div class="inv-phd">Ph.D. Economics &amp; Finance &middot; Binghamton University (SUNY) &middot; Coordinador Maestria en Finanzas</div>
+    <div class="inv-area">Finanzas corporativas &middot; Eficiencia bancaria &middot; Crisis financieras &middot; Econometria aplicada &middot; Valoracion de empresas</div>
+    <div class="inv-link">Vinculacion iMEL: valoracion monetaria del impacto en mercados financieros, analisis de materialidad ESG</div>
+  </div>
+
+  <div class="inv-card">
+    <div class="inv-header">
+      <div class="inv-name">Andres Ramirez Hassan</div>
+      <div class="inv-badge inv-badge--green">Datos &amp; IA</div>
+    </div>
+    <div class="inv-phd">Ph.D. Estadistica &middot; Universidad Nacional de Colombia &middot; Coordinador Grupo OMEGA &middot; Postdoc Monash University</div>
+    <div class="inv-area">Econometria bayesiana &middot; Machine learning &middot; Efectos causales &middot; Aplicaciones en salud, crimen y finanzas &middot; 50+ articulos indexados</div>
+    <div class="inv-link">Vinculacion iMEL: modelos analiticos avanzados, validacion estadistica de outcomes, inferencia causal bayesiana</div>
+  </div>
+
+  <div class="inv-card">
+    <div class="inv-header">
+      <div class="inv-name">Hernan Herrera-Echeverri</div>
+      <div class="inv-badge inv-badge--amber">Capital &amp; Empresa</div>
+    </div>
+    <div class="inv-phd">Ph.D. Administracion &middot; Universidad de los Andes &middot; Visiting researcher Florida International University</div>
+    <div class="inv-area">Capital de riesgo y private equity &middot; Finanzas corporativas &middot; Gobierno corporativo &middot; Calidad institucional e inversion en economias emergentes</div>
+    <div class="inv-link">Vinculacion iMEL: valoracion de programas de desarrollo empresarial, finanzas de impacto y SIBs</div>
   </div>
 
 </div>
