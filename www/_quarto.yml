@@ -3,7 +3,7 @@ project:
   output-dir: ../docs
 
 website:
-  title: "Valor·IA — CVP EAFIT"
+  title: "Valor·IA"
   description: "Plataforma de inteligencia para la medicion de valor social · CVP EAFIT"
   favicon: images/favicon.svg
 
