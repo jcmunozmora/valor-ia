@@ -298,63 +298,181 @@ Estos son los tres servicios de ValorIA. No son líneas abstractas — son produ
 ## Servicio 01 — Formación en Valor Social {background-color="#0F172A"}
 
 ::: seccion-label
-Capacidad instalada en su organización — certificación iMEL® · 7 módulos · 84 horas
+Ruta Formativa en Evaluación y Valor Social · Universidad EAFIT · 7 módulos · 84h
 :::
 
 ```{=html}
-<div style="display:grid;grid-template-columns:1.1fr 0.9fr;gap:1.5rem;margin-top:0.8rem;font-size:0.7em;">
+<div style="display:grid;grid-template-columns:1fr 1fr;gap:1.1rem;margin-top:0.7rem;font-size:0.65em;">
+
+  <div style="display:flex;flex-direction:column;gap:0.35rem;">
+    <div style="display:grid;grid-template-columns:auto 1fr auto auto;align-items:center;gap:0.5rem;background:rgba(245,158,11,0.07);border:1px solid rgba(245,158,11,0.25);border-radius:7px;padding:0.45rem 0.7rem;">
+      <span style="font-weight:700;color:#FCD34D;min-width:2em;">M1</span>
+      <span style="color:#E2E8F0;">De la Intención al Impacto</span>
+      <span style="color:#64748B;font-size:0.88em;">12h</span>
+      <span style="color:#64748B;font-size:0.85em;background:rgba(255,255,255,0.06);padding:0.1em 0.4em;border-radius:4px;">Intro</span>
+    </div>
+    <div style="display:grid;grid-template-columns:auto 1fr auto auto;align-items:center;gap:0.5rem;background:rgba(245,158,11,0.07);border:1px solid rgba(245,158,11,0.25);border-radius:7px;padding:0.45rem 0.7rem;">
+      <span style="font-weight:700;color:#FCD34D;min-width:2em;">M2</span>
+      <span style="color:#E2E8F0;">MEL: De la Teoría a la Práctica</span>
+      <span style="color:#64748B;font-size:0.88em;">12h</span>
+      <span style="color:#64748B;font-size:0.85em;background:rgba(255,255,255,0.06);padding:0.1em 0.4em;border-radius:4px;">Básico</span>
+    </div>
+    <div style="display:grid;grid-template-columns:auto 1fr auto auto;align-items:center;gap:0.5rem;background:rgba(245,158,11,0.1);border:1px solid rgba(245,158,11,0.4);border-radius:7px;padding:0.45rem 0.7rem;">
+      <span style="font-weight:700;color:#FCD34D;min-width:2em;">M3</span>
+      <span style="color:#E2E8F0;font-weight:600;">Valoración y Gestión del Impacto Social</span>
+      <span style="color:#FCD34D;font-size:0.88em;font-weight:700;">20h</span>
+      <span style="color:#A7F3D0;font-size:0.85em;background:rgba(13,148,136,0.15);padding:0.1em 0.4em;border-radius:4px;">Intermedio</span>
+    </div>
+    <div style="display:grid;grid-template-columns:auto 1fr auto auto;align-items:center;gap:0.5rem;background:rgba(245,158,11,0.07);border:1px solid rgba(245,158,11,0.25);border-radius:7px;padding:0.45rem 0.7rem;">
+      <span style="font-weight:700;color:#FCD34D;min-width:2em;">M4</span>
+      <span style="color:#E2E8F0;">Métodos de Evaluación de Impacto Empírica</span>
+      <span style="color:#64748B;font-size:0.88em;">16h</span>
+      <span style="color:#FCA5A5;font-size:0.85em;background:rgba(239,68,68,0.1);padding:0.1em 0.4em;border-radius:4px;">Avanzado</span>
+    </div>
+    <div style="display:grid;grid-template-columns:auto 1fr auto auto;align-items:center;gap:0.5rem;background:rgba(245,158,11,0.07);border:1px solid rgba(245,158,11,0.25);border-radius:7px;padding:0.45rem 0.7rem;">
+      <span style="font-weight:700;color:#FCD34D;min-width:2em;">M5</span>
+      <span style="color:#E2E8F0;">Evaluación Avanzada y Síntesis de Evidencia</span>
+      <span style="color:#64748B;font-size:0.88em;">8h</span>
+      <span style="color:#FCA5A5;font-size:0.85em;background:rgba(239,68,68,0.1);padding:0.1em 0.4em;border-radius:4px;">Avanzado</span>
+    </div>
+    <div style="display:grid;grid-template-columns:auto 1fr auto auto;align-items:center;gap:0.5rem;background:rgba(245,158,11,0.07);border:1px solid rgba(245,158,11,0.25);border-radius:7px;padding:0.45rem 0.7rem;">
+      <span style="font-weight:700;color:#FCD34D;min-width:2em;">M6</span>
+      <span style="color:#E2E8F0;">Comunicación de Impacto</span>
+      <span style="color:#64748B;font-size:0.88em;">8h</span>
+      <span style="color:#A7F3D0;font-size:0.85em;background:rgba(13,148,136,0.15);padding:0.1em 0.4em;border-radius:4px;">Intermedio</span>
+    </div>
+    <div style="display:grid;grid-template-columns:auto 1fr auto auto;align-items:center;gap:0.5rem;background:rgba(245,158,11,0.07);border:1px solid rgba(245,158,11,0.25);border-radius:7px;padding:0.45rem 0.7rem;">
+      <span style="font-weight:700;color:#FCD34D;min-width:2em;">M7</span>
+      <span style="color:#E2E8F0;">Financiamiento Basado en Impacto</span>
+      <span style="color:#64748B;font-size:0.88em;">8h</span>
+      <span style="color:#FCA5A5;font-size:0.85em;background:rgba(239,68,68,0.1);padding:0.1em 0.4em;border-radius:4px;">Avanzado</span>
+    </div>
+  </div>
+
+  <div style="display:flex;flex-direction:column;gap:0.65rem;">
+
+    <div style="background:rgba(15,23,42,0.8);border:1px solid rgba(245,158,11,0.3);border-radius:10px;padding:0.85rem;">
+      <div style="font-weight:700;color:#FCD34D;margin-bottom:0.5em;font-size:0.9em;">Estándares que aplicamos</div>
+      <div style="display:flex;flex-direction:column;gap:0.3rem;font-size:0.88em;">
+        <div style="display:flex;justify-content:space-between;color:#CBD5E1;padding:0.2rem 0;border-bottom:1px solid rgba(255,255,255,0.05);">
+          <span>SVI — 8 principios + 48 criterios assurance</span><span style="color:#FCD34D;">M3</span>
+        </div>
+        <div style="display:flex;justify-content:space-between;color:#CBD5E1;padding:0.2rem 0;border-bottom:1px solid rgba(255,255,255,0.05);">
+          <span>DCED Standard (Donor Committee)</span><span style="color:#FCD34D;">M2</span>
+        </div>
+        <div style="display:flex;justify-content:space-between;color:#CBD5E1;padding:0.2rem 0;border-bottom:1px solid rgba(255,255,255,0.05);">
+          <span>OCDE-CAD (5+1 criterios de evaluación)</span><span style="color:#FCD34D;">M1, M5</span>
+        </div>
+        <div style="display:flex;justify-content:space-between;color:#CBD5E1;padding:0.2rem 0;border-bottom:1px solid rgba(255,255,255,0.05);">
+          <span>3ie / J-PAL — evaluación causal rigurosa</span><span style="color:#FCD34D;">M4, M5</span>
+        </div>
+        <div style="display:flex;justify-content:space-between;color:#CBD5E1;padding:0.2rem 0;border-bottom:1px solid rgba(255,255,255,0.05);">
+          <span>GRI Universal Standards / SASB</span><span style="color:#FCD34D;">M6</span>
+        </div>
+        <div style="display:flex;justify-content:space-between;color:#CBD5E1;padding:0.2rem 0;border-bottom:1px solid rgba(255,255,255,0.05);">
+          <span>IRIS+ Metrics (GIIN)</span><span style="color:#FCD34D;">M6, M7</span>
+        </div>
+        <div style="display:flex;justify-content:space-between;color:#CBD5E1;padding:0.2rem 0;">
+          <span>IMP Framework (Impact Management Project)</span><span style="color:#FCD34D;">M7</span>
+        </div>
+      </div>
+    </div>
+
+    <div style="display:grid;grid-template-columns:1fr 1fr 1fr;gap:0.4rem;font-size:0.88em;">
+      <div style="background:rgba(245,158,11,0.08);border:1px solid rgba(245,158,11,0.2);border-radius:7px;padding:0.5rem;text-align:center;">
+        <div style="color:#FCD34D;font-weight:700;">Inhouse</div>
+        <div style="color:#64748B;font-size:0.9em;">para su equipo</div>
+      </div>
+      <div style="background:rgba(245,158,11,0.08);border:1px solid rgba(245,158,11,0.2);border-radius:7px;padding:0.5rem;text-align:center;">
+        <div style="color:#FCD34D;font-weight:700;">Virtual</div>
+        <div style="color:#64748B;font-size:0.9em;">sincrónico</div>
+      </div>
+      <div style="background:rgba(245,158,11,0.08);border:1px solid rgba(245,158,11,0.2);border-radius:7px;padding:0.5rem;text-align:center;">
+        <div style="color:#FCD34D;font-weight:700;">Módulos</div>
+        <div style="color:#64748B;font-size:0.9em;">independientes</div>
+      </div>
+    </div>
+
+  </div>
+
+</div>
+```
+
+::: notes
+El programa cubre el espectro completo: desde el diseño de intervenciones con ToC hasta el financiamiento basado en resultados. Cada módulo produce un entregable aplicado al programa real del participante. Al finalizar, el equipo tiene autonomía metodológica — no necesitan contratar externamente lo que aprendieron a hacer internamente.
+:::
+
+---
+
+## S01 — Rutas y entregables {background-color="#0F172A"}
+
+::: seccion-label
+6 trayectorias por perfil · 7 entregables — productos organizacionales, no ejercicios académicos
+:::
+
+```{=html}
+<div style="display:grid;grid-template-columns:1fr 1fr;gap:1.1rem;margin-top:0.8rem;font-size:0.67em;">
 
   <div>
-    <div style="font-weight:700;color:#FCD34D;margin-bottom:0.7rem;font-size:0.85em;text-transform:uppercase;letter-spacing:0.08em;">6 rutas de entrada según su perfil</div>
-    <div style="display:flex;flex-direction:column;gap:0.4rem;">
-      <div style="background:rgba(245,158,11,0.08);border:1px solid rgba(245,158,11,0.25);border-radius:8px;padding:0.5rem 0.8rem;display:flex;align-items:center;gap:0.7rem;">
-        <span style="color:#FCD34D;font-weight:700;flex:0 0 auto;">A</span>
-        <span style="color:#E2E8F0;">Coordinadores de programas sociales — de outputs a outcomes</span>
+    <div style="font-weight:700;color:#FCD34D;margin-bottom:0.55rem;font-size:0.82em;text-transform:uppercase;letter-spacing:0.08em;">Rutas recomendadas por perfil</div>
+    <div style="display:flex;flex-direction:column;gap:0.32rem;">
+      <div style="background:rgba(245,158,11,0.07);border:1px solid rgba(245,158,11,0.22);border-radius:7px;padding:0.4rem 0.7rem;display:grid;grid-template-columns:1.6fr 1fr;gap:0.5rem;align-items:center;">
+        <span style="color:#E2E8F0;">🏛 Coordinador de programa</span>
+        <span style="color:#FCD34D;font-weight:600;font-size:0.9em;">M1 → M2</span>
       </div>
-      <div style="background:rgba(245,158,11,0.08);border:1px solid rgba(245,158,11,0.25);border-radius:8px;padding:0.5rem 0.8rem;display:flex;align-items:center;gap:0.7rem;">
-        <span style="color:#FCD34D;font-weight:700;flex:0 0 auto;">B</span>
-        <span style="color:#E2E8F0;">Directivos de fundaciones e inversión social — comunicar valor a financiadores</span>
+      <div style="background:rgba(245,158,11,0.07);border:1px solid rgba(245,158,11,0.22);border-radius:7px;padding:0.4rem 0.7rem;display:grid;grid-template-columns:1.6fr 1fr;gap:0.5rem;align-items:center;">
+        <span style="color:#E2E8F0;">📊 Especialista MEL / monitoreo</span>
+        <span style="color:#FCD34D;font-weight:600;font-size:0.9em;">M2 → M3</span>
       </div>
-      <div style="background:rgba(245,158,11,0.08);border:1px solid rgba(245,158,11,0.25);border-radius:8px;padding:0.5rem 0.8rem;display:flex;align-items:center;gap:0.7rem;">
-        <span style="color:#FCD34D;font-weight:700;flex:0 0 auto;">C</span>
-        <span style="color:#E2E8F0;">Equipos de gobierno — formulación y evaluación de política pública</span>
+      <div style="background:rgba(245,158,11,0.07);border:1px solid rgba(245,158,11,0.22);border-radius:7px;padding:0.4rem 0.7rem;display:grid;grid-template-columns:1.6fr 1fr;gap:0.5rem;align-items:center;">
+        <span style="color:#E2E8F0;">🌿 Sostenibilidad / RSE / ESG</span>
+        <span style="color:#FCD34D;font-weight:600;font-size:0.9em;">M3 → M6</span>
       </div>
-      <div style="background:rgba(245,158,11,0.08);border:1px solid rgba(245,158,11,0.25);border-radius:8px;padding:0.5rem 0.8rem;display:flex;align-items:center;gap:0.7rem;">
-        <span style="color:#FCD34D;font-weight:700;flex:0 0 auto;">D</span>
-        <span style="color:#E2E8F0;">Consultores y evaluadores independientes — ampliar portafolio metodológico</span>
+      <div style="background:rgba(245,158,11,0.07);border:1px solid rgba(245,158,11,0.22);border-radius:7px;padding:0.4rem 0.7rem;display:grid;grid-template-columns:1.6fr 1fr;gap:0.5rem;align-items:center;">
+        <span style="color:#E2E8F0;">🔬 Investigador / evaluador</span>
+        <span style="color:#FCD34D;font-weight:600;font-size:0.9em;">M3 → M4 → M5</span>
       </div>
-      <div style="background:rgba(245,158,11,0.08);border:1px solid rgba(245,158,11,0.25);border-radius:8px;padding:0.5rem 0.8rem;display:flex;align-items:center;gap:0.7rem;">
-        <span style="color:#FCD34D;font-weight:700;flex:0 0 auto;">E</span>
-        <span style="color:#E2E8F0;">Equipos de M&E — fortalecer práctica con metodología verificada</span>
+      <div style="background:rgba(245,158,11,0.07);border:1px solid rgba(245,158,11,0.22);border-radius:7px;padding:0.4rem 0.7rem;display:grid;grid-template-columns:1.6fr 1fr;gap:0.5rem;align-items:center;">
+        <span style="color:#E2E8F0;">💼 Inversor de impacto</span>
+        <span style="color:#FCD34D;font-weight:600;font-size:0.9em;">M3 → M7</span>
       </div>
-      <div style="background:rgba(245,158,11,0.08);border:1px solid rgba(245,158,11,0.25);border-radius:8px;padding:0.5rem 0.8rem;display:flex;align-items:center;gap:0.7rem;">
-        <span style="color:#FCD34D;font-weight:700;flex:0 0 auto;">F</span>
-        <span style="color:#E2E8F0;">Estudiantes e investigadores — base metodológica en valor social</span>
+      <div style="background:rgba(245,158,11,0.07);border:1px solid rgba(245,158,11,0.22);border-radius:7px;padding:0.4rem 0.7rem;display:grid;grid-template-columns:1.6fr 1fr;gap:0.5rem;align-items:center;">
+        <span style="color:#E2E8F0;">🏛 Entidad pública / multilateral</span>
+        <span style="color:#FCD34D;font-weight:600;font-size:0.9em;">M1 → completa</span>
       </div>
     </div>
   </div>
 
-  <div style="display:flex;flex-direction:column;gap:0.7rem;">
-    <div style="background:rgba(15,23,42,0.8);border:1px solid rgba(245,158,11,0.2);border-radius:10px;padding:1rem;">
-      <div style="font-weight:700;color:#FCD34D;margin-bottom:0.4em;">7 módulos · 84 horas</div>
-      <div style="color:#94A3B8;line-height:1.6;">
-        M1 Fundamentos del Valor Social<br>
-        M2 Teoría del Cambio<br>
-        M3 Sistemas de Indicadores<br>
-        M4 Métodos de Monetización<br>
-        M5 Evaluación Causal<br>
-        M6 Informe y Comunicación<br>
-        M7 Gestión Adaptativa
+  <div>
+    <div style="font-weight:700;color:#FCD34D;margin-bottom:0.55rem;font-size:0.82em;text-transform:uppercase;letter-spacing:0.08em;">7 entregables — uno por módulo</div>
+    <div style="display:flex;flex-direction:column;gap:0.32rem;">
+      <div style="background:rgba(15,23,42,0.7);border:1px solid rgba(245,158,11,0.18);border-radius:7px;padding:0.4rem 0.7rem;display:grid;grid-template-columns:auto 1fr;gap:0.5rem;align-items:start;">
+        <span style="color:#FCD34D;font-weight:700;font-size:0.9em;min-width:2.2em;">M1</span>
+        <span style="color:#CBD5E1;">Teoría del Cambio validada con supuestos críticos identificados</span>
       </div>
-    </div>
-    <div style="display:grid;grid-template-columns:1fr 1fr;gap:0.5rem;">
-      <div style="background:rgba(245,158,11,0.08);border:1px solid rgba(245,158,11,0.2);border-radius:8px;padding:0.5rem;text-align:center;">
-        <div style="color:#FCD34D;font-weight:700;">Inhouse</div>
-        <div style="color:#64748B;font-size:0.9em;">para su equipo</div>
+      <div style="background:rgba(15,23,42,0.7);border:1px solid rgba(245,158,11,0.18);border-radius:7px;padding:0.4rem 0.7rem;display:grid;grid-template-columns:auto 1fr;gap:0.5rem;align-items:start;">
+        <span style="color:#FCD34D;font-weight:700;font-size:0.9em;min-width:2.2em;">M2</span>
+        <span style="color:#CBD5E1;">Sistema MEL operativo con indicadores SMART y ciclo de aprendizaje</span>
       </div>
-      <div style="background:rgba(245,158,11,0.08);border:1px solid rgba(245,158,11,0.2);border-radius:8px;padding:0.5rem;text-align:center;">
-        <div style="color:#FCD34D;font-weight:700;">Virtual</div>
-        <div style="color:#64748B;font-size:0.9em;">abierto / acompañado</div>
+      <div style="background:rgba(15,23,42,0.7);border:1px solid rgba(245,158,11,0.18);border-radius:7px;padding:0.4rem 0.7rem;display:grid;grid-template-columns:auto 1fr;gap:0.5rem;align-items:start;">
+        <span style="color:#FCD34D;font-weight:700;font-size:0.9em;min-width:2.2em;">M3</span>
+        <span style="color:#CBD5E1;">SROI completo: Value Map, ratio y análisis de sensibilidad</span>
+      </div>
+      <div style="background:rgba(15,23,42,0.7);border:1px solid rgba(245,158,11,0.18);border-radius:7px;padding:0.4rem 0.7rem;display:grid;grid-template-columns:auto 1fr;gap:0.5rem;align-items:start;">
+        <span style="color:#FCD34D;font-weight:700;font-size:0.9em;min-width:2.2em;">M4</span>
+        <span style="color:#CBD5E1;">Diseño de evaluación causal con estrategia de identificación</span>
+      </div>
+      <div style="background:rgba(15,23,42,0.7);border:1px solid rgba(245,158,11,0.18);border-radius:7px;padding:0.4rem 0.7rem;display:grid;grid-template-columns:auto 1fr;gap:0.5rem;align-items:start;">
+        <span style="color:#FCD34D;font-weight:700;font-size:0.9em;min-width:2.2em;">M5</span>
+        <span style="color:#CBD5E1;">Síntesis de evidencia del sector con protocolo PRISMA</span>
+      </div>
+      <div style="background:rgba(15,23,42,0.7);border:1px solid rgba(245,158,11,0.18);border-radius:7px;padding:0.4rem 0.7rem;display:grid;grid-template-columns:auto 1fr;gap:0.5rem;align-items:start;">
+        <span style="color:#FCD34D;font-weight:700;font-size:0.9em;min-width:2.2em;">M6</span>
+        <span style="color:#CBD5E1;">Reporte de impacto alineado con GRI / SASB / SVI</span>
+      </div>
+      <div style="background:rgba(15,23,42,0.7);border:1px solid rgba(245,158,11,0.18);border-radius:7px;padding:0.4rem 0.7rem;display:grid;grid-template-columns:auto 1fr;gap:0.5rem;align-items:start;">
+        <span style="color:#FCD34D;font-weight:700;font-size:0.9em;min-width:2.2em;">M7</span>
+        <span style="color:#CBD5E1;">Caso de inversión con SROI + eligibility checklist RBF/SIB</span>
       </div>
     </div>
   </div>
@@ -363,7 +481,7 @@ Capacidad instalada en su organización — certificación iMEL® · 7 módulos 
 ```
 
 ::: notes
-La formación no es un curso teórico. Cada módulo termina en un entregable aplicado al programa real del participante. Al finalizar, el equipo tiene capacidad instalada — no solo conocimiento, sino un sistema de medición funcionando.
+La formación está diseñada para que el equipo no necesite contratar externamente lo que aprendió a hacer internamente. Cada ruta está calibrada al punto de entrada del participante — no es una ruta única que todos tienen que recorrer completa.
 :::
 
 ---
@@ -413,6 +531,98 @@ Herramientas · Agentes IA · Una definición de éxito clara
 
 ::: notes
 El servicio de Medición y Valoración no comienza con el cálculo del ratio SROI. Comienza con el diagnóstico de la Teoría del Cambio y el sistema de indicadores. Solo cuando tenemos claridad sobre qué cambios estamos midiendo y por qué ocurren, pasamos a la valoración monetaria. Los agentes IA aceleran cada etapa sin reemplazar el juicio del equipo.
+:::
+
+---
+
+## S02 — IMToC: índice de madurez de la Teoría del Cambio {background-color="#0F172A"}
+
+::: seccion-label
+Nuestro instrumento de calificación · 10 dimensiones · 3 dominios · N1–N5 · corpus 200+ ToC
+:::
+
+```{=html}
+<div style="display:grid;grid-template-columns:1fr 1fr 1fr;gap:0.9rem;margin-top:0.8rem;font-size:0.67em;">
+
+  <div style="background:rgba(13,148,136,0.07);border:1px solid rgba(13,148,136,0.3);border-radius:10px;padding:0.9rem;">
+    <div style="font-weight:700;color:#5EEAD4;margin-bottom:0.6rem;font-size:0.85em;text-transform:uppercase;letter-spacing:0.08em;">Dominio A — Arquitectura causal <span style="color:#64748B;font-weight:400;">(máx 30 pts)</span></div>
+    <div style="display:flex;flex-direction:column;gap:0.35rem;">
+      <div style="background:rgba(15,23,42,0.6);border-radius:6px;padding:0.4rem 0.6rem;display:flex;justify-content:space-between;align-items:center;">
+        <span style="color:#E2E8F0;">A1. Cadena causal completa</span>
+        <span style="color:#5EEAD4;font-weight:700;">8.41 <span style="color:#64748B;font-weight:400;font-size:0.88em;">/10</span></span>
+      </div>
+      <div style="background:rgba(15,23,42,0.6);border-radius:6px;padding:0.4rem 0.6rem;display:flex;justify-content:space-between;align-items:center;">
+        <span style="color:#E2E8F0;">A2. Especificidad de outcomes</span>
+        <span style="color:#A7F3D0;font-weight:600;">—</span>
+      </div>
+      <div style="background:rgba(15,23,42,0.6);border-radius:6px;padding:0.4rem 0.6rem;display:flex;justify-content:space-between;align-items:center;">
+        <span style="color:#E2E8F0;">A3. Diferenciación por stakeholder</span>
+        <span style="color:#A7F3D0;font-weight:600;">—</span>
+      </div>
+    </div>
+    <div style="margin-top:0.6rem;font-size:0.85em;color:#64748B;font-style:italic;">Los programas documentan lo que hacen — pero raramente por qué funciona.</div>
+  </div>
+
+  <div style="background:rgba(59,130,246,0.07);border:1px solid rgba(59,130,246,0.3);border-radius:10px;padding:0.9rem;">
+    <div style="font-weight:700;color:#93C5FD;margin-bottom:0.6rem;font-size:0.85em;text-transform:uppercase;letter-spacing:0.08em;">Dominio B — Robustez epistémica <span style="color:#64748B;font-weight:400;">(máx 40 pts)</span></div>
+    <div style="display:flex;flex-direction:column;gap:0.35rem;">
+      <div style="background:rgba(15,23,42,0.6);border-radius:6px;padding:0.4rem 0.6rem;display:flex;justify-content:space-between;align-items:center;">
+        <span style="color:#E2E8F0;">B1. Supuestos documentados</span>
+        <span style="color:#F87171;font-weight:700;">1.63 <span style="color:#64748B;font-weight:400;font-size:0.88em;">/10</span></span>
+      </div>
+      <div style="background:rgba(15,23,42,0.6);border-radius:6px;padding:0.4rem 0.6rem;display:flex;justify-content:space-between;align-items:center;">
+        <span style="color:#E2E8F0;">B2. Base de evidencia</span>
+        <span style="color:#BFDBFE;font-weight:600;">—</span>
+      </div>
+      <div style="background:rgba(15,23,42,0.6);border-radius:6px;padding:0.4rem 0.6rem;display:flex;justify-content:space-between;align-items:center;">
+        <span style="color:#E2E8F0;">B3. Indicadores definidos</span>
+        <span style="color:#BFDBFE;font-weight:600;">—</span>
+      </div>
+      <div style="background:rgba(15,23,42,0.6);border-radius:6px;padding:0.4rem 0.6rem;display:flex;justify-content:space-between;align-items:center;">
+        <span style="color:#E2E8F0;">B4. Dimensión temporal</span>
+        <span style="color:#BFDBFE;font-weight:600;">—</span>
+      </div>
+    </div>
+    <div style="margin-top:0.6rem;font-size:0.85em;color:#64748B;font-style:italic;">B1 es la dimensión más débil del corpus global.</div>
+  </div>
+
+  <div style="background:rgba(124,58,237,0.07);border:1px solid rgba(124,58,237,0.3);border-radius:10px;padding:0.9rem;">
+    <div style="font-weight:700;color:#C4B5FD;margin-bottom:0.6rem;font-size:0.85em;text-transform:uppercase;letter-spacing:0.08em;">Dominio C — Completitud y uso <span style="color:#64748B;font-weight:400;">(máx 30 pts)</span></div>
+    <div style="display:flex;flex-direction:column;gap:0.35rem;">
+      <div style="background:rgba(15,23,42,0.6);border-radius:6px;padding:0.4rem 0.6rem;display:flex;justify-content:space-between;align-items:center;">
+        <span style="color:#E2E8F0;">C1. Involucramiento stakeholders</span>
+        <span style="color:#DDD6FE;font-weight:600;">—</span>
+      </div>
+      <div style="background:rgba(15,23,42,0.6);border-radius:6px;padding:0.4rem 0.6rem;display:flex;justify-content:space-between;align-items:center;">
+        <span style="color:#E2E8F0;">C2. Outcomes negativos / riesgos</span>
+        <span style="color:#DDD6FE;font-weight:600;">—</span>
+      </div>
+      <div style="background:rgba(15,23,42,0.6);border-radius:6px;padding:0.4rem 0.6rem;display:flex;justify-content:space-between;align-items:center;">
+        <span style="color:#E2E8F0;">C3. Claridad y comunicación</span>
+        <span style="color:#DDD6FE;font-weight:600;">—</span>
+      </div>
+    </div>
+
+    <div style="margin-top:0.9rem;background:rgba(15,23,42,0.7);border-radius:8px;padding:0.6rem;">
+      <div style="font-size:0.88em;font-weight:700;color:#A7F3D0;margin-bottom:0.3em;">Resultados corpus 78 ToC</div>
+      <div style="display:flex;justify-content:space-between;color:#CBD5E1;font-size:0.88em;padding:0.15rem 0;"><span>Promedio global</span><span style="color:#5EEAD4;font-weight:700;">38.8/100 (N2–N3)</span></div>
+      <div style="display:flex;justify-content:space-between;color:#CBD5E1;font-size:0.88em;padding:0.15rem 0;"><span>Documentos en N5</span><span style="color:#F87171;font-weight:700;">0 de 78</span></div>
+      <div style="display:flex;justify-content:space-between;color:#CBD5E1;font-size:0.88em;padding:0.15rem 0;"><span>Top score del corpus</span><span style="color:#FCD34D;font-weight:700;">62.7 pts (N4)</span></div>
+    </div>
+  </div>
+
+</div>
+<div style="margin-top:0.7rem;display:grid;grid-template-columns:repeat(5,1fr);gap:0.5rem;font-size:0.63em;text-align:center;">
+  <div style="background:rgba(239,68,68,0.1);border:1px solid rgba(239,68,68,0.3);border-radius:6px;padding:0.4rem;"><div style="color:#F87171;font-weight:700;">N1</div><div style="color:#64748B;">Proto-ToC<br>0–20</div></div>
+  <div style="background:rgba(245,158,11,0.1);border:1px solid rgba(245,158,11,0.3);border-radius:6px;padding:0.4rem;"><div style="color:#FCD34D;font-weight:700;">N2</div><div style="color:#64748B;">Básica<br>21–40</div></div>
+  <div style="background:rgba(59,130,246,0.1);border:1px solid rgba(59,130,246,0.3);border-radius:6px;padding:0.4rem;border-width:2px;"><div style="color:#93C5FD;font-weight:700;">N3 ←</div><div style="color:#64748B;">Desarrollada<br>41–60</div></div>
+  <div style="background:rgba(13,148,136,0.1);border:1px solid rgba(13,148,136,0.3);border-radius:6px;padding:0.4rem;"><div style="color:#5EEAD4;font-weight:700;">N4</div><div style="color:#64748B;">Robusta<br>61–80</div></div>
+  <div style="background:rgba(124,58,237,0.1);border:1px solid rgba(124,58,237,0.3);border-radius:6px;padding:0.4rem;"><div style="color:#C4B5FD;font-weight:700;">N5</div><div style="color:#64748B;">Excelencia<br>81–100</div></div>
+</div>
+```
+
+::: notes
+El IMToC no es solo un diagnóstico puntual — es el lenguaje común que usamos con nuestros aliados para hablar de madurez metodológica. Cuando un equipo dice "queremos llegar a N4", saben exactamente qué dimensiones necesitan fortalecer y qué inversión metodológica eso implica.
 :::
 
 ---
@@ -817,189 +1027,6 @@ Los agentes no reemplazan el juicio experto — lo amplifican. Cada análisis es
 :::
 
 ---
-
-## Los 7 entregables: no ejercicios, productos organizacionales {background-color="#0F172A"}
-
-::: seccion-label
-Filosofía pedagógica — aprendemos haciendo con los programas reales de su organización
-:::
-
-<br>
-
-::: entregables-grid
-
-::: entregable-card
-::: entregable-num
-M1 — Introductorio
-:::
-::: entregable-name
-Teoría de Cambio validada con supuestos críticos identificados
-:::
-:::
-
-::: entregable-card
-::: entregable-num
-M2 — MEL
-:::
-::: entregable-name
-Sistema MEL operativo con indicadores SMART y ciclo de aprendizaje
-:::
-:::
-
-::: entregable-card
-::: entregable-num
-M3 — Valoración
-:::
-::: entregable-name
-SROI completo con Value Map, ratio y análisis de sensibilidad
-:::
-:::
-
-::: entregable-card
-::: entregable-num
-M4 — Evaluación
-:::
-::: entregable-name
-Diseño de evaluación de impacto con estrategia de identificación causal
-:::
-:::
-
-::: entregable-card
-::: entregable-num
-M5 — Avanzado
-:::
-::: entregable-name
-Síntesis de evidencia del sector con protocolo PRISMA
-:::
-:::
-
-::: entregable-card
-::: entregable-num
-M6 — Comunicación
-:::
-::: entregable-name
-Reporte de impacto alineado con GRI / SASB / SVI
-:::
-:::
-
-::: entregable-card
-::: entregable-num
-M7 — Financiamiento
-:::
-::: entregable-name
-Caso de inversión estructurado con SROI y eligibility checklist
-:::
-:::
-
-:::
-
-::: callout-teal
-**La diferencia clave:** Al finalizar, los equipos **no necesitan contratar externamente** lo que aprendieron a hacer internamente. El objetivo no es la dependencia — es la autonomía metodológica.
-:::
-
----
-
-## Rutas de entrada según su perfil {background-color="#0F172A"}
-
-::: seccion-label
-6 trayectorias — desde coordinadores de programa hasta inversionistas de impacto
-:::
-
-<br>
-
-::: perfiles-grid
-
-::: {.perfil-card .p1}
-::: perfil-icon
-📋
-:::
-::: perfil-name
-Coordinador de Programa
-:::
-::: perfil-desc
-Necesita documentar, medir y comunicar resultados a financiadores y juntas.
-:::
-::: perfil-modulos
-Ruta: M1 → M2 → M6
-:::
-:::
-
-::: {.perfil-card .p2}
-::: perfil-icon
-📊
-:::
-::: perfil-name
-Equipo MEL / Monitoreo
-:::
-::: perfil-desc
-Quiere fortalecer la rigurosidad metodológica y conectar MEL con decisiones.
-:::
-::: perfil-modulos
-Ruta: M2 → M3 → M4
-:::
-:::
-
-::: {.perfil-card .p3}
-::: perfil-icon
-🌿
-:::
-::: perfil-name
-Área de Sostenibilidad / RSE
-:::
-::: perfil-desc
-Necesita demostrar valor compartido con estándares internacionales (GRI, SROI).
-:::
-::: perfil-modulos
-Ruta: M1 → M3 → M6
-:::
-:::
-
-::: {.perfil-card .p4}
-::: perfil-icon
-🔬
-:::
-::: perfil-name
-Investigador / Académico
-:::
-::: perfil-desc
-Quiere conectar la investigación con la práctica y publicar resultados de impacto.
-:::
-::: perfil-modulos
-Ruta: M4 → M5 → M3
-:::
-:::
-
-::: {.perfil-card .p5}
-::: perfil-icon
-💼
-:::
-::: perfil-name
-Inversionista de Impacto
-:::
-::: perfil-desc
-Evalúa portafolios sociales y necesita métricas verificables para decisiones de inversión.
-:::
-::: perfil-modulos
-Ruta: M3 → M7 → M5
-:::
-:::
-
-::: {.perfil-card .p6}
-::: perfil-icon
-🏛
-:::
-::: perfil-name
-Sector Público
-:::
-::: perfil-desc
-Necesita evidencia para política pública, rendición de cuentas y optimización de gasto.
-:::
-::: perfil-modulos
-Ruta: M1 → M4 → M6 → M7
-:::
-:::
-
-:::
 
 ---
 
