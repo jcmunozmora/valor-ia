@@ -551,13 +551,38 @@ Herramientas · Agentes IA · Una definición de éxito clara
 :::
 
 ```{=html}
-<div style="display:grid;grid-template-columns:1fr 1fr;gap:1.2rem;margin-top:0.9rem;font-size:0.69em;">
+<!-- Índice de Madurez de Impacto — franja N1→N5 -->
+<div style="display:grid;grid-template-columns:repeat(5,1fr);gap:0.4rem;margin-top:0.7rem;margin-bottom:0.8rem;">
+  <div style="background:rgba(239,68,68,0.12);border:1px solid rgba(239,68,68,0.3);border-radius:8px;padding:0.5rem 0.4rem;text-align:center;">
+    <div style="font-size:0.5em;font-weight:800;color:#F87171;letter-spacing:0.1em;">N1</div>
+    <div style="font-size:0.48em;color:#94A3B8;margin-top:0.15em;">Proto-ToC<br>Exploración</div>
+  </div>
+  <div style="background:rgba(245,158,11,0.1);border:1px solid rgba(245,158,11,0.3);border-radius:8px;padding:0.5rem 0.4rem;text-align:center;">
+    <div style="font-size:0.5em;font-weight:800;color:#FCD34D;letter-spacing:0.1em;">N2</div>
+    <div style="font-size:0.48em;color:#94A3B8;margin-top:0.15em;">Básica<br>Documentada</div>
+  </div>
+  <div style="background:rgba(59,130,246,0.1);border:1px solid rgba(59,130,246,0.3);border-radius:8px;padding:0.5rem 0.4rem;text-align:center;">
+    <div style="font-size:0.5em;font-weight:800;color:#93C5FD;letter-spacing:0.1em;">N3</div>
+    <div style="font-size:0.48em;color:#94A3B8;margin-top:0.15em;">Desarrollada<br>Estructurada</div>
+  </div>
+  <div style="background:rgba(13,148,136,0.1);border:1px solid rgba(13,148,136,0.4);border-radius:8px;padding:0.5rem 0.4rem;text-align:center;">
+    <div style="font-size:0.5em;font-weight:800;color:#5EEAD4;letter-spacing:0.1em;">N4</div>
+    <div style="font-size:0.48em;color:#94A3B8;margin-top:0.15em;">Robusta<br>Demostrada</div>
+  </div>
+  <div style="background:rgba(124,58,237,0.12);border:2px solid rgba(124,58,237,0.5);border-radius:8px;padding:0.5rem 0.4rem;text-align:center;">
+    <div style="font-size:0.5em;font-weight:800;color:#C4B5FD;letter-spacing:0.1em;">N5</div>
+    <div style="font-size:0.48em;color:#DDD6FE;margin-top:0.15em;">Excelencia<br>Verificada ★</div>
+  </div>
+</div>
+<div style="font-size:0.52em;color:#64748B;text-align:center;margin-bottom:0.7rem;font-style:italic;">Índice de Madurez de Impacto (iMEL®) · 10 dimensiones · 3 dominios · IMToC + evaluación causal + valoración monetaria</div>
+
+<div style="display:grid;grid-template-columns:1fr 1fr;gap:1.2rem;font-size:0.69em;">
 
   <div>
     <div style="font-weight:700;color:#5EEAD4;margin-bottom:0.6rem;font-size:0.82em;text-transform:uppercase;letter-spacing:0.08em;">Herramientas de diagnóstico y ToC</div>
     <div style="display:flex;flex-direction:column;gap:0.35rem;margin-bottom:0.9rem;">
       <div style="background:rgba(13,148,136,0.08);border:1px solid rgba(13,148,136,0.25);border-radius:7px;padding:0.45rem 0.7rem;color:#E2E8F0;">🗺 Repositorio IMToC — 200+ ToC calificadas · 29 sectores</div>
-      <div style="background:rgba(13,148,136,0.08);border:1px solid rgba(13,148,136,0.25);border-radius:7px;padding:0.45rem 0.7rem;color:#E2E8F0;">🎯 Diagnóstico de Madurez iMEL® — N1 a N5</div>
+      <div style="background:rgba(13,148,136,0.08);border:1px solid rgba(13,148,136,0.25);border-radius:7px;padding:0.45rem 0.7rem;color:#E2E8F0;">🎯 Diagnóstico de Madurez iMEL® — N1 a N5 · 10 dimensiones</div>
       <div style="background:rgba(13,148,136,0.08);border:1px solid rgba(13,148,136,0.25);border-radius:7px;padding:0.45rem 0.7rem;color:#E2E8F0;">📏 Banco de Indicadores — 105 indicadores P/R/I</div>
     </div>
     <div style="font-weight:700;color:#5EEAD4;margin-bottom:0.6rem;font-size:0.82em;text-transform:uppercase;letter-spacing:0.08em;">Medición y Valoración</div>
